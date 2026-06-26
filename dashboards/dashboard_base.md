@@ -68,6 +68,58 @@
 
 ---
 
+## Fase 4 — Expansión a Estudiantes *(Meses 7-9)*
+
+| # | Hito | Estado | Entregable |
+|---|---|---|---|
+| 4.1 | Diseño de SOUL.md estudiantil | 🔲 | Perfiles por carrera (mínimo 3) |
+| 4.2 | Piloto con 30-60 estudiantes | 🔲 | Agentes funcionando en Google Workspace |
+| 4.3 | Medición de impacto académico | 🔲 | Pre-post: promedio, autorregulación |
+| 4.4 | Redacción manuscrito para conferencia | 🔲 | Paper enviado a EDULEARN o LACLO |
+
+**Avance Fase 4:** 0 de 4 = 0%  
+**Depende de:** Integración Google Workspace completada + Fase 3 estable
+
+---
+
+## 🔬 Investigación Aplicada (transversal meses 1-9)
+
+**Documento base:** `Protocolo_Investigacion_AI_Fluentcy.md`
+
+| # | Hito | Estado | Entregable |
+|---|---|---|---|
+| I.1 | Protocolo final + revisión literatura | 🔲 | Documento v1.0 (Jul 2026) |
+| I.2 | Aprobación comité ética UJMD | 🔲 | Carta de aprobación (Ago 2026) |
+| I.3 | Pre-test Champions + equipo | 🔲 | Datos baseline (Ago 2026) |
+| I.4 | Validación instrumento estudiantes | 🔲 | Alfa de Cronbach ≥0.7 (Feb 2027) |
+| I.5 | Post-test equipo + análisis | 🔲 | Reporte intermedio (Mar 2027) |
+| I.6 | Manuscrito para revista Q1/Q2 | 🔲 | Paper enviado (Jun 2027) |
+
+**Avance Investigación:** 0 de 6 = 0%
+
+---
+
+## 🔧 Integración Google Workspace UJMD *(Agosto-Septiembre 2026)*
+
+**Objetivo:** Conectar dominio `ujmd.edu.sv` con Hermes Agent para habilitar L4+
+
+| # | Tarea | Estado | Responsable |
+|---|---|---|---|
+| GW.1 | Arquitectura de integración | 🔲 | Douglas |
+| GW.2 | Service account en GCP | 🔲 | Douglas + Patrick |
+| GW.3 | MCP server para Gmail | 🔲 | Douglas |
+| GW.4 | MCP server para Calendar | 🔲 | Douglas |
+| GW.5 | MCP server para Drive | 🔲 | Douglas + Mario |
+| GW.6 | Políticas de permisos por rol | 🔲 | Douglas |
+| GW.7 | Despliegue a Champions | 🔲 | Douglas + Champions |
+
+**Cronograma:**
+- Agosto 2026: GW.1-GW.3 (arquitectura + Gmail)
+- Septiembre 2026: GW.4-GW.6 (Calendar + Drive + permisos)
+- Octubre 2026: GW.7 (despliegue)
+
+---
+
 ## 📈 Cálculo de progreso global
 
 | Fase | Hitos | Completados | Peso |
@@ -75,8 +127,11 @@
 | Fase 0 | 4 | 1 (✅) + 0.4×1 (🟡) = 1.4 | ×1.0 |
 | Fase 1 | 4 | 0 | ×1.5 |
 | Fase 2 | 4 | 0 | ×1.0 |
-| Fase 3 | 4 | 0 | ×0.5 |
-| **TOTAL** | **16** | **1.4** | 1.4/16 ≈ 9% |
+| Fase 3 | 4 | 0 | ×0.8 |
+| Fase 4 | 4 | 0 | ×0.5 |
+| Investigación | 6 | 0 | ×1.2 |
+| Google Workspace | 7 | 0 | ×0.8 |
+| **TOTAL** | **33** | **1.4** | 1.4/33 ≈ 4% |
 
 > Fórmula: `(hitos ✅ × peso + 0.4 × hitos 🟡 × peso) / suma total ponderada × 100`
 

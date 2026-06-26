@@ -117,6 +117,19 @@ Fase 2 (Mes 2-3) → Champions L3→L5, resto L2-L4
 Fase 3 (Mes 4-6) → Todos L4-L5, Champions L5-L6
 ```
 
+### 4.4 Nueva fase: Estudiantes universitarios (Mes 7-9)
+
+**Contexto:** La UJMD vincula el trabajo de la Dirección con la formación estudiantil. AI Fluentcy se extiende a estudiantes para potenciar su gestión del aprendizaje.
+
+| Nivel | Aplicación estudiantil | Entregable |
+|-------|------------------------|------------|
+| L0-L1 | Uso básico de ChatGPT/Claude para resumir lecturas y organizar apuntes | Guías de "primeros pasos" |
+| L2-L3 | Agentes con memoria que recuerdan cursos, proyectos, estilos de aprendizaje | SOUL.md estudiantil (por carrera) |
+| L4-L5 | MCP conectando Google Classroom, Drive, bibliotecas digitales | Skills para gestión de aprendizaje |
+| L6-L9 | Agentes autónomos que organizan cronogramas, generan resúmenes, preparan exámenes | Agentes personalizados por materia |
+
+**Investigación asociada:** Esta fase es el caso de estudio para el protocolo de investigación aplicada (ver `Protocolo_Investigacion_AI_Fluentcy.md`).
+
 ---
 
 ## 5. Integración con tus herramientas actuales
@@ -157,6 +170,7 @@ Combinando las métricas cualitativas del Roadmap con las cuantitativas del Manu
 | **Fase 1** | 3 agentes funcionales, 3 mini-guías | Reducción ≥20% en tiempo de 1 tarea recurrente por agente | Antes/después medido en Flow Time |
 | **Fase 2** | Equipo usando IA en ≥2 tareas reales | Flow Efficiency de Defect sube 10%+ (IA acelera triage) | director-flow-report comparativo |
 | **Fase 3** | Catálogo de agentes internos operativo | Flow Distribution — Debt <15% (automatización con IA) | Reporte trimestral a Rectoría |
+| **Fase 4** | Estudiantes universitarios usando agentes | Mejora en promedio académico (≥0.3 puntos), autorregulación | Protocolo de investigación (pre-post) |
 
 ### Métricas de "Combustible" (del Manual)
 
@@ -231,11 +245,18 @@ Tomando los "3 próximos pasos" del Roadmap y enriqueciéndolos con el Manual:
                     │  Nivel target: L2→L5         │
                     │  Rol: usuario productivo     │
                     └──────────────┬──────────────┘
-                                   │ estandarización
+                                   │ institucionalización
                     ┌──────────────▼──────────────┐
                     │  INSTITUCIONALIZACIÓN (Mes 4-6)│
                     │  Estándar UJMD-IT: L5 mínimo │
                     │  Métricas Flow + AI KPIs     │
+                    └──────────────┬──────────────┘
+                                   │ expansión educativa
+                    ┌──────────────▼──────────────┐
+                    │  ESTUDIANTES UJMD (Mes 7-9)   │
+                    │  Nivel target: L0→L3         │
+                    │  Rol: aprendizaje asistido   │
+                    │  + Investigación aplicada    │
                     └─────────────────────────────┘
 
 STACK TECNOLÓGICO:
@@ -244,6 +265,7 @@ STACK TECNOLÓGICO:
 │  + Claude API (motor, interchangeable)           │
 │  + Ollama local (fallback offline)               │
 │  + MCP servers (Slack, Drive, ERPNext, Notion)   │
+│  + Google Workspace UJMD (AGOSTO 2026) ← NUEVO   │
 │  + Skills/Playbooks (memoria procedural)         │
 │  + Repo mihermes (distribución versionada)       │
 └─────────────────────────────────────────────────┘
@@ -251,7 +273,76 @@ STACK TECNOLÓGICO:
 
 ---
 
-## 10. Conclusión: El efecto compuesto aplicado a tu rol
+## 10. Tarea técnica prioritaria: Integración Google Workspace UJMD
+
+**Objetivo:** Conectar el dominio institucional `ujmd.edu.sv` (Google Workspace) con Hermes Agent para habilitar capacidades L3-L5 full-stack.
+
+**Servicios a integrar:**
+1. **Gmail** — Lectura/escritura de correos con validación humana
+2. **Calendar** — Gestión de eventos, recordatorios automáticos
+3. **Drive** — Indexación y lectura de documentos compartidos
+4. **Meet** — Integración con agenda de reuniones
+5. **Contactos** — Búsqueda y autocompletado
+
+**Componentes técnicos:**
+- **MCP server para Google Workspace** (API oficial de Google)
+- **Service account** en Google Cloud Platform para el dominio UJMD
+- **OAuth 2.0** con restricción al dominio `ujmd.edu.sv`
+- **Políticas de permisos** por rol (Champions vs. equipo vs. estudiantes)
+
+**Cronograma:**
+- **Agosto 2026:** Arquitectura + service account GCP
+- **Septiembre 2026:** MCP server piloto + primeras 3 integraciones (Gmail, Calendar, Drive)
+- **Octubre 2026:** Despliegue a Champions + SOUL.md actualizado
+
+**Riesgos:**
+- Seguridad: el service account debe tener **principio de mínimo privilegio**
+- Cumplimiento: revisar con legal UJMD el tratamiento de datos
+- Dependencia: plan B si Google cambia API o precios
+
+**Entregables:**
+1. Documento de arquitectura de integración (`integracion_google_workspace.md`)
+2. Service account configurado en GCP
+3. 3-5 MCP skills básicos funcionando
+4. SOUL.md con configuración de Google Workspace
+5. Guía de setup para nuevos miembros
+
+**Vinculación con investigación:** Esta integración es **insumo metodológico** para el protocolo de investigación aplicada (ver `Protocolo_Investigacion_AI_Fluentcy.md`). Sin Google Workspace, no se pueden medir las capacidades L4+ del modelo Gorsht en contexto real.
+
+---
+
+## 11. Dimensión de investigación aplicada
+
+**Documento base:** `Protocolo_Investigacion_AI_Fluentcy.md`
+
+**Objetivo:** Convertir el piloto en un estudio longitudinal publicable en revistas internacionales indexadas (Scopus, WoS).
+
+**Líneas de investigación:**
+1. **AI Fluentcy en equipos técnicos** — Progresión L0-L9 y correlación con métricas operativas
+2. **AI Fluentcy en estudiantes** — Impacto en gestión del aprendizaje y rendimiento académico
+3. **Métricas Flow + IA** — Relacionar adopción de agentes con mejora en Flow Efficiency
+
+**Revistas objetivo:**
+- **Tier 1 (Q1):** Computers & Education (Elsevier), The Internet and Higher Education
+- **Tier 2 (Q2):** Education and Information Technologies (Springer)
+- **Tier 3 (regionales):** RIES, RELATEC, EKS (Scopus)
+
+**Hitos de investigación:**
+- **Jul 2026:** Protocolo final + revisión de literatura
+- **Ago 2026:** Aprobación comité de ética UJMD + pre-test Champions
+- **Sep 2026:** Integración Google Workspace (necesaria para medición)
+- **Mar 2027:** Post-test equipo + redacción primer manuscrito
+- **Jun 2027:** Envío de manuscrito a revista Q1/Q2
+
+**Contribuciones esperadas:**
+- Primer estudio longitudinal del modelo Gorsht en LATAM
+- Instrumento validado de AI Literacy técnica
+- Evidencia empírica de IA en TI universitario latinoamericano
+- Modelo replicable para otras universidades de la región
+
+---
+
+## 12. Conclusión: El efecto compuesto aplicado a tu rol
 
 Tu ventaja como Director no es que sepas más IA que tu equipo — es que **diseñas la arquitectura del sistema** que permite que el equipo lo use productivamente. Esta alineación convierte:
 
