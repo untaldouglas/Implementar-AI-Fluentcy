@@ -1,1 +1,162 @@
-/.DS_Store
+# macOS
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes
+._*
+
+# Aplicaciones macOS
+.localized
+.fseventsd/
+
+# Temporal y backup
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Editores y IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Datos sensibles y personales (NO compartir)
+**/*respuestas*.csv
+**/*respuestas*.xlsx
+**/*baseline*.csv
+**/*baseline*.xlsx
+**/datos_personales/
+**/correspondencia_privada/
+**/contratos_personales/
+**/.env
+**/.env.local
+**/credentials.json
+**/service_account*.json
+**/*.key
+**/*.pem
+
+# Configuración específica de Hermes (NO versionar)
+**/.hermes/
+**/hermes_config/.env
+**/hermes_config/memories/*.log
+**/hermes_config/cache/
+**/hermes_config/logs/
+
+# Archivos temporales de Google/Apps Script
+*.gs.json
+*.apps_script.json
+
+# Logs y debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds y compilados
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# Dependencias
+node_modules/
+.env/
+.venv/
+venv/
+env/
+
+# Base de datos temporales
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Documentos temporales o personales
+**/borradores/
+**/temp/
+**/notas_personales/
+
+# Mantener esta estructura de ejemplo
+!.gitkeep
+!*.example
+
+# ============================================================
+# ESPECÍFICOS DEL PROYECTO AI FLUENCY UJMD
+# ============================================================
+
+# Datos de participantes del piloto (respuestas reales al cuestionario)
+# El CSV plantilla (Plantilla_*.csv) SÍ se comparte; las respuestas NO
+**/respuestas_piloto/
+**/respuestas_consolidadas*.csv
+**/respuestas_consolidadas*.xlsx
+**/respuestas_formulario*.csv
+**/respuestas_formulario*.xlsx
+
+# Directorios de datos del piloto (si se crean)
+**/datos_piloto/
+**/evaluaciones/
+**/scores_participantes*
+
+# Correos sensibles, actas firmadas con datos personales
+**/actas_firmadas/
+**/firma_digital/*.pdf
+**/confirmaciones_champions/
+
+# Archivos de sesiones privadas de Hermes (pueden contener memoria sensible)
+**/.hermes/sessions/
+**/.hermes/state.db
+**/.hermes/state.db-*
+**/.hermes/response_store.db
+**/.hermes/kanban.db
+**/.hermes/kanban.db-*
+**/.hermes/*.lock
+**/.hermes/auth.json
+**/.hermes/interrupt_debug.log
+
+# Keys, tokens y configuración Hermes local
+**/.hermes/.env
+**/.hermes/config.yaml
+**/.hermes/config.yaml.bak.*
+**/.hermes/*_cache.json
+**/.hermes/models_*_cache.json
+**/.hermes/provider_models_cache.json
+**/.hermes/ollama_*_cache.json
+**/.hermes/context_length_cache.yaml
+
+# Capturas y pantallas que puedan contener datos sensibles
+**/screenshots/
+**/capturas/
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+
+# Documentos temporales de Google Forms
+**/*.draft
+**/borradores_form/
+
+# Audio/video de sesiones (privacidad)
+**/audio_sesiones/
+**/video_sesiones/
+*.mp3
+*.mp4
+*.m4a
+*.wav
+
+# Archivos de cron job ejecutados (pueden contener outputs sensibles)
+**/cron_logs/
+**/cron_outputs/
+
+# Notas personales del Douglas sobre el piloto
+**/notas_douglas/
+**/diario_piloto/
