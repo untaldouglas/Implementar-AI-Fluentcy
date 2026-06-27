@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modelo de Conducción AI — Bienvenida</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0a0e1a;
+      --surface:   #111827;
+      --border:    #1f2937;
+      --text:      #f1f5f9;
+      --muted:     #94a3b8;
+      --accent:    #6366f1;
+      --accent2:   #818cf8;
+      --brown:     #92400e;
+      --green:     #15803d;
+      --blue:      #1d4ed8;
+      --purple:    #7c3aed;
+      --gold:      #b45309;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2rem;
+      background: rgba(10,14,26,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo { font-size: .85rem; color: var(--muted); letter-spacing: .05em; }
+    .nav-logo span { color: var(--accent2); font-weight: 600; }
+    .nav-cta {
+      background: var(--accent);
+      color: #fff;
+      border: none; border-radius: 6px;
+      padding: .45rem 1.1rem;
+      font-size: .85rem; font-weight: 600;
+      cursor: pointer; text-decoration: none;
+      transition: background .2s;
+    }
+    .nav-cta:hover { background: var(--accent2); }
+
+    /* ── SECTIONS ── */
+    section { padding: 5rem 1.5rem; max-width: 860px; margin: 0 auto; }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: flex-start;
+      padding-top: 6rem;
+      max-width: 860px; margin: 0 auto;
+    }
+    .hero-tag {
+      display: inline-block;
+      background: rgba(99,102,241,.15);
+      border: 1px solid rgba(99,102,241,.3);
+      color: var(--accent2);
+      font-size: .75rem; font-weight: 600;
+      letter-spacing: .1em; text-transform: uppercase;
+      padding: .3rem .8rem; border-radius: 20px;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800; line-height: 1.15;
+      margin-bottom: 1.25rem;
+    }
+    h1 em { font-style: normal; color: var(--accent2); }
+    .hero-sub {
+      font-size: 1.1rem; color: var(--muted);
+      max-width: 600px; line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--accent); color: #fff;
+      padding: .8rem 1.8rem; border-radius: 8px;
+      font-weight: 700; font-size: 1rem;
+      text-decoration: none; border: none; cursor: pointer;
+      transition: background .2s, transform .1s;
+      display: inline-block;
+    }
+    .btn-primary:hover { background: var(--accent2); transform: translateY(-1px); }
+    .btn-ghost {
+      border: 1px solid var(--border); color: var(--muted);
+      padding: .8rem 1.8rem; border-radius: 8px;
+      font-weight: 600; font-size: 1rem;
+      text-decoration: none; cursor: pointer;
+      background: transparent;
+      transition: border-color .2s, color .2s;
+      display: inline-block;
+    }
+    .btn-ghost:hover { border-color: var(--accent2); color: var(--text); }
+
+    .hero-stats {
+      display: flex; gap: 2.5rem; margin-top: 3.5rem;
+      padding-top: 2rem; border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .stat-num { font-size: 1.8rem; font-weight: 800; color: var(--accent2); }
+    .stat-label { font-size: .8rem; color: var(--muted); margin-top: .2rem; }
+
+    /* ── SECTION TITLES ── */
+    .section-label {
+      font-size: .75rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--accent2); margin-bottom: .75rem;
+    }
+    h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; margin-bottom: 1rem; }
+    .section-sub { color: var(--muted); line-height: 1.7; margin-bottom: 2.5rem; }
+
+    /* ── PROBLEM ── */
+    .problem-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem; margin-top: 2rem;
+    }
+    .problem-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1.25rem;
+    }
+    .problem-card .icon { font-size: 1.4rem; margin-bottom: .6rem; }
+    .problem-card p { font-size: .9rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── LICENSES ── */
+    .licenses { display: flex; flex-direction: column; gap: .75rem; margin-top: 1.5rem; }
+    .license-row {
+      display: flex; align-items: flex-start; gap: 1rem;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1rem 1.25rem;
+      cursor: pointer; transition: border-color .2s;
+      position: relative; overflow: hidden;
+    }
+    .license-row:hover { border-color: var(--accent); }
+    .license-row .badge {
+      font-size: 1.5rem; flex-shrink: 0;
+      width: 2.5rem; text-align: center;
+    }
+    .license-row .info { flex: 1; }
+    .license-row .name {
+      font-weight: 700; font-size: .95rem;
+      display: flex; align-items: center; gap: .5rem;
+    }
+    .license-row .level-tag {
+      font-size: .7rem; background: rgba(99,102,241,.15);
+      color: var(--accent2); padding: .15rem .5rem;
+      border-radius: 20px; font-weight: 600;
+    }
+    .license-row .desc {
+      font-size: .85rem; color: var(--muted);
+      margin-top: .3rem; line-height: 1.5;
+    }
+    .license-row .criteria {
+      display: none; margin-top: .75rem;
+      font-size: .82rem; color: var(--muted);
+      border-top: 1px solid var(--border); padding-top: .75rem;
+    }
+    .license-row .criteria li { margin-left: 1rem; margin-top: .3rem; }
+    .license-row.open .criteria { display: block; }
+    .license-row .chevron {
+      color: var(--muted); font-size: .75rem;
+      margin-left: auto; transition: transform .2s; flex-shrink: 0;
+    }
+    .license-row.open .chevron { transform: rotate(90deg); }
+
+    /* ── HOW IT WORKS ── */
+    .steps { display: flex; flex-direction: column; gap: 0; margin-top: 1.5rem; }
+    .step {
+      display: flex; gap: 1.25rem; align-items: flex-start;
+      position: relative; padding-bottom: 2rem;
+    }
+    .step:last-child { padding-bottom: 0; }
+    .step-line {
+      position: absolute; left: 1.1rem; top: 2.5rem;
+      width: 2px; height: calc(100% - 1rem);
+      background: var(--border);
+    }
+    .step:last-child .step-line { display: none; }
+    .step-num {
+      width: 2.2rem; height: 2.2rem; border-radius: 50%;
+      background: var(--accent); color: #fff;
+      font-weight: 800; font-size: .85rem;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; position: relative; z-index: 1;
+    }
+    .step-content h3 { font-size: 1rem; font-weight: 700; margin-bottom: .3rem; }
+    .step-content p { font-size: .88rem; color: var(--muted); line-height: 1.6; }
+    .step-tag {
+      display: inline-block; margin-top: .5rem;
+      font-size: .72rem; color: var(--accent2);
+      background: rgba(99,102,241,.1);
+      padding: .2rem .6rem; border-radius: 4px;
+    }
+
+    /* ── BENEFITS ── */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem; margin-top: 1.5rem;
+    }
+    .benefit-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1.25rem;
+      transition: border-color .2s;
+    }
+    .benefit-card:hover { border-color: var(--accent); }
+    .benefit-card .icon { font-size: 1.6rem; margin-bottom: .75rem; }
+    .benefit-card h3 { font-size: .95rem; font-weight: 700; margin-bottom: .4rem; }
+    .benefit-card p { font-size: .85rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── FAQ ── */
+    .faqs { margin-top: 1.5rem; display: flex; flex-direction: column; gap: .5rem; }
+    .faq {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; overflow: hidden;
+    }
+    .faq-q {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1rem 1.25rem; cursor: pointer;
+      font-weight: 600; font-size: .9rem;
+      user-select: none;
+    }
+    .faq-q:hover { color: var(--accent2); }
+    .faq-a {
+      display: none; padding: 0 1.25rem 1rem;
+      font-size: .87rem; color: var(--muted); line-height: 1.7;
+    }
+    .faq.open .faq-a { display: block; }
+    .faq-arrow { font-size: .7rem; transition: transform .2s; }
+    .faq.open .faq-arrow { transform: rotate(90deg); }
+
+    /* ── CTA FINAL ── */
+    #cta {
+      text-align: center;
+      background: linear-gradient(135deg, rgba(99,102,241,.12), rgba(129,140,248,.05));
+      border: 1px solid rgba(99,102,241,.25);
+      border-radius: 16px;
+      padding: 4rem 2rem;
+      margin: 0 auto 5rem;
+      max-width: 860px;
+    }
+    #cta h2 { font-size: clamp(1.5rem,3vw,2rem); margin-bottom: 1rem; }
+    #cta p { color: var(--muted); margin-bottom: 2rem; line-height: 1.7; max-width: 520px; margin-inline: auto; margin-bottom: 2rem; }
+    .cta-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center; padding: 2rem;
+      font-size: .78rem; color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--accent2); text-decoration: none; }
+
+    /* ── PROGRESS BAR (onboarding steps) ── */
+    .onboarding-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 99;
+      background: var(--surface); border-top: 1px solid var(--border);
+      padding: .75rem 1.5rem;
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .ob-label { font-size: .78rem; color: var(--muted); white-space: nowrap; }
+    .ob-track { flex: 1; height: 4px; background: var(--border); border-radius: 2px; }
+    .ob-fill { height: 100%; border-radius: 2px; background: var(--accent); transition: width .4s; }
+    .ob-step { font-size: .78rem; color: var(--accent2); font-weight: 600; white-space: nowrap; }
+
+    /* ── UTILS ── */
+    .divider { border: none; border-top: 1px solid var(--border); margin: 0; }
+    @media (max-width: 600px) {
+      nav { padding: .75rem 1rem; }
+      section { padding: 4rem 1rem; }
+      #hero { padding-top: 5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Modelo de <span>Conducción AI</span></div>
+  <a href="#diagnostico" class="nav-cta">Iniciar diagnóstico →</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-tag">Modelo de Conducción AI · v2.0</div>
+  <h1>Aprende a conducir la IA.<br><em>Obtén tu licencia.</em></h1>
+  <p class="hero-sub">
+    Un sistema de certificación progresivo que mide y reconoce tu competencia real
+    con IA — desde el primer uso hasta operar agentes autónomos. Sin plataforma propietaria,
+    sin costo, basado en evidencia real de tu trabajo.
+  </p>
+  <div class="hero-actions">
+    <a href="#como-funciona" class="btn-primary">Cómo funciona →</a>
+    <a href="#licencias" class="btn-ghost">Ver las 5 licencias</a>
+  </div>
+  <div class="hero-stats">
+    <div>
+      <div class="stat-num">10</div>
+      <div class="stat-label">niveles de autonomía</div>
+    </div>
+    <div>
+      <div class="stat-num">5</div>
+      <div class="stat-label">licencias certificables</div>
+    </div>
+    <div>
+      <div class="stat-num">15'</div>
+      <div class="stat-label">para tu diagnóstico inicial</div>
+    </div>
+    <div>
+      <div class="stat-num">0</div>
+      <div class="stat-label">dependencias de plataforma</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- PROBLEMA -->
+<section id="problema">
+  <div class="section-label">El problema</div>
+  <h2>Todos dicen que usan IA.<br>Nadie sabe en qué nivel está.</h2>
+  <p class="section-sub">
+    El uso de IA en equipos técnicos es desigual, invisible e imposible de medir
+    con las herramientas actuales. El resultado: formación genérica, adopción lenta
+    y talento desperdiciado.
+  </p>
+  <div class="problem-grid">
+    <div class="problem-card">
+      <div class="icon">🌫️</div>
+      <p>No sabes en qué nivel está cada persona de tu equipo ni cómo ayudarle a avanzar.</p>
+    </div>
+    <div class="problem-card">
+      <div class="icon">📋</div>
+      <p>Los cursos genéricos de IA no se conectan con el trabajo real ni con el nivel actual de cada quien.</p>
+    </div>
+    <div class="problem-card">
+      <div class="icon">📉</div>
+      <p>Sin métricas claras, no puedes demostrar el impacto de la adopción de IA en tu organización.</p>
+    </div>
+    <div class="problem-card">
+      <div class="icon">🔒</div>
+      <p>Las plataformas de certificación existentes son caras, genéricas o dependientes de un solo proveedor.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- CÓMO FUNCIONA -->
+<section id="como-funciona">
+  <div class="section-label">Cómo funciona</div>
+  <h2>Del diagnóstico a la licencia<br>en 4 pasos.</h2>
+  <p class="section-sub">
+    El sistema opera con herramientas que ya tienes: un formulario, un repositorio Git
+    y un Instructor que valida la evidencia.
+  </p>
+  <div class="steps">
+    <div class="step">
+      <div class="step-line"></div>
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <h3>Diagnóstico inicial</h3>
+        <p>Completas el cuestionario de Conducción AI (15–20 min). El sistema estima tu nivel L0–L9 y tu licencia de entrada automáticamente.</p>
+        <span class="step-tag">→ Google Form · Apps Script</span>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-line"></div>
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <h3>Itinerario personalizado</h3>
+        <p>Según tu nivel y tus bloqueos, recibes un plan de avance ajustado a tu área: Skills a construir, casos de uso a documentar, automatizaciones a activar.</p>
+        <span class="step-tag">→ SOUL.md · Playbooks · Skills en Git</span>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-line"></div>
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <h3>Evidencia en repositorio</h3>
+        <p>Cada avance se documenta: casos de uso reales, Skills versionados, métricas de impacto. La evidencia vive en Git — auditable, compartible, permanente.</p>
+        <span class="step-tag">→ GitHub / GitLab · Markdown</span>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <h3>Validación y licencia</h3>
+        <p>Un Instructor revisa tu evidencia y firma el acta. Tu licencia queda registrada en el dashboard del equipo. La renovación es anual.</p>
+        <span class="step-tag">→ Acta de certificación · Dashboard</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- LICENCIAS -->
+<section id="licencias">
+  <div class="section-label">Las 5 licencias</div>
+  <h2>¿En qué nivel<br>estás conduciendo hoy?</h2>
+  <p class="section-sub">
+    Igual que manejar un vehículo, la competencia en IA se gana por etapas.
+    Haz clic en cada licencia para ver qué necesitas para obtenerla.
+  </p>
+  <div class="licenses">
+
+    <div class="license-row" onclick="toggleLicense(this)">
+      <div class="badge">🟤</div>
+      <div class="info">
+        <div class="name">Permiso de Aprendizaje <span class="level-tag">L0 – L1</span></div>
+        <div class="desc">Usas IA con ayuda o de manera esporádica. Estás en el asiento de atrás.</div>
+        <ul class="criteria">
+          <li>Completa el cuestionario baseline</li>
+          <li>Usa IA al menos 1 vez guiado por un Instructor</li>
+          <li>Conoce la diferencia entre los 5 niveles de licencia</li>
+        </ul>
+      </div>
+      <span class="chevron">▶</span>
+    </div>
+
+    <div class="license-row" onclick="toggleLicense(this)">
+      <div class="badge">🟢</div>
+      <div class="info">
+        <div class="name">Licencia Básica <span class="level-tag">L2 – L3</span></div>
+        <div class="desc">Conduces solo en rutas conocidas. La usas de forma autónoma en tareas rutinarias.</div>
+        <ul class="criteria">
+          <li>2 casos de uso reales documentados con resultado</li>
+          <li>Usa IA de forma autónoma en al menos 2 tareas de su área</li>
+          <li>Conoce y compara al menos 2 herramientas distintas</li>
+        </ul>
+      </div>
+      <span class="chevron">▶</span>
+    </div>
+
+    <div class="license-row" onclick="toggleLicense(this)">
+      <div class="badge">🔵</div>
+      <div class="info">
+        <div class="name">Licencia Profesional <span class="level-tag">L4 – L5</span></div>
+        <div class="desc">Configuras el vehículo para tu trayecto. Tienes perfil propio y flujos reutilizables.</div>
+        <ul class="criteria">
+          <li>SOUL.md propio configurado y activo</li>
+          <li>1 Skill creado, documentado y versionado en Git</li>
+          <li>3 casos de uso documentados, al menos 1 con métrica de impacto</li>
+          <li>Puede explicar su flujo de trabajo a otra persona</li>
+        </ul>
+      </div>
+      <span class="chevron">▶</span>
+    </div>
+
+    <div class="license-row" onclick="toggleLicense(this)">
+      <div class="badge">🟣</div>
+      <div class="info">
+        <div class="name">Licencia Avanzada <span class="level-tag">L6 – L7</span></div>
+        <div class="desc">Piloto automático activado. Delegas tareas completas y tienes automatizaciones corriendo.</div>
+        <ul class="criteria">
+          <li>1 agente o automatización activa (cron job, pipeline, background agent)</li>
+          <li>Skills versionados en repositorio compartido del equipo</li>
+          <li>Métricas de impacto documentadas (tiempo, calidad o volumen)</li>
+          <li>Mentor en al menos 1 sesión grupal</li>
+        </ul>
+      </div>
+      <span class="chevron">▶</span>
+    </div>
+
+    <div class="license-row" onclick="toggleLicense(this)">
+      <div class="badge">🏆</div>
+      <div class="info">
+        <div class="name">Instructor de Conducción <span class="level-tag">L8 – L9</span></div>
+        <div class="desc">Enseñas a otros a tomar el volante. Tu flota trabaja mientras duermes.</div>
+        <ul class="criteria">
+          <li>Ha certificado a ≥ 2 personas en niveles inferiores</li>
+          <li>Flota activa: ≥ 3 automatizaciones o agentes en producción</li>
+          <li>Ha diseñado ≥ 1 Skill institucional usado por otros</li>
+          <li>Reporta métricas del área de forma regular y automatizada</li>
+        </ul>
+      </div>
+      <span class="chevron">▶</span>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- BENEFICIOS -->
+<section id="beneficios">
+  <div class="section-label">Beneficios</div>
+  <h2>Para ti y para tu equipo.</h2>
+  <p class="section-sub">El sistema está diseñado para generar valor desde el primer diagnóstico.</p>
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <div class="icon">🎯</div>
+      <h3>Claridad de nivel</h3>
+      <p>Sabes exactamente dónde estás y qué necesitas para avanzar al siguiente nivel — sin ambigüedad.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="icon">🗺️</div>
+      <h3>Itinerario personalizado</h3>
+      <p>No más formación genérica. Tu plan de avance está diseñado para tu rol, área y bloqueos específicos.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="icon">📊</div>
+      <h3>Evidencia medible</h3>
+      <p>Cada licencia está respaldada por casos de uso reales, Skills versionados y métricas de impacto.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="icon">🔓</div>
+      <h3>Sin dependencias</h3>
+      <p>Git + Markdown + Google Forms. Sin plataforma propietaria, sin costo adicional, sin lock-in.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="icon">🤝</div>
+      <h3>Cultura de enseñanza</h3>
+      <p>El nivel más alto es Instructor. El sistema incentiva que quien aprende también enseñe.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="icon">🔄</div>
+      <h3>Replicable</h3>
+      <p>Cualquier organización puede adoptar el framework. Está diseñado para escalar sin fricción.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-label">Preguntas frecuentes</div>
+  <h2>Dudas comunes.</h2>
+  <div class="faqs">
+
+    <div class="faq" onclick="toggleFaq(this)">
+      <div class="faq-q">¿Cuánto tiempo toma obtener la primera licencia? <span class="faq-arrow">▶</span></div>
+      <div class="faq-a">Depende de tu nivel de entrada. Con el diagnóstico inicial, el sistema estima en qué licencia estás hoy. Si ya estás en L2-L3, puedes obtener la Licencia Básica documentando 2 casos de uso en tu próxima semana de trabajo.</div>
+    </div>
+
+    <div class="faq" onclick="toggleFaq(this)">
+      <div class="faq-q">¿Necesito instalar algo especial? <span class="faq-arrow">▶</span></div>
+      <div class="faq-a">No. El sistema usa Google Forms para el diagnóstico, Git para versionar evidencias y Markdown para documentar. Si ya tienes una cuenta de Google y acceso a un repositorio, estás listo.</div>
+    </div>
+
+    <div class="faq" onclick="toggleFaq(this)">
+      <div class="faq-q">¿Qué pasa si no tengo Instructor en mi organización? <span class="faq-arrow">▶</span></div>
+      <div class="faq-a">El sistema permite arrancar con una persona en L6+ que valide las primeras licencias. Con el tiempo, los primeros certificados se convierten en Instructores del equipo. También puedes contactar a @untaldouglas para acompañamiento en el arranque.</div>
+    </div>
+
+    <div class="faq" onclick="toggleFaq(this)">
+      <div class="faq-q">¿La certificación tiene validez oficial? <span class="faq-arrow">▶</span></div>
+      <div class="faq-a">Es una certificación interna basada en evidencia real documentada en Git — más rigurosa que muchas certificaciones externas que solo prueban conocimiento teórico. La capa de reconocimiento externo y gamificación está planificada para v2.0 del sistema.</div>
+    </div>
+
+    <div class="faq" onclick="toggleFaq(this)">
+      <div class="faq-q">¿Se puede adaptar a otras herramientas de IA? <span class="faq-arrow">▶</span></div>
+      <div class="faq-a">Sí. El Modelo de Conducción AI es agnóstico a la herramienta. Los niveles L0–L9 miden patrones de uso y autonomía, no competencia en una herramienta específica. Funciona igual con ChatGPT, Claude, Gemini o cualquier agente local.</div>
+    </div>
+
+    <div class="faq" onclick="toggleFaq(this)">
+      <div class="faq-q">¿Qué pasa con los datos del diagnóstico? <span class="faq-arrow">▶</span></div>
+      <div class="faq-a">Las respuestas van directamente a una hoja de cálculo en tu Google Drive institucional. Solo el Instructor y la persona certificada tienen acceso. Ningún dato sale de tu organización.</div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- CTA FINAL -->
+<div id="cta" id="diagnostico">
+  <div class="section-label" style="display:inline-block;margin-bottom:.75rem">Primer paso</div>
+  <h2>¿Listo para conocer<br>tu nivel de conducción?</h2>
+  <p>El diagnóstico toma 15 minutos. Al finalizar sabrás exactamente en qué licencia estás y qué necesitas para avanzar.</p>
+  <div class="cta-actions">
+    <a href="#diagnostico" class="btn-primary" id="btn-diagnostico">Hacer el diagnóstico ahora →</a>
+    <a href="#como-funciona" class="btn-ghost">Ver cómo funciona</a>
+  </div>
+  <p style="margin-top:1.5rem;font-size:.8rem;color:var(--muted)">
+    Diseñado por <strong style="color:var(--accent2)">@untaldouglas</strong> · Modelo de Conducción AI v2.0 · Licencia CC BY-NC-SA 4.0
+  </p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    Modelo de Conducción AI — Sistema de Certificación ·
+    <a href="https://github.com/untaldouglas/Implementar-AI-Fluentcy">GitHub</a> ·
+    Diseñado por <a href="https://github.com/untaldouglas">@untaldouglas</a>
+  </p>
+</footer>
+
+<!-- BARRA DE PROGRESO DE ONBOARDING -->
+<div class="onboarding-bar" id="ob">
+  <div class="ob-label">Leyendo el sistema</div>
+  <div class="ob-track"><div class="ob-fill" id="ob-fill" style="width:5%"></div></div>
+  <div class="ob-step" id="ob-step">Paso 1 de 5</div>
+</div>
+
+<script>
+  // ── TOGGLE LICENCIAS ──
+  function toggleLicense(el) {
+    el.classList.toggle('open');
+  }
+
+  // ── TOGGLE FAQ ──
+  function toggleFaq(el) {
+    el.classList.toggle('open');
+  }
+
+  // ── BARRA DE PROGRESO DE ONBOARDING ──
+  const sections = [
+    { id: 'problema',      label: 'El problema · Paso 1 de 5',        pct: 20  },
+    { id: 'como-funciona', label: 'Cómo funciona · Paso 2 de 5',      pct: 40  },
+    { id: 'licencias',     label: 'Las licencias · Paso 3 de 5',      pct: 60  },
+    { id: 'beneficios',    label: 'Beneficios · Paso 4 de 5',         pct: 80  },
+    { id: 'faq',           label: 'Preguntas frecuentes · Paso 5 de 5', pct: 95 },
+    { id: 'cta',           label: '¡Listo para el diagnóstico!',       pct: 100 },
+  ];
+
+  const fill = document.getElementById('ob-fill');
+  const stepLabel = document.getElementById('ob-step');
+  const obLabel = document.querySelector('.ob-label');
+
+  function updateBar() {
+    const scrollY = window.scrollY + window.innerHeight * 0.5;
+    let current = { label: 'Bienvenida · Inicio', pct: 5, step: 'Inicio' };
+    for (const s of sections) {
+      const el = document.getElementById(s.id);
+      if (el && el.offsetTop <= scrollY) current = s;
+    }
+    fill.style.width = current.pct + '%';
+    const parts = current.label.split(' · ');
+    obLabel.textContent = parts[0];
+    stepLabel.textContent = parts[1] || '';
+  }
+
+  window.addEventListener('scroll', updateBar, { passive: true });
+  updateBar();
+
+  // ── LINK DE DIAGNÓSTICO (reemplazar con URL real del Google Form) ──
+  // document.getElementById('btn-diagnostico').href = 'TU_LINK_GOOGLE_FORM_AQUI';
+  // document.querySelector('.nav-cta').href = 'TU_LINK_GOOGLE_FORM_AQUI';
+</script>
+
+</body>
+</html>
