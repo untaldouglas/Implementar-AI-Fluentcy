@@ -1,5 +1,5 @@
 # Alineación Estratégica: Manual × Roadmap × Perfil Director
-**Versión:** 1.0 | **Fecha:** 26 junio 2026 | **Autor:** Douglas Galindo (vía Hermes Agent)
+**Versión:** 1.0 | **Fecha:** 26 junio 2026 | **Autor:** @untaldouglas
 
 ---
 

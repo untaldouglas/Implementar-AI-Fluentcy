@@ -156,8 +156,7 @@ Este repositorio contiene **plantillas y metodologías**, no datos reales de la 
 ## 🏛️ Créditos
 
 - **Modelo de 10 niveles**: Reuven Gorsht
-- **Adaptación educativa**: Douglas Galindo - Dirección de Servicios Informáticos UJMD
-- **Herramientas**: Hermes Agent (NousResearch)
+- **Adaptación educativa**: @untaldouglas — Dirección de Servicios Informáticos UJMD
 - **Fecha de creación**: Junio 2026
 
 ## 📄 Licencia
@@ -176,13 +175,10 @@ Con las siguientes condiciones:
 ## 🔗 Recursos relacionados
 
 - [Artículo original](https://reuven-gorsht.medium.com/domina-la-ia-antes-de-que-la-ia-te-domine-a-ti-8d23b6b60c4c) de Reuven Gorsht
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Herramienta de automatización
-- [NousResearch](https://nousresearch.com/) - Investigación en IA
-
 ## 📞 Contacto
 
 Para preguntas sobre la implementación en la UJMD:
-- Douglas Galindo - Dirección de Servicios Informáticos
+- @untaldouglas — Dirección de Servicios Informáticos
 - Universidad Dr. José Matías Delgado
 
 ---

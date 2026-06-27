@@ -18,7 +18,7 @@
 
 | Rol | Nombre | Afiliación | ORCID (por registrar) |
 |---|---|---|---|
-| Autor principal / Investigador principal (PI) | Douglas Galindo | Universidad Dr. José Matías Delgado (UJMD), Dirección de Servicios Informáticos, El Salvador | [pendiente] |
+| Autor principal / Investigador principal (PI) | @untaldouglas | Universidad Dr. José Matías Delgado (UJMD), Dirección de Servicios Informáticos, El Salvador | [pendiente] |
 | Co-autores | Champions del piloto (Patrick, Mario, Irvin) | UJMD — Dirección de Servicios Informáticos | [pendiente] |
 | Asesor metodológico | [por definir con co-investigador externo] | [por definir] | [por definir] |
 | Colaboradores adicionales | Estudiantes en Fase 4 del proyecto | UJMD | [pendiente] |
@@ -373,7 +373,7 @@ El dominio institucional `ujmd.edu.sv` opera sobre Google Workspace (Gmail, Cale
 
 | Versión | Fecha | Cambios | Autor |
 |---|---|---|---|
-| 0.1 | 26 jun 2026 | Semilla inicial del protocolo | Hermes Agent + Douglas Galindo |
+| 0.1 | 26 jun 2026 | Semilla inicial del protocolo | @untaldouglas |
 
 ---
 

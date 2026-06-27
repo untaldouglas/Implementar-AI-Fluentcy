@@ -337,4 +337,4 @@ Si prefieres automatización completa (crear el formulario por código via Googl
 
 ---
 
-*Instrumento diseñado por Douglas Galindo (Director de Servicios Informáticos UJMD) con apoyo de Hermes Agent.*
+*Instrumento diseñado por @untaldouglas — Dirección de Servicios Informáticos UJMD.*

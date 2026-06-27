@@ -1,7 +1,6 @@
 # Makefile — Proyecto AI Fluentcy UJMD
 # ============================================================
-# Autor: Douglas Galindo - Dirección de Servicios Informáticos UJMD
-# Herramienta oficial: Hermes Agent (NousResearch)
+# Autor: @untaldouglas
 # ============================================================
 
 .PHONY: help status check validate test backup clean docs stats \

@@ -20,9 +20,8 @@
  *     - RESUMEN_AGGREGADO:  promedios por área, bloqueos dominantes
  *     - RESUMEN_CHAMPIONS:  análisis cruzado para selección final
  *
- * AUTOR: Douglas Galindo (Director, Servicios Informáticos UJMD)
+ * AUTOR: @untaldouglas
  * FECHA: 26 junio 2026
- * HERRAMIENTA OFICIAL DEL PROGRAMA: Hermes Agent (NousResearch)
  */
 
 // ============================================================
