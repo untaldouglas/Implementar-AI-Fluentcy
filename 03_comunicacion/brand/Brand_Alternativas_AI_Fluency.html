@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alternativas de Identidad Visual — AI Fluency UJMD</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Nunito:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #0f1117;
+    color: #e8e8e8;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+  }
+
+  /* ── HEADER ── */
+  .doc-header {
+    background: #16181f;
+    border-bottom: 1px solid #2a2d38;
+    padding: 40px 60px 32px;
+  }
+  .doc-header .eyebrow {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  .doc-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+  }
+  .doc-header .subtitle {
+    font-size: 14px;
+    color: #888;
+    margin-top: 6px;
+  }
+  .doc-header .meta-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+  }
+  .meta-chip {
+    background: #1e2028;
+    border: 1px solid #2e3140;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  /* ── CONTAINER ── */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+
+  /* ── SECTION ── */
+  .section-label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 32px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #1e2028;
+  }
+
+  /* ── ALT CARD ── */
+  .alt-card {
+    background: #16181f;
+    border: 1px solid #22242e;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+
+  .alt-hero {
+    padding: 48px 52px;
+    position: relative;
+    min-height: 220px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+
+  /* hero backgrounds per alternativa */
+  .alt-1 .alt-hero { background: linear-gradient(135deg, #03001a 0%, #050c2b 50%, #061235 100%); }
+  .alt-2 .alt-hero { background: linear-gradient(135deg, #011a0a 0%, #062010 50%, #082a12 100%); }
+  .alt-3 .alt-hero { background: linear-gradient(135deg, #110620 0%, #1a0a30 50%, #1e0a38 100%); }
+
+  .hero-content { position: relative; z-index: 2; }
+  .alt-number {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    opacity: 0.6;
+  }
+  .alt-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 6px;
+  }
+  .alt-concept-tag {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  /* decorative shapes */
+  .hero-deco {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.08;
+  }
+
+  /* ── BODY ── */
+  .alt-body {
+    padding: 40px 52px;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .block-label {
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 12px;
+  }
+
+  /* LOGO PREVIEW */
+  .logo-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+  }
+  .logo-preview {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  .logo-preview.dark-bg {
+    background: #0a0b10;
+    padding: 18px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .logo-preview.light-bg {
+    background: #f0f2f7;
+    padding: 18px 20px;
+    border-radius: 10px;
+  }
+  .logo-wordmark {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.1;
+  }
+  .logo-sub {
+    font-size: 9px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-top: 2px;
+  }
+
+  /* PALETTE */
+  .palette-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+  }
+  .swatches {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .swatch {
+    flex: 1;
+    height: 52px;
+    border-radius: 8px;
+    position: relative;
+  }
+  .swatch-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+  }
+  .swatch-name { font-size: 11px; color: #888; }
+  .swatch-hex { font-size: 11px; color: #666; font-family: monospace; }
+
+  /* TYPOGRAPHY */
+  .typo-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+    grid-column: 1 / -1;
+  }
+  .typo-sample {
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #222;
+  }
+  .typo-sample:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .typo-role { font-size: 10px; color: #555; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 4px; }
+
+  /* SLOGAN */
+  .slogan-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  .slogan-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .slogan-variant {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  /* PITCH */
+  .pitch-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+    grid-column: 1 / -1;
+  }
+  .pitch-text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #ccc;
+  }
+  .pitch-text strong { color: #fff; }
+
+  /* EXTRAS */
+  .extra-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+  }
+  .extra-list {
+    list-style: none;
+  }
+  .extra-list li {
+    font-size: 13px;
+    color: #aaa;
+    padding: 6px 0;
+    border-bottom: 1px solid #1e2028;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .extra-list li:last-child { border-bottom: none; }
+  .extra-list li .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+
+  /* BADGE PREVIEW */
+  .badge-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .badge-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* TONE */
+  .tone-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+  }
+  .tone-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .tone-pill {
+    background: #13151c;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+  }
+
+  /* APPLICAITON MOCKUP */
+  .app-block {
+    background: #1c1e27;
+    border: 1px solid #272a35;
+    border-radius: 14px;
+    padding: 28px;
+  }
+
+  /* divider between alts */
+  .alt-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #2a2d38, transparent);
+    margin: 0 0 60px;
+  }
+
+  /* comparison table */
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+  }
+  .comparison-table th {
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #555;
+    padding: 10px 16px;
+    border-bottom: 1px solid #22242e;
+  }
+  .comparison-table td {
+    padding: 12px 16px;
+    font-size: 13px;
+    color: #aaa;
+    border-bottom: 1px solid #1a1c24;
+    vertical-align: top;
+  }
+  .comparison-table tr:hover td { background: #1a1c24; }
+  .comparison-table .alt-col {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  /* Footer */
+  .doc-footer {
+    background: #16181f;
+    border-top: 1px solid #22242e;
+    padding: 28px 60px;
+    font-size: 12px;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* ═══ ALTERNATIVA 1 — VELOCIDAD DIGITAL ═══ */
+  .alt-1 .alt-name { color: #00e5ff; }
+  .alt-1 .alt-number { color: #00e5ff; }
+  .alt-1 .alt-concept-tag { background: rgba(0,229,255,0.1); color: #00e5ff; border: 1px solid rgba(0,229,255,0.2); }
+  .alt-1 .block-label { color: #00e5ff; opacity: 0.7; }
+
+  /* ═══ ALTERNATIVA 2 — RUTA HUMANA ═══ */
+  .alt-2 .alt-name { color: #52d68a; }
+  .alt-2 .alt-number { color: #52d68a; }
+  .alt-2 .alt-concept-tag { background: rgba(82,214,138,0.1); color: #52d68a; border: 1px solid rgba(82,214,138,0.2); }
+  .alt-2 .block-label { color: #52d68a; opacity: 0.7; }
+
+  /* ═══ ALTERNATIVA 3 — LEGADO ACADÉMICO ═══ */
+  .alt-3 .alt-name { color: #c4a0ff; }
+  .alt-3 .alt-number { color: #c4a0ff; }
+  .alt-3 .alt-concept-tag { background: rgba(196,160,255,0.1); color: #c4a0ff; border: 1px solid rgba(196,160,255,0.2); }
+  .alt-3 .block-label { color: #c4a0ff; opacity: 0.7; }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     HEADER
+══════════════════════════════════ -->
+<header class="doc-header">
+  <div class="eyebrow">UJMD · Dirección de Servicios Informáticos</div>
+  <h1>Alternativas de Identidad Visual</h1>
+  <div class="subtitle">Programa Formativo AI Fluency — Modelo de Conducción AI (MCA)</div>
+  <div class="meta-row">
+    <span class="meta-chip">3 propuestas de marca</span>
+    <span class="meta-chip">Logo · Paleta · Slogan · Pitch · Extras</span>
+    <span class="meta-chip">Junio 2026</span>
+  </div>
+</header>
+
+
+<div class="container">
+
+<!-- ══════════════════════════════════
+     ALTERNATIVA 1 — VELOCIDAD DIGITAL
+══════════════════════════════════ -->
+<div class="section-label">PROPUESTA 01 DE 03</div>
+
+<div class="alt-card alt-1">
+
+  <div class="alt-hero">
+    <!-- Decorative SVG speedometer -->
+    <svg class="hero-deco" width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="160" cy="160" r="150" stroke="#00e5ff" stroke-width="1"/>
+      <circle cx="160" cy="160" r="120" stroke="#00e5ff" stroke-width="0.5"/>
+      <!-- ticks -->
+      <line x1="160" y1="15" x2="160" y2="35" stroke="#00e5ff" stroke-width="2"/>
+      <line x1="270" y1="60" x2="255" y2="73" stroke="#00e5ff" stroke-width="1.5"/>
+      <line x1="305" y1="160" x2="285" y2="160" stroke="#00e5ff" stroke-width="1.5"/>
+      <line x1="50" y1="60" x2="65" y2="73" stroke="#00e5ff" stroke-width="1.5"/>
+      <line x1="15" y1="160" x2="35" y2="160" stroke="#00e5ff" stroke-width="1.5"/>
+      <!-- needle -->
+      <line x1="160" y1="160" x2="230" y2="80" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="160" cy="160" r="8" fill="#00e5ff"/>
+    </svg>
+
+    <div class="hero-content">
+      <div class="alt-number">ALTERNATIVA 01</div>
+      <div class="alt-name">Velocidad Digital</div>
+      <span class="alt-concept-tag">Tech-Forward · Precisión · Alto Rendimiento</span>
+    </div>
+  </div>
+
+  <div class="alt-body">
+
+    <div class="grid-2">
+      <!-- LOGO -->
+      <div class="logo-block">
+        <div class="block-label">Logo</div>
+        <!-- Logo sobre oscuro -->
+        <div class="logo-preview dark-bg">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="22" r="20" stroke="#00e5ff" stroke-width="1.5"/>
+            <!-- speedometer arc -->
+            <path d="M8 30 A16 16 0 1 1 36 30" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <!-- needle -->
+            <line x1="22" y1="22" x2="31" y2="12" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- AI letters subtle -->
+            <circle cx="22" cy="22" r="3" fill="#00e5ff"/>
+            <!-- ticks -->
+            <line x1="22" y1="6" x2="22" y2="10" stroke="#00e5ff" stroke-width="1.5"/>
+            <line x1="8" y1="30" x2="11.5" y2="28" stroke="#00e5ff" stroke-width="1.5"/>
+            <line x1="36" y1="30" x2="32.5" y2="28" stroke="#00e5ff" stroke-width="1.5"/>
+          </svg>
+          <div>
+            <div class="logo-wordmark" style="color:#fff; font-family:'Montserrat',sans-serif;">
+              AI<span style="color:#00e5ff;">Fluency</span>
+            </div>
+            <div class="logo-sub" style="color:#00e5ff;">MODELO DE CONDUCCIÓN AI · UJMD</div>
+          </div>
+        </div>
+        <!-- Logo sobre claro -->
+        <div class="logo-preview light-bg">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="22" r="20" stroke="#0040a0" stroke-width="1.5"/>
+            <path d="M8 30 A16 16 0 1 1 36 30" stroke="#0040a0" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <line x1="22" y1="22" x2="31" y2="12" stroke="#0055cc" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="22" cy="22" r="3" fill="#0055cc"/>
+            <line x1="22" y1="6" x2="22" y2="10" stroke="#0040a0" stroke-width="1.5"/>
+            <line x1="8" y1="30" x2="11.5" y2="28" stroke="#0040a0" stroke-width="1.5"/>
+            <line x1="36" y1="30" x2="32.5" y2="28" stroke="#0040a0" stroke-width="1.5"/>
+          </svg>
+          <div>
+            <div class="logo-wordmark" style="color:#0a0f2a; font-family:'Montserrat',sans-serif;">
+              AI<span style="color:#0055cc;">Fluency</span>
+            </div>
+            <div class="logo-sub" style="color:#0055cc;">MODELO DE CONDUCCIÓN AI · UJMD</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:#555;margin-top:12px;">Isotipo: velocímetro que integra nodo de red neuronal. La aguja apuntando al ángulo superior-derecho expresa progresión y logro. Construible en una sola tinta.</p>
+      </div>
+
+      <!-- PALETA -->
+      <div class="palette-block">
+        <div class="block-label">Paleta de Colores</div>
+        <div class="swatches">
+          <div>
+            <div class="swatch" style="background:#03001a;"></div>
+            <div class="swatch-info"><span class="swatch-name">Cosmos</span><span class="swatch-hex">#03001a</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#0a1a5c;"></div>
+            <div class="swatch-info"><span class="swatch-name">Deep Navy</span><span class="swatch-hex">#0a1a5c</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#0055cc;"></div>
+            <div class="swatch-info"><span class="swatch-name">Electric Blue</span><span class="swatch-hex">#0055cc</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#00e5ff;"></div>
+            <div class="swatch-info"><span class="swatch-name">Cyan Flash</span><span class="swatch-hex">#00e5ff</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#e8f0ff;"></div>
+            <div class="swatch-info"><span class="swatch-name">Ice White</span><span class="swatch-hex">#e8f0ff</span></div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:#555;">Profundidad oscura + cian eléctrico como acento único. Transmite tecnología de alta precisión, confianza técnica y urgencia digital. Sin gradientes decorativos — solo datos y luz.</p>
+
+        <!-- Licencias con color -->
+        <div style="margin-top:16px;">
+          <div class="block-label">Sistema de Licencias — Versión Cromática</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;">
+            <span style="background:#6b4a00;color:#f5c542;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🟤 L0–L1</span>
+            <span style="background:#003a1a;color:#52d68a;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🟢 L2–L3</span>
+            <span style="background:#001f5a;color:#00e5ff;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🔵 L4–L5</span>
+            <span style="background:#2a005a;color:#c4a0ff;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🟣 L6–L7</span>
+            <span style="background:#3a2000;color:#ffd700;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🏆 L8–L9</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOGAN -->
+    <div style="background:#1c1e27;border:1px solid #272a35;border-radius:14px;padding:32px;margin-bottom:24px;text-align:center;">
+      <div class="block-label" style="color:#00e5ff;opacity:.7;">Slogan Principal</div>
+      <div class="slogan-text" style="font-family:'Montserrat',sans-serif;color:#fff;">
+        Conduce tu futuro con <span style="color:#00e5ff;">IA</span>
+      </div>
+      <div class="slogan-variant" style="color:#555;margin-top:14px;">Variantes secundarias:</div>
+      <div style="display:flex;gap:12px;justify-content:center;margin-top:10px;flex-wrap:wrap;">
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"Del aprendizaje a la licencia"</span>
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"Tu nivel. Tu velocidad. Tu licencia."</span>
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"Certified to Drive AI"</span>
+      </div>
+    </div>
+
+    <!-- PITCH -->
+    <div style="background:#1c1e27;border:1px solid #00e5ff22;border-radius:14px;padding:32px;margin-bottom:24px;">
+      <div class="block-label" style="color:#00e5ff;opacity:.7;">Elevator Pitch (30 seg)</div>
+      <p class="pitch-text">
+        Aprender a manejar tomó tiempo, práctica y una licencia que lo certifica.
+        <strong>AI Fluency es exactamente eso para la inteligencia artificial.</strong>
+        En la UJMD, pasamos de "usar IA de vez en cuando" a equipos que la integran, la dominan y la enseñan —
+        nivel a nivel, con certificación real y métricas auditables.
+        <strong>No es un curso más. Es el sistema de licencias que tu equipo necesita para operar con IA en producción.</strong>
+      </p>
+    </div>
+
+    <div class="grid-3">
+      <!-- TIPOGRAFÍA -->
+      <div class="extra-block">
+        <div class="block-label" style="color:#00e5ff;opacity:.7;">Tipografía</div>
+        <div class="typo-sample">
+          <div class="typo-role">Display / Títulos</div>
+          <div style="font-family:'Montserrat',sans-serif;font-weight:900;font-size:22px;color:#fff;">Montserrat Black</div>
+        </div>
+        <div class="typo-sample">
+          <div class="typo-role">Cuerpo / UI</div>
+          <div style="font-family:'Space Grotesk',sans-serif;font-size:14px;color:#ccc;">Space Grotesk Regular</div>
+        </div>
+        <div class="typo-sample">
+          <div class="typo-role">Código / Datos</div>
+          <div style="font-family:monospace;font-size:13px;color:#00e5ff;">JetBrains Mono</div>
+        </div>
+      </div>
+
+      <!-- TONE OF VOICE -->
+      <div class="extra-block">
+        <div class="block-label" style="color:#00e5ff;opacity:.7;">Tono de Voz</div>
+        <div class="tone-grid">
+          <div class="tone-pill">Directo</div>
+          <div class="tone-pill">Técnico</div>
+          <div class="tone-pill">Preciso</div>
+          <div class="tone-pill">Energético</div>
+          <div class="tone-pill">Sin floro</div>
+          <div class="tone-pill">Confiable</div>
+        </div>
+        <p style="font-size:12px;color:#555;margin-top:14px;">Habla como un ingeniero de alto rendimiento. Datos > adjetivos. Resultados medibles, no promesas.</p>
+      </div>
+
+      <!-- ICONOGRAFÍA -->
+      <div class="extra-block">
+        <div class="block-label" style="color:#00e5ff;opacity:.7;">Iconografía & Extras</div>
+        <ul class="extra-list">
+          <li><span class="dot" style="background:#00e5ff;"></span>Iconos lineales, trazo 1.5px, sin relleno sólido</li>
+          <li><span class="dot" style="background:#00e5ff;"></span>Patrón de fondo: cuadrícula técnica sutil #0a1a40</li>
+          <li><span class="dot" style="background:#00e5ff;"></span>Badges: shape hexagonal (chip de circuito)</li>
+          <li><span class="dot" style="background:#00e5ff;"></span>Motion: transiciones con ease-out rápido</li>
+          <li><span class="dot" style="background:#00e5ff;"></span>Firma digital: formato tarjeta de ID oscura</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- BADGE PREVIEW -->
+    <div style="background:#1c1e27;border:1px solid #272a35;border-radius:14px;padding:28px;margin-bottom:0;">
+      <div class="block-label" style="color:#00e5ff;opacity:.7;">Preview — Badges de Licencia</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:16px;">
+        <!-- Badge hexagonal simulado -->
+        <div style="text-align:center;">
+          <svg width="80" height="92" viewBox="0 0 80 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="40,2 76,21 76,71 40,90 4,71 4,21" fill="#1a1000" stroke="#c87d00" stroke-width="1.5"/>
+            <text x="40" y="38" text-anchor="middle" fill="#f5c542" font-family="Montserrat,sans-serif" font-size="9" font-weight="700">PERMISO</text>
+            <text x="40" y="52" text-anchor="middle" fill="#f5c542" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L1</text>
+            <text x="40" y="66" text-anchor="middle" fill="#f5c542" font-family="monospace" font-size="7">L0 – L1</text>
+          </svg>
+          <div style="font-size:10px;color:#666;margin-top:4px;">Permiso</div>
+        </div>
+        <div style="text-align:center;">
+          <svg width="80" height="92" viewBox="0 0 80 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="40,2 76,21 76,71 40,90 4,71 4,21" fill="#001a0a" stroke="#3da868" stroke-width="1.5"/>
+            <text x="40" y="38" text-anchor="middle" fill="#52d68a" font-family="Montserrat,sans-serif" font-size="9" font-weight="700">BÁSICA</text>
+            <text x="40" y="52" text-anchor="middle" fill="#52d68a" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L3</text>
+            <text x="40" y="66" text-anchor="middle" fill="#52d68a" font-family="monospace" font-size="7">L2 – L3</text>
+          </svg>
+          <div style="font-size:10px;color:#666;margin-top:4px;">Básica</div>
+        </div>
+        <div style="text-align:center;">
+          <svg width="80" height="92" viewBox="0 0 80 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="40,2 76,21 76,71 40,90 4,71 4,21" fill="#001030" stroke="#0055cc" stroke-width="1.5"/>
+            <text x="40" y="38" text-anchor="middle" fill="#00e5ff" font-family="Montserrat,sans-serif" font-size="7" font-weight="700">PROFESIONAL</text>
+            <text x="40" y="52" text-anchor="middle" fill="#00e5ff" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L5</text>
+            <text x="40" y="66" text-anchor="middle" fill="#00e5ff" font-family="monospace" font-size="7">L4 – L5</text>
+          </svg>
+          <div style="font-size:10px;color:#666;margin-top:4px;">Profesional</div>
+        </div>
+        <div style="text-align:center;">
+          <svg width="80" height="92" viewBox="0 0 80 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="40,2 76,21 76,71 40,90 4,71 4,21" fill="#120028" stroke="#7b2fe8" stroke-width="1.5"/>
+            <text x="40" y="38" text-anchor="middle" fill="#c4a0ff" font-family="Montserrat,sans-serif" font-size="8" font-weight="700">AVANZADA</text>
+            <text x="40" y="52" text-anchor="middle" fill="#c4a0ff" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L7</text>
+            <text x="40" y="66" text-anchor="middle" fill="#c4a0ff" font-family="monospace" font-size="7">L6 – L7</text>
+          </svg>
+          <div style="font-size:10px;color:#666;margin-top:4px;">Avanzada</div>
+        </div>
+        <div style="text-align:center;">
+          <svg width="80" height="92" viewBox="0 0 80 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="40,2 76,21 76,71 40,90 4,71 4,21" fill="#1a1000" stroke="#d4a900" stroke-width="2"/>
+            <text x="40" y="35" text-anchor="middle" fill="#ffd700" font-family="Montserrat,sans-serif" font-size="7" font-weight="700">INSTRUCTOR</text>
+            <text x="40" y="52" text-anchor="middle" fill="#ffd700" font-size="20">🏆</text>
+            <text x="40" y="67" text-anchor="middle" fill="#ffd700" font-family="monospace" font-size="7">L8 – L9</text>
+          </svg>
+          <div style="font-size:10px;color:#666;margin-top:4px;">Instructor</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="alt-divider"></div>
+
+
+<!-- ══════════════════════════════════
+     ALTERNATIVA 2 — RUTA HUMANA
+══════════════════════════════════ -->
+<div class="section-label">PROPUESTA 02 DE 03</div>
+
+<div class="alt-card alt-2">
+
+  <div class="alt-hero">
+    <!-- Decorative SVG road/path -->
+    <svg class="hero-deco" width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- winding road upward -->
+      <path d="M80 300 Q80 220 160 200 Q240 180 240 100 Q240 40 180 20" stroke="#52d68a" stroke-width="2" fill="none"/>
+      <path d="M100 300 Q100 215 175 195 Q255 175 255 95 Q255 35 195 18" stroke="#52d68a" stroke-width="1" fill="none" stroke-dasharray="8 6"/>
+      <!-- milestones -->
+      <circle cx="90" cy="280" r="8" fill="#52d68a"/>
+      <circle cx="148" cy="220" r="8" fill="#52d68a"/>
+      <circle cx="210" cy="155" r="8" fill="#52d68a"/>
+      <circle cx="243" cy="80" r="8" fill="#52d68a"/>
+      <circle cx="188" cy="20" r="10" fill="#52d68a"/>
+    </svg>
+
+    <div class="hero-content">
+      <div class="alt-number">ALTERNATIVA 02</div>
+      <div class="alt-name">Ruta Humana</div>
+      <span class="alt-concept-tag">Inclusivo · Progresivo · Comunidad</span>
+    </div>
+  </div>
+
+  <div class="alt-body">
+
+    <div class="grid-2">
+      <!-- LOGO -->
+      <div class="logo-block">
+        <div class="block-label">Logo</div>
+        <div class="logo-preview dark-bg">
+          <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- road perspective shape -->
+            <path d="M10 40 L18 8 L28 8 L36 40 Z" fill="none" stroke="#52d68a" stroke-width="1.5"/>
+            <!-- center dashes -->
+            <line x1="23" y1="36" x2="23" y2="30" stroke="#52d68a" stroke-width="2" stroke-linecap="round"/>
+            <line x1="23" y1="26" x2="23" y2="20" stroke="#52d68a" stroke-width="2" stroke-linecap="round"/>
+            <line x1="23" y1="16" x2="23" y2="12" stroke="#52d68a" stroke-width="2" stroke-linecap="round"/>
+            <!-- horizon spark -->
+            <circle cx="23" cy="7" r="3" fill="#f5b942"/>
+            <!-- progress dots on road -->
+            <circle cx="17" cy="32" r="2" fill="#52d68a" opacity="0.5"/>
+            <circle cx="29" cy="32" r="2" fill="#52d68a" opacity="0.5"/>
+            <circle cx="19.5" cy="22" r="2" fill="#52d68a" opacity="0.7"/>
+            <circle cx="26.5" cy="22" r="2" fill="#52d68a" opacity="0.7"/>
+          </svg>
+          <div>
+            <div class="logo-wordmark" style="color:#fff; font-family:'Nunito',sans-serif; font-weight:800;">
+              AI <span style="color:#52d68a;">Fluency</span>
+            </div>
+            <div class="logo-sub" style="color:#52d68a;">MODELO DE CONDUCCIÓN AI · UJMD</div>
+          </div>
+        </div>
+        <div class="logo-preview light-bg">
+          <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 40 L18 8 L28 8 L36 40 Z" fill="none" stroke="#2a7a3a" stroke-width="1.5"/>
+            <line x1="23" y1="36" x2="23" y2="30" stroke="#2a7a3a" stroke-width="2" stroke-linecap="round"/>
+            <line x1="23" y1="26" x2="23" y2="20" stroke="#2a7a3a" stroke-width="2" stroke-linecap="round"/>
+            <line x1="23" y1="16" x2="23" y2="12" stroke="#2a7a3a" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="23" cy="7" r="3" fill="#d4870a"/>
+          </svg>
+          <div>
+            <div class="logo-wordmark" style="color:#152a1a; font-family:'Nunito',sans-serif; font-weight:800;">
+              AI <span style="color:#2a7a3a;">Fluency</span>
+            </div>
+            <div class="logo-sub" style="color:#2a7a3a;">MODELO DE CONDUCCIÓN AI · UJMD</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:#555;margin-top:12px;">Isotipo: carretera en perspectiva con punto de fuga que converge en un destello dorado. Las líneas punteadas centrales representan los niveles L0–L9 como etapas del viaje.</p>
+      </div>
+
+      <!-- PALETA -->
+      <div class="palette-block">
+        <div class="block-label">Paleta de Colores</div>
+        <div class="swatches">
+          <div>
+            <div class="swatch" style="background:#0d2414;"></div>
+            <div class="swatch-info"><span class="swatch-name">Forest Deep</span><span class="swatch-hex">#0d2414</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#2a7a3a;"></div>
+            <div class="swatch-info"><span class="swatch-name">Grove</span><span class="swatch-hex">#2a7a3a</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#52d68a;"></div>
+            <div class="swatch-info"><span class="swatch-name">Spring Leaf</span><span class="swatch-hex">#52d68a</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#f5b942;"></div>
+            <div class="swatch-info"><span class="swatch-name">Amber Road</span><span class="swatch-hex">#f5b942</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#fdf6ec;"></div>
+            <div class="swatch-info"><span class="swatch-name">Paper Cream</span><span class="swatch-hex">#fdf6ec</span></div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:#555;">Verde naturaleza + ámbar dorado. Transmite crecimiento orgánico, esperanza y accesibilidad. Menos intimidante para públicos mixtos (técnicos y no técnicos). El ámbar activa la señal de avance.</p>
+
+        <div style="margin-top:16px;">
+          <div class="block-label">Licencias — Sistema Semafórico Natural</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;">
+            <span style="background:#3a2800;color:#f5c542;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🌱 L0–L1</span>
+            <span style="background:#0d2a14;color:#52d68a;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🌿 L2–L3</span>
+            <span style="background:#0a2030;color:#66c8ff;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">💧 L4–L5</span>
+            <span style="background:#280a38;color:#d4a0ff;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">🔮 L6–L7</span>
+            <span style="background:#2a1a00;color:#ffd700;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">☀️ L8–L9</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOGAN -->
+    <div style="background:#1c1e27;border:1px solid #272a35;border-radius:14px;padding:32px;margin-bottom:24px;text-align:center;">
+      <div class="block-label" style="color:#52d68a;opacity:.8;">Slogan Principal</div>
+      <div class="slogan-text" style="font-family:'Nunito',sans-serif;font-weight:800;color:#fff;">
+        Tu camino a la <span style="color:#52d68a;">Fluencia</span> en IA
+      </div>
+      <div class="slogan-variant" style="color:#555;margin-top:14px;">Variantes secundarias:</div>
+      <div style="display:flex;gap:12px;justify-content:center;margin-top:10px;flex-wrap:wrap;">
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"Aprende. Practica. Certifica."</span>
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"La IA no se teme. Se conduce."</span>
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"Cada nivel, un nuevo horizonte"</span>
+      </div>
+    </div>
+
+    <!-- PITCH -->
+    <div style="background:#1c1e27;border:1px solid #52d68a22;border-radius:14px;padding:32px;margin-bottom:24px;">
+      <div class="block-label" style="color:#52d68a;opacity:.8;">Elevator Pitch (30 seg)</div>
+      <p class="pitch-text">
+        ¿Cuándo fue la última vez que aprendiste algo nuevo sin miedo a equivocarte?
+        <strong>AI Fluency es ese espacio.</strong>
+        Un programa donde cada persona en el equipo de Informática de la UJMD
+        avanza <em>a su propio ritmo</em>, desde donde está hasta donde puede llegar —
+        con rutas personalizadas, acompañamiento real y una certificación que
+        lo demuestra. <strong>No importa si apenas arrancas o si ya vas a 120. Aquí hay ruta para todos.</strong>
+      </p>
+    </div>
+
+    <div class="grid-3">
+      <div class="extra-block">
+        <div class="block-label" style="color:#52d68a;opacity:.8;">Tipografía</div>
+        <div class="typo-sample">
+          <div class="typo-role">Display / Títulos</div>
+          <div style="font-family:'Nunito',sans-serif;font-weight:800;font-size:22px;color:#fff;">Nunito ExtraBold</div>
+        </div>
+        <div class="typo-sample">
+          <div class="typo-role">Cuerpo / UI</div>
+          <div style="font-family:'Nunito',sans-serif;font-size:14px;color:#ccc;">Nunito Regular</div>
+        </div>
+        <div class="typo-sample">
+          <div class="typo-role">Énfasis</div>
+          <div style="font-family:'Nunito',sans-serif;font-size:14px;font-weight:700;color:#52d68a;">Nunito Bold</div>
+        </div>
+      </div>
+
+      <div class="extra-block">
+        <div class="block-label" style="color:#52d68a;opacity:.8;">Tono de Voz</div>
+        <div class="tone-grid">
+          <div class="tone-pill">Cálido</div>
+          <div class="tone-pill">Alentador</div>
+          <div class="tone-pill">Cercano</div>
+          <div class="tone-pill">Paciente</div>
+          <div class="tone-pill">Optimista</div>
+          <div class="tone-pill">Honesto</div>
+        </div>
+        <p style="font-size:12px;color:#555;margin-top:14px;">Habla como un buen mentor. Reconoce el miedo al cambio, lo normaliza, y lo convierte en motivación concreta.</p>
+      </div>
+
+      <div class="extra-block">
+        <div class="block-label" style="color:#52d68a;opacity:.8;">Iconografía & Extras</div>
+        <ul class="extra-list">
+          <li><span class="dot" style="background:#52d68a;"></span>Iconos redondeados, trazo 2px, esquinas suaves</li>
+          <li><span class="dot" style="background:#52d68a;"></span>Ilustraciones de personajes simples (flat humans)</li>
+          <li><span class="dot" style="background:#52d68a;"></span>Patrón: caminos curvos abstractos en bajo contraste</li>
+          <li><span class="dot" style="background:#52d68a;"></span>Badges: forma escudo redondeado</li>
+          <li><span class="dot" style="background:#52d68a;"></span>Tarjeta de ID: fondo crema con bordes verdes</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="alt-divider"></div>
+
+
+<!-- ══════════════════════════════════
+     ALTERNATIVA 3 — LEGADO ACADÉMICO
+══════════════════════════════════ -->
+<div class="section-label">PROPUESTA 03 DE 03</div>
+
+<div class="alt-card alt-3">
+
+  <div class="alt-hero">
+    <!-- Decorative SVG shield/seal -->
+    <svg class="hero-deco" width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M150 10 L280 60 L280 180 Q280 260 150 290 Q20 260 20 180 L20 60 Z" stroke="#c4a0ff" stroke-width="1.5" fill="none"/>
+      <path d="M150 30 L260 72 L260 178 Q260 245 150 272 Q40 245 40 178 L40 72 Z" stroke="#c4a0ff" stroke-width="0.5" fill="none"/>
+      <!-- circuit pattern inside -->
+      <circle cx="150" cy="150" r="40" stroke="#c4a0ff" stroke-width="1"/>
+      <line x1="150" y1="110" x2="150" y2="80" stroke="#c4a0ff" stroke-width="1"/>
+      <line x1="150" y1="190" x2="150" y2="220" stroke="#c4a0ff" stroke-width="1"/>
+      <line x1="110" y1="150" x2="80" y2="150" stroke="#c4a0ff" stroke-width="1"/>
+      <line x1="190" y1="150" x2="220" y2="150" stroke="#c4a0ff" stroke-width="1"/>
+      <circle cx="150" cy="80" r="4" fill="#c4a0ff"/>
+      <circle cx="150" cy="220" r="4" fill="#c4a0ff"/>
+      <circle cx="80" cy="150" r="4" fill="#c4a0ff"/>
+      <circle cx="220" cy="150" r="4" fill="#c4a0ff"/>
+    </svg>
+
+    <div class="hero-content">
+      <div class="alt-number">ALTERNATIVA 03</div>
+      <div class="alt-name">Legado Académico</div>
+      <span class="alt-concept-tag">Prestigio · Excelencia · Certificación Oficial</span>
+    </div>
+  </div>
+
+  <div class="alt-body">
+
+    <div class="grid-2">
+      <!-- LOGO -->
+      <div class="logo-block">
+        <div class="block-label">Logo</div>
+        <div class="logo-preview dark-bg">
+          <svg width="48" height="52" viewBox="0 0 48 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- escudo con circuito -->
+            <path d="M24 2 L44 10 L44 32 Q44 46 24 50 Q4 46 4 32 L4 10 Z" stroke="#c4a0ff" stroke-width="1.5" fill="#1a0a30"/>
+            <!-- circuit nodes inside -->
+            <circle cx="24" cy="24" r="6" stroke="#c4a0ff" stroke-width="1.5" fill="none"/>
+            <line x1="24" y1="18" x2="24" y2="12" stroke="#c4a0ff" stroke-width="1"/>
+            <line x1="24" y1="30" x2="24" y2="38" stroke="#c4a0ff" stroke-width="1"/>
+            <line x1="18" y1="24" x2="12" y2="24" stroke="#c4a0ff" stroke-width="1"/>
+            <line x1="30" y1="24" x2="36" y2="24" stroke="#c4a0ff" stroke-width="1"/>
+            <circle cx="24" cy="12" r="2" fill="#ffd700"/>
+            <circle cx="24" cy="38" r="2" fill="#c4a0ff"/>
+            <circle cx="12" cy="24" r="2" fill="#c4a0ff"/>
+            <circle cx="36" cy="24" r="2" fill="#c4a0ff"/>
+          </svg>
+          <div>
+            <div class="logo-wordmark" style="color:#fff; font-family:'Montserrat',sans-serif;">
+              AI<span style="color:#c4a0ff;">Fluency</span>
+            </div>
+            <div class="logo-sub" style="color:#9060e0;">UNIVERSIDAD JOSÉ MATÍAS DELGADO</div>
+          </div>
+        </div>
+        <div class="logo-preview light-bg">
+          <svg width="48" height="52" viewBox="0 0 48 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 2 L44 10 L44 32 Q44 46 24 50 Q4 46 4 32 L4 10 Z" stroke="#5a20a0" stroke-width="1.5" fill="#f5f0ff"/>
+            <circle cx="24" cy="24" r="6" stroke="#5a20a0" stroke-width="1.5" fill="none"/>
+            <line x1="24" y1="18" x2="24" y2="12" stroke="#5a20a0" stroke-width="1"/>
+            <line x1="24" y1="30" x2="24" y2="38" stroke="#5a20a0" stroke-width="1"/>
+            <line x1="18" y1="24" x2="12" y2="24" stroke="#5a20a0" stroke-width="1"/>
+            <line x1="30" y1="24" x2="36" y2="24" stroke="#5a20a0" stroke-width="1"/>
+            <circle cx="24" cy="12" r="2" fill="#b8860b"/>
+            <circle cx="24" cy="38" r="2" fill="#5a20a0"/>
+            <circle cx="12" cy="24" r="2" fill="#5a20a0"/>
+            <circle cx="36" cy="24" r="2" fill="#5a20a0"/>
+          </svg>
+          <div>
+            <div class="logo-wordmark" style="color:#1a0a30; font-family:'Montserrat',sans-serif;">
+              AI<span style="color:#5a20a0;">Fluency</span>
+            </div>
+            <div class="logo-sub" style="color:#5a20a0;">UNIVERSIDAD JOSÉ MATÍAS DELGADO</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:#555;margin-top:12px;">Isotipo: escudo institucional con nodo de circuito integrado en el centro. Fusiona el lenguaje de credencial académica con el vocabulario de la IA. Comunica autoridad y confianza.</p>
+      </div>
+
+      <!-- PALETA -->
+      <div class="palette-block">
+        <div class="block-label">Paleta de Colores</div>
+        <div class="swatches">
+          <div>
+            <div class="swatch" style="background:#0e0618;"></div>
+            <div class="swatch-info"><span class="swatch-name">Midnight</span><span class="swatch-hex">#0e0618</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#2d0e6e;"></div>
+            <div class="swatch-info"><span class="swatch-name">Royal Plum</span><span class="swatch-hex">#2d0e6e</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#7b2fe8;"></div>
+            <div class="swatch-info"><span class="swatch-name">Vivid Violet</span><span class="swatch-hex">#7b2fe8</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#ffd700;"></div>
+            <div class="swatch-info"><span class="swatch-name">Alchemy Gold</span><span class="swatch-hex">#ffd700</span></div>
+          </div>
+          <div>
+            <div class="swatch" style="background:#f5f0ff;"></div>
+            <div class="swatch-info"><span class="swatch-name">Lavender Ice</span><span class="swatch-hex">#f5f0ff</span></div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:#555;">Morado profundo + oro. La combinación más asociada globalmente con logro académico, distinción y premiación. El oro reservado para Instructor (L8–L9) crea jerarquía visual inmediata.</p>
+
+        <div style="margin-top:16px;">
+          <div class="block-label">Licencias — Sistema Heráldico</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;">
+            <span style="background:#2a1a00;color:#c87d00;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">⚙ L0–L1 Aprendiz</span>
+            <span style="background:#1a2a00;color:#88cc44;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">⚙ L2–L3 Conductor</span>
+            <span style="background:#001040;color:#88aaff;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">⚙ L4–L5 Profesional</span>
+            <span style="background:#200050;color:#c4a0ff;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">⚙ L6–L7 Maestro</span>
+            <span style="background:#2a1400;color:#ffd700;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:700;">👑 L8–L9 Cátedra</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLOGAN -->
+    <div style="background:#1c1e27;border:1px solid #272a35;border-radius:14px;padding:32px;margin-bottom:24px;text-align:center;">
+      <div class="block-label" style="color:#c4a0ff;opacity:.8;">Slogan Principal</div>
+      <div class="slogan-text" style="font-family:'Montserrat',sans-serif;color:#fff;">
+        Donde el talento obtiene su <span style="color:#ffd700;">licencia</span>
+      </div>
+      <div class="slogan-variant" style="color:#555;margin-top:14px;">Variantes secundarias:</div>
+      <div style="display:flex;gap:12px;justify-content:center;margin-top:10px;flex-wrap:wrap;">
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"Certificando el futuro de la IA"</span>
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"Saber no basta. Demuéstralo."</span>
+        <span style="background:#13151c;border:1px solid #22242e;padding:6px 18px;border-radius:20px;font-size:13px;color:#aaa;">"AI Excellence. UJMD Certified."</span>
+      </div>
+    </div>
+
+    <!-- PITCH -->
+    <div style="background:#1c1e27;border:1px solid #c4a0ff22;border-radius:14px;padding:32px;margin-bottom:24px;">
+      <div class="block-label" style="color:#c4a0ff;opacity:.8;">Elevator Pitch (30 seg)</div>
+      <p class="pitch-text">
+        La UJMD lleva décadas formando profesionales de excelencia.
+        <strong>AI Fluency es la extensión natural de esa tradición hacia la era de la inteligencia artificial.</strong>
+        Un sistema de certificación progresiva — diseñado por Informática, para Informática —
+        que convierte el conocimiento disperso en competencia comprobable.
+        Cada licencia es evidencia auditada. Cada nivel, un hito en tu expediente profesional.
+        <strong>Porque en la UJMD, la excelencia no se asume: se certifica.</strong>
+      </p>
+    </div>
+
+    <div class="grid-3">
+      <div class="extra-block">
+        <div class="block-label" style="color:#c4a0ff;opacity:.8;">Tipografía</div>
+        <div class="typo-sample">
+          <div class="typo-role">Display / Títulos</div>
+          <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:20px;color:#fff;">Playfair Display</div>
+        </div>
+        <div class="typo-sample">
+          <div class="typo-role">UI / Navegación</div>
+          <div style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;color:#ccc;">Montserrat SemiBold</div>
+        </div>
+        <div class="typo-sample">
+          <div class="typo-role">Cuerpo largo</div>
+          <div style="font-family:'Nunito',sans-serif;font-size:14px;color:#aaa;">Nunito Regular</div>
+        </div>
+        <p style="font-size:11px;color:#555;margin-top:10px;">Serif para prestigio institucional + sans para legibilidad digital. Contraste clásico/moderno.</p>
+      </div>
+
+      <div class="extra-block">
+        <div class="block-label" style="color:#c4a0ff;opacity:.8;">Tono de Voz</div>
+        <div class="tone-grid">
+          <div class="tone-pill">Formal</div>
+          <div class="tone-pill">Aspiracional</div>
+          <div class="tone-pill">Solemne</div>
+          <div class="tone-pill">Motivador</div>
+          <div class="tone-pill">Institucional</div>
+          <div class="tone-pill">Riguroso</div>
+        </div>
+        <p style="font-size:12px;color:#555;margin-top:14px;">Habla como la institución. Evoca orgullo de pertenencia. Cada certificación es un evento, no un trámite.</p>
+      </div>
+
+      <div class="extra-block">
+        <div class="block-label" style="color:#c4a0ff;opacity:.8;">Iconografía & Extras</div>
+        <ul class="extra-list">
+          <li><span class="dot" style="background:#c4a0ff;"></span>Iconos sólidos con peso visual alto</li>
+          <li><span class="dot" style="background:#c4a0ff;"></span>Patrón: retícula de puntos dorados muy sutil</li>
+          <li><span class="dot" style="background:#c4a0ff;"></span>Pergamino digital para certificados PDF</li>
+          <li><span class="dot" style="background:#c4a0ff;"></span>Firma holográfica simulada en badges</li>
+          <li><span class="dot" style="background:#c4a0ff;"></span>Sobre/sobre de entrega oficial para kits</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Certificado mockup -->
+    <div style="background:#1c1e27;border:1px solid #272a35;border-radius:14px;padding:28px;margin-top:0;">
+      <div class="block-label" style="color:#c4a0ff;opacity:.8;">Preview — Certificado Oficial (Versión Compacta)</div>
+      <div style="margin-top:16px;border:1px solid #3a2060;border-radius:10px;background:linear-gradient(135deg,#100a20,#1a0a30);padding:28px 36px;max-width:520px;margin-left:auto;margin-right:auto;text-align:center;position:relative;overflow:hidden;">
+        <!-- corner ornaments -->
+        <div style="position:absolute;top:12px;left:12px;width:24px;height:24px;border-top:2px solid #ffd700;border-left:2px solid #ffd700;"></div>
+        <div style="position:absolute;top:12px;right:12px;width:24px;height:24px;border-top:2px solid #ffd700;border-right:2px solid #ffd700;"></div>
+        <div style="position:absolute;bottom:12px;left:12px;width:24px;height:24px;border-bottom:2px solid #ffd700;border-left:2px solid #ffd700;"></div>
+        <div style="position:absolute;bottom:12px;right:12px;width:24px;height:24px;border-bottom:2px solid #ffd700;border-right:2px solid #ffd700;"></div>
+        <div style="font-size:10px;letter-spacing:3px;color:#9060c0;text-transform:uppercase;margin-bottom:8px;">Universidad José Matías Delgado</div>
+        <div style="font-size:10px;letter-spacing:2px;color:#9060c0;margin-bottom:16px;">Dirección de Servicios Informáticos</div>
+        <div style="font-family:'Playfair Display',serif;font-size:13px;color:#c4a0ff;margin-bottom:4px;">Otorga la presente</div>
+        <div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:#fff;margin-bottom:4px;">Licencia Profesional AI</div>
+        <div style="font-size:11px;color:#7040a0;margin-bottom:12px;">Niveles L4 – L5 · Modelo de Conducción AI</div>
+        <div style="border-top:1px solid #3a2060;border-bottom:1px solid #3a2060;padding:8px;margin:12px 0;">
+          <div style="font-family:'Playfair Display',serif;font-size:16px;color:#ffd700;">Douglas A. Galindo</div>
+        </div>
+        <div style="font-size:10px;color:#555;margin-top:10px;">Junio 2026 · AI-FLUENCY-PRO-2026-0001</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════
+     TABLA COMPARATIVA
+══════════════════════════════════ -->
+<div style="margin-top:60px;">
+<div class="section-label">TABLA COMPARATIVA — CRITERIOS DE SELECCIÓN</div>
+<div style="background:#16181f;border:1px solid #22242e;border-radius:20px;overflow:hidden;">
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Criterio</th>
+      <th>01 · Velocidad Digital</th>
+      <th>02 · Ruta Humana</th>
+      <th>03 · Legado Académico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Público objetivo</td>
+      <td>Equipo técnico, ingenieros, devs</td>
+      <td>Equipos mixtos, todos los niveles</td>
+      <td>Institución, directivos, externos</td>
+    </tr>
+    <tr>
+      <td>Primer impacto</td>
+      <td class="alt-col" style="color:#00e5ff;">Tecnológico y cool</td>
+      <td class="alt-col" style="color:#52d68a;">Amigable y motivador</td>
+      <td class="alt-col" style="color:#c4a0ff;">Serio y prestigioso</td>
+    </tr>
+    <tr>
+      <td>Escalabilidad visual</td>
+      <td>Alta (dark mode nativo)</td>
+      <td>Media (requiere versión clara)</td>
+      <td>Alta (funciona en papel y digital)</td>
+    </tr>
+    <tr>
+      <td>Alineación con UJMD</td>
+      <td>Media (muy startup)</td>
+      <td>Alta (inclusiva, universitaria)</td>
+      <td>Muy alta (lenguaje institucional)</td>
+    </tr>
+    <tr>
+      <td>Diferenciación</td>
+      <td class="alt-col" style="color:#00e5ff;">Alta (único en su nicho)</td>
+      <td>Media (muchos programas usan verde)</td>
+      <td>Media (esperable en academia)</td>
+    </tr>
+    <tr>
+      <td>Aplicación en certificados</td>
+      <td>Excelente (digital-first)</td>
+      <td>Buena</td>
+      <td class="alt-col" style="color:#c4a0ff;">Excelente (papel + digital)</td>
+    </tr>
+    <tr>
+      <td>Riesgo de implementación</td>
+      <td>Bajo (assets vectoriales)</td>
+      <td>Bajo</td>
+      <td>Medio (requiere tipografías premium)</td>
+    </tr>
+    <tr>
+      <td>Recomendado para...</td>
+      <td>Posicionamiento externo / LinkedIn</td>
+      <td>Adopción interna / Champions</td>
+      <td>Presentación a rectoría / stakeholders</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<!-- NOTA ADICIONAL -->
+<div style="margin-top:40px;background:#16181f;border:1px solid #22242e;border-radius:16px;padding:32px;">
+  <div class="block-label">NOTA DEL DISEÑADOR</div>
+  <p style="font-size:14px;color:#888;line-height:1.8;">
+    Las tres propuestas son compatibles entre sí. Una estrategia híbrida viable: usar <strong style="color:#00e5ff;">Velocidad Digital</strong> para
+    comunicaciones digitales y redes sociales, <strong style="color:#52d68a;">Ruta Humana</strong> para materiales de onboarding y comunicación
+    interna, y <strong style="color:#c4a0ff;">Legado Académico</strong> para certificados oficiales y presentaciones a autoridades universitarias.
+    El isotipo del escudo (Alt. 3) podría adoptarse como marca institucional base, con los acentos cromáticos
+    de cada alternativa aplicados según el canal. Elementos adicionales a desarrollar en la fase siguiente:
+    plantilla de email institucional, firma digital, tarjeta de ID física, stickers de nivel para Slack/Teams,
+    y portada del Manual de Implementación.
+  </p>
+</div>
+
+</div><!-- /container -->
+
+<footer class="doc-footer">
+  <span>AI Fluency · Modelo de Conducción AI — UJMD</span>
+  <span>Propuesta de Identidad Visual · Junio 2026 · @untaldouglas</span>
+</footer>
+
+</body>
+</html>

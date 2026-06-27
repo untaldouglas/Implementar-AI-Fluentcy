@@ -18,8 +18,8 @@
 | # | Hito | Estado | Evidencia | Próximo paso |
 |---|---|---|---|---|
 | 0.1 | Selección de Champions | ✅ | `Acta_Seleccion_Champions_AI_Fluency.md` | Confirmación formal por correo |
-| 0.2 | Diagnóstico baseline | 🟡 | Cuestionario + CSV + guía Google Form listos | Aplicar a los 4 Champions |
-| 0.3 | Setup técnico Hermes | 🔲 | Setup local OK, falta para Champions | Guía de instalación por área |
+| 0.2 | Diagnóstico de Conducción AI | 🟡 | Google Form MCA listo (`make create-form`) | Aplicar a los 4 Champions |
+| 0.3 | Setup técnico de Hermes Agent | 🔲 | SOUL.md plantillas listas | Clonar repo + configurar por área con cada Champion |
 | 0.4 | Métricas de éxito acordadas | 🔲 | Métricas definidas en Alineación Estratégica | Consolidar con champions |
 
 **Avance Fase 0:** 1 de 4 hitos completos = 25%
@@ -32,7 +32,7 @@
 |---|---|---|---|---|
 | 1.1 | S1: Fundamentos y nivelación | 🔲 | 3 casos de uso/Champion | Planificada pero no iniciada |
 | 1.2 | S2: Productividad personal con IA | 🔲 | Mini-reporte por piloto | Depende de S1 |
-| 1.3 | S3: Construcción de agentes con Hermes | 🔲 | 1 agente funcional por área | Core del piloto |
+| 1.3 | S3: Construcción de agentes con Hermes Agent | 🔲 | 1 agente funcional por área | Core del piloto |
 | 1.4 | S4: Demo Day + lecciones aprendidas | 🔲 | 3 agentes + 3 mini-guías + informe | Cierre del piloto |
 
 **Avance Fase 1:** 0 de 4 = 0%  
@@ -58,7 +58,7 @@
 
 | # | Hito | Estado | Entregable |
 |---|---|---|---|
-| 3.1 | AI Fluency Standard UJMD-IT | 🔲 | Nivel mínimo esperado documentado |
+| 3.1 | Licencia Básica obligatoria para todo el equipo | 🔲 | 🟢 Licencia Básica (L2-L3) como mínimo institucional |
 | 3.2 | Catálogo de agentes internos | 🔲 | Inventario de agentes con propietarios |
 | 3.3 | Ciclo de mejora continua | 🔲 | Reunión mensual operativa |
 | 3.4 | Expansión a otras áreas UJMD | 🔲 | Modelo replicado fuera de la Dirección |
@@ -101,17 +101,17 @@
 
 ## 🔧 Integración Google Workspace UJMD *(Agosto-Septiembre 2026)*
 
-**Objetivo:** Conectar dominio `ujmd.edu.sv` con Hermes Agent para habilitar L4+
+**Objetivo:** Conectar dominio `ujmd.edu.sv` con Google Workspace para habilitar capacidades MCA L4+
 
 | # | Tarea | Estado | Responsable |
 |---|---|---|---|
-| GW.1 | Arquitectura de integración | 🔲 | Douglas |
-| GW.2 | Service account en GCP | 🔲 | Douglas + Patrick |
-| GW.3 | MCP server para Gmail | 🔲 | Douglas |
-| GW.4 | MCP server para Calendar | 🔲 | Douglas |
-| GW.5 | MCP server para Drive | 🔲 | Douglas + Mario |
-| GW.6 | Políticas de permisos por rol | 🔲 | Douglas |
-| GW.7 | Despliegue a Champions | 🔲 | Douglas + Champions |
+| GW.1 | Arquitectura de integración | 🔲 | @untaldouglas |
+| GW.2 | Service account en GCP | 🔲 | @untaldouglas + Patrick |
+| GW.3 | MCP server para Gmail | 🔲 | @untaldouglas |
+| GW.4 | MCP server para Calendar | 🔲 | @untaldouglas |
+| GW.5 | MCP server para Drive | 🔲 | @untaldouglas + Mario |
+| GW.6 | Políticas de permisos por rol | 🔲 | @untaldouglas |
+| GW.7 | Despliegue a Champions | 🔲 | @untaldouglas + Champions |
 
 **Cronograma:**
 - Agosto 2026: GW.1-GW.3 (arquitectura + Gmail)

@@ -108,6 +108,7 @@ function crearFormDiagnosticoMCA() {
       'Perplexity u otro buscador con IA',
       'Herramientas de generación de imágenes (DALL·E, Midjourney, Firefly...)',
       'Modelos locales (Ollama, LM Studio...)',
+      'Hermes Agent (NousResearch) — agente de IA open source',
       'Agente de IA personalizado (propio o de tu organización)',
       'Ninguna hasta ahora'
     ])

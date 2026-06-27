@@ -1,11 +1,13 @@
 # Makefile — Proyecto AI Fluentcy UJMD
 # ============================================================
-# Autor: @untaldouglas
+# Autor:       @untaldouglas
+# Herramienta: Hermes Agent (NousResearch) — https://github.com/nousresearch/hermes-agent
 # ============================================================
 
 .PHONY: help status check validate test backup clean docs stats \
         check-security list-ignored init-piloto \
-        champions-list baseline-summary reset
+        champions-list baseline-summary reset \
+        create-form form-script open-onboarding
 
 # Variables
 TIMESTAMP := $(shell date +%Y%m%d_%H%M%S)
@@ -54,6 +56,11 @@ help:
 	@echo "  $(YELLOW)make list-ignored$(NC)       Mostrar archivos ignorados por .gitignore"
 	@echo "  $(YELLOW)make backup$(NC)             Crear respaldo del repositorio"
 	@echo "  $(YELLOW)make clean$(NC)              Limpiar archivos temporales"
+	@echo ""
+	@echo "$(GREEN)GOOGLE FORM — DIAGNÓSTICO DE CONDUCCIÓN AI:$(NC)"
+	@echo "  $(YELLOW)make create-form$(NC)        Copiar script al portapapeles + abrir Apps Script"
+	@echo "  $(YELLOW)make form-script$(NC)        Mostrar el script completo en consola"
+	@echo "  $(YELLOW)make open-onboarding$(NC)    Abrir la página de onboarding en el navegador"
 	@echo ""
 	@echo "$(GREEN)DOCUMENTACIÓN:$(NC)"
 	@echo "  $(YELLOW)make docs$(NC)               Generar documentación consolidada en docs/"
@@ -512,4 +519,86 @@ docs:
 	@echo ""
 	@echo "$(YELLOW)Nota: este archivo no se sube a GitHub (está en .gitignore vía docs/)$(NC)"
 	@echo "  Lo puedes compartir localmente con quien necesites."
+	@echo ""
+
+# ============================================================
+# GOOGLE FORM — DIAGNÓSTICO DE CONDUCCIÓN AI
+# ============================================================
+
+FORM_SCRIPT := google_form/crear_form_conduccion_ai.gs
+ONBOARDING  := onboarding.html
+
+create-form:
+	@echo ""
+	@echo "$(BLUE)╔══════════════════════════════════════════════════════════════╗$(NC)"
+	@echo "$(BLUE)║       CREAR GOOGLE FORM — DIAGNÓSTICO DE CONDUCCIÓN AI     ║$(NC)"
+	@echo "$(BLUE)╚══════════════════════════════════════════════════════════════╝$(NC)"
+	@echo ""
+	@if [ ! -f "$(FORM_SCRIPT)" ]; then \
+		echo "$(YELLOW)✗ Script no encontrado: $(FORM_SCRIPT)$(NC)"; \
+		exit 1; \
+	fi
+	@echo "$(GREEN)Paso 1/3 — Copiando script al portapapeles...$(NC)"
+	@cat "$(FORM_SCRIPT)" | pbcopy && \
+		echo "  ✓ Script copiado ($(shell wc -l < "$(FORM_SCRIPT)" | tr -d ' ') líneas)" || \
+		echo "  $(YELLOW)⚠ pbcopy no disponible — usa 'make form-script' para ver el contenido$(NC)"
+	@echo ""
+	@echo "$(GREEN)Paso 2/3 — Abriendo Google Apps Script en el navegador...$(NC)"
+	@open "https://script.google.com/create" 2>/dev/null || \
+		echo "  $(YELLOW)⚠ No se pudo abrir el navegador — ve manualmente a: https://script.google.com$(NC)"
+	@echo "  ✓ Navegador abierto"
+	@echo ""
+	@echo "$(GREEN)Paso 3/3 — Instrucciones:$(NC)"
+	@echo ""
+	@echo "  1. En el editor de Apps Script que acaba de abrirse:"
+	@echo "     → Borra el contenido por defecto (todo el texto)"
+	@echo "     → Pega el contenido del portapapeles (Cmd+V)"
+	@echo "     → Guarda el proyecto (Cmd+S) — ponle un nombre descriptivo"
+	@echo ""
+	@echo "  2. En el menú desplegable de funciones, selecciona:"
+	@echo "     → crearFormDiagnosticoMCA"
+	@echo "     → Clic en ▶ Ejecutar"
+	@echo ""
+	@echo "  3. Acepta los permisos que Google solicite"
+	@echo "     → Ver → Registros (Cmd+Enter) para obtener el link del formulario"
+	@echo ""
+	@echo "$(BLUE)Script listo:$(NC) $(FORM_SCRIPT)"
+	@echo "$(BLUE)Tamaño:$(NC)      $(shell wc -l < "$(FORM_SCRIPT)" | tr -d ' ') líneas"
+	@echo "$(BLUE)Función:$(NC)     crearFormDiagnosticoMCA()"
+	@echo ""
+	@echo "$(GREEN)Una vez creado el form, actualiza el link en onboarding.html:$(NC)"
+	@echo "  Busca: TU_LINK_GOOGLE_FORM_AQUI"
+	@echo "  Reemplaza con: el link que aparece en el Log de Apps Script"
+	@echo ""
+
+form-script:
+	@echo ""
+	@echo "$(BLUE)╔══════════════════════════════════════════════════════════════╗$(NC)"
+	@echo "$(BLUE)║          SCRIPT: CREAR FORM DIAGNÓSTICO MCA                ║$(NC)"
+	@echo "$(BLUE)╚══════════════════════════════════════════════════════════════╝$(NC)"
+	@echo ""
+	@if [ ! -f "$(FORM_SCRIPT)" ]; then \
+		echo "$(YELLOW)✗ Script no encontrado: $(FORM_SCRIPT)$(NC)"; \
+		exit 1; \
+	fi
+	@echo "$(GREEN)Archivo:$(NC) $(FORM_SCRIPT)"
+	@echo "$(GREEN)Líneas: $(NC) $(shell wc -l < "$(FORM_SCRIPT)" | tr -d ' ')"
+	@echo ""
+	@echo "$(YELLOW)━━━ CONTENIDO DEL SCRIPT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$(NC)"
+	@cat "$(FORM_SCRIPT)"
+	@echo "$(YELLOW)━━━ FIN DEL SCRIPT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$(NC)"
+	@echo ""
+
+open-onboarding:
+	@echo ""
+	@if [ ! -f "$(ONBOARDING)" ]; then \
+		echo "$(YELLOW)✗ Archivo no encontrado: $(ONBOARDING)$(NC)"; \
+		exit 1; \
+	fi
+	@echo "$(GREEN)Abriendo página de onboarding en el navegador...$(NC)"
+	@open "$(ONBOARDING)" 2>/dev/null || \
+		xdg-open "$(ONBOARDING)" 2>/dev/null || \
+		echo "$(YELLOW)⚠ No se pudo abrir automáticamente. Abre este archivo en tu navegador:$(NC)" && \
+		echo "  $$(pwd)/$(ONBOARDING)"
+	@echo "  ✓ $(ONBOARDING)"
 	@echo ""

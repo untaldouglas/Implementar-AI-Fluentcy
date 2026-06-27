@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aprender a manejar antes de manejar con IA · Douglas A. Galindo</title>
+<meta name="description" content="La IA no se aprende oyendo hablar de ella. Se aprende usándola. Reflexiones sobre el Modelo de Conducción AI y por qué la metáfora vehicular cambia todo.">
+<meta property="og:title" content="Aprender a manejar antes de manejar con IA">
+<meta property="og:description" content="¿Por qué la mayoría de los profesionales con acceso a IA no la usan productivamente? Una reflexión sobre competencia real vs. acceso.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+  :root {
+    --cosmos: #03001a;
+    --navy: #0a1a5c;
+    --blue: #0055cc;
+    --cyan: #00b8d4;
+    --ice: #e8f0ff;
+    --white: #ffffff;
+    --gray-50: #f8fafc;
+    --gray-100: #f0f4f8;
+    --gray-200: #e2e8f0;
+    --gray-500: #64748b;
+    --gray-700: #334155;
+    --gray-900: #0f172a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Space Grotesk', Georgia, serif;
+    background: var(--white);
+    color: var(--gray-900);
+    line-height: 1.75;
+  }
+
+  /* === HEADER === */
+  .post-header {
+    background: var(--cosmos);
+    padding: 48px 24px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .post-header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(0,184,212,0.15) 0%, transparent 60%);
+  }
+  .post-tag {
+    display: inline-block;
+    background: rgba(0,184,212,0.15);
+    border: 1px solid rgba(0,184,212,0.4);
+    color: var(--cyan);
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .post-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: clamp(26px, 5vw, 46px);
+    color: var(--white);
+    line-height: 1.15;
+    max-width: 740px;
+    margin: 0 auto 16px;
+    position: relative;
+  }
+  .post-header h1 span { color: var(--cyan); }
+  .post-header .subtitle {
+    font-size: 16px;
+    color: rgba(232,240,255,0.65);
+    max-width: 560px;
+    margin: 0 auto 28px;
+    position: relative;
+  }
+  .author-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+  }
+  .author-avatar {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: white;
+  }
+  .author-info { text-align: left; }
+  .author-name { color: var(--white); font-size: 13px; font-weight: 600; }
+  .author-meta { color: rgba(255,255,255,0.4); font-size: 11px; }
+
+  /* === ARTICLE === */
+  .article {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 64px;
+  }
+
+  .article p {
+    font-size: 17px;
+    color: var(--gray-700);
+    margin-bottom: 24px;
+    line-height: 1.8;
+  }
+
+  .article p strong { color: var(--gray-900); font-weight: 600; }
+
+  .article h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--gray-900);
+    margin: 40px 0 16px;
+    line-height: 1.3;
+  }
+
+  .article h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--navy);
+    margin: 28px 0 10px;
+    letter-spacing: 0.2px;
+  }
+
+  .pull-quote {
+    border-left: 4px solid var(--cyan);
+    background: var(--gray-50);
+    border-radius: 0 8px 8px 0;
+    padding: 20px 24px;
+    margin: 32px 0;
+    font-size: 19px;
+    font-style: italic;
+    color: var(--navy);
+    line-height: 1.6;
+    font-weight: 500;
+  }
+
+  .insight-box {
+    background: linear-gradient(135deg, #eff6ff, #f0fdff);
+    border: 1px solid rgba(0,184,212,0.2);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 28px 0;
+  }
+  .insight-box p {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: var(--navy);
+  }
+  .insight-box p strong { color: var(--blue); }
+
+  .license-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin: 24px 0;
+  }
+  .lic {
+    border-radius: 8px;
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .lic .lic-name { font-size: 10px; color: inherit; opacity: 0.8; margin-bottom: 2px; }
+  .lic .lic-level { font-size: 13px; font-weight: 900; }
+
+  .divider {
+    height: 1px;
+    background: var(--gray-200);
+    margin: 40px 0;
+  }
+
+  /* === CTA === */
+  .cta-block {
+    background: var(--cosmos);
+    border-radius: 14px;
+    padding: 32px 28px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .cta-block h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+  .cta-block h3 span { color: var(--cyan); }
+  .cta-block p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 20px;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  /* === TAGS === */
+  .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 40px; }
+  .tag {
+    background: var(--gray-100);
+    color: var(--gray-500);
+    padding: 5px 14px;
+    border-radius: 16px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  /* === MARKDOWN EXPORT === */
+  .export-box {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    margin-top: 48px;
+  }
+  .export-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--gray-200);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .copy-md-btn {
+    background: var(--blue);
+    color: white;
+    border: none;
+    padding: 5px 14px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .export-content {
+    padding: 16px;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 12px;
+    color: var(--gray-700);
+    white-space: pre-wrap;
+    line-height: 1.6;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="post-header">
+  <div class="post-tag">Inteligencia Artificial · Formación · Opinión</div>
+  <h1>Aprender a manejar<br>antes de <span>manejar con IA</span></h1>
+  <p class="subtitle">Por qué tener acceso a una herramienta no es lo mismo que saber usarla — y qué podemos hacer al respecto.</p>
+  <div class="author-row">
+    <div class="author-avatar">DG</div>
+    <div class="author-info">
+      <div class="author-name">Douglas A. Galindo</div>
+      <div class="author-meta">Director de Servicios Informáticos · UJMD · Junio 2026</div>
+    </div>
+  </div>
+</header>
+
+<!-- ARTICLE -->
+<article class="article">
+
+  <p>Cuando aprendí a manejar, nadie me puso en el asiento del conductor el primer día y me dijo "arranca". Había teoría, había práctica controlada, había niveles. Primero el estacionamiento, luego calles tranquilas, luego avenidas con tráfico. La licencia llegó al final, cuando había evidencia real de que podía hacerlo.</p>
+
+  <p>Con la inteligencia artificial estamos haciendo exactamente lo contrario.</p>
+
+  <p>Ponemos a las personas frente a una herramienta increíblemente poderosa, les decimos "es gratis, úsala" — y luego nos sorprendemos de que el 73% de quienes tienen acceso a IA no la estén usando productivamente en su trabajo cotidiano. No porque no quieran. Sino porque <strong>nadie les enseñó a manejar.</strong></p>
+
+  <div class="pull-quote">
+    "El acceso no es competencia. La herramienta no es el aprendizaje. Tener el auto no es saber conducir."
+  </div>
+
+  <h2>El problema que nadie está nombrando</h2>
+
+  <p>En casi todos los equipos de trabajo que conozco, hay una brecha invisible: algunas personas ya automatizan tareas con IA, reducen su tiempo en reportes, generan primeros borradores en segundos, analizan datos que antes tomaban horas. Otras abren ChatGPT, escriben algo genérico, obtienen algo mediocre, y concluyen que "la IA no es para mí".</p>
+
+  <p>Esa brecha no es de inteligencia. No es de disposición. Es de <strong>método.</strong></p>
+
+  <p>El problema no es la herramienta — es que no existe una ruta de aprendizaje. No hay niveles. No hay evidencia de progreso. No hay forma de saber en qué punto estás ni hacia dónde vas.</p>
+
+  <div class="insight-box">
+    <p><strong>Pregunta concreta:</strong> ¿Tu equipo sabe en qué nivel de competencia de IA está cada persona? ¿Hay evidencia de eso? ¿Hay un plan para llevarlo al siguiente nivel? En la mayoría de organizaciones, la respuesta honesta a las tres preguntas es no.</p>
+  </div>
+
+  <h2>Una metáfora que cambia todo</h2>
+
+  <p>Llevo un par de años pensando en esto, y la analogía que más me ayudó a entenderlo — y a diseñar una solución — es la del manejo vehicular.</p>
+
+  <p>Cuando aprendes a conducir, el sistema es claro: hay niveles de competencia reconocidos, hay evidencia progresiva, hay una licencia que certifica que alcanzaste un umbral. No importa si tu instructor tiene 20 años de experiencia o 2 — el sistema estandariza el resultado.</p>
+
+  <p>¿Por qué no aplicar la misma lógica a la IA?</p>
+
+  <p>De esa pregunta nació el <strong>Modelo de Conducción AI (MCA)</strong>: un sistema de 10 niveles organizados en 5 licencias progresivas, donde cada nivel representa competencias concretas y verificables — no horas de clase, sino evidencia real de uso.</p>
+
+  <div class="license-row">
+    <div class="lic" style="background:#f0f4ff;color:#334155;">
+      <div class="lic-name">Permiso</div>
+      <div class="lic-level">L0–L1</div>
+    </div>
+    <div class="lic" style="background:#dbeafe;color:#1d4ed8;">
+      <div class="lic-name">Básica</div>
+      <div class="lic-level">L2–L3</div>
+    </div>
+    <div class="lic" style="background:#cffafe;color:#0e7490;">
+      <div class="lic-name">Profesional</div>
+      <div class="lic-level">L4–L5</div>
+    </div>
+    <div class="lic" style="background:#d1fae5;color:#065f46;">
+      <div class="lic-name">Avanzada</div>
+      <div class="lic-level">L6–L7</div>
+    </div>
+    <div class="lic" style="background:#ede9fe;color:#5b21b6;">
+      <div class="lic-name">Instructor</div>
+      <div class="lic-level">L8–L9</div>
+    </div>
+  </div>
+
+  <p>La idea no es que todos lleguen al nivel más alto. La idea es que <strong>todos tengan un nivel real, verificable, y un camino claro hacia el siguiente.</strong> Que nadie quede atrás porque "no sé por dónde empezar" — porque el sistema les dice exactamente dónde están y qué sigue.</p>
+
+  <h2>El modelo Champion: el par que ya fue por ese camino</h2>
+
+  <p>Una cosa que aprendí es que el mejor maestro de manejo no es el que más sabe de mecánica. Es el que recuerda perfectamente qué se sentía no saber manejar.</p>
+
+  <p>En el MCA, cada equipo tiene un <strong>Champion</strong>: una persona que avanza primero y luego transfiere ese conocimiento a sus pares. No desde una posición de experto distante, sino desde la cercanía de alguien que acaba de recorrer ese camino.</p>
+
+  <p>El resultado es un contagio de competencias, no una capacitación masiva. Y funciona porque el conocimiento se ancla en el contexto real del trabajo — no en casos genéricos de un manual.</p>
+
+  <div class="pull-quote">
+    "No necesitas a los más técnicos para que sean Champions. Necesitas a los más influyentes — a quienes el equipo va a escuchar cuando digan 'esto me cambió el trabajo'."
+  </div>
+
+  <h2>Lo que estamos construyendo en la UJMD</h2>
+
+  <p>A partir del 1 de julio, la Dirección de Servicios Informáticos de la Universidad José Matías Delgado arranca AI Fluency: la primera implementación formal del MCA en un contexto universitario salvadoreño.</p>
+
+  <p>Tres Champions — uno por área operativa — serán los primeros en recorrer este camino. En seis meses, el objetivo es tener evidencia auditable de competencia en IA para un equipo de entre 10 y 25 personas, y tres Instructores certificados listos para escalar el modelo hacia otras unidades de la universidad.</p>
+
+  <p>No es un proyecto de tecnología. Es un proyecto de personas que aprenden a usar tecnología de forma real, progresiva y verificable.</p>
+
+  <div class="insight-box">
+    <p>El programa también está siendo diseñado para <strong>generar datos de investigación</strong>: competencia pre/post, velocidad de adopción, efectividad del modelo Champion, impacto en productividad. Si tu área de investigación trabaja con tecnología educativa o adopción organizacional de IA, hay una conversación que vale la pena tener.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <p>Si algo de lo que leíste aquí resuena con algo que estás viviendo en tu organización — la brecha de competencias, la falta de un sistema, el potencial sin aprovechar — me interesa escucharlo.</p>
+
+  <p>Y si quieres saber más sobre el MCA y cómo estamos implementándolo, el camino más corto es escribirme directamente.</p>
+
+  <div class="cta-block">
+    <h3>¿Tu equipo ya sabe <span>manejar con IA</span>?</h3>
+    <p>El Modelo de Conducción AI arranca en la UJMD el 1 de julio. Conversemos sobre cómo podría funcionar en tu organización.</p>
+    <a href="mailto:dagalindo@ujmd.edu.sv?subject=AI Fluency · MCA" class="cta-btn">Escribirme directamente</a>
+  </div>
+
+  <div class="tag-row">
+    <span class="tag">#InteligenciaArtificial</span>
+    <span class="tag">#AIFluency</span>
+    <span class="tag">#DesarrolloProfesional</span>
+    <span class="tag">#UJMD</span>
+    <span class="tag">#ModeloDeConduccionAI</span>
+    <span class="tag">#LiderazgoDigital</span>
+    <span class="tag">#TransformacionDigital</span>
+  </div>
+
+  <!-- MARKDOWN EXPORT -->
+  <div class="export-box">
+    <div class="export-header">
+      <span>📋 Versión texto plano — LinkedIn / sitios institucionales</span>
+      <button class="copy-md-btn" onclick="copyMarkdown()">Copiar texto</button>
+    </div>
+    <div class="export-content" id="md-content">Aprender a manejar antes de manejar con IA
+Douglas A. Galindo · Junio 2026
+
+Cuando aprendí a manejar, nadie me puso en el asiento del conductor el primer día y me dijo "arranca". Había teoría, había práctica controlada, había niveles. La licencia llegó al final, cuando había evidencia real de que podía hacerlo.
+
+Con la inteligencia artificial estamos haciendo exactamente lo contrario.
+
+Ponemos a las personas frente a una herramienta increíblemente poderosa, les decimos "es gratis, úsala" — y luego nos sorprendemos de que el 73% de quienes tienen acceso a IA no la estén usando productivamente. No porque no quieran. Sino porque nadie les enseñó a manejar.
+
+El problema no es la herramienta. Es que no existe una ruta de aprendizaje. No hay niveles. No hay evidencia de progreso.
+
+---
+
+De esa pregunta nació el Modelo de Conducción AI (MCA): 10 niveles, 5 licencias progresivas, donde cada nivel representa competencias concretas y verificables — no horas de clase, sino evidencia real de uso.
+
+Las 5 licencias:
+→ Permiso (L0–L1): primeros pasos, orientación
+→ Básica (L2–L3): uso productivo cotidiano
+→ Profesional (L4–L5): automatización y flujos propios
+→ Avanzada (L6–L7): sistemas y agentes
+→ Instructor (L8–L9): transferencia de conocimiento al equipo
+
+La idea no es que todos lleguen al nivel más alto. La idea es que todos tengan un nivel real, verificable, y un camino claro hacia el siguiente.
+
+---
+
+A partir del 1 de julio, la Dirección de Servicios Informáticos de la UJMD arranca AI Fluency: la primera implementación formal del MCA. Tres Champions — uno por área — serán los primeros en recorrer este camino. En seis meses: evidencia auditable de competencia en IA para un equipo de 10–25 personas.
+
+No es un proyecto de tecnología. Es un proyecto de personas que aprenden a usar tecnología de forma real, progresiva y verificable.
+
+Si algo de esto resuena con lo que estás viviendo en tu organización, conversemos.
+
+📧 dagalindo@ujmd.edu.sv
+🏛 Universidad José Matías Delgado · Dirección de Servicios Informáticos
+
+#InteligenciaArtificial #AIFluency #DesarrolloProfesional #UJMD #ModeloDeConduccionAI #LiderazgoDigital #TransformacionDigital</div>
+  </div>
+
+</article>
+
+<script>
+function copyMarkdown() {
+  const content = document.getElementById('md-content').innerText;
+  navigator.clipboard.writeText(content).then(() => {
+    const btn = event.currentTarget;
+    btn.textContent = '✅ Copiado';
+    setTimeout(() => btn.textContent = 'Copiar texto', 2000);
+  });
+}
+</script>
+
+</body>
+</html>

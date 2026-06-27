@@ -1,11 +1,12 @@
-# Cuestionario Baseline — AI Literacy
-**Dirección de Servicios Informáticos · UJMD**
-**Versión:** 1.0 | **Tiempo estimado:** 25–30 minutos
-**Aplicar a:** 3 Champions seleccionados (1 por área) + extender al equipo completo en Fase 2
+# Diagnóstico de Conducción AI — Instrumento Presencial
+**Dirección de Servicios Informáticos · UJMD · Modelo de Conducción AI (MCA)**  
+**Versión:** 2.0 | **Tiempo estimado:** 15–20 minutos  
+**Aplicar a:** 4 Champions seleccionados + extender al equipo completo en Fase 2  
+**Versión digital:** `google_form/crear_form_conduccion_ai.gs` → `make create-form`
 
 ---
 
-## Instrucciones para el facilitador (Douglas)
+## Instrucciones para el Instructor de Conducción
 
 **Propósito:** Diagnosticar el punto de partida de cada participante en 4 dimensiones antes del piloto:
 1. Herramientas de IA que usa actualmente
@@ -175,7 +176,8 @@ Para cada caso indica:
 _espacio para registrar observaciones Douglas durante/justo después de la entrevista_
 
 - **Señales de apertura al cambio:**
-- **Nivel real estimado (vs. autodiagnóstico):**
+- **Nivel MCA real estimado (vs. autodiagnóstico):**
+- **Licencia de entrada asignada:** 🟤 / 🟢 / 🔵 / 🟣 / 🏆
 - **Bloqueo dominante identificado:**
 - **Caso de uso más prometedor para construir agente en Fase 1:**
 - **Recomendación de itinerario personalizado:**
@@ -184,11 +186,12 @@ _espacio para registrar observaciones Douglas durante/justo después de la entre
 
 ## Plantilla de resumen ejecutivo (para consolidar los 3 Champions)
 
-| Participante | Área | Nivel estimado | Bloqueo principal | Caso #1 prometedor | Itinerario recomendado |
+| Participante | Área | Nivel MCA | Licencia de entrada | Bloqueo principal | Itinerario recomendado |
 |---|---|---|---|---|---|
-| Champion 1 | | L  | | | |
-| Champion 2 | | L  | | | |
-| Champion 3 | | L  | | | |
+| Champion 1 | | L | 🟤/🟢/🔵/🟣/🏆 | | |
+| Champion 2 | | L | 🟤/🟢/🔵/🟣/🏆 | | |
+| Champion 3 | | L | 🟤/🟢/🔵/🟣/🏆 | | |
+| Champion 4 | | L | 🟤/🟢/🔵/🟣/🏆 | | |
 
 **Hallazgos agregados:**
 - Nivel promedio del grupo:
@@ -224,4 +227,6 @@ El Roadmap dice: *"no el más avanzado ni el más novato, sino el de mayor apert
 
 ---
 
-*Instrumento diseñado para aplicarse antes del inicio del piloto. La segunda aplicación (Fase 1, Semana 4) servirá como medición de progreso.*
+*Instrumento del Modelo de Conducción AI (MCA) — @untaldouglas · UJMD · v2.0*  
+*Primera aplicación: diagnóstico de entrada (Fase 0). Segunda aplicación: Semana 4 (Demo Day) para medir progreso y emitir licencias iniciales.*  
+*Versión digital automatizada: `make create-form`*
