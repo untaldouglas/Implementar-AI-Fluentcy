@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Pack — AI Fluency · UJMD</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+  :root {
+    --cosmos: #03001a;
+    --navy: #0a1a5c;
+    --blue: #0055cc;
+    --cyan-mid: #00b8d4;
+    --cyan: #00e5ff;
+    --ice: #e8f0ff;
+    --white: #ffffff;
+    --gray-50: #f8fafc;
+    --gray-100: #f0f4f8;
+    --gray-200: #e2e8f0;
+    --gray-400: #94a3b8;
+    --gray-600: #475569;
+    --gray-800: #1e293b;
+    --green: #10b981;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --purple: #8b5cf6;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Space Grotesk', -apple-system, sans-serif;
+    background: var(--gray-100);
+    color: var(--gray-800);
+    min-height: 100vh;
+  }
+
+  /* === HEADER === */
+  .page-header {
+    background: var(--cosmos);
+    padding: 32px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .page-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .logo-mark {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .logo-mark svg { width: 22px; height: 22px; }
+  .logo-text { font-family: 'Montserrat', sans-serif; font-weight: 900; }
+  .logo-text .brand { color: var(--white); font-size: 18px; letter-spacing: -0.5px; }
+  .logo-text .sub { color: var(--cyan-mid); font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; }
+  .page-badge {
+    background: rgba(0,229,255,0.1);
+    border: 1px solid rgba(0,229,255,0.3);
+    color: var(--cyan);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /* === NAV TABS === */
+  .tab-nav {
+    background: var(--white);
+    border-bottom: 2px solid var(--gray-200);
+    padding: 0 48px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+  }
+  .tab-btn {
+    padding: 16px 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray-400);
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    white-space: nowrap;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tab-btn:hover { color: var(--gray-800); }
+  .tab-btn.active { color: var(--blue); border-bottom-color: var(--blue); }
+  .tab-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+  }
+
+  /* === MAIN LAYOUT === */
+  .main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 48px;
+  }
+
+  /* === EMAIL PANELS === */
+  .email-panel { display: none; }
+  .email-panel.active { display: block; }
+
+  .panel-header {
+    margin-bottom: 32px;
+  }
+  .audience-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .panel-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--gray-800);
+    margin-bottom: 6px;
+  }
+  .panel-header .subtitle {
+    color: var(--gray-600);
+    font-size: 14px;
+  }
+
+  /* Email value bar */
+  .value-bar {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    border-left: 4px solid var(--blue);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .value-item label {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gray-400);
+    margin-bottom: 4px;
+  }
+  .value-item p {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray-800);
+    line-height: 1.4;
+  }
+
+  /* The email preview card */
+  .email-card {
+    background: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    margin-bottom: 32px;
+  }
+
+  .email-client-bar {
+    background: var(--gray-100);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  .traffic-lights { display: flex; gap: 6px; }
+  .tl { width: 12px; height: 12px; border-radius: 50%; }
+  .tl-red { background: #ff5f57; }
+  .tl-yellow { background: #febc2e; }
+  .tl-green { background: #28c840; }
+  .client-title {
+    font-size: 12px;
+    color: var(--gray-400);
+    font-weight: 500;
+  }
+
+  .email-meta {
+    padding: 20px 32px;
+    border-bottom: 1px solid var(--gray-200);
+    background: var(--gray-50);
+  }
+  .meta-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+    font-size: 13px;
+  }
+  .meta-row:last-child { margin-bottom: 0; }
+  .meta-label {
+    font-weight: 700;
+    color: var(--gray-600);
+    min-width: 36px;
+  }
+  .meta-value { color: var(--gray-800); }
+  .meta-subject {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--gray-800);
+  }
+
+  /* The actual email body */
+  .email-body {
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--gray-800);
+  }
+
+  /* Inner email rendering */
+  .email-render {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  .email-header-banner {
+    background: var(--cosmos);
+    padding: 24px 32px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -32px -32px 24px -32px;
+  }
+  .email-header-banner .brand-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: var(--white);
+    font-size: 16px;
+  }
+  .email-header-banner .brand-tag {
+    color: var(--cyan-mid);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .email-header-banner .ujmd-badge {
+    background: rgba(255,255,255,0.1);
+    color: var(--ice);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .email-greeting {
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+  .email-greeting strong { color: var(--gray-900); }
+
+  .email-p { margin-bottom: 16px; }
+
+  .highlight-box {
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 20px 0;
+  }
+  .highlight-box.blue {
+    background: #eff6ff;
+    border-left: 4px solid var(--blue);
+  }
+  .highlight-box.cyan {
+    background: #f0fdff;
+    border-left: 4px solid var(--cyan-mid);
+  }
+  .highlight-box.green {
+    background: #f0fdf4;
+    border-left: 4px solid var(--green);
+  }
+  .highlight-box.purple {
+    background: #faf5ff;
+    border-left: 4px solid var(--purple);
+  }
+  .highlight-box p { margin: 0; font-size: 13px; }
+  .highlight-box strong { display: block; margin-bottom: 4px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-600); }
+
+  .benefit-list {
+    list-style: none;
+    margin: 16px 0;
+  }
+  .benefit-list li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    align-items: flex-start;
+  }
+  .benefit-list .icon {
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .cta-block {
+    text-align: center;
+    padding: 24px 0;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--blue), var(--cyan-mid));
+    color: var(--white);
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+  }
+  .cta-sub {
+    margin-top: 10px;
+    font-size: 11px;
+    color: var(--gray-400);
+  }
+
+  .divider {
+    height: 1px;
+    background: var(--gray-200);
+    margin: 20px 0;
+  }
+
+  .email-signature {
+    font-size: 12px;
+    color: var(--gray-600);
+    border-top: 2px solid var(--gray-200);
+    padding-top: 16px;
+    margin-top: 24px;
+  }
+  .sig-name {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--gray-800);
+    margin-bottom: 2px;
+  }
+  .sig-title { color: var(--gray-600); margin-bottom: 8px; }
+  .sig-contact { color: var(--cyan-mid); font-size: 11px; }
+
+  /* License pill */
+  .license-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  /* === TIPS BOX === */
+  .tips-box {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid var(--gray-200);
+  }
+  .tips-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--gray-600);
+    margin-bottom: 16px;
+  }
+  .tip {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    align-items: flex-start;
+  }
+  .tip-icon {
+    width: 24px; height: 24px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .tip p { color: var(--gray-600); line-height: 1.5; }
+  .tip strong { color: var(--gray-800); }
+
+  /* === COPY BUTTON === */
+  .copy-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+  .copy-btn {
+    background: var(--gray-100);
+    border: 1px solid var(--gray-200);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--gray-600);
+    transition: all 0.2s;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .copy-btn:hover { background: var(--blue); color: var(--white); border-color: var(--blue); }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .main { padding: 24px 16px; }
+    .tab-nav { padding: 0 16px; }
+    .page-header { padding: 20px 16px; }
+    .value-bar { grid-template-columns: 1fr; }
+    .email-render { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE HEADER -->
+<header class="page-header">
+  <div class="logo">
+    <div class="logo-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 8v4l3 3"/>
+        <path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
+      </svg>
+    </div>
+    <div class="logo-text">
+      <div class="brand">AI Fluency</div>
+      <div class="sub">Modelo de Conducción AI · UJMD</div>
+    </div>
+  </div>
+  <span class="page-badge">📧 Email Pack · 4 Audiencias</span>
+</header>
+
+<!-- TAB NAV -->
+<nav class="tab-nav">
+  <button class="tab-btn active" onclick="showTab('champions')">
+    <span class="tab-dot" style="background:#0055cc"></span> Champions
+  </button>
+  <button class="tab-btn" onclick="showTab('coordinadores')">
+    <span class="tab-dot" style="background:#10b981"></span> Coordinadores
+  </button>
+  <button class="tab-btn" onclick="showTab('rectoria')">
+    <span class="tab-dot" style="background:#8b5cf6"></span> Rectoría
+  </button>
+  <button class="tab-btn" onclick="showTab('investigacion')">
+    <span class="tab-dot" style="background:#f59e0b"></span> Investigación
+  </button>
+</nav>
+
+<div class="main">
+
+  <!-- ======================================================
+       TAB 1: CHAMPIONS
+  ====================================================== -->
+  <div class="email-panel active" id="tab-champions">
+    <div class="panel-header">
+      <div class="audience-badge" style="background:#eff6ff; color:#0055cc;">
+        🎯 Audiencia: Champions Seleccionados
+      </div>
+      <h1>Email para Champions</h1>
+      <p class="subtitle">Personas identificadas por área. Tono: directo, motivador, con propósito claro. Objetivo: conseguir compromiso + primera sesión agendada.</p>
+    </div>
+
+    <div class="value-bar" style="border-left-color: #0055cc;">
+      <div class="value-item">
+        <label>🎯 Su ganancia principal</label>
+        <p>Certificación real + posicionamiento como referente de IA en la institución</p>
+      </div>
+      <div class="value-item">
+        <label>⏱ Llamada a la acción</label>
+        <p>Confirmar participación + disponibilidad para kick-off del 1 de julio</p>
+      </div>
+      <div class="value-item">
+        <label>📌 Tono</label>
+        <p>Reconocimiento + exclusividad + propósito. No es una asignación, es una elección.</p>
+      </div>
+    </div>
+
+    <div class="copy-section">
+      <button class="copy-btn" onclick="copyEmail('champions-text')">📋 Copiar texto plano</button>
+    </div>
+
+    <div class="email-card">
+      <div class="email-client-bar">
+        <div class="traffic-lights">
+          <div class="tl tl-red"></div>
+          <div class="tl tl-yellow"></div>
+          <div class="tl tl-green"></div>
+        </div>
+        <span class="client-title">Nuevo mensaje — Gmail / Outlook</span>
+      </div>
+      <div class="email-meta">
+        <div class="meta-row"><span class="meta-label">De:</span><span class="meta-value">Douglas A. Galindo &lt;dagalindo@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">Para:</span><span class="meta-value">[Nombre del Champion] &lt;email@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">Asunto:</span><span class="meta-value meta-subject">Te elegí para algo importante — AI Fluency arranca el 1 de julio</span></div>
+      </div>
+      <div class="email-body">
+        <div class="email-render">
+          <div class="email-header-banner">
+            <div>
+              <div class="brand-name">AI Fluency</div>
+              <div class="brand-tag">Modelo de Conducción AI</div>
+            </div>
+            <div class="ujmd-badge">UJMD · DSI</div>
+          </div>
+
+          <p class="email-greeting">Hola, <strong>[Nombre]</strong>.</p>
+
+          <p class="email-p">Quiero contarte algo antes de que lo escuches por otro lado: te elegí como Champion de AI Fluency para el área de <strong>[Área]</strong>.</p>
+
+          <p class="email-p">No es un curso más. Es el primer programa de certificación progresiva en inteligencia artificial que vamos a construir dentro de la Dirección de Informática — y tú serás una de las tres personas que lo van a arrancar.</p>
+
+          <div class="highlight-box blue">
+            <strong>¿Qué significa ser Champion?</strong>
+            <p>Eres la primera persona de tu área en adquirir estas habilidades de forma estructurada. Tu trabajo no es solo aprender — es eventualmente transferir eso a tu equipo. Al mes 6, puedes obtener la <strong>Licencia Instructor</strong>: el nivel más alto del programa.</p>
+          </div>
+
+          <p class="email-p"><strong>¿Por qué tú?</strong> No te seleccioné por ser el más técnico. Te seleccioné porque tienes apertura al cambio, influencia real en tu área, y capacidad de mover a otros. Esas son las cualidades que hacen que esto funcione.</p>
+
+          <p class="email-p"><strong>Lo que obtienes al participar:</strong></p>
+
+          <ul class="benefit-list">
+            <li>
+              <div class="icon" style="background:#eff6ff; color:#0055cc;">✓</div>
+              <span><strong>Certificación oficial por nivel</strong> (L0 a L9 según tu avance) — basada en evidencia real, no en horas-asiento</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#f0fdff; color:#00b8d4;">✓</div>
+              <span><strong>Acceso exclusivo a herramientas de IA</strong> que estamos implementando en la dirección: Hermes Agent, Claude + MCP, flujos automatizados</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#f0fdf4; color:#10b981;">✓</div>
+              <span><strong>Itinerario personalizado</strong> para tu nivel actual — no empezamos desde cero si ya tienes base</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#faf5ff; color:#8b5cf6;">✓</div>
+              <span><strong>Posicionamiento institucional</strong> como referente de IA en tu área, con evidencia auditable en repositorio</span>
+            </li>
+          </ul>
+
+          <div class="highlight-box cyan">
+            <strong>Lo que te pido</strong>
+            <p>Una hora el <strong>1 de julio</strong> para el kick-off oficial del programa. Antes de eso, completar un diagnóstico breve (15 minutos) que me ayuda a construir tu plan personalizado. Nada más por ahora.</p>
+          </div>
+
+          <p class="email-p">Si tienes preguntas, escríbeme directamente. Si necesitas más contexto antes de decidir, podemos tener una conversación corta esta semana.</p>
+
+          <div class="cta-block">
+            <a href="mailto:dagalindo@ujmd.edu.sv?subject=Confirmo participación en AI Fluency" class="cta-btn">✅ Confirmar participación</a>
+            <p class="cta-sub">O responde este correo con cualquier pregunta</p>
+          </div>
+
+          <div class="email-signature">
+            <div class="sig-name">Douglas A. Galindo</div>
+            <div class="sig-title">Director de Servicios Informáticos · UJMD</div>
+            <div class="sig-contact">dagalindo@ujmd.edu.sv · AI Fluency Program Lead</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden text version for copy -->
+    <textarea id="champions-text" style="position:absolute;left:-9999px">Asunto: Te elegí para algo importante — AI Fluency arranca el 1 de julio
+
+Hola, [Nombre].
+
+Quiero contarte algo antes de que lo escuches por otro lado: te elegí como Champion de AI Fluency para el área de [Área].
+
+No es un curso más. Es el primer programa de certificación progresiva en inteligencia artificial que vamos a construir dentro de la Dirección de Informática — y tú serás una de las tres personas que lo van a arrancar.
+
+¿Qué significa ser Champion?
+
+Eres la primera persona de tu área en adquirir estas habilidades de forma estructurada. Tu trabajo no es solo aprender — es eventualmente transferir eso a tu equipo. Al mes 6, puedes obtener la Licencia Instructor: el nivel más alto del programa.
+
+¿Por qué tú? No te seleccioné por ser el más técnico. Te seleccioné porque tienes apertura al cambio, influencia real en tu área, y capacidad de mover a otros. Esas son las cualidades que hacen que esto funcione.
+
+Lo que obtienes al participar:
+• Certificación oficial por nivel (L0 a L9 según tu avance) — basada en evidencia real, no en horas-asiento
+• Acceso exclusivo a herramientas de IA que estamos implementando en la dirección: Hermes Agent, Claude + MCP, flujos automatizados
+• Itinerario personalizado para tu nivel actual — no empezamos desde cero si ya tienes base
+• Posicionamiento institucional como referente de IA en tu área, con evidencia auditable en repositorio
+
+Lo que te pido:
+Una hora el 1 de julio para el kick-off oficial del programa. Antes de eso, completar un diagnóstico breve (15 minutos) que me ayuda a construir tu plan personalizado. Nada más por ahora.
+
+Si tienes preguntas, escríbeme directamente. Si necesitas más contexto antes de decidir, podemos tener una conversación corta esta semana.
+
+Douglas A. Galindo
+Director de Servicios Informáticos · UJMD
+dagalindo@ujmd.edu.sv</textarea>
+
+    <div class="tips-box">
+      <h3>💡 Notas de uso para este email</h3>
+      <div class="tip">
+        <div class="tip-icon" style="background:#eff6ff;">🎯</div>
+        <p><strong>Personaliza [Nombre] y [Área]</strong> antes de enviar. El reconocimiento específico es lo que diferencia este email de una circular.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#f0fdff;">⏰</div>
+        <p><strong>Enviar entre martes y jueves</strong>, 8–10 AM. Evitar lunes (buzón lleno) y viernes (fin de semana).</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#f0fdf4;">🔗</div>
+        <p><strong>Adjunta el infográfico</strong> del programa como PDF o imagen para dar contexto visual inmediato.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#fef9c3;">⚡</div>
+        <p><strong>Seguimiento en 48h</strong> si no responden. Mensaje corto: "¿Pudiste ver el correo? ¿Tienes alguna pregunta antes de confirmar?"</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       TAB 2: COORDINADORES
+  ====================================================== -->
+  <div class="email-panel" id="tab-coordinadores">
+    <div class="panel-header">
+      <div class="audience-badge" style="background:#f0fdf4; color:#10b981;">
+        🏢 Audiencia: Coordinadores de Área
+      </div>
+      <h1>Email para Coordinadores</h1>
+      <p class="subtitle">Jefes directos de los Champions. Tono: profesional, orientado a resultados, transparencia. Objetivo: alinear expectativas + obtener su apoyo para liberar tiempo al Champion.</p>
+    </div>
+
+    <div class="value-bar" style="border-left-color: #10b981;">
+      <div class="value-item">
+        <label>🎯 Su ganancia principal</label>
+        <p>Equipo más competente sin costo adicional + visibilidad ante la institución como área innovadora</p>
+      </div>
+      <div class="value-item">
+        <label>⏱ Llamada a la acción</label>
+        <p>Confirmar disponibilidad del Champion + asistir a reunión informativa opcional</p>
+      </div>
+      <div class="value-item">
+        <label>📌 Tono</label>
+        <p>Transparente sobre el tiempo requerido. Énfasis en ROI de equipo, no en el individuo.</p>
+      </div>
+    </div>
+
+    <div class="copy-section">
+      <button class="copy-btn" onclick="copyEmail('coord-text')">📋 Copiar texto plano</button>
+    </div>
+
+    <div class="email-card">
+      <div class="email-client-bar">
+        <div class="traffic-lights">
+          <div class="tl tl-red"></div>
+          <div class="tl tl-yellow"></div>
+          <div class="tl tl-green"></div>
+        </div>
+        <span class="client-title">Nuevo mensaje — Gmail / Outlook</span>
+      </div>
+      <div class="email-meta">
+        <div class="meta-row"><span class="meta-label">De:</span><span class="meta-value">Douglas A. Galindo &lt;dagalindo@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">Para:</span><span class="meta-value">[Nombre del Coordinador] &lt;email@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">CC:</span><span class="meta-value">[Champion del área]</span></div>
+        <div class="meta-row"><span class="meta-label">Asunto:</span><span class="meta-value meta-subject">AI Fluency: tu equipo entra al programa — necesito tu apoyo en una cosa</span></div>
+      </div>
+      <div class="email-body">
+        <div class="email-render">
+          <div class="email-header-banner">
+            <div>
+              <div class="brand-name">AI Fluency</div>
+              <div class="brand-tag">Modelo de Conducción AI</div>
+            </div>
+            <div class="ujmd-badge">UJMD · DSI</div>
+          </div>
+
+          <p class="email-greeting">Estimado/a <strong>[Nombre]</strong>,</p>
+
+          <p class="email-p">A partir del 1 de julio, la Dirección de Informática arranca un programa interno de certificación en inteligencia artificial llamado <strong>AI Fluency</strong>. Quiero informarte directamente porque una persona de tu área, <strong>[Nombre del Champion]</strong>, fue seleccionada como Champion.</p>
+
+          <div class="highlight-box green">
+            <strong>¿Qué implica esto para tu área?</strong>
+            <p><strong>[Champion]</strong> recibirá formación estructurada en IA durante los próximos 6 meses. Al finalizar, tendrá capacidad de transferir ese conocimiento a su equipo. No contratas a nadie nuevo — el área gana capacidad real en IA sin inversión adicional.</p>
+          </div>
+
+          <p class="email-p"><strong>Lo que necesito de tu parte:</strong></p>
+
+          <ul class="benefit-list">
+            <li>
+              <div class="icon" style="background:#f0fdf4; color:#10b981;">1</div>
+              <span><strong>2–3 horas semanales de disponibilidad</strong> para [Champion] durante el primer mes (fase de piloto). El aprendizaje se integra al trabajo real, no lo interrumpe.</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#f0fdf4; color:#10b981;">2</div>
+              <span><strong>Tu apoyo como coordinador</strong> cuando [Champion] proponga aplicar nuevas herramientas o flujos. Esta es la parte crítica: el conocimiento se consolida cuando se usa.</span>
+            </li>
+          </ul>
+
+          <p class="email-p"><strong>Lo que obtienes como coordinador de área:</strong></p>
+
+          <ul class="benefit-list">
+            <li>
+              <div class="icon" style="background:#eff6ff; color:#0055cc;">✓</div>
+              <span>Un especialista en IA dentro de tu propio equipo — sin costo, sin contratación</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#f0fdff; color:#00b8d4;">✓</div>
+              <span>Posicionamiento de tu área como pionera en adopción de IA dentro de la institución</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#f0fdf4; color:#10b981;">✓</div>
+              <span>Visibilidad ante Rectoría: el programa incluye métricas institucionales que documentan el impacto por área</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#faf5ff; color:#8b5cf6;">✓</div>
+              <span>Opción de incorporarte al programa en fases posteriores si lo deseas</span>
+            </li>
+          </ul>
+
+          <div class="highlight-box cyan">
+            <strong>Próximo paso</strong>
+            <p>Te pido que confirmes tu apoyo respondiendo este correo. Si quieres un espacio breve (20 minutos) para conversar antes del 30 de junio, con gusto lo coordinamos. También copia a [Champion] en tu respuesta para que todos estemos alineados desde el inicio.</p>
+          </div>
+
+          <div class="cta-block">
+            <a href="mailto:dagalindo@ujmd.edu.sv?subject=Confirmo apoyo - AI Fluency" class="cta-btn">✅ Confirmar apoyo</a>
+            <p class="cta-sub">O responde con tus preguntas — respondo en menos de 24h</p>
+          </div>
+
+          <div class="email-signature">
+            <div class="sig-name">Douglas A. Galindo</div>
+            <div class="sig-title">Director de Servicios Informáticos · UJMD</div>
+            <div class="sig-contact">dagalindo@ujmd.edu.sv · AI Fluency Program Lead</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <textarea id="coord-text" style="position:absolute;left:-9999px">Asunto: AI Fluency: tu equipo entra al programa — necesito tu apoyo en una cosa
+
+Estimado/a [Nombre],
+
+A partir del 1 de julio, la Dirección de Informática arranca un programa interno de certificación en inteligencia artificial llamado AI Fluency. Quiero informarte directamente porque una persona de tu área, [Nombre del Champion], fue seleccionada como Champion.
+
+¿Qué implica esto para tu área?
+
+[Champion] recibirá formación estructurada en IA durante los próximos 6 meses. Al finalizar, tendrá capacidad de transferir ese conocimiento a su equipo. No contratas a nadie nuevo — el área gana capacidad real en IA sin inversión adicional.
+
+Lo que necesito de tu parte:
+1. 2–3 horas semanales de disponibilidad para [Champion] durante el primer mes (fase de piloto). El aprendizaje se integra al trabajo real, no lo interrumpe.
+2. Tu apoyo como coordinador cuando [Champion] proponga aplicar nuevas herramientas o flujos. Esta es la parte crítica: el conocimiento se consolida cuando se usa.
+
+Lo que obtienes como coordinador de área:
+• Un especialista en IA dentro de tu propio equipo — sin costo, sin contratación
+• Posicionamiento de tu área como pionera en adopción de IA dentro de la institución
+• Visibilidad ante Rectoría: el programa incluye métricas institucionales que documentan el impacto por área
+• Opción de incorporarte al programa en fases posteriores si lo deseas
+
+Próximo paso:
+Te pido que confirmes tu apoyo respondiendo este correo. Si quieres un espacio breve (20 minutos) para conversar antes del 30 de junio, con gusto lo coordinamos. También copia a [Champion] en tu respuesta para que todos estemos alineados desde el inicio.
+
+Douglas A. Galindo
+Director de Servicios Informáticos · UJMD
+dagalindo@ujmd.edu.sv</textarea>
+
+    <div class="tips-box">
+      <h3>💡 Notas de uso para este email</h3>
+      <div class="tip">
+        <div class="tip-icon" style="background:#f0fdf4;">👥</div>
+        <p><strong>Enviar en CC al Champion</strong> crea accountability inmediato y evita conversaciones paralelas contradictorias.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#eff6ff;">📊</div>
+        <p><strong>Si el coordinador pregunta por el tiempo comprometido</strong>, la respuesta es: "2–3h/semana el primer mes, bajando a 1–2h en expansión. Nunca más del 10% de la jornada."</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#faf5ff;">🏛</div>
+        <p><strong>La mención de Rectoría</strong> es estratégica. Los coordinadores responden a visibilidad institucional. No la quites.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       TAB 3: RECTORÍA
+  ====================================================== -->
+  <div class="email-panel" id="tab-rectoria">
+    <div class="panel-header">
+      <div class="audience-badge" style="background:#faf5ff; color:#8b5cf6;">
+        🏛 Audiencia: Rectoría / Autoridades
+      </div>
+      <h1>Email para Rectoría</h1>
+      <p class="subtitle">Rector/a, Vicerrectores, Secretaría General. Tono: institucional, estratégico, breve. Objetivo: información + aval institucional + posibilidad de agendar presentación formal.</p>
+    </div>
+
+    <div class="value-bar" style="border-left-color: #8b5cf6;">
+      <div class="value-item">
+        <label>🎯 Su ganancia principal</label>
+        <p>Liderazgo regional en IA universitaria + narrativa publicable + ROI sin presupuesto externo</p>
+      </div>
+      <div class="value-item">
+        <label>⏱ Llamada a la acción</label>
+        <p>Recibir presentación de 30 minutos o emitir aval institucional</p>
+      </div>
+      <div class="value-item">
+        <label>📌 Tono</label>
+        <p>Ejecutivo. Sin jerga técnica. Énfasis en posicionamiento institucional y sin costo adicional.</p>
+      </div>
+    </div>
+
+    <div class="copy-section">
+      <button class="copy-btn" onclick="copyEmail('rector-text')">📋 Copiar texto plano</button>
+    </div>
+
+    <div class="email-card">
+      <div class="email-client-bar">
+        <div class="traffic-lights">
+          <div class="tl tl-red"></div>
+          <div class="tl tl-yellow"></div>
+          <div class="tl tl-green"></div>
+        </div>
+        <span class="client-title">Nuevo mensaje — Gmail / Outlook</span>
+      </div>
+      <div class="email-meta">
+        <div class="meta-row"><span class="meta-label">De:</span><span class="meta-value">Douglas A. Galindo &lt;dagalindo@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">Para:</span><span class="meta-value">[Rector/Vicerrector] &lt;email@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">Asunto:</span><span class="meta-value meta-subject">AI Fluency: primera iniciativa de certificación institucional en IA — inicia el 1 de julio</span></div>
+      </div>
+      <div class="email-body">
+        <div class="email-render">
+          <div class="email-header-banner">
+            <div>
+              <div class="brand-name">AI Fluency</div>
+              <div class="brand-tag">Modelo de Conducción AI</div>
+            </div>
+            <div class="ujmd-badge">UJMD · DSI</div>
+          </div>
+
+          <p class="email-greeting">Estimado/a <strong>[Título y Nombre]</strong>,</p>
+
+          <p class="email-p">Me dirijo a usted para informarle que el 1 de julio la Dirección de Servicios Informáticos pondrá en marcha <strong>AI Fluency</strong>, el primer programa de certificación progresiva en inteligencia artificial desarrollado internamente en la UJMD.</p>
+
+          <div class="highlight-box purple" style="background:#faf5ff; border-left-color:#8b5cf6;">
+            <strong>En síntesis</strong>
+            <p>Un sistema de 10 niveles y 5 certificaciones que lleva a nuestro equipo técnico de cualquier nivel de IA a un umbral funcional documentado — con evidencia auditable, sin costo externo, y con un modelo de transferencia que escala hacia otras áreas de la universidad.</p>
+          </div>
+
+          <p class="email-p"><strong>Por qué importa institucionalmente:</strong></p>
+
+          <ul class="benefit-list">
+            <li>
+              <div class="icon" style="background:#faf5ff; color:#8b5cf6;">🏆</div>
+              <span><strong>Liderazgo regional:</strong> Pocas universidades en Centroamérica tienen un programa formal de certificación interna en IA. Este nos posiciona en la vanguardia.</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#faf5ff; color:#8b5cf6;">📊</div>
+              <span><strong>ROI medible:</strong> El programa documenta productividad, velocidad de adopción y capacidad instalada. Los resultados son presentables ante organismos acreditadores.</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#faf5ff; color:#8b5cf6;">🔄</div>
+              <span><strong>Escalabilidad:</strong> El modelo Champion→Equipo permite expandir el programa hacia otras unidades académicas y administrativas sin incremento presupuestario significativo.</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#faf5ff; color:#8b5cf6;">📝</div>
+              <span><strong>Investigación publicable:</strong> El programa genera un dataset de adopción de IA en contexto universitario — material para publicaciones académicas en colaboración con el área de investigación.</span>
+            </li>
+          </ul>
+
+          <div class="highlight-box cyan">
+            <strong>Lo que solicito</strong>
+            <p>Si lo considera pertinente, me gustaría presentar el programa formalmente en un espacio de <strong>30 minutos</strong> antes de la fecha de inicio. Alternativamente, con un aval institucional por escrito se puede proceder con confianza desde el 1 de julio. Quedo a su disposición.</p>
+          </div>
+
+          <p class="email-p">Adjunto el resumen ejecutivo del programa para su referencia. El programa puede ser auditado en cualquier momento — toda la documentación es pública dentro de la institución.</p>
+
+          <div class="cta-block">
+            <a href="mailto:dagalindo@ujmd.edu.sv?subject=Presentación AI Fluency" class="cta-btn">📅 Solicitar espacio de presentación</a>
+            <p class="cta-sub">O responda este correo para coordinar la modalidad que prefiera</p>
+          </div>
+
+          <div class="email-signature">
+            <div class="sig-name">Douglas A. Galindo</div>
+            <div class="sig-title">Director de Servicios Informáticos · UJMD</div>
+            <div class="sig-contact">dagalindo@ujmd.edu.sv</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <textarea id="rector-text" style="position:absolute;left:-9999px">Asunto: AI Fluency: primera iniciativa de certificación institucional en IA — inicia el 1 de julio
+
+Estimado/a [Título y Nombre],
+
+Me dirijo a usted para informarle que el 1 de julio la Dirección de Servicios Informáticos pondrá en marcha AI Fluency, el primer programa de certificación progresiva en inteligencia artificial desarrollado internamente en la UJMD.
+
+En síntesis: un sistema de 10 niveles y 5 certificaciones que lleva a nuestro equipo técnico de cualquier nivel de IA a un umbral funcional documentado — con evidencia auditable, sin costo externo, y con un modelo de transferencia que escala hacia otras áreas de la universidad.
+
+Por qué importa institucionalmente:
+• Liderazgo regional: Pocas universidades en Centroamérica tienen un programa formal de certificación interna en IA. Este nos posiciona en la vanguardia.
+• ROI medible: El programa documenta productividad, velocidad de adopción y capacidad instalada. Los resultados son presentables ante organismos acreditadores.
+• Escalabilidad: El modelo Champion→Equipo permite expandir el programa hacia otras unidades académicas y administrativas sin incremento presupuestario significativo.
+• Investigación publicable: El programa genera un dataset de adopción de IA en contexto universitario — material para publicaciones académicas en colaboración con el área de investigación.
+
+Lo que solicito:
+Si lo considera pertinente, me gustaría presentar el programa formalmente en un espacio de 30 minutos antes de la fecha de inicio. Alternativamente, con un aval institucional por escrito se puede proceder con confianza desde el 1 de julio. Quedo a su disposición.
+
+Adjunto el resumen ejecutivo del programa para su referencia.
+
+Douglas A. Galindo
+Director de Servicios Informáticos · UJMD
+dagalindo@ujmd.edu.sv</textarea>
+
+    <div class="tips-box">
+      <h3>💡 Notas de uso para este email</h3>
+      <div class="tip">
+        <div class="tip-icon" style="background:#faf5ff;">🏛</div>
+        <p><strong>Adjunta el Resumen Ejecutivo</strong> (OnePageRectoria.html). Rectoría toma decisiones con documentos, no con correos largos.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#f0fdf4;">💡</div>
+        <p><strong>La frase "sin costo externo"</strong> es el anzuelo principal. Si se percibe como un gasto, se congela. Si se percibe como eficiencia, avanza.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#eff6ff;">📅</div>
+        <p><strong>Enviar con 5–7 días de anticipación</strong> al inicio (antes del 26 de junio). Rectoría necesita tiempo para decidir si quiere presentación o solo aval.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#fef9c3;">⚡</div>
+        <p><strong>No incluyas tecnicismos</strong> (Hermes Agent, L0-L9, MCP, etc.) en este correo. Eso va en la presentación formal, no en el email de primer contacto.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       TAB 4: INVESTIGACIÓN
+  ====================================================== -->
+  <div class="email-panel" id="tab-investigacion">
+    <div class="panel-header">
+      <div class="audience-badge" style="background:#fef9c3; color:#92400e;">
+        🔬 Audiencia: Área de Investigación
+      </div>
+      <h1>Email para Investigación</h1>
+      <p class="subtitle">Director/a de Investigación. Tono: académico-estratégico, propositivo, con oportunidad concreta. Objetivo: abrir co-investigación + acceso al dataset del programa.</p>
+    </div>
+
+    <div class="value-bar" style="border-left-color: #f59e0b;">
+      <div class="value-item">
+        <label>🎯 Su ganancia principal</label>
+        <p>Dataset real de adopción de IA + co-autoría en publicaciones + presencia en campo emergente sin diseñar el estudio desde cero</p>
+      </div>
+      <div class="value-item">
+        <label>⏱ Llamada a la acción</label>
+        <p>Reunión de 30 min para explorar co-investigación y definir protocolo compartido</p>
+      </div>
+      <div class="value-item">
+        <label>📌 Tono</label>
+        <p>Propositivo, con especificidad académica. Nombrar posibles revistas y ángulos de investigación.</p>
+      </div>
+    </div>
+
+    <div class="copy-section">
+      <button class="copy-btn" onclick="copyEmail('invest-text')">📋 Copiar texto plano</button>
+    </div>
+
+    <div class="email-card">
+      <div class="email-client-bar">
+        <div class="traffic-lights">
+          <div class="tl tl-red"></div>
+          <div class="tl tl-yellow"></div>
+          <div class="tl tl-green"></div>
+        </div>
+        <span class="client-title">Nuevo mensaje — Gmail / Outlook</span>
+      </div>
+      <div class="email-meta">
+        <div class="meta-row"><span class="meta-label">De:</span><span class="meta-value">Douglas A. Galindo &lt;dagalindo@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">Para:</span><span class="meta-value">[Director/a de Investigación] &lt;email@ujmd.edu.sv&gt;</span></div>
+        <div class="meta-row"><span class="meta-label">Asunto:</span><span class="meta-value meta-subject">Propuesta: co-investigación sobre adopción de IA — dataset disponible desde julio</span></div>
+      </div>
+      <div class="email-body">
+        <div class="email-render">
+          <div class="email-header-banner">
+            <div>
+              <div class="brand-name">AI Fluency · Protocolo de Investigación</div>
+              <div class="brand-tag">UJMD · DSI + Área de Investigación</div>
+            </div>
+            <div class="ujmd-badge">Propuesta</div>
+          </div>
+
+          <p class="email-greeting">Estimado/a <strong>[Nombre]</strong>,</p>
+
+          <p class="email-p">Escribo para compartirle una oportunidad de investigación que surge de un programa que arrancamos en Informática el próximo 1 de julio: <strong>AI Fluency</strong>, un sistema de certificación progresiva en inteligencia artificial.</p>
+
+          <p class="email-p">Lo que hace interesante este programa desde el ángulo investigativo es que <strong>genera datos longitudinales reales</strong>: niveles de competencia pre/post, tasas de adopción de herramientas, velocidad de aprendizaje por perfil, y comportamientos de uso de IA en contexto universitario — durante 6 meses, con un grupo de 10–25 personas.</p>
+
+          <div class="highlight-box" style="background:#fef9c3; border-left: 4px solid #f59e0b;">
+            <strong>El dataset que produciremos</strong>
+            <p>Diagnósticos de nivel L0–L9 (pre y post), registros de progresión semanal por participante, evidencias de uso real en tareas institucionales, actas de certificación auditables, y métricas de transferencia de conocimiento entre pares. Todo estructurado y anonimizable.</p>
+          </div>
+
+          <p class="email-p"><strong>Posibles ángulos de investigación:</strong></p>
+
+          <ul class="benefit-list">
+            <li>
+              <div class="icon" style="background:#fef9c3; color:#92400e;">📄</div>
+              <span><em>"Modelos de competencia AI en equipos de TI universitario: un estudio longitudinal"</em> — Computación en Educación, CLEI</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#fef9c3; color:#92400e;">📄</div>
+              <span><em>"Peer-to-peer AI transfer learning in higher education IT departments"</em> — Journal of Information Technology Education</span>
+            </li>
+            <li>
+              <div class="icon" style="background:#fef9c3; color:#92400e;">📄</div>
+              <span><em>"Certificación progresiva de IA: efectividad del modelo Champion en contextos universitarios latinoamericanos"</em> — RUSC Journal</span>
+            </li>
+          </ul>
+
+          <div class="highlight-box cyan">
+            <strong>Lo que propongo</strong>
+            <p>Una reunión de <strong>30 minutos</strong> antes del 30 de junio para explorar si hay interés en definir un protocolo de investigación conjunto. El área de Investigación aportaría el marco metodológico; nosotros aportamos acceso al programa, los datos y los participantes. La co-autoría en publicaciones resultantes sería el acuerdo natural.</p>
+          </div>
+
+          <p class="email-p">Adjunto el protocolo de investigación preliminar que elaboré, donde detallo las variables que ya estamos planificando medir. Sería la base de cualquier colaboración formal.</p>
+
+          <div class="cta-block">
+            <a href="mailto:dagalindo@ujmd.edu.sv?subject=Reunión co-investigación AI Fluency" class="cta-btn">🔬 Agendar conversación</a>
+            <p class="cta-sub">30 minutos · antes del 30 de junio · virtual o presencial</p>
+          </div>
+
+          <div class="email-signature">
+            <div class="sig-name">Douglas A. Galindo</div>
+            <div class="sig-title">Director de Servicios Informáticos · UJMD</div>
+            <div class="sig-contact">dagalindo@ujmd.edu.sv</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <textarea id="invest-text" style="position:absolute;left:-9999px">Asunto: Propuesta: co-investigación sobre adopción de IA — dataset disponible desde julio
+
+Estimado/a [Nombre],
+
+Escribo para compartirle una oportunidad de investigación que surge de un programa que arrancamos en Informática el próximo 1 de julio: AI Fluency, un sistema de certificación progresiva en inteligencia artificial.
+
+Lo que hace interesante este programa desde el ángulo investigativo es que genera datos longitudinales reales: niveles de competencia pre/post, tasas de adopción de herramientas, velocidad de aprendizaje por perfil, y comportamientos de uso de IA en contexto universitario — durante 6 meses, con un grupo de 10–25 personas.
+
+El dataset que produciremos:
+Diagnósticos de nivel L0–L9 (pre y post), registros de progresión semanal por participante, evidencias de uso real en tareas institucionales, actas de certificación auditables, y métricas de transferencia de conocimiento entre pares. Todo estructurado y anonimizable.
+
+Posibles ángulos de investigación:
+• "Modelos de competencia AI en equipos de TI universitario: un estudio longitudinal" — Computación en Educación, CLEI
+• "Peer-to-peer AI transfer learning in higher education IT departments" — Journal of Information Technology Education
+• "Certificación progresiva de IA: efectividad del modelo Champion en contextos universitarios latinoamericanos" — RUSC Journal
+
+Lo que propongo:
+Una reunión de 30 minutos antes del 30 de junio para explorar si hay interés en definir un protocolo de investigación conjunto. El área de Investigación aportaría el marco metodológico; nosotros aportamos acceso al programa, los datos y los participantes. La co-autoría en publicaciones resultantes sería el acuerdo natural.
+
+Adjunto el protocolo de investigación preliminar que elaboré, donde detallo las variables que ya estamos planificando medir.
+
+Douglas A. Galindo
+Director de Servicios Informáticos · UJMD
+dagalindo@ujmd.edu.sv</textarea>
+
+    <div class="tips-box">
+      <h3>💡 Notas de uso para este email</h3>
+      <div class="tip">
+        <div class="tip-icon" style="background:#fef9c3;">🔬</div>
+        <p><strong>Adjunta el Protocolo_Investigacion_AI_Fluentcy.md</strong> (o una versión PDF). El investigador necesita ver la estructura antes de la reunión para llegar con preguntas sustantivas.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#f0fdf4;">📝</div>
+        <p><strong>Los títulos de paper son deliberadamente tentadores</strong>. Un investigador que lee un título específico ya está pensando en el abstract. No los quites.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#eff6ff;">🤝</div>
+        <p><strong>El encuadre "co-investigación"</strong> (no "permiso para usar nuestros datos") es clave. Le das agencia al investigador — eso sube la probabilidad de que diga sí.</p>
+      </div>
+      <div class="tip">
+        <div class="tip-icon" style="background:#faf5ff;">⏰</div>
+        <p><strong>Si no responden en 72h</strong>, seguimiento con: "¿Llegó mi propuesta? Quería asegurarme antes de que arranque el programa."</p>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /main -->
+
+<script>
+function showTab(id) {
+  // Hide all panels
+  document.querySelectorAll('.email-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+
+  // Show selected
+  document.getElementById('tab-' + id).classList.add('active');
+  event.currentTarget.classList.add('active');
+}
+
+function copyEmail(textareaId) {
+  const ta = document.getElementById(textareaId);
+  ta.select();
+  document.execCommand('copy');
+
+  const btn = event.currentTarget;
+  const original = btn.innerHTML;
+  btn.innerHTML = '✅ Copiado';
+  btn.style.background = '#10b981';
+  btn.style.color = 'white';
+  btn.style.borderColor = '#10b981';
+
+  setTimeout(() => {
+    btn.innerHTML = original;
+    btn.style.background = '';
+    btn.style.color = '';
+    btn.style.borderColor = '';
+  }, 2000);
+}
+</script>
+</body>
+</html>

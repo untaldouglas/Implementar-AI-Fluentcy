@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-06-26 · Sesión 3 — Cierre de jornada Claude/Cowork |
-| Actualizado por | Claude (Cowork) — Fin de Jornada |
+| Última actualización | 2026-06-27 · Sesión 4 — Inicio de jornada Claude/Cowork |
+| Actualizado por | Claude (Cowork) — Inicio de Jornada |
 
 ---
 
@@ -28,8 +28,8 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-06-26 |
-| Días hasta inicio | 5 días |
+| Hoy (última actualización) | 2026-06-27 |
+| Días hasta inicio | 4 días |
 | Fase actual | **FASE 0 — Preparación del terreno** |
 | Semana de proyecto | S0 (pre-arranque) |
 | Mes de proyecto | M0 (previo al inicio) |
@@ -59,10 +59,10 @@
 - [x] ~~**Seleccionar Champions**~~ — 4 Champions confirmados ✓ (Acta AI-FLUENCY-2026-001 emitida)
 - [x] ~~**Playbook institucional**~~ — AI_Fluency_Playbook_UJMD.docx generado ✓ (Capas 0–3, 9 secciones)
 - [x] ~~**Repositorio organizado**~~ — Estructura 00_marco → 05_blog implementada ✓
-- [x] ~~**Correos a Champions**~~ — 3 borradores en Gmail, envío programado mañana 8:15 AM ✓
-- [ ] **Crear Google Form de diagnóstico** — ejecutar `make create-form` en el repo
+- [x] ~~**Correos a Champions**~~ — Enviados el 27/06 a las 8:15 AM ✓
+- [x] ~~**Crear Google Form de diagnóstico**~~ — https://forms.gle/JHd4a8kHyFh59RkH7 ✓
 - [ ] **Aplicar diagnóstico baseline** a los 3 Champions seleccionados
-- [ ] **Agendar kick-off** del 1 de julio con Champions
+- [x] ~~**Agendar kick-off**~~ — Sesión 0 agendada: 2026-07-01 9:00–10:30 AM · Google Meet: https://meet.google.com/rhx-crmz-kca ✓
 - [ ] **Compartir infográfico** del programa con el equipo completo
 - [ ] **Configurar Hermes Agent** (NousResearch) como orquestador central
 - [x] ~~Identidad visual definida~~ — Velocidad Digital seleccionada ✓
@@ -83,11 +83,11 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C1 | Seleccionar Champions (1 por área) | 2026-06-30 | ✅ COMPLETADO | Acta emitida: Douglas, Irvin, Mario, Patrick |
-| C2 | Generar cuestionario diagnóstico en Google Forms | 2026-06-30 | 🔴 Pendiente | `make create-form` en el repo |
-| C3 | Agendar reunión de kick-off con Champions | 2026-06-30 | 🔴 Pendiente | Para el 2026-07-01 |
+| C2 | Generar cuestionario diagnóstico en Google Forms | 2026-06-30 | ✅ COMPLETADO | https://forms.gle/JHd4a8kHyFh59RkH7 |
+| C3 | Agendar reunión de kick-off con Champions | 2026-06-30 | ✅ COMPLETADO | Sesión 0: 2026-07-01 9:00 AM · Meet: https://meet.google.com/rhx-crmz-kca |
 | C4 | Distribuir infográfico del programa | 2026-06-30 | 🟡 Listo para enviar | Archivo: `03_comunicacion/Infografico_AIFluency_UJMD.html` |
 | C5 | Configurar Hermes Agent | 2026-06-30 | 🔴 Pendiente | Orquestador principal del programa |
-| C9 | Enviar correos de notificación a Champions | 2026-06-27 | 🟡 Programado | Envío automático 8:15 AM — revisar Gmail |
+| C9 | Enviar correos de notificación a Champions | 2026-06-27 | ✅ COMPLETADO | Enviados el 27/06 a las 8:15 AM |
 
 ### Compromisos Semana 1 (julio 1–7)
 
@@ -106,29 +106,19 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[URGENTE · C2]** Montar Google Form en Google Apps Script
-   - El script `google_form/crear_form_conduccion_ai.gs` ya existe. Ejecutar `make create-form` desde la terminal del repo (copia el script al portapapeles y abre script.google.com).
-   - Sin este form, no se puede aplicar el diagnóstico baseline a los Champions.
-   - Tiempo estimado: 20 minutos.
+1. **[HOY · C4]** Distribuir infográfico al equipo completo
+   - Archivo: `03_comunicacion/Infografico_AIFluency_UJMD.html` — listo para enviar.
+   - Tiempo estimado: 10 minutos.
 
-2. **[HOY · C3+C4]** Enviar correo de invitación a Patrick, Mario e Irvin
-   - Incluir: bienvenida al piloto, SOUL.md de su área, link al Form cuando esté disponible.
-   - Email draft listo: ver `EmailPack_AIFluency.html` (sección Champions).
-   - Tiempo estimado: 15 minutos.
-
-3. **[HOY · C3]** Agendar Sesión 0 con los Champions
-   - Reunión de diagnóstico baseline + setup Hermes.
-   - Ventana sugerida: esta semana, antes del 30/06.
-   - Tiempo estimado: 10 minutos (enviar invitación de calendario).
-
-4. **[ESTA SEMANA · C5]** Instalar y configurar Hermes Agent
+2. **[ESTA SEMANA · C5]** Instalar y configurar Hermes Agent
    - Repositorio: NousResearch (open source). Douglas ya lo tiene configurado.
    - Pendiente: setup en estaciones de Champions (Patrick, Mario, Irvin).
-   - Tiempo estimado: 2–4 horas total.
+   - Tiempo estimado: 2–4 horas total. Ejecutar durante Sesión 0 con cada Champion.
 
-5. **[ESTA SEMANA · C4]** Distribuir infográfico del programa al equipo completo
-   - Archivo: `Infografico_AIFluency_UJMD.html` — listo para enviar.
-   - Tiempo estimado: 10 minutos.
+3. **[01/07 · C8]** Sesión 0 — Diagnóstico Baseline + Kick-off
+   - Confirmado: 2026-07-01 · 9:00–10:30 AM · Google Meet: https://meet.google.com/rhx-crmz-kca
+   - Form de diagnóstico: https://forms.gle/JHd4a8kHyFh59RkH7
+   - Pedir a Champions que llenen el form antes de la sesión.
 
 ---
 
@@ -136,9 +126,7 @@
 
 | Bloqueo | Impacto | Desbloqueador |
 |---|---|---|
-| Google Form no montado | Retrasa baseline a Champions | `make create-form` + pegar en script.google.com (~20 min) |
-| Champions sin confirmar dedicación formal | Riesgo de no asignar las 2h/semana | Enviar correo con acta + compromiso explícito (C2) |
-| Hermes Agent no instalado en estaciones de Champions | Sin orquestador, los Champions no pueden practicar | Setup en cada máquina durante Sesión 0 |
+| Hermes Agent no instalado en estaciones de Champions | Sin orquestador, los Champions no pueden practicar | Setup en cada máquina durante Sesión 0 (01/07) |
 | Google Workspace UJMD no integrado | Bloquea Fase 4 + Investigación (agosto) | Iniciar contacto con admin GSuite en julio |
 
 ---
@@ -171,6 +159,22 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-06-27 | SESIÓN 4 — INICIO DE JORNADA (Claude/Cowork)
+  CONFIRMADO HOY:
+  ✓ C9: Correos enviados a Champions — Patrick, Mario, Irvin (8:15 AM)
+  ✓ C2: Google Form de diagnóstico creado — https://forms.gle/JHd4a8kHyFh59RkH7
+  ✓ C3: Sesión 0 agendada — 2026-07-01 9:00–10:30 AM
+      → Google Meet: https://meet.google.com/rhx-crmz-kca
+      → Invitación enviada a los 3 Champions + Douglas
+      → Form de diagnóstico incluido en descripción del evento
+  ✓ Onboarding actualizado por Douglas
+
+  PENDIENTE ESTA SEMANA:
+  → C4: Distribuir infográfico al equipo completo (10 min)
+  → C5: Hermes Agent — preparar setup para Sesión 0
+
+---
+
 2026-06-26 | SESIÓN 3 — FIN DE JORNADA (Claude/Cowork) ~22:00
   COMPLETADO HOY:
   ✓ AI_Fluency_Playbook_UJMD.docx — Playbook institucional completo (Capas 0–3, 9 secciones, 46 KB)
