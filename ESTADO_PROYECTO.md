@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-06-26 · Sesión 2 — Sincronización post-Hermes |
-| Actualizado por | Claude (Cowork) — Sincronización con cierre Hermes 15:49 |
+| Última actualización | 2026-06-26 · Sesión 3 — Cierre de jornada Claude/Cowork |
+| Actualizado por | Claude (Cowork) — Fin de Jornada |
 
 ---
 
@@ -57,6 +57,9 @@
 ### Checklist de Fase 0
 
 - [x] ~~**Seleccionar Champions**~~ — 4 Champions confirmados ✓ (Acta AI-FLUENCY-2026-001 emitida)
+- [x] ~~**Playbook institucional**~~ — AI_Fluency_Playbook_UJMD.docx generado ✓ (Capas 0–3, 9 secciones)
+- [x] ~~**Repositorio organizado**~~ — Estructura 00_marco → 05_blog implementada ✓
+- [x] ~~**Correos a Champions**~~ — 3 borradores en Gmail, envío programado mañana 8:15 AM ✓
 - [ ] **Crear Google Form de diagnóstico** — ejecutar `make create-form` en el repo
 - [ ] **Aplicar diagnóstico baseline** a los 3 Champions seleccionados
 - [ ] **Agendar kick-off** del 1 de julio con Champions
@@ -82,8 +85,9 @@
 | C1 | Seleccionar Champions (1 por área) | 2026-06-30 | ✅ COMPLETADO | Acta emitida: Douglas, Irvin, Mario, Patrick |
 | C2 | Generar cuestionario diagnóstico en Google Forms | 2026-06-30 | 🔴 Pendiente | `make create-form` en el repo |
 | C3 | Agendar reunión de kick-off con Champions | 2026-06-30 | 🔴 Pendiente | Para el 2026-07-01 |
-| C4 | Distribuir infográfico del programa | 2026-06-30 | 🟡 Listo para enviar | Archivo: `Infografico_AIFluency_UJMD.html` |
+| C4 | Distribuir infográfico del programa | 2026-06-30 | 🟡 Listo para enviar | Archivo: `03_comunicacion/Infografico_AIFluency_UJMD.html` |
 | C5 | Configurar Hermes Agent | 2026-06-30 | 🔴 Pendiente | Orquestador principal del programa |
+| C9 | Enviar correos de notificación a Champions | 2026-06-27 | 🟡 Programado | Envío automático 8:15 AM — revisar Gmail |
 
 ### Compromisos Semana 1 (julio 1–7)
 
@@ -167,6 +171,24 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-06-26 | SESIÓN 3 — FIN DE JORNADA (Claude/Cowork) ~22:00
+  COMPLETADO HOY:
+  ✓ AI_Fluency_Playbook_UJMD.docx — Playbook institucional completo (Capas 0–3, 9 secciones, 46 KB)
+  ✓ 3 correos personalizados a Champions (Irvin, Mario, Patrick) en Gmail
+      → Envío programado: mañana sábado 27/06 a las 8:15 AM
+      → CC: Douglas + coordinador respectivo
+  ✓ Repositorio reorganizado: estructura 00_marco → 05_blog
+      → 20+ archivos clasificados en 5 carpetas numeradas
+      → README.md actualizado con mapa de navegación completo
+  ✓ Blog post #2 generado: "El día que puse orden en el caos" (ver 05_blog/)
+
+  PENDIENTE PARA MAÑANA:
+  → Verificar que los 3 correos llegaron (revisar Gmail 8:20 AM)
+  → Ejecutar `make create-form` (Google Form baseline) — 20 min
+  → Agendar Sesión 0 con los 3 Champions
+
+---
+
 2026-06-26 | SESIÓN 2 — SINCRONIZACIÓN POST-HERMES (Claude/Cowork)
   SINCRONIZADO:
   ✓ C1 marcado como COMPLETADO — Acta AI-FLUENCY-2026-001 emitida por Hermes (15:49)
