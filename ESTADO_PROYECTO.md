@@ -74,6 +74,19 @@
 
 ---
 
+## 🏗 INFRAESTRUCTURA DIGITAL
+
+| Recurso | URL | Propósito |
+|---|---|---|
+| Carpeta Google Drive | https://drive.google.com/drive/folders/1QDKBHqX-cimWgiEiIBDRQNE161FNWT1M | Artefactos + ESTADO (acceso móvil) |
+| ESTADO_PROYECTO en Drive | https://docs.google.com/document/d/15kE31lw9OKB7Yt97QRdZiQLpbXkQeoHMVnsZAU_btWc/edit | Lectura/edición desde móvil |
+| Google Form | https://forms.gle/JHd4a8kHyFh59RkH7 | Diagnóstico baseline |
+| Google Meet (Sesión 0) | https://meet.google.com/rhx-crmz-kca | Kick-off 01/07 |
+| GitHub Pages | https://untaldouglas.github.io/Implementar-AI-Fluentcy/ | Artefactos HTML interactivos (pendiente: `git push`) |
+| Repositorio GitHub | https://github.com/untaldouglas/Implementar-AI-Fluentcy | Código fuente del proyecto |
+
+---
+
 ## 🔴 COMPROMISOS EN MARCHA
 
 > Ordenados por urgencia. Formato: `[PRIORIDAD] Compromiso | Fecha límite | Estado`
@@ -142,6 +155,7 @@
 | 2026-06-26 | Framework de certificación: **5 licencias, L0–L9** | Metáfora vehicular como eje pedagógico |
 | 2026-06-26 | Narrativa de origen del programa: historia personal como ancla de credibilidad | Sin victimismo — fundador por experiencia, no por teoría |
 | 2026-06-26 | Blog iniciado: carpeta `/Blog/` para publicaciones en sitio personal, LinkedIn, sitios institucionales | Presencia profesional web como canal de posicionamiento del programa |
+| 2026-06-27 | Infraestructura digital definida: Drive (PDFs + estado) + GitHub Pages (HTML interactivos) | Acceso móvil + artefactos siempre accesibles sin depender de Mac local |
 
 ---
 
