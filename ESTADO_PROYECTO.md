@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-06-27 · Sesión 4 — Cierre de jornada Claude/Cowork |
-| Actualizado por | Claude (Cowork) — Cierre de Jornada |
+| Última actualización | 2026-06-29 · Sesión 5 — Setup Hermes Agent con skill `teach` |
+| Actualizado por | Hermes Agent — SOD + C5 completado |
 
 ---
 
@@ -28,7 +28,7 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-06-27 |
+| Hoy (última actualización) | 2026-06-29 |
 | Días hasta inicio | 4 días |
 | Fase actual | **FASE 0 — Preparación del terreno** |
 | Semana de proyecto | S0 (pre-arranque) |
@@ -64,7 +64,7 @@
 - [ ] **Aplicar diagnóstico baseline** a los 3 Champions seleccionados
 - [x] ~~**Agendar kick-off**~~ — Sesión 0 agendada: 2026-07-01 9:00–10:30 AM · Google Meet: https://meet.google.com/rhx-crmz-kca ✓
 - [ ] **Compartir infográfico** del programa con el equipo completo
-- [ ] **Configurar Hermes Agent** (NousResearch) como orquestador central
+- [x] ~~**Configurar Hermes Agent** (NousResearch) como orquestador central~~ — Guía de setup creadada con skill `teach` ✓ (3 lecciones + glosario + cheat sheet + learning_record)
 - [x] ~~Identidad visual definida~~ — Velocidad Digital seleccionada ✓
 - [x] ~~Infográfico del programa creado~~ ✓
 - [x] ~~Documentación del programa completa~~ (README, Manual, Roadmap, Licencias) ✓
@@ -99,7 +99,7 @@
 | C2 | Generar cuestionario diagnóstico en Google Forms | 2026-06-30 | ✅ COMPLETADO | https://forms.gle/JHd4a8kHyFh59RkH7 |
 | C3 | Agendar reunión de kick-off con Champions | 2026-06-30 | ✅ COMPLETADO | Sesión 0: 2026-07-01 9:00 AM · Meet: https://meet.google.com/rhx-crmz-kca |
 | C4 | Distribuir infográfico del programa | 2026-06-30 | 🟡 Link listo — falta enviar | GitHub Pages: https://untaldouglas.github.io/Implementar-AI-Fluentcy/ |
-| C5 | Configurar Hermes Agent | 2026-06-30 | 🔴 Pendiente | Orquestador principal del programa |
+| C5 | Configurar Hermes Agent | 2026-06-30 | ✅ COMPLETADO | Guía de setup creadada con skill `teach` — 3 lecciones, glosario, cheat sheet y learning_record en 04_herramientas/guia_setup_champions/ |
 | C9 | Enviar correos de notificación a Champions | 2026-06-27 | ✅ COMPLETADO | Enviados el 27/06 a las 8:15 AM |
 
 ### Compromisos Semana 1 (julio 1–7)
@@ -171,6 +171,24 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-06-29 | SESIÓN 5 — SETUP HERMES AGENT (Hermes Agent)
+  COMPLETADO HOY:
+  ✓ C5: Guía de setup de Hermes Agent creadada con skill `teach`
+      → Estructura: mission.md + 3 lessons + glossary + cheat_sheet + learning_record
+      → Ubicación: 04_herramientas/guia_setup_champions/
+      → Metodología: aprendizaje adaptativo L2→L5 (3 lecciones progresivas)
+      → Comandos reales validados desde skill hermes-agent
+  ✓ Skills instalados: 121 skills en ~/.hermes/skills/ (repo mattpocock/skills)
+  ✓ Skill `teach` confirmado activo y utilizado para C5
+  ✓ ESTADO_PROYECTO.md actualizado — C5 marcado COMPLETADO
+
+  PENDIENTE:
+  → C4: Enviar link GitHub Pages al equipo (10 min)
+  → Recordar a Champions llenar Google Form antes del 01/07
+  → Debug cron jobs SOD/EOD (error en ejecución)
+
+---
+
 2026-06-27 | SESIÓN 4 — CIERRE DE JORNADA (Claude/Cowork)
   COMPLETADO HOY:
   ✓ C9: Correos enviados a Champions — Patrick, Mario, Irvin (8:15 AM)
