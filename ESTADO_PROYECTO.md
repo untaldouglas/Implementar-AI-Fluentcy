@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-06-27 · Sesión 4 — Inicio de jornada Claude/Cowork |
-| Actualizado por | Claude (Cowork) — Inicio de Jornada |
+| Última actualización | 2026-06-27 · Sesión 4 — Cierre de jornada Claude/Cowork |
+| Actualizado por | Claude (Cowork) — Cierre de Jornada |
 
 ---
 
@@ -82,7 +82,7 @@
 | ESTADO_PROYECTO en Drive | https://docs.google.com/document/d/15kE31lw9OKB7Yt97QRdZiQLpbXkQeoHMVnsZAU_btWc/edit | Lectura/edición desde móvil |
 | Google Form | https://forms.gle/JHd4a8kHyFh59RkH7 | Diagnóstico baseline |
 | Google Meet (Sesión 0) | https://meet.google.com/rhx-crmz-kca | Kick-off 01/07 |
-| GitHub Pages | https://untaldouglas.github.io/Implementar-AI-Fluentcy/ | Artefactos HTML interactivos (pendiente: `git push`) |
+| GitHub Pages | https://untaldouglas.github.io/Implementar-AI-Fluentcy/ | Artefactos HTML interactivos ✅ LIVE |
 | Repositorio GitHub | https://github.com/untaldouglas/Implementar-AI-Fluentcy | Código fuente del proyecto |
 
 ---
@@ -98,7 +98,7 @@
 | C1 | Seleccionar Champions (1 por área) | 2026-06-30 | ✅ COMPLETADO | Acta emitida: Douglas, Irvin, Mario, Patrick |
 | C2 | Generar cuestionario diagnóstico en Google Forms | 2026-06-30 | ✅ COMPLETADO | https://forms.gle/JHd4a8kHyFh59RkH7 |
 | C3 | Agendar reunión de kick-off con Champions | 2026-06-30 | ✅ COMPLETADO | Sesión 0: 2026-07-01 9:00 AM · Meet: https://meet.google.com/rhx-crmz-kca |
-| C4 | Distribuir infográfico del programa | 2026-06-30 | 🟡 Listo para enviar | Archivo: `03_comunicacion/Infografico_AIFluency_UJMD.html` |
+| C4 | Distribuir infográfico del programa | 2026-06-30 | 🟡 Link listo — falta enviar | GitHub Pages: https://untaldouglas.github.io/Implementar-AI-Fluentcy/ |
 | C5 | Configurar Hermes Agent | 2026-06-30 | 🔴 Pendiente | Orquestador principal del programa |
 | C9 | Enviar correos de notificación a Champions | 2026-06-27 | ✅ COMPLETADO | Enviados el 27/06 a las 8:15 AM |
 
@@ -119,19 +119,17 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[HOY · C4]** Distribuir infográfico al equipo completo
-   - Archivo: `03_comunicacion/Infografico_AIFluency_UJMD.html` — listo para enviar.
-   - Tiempo estimado: 10 minutos.
+1. **[MAÑANA · C4]** Enviar link del sitio al equipo completo — 10 min
+   - URL: https://untaldouglas.github.io/Implementar-AI-Fluentcy/
+   - Destinatarios: equipo completo de la Dirección de Informática.
 
-2. **[ESTA SEMANA · C5]** Instalar y configurar Hermes Agent
-   - Repositorio: NousResearch (open source). Douglas ya lo tiene configurado.
-   - Pendiente: setup en estaciones de Champions (Patrick, Mario, Irvin).
-   - Tiempo estimado: 2–4 horas total. Ejecutar durante Sesión 0 con cada Champion.
-
-3. **[01/07 · C8]** Sesión 0 — Diagnóstico Baseline + Kick-off
+2. **[01/07 · C8]** Sesión 0 — Diagnóstico Baseline + Kick-off
    - Confirmado: 2026-07-01 · 9:00–10:30 AM · Google Meet: https://meet.google.com/rhx-crmz-kca
-   - Form de diagnóstico: https://forms.gle/JHd4a8kHyFh59RkH7
-   - Pedir a Champions que llenen el form antes de la sesión.
+   - Form: https://forms.gle/JHd4a8kHyFh59RkH7 — pedir que llenen antes de la sesión.
+
+3. **[01/07 · C5]** Setup Hermes Agent en estaciones de Champions
+   - Ejecutar durante Sesión 0. Patrick primero (piloto técnico).
+   - Tiempo: 2–4 horas total.
 
 ---
 
@@ -173,6 +171,24 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-06-27 | SESIÓN 4 — CIERRE DE JORNADA (Claude/Cowork)
+  COMPLETADO HOY:
+  ✓ C9: Correos enviados a Champions — Patrick, Mario, Irvin (8:15 AM)
+  ✓ C2: Google Form diagnóstico — https://forms.gle/JHd4a8kHyFh59RkH7
+  ✓ C3: Sesión 0 agendada — 2026-07-01 9:00 AM · Meet: https://meet.google.com/rhx-crmz-kca
+  ✓ Drive: Carpeta + ESTADO_PROYECTO como Google Doc (acceso móvil resuelto)
+  ✓ GitHub Pages LIVE — https://untaldouglas.github.io/Implementar-AI-Fluentcy/
+      → 3 artefactos publicados: Infográfico · Onboarding · Brief de Investigación
+      → Landing page con identidad Velocidad Digital
+
+  PENDIENTE PARA MAÑANA:
+  → C4: Enviar link https://untaldouglas.github.io/Implementar-AI-Fluentcy/ al equipo (10 min)
+  → Recordar a Champions llenar el Form antes del martes
+
+  ACCIÓN #1 MAÑANA: Enviar link GitHub Pages al equipo completo
+
+---
+
 2026-06-27 | SESIÓN 4 — INICIO DE JORNADA (Claude/Cowork)
   CONFIRMADO HOY:
   ✓ C9: Correos enviados a Champions — Patrick, Mario, Irvin (8:15 AM)
