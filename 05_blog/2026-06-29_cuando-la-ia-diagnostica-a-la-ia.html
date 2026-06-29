@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cuando la IA diagnostica a la IA — AI Fluency UJMD</title>
+<style>
+  :root {
+    --primary: #1B4F8A;
+    --accent: #2E75B6;
+    --light: #EBF4FB;
+    --text: #1a1a2e;
+    --muted: #595959;
+    --bg: #f8fafc;
+    --green: #1a7340;
+    --green-light: #eafaf1;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Georgia', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    padding: 0 1rem;
+  }
+  .container { max-width: 720px; margin: 0 auto; padding: 3rem 0 5rem; }
+
+  .tag {
+    display: inline-block;
+    background: var(--light);
+    color: var(--accent);
+    font-family: 'Arial', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    color: var(--primary);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .meta {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--light);
+  }
+
+  .intro {
+    font-size: 1.15rem;
+    color: var(--primary);
+    font-style: italic;
+    margin-bottom: 2rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--light);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin: 2.5rem 0 0.75rem;
+    font-family: 'Arial', sans-serif;
+  }
+
+  p { margin-bottom: 1.25rem; }
+
+  .logro-card {
+    background: #fff;
+    border: 1px solid #e0eaf5;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .logro-icon { font-size: 1.5rem; flex-shrink: 0; margin-top: 0.1rem; }
+  .logro-title { font-weight: 700; color: var(--primary); font-family: 'Arial', sans-serif; font-size: 0.95rem; }
+  .logro-desc { font-size: 0.9rem; color: var(--muted); margin-top: 0.2rem; }
+
+  .code-block {
+    background: #1a1a2e;
+    color: #a8d8f0;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.9;
+    overflow-x: auto;
+  }
+  .code-block .comment { color: #5a7a8a; }
+  .code-block .keyword { color: #79b8ff; }
+  .code-block .string { color: #9ecbff; }
+  .code-block .fn { color: #b392f0; }
+
+  .insight {
+    background: var(--green-light);
+    border-left: 4px solid var(--green);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 1.75rem 0;
+    font-size: 0.95rem;
+    color: #14532d;
+  }
+  .insight strong { display: block; margin-bottom: 0.25rem; }
+
+  blockquote {
+    border-left: 4px solid var(--accent);
+    padding: 0.75rem 1.25rem;
+    margin: 1.75rem 0;
+    background: var(--light);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: var(--primary);
+  }
+
+  .fase-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--green-light);
+    color: var(--green);
+    border: 1px solid #86efac;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.35rem 0.9rem;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .skill-demo {
+    background: #fff;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.75rem 0;
+  }
+  .skill-demo .label {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+  .skill-demo .prompt {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    background: var(--light);
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+  }
+  .skill-demo .response {
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  .tomorrow {
+    background: var(--primary);
+    color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem 1.75rem;
+    margin-top: 2.5rem;
+  }
+  .tomorrow h3 { font-family: 'Arial', sans-serif; font-size: 1rem; margin-bottom: 0.75rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.05em; }
+  .tomorrow ul { list-style: none; }
+  .tomorrow ul li { padding: 0.3rem 0; font-family: 'Arial', sans-serif; font-size: 0.95rem; }
+  .tomorrow ul li::before { content: '→ '; opacity: 0.6; }
+
+  .firma {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--light);
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .firma strong { color: var(--primary); }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="tag">AI Fluency UJMD · Diario del proyecto</div>
+
+  <h1>Cuando la IA diagnostica a la IA</h1>
+
+  <div class="meta">
+    29 de junio de 2026 &nbsp;·&nbsp; @untaldouglas &nbsp;·&nbsp; Último día antes del arranque
+  </div>
+
+  <div class="fase-badge">✅ Fase 0 completada — todos los compromisos cerrados</div>
+
+  <p class="intro">
+    El diagnóstico de cuánto sabe alguien sobre IA no debería ser un Excel que llenas a mano.
+    Hoy construimos el script que lo hace automático — y luego convertimos ese script en una herramienta
+    repetible para todas las cohortes que vienen.
+  </p>
+
+  <h2>El problema que queríamos resolver</h2>
+
+  <p>
+    Teníamos el Google Form de diagnóstico listo. 37 preguntas, escalas lineales, bloqueos percibidos,
+    casos de uso reales. Pero una vez que los 3 Champions lo llenen mañana, alguien tiene que
+    sentarse a interpretar esas respuestas, calcular en qué nivel L0-L9 está cada persona
+    y decidir qué aprende primero.
+  </p>
+
+  <p>
+    Hacerlo a mano toma tiempo. Y cuando el programa escale a 25 personas en agosto,
+    toma demasiado tiempo. Así que decidimos automatizarlo hoy.
+  </p>
+
+  <h2>Lo que construimos</h2>
+
+  <div class="logro-card">
+    <div class="logro-icon">⚙️</div>
+    <div>
+      <div class="logro-title">Google Apps Script de cálculo automático de nivel MCA</div>
+      <div class="logro-desc">
+        Un script que lee las respuestas del Form directamente en Google Sheets, calcula el nivel
+        L0-L9 de cada participante usando la lógica del framework MCA, asigna su licencia de
+        conducción AI y genera su itinerario personalizado de aprendizaje — todo en segundos,
+        sin intervención manual.
+      </div>
+    </div>
+  </div>
+
+  <div class="logro-card">
+    <div class="logro-icon">📊</div>
+    <div>
+      <div class="logro-title">3 hojas automáticas: Niveles, Itinerarios y Resumen del grupo</div>
+      <div class="logro-desc">
+        El script genera <strong>NIVELES_MCA</strong> (scores por persona, zona y licencia),
+        <strong>ITINERARIOS</strong> (plan semana a semana según nivel y área) y
+        <strong>RESUMEN_GRUPO</strong> (promedios, bloqueos comunes y recomendaciones para el programa).
+        Con un menú personalizado en el Sheet para ejecutarlo cuando quieras.
+      </div>
+    </div>
+  </div>
+
+  <div class="logro-card">
+    <div class="logro-icon">🧠</div>
+    <div>
+      <div class="logro-title">Skill de Claude: mca-script-generator</div>
+      <div class="logro-desc">
+        Empacamos toda la lógica del script como un skill reutilizable. La próxima vez que el
+        programa arranque con una nueva cohorte — o que el Form cambie de estructura —
+        no hay que empezar de cero ni explicar el contexto. Solo escribir la frase correcta
+        y el script se regenera o adapta en segundos.
+      </div>
+    </div>
+  </div>
+
+  <h2>Cómo funciona la lógica de diagnóstico</h2>
+
+  <p>
+    El framework MCA tiene 10 niveles (L0-L9) agrupados en 3 zonas. El diagnóstico mapea
+    cada nivel a una pregunta concreta de la sección 4 del cuestionario:
+  </p>
+
+  <div class="code-block">
+<span class="comment">// L1 = máximo entre dos preguntas (la más alta prevalece)</span>
+<span class="keyword">const</span> scores = {
+  L0: <span class="fn">get</span>(COL_L0),   <span class="comment">// "Uso chatbots como buscador rápido"</span>
+  L1: <span class="fn">Math.max</span>(<span class="fn">get</span>(COL_L1A), <span class="fn">get</span>(COL_L1B)),
+  L2: <span class="fn">get</span>(COL_L2),   <span class="comment">// "Hago que la IA lea archivos del área"</span>
+  L3: <span class="fn">get</span>(COL_L3),   <span class="comment">// "Tengo espacio de IA con contexto fijo"</span>
+  <span class="comment">// ... hasta L8</span>
+};
+
+<span class="comment">// Zona según sumatoria (máx 50 puntos)</span>
+<span class="keyword">if</span> (sumatoria &lt;= 20) zona = <span class="string">"Pasajero"</span>;
+<span class="keyword">else if</span> (sumatoria &lt;= 35) zona = <span class="string">"Conductor"</span>;
+<span class="keyword">else</span> zona = <span class="string">"Piloto Automático"</span>;
+  </div>
+
+  <p>
+    El itinerario no es genérico. Se adapta según tres variables: el nivel de entrada,
+    el área del participante (Infraestructura, Desarrollo, Soporte) y su bloqueo dominante.
+    Alguien en L2 de Soporte con bloqueo de confianza recibe una ruta completamente
+    diferente a alguien en L4 de Infraestructura con bloqueo de tiempo.
+  </p>
+
+  <h2>El skill: proceso automatizable para siempre</h2>
+
+  <p>
+    Lo interesante no es el script en sí — es que ahora existe un skill de Claude que sabe
+    generarlo o adaptarlo en cualquier momento futuro, sin necesitar explicar el framework
+    desde cero.
+  </p>
+
+  <div class="skill-demo">
+    <div class="label">Ejemplo de invocación</div>
+    <div class="prompt">
+      "Agrega el área de Biblioteca al script. Usan Canva y Google Sites.<br>
+      Su caso de uso ancla: organizar recursos digitales con IA."
+    </div>
+    <div class="response">
+      → Claude lee el framework MCA embebido en el skill, actualiza los diccionarios
+      de herramientas y casos de uso, y entrega el script adaptado listo para pegar
+      en Google Apps Script.
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Lo que aprendí hoy</strong>
+    Hay una diferencia entre hacer algo una vez y hacer algo repetible. El script resuelve
+    el diagnóstico de esta cohorte. El skill resuelve el diagnóstico de todas las cohortes
+    que vienen — y de cualquier institución que quiera replicar el programa.
+    El costo de crear el skill fue casi el mismo que el de crear el script.
+    El retorno es exponencialmente mayor.
+  </div>
+
+  <h2>El cierre de la Fase 0</h2>
+
+  <p>
+    Hoy también cerramos el último compromiso pendiente de la Fase 0: enviar el link
+    del sitio al equipo completo y recordar a los Champions que llenen el Form antes
+    del kick-off.
+  </p>
+
+  <blockquote>
+    Fase 0 al 100%. Seis compromisos, seis completados.
+    Mañana arrancamos con el programa real.
+  </blockquote>
+
+  <p>
+    Llegamos al 1 de julio sin pendientes técnicos, con tres Champions notificados,
+    un Form listo, un script de análisis automático instalable, y un skill que
+    garantiza que el proceso escale sin fricción.
+  </p>
+
+  <div class="tomorrow">
+    <h3>Mañana — Sesión 0 · 01 de julio · 9:00 AM</h3>
+    <ul>
+      <li>Kick-off oficial: presentar MCA, licencias y expectativas</li>
+      <li>Diagnóstico baseline en vivo con los 3 Champions</li>
+      <li>Setup de Hermes Agent en la primera estación (Patrick)</li>
+      <li>Primeros itinerarios personalizados generados automáticamente</li>
+    </ul>
+  </div>
+
+  <div class="firma">
+    <strong>Douglas A. Galindo</strong><br>
+    Director de Servicios Informáticos · UJMD<br>
+    Arquitecto del programa AI Fluency · @untaldouglas<br><br>
+    <em>Este es el diario de implementación del Modelo de Conducción AI (MCA)
+    en la Dirección de Servicios Informáticos de la UJMD. Un post por jornada,
+    con lo que realmente pasó — no lo que estaba planeado.</em>
+  </div>
+
+</div>
+</body>
+</html>

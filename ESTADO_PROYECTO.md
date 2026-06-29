@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-06-29 · Sesión 5 — Setup Hermes Agent con skill `teach` |
-| Actualizado por | Hermes Agent — SOD + C5 completado |
+| Última actualización | 2026-06-29 · Sesión 7 — Cierre de jornada · Fase 0 al 100% |
+| Actualizado por | Claude/Cowork — EOD ritual |
 
 ---
 
@@ -63,7 +63,7 @@
 - [x] ~~**Crear Google Form de diagnóstico**~~ — https://forms.gle/JHd4a8kHyFh59RkH7 ✓
 - [ ] **Aplicar diagnóstico baseline** a los 3 Champions seleccionados
 - [x] ~~**Agendar kick-off**~~ — Sesión 0 agendada: 2026-07-01 9:00–10:30 AM · Google Meet: https://meet.google.com/rhx-crmz-kca ✓
-- [ ] **Compartir infográfico** del programa con el equipo completo
+- [x] ~~**Compartir infográfico** del programa con el equipo completo~~ — Link GitHub Pages enviado + recordatorio Form a Champions ✓ (29/06)
 - [x] ~~**Configurar Hermes Agent** (NousResearch) como orquestador central~~ — Guía de setup creadada con skill `teach` ✓ (3 lecciones + glosario + cheat sheet + learning_record)
 - [x] ~~Identidad visual definida~~ — Velocidad Digital seleccionada ✓
 - [x] ~~Infográfico del programa creado~~ ✓
@@ -98,7 +98,7 @@
 | C1 | Seleccionar Champions (1 por área) | 2026-06-30 | ✅ COMPLETADO | Acta emitida: Douglas, Irvin, Mario, Patrick |
 | C2 | Generar cuestionario diagnóstico en Google Forms | 2026-06-30 | ✅ COMPLETADO | https://forms.gle/JHd4a8kHyFh59RkH7 |
 | C3 | Agendar reunión de kick-off con Champions | 2026-06-30 | ✅ COMPLETADO | Sesión 0: 2026-07-01 9:00 AM · Meet: https://meet.google.com/rhx-crmz-kca |
-| C4 | Distribuir infográfico del programa | 2026-06-30 | 🟡 Link listo — falta enviar | GitHub Pages: https://untaldouglas.github.io/Implementar-AI-Fluentcy/ |
+| C4 | Distribuir infográfico del programa | 2026-06-30 | ✅ COMPLETADO | Link enviado al equipo + recordatorio a Champions para llenar Form ✓ (29/06) |
 | C5 | Configurar Hermes Agent | 2026-06-30 | ✅ COMPLETADO | Guía de setup creadada con skill `teach` — 3 lecciones, glosario, cheat sheet y learning_record en 04_herramientas/guia_setup_champions/ |
 | C9 | Enviar correos de notificación a Champions | 2026-06-27 | ✅ COMPLETADO | Enviados el 27/06 a las 8:15 AM |
 
@@ -109,6 +109,7 @@
 | C6 | Aplicar diagnóstico baseline a 3 Champions | 2026-07-07 | ⚪ No iniciado | Resultado: nivel L0–L9 estimado |
 | C7 | Generar itinerarios personalizados por Champion | 2026-07-07 | ⚪ No iniciado | Basado en resultado del diagnóstico |
 | C8 | Kick-off oficial del programa | 2026-07-01 | ⚪ No iniciado | Presentar MCA, licencias, expectativas |
+| C10 | Preparar agenda detallada de Sesión 0 | 2026-06-30 | ⚪ No iniciado | Guión con bloques de tiempo: kick-off + diagnóstico + setup Hermes (90 min) |
 
 ---
 
@@ -119,9 +120,7 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[MAÑANA · C4]** Enviar link del sitio al equipo completo — 10 min
-   - URL: https://untaldouglas.github.io/Implementar-AI-Fluentcy/
-   - Destinatarios: equipo completo de la Dirección de Informática.
+1. **[HOY · C10]** Preparar agenda detallada de Sesión 0 — guión con bloques de 90 min
 
 2. **[01/07 · C8]** Sesión 0 — Diagnóstico Baseline + Kick-off
    - Confirmado: 2026-07-01 · 9:00–10:30 AM · Google Meet: https://meet.google.com/rhx-crmz-kca
@@ -171,6 +170,26 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-06-29 | SESIÓN 7 — CIERRE DE JORNADA COMPLETO (Claude/Cowork)
+  COMPLETADO HOY:
+  ✓ C4: Link GitHub Pages enviado al equipo completo
+  ✓ Recordatorio enviado a Champions para llenar Google Form antes del 01/07
+  ✓ Script calcular_nivel_mca.gs — cálculo automático L0-L9 + itinerarios personalizados
+  ✓ Skill mca-script-generator — instalado en Cowork, proceso repetible para futuras cohortes
+  ✓ README.md, Guía del Form e Instructivo_Skills_Claude.md actualizados
+  ✓ Blog post HTML + versión LinkedIn publicados en 05_blog/
+
+  FASE 0: TODOS LOS COMPROMISOS COMPLETADOS ✅
+  → Arranque el 01/07 sin pendientes.
+
+  PENDIENTE PARA MAÑANA:
+  → C10: Preparar agenda detallada de Sesión 0 (antes de las 9:00 AM)
+  → Resolver SSL de npm para instalar Hermes en estaciones de Champions
+
+  ACCIÓN #1 MAÑANA: C10 — Agenda de Sesión 0 (bloques de tiempo para 90 min)
+
+---
+
 2026-06-29 | SESIÓN 5 — SETUP HERMES AGENT (Hermes Agent)
   COMPLETADO HOY:
   ✓ C5: Guía de setup de Hermes Agent creadada con skill `teach`
