@@ -14,6 +14,27 @@ Piénsalo como una "memoria de proceso": el skill ya sabe el framework MCA, las 
 
 ## Skills instalados en este proyecto
 
+### 🔵 `jornada-ritual`
+
+**Qué hace:** Ejecuta los rituales de inicio y cierre de jornada. Lee `ESTADO_PROYECTO.md`, calcula el contexto del programa (día, fase, hitos) y presenta el TOP 3 de acciones al iniciar, o actualiza ambos archivos de estado (`ESTADO_PROYECTO.md` + `Dashboard_Jornada.html`) al cerrar.
+
+**Cuándo usarlo:**
+- Al empezar el día de trabajo en el programa
+- Al cerrar la jornada para dejar todo al día
+- En cualquier momento para consultar qué hacer
+
+**Frases de activación:**
+```
+inicio de jornada
+fin de jornada
+cierre de jornada
+qué hago hoy
+```
+
+**Archivo de referencia:** `04_herramientas/RITUAL.md`
+
+---
+
 ### 🟣 `mca-script-generator`
 
 **Qué hace:** Genera o adapta el Google Apps Script (`calcular_nivel_mca.gs`) que calcula automáticamente el nivel L0-L9 de cada participante, asigna su licencia de conducción AI y produce su itinerario personalizado de aprendizaje.

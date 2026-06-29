@@ -91,9 +91,11 @@ Los skills son procesos automatizables que Claude ya sabe ejecutar para este pro
 
 | Skill | Cuándo usarlo | Cómo invocarlo |
 |-------|--------------|----------------|
+| `jornada-ritual` ★ | Ritual de inicio y cierre de jornada — lee estado, presenta TOP 3, actualiza archivos | `"inicio de jornada"` · `"fin de jornada"` |
 | `mca-script-generator` | Generar o adaptar el script que calcula niveles L0-L9 e itinerarios | `"genera el script MCA"` · `"adapta el script, nueva área X"` |
 
-→ Ver instructivo completo en `04_herramientas/Instructivo_Skills_Claude.md`
+→ Ver instructivo completo en `04_herramientas/Instructivo_Skills_Claude.md`  
+→ Procedimientos detallados de rituales en `04_herramientas/RITUAL.md`
 
 ---
 
