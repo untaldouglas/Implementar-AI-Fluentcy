@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-06-29 · Sesión 7 — Cierre de jornada · Fase 0 al 100% |
-| Actualizado por | Claude/Cowork — EOD ritual |
+| Última actualización | 2026-06-30 · Sesión 8 — SSL de npm resuelto |
+| Actualizado por | Claude Code |
 
 ---
 
@@ -28,13 +28,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-06-29 |
-| Días hasta inicio | 4 días |
+| Hoy (última actualización) | 2026-06-30 |
+| Días hasta inicio | 1 día |
 | Fase actual | **FASE 0 — Preparación del terreno** |
 | Semana de proyecto | S0 (pre-arranque) |
 | Mes de proyecto | M0 (previo al inicio) |
 | Próximo hito | Kick-off oficial — 2026-07-01 |
-| Días hasta próximo hito | 5 días |
+| Días hasta próximo hito | 1 día |
 
 ### Calendario de fases
 
@@ -170,6 +170,21 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-06-30 | SESIÓN 8 (Claude Code)
+  COMPLETADO HOY:
+  ✓ SSL de npm corregido — bloqueante de instalación de Hermes Agent resuelto
+      → Instalación realizada fuera de la red de la universidad (la red UJMD interceptaba/bloqueaba el certificado)
+  ✓ CLAUDE.md agregado al repositorio (guía para agentes de código)
+
+  NOTA:
+  → Si la instalación de Hermes Agent en las estaciones de los Champions se hace dentro de la red UJMD, puede reaparecer el mismo problema de SSL — usar red externa o resolver el certificado con TI de red.
+
+  PENDIENTE PARA MAÑANA (01/07):
+  → C10: Agenda detallada de Sesión 0 (bloques de 90 min)
+  → C8: Kick-off oficial del programa
+
+---
+
 2026-06-29 | SESIÓN 7 — CIERRE DE JORNADA COMPLETO (Claude/Cowork)
   COMPLETADO HOY:
   ✓ C4: Link GitHub Pages enviado al equipo completo
