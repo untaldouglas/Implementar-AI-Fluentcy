@@ -26,6 +26,7 @@ ai-fluency-ujmd/
 │   └── google_form/                           # Automatización del diagnóstico
 │       ├── crear_form_conduccion_ai.gs        # → make create-form
 │       ├── consolidador_appsscript.gs
+│       ├── calcular_nivel_mca.gs              # ★ Calcula nivel L0-L9 + itinerario (skill mca-script-generator)
 │       ├── Plantilla_AI_Literacy_Baseline.csv
 │       ├── Estructura_Columnas.md
 │       └── Guia_GoogleForm_AI_Literacy.md
@@ -47,6 +48,7 @@ ai-fluency-ujmd/
 ├── 04_herramientas/        ← Dashboards y herramientas operativas
 │   ├── onboarding.html                        # Portal de onboarding
 │   ├── Dashboard_Jornada.html                 # Dashboard inicio/fin jornada
+│   ├── Instructivo_Skills_Claude.md           # ★ Cómo usar los skills de IA del proyecto
 │   └── dashboards/                            # Registros de jornada
 │
 ├── 05_blog/                ← Blog del proyecto (avances públicos)
@@ -68,6 +70,8 @@ ai-fluency-ujmd/
 | Replicar el programa en otra unidad | `02_playbook/AI_Fluency_Playbook_UJMD.docx` |
 | Configurar Hermes Agent para un área | `01_piloto/SOUL_plantillas/` |
 | Aplicar el diagnóstico baseline | `01_piloto/Cuestionario_Baseline_AI_Literacy.md` |
+| Calcular niveles MCA de los participantes | `01_piloto/google_form/calcular_nivel_mca.gs` |
+| Usar los skills de Claude del proyecto | `04_herramientas/Instructivo_Skills_Claude.md` |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` |
 | Presentar a directivos | `03_comunicacion/OnePager_Rectoria.html` |
 
@@ -78,6 +82,20 @@ ai-fluency-ujmd/
 ```bash
 make create-form      # Crea el Google Form de diagnóstico MCA
 ```
+
+---
+
+## Skills de Claude (IA del proyecto)
+
+Los skills son procesos automatizables que Claude ya sabe ejecutar para este programa. No requieren explicar el contexto cada vez.
+
+| Skill | Cuándo usarlo | Cómo invocarlo |
+|-------|--------------|----------------|
+| `jornada-ritual` ★ | Ritual de inicio y cierre de jornada — lee estado, presenta TOP 3, actualiza archivos | `"inicio de jornada"` · `"fin de jornada"` |
+| `mca-script-generator` | Generar o adaptar el script que calcula niveles L0-L9 e itinerarios | `"genera el script MCA"` · `"adapta el script, nueva área X"` |
+
+→ Ver instructivo completo en `04_herramientas/Instructivo_Skills_Claude.md`  
+→ Procedimientos detallados de rituales en `04_herramientas/RITUAL.md`
 
 ---
 

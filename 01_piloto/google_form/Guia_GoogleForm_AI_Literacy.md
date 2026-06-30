@@ -4,6 +4,25 @@
 
 ---
 
+## ⚡ Análisis automático de respuestas
+
+Una vez que el Form tenga respuestas, usa el script `calcular_nivel_mca.gs` para calcular automáticamente el nivel MCA (L0-L9) e itinerario de cada participante.
+
+**Opciones para obtener o actualizar el script:**
+
+- **Script base (cohorte julio 2026):** ya disponible en `calcular_nivel_mca.gs` en esta carpeta
+- **Adaptar para nueva cohorte o Form modificado:** usa el skill de Claude `mca-script-generator`
+  - Abre Cowork y escribe: `"genera el script MCA para el form de diagnóstico"`
+  - O con cambios específicos: `"el form cambió, columnas de nivel ahora empiezan en col 16"`
+  - Ver instructivo completo: `04_herramientas/Instructivo_Skills_Claude.md`
+
+**Instalación en Google Apps Script:**
+1. Abre el Sheet vinculado al Form → `Extensiones → Apps Script`
+2. Pega el contenido de `calcular_nivel_mca.gs` → Guarda
+3. Recarga el Sheet → ejecuta `🚗 MCA · AI Fluency → Calcular niveles e itinerarios`
+
+---
+
 ## 📋 Instrucciones rápidas de montaje
 
 1. Ir a [forms.google.com](https://forms.google.com) → Crear formulario en blanco
