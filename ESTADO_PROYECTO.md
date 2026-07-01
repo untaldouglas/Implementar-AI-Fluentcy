@@ -112,7 +112,7 @@
 | C7 | Generar itinerarios personalizados por Champion | 2026-07-07 | ✅ COMPLETADO | Itinerarios generados por script en hoja electrónica · Niveles L0–L9 calculados |
 | C8 | Kick-off oficial del programa | 2026-07-01 | ✅ COMPLETADO | Sesión 0 ejecutada · Bitácora enviada a Drive (validación pendiente) |
 | C10 | Preparar agenda detallada de Sesión 0 | 2026-07-01 | ✅ COMPLETADO | Agenda definida y entregada a invitados |
-| C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-07 | 🟡 EN CURSO | Irvin ✅ Mario ✅ Patrick ⏳ (ausente por incidente de infraestructura) |
+| C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-02 | 🟡 EN CURSO | Irvin ✅ Mario ✅ Patrick ⏳ — sesión de recuperación a más tardar 02/07 |
 
 ---
 
@@ -123,9 +123,9 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[Esta semana · C11]** Completar setup Hermes en estación de Patrick Orellana
+1. **[MAÑANA 02/07 · C11 🔴]** Completar setup Hermes en estación de Patrick Orellana
    - Irvin ✅ Mario ✅ — solo falta Patrick.
-   - Patrick ausente por incidente de infraestructura — agendar sesión de recuperación.
+   - Fecha límite inamovible: 2026-07-02.
    - ⚠️ Usar red externa — la red UJMD bloquea SSL de npm.
    - Provider: OpenRouter (`OPENROUTER_API_KEY`), modelo: `meta-llama/llama-3.3-70b-instruct:free`
 
