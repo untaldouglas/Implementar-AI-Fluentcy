@@ -108,8 +108,8 @@
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
-| C6 | Aplicar diagnóstico baseline a 3 Champions | 2026-07-07 | 🟡 EN CURSO | Form enviado; respuestas pendientes de Champions |
-| C7 | Generar itinerarios personalizados por Champion | 2026-07-07 | ⚪ No iniciado | Basado en resultado del diagnóstico baseline |
+| C6 | Aplicar diagnóstico baseline a 3 Champions | 2026-07-07 | ✅ COMPLETADO | Los 3 Champions llenaron el Form · Script calcular_nivel_mca.gs ejecutado |
+| C7 | Generar itinerarios personalizados por Champion | 2026-07-07 | ✅ COMPLETADO | Itinerarios generados por script en hoja electrónica · Niveles L0–L9 calculados |
 | C8 | Kick-off oficial del programa | 2026-07-01 | ✅ COMPLETADO | Sesión 0 ejecutada · Bitácora enviada a Drive (validación pendiente) |
 | C10 | Preparar agenda detallada de Sesión 0 | 2026-07-01 | ✅ COMPLETADO | Agenda definida y entregada a invitados |
 | C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-07 | ⚪ No iniciado | Patrick primero; usar red externa (SSL UJMD bloquea npm) |
@@ -123,21 +123,18 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[HOY · C6]** Incorporar bitácora de Sesión 0 al repositorio
-   - Bitácora enviada a Drive (ujmd.edu.sv) para validación — pendiente de recibir y agregar aquí.
-   - Una vez validada: copiar a `04_herramientas/dashboards/` y registrar en log.
-
-2. **[01–07/07 · C6]** Cierre del diagnóstico baseline
-   - Confirmar que los 3 Champions completaron el Google Form: https://forms.gle/JHd4a8kHyFh59RkH7
-   - Si no lo completaron en Sesión 0: hacer seguimiento individual por WhatsApp/correo.
-
-3. **[01–07/07 · C7]** Generar itinerarios personalizados por Champion
-   - Correr `calcular_nivel_mca.gs` con las respuestas del Form.
-   - Output: un itinerario L0→Lx por Champion (Irvin, Mario, Patrick).
-
-4. **[Esta semana · C11]** Setup Hermes Agent en estaciones de Champions
+1. **[Esta semana · C11]** Setup Hermes Agent en estaciones de Champions
    - Patrick primero (Infraestructura — piloto técnico).
    - ⚠️ Usar red externa o punto de acceso móvil — la red UJMD bloquea SSL de npm.
+   - Provider: OpenRouter (`OPENROUTER_API_KEY`), modelo: `meta-llama/llama-3.3-70b-instruct:free`
+
+2. **[Pendiente]** Registrar niveles baseline en learning records de cada Champion
+   - Agregar nivel L calculado por el script a `04_herramientas/guia_setup_champions/learning_record/`
+   - Irvin Morales · Mario Valencia · Patrick Orellana
+
+3. **[Pendiente]** Incorporar bitácora de Sesión 0 al repositorio
+   - Pendiente de recibir validación desde Drive (ujmd.edu.sv)
+   - Una vez validada: copiar a `04_herramientas/dashboards/`
 
 ---
 
@@ -180,6 +177,18 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-01 | SESIÓN 12 — BASELINE COMPLETADO (Claude Code)
+  COMPLETADO:
+  ✓ C6: Los 3 Champions completaron el Google Form de diagnóstico baseline
+  ✓ C7: Script calcular_nivel_mca.gs ejecutado en hoja electrónica · Niveles e itinerarios generados
+
+  PENDIENTE INMEDIATO:
+  → Registrar niveles baseline individuales en learning_record/ de cada Champion
+  → C11: Setup Hermes Agent en estaciones (Patrick primero)
+  → Bitácora Sesión 0: pendiente de validación en Drive
+
+---
+
 2026-07-01 | SESIÓN 11 — DECISIÓN PROVEEDOR LLM (Claude Code)
   DECISIÓN REGISTRADA:
   ✓ Provider principal: OpenRouter (openrouter.ai) — acceso a 100+ modelos, muchos gratuitos
