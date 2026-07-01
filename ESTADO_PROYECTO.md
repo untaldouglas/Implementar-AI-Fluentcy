@@ -201,6 +201,28 @@
 
 ---
 
+2026-07-01 | CIERRE DE JORNADA — DÍA 1 OFICIAL (Claude Code)
+  COMPLETADO HOY:
+  ✓ C8:  Sesión 0 ejecutada — Kick-off oficial del programa
+  ✓ C6:  Diagnóstico baseline — 3 Champions completaron el Google Form
+  ✓ C7:  Script calcular_nivel_mca.gs ejecutado — niveles e itinerarios calculados
+  ✓ C11 parcial: Hermes instalado y configurado en estaciones de Irvin y Mario
+  ✓ Decisión LLM: OpenRouter (principal) + Groq / Ollama / NVIDIA (alternativas gratuitas)
+  ✓ Guías personalizadas 7 días publicadas en GitHub Pages (Irvin, Mario, Patrick)
+  ✓ Bitácora Sesión 0 enviada a Drive (ujmd.edu.sv) para validación
+
+  RESULTADOS BASELINE (los 3 Champions):
+  → Irvin Morales  — L1 · Zona Conductor · Bloqueo: Confianza/Seguridad
+  → Mario Valencia — L1 · Zona Pasajero  · Bloqueo: Acceso/Permisos/Soporte
+  → Patrick Orellana — L1 · Zona Pasajero · Bloqueo: Conocimiento técnico/Delegación segura
+
+  PENDIENTE MAÑANA (02/07) — PRIORIDAD 🔴:
+  → C11 Patrick: setup Hermes en su estación — FECHA LÍMITE INAMOVIBLE 02/07
+  → Compartir links de guías personalizadas a cada Champion por correo/Teams
+  → Incorporar bitácora validada al repo (04_herramientas/dashboards/)
+
+---
+
 2026-07-01 | SESIÓN 11 — DECISIÓN PROVEEDOR LLM (Claude Code)
   DECISIÓN REGISTRADA:
   ✓ Provider principal: OpenRouter (openrouter.ai) — acceso a 100+ modelos, muchos gratuitos
