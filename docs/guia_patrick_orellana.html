@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía 7 Días · Patrick Orellana · AI Fluency UJMD</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#03001a;color:#e0e8ff;font-family:'Space Grotesk',sans-serif;min-height:100vh}
+a{color:#00e5ff;text-decoration:none}a:hover{text-decoration:underline}
+code{background:#ff880015;color:#ff9900;padding:1px 6px;border-radius:4px;font-size:.84em;font-family:monospace}
+pre{background:#000d1f;border:1px solid #ff880022;border-radius:10px;padding:16px 18px;overflow-x:auto;margin:12px 0;font-family:monospace;font-size:.83rem;color:#ffbb55;line-height:1.7}
+.comment{color:#446688}
+.site-header{background:#03001a;border-bottom:1px solid #ffffff12;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.back-link{color:#8899bb;font-size:.85rem}
+.back-link:hover{color:#ff9900;text-decoration:none}
+.hbadge{background:#ff990018;border:1px solid #ff990044;color:#ff9900;font-size:11px;font-weight:600;letter-spacing:2px;padding:4px 14px;border-radius:20px;text-transform:uppercase}
+.champion-card{background:linear-gradient(135deg,#1a0e00 0%,#031020 100%);border-bottom:1px solid #ffffff12;padding:28px 24px}
+.champion-inner{max-width:760px;margin:0 auto;display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+.avatar{width:60px;height:60px;border-radius:14px;background:#ff990018;border:2px solid #ff990044;display:flex;align-items:center;justify-content:center;font-size:1.7rem;flex-shrink:0}
+.champion-info h1{font-family:'Montserrat',sans-serif;font-size:1.4rem;font-weight:900;color:#fff;margin-bottom:4px}
+.champion-info .role{color:#7788aa;font-size:.86rem;margin-bottom:12px}
+.tags{display:flex;gap:7px;flex-wrap:wrap}
+.tag{background:#ffffff08;border:1px solid #ffffff15;border-radius:20px;padding:3px 11px;font-size:.76rem;color:#8899bb}
+.tag.orange{background:#ff990012;border-color:#ff990033;color:#ff9900}
+.tag.cyan{background:#00e5ff12;border-color:#00e5ff33;color:#00e5ff}
+.tag.yellow{background:#ffcc0012;border-color:#ffcc0033;color:#ffcc00}
+.prog-section{background:#02000f;border-bottom:1px solid #ffffff10;padding:0 24px}
+.prog-inner{max-width:760px;margin:0 auto;display:flex;overflow-x:auto}
+.day-tab{flex:1;min-width:72px;padding:13px 6px;text-align:center;cursor:pointer;border-bottom:3px solid transparent;color:#446688;font-size:.76rem;font-weight:600;transition:all .15s;white-space:nowrap;background:none;border-left:none;border-right:none;border-top:none;font-family:'Space Grotesk',sans-serif}
+.day-tab:hover{color:#8899bb}
+.day-tab.active{color:#ff9900;border-bottom-color:#ff9900}
+.day-num{font-size:.62rem;display:block;margin-bottom:2px;opacity:.7}
+.content{max-width:760px;margin:0 auto;padding:28px 24px 80px}
+.day-panel{display:none}
+.day-panel.active{display:block}
+.day-header{margin-bottom:22px}
+.day-label{font-size:.74rem;color:#ff9900;text-transform:uppercase;letter-spacing:2px;font-weight:600;margin-bottom:7px}
+.day-title{font-family:'Montserrat',sans-serif;font-size:1.35rem;font-weight:900;color:#fff;margin-bottom:5px}
+.day-meta{color:#7788aa;font-size:.86rem}
+h3{font-family:'Montserrat',sans-serif;font-size:.98rem;font-weight:700;color:#ccd6ff;margin:22px 0 9px}
+p{color:#a0b4cc;line-height:1.7;margin-bottom:11px;font-size:.91rem}
+.concept-box{background:#ffffff07;border:1px solid #ffffff12;border-radius:11px;padding:16px 18px;margin:12px 0}
+.concept-box .cb-label{font-size:.71rem;color:#556677;text-transform:uppercase;letter-spacing:1px;margin-bottom:7px}
+.concept-box .cb-content{font-size:.89rem;color:#c0d0e8;line-height:1.65}
+.alert{display:flex;gap:11px;background:#ff800015;border:1px solid #ff800033;border-radius:10px;padding:13px 16px;margin:13px 0}
+.alert.info{background:#00e5ff0d;border-color:#00e5ff33}
+.alert.success{background:#00ff880d;border-color:#00ff8833}
+.alert.orange{background:#ff99000d;border-color:#ff990033}
+.alert-icon{font-size:1rem;flex-shrink:0;margin-top:1px}
+.alert-body{font-size:.86rem;color:#a0b4cc;line-height:1.6}
+.alert-body strong{color:#e0e8ff}
+.checklist{list-style:none;margin:12px 0}
+.checklist li{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #ffffff08;font-size:.89rem;color:#a0b4cc;cursor:pointer;transition:color .1s;line-height:1.5}
+.checklist li:last-child{border-bottom:none}
+.checklist li.checked{color:#ff9900}
+.check-box{width:19px;height:19px;border:1.5px solid #334455;border-radius:5px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;font-size:11px;transition:all .15s}
+.checklist li.checked .check-box{background:#ff990020;border-color:#ff9900;color:#ff9900}
+.evidence-card{background:#ff99000a;border:1px solid #ff990022;border-radius:11px;padding:16px 18px;margin:13px 0}
+.evidence-card .ev-title{color:#ff9900;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:9px}
+.evidence-card ul{list-style:none;padding:0}
+.evidence-card li{color:#a0b4cc;font-size:.87rem;padding:4px 0 4px 16px;position:relative;line-height:1.5}
+.evidence-card li::before{content:"→";position:absolute;left:0;color:#ff9900;font-size:.78rem}
+.day-nav{display:flex;justify-content:space-between;margin-top:32px;padding-top:18px;border-top:1px solid #ffffff10}
+.nav-btn{display:inline-flex;align-items:center;gap:7px;background:#ffffff08;border:1px solid #ffffff15;border-radius:10px;padding:9px 18px;color:#8899bb;font-size:.84rem;cursor:pointer;transition:all .15s;font-family:'Space Grotesk',sans-serif;font-weight:500}
+.nav-btn:hover{background:#ff990010;color:#ff9900;border-color:#ff990044}
+.nav-btn.primary{background:#ff990018;border-color:#ff990066;color:#ff9900}
+.validation-section{background:#ffffff06;border:1px solid #ffffff12;border-radius:13px;padding:22px;margin-bottom:22px}
+.vs-title{font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:700;color:#fff;margin-bottom:5px}
+.vs-sub{color:#7788aa;font-size:.84rem;margin-bottom:16px}
+footer{text-align:center;color:#334455;font-size:.77rem;border-top:1px solid #ffffff10;padding:22px}
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <a class="back-link" href="index.html">← Inicio</a>
+  <span class="hbadge">🎓 Guía 7 Días · AI Fluency</span>
+</div>
+
+<div class="champion-card">
+  <div class="champion-inner">
+    <div class="avatar">🖥️</div>
+    <div class="champion-info">
+      <h1>Patrick Eduardo Orellana Amaya</h1>
+      <div class="role">Operador de Infraestructura · Infraestructura · UJMD · +5 años de antigüedad</div>
+      <div class="tags">
+        <span class="tag cyan">L1 · Permiso de Aprendizaje</span>
+        <span class="tag">Zona: Pasajero</span>
+        <span class="tag yellow">Meta: Licencia Avanzada</span>
+        <span class="tag">Herramienta: Hermes Agent</span>
+        <span class="tag">Provider: OpenRouter / Groq</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="prog-section">
+  <div class="prog-inner">
+    <button class="day-tab active" onclick="showDay(1)"><span class="day-num">DÍA</span>1</button>
+    <button class="day-tab" onclick="showDay(2)"><span class="day-num">DÍA</span>2</button>
+    <button class="day-tab" onclick="showDay(3)"><span class="day-num">DÍA</span>3</button>
+    <button class="day-tab" onclick="showDay(4)"><span class="day-num">DÍA</span>4</button>
+    <button class="day-tab" onclick="showDay(5)"><span class="day-num">DÍA</span>5</button>
+    <button class="day-tab" onclick="showDay(6)"><span class="day-num">DÍA</span>6</button>
+    <button class="day-tab" onclick="showDay(7)"><span class="day-num">DÍA</span>7</button>
+    <button class="day-tab" onclick="showDay(8)"><span class="day-num"></span>✓ Entrega</button>
+  </div>
+</div>
+
+<div class="content">
+
+<!-- DAY 1 -->
+<div id="day-1" class="day-panel active">
+  <div class="day-header">
+    <div class="day-label">Día 1 · Lección 1</div>
+    <div class="day-title">¿Qué es un prompt para infraestructura?</div>
+    <div class="day-meta">30 min · Hermes Agent en tu estación de trabajo</div>
+  </div>
+
+  <div class="alert orange">
+    <span class="alert-icon">⚠️</span>
+    <div class="alert-body"><strong>Nota de inicio:</strong> Tu setup de Hermes está pendiente por el incidente del 01/07. Completa primero la instalación con Douglas, luego empieza esta guía. Fecha límite de setup: 02/07/2026.</div>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Concepto clave</div>
+    <div class="cb-content">Un prompt para infraestructura es como escribir un procedimiento técnico: specificas el sistema, el entorno y lo que necesitas. Cuanto más específico eres con el contexto técnico, más preciso es el resultado — igual que con la documentación de sistemas.</div>
+  </div>
+
+  <h3>Iniciar Hermes para infraestructura</h3>
+  <pre><span class="comment"># Para generar scripts Bash/PowerShell usa el toolset terminal</span>
+hermes chat -t terminal -q "genera un script para..."
+
+<span class="comment"># Para análisis y documentación (sin ejecutar comandos)</span>
+hermes chat -q "explica / genera / redacta..."
+
+<span class="comment"># Sesión interactiva</span>
+hermes</pre>
+
+  <h3>Práctica — compara estos prompts</h3>
+  <p><strong>Prompt A — Sin contexto:</strong></p>
+  <pre>hermes chat -q "genera un script para monitorear servidores"</pre>
+
+  <p><strong>Prompt B — Con contexto de infraestructura:</strong></p>
+  <pre>hermes chat -t terminal -q "Eres un administrador de infraestructura universitaria. Genera un script Bash que verifique el estado de conectividad de los servidores críticos de la red. El script debe: hacer ping a una lista de IPs (usar IPs ficticias de ejemplo), mostrar cuáles responden y cuáles no, registrar el resultado con timestamp en un archivo de log, y enviar alerta por correo si algún servidor no responde. Usa datos ficticios para IPs y correos."</pre>
+
+  <h3>Actividades del Día 1</h3>
+  <ul class="checklist" id="cl-day1">
+    <li onclick="toggle(this)"><div class="check-box"></div>Setup de Hermes completado con Douglas (prerequisito)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt A y guardé el resultado</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt B y noté la diferencia de calidad</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Creé mi propio prompt para una tarea real de infraestructura (con datos ficticios)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé ambas respuestas para comparar</li>
+  </ul>
+
+  <div class="alert info">
+    <span class="alert-icon">💡</span>
+    <div class="alert-body"><strong>Tu experiencia previa:</strong> Ya usaste Claude y Gemini para generar reportes. Hoy usas Hermes con el mismo objetivo pero con prompts más estructurados para infraestructura.</div>
+  </div>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 1</div>
+    <ul>
+      <li>Respuesta del Prompt A (genérico)</li>
+      <li>Respuesta del Prompt B (con contexto de infraestructura)</li>
+    </ul>
+  </div>
+
+  <div class="day-nav"><span></span><button class="nav-btn primary" onclick="showDay(2)">Día 2 →</button></div>
+</div>
+
+<!-- DAY 2 -->
+<div id="day-2" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 2 · Lección 1 (práctica)</div>
+    <div class="day-title">3 prompts de infraestructura para tu flujo real</div>
+    <div class="day-meta">45 min · Hermes Agent</div>
+  </div>
+
+  <h3>Prompt 1 — Script de verificación de respaldos</h3>
+  <pre>hermes chat -t terminal -q "Genera un script Bash que verifique si los respaldos del día anterior fueron completados exitosamente. El script debe: verificar la existencia del archivo de respaldo con fecha de ayer, validar que el tamaño sea mayor a un mínimo configurable, registrar el resultado en un log con timestamp, y retornar exit code 0 si está bien o 1 si hay problema. Usa rutas ficticias como /backup/ejemplo/."</pre>
+
+  <h3>Prompt 2 — Reporte de estado de infraestructura</h3>
+  <pre>hermes chat -q "Genera una plantilla de reporte mensual de estado de infraestructura universitaria. Secciones: resumen ejecutivo, disponibilidad de servicios críticos (%), incidentes del mes, respaldos (estado y tamaño), capacidad de almacenamiento, acciones pendientes. Formato: tabla + narrativa breve por sección."</pre>
+
+  <h3>Prompt 3 — Procedimiento de respuesta a incidente</h3>
+  <pre>hermes chat -q "Redacta un procedimiento paso a paso para responder a un incidente de caída de servidor en una universidad. Incluye: detección, escalamiento, comunicación al equipo, acciones de recuperación, verificación del servicio, y documentación post-incidente. Formato: numerado con checkboxes."</pre>
+
+  <div class="alert">
+    <span class="alert-icon">🔒</span>
+    <div class="alert-body"><strong>Tu bloqueo principal — Delegación segura:</strong> Hermes (y el modelo LLM detrás) procesa lo que le envías. <strong>Nunca incluyas:</strong> IPs reales de producción, credenciales, tokens, contraseñas, nombres de servidores internos reales, ni configuraciones de red específicas. Usa siempre datos ficticios o genéricos. La lógica del script sí es segura de compartir.</div>
+  </div>
+
+  <h3>Actividades del Día 2</h3>
+  <ul class="checklist" id="cl-day2">
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt 1 y obtuve el script de verificación de respaldos</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt 2 y obtuve la plantilla de reporte mensual</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt 3 y obtuve el procedimiento de respuesta a incidente</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Verifiqué que ningún prompt contiene datos reales de producción</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé los 3 prompts en un doc para reutilizar</li>
+  </ul>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 2</div>
+    <ul>
+      <li>Los 3 prompts con sus resultados</li>
+      <li>Nota: ¿cuál fue más útil para tu área?</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(1)">← Día 1</button>
+    <button class="nav-btn primary" onclick="showDay(3)">Día 3 →</button>
+  </div>
+</div>
+
+<!-- DAY 3 -->
+<div id="day-3" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 3 · Lección 2</div>
+    <div class="day-title">Refinamiento iterativo de scripts</div>
+    <div class="day-meta">35 min · Hermes Agent modo interactivo</div>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Concepto clave</div>
+    <div class="cb-content">Un script generado por IA es un <strong>borrador de inicio</strong>, no el producto final. El valor está en el ciclo de refinamiento: pides, revisas, corriges, vuelves a pedir. Igual que con un junior técnico al que vas guiando.</div>
+  </div>
+
+  <h3>Ciclo de refinamiento de script en Hermes</h3>
+  <pre><span class="comment"># Inicia sesión interactiva</span>
+hermes
+
+<span class="comment"># Toma el script del Día 2 (ej: verificación de respaldos) y refina:</span>
+&gt; [pega el script generado el Día 2]
+&gt; Agrega manejo de errores — que el script no falle silenciosamente.
+&gt; Agrega un parámetro opcional para especificar la fecha a verificar.
+&gt; Convierte el script de Bash a PowerShell manteniendo la misma lógica.
+&gt; Agrega comentarios explicativos en español a cada sección.
+&gt; /quit</pre>
+
+  <h3>Actividades del Día 3</h3>
+  <ul class="checklist" id="cl-day3">
+    <li onclick="toggle(this)"><div class="check-box"></div>Inicié Hermes en modo interactivo</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Pedí manejo de errores al script del Día 2</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Pedí la versión PowerShell del mismo script</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Pedí comentarios explicativos en español</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé la versión final refinada (Bash + PowerShell)</li>
+  </ul>
+
+  <div class="alert info">
+    <span class="alert-icon">💡</span>
+    <div class="alert-body"><strong>Sobre conocimiento técnico (tu bloqueo):</strong> Hermes puede no conocer las particularidades exactas de tu infraestructura. Es normal. Tú pones el contexto específico, Hermes pone la estructura y el código base. La combinación es más potente que cualquiera de los dos solos.</div>
+  </div>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 3</div>
+    <ul>
+      <li>Script Bash original vs versión refinada con manejo de errores</li>
+      <li>Versión PowerShell equivalente</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(2)">← Día 2</button>
+    <button class="nav-btn primary" onclick="showDay(4)">Día 4 →</button>
+  </div>
+</div>
+
+<!-- DAY 4 -->
+<div id="day-4" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 4 · Lección 2 + Seguridad</div>
+    <div class="day-title">SOUL.md + protocolo de delegación segura</div>
+    <div class="day-meta">35 min · Hermes Agent + editor de texto</div>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Dos cosas hoy</div>
+    <div class="cb-content">1. Crear el SOUL.md de Infraestructura para que Hermes siempre tenga contexto de tu área.<br>2. Definir tu protocolo personal de qué SÍ y qué NO delegar a la IA.</div>
+  </div>
+
+  <h3>Tu SOUL.md de Infraestructura</h3>
+  <pre><span class="comment"># SOUL — Agente de Infraestructura UJMD</span>
+
+Eres un asistente de operaciones de infraestructura de la Dirección
+de Servicios Informáticos de la UJMD, El Salvador.
+
+## Tu especialidad
+- Scripts Bash y PowerShell para administración de sistemas
+- Verificación de respaldos y monitoreo de servicios
+- Generación de reportes técnicos y procedimientos
+- Documentación de infraestructura
+
+## Reglas de seguridad (críticas)
+- NUNCA uses IPs reales, hostnames reales ni credenciales
+- Usa siempre IPs ficticias (ej: 192.168.x.x) en los ejemplos
+- Si ves credenciales en lo que te comparto, advierte de inmediato
+- Los datos corporativos NO se comparten con modelos LLM
+
+## Tono
+Técnico, preciso, con comentarios explicativos en español.</pre>
+
+  <h3>Tu protocolo de delegación segura (llena esto)</h3>
+  <div class="concept-box">
+    <div class="cb-label">Define tus reglas personales</div>
+    <div class="cb-content">
+      <strong>✅ SÍ puedo delegar a Hermes:</strong><br>
+      — Generar scripts con lógica (usando datos ficticios)<br>
+      — Plantillas de reportes y procedimientos<br>
+      — Documentación técnica<br>
+      — Análisis de logs (con datos anonimizados)<br><br>
+      <strong>❌ NUNCA delego a Hermes:</strong><br>
+      — IPs reales de producción<br>
+      — Credenciales, tokens, contraseñas<br>
+      — Configuraciones de firewall reales<br>
+      — Datos de usuarios o estudiantes<br>
+      — [agrega los tuyos según tu contexto]
+    </div>
+  </div>
+
+  <h3>Actividades del Día 4</h3>
+  <ul class="checklist" id="cl-day4">
+    <li onclick="toggle(this)"><div class="check-box"></div>Creé mi SOUL.md de Infraestructura</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Verifiqué que Hermes lo reconoce (<code>hermes chat -q "¿cuál es tu especialidad?"</code>)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Completé mi protocolo personal de delegación segura</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé el protocolo como documento de referencia</li>
+  </ul>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 4</div>
+    <ul>
+      <li>Contenido de tu SOUL.md</li>
+      <li>Tu protocolo de delegación segura completado</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(3)">← Día 3</button>
+    <button class="nav-btn primary" onclick="showDay(5)">Día 5 →</button>
+  </div>
+</div>
+
+<!-- DAY 5 -->
+<div id="day-5" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 5 · Caso Ancla</div>
+    <div class="day-title">Script de monitoreo de red y validación de respaldos</div>
+    <div class="day-meta">60 min · Hermes Agent (con SOUL.md activo)</div>
+  </div>
+
+  <div class="alert success">
+    <span class="alert-icon">🎯</span>
+    <div class="alert-body"><strong>Tu caso ancla:</strong> Generación de scripts de monitoreo y verificación de respaldos — las tareas que mencionaste como candidatas para automatizar.</div>
+  </div>
+
+  <h3>Script completo: verificación diaria de infraestructura</h3>
+  <pre>hermes chat -t terminal -q "Genera un script Bash completo de verificación diaria de infraestructura universitaria. El script debe:
+1. Verificar conectividad con ping a lista de servidores ficticios (web, BD, respaldos)
+2. Verificar que el respaldo de ayer existe y su tamaño supera 1GB
+3. Verificar espacio en disco (alerta si supera 80% de uso)
+4. Generar un reporte resumido en /var/log/infra_check_YYYY-MM-DD.log
+5. Enviar email de alerta si alguna verificación falla (destinatario ficticio)
+Todo con datos ficticios. Incluir manejo de errores y comentarios en español."</pre>
+
+  <h3>Paso 2 — Adaptar a tu entorno real (sin datos sensibles)</h3>
+  <p>Una vez obtengas el script, ajusta manualmente:</p>
+  <ul class="checklist" id="cl-adapt" style="margin:8px 0">
+    <li onclick="toggle(this)"><div class="check-box"></div>Lista de servidores a verificar (puedes usar nombres genéricos como servidor-web, servidor-bd)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ruta real de respaldos (sin credenciales)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Umbrales de disco según tu infraestructura real</li>
+  </ul>
+
+  <h3>Actividades del Día 5</h3>
+  <ul class="checklist" id="cl-day5">
+    <li onclick="toggle(this)"><div class="check-box"></div>Generé el script completo con Hermes (con SOUL.md activo)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Revisé el script línea a línea — entiendo qué hace cada parte</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Identifiqué qué ajustes necesita para mi entorno real</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Probé el script en un entorno de prueba (no producción)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé la versión final con mis ajustes</li>
+  </ul>
+
+  <div class="alert">
+    <span class="alert-icon">⚠️</span>
+    <div class="alert-body"><strong>Antes de usar en producción:</strong> Prueba siempre en un entorno de desarrollo o con datos ficticios. Un script mal configurado puede interrumpir servicios. Valida con Douglas antes de poner en producción.</div>
+  </div>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 5</div>
+    <ul>
+      <li>Script generado por Hermes (versión original)</li>
+      <li>Script con tus ajustes (versión adaptada)</li>
+      <li>Nota de qué ajustes hiciste y por qué</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(4)">← Día 4</button>
+    <button class="nav-btn primary" onclick="showDay(6)">Día 6 →</button>
+  </div>
+</div>
+
+<!-- DAY 6 -->
+<div id="day-6" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 6 · Caso Ancla (parte 2)</div>
+    <div class="day-title">Documentar el caso — primer entregable certificable</div>
+    <div class="day-meta">30 min</div>
+  </div>
+
+  <h3>Plantilla de caso de uso (llena y guarda)</h3>
+  <div class="concept-box">
+    <div class="cb-label">Completa esta plantilla con lo del Día 5</div>
+    <div class="cb-content">
+      <strong>Título:</strong> Script de verificación diaria de infraestructura generado con Hermes<br><br>
+      <strong>Problema que resolvía manualmente:</strong> [¿cuánto tiempo tomaba verificar respaldos y conectividad?]<br><br>
+      <strong>Herramienta usada:</strong> Hermes Agent con provider OpenRouter/Groq<br><br>
+      <strong>Prompt principal:</strong> [pega el prompt que usaste]<br><br>
+      <strong>Resultado obtenido:</strong> [describe el script generado]<br><br>
+      <strong>Ajustes que hice:</strong> [qué tuviste que cambiar para que funcionara en tu entorno]<br><br>
+      <strong>Datos que NO incluí por seguridad:</strong> [lista lo que excluiste y por qué]<br><br>
+      <strong>Tiempo ahorrado estimado:</strong> [ej: 30 min diarios de verificación manual]<br><br>
+      <strong>¿Puedo programarlo como tarea automatizada?</strong> Sí / No / Con aprobación
+    </div>
+  </div>
+
+  <h3>Actividades del Día 6</h3>
+  <ul class="checklist" id="cl-day6">
+    <li onclick="toggle(this)"><div class="check-box"></div>Completé la plantilla de caso de uso</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Documenté explícitamente qué datos NO incluí (sección de seguridad)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Estimé el tiempo ahorrado con honestidad</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé el documento listo para enviar</li>
+  </ul>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 6</div>
+    <ul>
+      <li>Plantilla de caso de uso completada — entregable principal</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(5)">← Día 5</button>
+    <button class="nav-btn primary" onclick="showDay(7)">Día 7 →</button>
+  </div>
+</div>
+
+<!-- DAY 7 -->
+<div id="day-7" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 7 · Reflexión</div>
+    <div class="day-title">Auto-evaluación — ¿llegué a L2?</div>
+    <div class="day-meta">20 min</div>
+  </div>
+
+  <h3>Checklist de nivel alcanzado</h3>
+  <ul class="checklist" id="cl-day7">
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>L1 consolidado:</strong> Usé Hermes de forma autónoma en ≥3 tareas distintas esta semana</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>L1 consolidado:</strong> Di contexto técnico de infraestructura — no preguntas genéricas</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Hacia L2:</strong> Creé mi SOUL.md con especialidad de infraestructura</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Hacia L2:</strong> Hermes generó scripts que puedo usar directamente (con ajustes)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Seguridad:</strong> Definí y apliqué mi protocolo de delegación segura</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Caso documentado:</strong> Tengo ≥1 caso de uso escrito y listo para compartir</li>
+  </ul>
+
+  <h3>Reflexión final</h3>
+  <div class="concept-box">
+    <div class="cb-label">4 preguntas para Douglas</div>
+    <div class="cb-content">
+      1. ¿Qué tarea de infraestructura cambió más con Hermes esta semana?<br><br>
+      2. ¿Qué datos excluiste conscientemente por seguridad? ¿Por qué fue la decisión correcta?<br><br>
+      3. ¿Hay alguna tarea de infraestructura que NO delegarías a la IA nunca, y por qué?<br><br>
+      4. ¿Qué nivel crees que alcanzaste? (L1 / L1.5 / L2)
+    </div>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(6)">← Día 6</button>
+    <button class="nav-btn primary" onclick="showDay(8)">Entrega final →</button>
+  </div>
+</div>
+
+<!-- ENTREGA -->
+<div id="day-8" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Entrega Final</div>
+    <div class="day-title">Evidencia para certificar tu avance</div>
+    <div class="day-meta">Enviar a Douglas antes del 8 de julio 2026</div>
+  </div>
+
+  <div class="validation-section">
+    <div class="vs-title">Checklist de entrega</div>
+    <div class="vs-sub">Marca lo que puedes enviar.</div>
+    <ul class="checklist" id="cl-final">
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Prompt A vs Prompt B (Día 1)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Mis 3 prompts de infraestructura con resultados (Día 2)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Script refinado (Bash + PowerShell) del Día 3</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Mi SOUL.md + protocolo de delegación segura (Día 4)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Script de verificación diaria adaptado (Día 5)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Plantilla de caso de uso completada (Día 6) ← <strong>obligatorio</strong></li>
+      <li onclick="toggle(this)"><div class="check-box"></div>✍️ Reflexión final (Día 7) ← <strong>obligatorio</strong></li>
+    </ul>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Cómo enviar</div>
+    <div class="cb-content">
+      <strong>Correo:</strong> <a href="mailto:dagalindo@ujmd.edu.sv">dagalindo@ujmd.edu.sv</a><br>
+      <strong>Asunto:</strong> <code>AI Fluency · Entrega Semana 1 · Patrick Orellana</code><br>
+      <strong>Teams:</strong> Douglas Galindo (mensaje directo)<br>
+      <strong>Fecha límite:</strong> 8 de julio 2026
+    </div>
+  </div>
+
+  <div class="alert success">
+    <span class="alert-icon">🖥️</span>
+    <div class="alert-body"><strong>¡Bien hecho!</strong> Completar esta guía te posiciona en tránsito a <strong>Licencia Básica (L2–L3)</strong>. Tu caso ancla de scripts de infraestructura es exactamente el tipo de automatización que escala en la Fase 2 del programa.</div>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(7)">← Día 7</button>
+    <span></span>
+  </div>
+</div>
+
+</div>
+<footer>AI Fluency · UJMD · Patrick Orellana · Fase 1 Piloto · Julio 2026 · dagalindo@ujmd.edu.sv</footer>
+
+<script>
+const KEY='patrick-progress';
+function showDay(n){
+  document.querySelectorAll('.day-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.day-tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('day-'+n).classList.add('active');
+  document.querySelectorAll('.day-tab')[n-1].classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function toggle(li){
+  li.classList.toggle('checked');
+  li.querySelector('.check-box').textContent=li.classList.contains('checked')?'✓':'';
+  save();
+}
+function save(){
+  const s={};
+  document.querySelectorAll('.checklist').forEach(cl=>{
+    s[cl.id]=Array.from(cl.querySelectorAll('li')).map(li=>li.classList.contains('checked'));
+  });
+  localStorage.setItem(KEY,JSON.stringify(s));
+}
+function load(){
+  try{
+    const s=JSON.parse(localStorage.getItem(KEY)||'{}');
+    document.querySelectorAll('.checklist').forEach(cl=>{
+      (s[cl.id]||[]).forEach((v,i)=>{
+        if(v){const li=cl.querySelectorAll('li')[i];li.classList.add('checked');li.querySelector('.check-box').textContent='✓';}
+      });
+    });
+  }catch(e){}
+}
+load();
+</script>
+</body>
+</html>

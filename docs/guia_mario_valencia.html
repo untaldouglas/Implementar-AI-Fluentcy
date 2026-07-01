@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía 7 Días · Mario Valencia · AI Fluency UJMD</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#03001a;color:#e0e8ff;font-family:'Space Grotesk',sans-serif;min-height:100vh}
+a{color:#00e5ff;text-decoration:none}a:hover{text-decoration:underline}
+code{background:#00e5ff15;color:#00e5ff;padding:1px 6px;border-radius:4px;font-size:.84em;font-family:monospace}
+pre{background:#000d1f;border:1px solid #00e5ff22;border-radius:10px;padding:16px 18px;overflow-x:auto;margin:12px 0;font-family:monospace;font-size:.83rem;color:#80f0ff;line-height:1.7}
+.comment{color:#446688}
+.site-header{background:#03001a;border-bottom:1px solid #ffffff12;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.back-link{color:#8899bb;font-size:.85rem}
+.back-link:hover{color:#00e5ff;text-decoration:none}
+.hbadge{background:#00e5ff18;border:1px solid #00e5ff44;color:#00e5ff;font-size:11px;font-weight:600;letter-spacing:2px;padding:4px 14px;border-radius:20px;text-transform:uppercase}
+.champion-card{background:linear-gradient(135deg,#00200a 0%,#031020 100%);border-bottom:1px solid #ffffff12;padding:28px 24px}
+.champion-inner{max-width:760px;margin:0 auto;display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+.avatar{width:60px;height:60px;border-radius:14px;background:#00ff8818;border:2px solid #00ff8844;display:flex;align-items:center;justify-content:center;font-size:1.7rem;flex-shrink:0}
+.champion-info h1{font-family:'Montserrat',sans-serif;font-size:1.4rem;font-weight:900;color:#fff;margin-bottom:4px}
+.champion-info .role{color:#7788aa;font-size:.86rem;margin-bottom:12px}
+.tags{display:flex;gap:7px;flex-wrap:wrap}
+.tag{background:#ffffff08;border:1px solid #ffffff15;border-radius:20px;padding:3px 11px;font-size:.76rem;color:#8899bb}
+.tag.cyan{background:#00e5ff12;border-color:#00e5ff33;color:#00e5ff}
+.tag.green{background:#00ff8812;border-color:#00ff8833;color:#00ff88}
+.tag.yellow{background:#ffcc0012;border-color:#ffcc0033;color:#ffcc00}
+.tag.purple{background:#aa88ff12;border-color:#aa88ff33;color:#aa88ff}
+.prog-section{background:#02000f;border-bottom:1px solid #ffffff10;padding:0 24px}
+.prog-inner{max-width:760px;margin:0 auto;display:flex;overflow-x:auto}
+.day-tab{flex:1;min-width:72px;padding:13px 6px;text-align:center;cursor:pointer;border-bottom:3px solid transparent;color:#446688;font-size:.76rem;font-weight:600;transition:all .15s;white-space:nowrap;background:none;border-left:none;border-right:none;border-top:none;font-family:'Space Grotesk',sans-serif}
+.day-tab:hover{color:#8899bb}
+.day-tab.active{color:#00ff88;border-bottom-color:#00ff88}
+.day-num{font-size:.62rem;display:block;margin-bottom:2px;opacity:.7}
+.content{max-width:760px;margin:0 auto;padding:28px 24px 80px}
+.day-panel{display:none}
+.day-panel.active{display:block}
+.day-header{margin-bottom:22px}
+.day-label{font-size:.74rem;color:#00ff88;text-transform:uppercase;letter-spacing:2px;font-weight:600;margin-bottom:7px}
+.day-title{font-family:'Montserrat',sans-serif;font-size:1.35rem;font-weight:900;color:#fff;margin-bottom:5px}
+.day-meta{color:#7788aa;font-size:.86rem}
+h3{font-family:'Montserrat',sans-serif;font-size:.98rem;font-weight:700;color:#ccd6ff;margin:22px 0 9px}
+p{color:#a0b4cc;line-height:1.7;margin-bottom:11px;font-size:.91rem}
+.concept-box{background:#ffffff07;border:1px solid #ffffff12;border-radius:11px;padding:16px 18px;margin:12px 0}
+.concept-box .cb-label{font-size:.71rem;color:#556677;text-transform:uppercase;letter-spacing:1px;margin-bottom:7px}
+.concept-box .cb-content{font-size:.89rem;color:#c0d0e8;line-height:1.65}
+.alert{display:flex;gap:11px;background:#ff800015;border:1px solid #ff800033;border-radius:10px;padding:13px 16px;margin:13px 0}
+.alert.info{background:#00e5ff0d;border-color:#00e5ff33}
+.alert.success{background:#00ff880d;border-color:#00ff8833}
+.alert.purple{background:#aa88ff0d;border-color:#aa88ff33}
+.alert-icon{font-size:1rem;flex-shrink:0;margin-top:1px}
+.alert-body{font-size:.86rem;color:#a0b4cc;line-height:1.6}
+.alert-body strong{color:#e0e8ff}
+.checklist{list-style:none;margin:12px 0}
+.checklist li{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #ffffff08;font-size:.89rem;color:#a0b4cc;cursor:pointer;transition:color .1s;line-height:1.5}
+.checklist li:last-child{border-bottom:none}
+.checklist li.checked{color:#00ff88}
+.check-box{width:19px;height:19px;border:1.5px solid #334455;border-radius:5px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;font-size:11px;transition:all .15s}
+.checklist li.checked .check-box{background:#00ff8820;border-color:#00ff88;color:#00ff88}
+.evidence-card{background:#00ff880a;border:1px solid #00ff8822;border-radius:11px;padding:16px 18px;margin:13px 0}
+.evidence-card .ev-title{color:#00ff88;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:9px}
+.evidence-card ul{list-style:none;padding:0}
+.evidence-card li{color:#a0b4cc;font-size:.87rem;padding:4px 0 4px 16px;position:relative;line-height:1.5}
+.evidence-card li::before{content:"→";position:absolute;left:0;color:#00ff88;font-size:.78rem}
+.day-nav{display:flex;justify-content:space-between;margin-top:32px;padding-top:18px;border-top:1px solid #ffffff10}
+.nav-btn{display:inline-flex;align-items:center;gap:7px;background:#ffffff08;border:1px solid #ffffff15;border-radius:10px;padding:9px 18px;color:#8899bb;font-size:.84rem;cursor:pointer;transition:all .15s;font-family:'Space Grotesk',sans-serif;font-weight:500}
+.nav-btn:hover{background:#00ff8810;color:#00ff88;border-color:#00ff8844}
+.nav-btn.primary{background:#00ff8818;border-color:#00ff8866;color:#00ff88}
+.validation-section{background:#ffffff06;border:1px solid #ffffff12;border-radius:13px;padding:22px;margin-bottom:22px}
+.vs-title{font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:700;color:#fff;margin-bottom:5px}
+.vs-sub{color:#7788aa;font-size:.84rem;margin-bottom:16px}
+footer{text-align:center;color:#334455;font-size:.77rem;border-top:1px solid #ffffff10;padding:22px}
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <a class="back-link" href="index.html">← Inicio</a>
+  <span class="hbadge">🎓 Guía 7 Días · AI Fluency</span>
+</div>
+
+<div class="champion-card">
+  <div class="champion-inner">
+    <div class="avatar">💻</div>
+    <div class="champion-info">
+      <h1>Mario Edgardo Valencia Campos</h1>
+      <div class="role">Analista Programador · Desarrollo · UJMD · +5 años de antigüedad</div>
+      <div class="tags">
+        <span class="tag cyan">L1 · Permiso de Aprendizaje</span>
+        <span class="tag">Zona: Pasajero</span>
+        <span class="tag purple">Meta: Instructor</span>
+        <span class="tag">Herramienta: Hermes Agent</span>
+        <span class="tag">Provider: OpenRouter / Groq</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="prog-section">
+  <div class="prog-inner">
+    <button class="day-tab active" onclick="showDay(1)"><span class="day-num">DÍA</span>1</button>
+    <button class="day-tab" onclick="showDay(2)"><span class="day-num">DÍA</span>2</button>
+    <button class="day-tab" onclick="showDay(3)"><span class="day-num">DÍA</span>3</button>
+    <button class="day-tab" onclick="showDay(4)"><span class="day-num">DÍA</span>4</button>
+    <button class="day-tab" onclick="showDay(5)"><span class="day-num">DÍA</span>5</button>
+    <button class="day-tab" onclick="showDay(6)"><span class="day-num">DÍA</span>6</button>
+    <button class="day-tab" onclick="showDay(7)"><span class="day-num">DÍA</span>7</button>
+    <button class="day-tab" onclick="showDay(8)"><span class="day-num"></span>✓ Entrega</button>
+  </div>
+</div>
+
+<div class="content">
+
+<!-- DAY 1 -->
+<div id="day-1" class="day-panel active">
+  <div class="day-header">
+    <div class="day-label">Día 1 · Lección 1</div>
+    <div class="day-title">¿Qué es un prompt para un programador?</div>
+    <div class="day-meta">30 min · Hermes Agent en tu estación de trabajo</div>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Concepto clave</div>
+    <div class="cb-content">Un prompt para desarrollo es como escribir un <strong>ticket de tarea bien especificado</strong>: lenguaje, contexto, restricciones y output esperado. Cuanto más preciso eres, más útil es lo que obtienes.</div>
+  </div>
+
+  <div class="alert purple">
+    <span class="alert-icon">🎯</span>
+    <div class="alert-body"><strong>Tu meta es Instructor.</strong> Eso significa que vas más rápido que los demás Champions. Esta guía tiene actividades con mayor profundidad técnica para que puedas enseñar lo que aprendas.</div>
+  </div>
+
+  <h3>Iniciar Hermes para desarrollo</h3>
+  <pre><span class="comment"># Opción 1 — consulta única con herramienta de código</span>
+hermes chat -t terminal,file -q "tu pregunta de código aquí"
+
+<span class="comment"># Opción 2 — sesión interactiva (recomendada para pair programming)</span>
+hermes</pre>
+
+  <h3>Práctica — compara estos prompts</h3>
+  <p><strong>Prompt A — Sin contexto:</strong></p>
+  <pre>hermes chat -q "revisa este código y dime si está bien"</pre>
+
+  <p><strong>Prompt B — Con contexto de desarrollo:</strong></p>
+  <pre>hermes chat -t file -q "Eres un senior developer con experiencia en Java y sistemas universitarios. Revisa el siguiente fragmento de código del módulo de Graduados de la UJMD. Identifica: bugs potenciales, mejoras de legibilidad, y si hay patrones que deberían refactorizarse. Explica cada hallazgo con el porqué. [pega tu código aquí]"</pre>
+
+  <h3>Actividades del Día 1</h3>
+  <ul class="checklist" id="cl-day1">
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt A con un fragmento de código real</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt B con el mismo fragmento y noté la diferencia</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Creé mi propio prompt de revisión de código con contexto del área de Desarrollo</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé ambas respuestas para comparar</li>
+  </ul>
+
+  <div class="alert info">
+    <span class="alert-icon">💡</span>
+    <div class="alert-body"><strong>Tu experiencia previa:</strong> Ya usaste Gemini para completar el módulo de Graduados. Hoy usas Hermes con el mismo tipo de tarea pero con prompts más estructurados.</div>
+  </div>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 1</div>
+    <ul>
+      <li>Respuesta del Prompt A (sin contexto)</li>
+      <li>Respuesta del Prompt B (con contexto de desarrollo UJMD)</li>
+    </ul>
+  </div>
+
+  <div class="day-nav"><span></span><button class="nav-btn primary" onclick="showDay(2)">Día 2 →</button></div>
+</div>
+
+<!-- DAY 2 -->
+<div id="day-2" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 2 · Lección 1 (práctica)</div>
+    <div class="day-title">3 prompts de desarrollo que usarás cada semana</div>
+    <div class="day-meta">45 min · Hermes Agent con toolset de código</div>
+  </div>
+
+  <h3>Prompt 1 — Code review de código legado</h3>
+  <pre>hermes chat -q "Eres un senior Java developer. Analiza el siguiente código legado e identifica: 1) bugs o riesgos, 2) código duplicado que podría abstraerse, 3) mejoras de rendimiento. Para cada hallazgo da una sugerencia concreta de cómo arreglarlo. Código: [pega aquí]"</pre>
+
+  <h3>Prompt 2 — Generación de documentación técnica</h3>
+  <pre>hermes chat -q "Genera la documentación técnica en español para la siguiente función/módulo. Incluye: descripción general, parámetros de entrada, valor de retorno, excepciones posibles y ejemplo de uso. Código: [pega aquí]"</pre>
+
+  <h3>Prompt 3 — Levantamiento de requerimientos</h3>
+  <pre>hermes chat -q "Eres un analista de sistemas universitarios. A partir de esta descripción de usuario, genera un documento de requerimientos funcionales con: casos de uso, criterios de aceptación y preguntas que debo aclarar con el solicitante. Descripción: [escribe aquí el requerimiento que te llegó]"</pre>
+
+  <div class="alert">
+    <span class="alert-icon">⚠️</span>
+    <div class="alert-body"><strong>Tu bloqueo — Acceso y permisos:</strong> Si Hermes necesita acceder a archivos locales del proyecto, usa <code>hermes chat -t file -q "..."</code>. Si el problema es de permisos a nivel de SO, consulta con Douglas — no intentes saltarte permisos institucionales.</div>
+  </div>
+
+  <h3>Actividades del Día 2</h3>
+  <ul class="checklist" id="cl-day2">
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt 1 con código real del área (sin datos de producción)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt 2 y generé documentación de alguna función existente</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ejecuté el Prompt 3 con un requerimiento real reciente</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé los 3 prompts en un doc para reutilizar</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Identifiqué cuál de los 3 ahorra más tiempo en mi flujo real</li>
+  </ul>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 2</div>
+    <ul>
+      <li>Los 3 prompts con sus resultados</li>
+      <li>Nota: ¿cuál fue más útil para tu flujo de trabajo?</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(1)">← Día 1</button>
+    <button class="nav-btn primary" onclick="showDay(3)">Día 3 →</button>
+  </div>
+</div>
+
+<!-- DAY 3 -->
+<div id="day-3" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 3 · Lección 2</div>
+    <div class="day-title">Pair programming con Hermes — refactorización iterativa</div>
+    <div class="day-meta">40 min · Hermes Agent modo interactivo</div>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Concepto clave</div>
+    <div class="cb-content">Hermes como pair programmer: le das el código, te da feedback, le pides que refactorice, le preguntas por qué, le pides alternativas. Es un ciclo continuo — no una sola pregunta.</div>
+  </div>
+
+  <h3>Sesión de refactorización en modo interactivo</h3>
+  <pre><span class="comment"># Inicia sesión</span>
+hermes
+
+<span class="comment"># Ciclo de refactorización:</span>
+&gt; [pega el código que quieres refactorizar]
+&gt; ¿Qué problemas identificas en este código?
+&gt; Ahora refactorízalo aplicando las mejoras que mencionaste.
+&gt; Explica qué cambió y por qué cada cambio es mejor.
+&gt; ¿Hay algún patrón de diseño que aplique aquí?
+&gt; /quit</pre>
+
+  <h3>Actividades del Día 3</h3>
+  <ul class="checklist" id="cl-day3">
+    <li onclick="toggle(this)"><div class="check-box"></div>Inicié Hermes en modo interactivo</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Pegué código real (sin datos de producción ni credenciales) y pedí análisis</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Pedí la refactorización y guardé el resultado</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Pregunté por el patrón de diseño aplicable</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Comparé la versión original vs refactorizada</li>
+  </ul>
+
+  <div class="alert info">
+    <span class="alert-icon">💡</span>
+    <div class="alert-body"><strong>Sobre cultura (tu bloqueo):</strong> La IA no reemplaza al programador — es un par de ojos extra. Tú decides qué aceptar y qué descartar. El código que produce Hermes <strong>siempre debe ser revisado y probado</strong> antes de integrarse.</div>
+  </div>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 3</div>
+    <ul>
+      <li>Código original vs código refactorizado por Hermes</li>
+      <li>Explicación del patrón aplicado</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(2)">← Día 2</button>
+    <button class="nav-btn primary" onclick="showDay(4)">Día 4 →</button>
+  </div>
+</div>
+
+<!-- DAY 4 -->
+<div id="day-4" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 4 · Lección 2 (continuación)</div>
+    <div class="day-title">SOUL.md — tu agente de desarrollo personalizado</div>
+    <div class="day-meta">30 min · Hermes Agent + editor de texto</div>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Concepto clave</div>
+    <div class="cb-content">El <strong>SOUL.md</strong> configura permanentemente quién es tu agente. Para Desarrollo, esto significa: lenguajes que usas, patrones que prefieres, convenciones del equipo y restricciones de datos.</div>
+  </div>
+
+  <h3>Crear tu SOUL.md de Desarrollo</h3>
+  <pre><span class="comment"># SOUL — Agente de Desarrollo UJMD</span>
+
+Eres un asistente de desarrollo de software de la Dirección de
+Servicios Informáticos de la UJMD, El Salvador.
+
+## Stack tecnológico del área
+- Lenguajes principales: Java, [agrega los tuyos]
+- Bases de datos: [MySQL / Oracle / etc.]
+- Frameworks: [Spring / etc.]
+
+## Tu rol
+- Revisas código y señalas bugs, duplicaciones y mejoras
+- Generas documentación técnica en español
+- Ayudas a estructurar requerimientos funcionales
+- Propones arquitectura y patrones de diseño
+
+## Reglas de código
+- Nunca uses datos reales de estudiantes, empleados ni sistemas
+- Usa siempre datos ficticios en los ejemplos
+- Si ves credenciales en el código, advierte inmediatamente
+
+## Estilo
+Técnico pero claro. Explica el "por qué" de cada sugerencia.</pre>
+
+  <h3>Actividades del Día 4</h3>
+  <ul class="checklist" id="cl-day4">
+    <li onclick="toggle(this)"><div class="check-box"></div>Creé mi SOUL.md con el stack real del área de Desarrollo</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Verifiqué que Hermes lo reconoce (<code>hermes chat -q "¿cuál es tu rol y stack?"</code>)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Probé un prompt de código con el SOUL.md activo vs sin él</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Ajusté el SOUL.md con el lenguaje y patrones que realmente usa el área</li>
+  </ul>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 4</div>
+    <ul>
+      <li>Contenido de tu SOUL.md (copia el texto)</li>
+      <li>Respuesta de Hermes al preguntarle su stack y rol</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(3)">← Día 3</button>
+    <button class="nav-btn primary" onclick="showDay(5)">Día 5 →</button>
+  </div>
+</div>
+
+<!-- DAY 5 -->
+<div id="day-5" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 5 · Caso Ancla</div>
+    <div class="day-title">Revisión real del módulo de Graduados con Hermes</div>
+    <div class="day-meta">60 min · Hermes Agent (con SOUL.md activo)</div>
+  </div>
+
+  <div class="alert success">
+    <span class="alert-icon">🎯</span>
+    <div class="alert-body"><strong>Tu caso ancla:</strong> Revisar y refactorizar código legado con IA como pair programmer. Usarás el módulo de Graduados que ya conoces.</div>
+  </div>
+
+  <div class="alert">
+    <span class="alert-icon">⚠️</span>
+    <div class="alert-body"><strong>Antes de empezar:</strong> Solo pega fragmentos de código (funciones, clases). No pegues cadenas de conexión, credenciales, tokens ni datos reales de graduados. Usa solo la lógica de negocio.</div>
+  </div>
+
+  <h3>Flujo de trabajo con Hermes para el módulo</h3>
+  <pre><span class="comment"># Paso 1: Análisis inicial</span>
+hermes chat -q "Analiza este fragmento del módulo de Graduados e identifica: bugs potenciales, código duplicado y áreas de mejora. [pega el fragmento]"
+
+<span class="comment"># Paso 2: Refactorización</span>
+hermes chat -q "Ahora refactoriza este fragmento aplicando las mejoras que identificaste. Mantén la misma funcionalidad."
+
+<span class="comment"># Paso 3: Documentación automática</span>
+hermes chat -q "Genera la documentación técnica en español para el fragmento refactorizado. Formato: JavaDoc."
+
+<span class="comment"># Paso 4: Pruebas sugeridas</span>
+hermes chat -q "¿Qué casos de prueba debería escribir para verificar que la refactorización no rompió nada?"</pre>
+
+  <h3>Actividades del Día 5</h3>
+  <ul class="checklist" id="cl-day5">
+    <li onclick="toggle(this)"><div class="check-box"></div>Seleccioné un fragmento real del módulo de Graduados (sin datos sensibles)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Completé los 4 pasos del flujo con Hermes</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Revisé y validé la refactorización sugerida</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé versión original + refactorizada + documentación generada</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Anoté qué parte de la sugerencia acepté y qué descarté (y por qué)</li>
+  </ul>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 5</div>
+    <ul>
+      <li>Fragmento original vs refactorizado (diff)</li>
+      <li>Documentación JavaDoc generada</li>
+      <li>Lista de casos de prueba sugeridos</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(4)">← Día 4</button>
+    <button class="nav-btn primary" onclick="showDay(6)">Día 6 →</button>
+  </div>
+</div>
+
+<!-- DAY 6 -->
+<div id="day-6" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 6 · Caso Ancla (parte 2)</div>
+    <div class="day-title">Documentar el caso — primer entregable certificable</div>
+    <div class="day-meta">30 min</div>
+  </div>
+
+  <h3>Plantilla de caso de uso (llena y guarda)</h3>
+  <div class="concept-box">
+    <div class="cb-label">Completa esta plantilla con lo del Día 5</div>
+    <div class="cb-content">
+      <strong>Título:</strong> Refactorización de módulo con Hermes como pair programmer<br><br>
+      <strong>Problema que resolvía manualmente:</strong> [¿cuánto tiempo tomaba revisar el código?]<br><br>
+      <strong>Herramienta usada:</strong> Hermes Agent con provider OpenRouter/Groq<br><br>
+      <strong>Prompts principales:</strong> [pega los 4 prompts del flujo]<br><br>
+      <strong>Resultado obtenido:</strong> [describe qué generó Hermes]<br><br>
+      <strong>Qué acepté / qué descart é:</strong> [esto es clave — muestra tu criterio técnico]<br><br>
+      <strong>Tiempo ahorrado estimado:</strong> [ej: 45 min en code review]<br><br>
+      <strong>¿Lo usaré en el próximo módulo?</strong> Sí / No / Con modificaciones
+    </div>
+  </div>
+
+  <h3>Actividades del Día 6</h3>
+  <ul class="checklist" id="cl-day6">
+    <li onclick="toggle(this)"><div class="check-box"></div>Completé la plantilla de caso de uso</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Documenté específicamente qué acepté y qué rechacé de la IA</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Estimé el tiempo ahorrado con honestidad</li>
+    <li onclick="toggle(this)"><div class="check-box"></div>Guardé el documento listo para enviar</li>
+  </ul>
+
+  <div class="evidence-card">
+    <div class="ev-title">📎 Evidencia del Día 6</div>
+    <ul>
+      <li>Plantilla de caso de uso completada — entregable principal</li>
+    </ul>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(5)">← Día 5</button>
+    <button class="nav-btn primary" onclick="showDay(7)">Día 7 →</button>
+  </div>
+</div>
+
+<!-- DAY 7 -->
+<div id="day-7" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Día 7 · Reflexión</div>
+    <div class="day-title">Auto-evaluación y proyección hacia Instructor</div>
+    <div class="day-meta">20 min</div>
+  </div>
+
+  <h3>Checklist de nivel alcanzado</h3>
+  <ul class="checklist" id="cl-day7">
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>L1 consolidado:</strong> Usé Hermes de forma autónoma en ≥3 tareas distintas esta semana</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>L1 consolidado:</strong> Di contexto técnico preciso — no solo preguntas genéricas</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Hacia L2:</strong> Creé mi SOUL.md con el stack real del área</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Hacia L2:</strong> Hermes analizó código real del área (sin datos sensibles)</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Hacia Instructor:</strong> Puedo explicar a un colega qué hice y por qué funcionó</li>
+    <li onclick="toggle(this)"><div class="check-box"></div><strong>Caso documentado:</strong> Tengo ≥1 caso de uso escrito y listo para compartir</li>
+  </ul>
+
+  <h3>Reflexión final</h3>
+  <div class="concept-box">
+    <div class="cb-label">4 preguntas para Douglas</div>
+    <div class="cb-content">
+      1. ¿Qué tarea de desarrollo cambió más con Hermes esta semana?<br><br>
+      2. ¿Qué rechazaste de las sugerencias de la IA y por qué?<br><br>
+      3. ¿Cómo le explicarías a un colega del área por qué usar Hermes para code review?<br><br>
+      4. ¿Qué nivel crees que alcanzaste? (L1 / L1.5 / L2)
+    </div>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(6)">← Día 6</button>
+    <button class="nav-btn primary" onclick="showDay(8)">Entrega final →</button>
+  </div>
+</div>
+
+<!-- ENTREGA -->
+<div id="day-8" class="day-panel">
+  <div class="day-header">
+    <div class="day-label">Entrega Final</div>
+    <div class="day-title">Evidencia para certificar tu avance</div>
+    <div class="day-meta">Enviar a Douglas antes del 8 de julio 2026</div>
+  </div>
+
+  <div class="validation-section">
+    <div class="vs-title">Checklist de entrega</div>
+    <div class="vs-sub">Marca lo que puedes enviar.</div>
+    <ul class="checklist" id="cl-final">
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Prompt A vs Prompt B (Día 1)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Mis 3 prompts de desarrollo con resultados (Día 2)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Código original vs refactorizado (Día 3)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Contenido de mi SOUL.md (Día 4)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Fragmento refactorizado + JavaDoc generado (Día 5)</li>
+      <li onclick="toggle(this)"><div class="check-box"></div>📄 Plantilla de caso de uso completada (Día 6) ← <strong>obligatorio</strong></li>
+      <li onclick="toggle(this)"><div class="check-box"></div>✍️ Reflexión final (Día 7) ← <strong>obligatorio</strong></li>
+    </ul>
+  </div>
+
+  <div class="concept-box">
+    <div class="cb-label">Cómo enviar</div>
+    <div class="cb-content">
+      <strong>Correo:</strong> <a href="mailto:dagalindo@ujmd.edu.sv">dagalindo@ujmd.edu.sv</a><br>
+      <strong>Asunto:</strong> <code>AI Fluency · Entrega Semana 1 · Mario Valencia</code><br>
+      <strong>Teams:</strong> Douglas Galindo (mensaje directo)<br>
+      <strong>Fecha límite:</strong> 8 de julio 2026
+    </div>
+  </div>
+
+  <div class="alert success">
+    <span class="alert-icon">🏆</span>
+    <div class="alert-body"><strong>Tu meta es Instructor.</strong> Esta primera semana es la base. Cada caso documentado es material que podrás usar para enseñar a tu equipo. Guarda todos los prompts que funcionen — son tu futuro playbook de enseñanza.</div>
+  </div>
+
+  <div class="day-nav">
+    <button class="nav-btn" onclick="showDay(7)">← Día 7</button>
+    <span></span>
+  </div>
+</div>
+
+</div>
+<footer>AI Fluency · UJMD · Mario Valencia · Fase 1 Piloto · Julio 2026 · dagalindo@ujmd.edu.sv</footer>
+
+<script>
+const KEY='mario-progress';
+function showDay(n){
+  document.querySelectorAll('.day-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.day-tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('day-'+n).classList.add('active');
+  document.querySelectorAll('.day-tab')[n-1].classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function toggle(li){
+  li.classList.toggle('checked');
+  li.querySelector('.check-box').textContent=li.classList.contains('checked')?'✓':'';
+  save();
+}
+function save(){
+  const s={};
+  document.querySelectorAll('.checklist').forEach(cl=>{
+    s[cl.id]=Array.from(cl.querySelectorAll('li')).map(li=>li.classList.contains('checked'));
+  });
+  localStorage.setItem(KEY,JSON.stringify(s));
+}
+function load(){
+  try{
+    const s=JSON.parse(localStorage.getItem(KEY)||'{}');
+    document.querySelectorAll('.checklist').forEach(cl=>{
+      (s[cl.id]||[]).forEach((v,i)=>{
+        if(v){const li=cl.querySelectorAll('li')[i];li.classList.add('checked');li.querySelector('.check-box').textContent='✓';}
+      });
+    });
+  }catch(e){}
+}
+load();
+</script>
+</body>
+</html>
