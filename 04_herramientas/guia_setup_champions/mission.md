@@ -6,7 +6,7 @@ Cada Champion tendrá Hermes Agent instalado, configurado y verificado en su má
 ## Contexto
 - **Proyecto:** AI Fluency UJMD — Piloto Mes 1
 - **Herramienta central:** Hermes Agent (NousResearch) — orquestador universal
-- **Backends:** Claude API (principal) + Ollama local (fallback)
+- **Backends:** OpenRouter (principal) + Groq / Ollama / NVIDIA (alternativas gratuitas)
 - **Repositorio:** `untaldouglas/mihermes`
 - **Plataformas de uso:** CLI local + Telegram (gateway)
 

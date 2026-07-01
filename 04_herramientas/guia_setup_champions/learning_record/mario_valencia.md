@@ -37,7 +37,7 @@ _..._
 
 | Verificación | Estado | Evidencia |
 |---|---|---|
-| Modelo configurado | ⬜ | _ej: claude-sonnet-4_ |
+| Modelo configurado | ⬜ | _ej: meta-llama/llama-3.3-70b-instruct:free (OpenRouter)_ |
 | `hermes chat -q` responde | ⬜ | _(pegar respuesta)_ |
 | Gateway Telegram conectado | ⬜ | _(pegar `gateway status`)_ |
 

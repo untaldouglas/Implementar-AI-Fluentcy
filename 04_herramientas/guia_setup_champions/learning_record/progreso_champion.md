@@ -33,7 +33,7 @@
 
 | Pregunta | Respuesta |
 |---|---|
-| ¿Qué modelo configuraste? | _ej: claude-sonnet-4_ |
+| ¿Qué modelo configuraste? | _ej: meta-llama/llama-3.3-70b-instruct:free (OpenRouter)_ |
 | ¿La consulta de prueba funcionó? | Sí / No |
 | ¿Configuraste el gateway de Telegram? | Sí / No / Pendiente |
 | ¿Tuviste algún problema? ¿Cuál? | _..._ |

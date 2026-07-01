@@ -103,7 +103,7 @@ El modelo **Manual de Implementación Estratégica (10 niveles de autonomía veh
 | **Duración del piloto** | Mes 1 (4 semanas) |
 | **Sesiones** | Semanales de 2h, facilitadas por Douglas |
 | **Herramienta central** | Hermes Agent (NousResearch) — instalado localmente + vía servidor interno UJMD |
-| **Backends de modelo** | Claude API (principal) + Ollama local (fallback) — intercambiables |
+| **Backends de modelo** | OpenRouter (principal) + Groq / Ollama / NVIDIA (alternativas gratuitas) — intercambiables |
 | **Repositorio** | `untaldouglas/mihermes` — skills versionados por área |
 | **Comunicación** | Canal dedicado (Teams/Slack) + reunión semanal sincrónica |
 | **Entregables por Champion** | 1 agente funcional (Skill completo) + 1 mini-guía de integración IA |
@@ -136,7 +136,7 @@ Cada Champion, al firmar/confirmar este acta, se compromete a:
 
 El Director (Douglas) se compromete a:
 - Facilitar las 4 sesiones del piloto
-- Proveer la infraestructura (Hermes Agent, acceso a Claude API, documentación)
+- Proveer la infraestructura (Hermes Agent, acceso a API keys de OpenRouter/Groq, documentación)
 - Apoyar a los Champions con problemas técnicos fuera de sesión
 - Reportar impacto institucional a Rectoría
 

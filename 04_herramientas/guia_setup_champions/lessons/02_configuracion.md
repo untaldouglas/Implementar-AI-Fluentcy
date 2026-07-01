@@ -9,7 +9,7 @@
 ## 📋 Prerrequisitos
 
 - Lección 1 completada (`hermes doctor` pasa sin errores críticos)
-- Clave API de Anthropic (proporcionada por Douglas)
+- Clave API de OpenRouter (proporcionada por Douglas) — o cuenta propia en https://openrouter.ai
 - Tu cuenta de Telegram activa
 
 ---
@@ -25,9 +25,14 @@ hermes setup
 El asistente te guiará por las secciones de configuración. Selecciona:
 
 1. **Model section:**
-   - Provider: `anthropic`
-   - Model: `claude-sonnet-4` (recomendado por el Roadmap)
-   - API Key: pega la clave que te proporcionó Douglas
+   - Provider: `openrouter`
+   - Model: `meta-llama/llama-3.3-70b-instruct:free` (gratuito, recomendado para iniciar)
+   - API Key: pega la clave de OpenRouter que te proporcionó Douglas
+
+   > **Alternativas gratuitas reconocidas:**
+   > - Groq: provider `groq`, modelos ultra-rápidos (Llama 3, Gemma)
+   > - Ollama: provider `ollama`, completamente local (sin costo, sin internet)
+   > - NVIDIA NIM: provider `openai` con base URL de NVIDIA, créditos gratuitos
 
 2. **Terminal section:**
    - Backend: `local` (mantén el valor por defecto)
@@ -49,8 +54,8 @@ hermes model
 ```
 
 Esto abre un menú interactivo. Navega con las flechas:
-- Provider → `anthropic`
-- Model → `claude-sonnet-4`
+- Provider → `openrouter`
+- Model → `meta-llama/llama-3.3-70b-instruct:free`
 
 Para guardar la API key, edita el archivo `.env`:
 
@@ -61,7 +66,7 @@ hermes config env-path    # te muestra dónde está el archivo .env
 Añade esta línea al `.env`:
 
 ```
-ANTHROPIC_API_KEY=sk-ant-XXXXX-tu-clave-aqui
+OPENROUTER_API_KEY=sk-or-XXXXX-tu-clave-aqui
 ```
 
 > **⚠️ IMPORTANTE:** Nunca compartas tu API key por correo, chat, ni screenshots. Si necesitas transmitirla, usa canales seguros.
@@ -79,6 +84,8 @@ hermes chat -q "¿Cuál es la capital de El Salvador?"
 **Resultado esperado:** El agente responde "San Salvador" en pocos segundos.
 
 Si responde correctamente, **el modelo está configurado.** ✅
+
+> **¿Sin créditos aún?** Usa Groq como fallback inmediato — es gratuito y ultra-rápido: ejecuta `hermes model`, selecciona provider `groq` y elige `llama-3.3-70b-versatile`.
 
 ---
 
@@ -127,7 +134,7 @@ hermes gateway status
 | Problema | Solución |
 |---|---|
 | `401 Unauthorized` al consultar | La API key es incorrecta o está vencida. Verifica en `.env` |
-| `model not found` | Ejecuta `hermes model` y selecciona `claude-sonnet-4` |
+| `model not found` | Ejecuta `hermes model` y selecciona un modelo de OpenRouter (ej: `meta-llama/llama-3.3-70b-instruct:free`) |
 | Gateway no conecta | Verifica el token del bot con `@BotFather`. Revisa logs: `hermes gateway status` |
 | Respuesta muy lenta | Es normal en la primera consulta. Las siguientes usan cache |
 

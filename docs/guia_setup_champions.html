@@ -148,7 +148,8 @@
     <div class="meta-bar">
       <div class="meta-item"><strong>Proyecto</strong><br>AI Fluency UJMD — Piloto Mes 1</div>
       <div class="meta-item"><strong>Herramienta central</strong><br>Hermes Agent (NousResearch)</div>
-      <div class="meta-item"><strong>Backends</strong><br>Claude API (principal) + Ollama (fallback)</div>
+      <div class="meta-item"><strong>Provider principal</strong><br>OpenRouter (100+ modelos)</div>
+      <div class="meta-item"><strong>Alternativas gratuitas</strong><br>Groq · Ollama · NVIDIA NIM</div>
       <div class="meta-item"><strong>Plataformas</strong><br>CLI local + Telegram gateway</div>
     </div>
 
@@ -311,26 +312,44 @@
     <div class="meta-bar">
       <div class="meta-item"><strong>Tiempo estimado</strong><br>15–20 minutos</div>
       <div class="meta-item"><strong>Nivel</strong><br>L3 → L4</div>
-      <div class="meta-item"><strong>Objetivo</strong><br>Conectar Hermes con Claude + Telegram</div>
+      <div class="meta-item"><strong>Objetivo</strong><br>Conectar Hermes con un LLM gratuito + Telegram</div>
     </div>
 
     <h3>Prerrequisitos</h3>
     <ul style="list-style:none;padding:0;margin-bottom:20px">
       <li style="padding:5px 0;color:#a0b4cc;font-size:0.9rem;">✓ Lección 1 completada (<code style="background:#00e5ff15;color:#00e5ff;padding:1px 5px;border-radius:3px;font-size:0.8rem">hermes doctor</code> pasa sin errores críticos)</li>
-      <li style="padding:5px 0;color:#a0b4cc;font-size:0.9rem;">✓ Clave API de Anthropic (proporcionada por Douglas)</li>
+      <li style="padding:5px 0;color:#a0b4cc;font-size:0.9rem;">✓ Clave API de OpenRouter (proporcionada por Douglas) — o cuenta propia en <a href="https://openrouter.ai" target="_blank">openrouter.ai</a></li>
       <li style="padding:5px 0;color:#a0b4cc;font-size:0.9rem;">✓ Tu cuenta de Telegram activa</li>
     </ul>
 
+    <div class="alert info">
+      <span class="alert-icon">💡</span>
+      <div class="alert-body"><strong>¿Por qué OpenRouter?</strong> Es un agregador que da acceso a 100+ modelos con una sola API key. Muchos modelos son completamente gratuitos. Si no tienes key aún, también puedes empezar con <strong>Groq</strong> (gratis, ultra-rápido) o <strong>Ollama</strong> (local, sin internet).</div>
+    </div>
+
+    <h3>Providers disponibles</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Provider</th><th>URL</th><th>Costo</th><th>Cuándo usar</th></tr></thead>
+        <tbody>
+          <tr><td><strong>OpenRouter</strong> ⭐</td><td>openrouter.ai</td><td>Muchos modelos gratis + pago</td><td>Uso general, acceso a todos los modelos</td></tr>
+          <tr><td><strong>Groq</strong></td><td>groq.com</td><td>Gratuito (con límites)</td><td>Cuando necesitas velocidad máxima</td></tr>
+          <tr><td><strong>Ollama</strong></td><td>ollama.com</td><td>Gratuito (local)</td><td>Sin internet, máxima privacidad</td></tr>
+          <tr><td><strong>NVIDIA NIM</strong></td><td>build.nvidia.com</td><td>Créditos gratuitos</td><td>Modelos grandes con GPU NVIDIA</td></tr>
+        </tbody>
+      </table>
+    </div>
+
     <h3>Paso 1 — Asistente de setup interactivo</h3>
     <pre><code class="block">hermes setup</code></pre>
-    <p>El wizard te guiará. Selecciona:</p>
+    <p>El wizard te guiará. Configuración recomendada con OpenRouter:</p>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Sección</th><th>Valor a seleccionar</th></tr></thead>
         <tbody>
-          <tr><td><strong>Model → Provider</strong></td><td><code>anthropic</code></td></tr>
-          <tr><td><strong>Model → Model</strong></td><td><code>claude-sonnet-4</code> (recomendado)</td></tr>
-          <tr><td><strong>Model → API Key</strong></td><td>Pega la clave que te dio Douglas</td></tr>
+          <tr><td><strong>Model → Provider</strong></td><td><code>openrouter</code></td></tr>
+          <tr><td><strong>Model → Model</strong></td><td><code>meta-llama/llama-3.3-70b-instruct:free</code> (gratuito)</td></tr>
+          <tr><td><strong>Model → API Key</strong></td><td>Pega la clave <code>sk-or-...</code> que te dio Douglas</td></tr>
           <tr><td><strong>Terminal → Backend</strong></td><td><code>local</code> (valor por defecto)</td></tr>
           <tr><td><strong>Tools</strong></td><td>Habilita: <code>web</code>, <code>terminal</code>, <code>file</code>, <code>skills</code></td></tr>
         </tbody>
@@ -345,8 +364,14 @@ hermes model
 <span class="comment"># Ver ruta del archivo .env</span>
 hermes config env-path</code></pre>
 
-    <p>Añade esta línea al archivo <code>.env</code>:</p>
-    <pre><code class="block">ANTHROPIC_API_KEY=sk-ant-XXXXX-tu-clave-aqui</code></pre>
+    <p>Añade esta línea al archivo <code>.env</code> según tu provider:</p>
+    <pre><code class="block"><span class="comment"># OpenRouter (recomendado)</span>
+OPENROUTER_API_KEY=sk-or-XXXXX-tu-clave-aqui
+
+<span class="comment"># Groq (alternativa gratuita y rápida)</span>
+GROQ_API_KEY=gsk_XXXXX-tu-clave-aqui
+
+<span class="comment"># Ollama no requiere API key (corre local)</span></code></pre>
 
     <div class="alert">
       <span class="alert-icon">🔒</span>
@@ -356,6 +381,11 @@ hermes config env-path</code></pre>
     <h3>Paso 3 — Verificar que el modelo responde</h3>
     <pre><code class="block">hermes chat -q "¿Cuál es la capital de El Salvador?"</code></pre>
     <p>Resultado esperado: el agente responde "San Salvador" en pocos segundos. Si responde correctamente, <strong>el modelo está configurado ✅</strong></p>
+
+    <div class="alert info">
+      <span class="alert-icon">💡</span>
+      <div class="alert-body"><strong>Fallback rápido:</strong> Si OpenRouter falla, cambia a Groq en segundos: <code>hermes model</code> → provider <code>groq</code> → modelo <code>llama-3.3-70b-versatile</code>. Completamente gratuito.</div>
+    </div>
 
     <h3>Paso 4 — Gateway de Telegram (recomendado)</h3>
     <p>El gateway te permite interactuar con Hermes desde Telegram.</p>
@@ -392,8 +422,8 @@ hermes gateway status
       <table>
         <thead><tr><th>Problema</th><th>Solución</th></tr></thead>
         <tbody>
-          <tr><td><code>401 Unauthorized</code></td><td>La API key es incorrecta o está vencida. Verifica en <code>.env</code></td></tr>
-          <tr><td><code>model not found</code></td><td>Ejecuta <code>hermes model</code> y selecciona <code>claude-sonnet-4</code></td></tr>
+          <tr><td><code>401 Unauthorized</code></td><td>La API key es incorrecta o está vencida. Verifica en <code>.env</code>. Para OpenRouter la key empieza con <code>sk-or-</code></td></tr>
+          <tr><td><code>model not found</code></td><td>Ejecuta <code>hermes model</code> y selecciona un modelo de OpenRouter con sufijo <code>:free</code>, ej: <code>meta-llama/llama-3.3-70b-instruct:free</code></td></tr>
           <tr><td>Gateway no conecta</td><td>Verifica el token con <code>@BotFather</code>. Revisa: <code>hermes gateway status</code></td></tr>
           <tr><td>Respuesta muy lenta</td><td>Normal en la primera consulta. Las siguientes usan cache</td></tr>
         </tbody>
@@ -423,8 +453,8 @@ hermes gateway status
     <pre><code class="block"><span class="comment">✓</span> Python version: 3.11.x
 <span class="comment">✓</span> Virtual environment: active
 <span class="comment">✓</span> Hermes Agent: installed
-<span class="comment">✓</span> API key: configured (anthropic)
-<span class="comment">✓</span> Model: claude-sonnet-4
+<span class="comment">✓</span> API key: configured (openrouter)
+<span class="comment">✓</span> Model: meta-llama/llama-3.3-70b-instruct:free
 <span class="comment">✓</span> Terminal: local backend
 <span class="comment">✓</span> Tools: web, terminal, file, skills</code></pre>
 
@@ -658,8 +688,8 @@ cat ~/.hermes/logs/gateway.log
           <thead><tr><th>Término</th><th>Definición</th></tr></thead>
           <tbody>
             <tr><td><strong>Agent</strong></td><td>El asistente de IA que ejecuta tareas usando herramientas. En nuestro caso, Hermes Agent.</td></tr>
-            <tr><td><strong>Provider</strong></td><td>El servicio que provee el modelo de IA. Ej: Anthropic (Claude), OpenAI, OpenRouter.</td></tr>
-            <tr><td><strong>Model</strong></td><td>El modelo de lenguaje específico. Ej: <code>claude-sonnet-4</code>, <code>gpt-4o</code>.</td></tr>
+            <tr><td><strong>Provider</strong></td><td>El servicio que provee el modelo de IA. Principal: OpenRouter. Alternativos gratuitos: Groq, Ollama, NVIDIA NIM.</td></tr>
+            <tr><td><strong>Model</strong></td><td>El modelo de lenguaje específico. Ej: <code>meta-llama/llama-3.3-70b-instruct:free</code> (OpenRouter gratuito), <code>llama-3.3-70b-versatile</code> (Groq).</td></tr>
             <tr><td><strong>Toolset</strong></td><td>Conjunto de herramientas que el agente puede usar: <code>web</code>, <code>terminal</code>, <code>file</code>, <code>skills</code>, etc.</td></tr>
             <tr><td><strong>Skill</strong></td><td>Procedimiento reusable guardado como documento Markdown. Carga conocimiento especializado al agente.</td></tr>
             <tr><td><strong>Gateway</strong></td><td>Servicio que conecta Hermes con plataformas de mensajería (Telegram, Discord, Slack).</td></tr>

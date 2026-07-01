@@ -28,8 +28,8 @@ hermes doctor --fix
 ✓ Python version: 3.11.x
 ✓ Virtual environment: active
 ✓ Hermes Agent: installed
-✓ API key: configured (anthropic)
-✓ Model: claude-sonnet-4
+✓ API key: configured (openrouter)
+✓ Model: meta-llama/llama-3.3-70b-instruct:free
 ✓ Terminal: local backend
 ✓ Tools: web, terminal, file, skills
 ```

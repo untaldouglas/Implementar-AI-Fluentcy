@@ -9,8 +9,8 @@
 | Término | Definición |
 |---|---|
 | **Agent** | El asistente de IA que ejecuta tareas usando herramientas. En nuestro caso, Hermes Agent. |
-| **Provider** | El servicio que provee el modelo de IA. Ej: Anthropic (Claude), OpenAI, OpenRouter. |
-| **Model** | El modelo de lenguaje específico. Ej: `claude-sonnet-4`, `gpt-4o`. |
+| **Provider** | El servicio que provee el modelo de IA. Proveedor principal: OpenRouter. Alternativos: Groq, Ollama, NVIDIA. |
+| **Model** | El modelo de lenguaje específico. Ej: `meta-llama/llama-3.3-70b-instruct:free` (OpenRouter), `llama-3.3-70b-versatile` (Groq). |
 | **Toolset** | Conjunto de herramientas que el agente puede usar: `web`, `terminal`, `file`, `skills`, etc. |
 | **Skill** | Procedimiento reusable guardado como documento Markdown. Carga conocimiento especializado al agente. |
 | **Gateway** | Servicio que conecta Hermes con plataformas de mensajería (Telegram, Discord, Slack, etc.). |

@@ -162,6 +162,7 @@
 | 2026-06-26 | Narrativa de origen del programa: historia personal como ancla de credibilidad | Sin victimismo — fundador por experiencia, no por teoría |
 | 2026-06-26 | Blog iniciado: carpeta `/Blog/` para publicaciones en sitio personal, LinkedIn, sitios institucionales | Presencia profesional web como canal de posicionamiento del programa |
 | 2026-06-27 | Infraestructura digital definida: Drive (PDFs + estado) + GitHub Pages (HTML interactivos) | Acceso móvil + artefactos siempre accesibles sin depender de Mac local |
+| 2026-07-01 | **Proveedor LLM: OpenRouter** como provider principal del programa | Agrega acceso a 100+ modelos con una sola API key, incluyendo modelos gratuitos. Providers alternativos recomendados: Groq (gratis, ultra-rápido), Ollama (local, sin internet), NVIDIA NIM (créditos gratuitos). Todos los docs actualizados. |
 
 ---
 
@@ -179,6 +180,24 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-01 | SESIÓN 11 — DECISIÓN PROVEEDOR LLM (Claude Code)
+  DECISIÓN REGISTRADA:
+  ✓ Provider principal: OpenRouter (openrouter.ai) — acceso a 100+ modelos, muchos gratuitos
+  ✓ Providers alternativos recomendados: Groq (gratis, ultra-rápido), Ollama (local), NVIDIA NIM (créditos gratis)
+  ✓ Reemplaza: Claude API / Anthropic como provider directo
+
+  ARCHIVOS ACTUALIZADOS:
+  ✓ docs/guia_setup_champions.html — Lección 2 y Glosario (publicado en GitHub Pages)
+  ✓ 04_herramientas/guia_setup_champions/lessons/02_configuracion.md
+  ✓ 04_herramientas/guia_setup_champions/lessons/03_verificacion.md
+  ✓ 04_herramientas/guia_setup_champions/mission.md
+  ✓ 04_herramientas/guia_setup_champions/glossary/terminos_hermes.md
+  ✓ 04_herramientas/guia_setup_champions/learning_record/ (todos los templates)
+  ✓ 01_piloto/Acta_Seleccion_Champions_AI_Fluency.md
+  ✓ ESTADO_PROYECTO.md (esta entrada)
+
+---
+
 2026-07-01 | SESIÓN 10 — CIERRE DE SESIÓN 0 · KICK-OFF (Claude Code)
   COMPLETADO:
   ✓ C8: Sesión 0 — Kick-off oficial ejecutado con Champions
