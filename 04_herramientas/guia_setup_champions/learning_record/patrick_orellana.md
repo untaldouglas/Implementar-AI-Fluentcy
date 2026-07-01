@@ -1,6 +1,6 @@
 # Learning Record — Patrick Orellana (Infraestructura)
 
-## Estado: ⚪ No iniciado
+## Estado: ⏳ Pendiente — setup postergado por incidente de infraestructura (01/07/2026)
 
 ---
 
