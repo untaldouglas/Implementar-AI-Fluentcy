@@ -14,7 +14,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-06-30 · Sesión 8 — SSL de npm resuelto |
+| Última actualización | 2026-07-01 · Sesión 10 — Cierre de Sesión 0 (Kick-off completado) |
 | Actualizado por | Claude Code |
 
 ---
@@ -28,13 +28,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-06-30 |
-| Días hasta inicio | 1 día |
-| Fase actual | **FASE 0 — Preparación del terreno** |
-| Semana de proyecto | S0 (pre-arranque) |
-| Mes de proyecto | M0 (previo al inicio) |
-| Próximo hito | Kick-off oficial — 2026-07-01 |
-| Días hasta próximo hito | 1 día |
+| Hoy (última actualización) | 2026-07-01 |
+| Días desde inicio | 1 día |
+| Fase actual | **FASE 1 — Piloto Champions** |
+| Semana de proyecto | S1 |
+| Mes de proyecto | M1 |
+| Próximo hito | Diagnóstico baseline + itinerarios — 2026-07-07 |
+| Días hasta próximo hito | 6 días |
 
 ### Calendario de fases
 
@@ -48,11 +48,13 @@
 
 ---
 
-## 📍 FASE ACTUAL — FASE 0: Preparación del Terreno
+## 📍 FASE ACTUAL — FASE 1: Piloto Champions
 
-**Estado:** 🟡 EN CURSO  
-**Ventana:** 2026-06-26 → 2026-06-30 (5 días disponibles)  
-**Objetivo:** Dejar todo listo para el arranque del 1 de julio.
+**Estado:** 🟢 EN CURSO  
+**Ventana:** 2026-07-01 → 2026-07-31  
+**Objetivo:** Activar a los 4 Champions, establecer rutinas de uso de IA, completar diagnóstico baseline e itinerarios personalizados.
+
+> **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
 
 ### Checklist de Fase 0
 
@@ -106,10 +108,11 @@
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
-| C6 | Aplicar diagnóstico baseline a 3 Champions | 2026-07-07 | ⚪ No iniciado | Resultado: nivel L0–L9 estimado |
-| C7 | Generar itinerarios personalizados por Champion | 2026-07-07 | ⚪ No iniciado | Basado en resultado del diagnóstico |
-| C8 | Kick-off oficial del programa | 2026-07-01 | ⚪ No iniciado | Presentar MCA, licencias, expectativas |
-| C10 | Preparar agenda detallada de Sesión 0 | 2026-06-30 | ⚪ No iniciado | Guión con bloques de tiempo: kick-off + diagnóstico + setup Hermes (90 min) |
+| C6 | Aplicar diagnóstico baseline a 3 Champions | 2026-07-07 | 🟡 EN CURSO | Form enviado; respuestas pendientes de Champions |
+| C7 | Generar itinerarios personalizados por Champion | 2026-07-07 | ⚪ No iniciado | Basado en resultado del diagnóstico baseline |
+| C8 | Kick-off oficial del programa | 2026-07-01 | ✅ COMPLETADO | Sesión 0 ejecutada · Bitácora enviada a Drive (validación pendiente) |
+| C10 | Preparar agenda detallada de Sesión 0 | 2026-07-01 | ✅ COMPLETADO | Agenda definida y entregada a invitados |
+| C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-07 | ⚪ No iniciado | Patrick primero; usar red externa (SSL UJMD bloquea npm) |
 
 ---
 
@@ -120,15 +123,21 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[HOY · C10]** Preparar agenda detallada de Sesión 0 — guión con bloques de 90 min
+1. **[HOY · C6]** Incorporar bitácora de Sesión 0 al repositorio
+   - Bitácora enviada a Drive (ujmd.edu.sv) para validación — pendiente de recibir y agregar aquí.
+   - Una vez validada: copiar a `04_herramientas/dashboards/` y registrar en log.
 
-2. **[01/07 · C8]** Sesión 0 — Diagnóstico Baseline + Kick-off
-   - Confirmado: 2026-07-01 · 9:00–10:30 AM · Google Meet: https://meet.google.com/rhx-crmz-kca
-   - Form: https://forms.gle/JHd4a8kHyFh59RkH7 — pedir que llenen antes de la sesión.
+2. **[01–07/07 · C6]** Cierre del diagnóstico baseline
+   - Confirmar que los 3 Champions completaron el Google Form: https://forms.gle/JHd4a8kHyFh59RkH7
+   - Si no lo completaron en Sesión 0: hacer seguimiento individual por WhatsApp/correo.
 
-3. **[01/07 · C5]** Setup Hermes Agent en estaciones de Champions
-   - Ejecutar durante Sesión 0. Patrick primero (piloto técnico).
-   - Tiempo: 2–4 horas total.
+3. **[01–07/07 · C7]** Generar itinerarios personalizados por Champion
+   - Correr `calcular_nivel_mca.gs` con las respuestas del Form.
+   - Output: un itinerario L0→Lx por Champion (Irvin, Mario, Patrick).
+
+4. **[Esta semana · C11]** Setup Hermes Agent en estaciones de Champions
+   - Patrick primero (Infraestructura — piloto técnico).
+   - ⚠️ Usar red externa o punto de acceso móvil — la red UJMD bloquea SSL de npm.
 
 ---
 
@@ -170,6 +179,39 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-01 | SESIÓN 10 — CIERRE DE SESIÓN 0 · KICK-OFF (Claude Code)
+  COMPLETADO:
+  ✓ C8: Sesión 0 — Kick-off oficial ejecutado con Champions
+  ✓ Bitácora de reunión redactada y enviada a validación vía Google Drive (ujmd.edu.sv)
+
+  PENDIENTE INMEDIATO:
+  → Recibir bitácora validada e incorporarla a 04_herramientas/dashboards/
+  → C6: Confirmar que los 3 Champions llenaron Google Form de diagnóstico
+  → C7: Generar itinerarios personalizados (post-diagnóstico)
+  → C11: Setup Hermes Agent en estaciones (Patrick primero, red externa)
+
+  FASE:
+  → Fase 0 CERRADA ✅ | Fase 1 (Piloto Champions) ACTIVA 🟢 — Semana 1
+
+---
+
+2026-07-01 | SESIÓN 9 — INICIO DE JORNADA (Día 1 oficial del programa)
+  COMPLETADO:
+  ✓ C10: Agenda detallada de Sesión 0 — definida y entregada a invitados
+
+  ESTADO:
+  → Fase 0 cerrada al 100%. Fase 1 (Piloto Champions) arranca hoy.
+  → Sesión 0 confirmada: 9:00–10:30 AM · Google Meet
+
+  PLAN DE HOY:
+  → C8: Kick-off oficial (9:00 AM)
+  → C6: Diagnóstico baseline en vivo (Google Form)
+  → C5: Setup Hermes Agent en estaciones (Patrick primero)
+  → C7: Itinerarios personalizados post-sesión
+  → Debug cron jobs SOD/EOD (ambos con error)
+
+---
+
 2026-06-30 | SESIÓN 8 (Claude Code)
   COMPLETADO HOY:
   ✓ SSL de npm corregido — bloqueante de instalación de Hermes Agent resuelto
