@@ -14,7 +14,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-02 · Sesión 14 — C11 completado, cadencia semanal de reuniones definida |
+| Última actualización | 2026-07-02 · Sesión 14 — Cierre de jornada: C11–C13 completados, C12 agendado para mañana |
 | Actualizado por | Claude Code |
 
 ---
@@ -114,6 +114,7 @@
 | C10 | Preparar agenda detallada de Sesión 0 | 2026-07-01 | ✅ COMPLETADO | Agenda definida y entregada a invitados |
 | C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-02 | ✅ COMPLETADO | Irvin ✅ Mario ✅ Patrick ✅ — instalado y validado 02/07 |
 | C12 | Reunión de seguimiento individual + definir cadencia semanal | 2026-07-03 | 🟡 EN CURSO | 14:00–15:15, Sala de Reuniones Dirección · Agendada en Calendar (invitados: Irvin, Mario, Patrick) · Agenda: `04_herramientas/agendas/2026-07-03_seguimiento_individual.md` |
+| C13 | Anunciar el programa a todos los miembros de la Dirección de Informática | 2026-07-03 | ✅ COMPLETADO | Correo redactado con Claude Code, enviado directamente por Douglas desde Gmail — programado para 2026-07-03 7:00 AM |
 
 ---
 
@@ -124,10 +125,19 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[MAÑANA 03/07 · C12]** Reunión de seguimiento individual + definición de cadencia semanal
-   - 14:00 · Sala de Reuniones, Dirección de Servicios Informáticos
+1. **[MAÑANA 03/07 · 7:00 AM · C13]** Confirmar que el correo de anuncio a toda la Dirección de Informática salió según lo programado.
+
+2. **[MAÑANA 03/07 · 14:00–15:15 · C12 🔴]** Reunión de seguimiento individual + definición de cadencia semanal
+   - Sala de Reuniones, Dirección de Servicios Informáticos · ya agendada en Calendar (Irvin, Mario, Patrick invitados)
    - Agenda preparada: `04_herramientas/agendas/2026-07-03_seguimiento_individual.md`
    - Objetivo doble: (a) revisar avance de cada Champion en su guía de 7 días, (b) definir día/hora de las 2 reuniones semanales recurrentes (ver `🗓 CADENCIA DE REUNIONES` abajo).
+
+3. **[Post C12 · MISMO DÍA 03/07]** Crear en Calendar las 2 reuniones semanales recurrentes una vez acordado el día/hora en la reunión del punto 2.
+   - Plantillas listas: `04_herramientas/agendas/plantilla_reunion_colaborativa_champions.md` y `plantilla_reunion_seguimiento_proyecto.md`
+
+4. **[Continuo — esta semana]** Dar seguimiento al avance de los 3 Champions en Lección 2 (Configuración) y Lección 3 (Verificación) de sus guías de 7 días; registrar evidencia en sus `learning_record`.
+
+5. **[Sin fecha límite — Fase 4]** Iniciar contacto con administrador de Google Workspace UJMD (bloqueo abierto, ver sección de Bloqueos).
 
 ---
 
@@ -183,6 +193,32 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-02 | SESIÓN 14 — CIERRE DE JORNADA (Claude Code)
+  COMPLETADO HOY (resumen del día):
+  ✓ C11: Setup Hermes Agent completado y validado en las 3 estaciones (Irvin, Mario, Patrick)
+  ✓ Niveles baseline reales registrados en learning_record/ de los 3 Champions (L1 para los tres, con zona y bloqueo)
+  ✓ Bloqueo "Hermes no instalado" retirado — sin bloqueos activos de setup
+  ✓ Bitácora de Sesión 0 validada e incorporada al repo (`04_herramientas/dashboards/`)
+  ✓ Links de guías personalizadas de 7 días compartidos con los 3 Champions
+  ✓ C12: Reunión de seguimiento individual agendada — 03/07 14:00–15:15, Sala de Reuniones Dirección (Calendar + agenda listos)
+  ✓ Decisión: cadencia semanal de 2 reuniones para el resto de F1 (colaborativa 2h + seguimiento 1h) — plantillas creadas
+  ✓ C13: Correo de anuncio del programa a toda la Dirección de Informática — redactado y enviado por Douglas, programado 03/07 7:00 AM
+
+  ESTADO GENERAL:
+  → Todos los compromisos de Semana 0 y Semana 1 (C1–C13) están en ✅ COMPLETADO, salvo C12 (mañana).
+  → Único bloqueo abierto: integración de Google Workspace UJMD (sin fecha límite, no crítico aún).
+
+  PRÓXIMAS ACCIONES — EN ORDEN DE EJECUCIÓN MAÑANA (03/07):
+  1. 🔴 7:00 AM — Confirmar que el correo C13 (anuncio a toda la Dirección) salió según lo programado.
+  2. 🔴 14:00–15:15 — Ejecutar reunión C12: seguimiento individual de los 3 Champions + definir día/hora de las 2 reuniones semanales recurrentes.
+  3. Mismo día, tras C12 — Crear en Calendar las 2 reuniones recurrentes (colaborativa Champions 2h + seguimiento proyecto 1h) con el día/hora acordado.
+  4. Esta semana (continuo) — Seguir el avance de los 3 Champions en Lección 2 y 3 de sus guías de 7 días; registrar evidencia en sus learning_record.
+  5. Sin fecha límite — Retomar contacto con administrador de Google Workspace UJMD (bloqueo de Fase 4/Investigación).
+
+  ACCIÓN #1 MAÑANA: Confirmar envío del correo C13 (7:00 AM), luego preparar la reunión C12 (14:00).
+
+---
+
 2026-07-02 | SESIÓN 14 — INICIO DE JORNADA (Claude Code)
   COMPLETADO:
   ✓ C11: Setup Hermes en estación de Patrick Orellana confirmado instalado y validado — C11 marcado COMPLETADO
@@ -198,6 +234,8 @@
   ✓ Decisión registrada: cadencia semanal de 2 reuniones para el resto de F1 (colaborativa 2h + seguimiento 1h)
       → Plantillas creadas: `04_herramientas/agendas/plantilla_reunion_colaborativa_champions.md` y `plantilla_reunion_seguimiento_proyecto.md`
       → Día/hora definitivos se acuerdan en la reunión del 03/07
+  ✓ C13: Correo de anuncio del programa a toda la Dirección de Informática — redactado con Claude Code, enviado por Douglas desde Gmail, programado para 2026-07-03 7:00 AM
+      → Primer contacto formal con el equipo completo (previo a la expansión Capa 1)
 
   PENDIENTE:
   → C12: Ejecutar reunión del 03/07 y registrar decisiones (día/hora de ambas reuniones recurrentes)
