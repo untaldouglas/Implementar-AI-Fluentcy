@@ -1,6 +1,6 @@
 # Learning Record — Patrick Orellana (Infraestructura)
 
-## Estado: ⏳ Pendiente — setup postergado por incidente de infraestructura (01/07/2026)
+## Estado: ✅ Setup completado y validado (02/07/2026)
 
 ---
 
@@ -11,7 +11,9 @@
 | Nombre | Patrick Eduardo Orellana Amaya |
 | Correo | peorellanaa@ujmd.edu.sv |
 | Área | Infraestructura |
-| Nivel baseline | L2 (autoreportado) |
+| Nivel baseline | **L1** (diagnóstico Google Form, 01/07/2026 · script `calcular_nivel_mca.gs`) |
+| Zona | Pasajero |
+| Bloqueo detectado | Conocimiento técnico/Delegación segura |
 | Fecha de setup | _(pendiente)_ |
 | SO | _(pendiente)_ |
 | Versión Hermes | _(pendiente)_ |

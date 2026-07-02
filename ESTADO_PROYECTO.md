@@ -14,7 +14,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-01 · Sesión 10 — Cierre de Sesión 0 (Kick-off completado) |
+| Última actualización | 2026-07-02 · Sesión 14 — C11 completado, cadencia semanal de reuniones definida |
 | Actualizado por | Claude Code |
 
 ---
@@ -28,8 +28,8 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-01 |
-| Días desde inicio | 1 día |
+| Hoy (última actualización) | 2026-07-02 |
+| Días desde inicio | 2 días |
 | Fase actual | **FASE 1 — Piloto Champions** |
 | Semana de proyecto | S1 |
 | Mes de proyecto | M1 |
@@ -110,9 +110,10 @@
 |---|---|---|---|---|
 | C6 | Aplicar diagnóstico baseline a 3 Champions | 2026-07-07 | ✅ COMPLETADO | Los 3 Champions llenaron el Form · Script calcular_nivel_mca.gs ejecutado |
 | C7 | Generar itinerarios personalizados por Champion | 2026-07-07 | ✅ COMPLETADO | Itinerarios generados por script en hoja electrónica · Niveles L0–L9 calculados |
-| C8 | Kick-off oficial del programa | 2026-07-01 | ✅ COMPLETADO | Sesión 0 ejecutada · Bitácora enviada a Drive (validación pendiente) |
+| C8 | Kick-off oficial del programa | 2026-07-01 | ✅ COMPLETADO | Sesión 0 ejecutada · Bitácora validada e incorporada al repo (04_herramientas/dashboards/) |
 | C10 | Preparar agenda detallada de Sesión 0 | 2026-07-01 | ✅ COMPLETADO | Agenda definida y entregada a invitados |
-| C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-02 | 🟡 EN CURSO | Irvin ✅ Mario ✅ Patrick ⏳ — sesión de recuperación a más tardar 02/07 |
+| C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-02 | ✅ COMPLETADO | Irvin ✅ Mario ✅ Patrick ✅ — instalado y validado 02/07 |
+| C12 | Reunión de seguimiento individual + definir cadencia semanal | 2026-07-03 | 🟡 EN CURSO | 14:00–15:15, Sala de Reuniones Dirección · Agendada en Calendar (invitados: Irvin, Mario, Patrick) · Agenda: `04_herramientas/agendas/2026-07-03_seguimiento_individual.md` |
 
 ---
 
@@ -123,19 +124,23 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[MAÑANA 02/07 · C11 🔴]** Completar setup Hermes en estación de Patrick Orellana
-   - Irvin ✅ Mario ✅ — solo falta Patrick.
-   - Fecha límite inamovible: 2026-07-02.
-   - ⚠️ Usar red externa — la red UJMD bloquea SSL de npm.
-   - Provider: OpenRouter (`OPENROUTER_API_KEY`), modelo: `meta-llama/llama-3.3-70b-instruct:free`
+1. **[MAÑANA 03/07 · C12]** Reunión de seguimiento individual + definición de cadencia semanal
+   - 14:00 · Sala de Reuniones, Dirección de Servicios Informáticos
+   - Agenda preparada: `04_herramientas/agendas/2026-07-03_seguimiento_individual.md`
+   - Objetivo doble: (a) revisar avance de cada Champion en su guía de 7 días, (b) definir día/hora de las 2 reuniones semanales recurrentes (ver `🗓 CADENCIA DE REUNIONES` abajo).
 
-2. **[Pendiente]** Registrar niveles baseline en learning records de cada Champion
-   - Agregar nivel L calculado por el script a `04_herramientas/guia_setup_champions/learning_record/`
-   - Irvin Morales · Mario Valencia · Patrick Orellana
+---
 
-3. **[Pendiente]** Incorporar bitácora de Sesión 0 al repositorio
-   - Pendiente de recibir validación desde Drive (ujmd.edu.sv)
-   - Una vez validada: copiar a `04_herramientas/dashboards/`
+## 🗓 CADENCIA DE REUNIONES (Fase 1 — resto de julio)
+
+> Definida el 02/07; día/hora exactos a confirmar en la reunión del 03/07 (C12).
+
+| Reunión | Frecuencia | Duración | Participantes | Objetivo | Plantilla |
+|---|---|---|---|---|---|
+| Trabajo colaborativo entre Champions | Semanal | 2 horas | Irvin, Mario, Patrick (sin Dirección) | Compartir y construir conocimiento colectivo entre pares | `04_herramientas/agendas/plantilla_reunion_colaborativa_champions.md` |
+| Seguimiento del proyecto | Semanal | 1 hora | Douglas + Irvin, Mario, Patrick | Seguimiento de avance, bloqueos y decisiones | `04_herramientas/agendas/plantilla_reunion_seguimiento_proyecto.md` |
+
+**Semanas cubiertas:** S2 (06–12/07), S3 (13–19/07), S4 (20–26/07), cierre F1 (27–31/07, Demo Day).
 
 ---
 
@@ -143,7 +148,6 @@
 
 | Bloqueo | Impacto | Desbloqueador |
 |---|---|---|
-| Hermes Agent no instalado en estaciones de Champions | Sin orquestador, los Champions no pueden practicar | Setup en cada máquina durante Sesión 0 (01/07) |
 | Google Workspace UJMD no integrado | Bloquea Fase 4 + Investigación (agosto) | Iniciar contacto con admin GSuite en julio |
 
 ---
@@ -160,6 +164,7 @@
 | 2026-06-26 | Narrativa de origen del programa: historia personal como ancla de credibilidad | Sin victimismo — fundador por experiencia, no por teoría |
 | 2026-06-26 | Blog iniciado: carpeta `/Blog/` para publicaciones en sitio personal, LinkedIn, sitios institucionales | Presencia profesional web como canal de posicionamiento del programa |
 | 2026-06-27 | Infraestructura digital definida: Drive (PDFs + estado) + GitHub Pages (HTML interactivos) | Acceso móvil + artefactos siempre accesibles sin depender de Mac local |
+| 2026-07-02 | Cadencia semanal de reuniones para el resto de F1: 1 reunión colaborativa entre Champions (2h) + 1 reunión de seguimiento con Dirección (1h) | Sostener el ritmo de aprendizaje entre sesiones de kick-off y Demo Day; día/hora exactos a definir el 03/07 |
 | 2026-07-01 | **Proveedor LLM: OpenRouter** como provider principal del programa | Agrega acceso a 100+ modelos con una sola API key, incluyendo modelos gratuitos. Providers alternativos recomendados: Groq (gratis, ultra-rápido), Ollama (local, sin internet), NVIDIA NIM (créditos gratuitos). Todos los docs actualizados. |
 
 ---
@@ -178,6 +183,28 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-02 | SESIÓN 14 — INICIO DE JORNADA (Claude Code)
+  COMPLETADO:
+  ✓ C11: Setup Hermes en estación de Patrick Orellana confirmado instalado y validado — C11 marcado COMPLETADO
+  ✓ Niveles baseline reales registrados en learning_record/ de los 3 Champions (reemplaza "L2 autoreportado" por el resultado del diagnóstico):
+      → Irvin Morales — L1 · Zona Conductor · Bloqueo: Confianza/Seguridad
+      → Mario Valencia — L1 · Zona Pasajero · Bloqueo: Acceso/Permisos/Soporte
+      → Patrick Orellana — L1 · Zona Pasajero · Bloqueo: Conocimiento técnico/Delegación segura
+  ✓ Bloqueo "Hermes no instalado en estaciones" retirado de BLOQUEOS IDENTIFICADOS (resuelto)
+  ✓ Bitácora de Sesión 0 validada e incorporada al repo — "Bitácora reunión arranque AIFluent.pdf" en `04_herramientas/dashboards/`
+  ✓ Links de guías personalizadas de 7 días compartidos con Irvin, Mario y Patrick
+  ✓ C12 creado: reunión de seguimiento individual agendada para 03/07 14:00 (Sala de Reuniones, Dirección)
+      → Agenda preparada: `04_herramientas/agendas/2026-07-03_seguimiento_individual.md`
+  ✓ Decisión registrada: cadencia semanal de 2 reuniones para el resto de F1 (colaborativa 2h + seguimiento 1h)
+      → Plantillas creadas: `04_herramientas/agendas/plantilla_reunion_colaborativa_champions.md` y `plantilla_reunion_seguimiento_proyecto.md`
+      → Día/hora definitivos se acuerdan en la reunión del 03/07
+
+  PENDIENTE:
+  → C12: Ejecutar reunión del 03/07 y registrar decisiones (día/hora de ambas reuniones recurrentes)
+  → Programar las primeras instancias de ambas reuniones en el calendario una vez definida la cadencia
+
+---
+
 2026-07-01 | SESIÓN 13 — SETUP HERMES PARCIAL (Claude Code)
   COMPLETADO:
   ✓ C11 parcial: Hermes Agent instalado y configurado en estaciones de Irvin y Mario

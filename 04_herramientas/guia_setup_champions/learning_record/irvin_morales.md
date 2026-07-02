@@ -11,7 +11,9 @@
 | Nombre | Irvin Josué Morales Parada |
 | Correo | ijmoralespa@ujmd.edu.sv |
 | Área | Soporte / Mesa de Servicios |
-| Nivel baseline | L2 (autoreportado) |
+| Nivel baseline | **L1** (diagnóstico Google Form, 01/07/2026 · script `calcular_nivel_mca.gs`) |
+| Zona | Conductor |
+| Bloqueo detectado | Confianza/Seguridad |
 | Fecha de setup | _(pendiente)_ |
 | SO | _(pendiente)_ |
 | Versión Hermes | _(pendiente)_ |
