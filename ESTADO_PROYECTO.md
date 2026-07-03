@@ -14,7 +14,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-02 · Sesión 14 — Cierre de jornada: C11–C13 completados, C12 agendado para mañana |
+| Última actualización | 2026-07-03 · Sesión 15 — Cierre de jornada: guía de Irvin corregida (HTML + Zona), 00_marco/ restaurado, cambios pusheados a main |
 | Actualizado por | Claude Code |
 
 ---
@@ -193,6 +193,28 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-03 | SESIÓN 15 — CIERRE DE JORNADA (Claude Code)
+  COMPLETADO HOY:
+  ✓ guia_irvin_morales.html: corregido un `</div>` sobrante en el checklist del Día 4 que rompía el HTML del ítem
+  ✓ Corregida inconsistencia de datos "Zona: Conductor" → "Zona: Pasajero" para Irvin (baseline L1 → Pasajero según calcular_nivel_mca.gs, igual que Mario y Patrick) en: guia_irvin_morales.html, docs/index.html, learning_record/irvin_morales.md y agenda de C12 (04_herramientas/agendas/2026-07-03_seguimiento_individual.md)
+  ✓ Reescrito el mensaje de cierre (Día 8) de la guía de Irvin, que asumía incorrectamente zona Conductor
+  ✓ Detectado y restaurado 00_marco/ (Manual_Implementacion_Estrategica, Licencia_Conduccion_AI, Alineacion_Estrategica, Protocolo_Investigacion) — borrado accidentalmente en el commit "Limpia repository" (da96986, 01/07) pese a seguir documentado en CLAUDE.md
+  ✓ 2 commits separados creados y pusheados a origin/main: restauración de 00_marco/ (3721bd8) + correcciones de Irvin (6264e84)
+
+  ESTADO GENERAL:
+  → C12 (reunión de seguimiento individual, 03/07 14:00–15:15) — estado sin confirmar en esta sesión; la agenda seguía con la sección "Registro de decisiones" en (pendiente) al momento de este cierre. Verificar con Douglas si se realizó y registrar resultados.
+  → Único bloqueo abierto sin cambios: integración de Google Workspace UJMD.
+
+  PRÓXIMAS ACCIONES:
+  1. Confirmar si la reunión C12 se realizó hoy y, de ser así, registrar en la agenda + aquí las decisiones (cadencia semanal, bloqueos comunes, acuerdos individuales).
+  2. Si C12 sigue pendiente, reagendar y ejecutar antes de que se recorra el resto de la cadencia de S2.
+  3. Continuar dando seguimiento al avance de los 3 Champions en Lección 2/3 de sus guías de 7 días; registrar evidencia en sus learning_record.
+  4. Sin fecha límite — Retomar contacto con administrador de Google Workspace UJMD.
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: Confirmar estado real de C12 y actualizar ESTADO_PROYECTO.md en consecuencia.
+
+---
+
 2026-07-02 | SESIÓN 14 — CIERRE DE JORNADA (Claude Code)
   COMPLETADO HOY (resumen del día):
   ✓ C11: Setup Hermes Agent completado y validado en las 3 estaciones (Irvin, Mario, Patrick)
