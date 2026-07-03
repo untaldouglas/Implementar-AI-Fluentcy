@@ -12,7 +12,7 @@
 | Correo | ijmoralespa@ujmd.edu.sv |
 | Área | Soporte / Mesa de Servicios |
 | Nivel baseline | **L1** (diagnóstico Google Form, 01/07/2026 · script `calcular_nivel_mca.gs`) |
-| Zona | Conductor |
+| Zona | Pasajero |
 | Bloqueo detectado | Confianza/Seguridad |
 | Fecha de setup | _(pendiente)_ |
 | SO | _(pendiente)_ |

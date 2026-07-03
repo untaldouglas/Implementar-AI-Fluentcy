@@ -27,7 +27,7 @@ Para cada Champion: ¿en qué lección de la guía de 7 días va (Instalación /
 
 | Champion | Área | Nivel baseline | Zona | Bloqueo detectado en diagnóstico |
 |---|---|---|---|---|
-| Irvin Morales | Soporte / Mesa de Servicios | L1 | Conductor | Confianza/Seguridad |
+| Irvin Morales | Soporte / Mesa de Servicios | L1 | Pasajero | Confianza/Seguridad |
 | Mario Valencia | Desarrollo | L1 | Pasajero | Acceso/Permisos/Soporte |
 | Patrick Orellana | Infraestructura | L1 | Pasajero | Conocimiento técnico/Delegación segura |
 
