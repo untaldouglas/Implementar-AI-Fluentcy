@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-03 · Sesión 15 — Cierre de jornada: guía de Irvin corregida (HTML + Zona), 00_marco/ restaurado, cambios pusheados a main |
-| Actualizado por | Claude Code |
+| Última actualización | 2026-07-03 · Sesión 16 — C12 completada: cadencia definida, Champions comprometidos a enviar evidencia antes 08/07 |
+| Actualizado por | Hermes Agent (Morning Command Center) |
 
 ---
 
@@ -113,7 +113,7 @@
 | C8 | Kick-off oficial del programa | 2026-07-01 | ✅ COMPLETADO | Sesión 0 ejecutada · Bitácora validada e incorporada al repo (04_herramientas/dashboards/) |
 | C10 | Preparar agenda detallada de Sesión 0 | 2026-07-01 | ✅ COMPLETADO | Agenda definida y entregada a invitados |
 | C11 | Setup Hermes Agent en estaciones de Champions | 2026-07-02 | ✅ COMPLETADO | Irvin ✅ Mario ✅ Patrick ✅ — instalado y validado 02/07 |
-| C12 | Reunión de seguimiento individual + definir cadencia semanal | 2026-07-03 | 🟡 EN CURSO | 14:00–15:15, Sala de Reuniones Dirección · Agendada en Calendar (invitados: Irvin, Mario, Patrick) · Agenda: `04_herramientas/agendas/2026-07-03_seguimiento_individual.md` |
+| C12 | Reunión de seguimiento individual + definir cadencia semanal | 2026-07-03 | ✅ COMPLETADO | 14:00–15:15, Sala de Reuniones Dirección. Champions entendieron guías y compromiso de envío de evidencia al 08/07. Cadencia definida: miércoles 2-4 PM (colaborativa) + viernes 2-3 PM (seguimiento). |
 | C13 | Anunciar el programa a todos los miembros de la Dirección de Informática | 2026-07-03 | ✅ COMPLETADO | Correo redactado con Claude Code, enviado directamente por Douglas desde Gmail — programado para 2026-07-03 7:00 AM |
 
 ---
@@ -125,17 +125,13 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[MAÑANA 03/07 · 7:00 AM · C13]** Confirmar que el correo de anuncio a toda la Dirección de Informática salió según lo programado.
+1. **[LUNES 08/07 · durante el día]** Recibir y revisar la evidencia que los 3 Champions envíen por correo. Actualizar learning records con `champion-seguimiento`.
 
-2. **[MAÑANA 03/07 · 14:00–15:15 · C12 🔴]** Reunión de seguimiento individual + definición de cadencia semanal
-   - Sala de Reuniones, Dirección de Servicios Informáticos · ya agendada en Calendar (Irvin, Mario, Patrick invitados)
-   - Agenda preparada: `04_herramientas/agendas/2026-07-03_seguimiento_individual.md`
-   - Objetivo doble: (a) revisar avance de cada Champion en su guía de 7 días, (b) definir día/hora de las 2 reuniones semanales recurrentes (ver `🗓 CADENCIA DE REUNIONES` abajo).
+2. **[MIÉRCOLES 08/07 · 14:00–16:00]** Primera reunión colaborativa entre Champions (sin Dirección). Tema sugerido: compartir hallazgos del Prompt 1 (entrevista de descubrimiento).
 
-3. **[Post C12 · MISMO DÍA 03/07]** Crear en Calendar las 2 reuniones semanales recurrentes una vez acordado el día/hora en la reunión del punto 2.
-   - Plantillas listas: `04_herramientas/agendas/plantilla_reunion_colaborativa_champions.md` y `plantilla_reunion_seguimiento_proyecto.md`
+3. **[VIERNES 11/07 · 14:00–15:00]** Primera reunión de seguimiento con Douglas. Revisar evidencia recibida, detectar bloqueos, ajustar itinerarios.
 
-4. **[Continuo — esta semana]** Dar seguimiento al avance de los 3 Champions en Lección 2 (Configuración) y Lección 3 (Verificación) de sus guías de 7 días; registrar evidencia en sus `learning_record`.
+4. **[Continuo — esta semana]** Dar seguimiento al avance de los 3 Champions en Lección 2 (Configuración) y Lección 3 (Verificación) de sus guías de 7 días.
 
 5. **[Sin fecha límite — Fase 4]** Iniciar contacto con administrador de Google Workspace UJMD (bloqueo abierto, ver sección de Bloqueos).
 
@@ -192,51 +188,81 @@
 
 ## 📋 DECISIONES DE C12 — Reunión de Seguimiento Individual · 2026-07-03
 
-> **Completar DURANTE la reunión. No dejar espacios en blanco.**
+> **Reunión completada ✅** · 14:00–15:15 · Sala de Reuniones, Dirección de Informática
 
 ### Avance individual por Champion
 
 | Champion | Lección 1 (L2→L3) | Lección 2 (L3→L4) | Lección 3 (L4→L5) | Bloqueo superado |
 |---|---|---|---|---|
-| Irvin Morales | ⬜ | ⬜ | ⬜ | ⬜ |
-| Mario Valencia | ⬜ | ⬜ | ⬜ | ⬜ |
-| Patrick Orellana | ⬜ | ⬜ | ⬜ | ⬜ |
+| Irvin Morales | *(envía evidencia antes 08/07)* | ⬜ | ⬜ | ⬜ |
+| Mario Valencia | *(envía evidencia antes 08/07)* | ⬜ | ⬜ | ⬜ |
+| Patrick Orellana | *(envía evidencia antes 08/07)* | ⬜ | ⬜ | ⬜ |
 
 ### Bloqueos comunes identificados
 
 | Bloqueo | Afecta a | Causa común | Quién resuelve | Fecha límite |
 |---|---|---|---|---|
-| _(registrar)_ | | | | |
-| _(registrar)_ | | | | |
-| _(registrar)_ | | | | |
+| _No se identificaron bloqueos nuevos en esta reunión_ | — | — | — | — |
 
 ### Cadencia semanal acordada
 
 | Reunión | Día | Hora | Modalidad | Primera instancia |
 |---|---|---|---|---|
-| Colaborativa Champions (2h) | _(día)_ | _(hora)_ | _(presencial/virtual)_ | Semana del _(fecha)_ |
-| Seguimiento proyecto (1h) | _(día)_ | _(hora)_ | _(presencial/virtual)_ | Semana del _(fecha)_ |
+| Colaborativa Champions (2h) | Miércoles | 14:00–16:00 | Presencial | Miércoles 8 de julio |
+| Seguimiento proyecto (1h) | Viernes | 14:00–15:00 | Presencial | Viernes 11 de julio |
 
 ### Acuerdos individuales
 
 | Champion | Acuerdo | Responsable | Fecha |
 |---|---|---|---|
-| Irvin | _(registrar)_ | | |
-| Mario | _(registrar)_ | | |
-| Patrick | _(registrar)_ | | |
+| Irvin | Enviar evidencia. **Perfiles SOUL.md:** no había creado ninguno por dudas conceptuales, pero al ver los ejemplos de Mario y Patrick ya tiene claridad. Douglas le indicó revisar "Prompts de Onboarding" en Material de Referencia del GitHub Pages. | Irvin | 2026-07-08 |
+| Mario | Enviar evidencia. **Perfiles SOUL.md:** está creando perfiles por stack tecnológico (Rails, distintas versiones). Compartirlos con el grupo. | Mario | 2026-07-08 |
+| Patrick | Enviar evidencia. **Perfiles SOUL.md:** ya creó perfil de networking. Planea perfiles separados para servidores, Wi-Fi, respaldo/contingencia. Compartirlos con el grupo. | Patrick | 2026-07-08 |
+| Grupo | Compartir todos los perfiles SOUL.md entre los 3 Champions para enriquecimiento cruzado | Irvin + Mario + Patrick | 2026-07-08 |
 
 ### Próximos pasos inmediatos
 
-- [ ] Agendar ambas reuniones recurrentes en Google Calendar (Douglas)
-- [ ] Cada Champion actualiza su `learning_record` con evidencia de Lección 1 (fecha límite: ________)
-- [ ] Programar primera reunión colaborativa Champions (semana del ________)
-- [ ] Programar primera reunión de seguimiento (semana del ________)
+- [x] Agendar ambas reuniones recurrentes en Google Calendar (Douglas) — miércoles 2-4 PM + viernes 2-3 PM
+- [ ] Champions envían evidencia por correo antes del 08/07
+- [ ] Douglas recibe y revisa evidencia el 08/07
+- [ ] Primera reunión colaborativa Champions: miércoles 08/07 14:00
+- [ ] Primera reunión de seguimiento: viernes 11/07 14:00
 
 ---
 
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-03 | SESIÓN 16 — C12 COMPLETADA (Hermes Agent · Morning Command Center)
+  COMPLETADO HOY:
+  ✓ C12: Reunión de seguimiento individual ejecutada — 14:00–15:15, Sala de Reuniones
+  ✓ Champions entendieron las guías y el compromiso de evidencia
+  ✓ Cadencia semanal definida:
+      → Colaborativa Champions (2h): miércoles 14:00–16:00 — primera: 08/07
+      → Seguimiento con Douglas (1h): viernes 14:00–15:00 — primera: 11/07
+  ✓ Acuerdo: Champions envían evidencia por correo antes del 08/07
+  ✓ Champions reportaron avance en perfiles SOUL.md:
+      → Patrick: perfil networking creado, planifica separar servidores/Wi-Fi/respaldo
+      → Mario: perfiles por stack tecnológico (Rails, distintas versiones)
+      → Douglas pidió compartir todos los perfiles entre el grupo
+  ✓ Checklist pre-reunión + propuesta prompts onboarding generados
+  ✓ ESTADO_PROYECTO.md actualizado con decisiones y próximos pasos
+
+  ESTADO GENERAL:
+  → 14 de 14 compromisos COMPLETADOS ✅ (C1–C13 + preparación C12)
+  → Fase 1 (Piloto Champions): 100% de compromisos formales cerrados
+  → Próximo hito real: recepción de evidencia Champion (08/07)
+
+  PRÓXIMAS ACCIONES:
+  1. Lunes 08/07 — Recibir y revisar evidencia de los 3 Champions
+  2. Miércoles 08/07 14:00 — Primera reunión colaborativa Champions
+  3. Viernes 11/07 14:00 — Primera reunión de seguimiento con Douglas
+  4. Continuo — Seguimiento a Lección 2 (Configuración) y Lección 3 (Verificación)
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: Recibir evidencia de Champions el 08/07 y ejecutar `champion-seguimiento`.
+
+---
+
 2026-07-03 | SESIÓN 15 — CIERRE DE JORNADA (Claude Code)
   COMPLETADO HOY:
   ✓ guia_irvin_morales.html: corregido un `</div>` sobrante en el checklist del Día 4 que rompía el HTML del ítem
