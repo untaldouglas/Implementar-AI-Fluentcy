@@ -190,6 +190,50 @@
 
 ---
 
+## 📋 DECISIONES DE C12 — Reunión de Seguimiento Individual · 2026-07-03
+
+> **Completar DURANTE la reunión. No dejar espacios en blanco.**
+
+### Avance individual por Champion
+
+| Champion | Lección 1 (L2→L3) | Lección 2 (L3→L4) | Lección 3 (L4→L5) | Bloqueo superado |
+|---|---|---|---|---|
+| Irvin Morales | ⬜ | ⬜ | ⬜ | ⬜ |
+| Mario Valencia | ⬜ | ⬜ | ⬜ | ⬜ |
+| Patrick Orellana | ⬜ | ⬜ | ⬜ | ⬜ |
+
+### Bloqueos comunes identificados
+
+| Bloqueo | Afecta a | Causa común | Quién resuelve | Fecha límite |
+|---|---|---|---|---|
+| _(registrar)_ | | | | |
+| _(registrar)_ | | | | |
+| _(registrar)_ | | | | |
+
+### Cadencia semanal acordada
+
+| Reunión | Día | Hora | Modalidad | Primera instancia |
+|---|---|---|---|---|
+| Colaborativa Champions (2h) | _(día)_ | _(hora)_ | _(presencial/virtual)_ | Semana del _(fecha)_ |
+| Seguimiento proyecto (1h) | _(día)_ | _(hora)_ | _(presencial/virtual)_ | Semana del _(fecha)_ |
+
+### Acuerdos individuales
+
+| Champion | Acuerdo | Responsable | Fecha |
+|---|---|---|---|
+| Irvin | _(registrar)_ | | |
+| Mario | _(registrar)_ | | |
+| Patrick | _(registrar)_ | | |
+
+### Próximos pasos inmediatos
+
+- [ ] Agendar ambas reuniones recurrentes en Google Calendar (Douglas)
+- [ ] Cada Champion actualiza su `learning_record` con evidencia de Lección 1 (fecha límite: ________)
+- [ ] Programar primera reunión colaborativa Champions (semana del ________)
+- [ ] Programar primera reunión de seguimiento (semana del ________)
+
+---
+
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
