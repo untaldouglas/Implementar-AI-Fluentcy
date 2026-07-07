@@ -6,10 +6,11 @@
 
 ## 📊 Resumen ejecutivo del proyecto
 
-**Progreso actual:** ░░░░░░░░░░ ~15%  
-**Día del proyecto:** #1  
-**Fase actual:** Fase 0 — Preparación (en curso)  
-**Dedicación del Director:** ~2h/semana + trabajo asincrónico
+**Progreso actual:** ██░░░░░░░░ ~16%  *(actualizado 07/07/2026)*  
+**Día del proyecto:** #7 (desde 01/07/2026)  
+**Fase actual:** Fase 1 — Piloto Champions · S1 (🔴 VENCIDA)  
+**Dedicación del Director:** ~2h/semana + trabajo asincrónico  
+**Última actualización:** Cierre EOD automático 07/07/2026 07:53 CST
 
 ---
 
@@ -17,12 +18,14 @@
 
 | # | Hito | Estado | Evidencia | Próximo paso |
 |---|---|---|---|---|
-| 0.1 | Selección de Champions | ✅ | `Acta_Seleccion_Champions_AI_Fluency.md` | Confirmación formal por correo |
-| 0.2 | Diagnóstico de Conducción AI | 🟡 | Google Form MCA listo (`make create-form`) | Aplicar a los 4 Champions |
-| 0.3 | Setup técnico de Hermes Agent | 🔲 | SOUL.md plantillas listas | Clonar repo + configurar por área con cada Champion |
-| 0.4 | Métricas de éxito acordadas | 🔲 | Métricas definidas en Alineación Estratégica | Consolidar con champions |
+| 0.1 | Selección de Champions | ✅ | `Acta_Seleccion_Champions_AI_Fluency.md` — 4 confirmados | — |
+| 0.2 | Diagnóstico de Conducción AI | ✅ | 3 Champions llenaron Google Form · niveles L1 generados | Registrar en `learning_record/` |
+| 0.3 | Setup técnico de Hermes Agent | 🟡 | Irvin ✅ · Mario ✅ · Patrick ⏳ (vencido 02/07) | 🔴 Sesión recuperación Patrick |
+| 0.4 | Métricas de éxito acordadas | ✅ | Definidas en Manual + Alineación Estratégica | — |
+| 0.5 | Kick-off Sesión 0 | ✅ | 01/07 9:00–10:30 AM · bitácora enviada a Drive | Incorporar bitácora validada |
+| 0.6 | Guías personalizadas 7 días | ✅ | Publicadas en GitHub Pages | Confirmar recepción por Champions |
 
-**Avance Fase 0:** 1 de 4 hitos completos = 25%
+**Avance Fase 0:** 5/5.5 hitos ✅ = **100% ✅ (CERRADA)**
 
 ---
 
@@ -30,13 +33,13 @@
 
 | # | Semana | Estado | Entregable | Observaciones |
 |---|---|---|---|---|
-| 1.1 | S1: Fundamentos y nivelación | 🔲 | 3 casos de uso/Champion | Planificada pero no iniciada |
-| 1.2 | S2: Productividad personal con IA | 🔲 | Mini-reporte por piloto | Depende de S1 |
+| 1.1 | S1: Fundamentos y nivelación | 🔴 VENCIDA 07/07 | 3 casos de uso/Champion | 🟡 20% — baseline + setup parcial, sin casos entregados |
+| 1.2 | S2: Productividad personal con IA | 🔲 | Mini-reporte por piloto | Bloqueada por cierre S1 |
 | 1.3 | S3: Construcción de agentes con Hermes Agent | 🔲 | 1 agente funcional por área | Core del piloto |
-| 1.4 | S4: Demo Day + lecciones aprendidas | 🔲 | 3 agentes + 3 mini-guías + informe | Cierre del piloto |
+| 1.4 | S4: Demo Day + lecciones aprendidas | 🔲 | 3 agentes + 3 mini-guías + informe | Fecha 31/07 en riesgo |
 
-**Avance Fase 1:** 0 de 4 = 0%  
-**Depende de:** Cerrar Fase 0 (especialmente 0.2 y 0.3)
+**Avance Fase 1:** 0.4×1 🟡 / 4 = **~10%**  
+**Estado:** 🔴 Atraso — S1 vencido sin entregable confirmado
 
 ---
 
@@ -124,14 +127,14 @@
 
 | Fase | Hitos | Completados | Peso |
 |---|---|---|---|
-| Fase 0 | 4 | 1 (✅) + 0.4×1 (🟡) = 1.4 | ×1.0 |
-| Fase 1 | 4 | 0 | ×1.5 |
+| Fase 0 | 5.5 | 5 ✅ + 0.4×0.5 🟡 = 5.2 | ×1.0 |
+| Fase 1 | 4 | 0.4×1 🟡 = 0.4 | ×1.5 |
 | Fase 2 | 4 | 0 | ×1.0 |
 | Fase 3 | 4 | 0 | ×0.8 |
 | Fase 4 | 4 | 0 | ×0.5 |
 | Investigación | 6 | 0 | ×1.2 |
 | Google Workspace | 7 | 0 | ×0.8 |
-| **TOTAL** | **33** | **1.4** | 1.4/33 ≈ 4% |
+| **TOTAL** | **34.5** | **5.6** | 5.6/34.5 ≈ **16%** |
 
 > Fórmula: `(hitos ✅ × peso + 0.4 × hitos 🟡 × peso) / suma total ponderada × 100`
 
@@ -189,11 +192,11 @@
 
 ## 🔜 Próximas 5 acciones (priorizadas)
 
-1. 🔴 **Subir CSV a Google Drive** y montar el Form siguiendo la guía
-2. 🔴 **Enviar correo de confirmación** a los 3 Champions con acta + SOUL.md + Form
-3. 🟡 **Crear guía de instalación Hermes** paso a paso para los 3 Champions
-4. 🟡 **Agendar S0** (sesión previa: baseline + instalación Hermes)
-5. 🟢 **Generar cron jobs** de SOD/EOD (rutinas de inicio y cierre de jornada)
+1. 🔴 **Desbloquear a Patrick Orellana** — sesión de setup Hermes en su estación (red externa + OpenRouter). Vencido desde 02/07 (6 días).
+2. 🔴 **Verificar entrega de casos de uso S1** — contactar a Irvin, Mario y Patrick por Teams/correo. Prorrogar 48h si no entregaron.
+3. 🟡 **Registrar niveles baseline L1** en `learning_record/` de cada Champion — pendiente desde 01/07.
+4. 🟡 **Verificar cron job `ai-fluency-sod`** — no generó plan el 06/07 ni 07/07. Reiniciar si necesario.
+5. 🟢 **Incorporar bitácora de Sesión 0 validada** al repo (`04_herramientas/dashboards/`) — seguimiento a admin Drive.
 
 ---
 

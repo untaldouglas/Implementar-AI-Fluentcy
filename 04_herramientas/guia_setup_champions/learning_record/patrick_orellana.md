@@ -14,7 +14,7 @@
 | Nivel baseline | **L1** (diagnóstico Google Form, 01/07/2026 · script `calcular_nivel_mca.gs`) |
 | Zona | Pasajero |
 | Bloqueo detectado | Conocimiento técnico/Delegación segura |
-| Fecha de setup | _(pendiente)_ |
+| Fecha de setup | 2026-07-02 |
 | SO | _(pendiente)_ |
 | Versión Hermes | _(pendiente)_ |
 
