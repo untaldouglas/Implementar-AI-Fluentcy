@@ -6,7 +6,16 @@
       "Bash(git commit -m ' *)",
       "Bash(git fetch *)",
       "Bash(git pull *)",
-      "Bash(git merge *)"
+      "Bash(git merge *)",
+      "Bash(textutil -convert txt -stdout \"01_piloto/evidencia_piloto/irvin_morales/Seguimiento con DIT - Proyecto Hermes - Irvin Morales.docx\")",
+      "Bash(textutil -convert txt -stdout \"01_piloto/evidencia_piloto/patrick_orellana/Sesion Practica de los promt de la guia_.docx\")",
+      "Bash(mv \"mario_valencia/Guia de Hermes Semana 1.pdf\" \"mario_valencia/AIFluency_Mario_EvidenciaS1_CasoAncla_RefactorGAO.pdf\")",
+      "Bash(mv \"patrick_orellana/Sesion Practica de los promt de la guia_.docx\" \"patrick_orellana/AIFluency_Patrick_EvidenciaS1_CasoAncla_VerificacionDiariaInfraestructura.docx\")",
+      "Bash(mv \"irvin_morales/Seguimiento con DIT - Proyecto Hermes - Irvin Morales.docx\" \"irvin_morales/AIFluency_Irvin_Practica_Dia1-2_NotasPerfilesHermesDIT.docx\")",
+      "mcp__claude_ai_Google_Calendar__create_event",
+      "mcp__claude_ai_Google_Calendar__list_events",
+      "Skill(schedule)",
+      "Skill(schedule:*)"
     ]
   }
 }

@@ -21,9 +21,9 @@
 
 | Lección | Estado | Fecha |
 |---|---|---|
-| L1: Instalación | ⬜ | _(pendiente)_ |
-| L2: Configuración | ⬜ | _(pendiente)_ |
-| L3: Verificación | ⬜ | _(pendiente)_ |
+| L1: Instalación | ✅ | 2026-07-10 |
+| L2: Configuración | ✅ | 2026-07-10 |
+| L3: Verificación | ✅ | 2026-07-10 |
 
 ---
 
@@ -33,12 +33,12 @@
 
 | # | Título del caso de uso | Dónde vive la evidencia | Fecha de entrega | Veredicto verificación | Notas |
 |---|---|---|---|---|---|
-| 1 (ancla, obligatorio) | _(pendiente)_ | ☐ Correo `dagalindo@ujmd.edu.sv` ☐ Teams ☐ repo `mihermes` ☐ otro: ___ | _(pendiente)_ | ⬜ Verificado / ⬜ No entregado / ⬜ Prorrogado | |
-| 2 (si aplica) | _(pendiente)_ | | | | |
-| 3 (si aplica) | _(pendiente)_ | | | | |
+| 1 (ancla, obligatorio) | _(pendiente anexar título — confirmado como completo en la reunión 10/07)_ | ☑ Google Drive (canal oficial desde 10/07) | 2026-07-10 | ✅ **Verificado** | Douglas confirmó en la reunión de seguimiento que la evidencia cumple al 100% a satisfacción. Falta anexar copia/link específico en esta tabla. |
+| 2 (si aplica) | _(no especificado en la reunión)_ | | | | |
+| 3 (si aplica) | _(no especificado en la reunión)_ | | | | |
 
-**Reflexión final (Día 7) recibida:** ⬜ Sí / ⬜ No
-**C14 — resultado de verificación para este Champion:** ⬜ Verificado / ⬜ Pendiente / ⬜ Prorrogado a 12/07
+**Reflexión final (Día 7) recibida:** ✅ Sí
+**C14 — resultado de verificación para este Champion:** ✅ **Verificado** (10/07, reunión de seguimiento Sesión 18)
 
 ---
 
@@ -56,12 +56,12 @@
 
 | Criterio | Estado |
 |---|---|
-| Evidencia S1 revisada | ⬜ |
-| Nivel autorreportado coincide con evidencia | ⬜ |
-| Sin bloqueos abiertos | ⬜ |
+| Evidencia S1 revisada | ✅ |
+| Nivel autorreportado coincide con evidencia | ✅ |
+| Sin bloqueos abiertos | ✅ |
 
-**Firma Douglas:** ⬜
-**Fecha de última revisión:** _(pendiente)_
+**Firma Douglas:** ✅
+**Fecha de última revisión:** 2026-07-10 (reunión de seguimiento, Sesión 18)
 
 ---
 

@@ -21,9 +21,9 @@
 
 | Lección | Estado | Fecha |
 |---|---|---|
-| L1: Instalación | ⬜ | _(pendiente)_ |
-| L2: Configuración | ⬜ | _(pendiente)_ |
-| L3: Verificación | ⬜ | _(pendiente)_ |
+| L1: Instalación | ✅ | 2026-07-10 |
+| L2: Configuración | ✅ | 2026-07-10 |
+| L3: Verificación | ✅ | 2026-07-10 |
 
 ---
 
@@ -33,12 +33,12 @@
 
 | # | Título del caso de uso | Dónde vive la evidencia | Fecha de entrega | Veredicto verificación | Notas |
 |---|---|---|---|---|---|
-| 1 (ancla, obligatorio) | Scripts de monitoreo de infraestructura y verificación de respaldos (`check_backups.sh`, `monitor_infra_universitaria.sh`, `monitor_servidores_pro.sh`) | ☑ otro: entregados directamente a Douglas (fuera de correo/Teams) | 2026-07-10 | ⬜ Verificado / ☑ **Incompleto** / ⬜ No entregado / ⬜ Prorrogado | Ver revisión 2026-07-10 abajo — coincide en tema con el caso ancla del Día 5-6 (`docs/guia_patrick_orellana.html`), pero falta la plantilla de caso de uso y la trazabilidad a Hermes |
-| 2 (si aplica) | `SOUL.md` — Administrador Senior de Infraestructura, Redes y Ciberseguridad | ☑ otro: entregado junto con los scripts | 2026-07-10 | ☑ **Recibido, cubre parcialmente Día 4** | Persona propia y bien desarrollada; falta protocolo explícito SÍ/NO delego y verificación de que Hermes lo reconoce |
+| 1 (ancla, obligatorio) | Scripts de monitoreo de infraestructura y verificación de respaldos (`check_backups.sh`, `monitor_infra_universitaria.sh`, `monitor_servidores_pro.sh`) + plantilla Día 6 completada en la reunión | ☑ Google Drive (canal oficial desde 10/07) | 2026-07-10 | ☑ **Verificado** (actualizado tarde 10/07 — ver revisión más abajo) | Ver revisión 2026-07-10 (tarde) abajo — completó lo que faltaba de la revisión de la mañana |
+| 2 (si aplica) | `SOUL.md` — Administrador Senior de Infraestructura, Redes y Ciberseguridad | ☑ Google Drive (canal oficial desde 10/07) | 2026-07-10 | ☑ **Verificado** | Persona propia y bien desarrollada, aceptada en la reunión de seguimiento |
 | 3 (si aplica) | _(no entregado)_ | | | | |
 
-**Reflexión final (Día 7) recibida:** ⬜ Sí / ☑ No
-**C14 — resultado de verificación para este Champion:** ⬜ Verificado / ☑ **Pendiente — evidencia parcial insuficiente para certificar** / ⬜ Prorrogado a 12/07
+**Reflexión final (Día 7) recibida:** ☑ Sí (confirmado en reunión de seguimiento 10/07 — ver revisión abajo)
+**C14 — resultado de verificación para este Champion:** ☑ **Verificado** (10/07, reunión de seguimiento Sesión 18 — supera el veredicto "pendiente" de la revisión previa del mismo día)
 
 ### Revisión 2026-07-10 — evidencia recibida vs. lo exigido por la guía
 
@@ -58,6 +58,12 @@ Patrick entregó 4 archivos (3 scripts `.sh` + `SOUL.md`) directamente, fuera de
 
 **Veredicto:** evidencia parcial, de buena calidad temática, pero **no suficiente para certificar C14 ni el cierre de la guía de 7 días** de Patrick. Se requiere completar la plantilla de caso de uso (Día 6) y la reflexión (Día 7), y conectar los scripts con su origen en Hermes.
 
+### Revisión 2026-07-10 (tarde) — reunión de seguimiento, Sesión 18
+
+En la reunión de las 14:00, Patrick presentó evidencia adicional (plantilla de caso de uso del Día 6 y reflexión del Día 7) que Douglas revisó y dio por completa a satisfacción. Este resultado **supera** el veredicto "incompleto" de la revisión de la mañana — se deja constancia de ambas por trazabilidad, no se borra la anterior.
+
+**Veredicto actualizado:** ✅ Verificado — guía de 7 días de Patrick cerrada, C14 certificado para este Champion.
+
 ---
 
 ## Mini-reporte S2 (Productividad personal con IA)
@@ -74,12 +80,12 @@ Patrick entregó 4 archivos (3 scripts `.sh` + `SOUL.md`) directamente, fuera de
 
 | Criterio | Estado |
 |---|---|
-| Evidencia S1 revisada | ⬜ |
-| Nivel autorreportado coincide con evidencia | ⬜ |
-| Sin bloqueos abiertos | ⬜ |
+| Evidencia S1 revisada | ✅ |
+| Nivel autorreportado coincide con evidencia | ✅ |
+| Sin bloqueos abiertos | ✅ |
 
-**Firma Douglas:** ⬜
-**Fecha de última revisión:** _(pendiente)_
+**Firma Douglas:** ✅
+**Fecha de última revisión:** 2026-07-10 (reunión de seguimiento, Sesión 18)
 
 ---
 

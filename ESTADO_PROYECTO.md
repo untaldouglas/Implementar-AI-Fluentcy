@@ -50,13 +50,13 @@
 
 ## 📍 FASE ACTUAL — FASE 1: Piloto Champions
 
-**Estado:** 🔴 EN CURSO — ESTANCADA (3 días sin actividad directa: 08/07–09/07)  
+**Estado:** 🟡 EN CURSO — S1 desbloqueada en reunión de hoy, S2 por arrancar  
 **Ventana:** 2026-07-01 → 2026-07-31  
 **Objetivo:** Activar a los 4 Champions, establecer rutinas de uso de IA, completar diagnóstico baseline e itinerarios personalizados.
-**Progreso global:** ~19% *(sin cambios desde 07/07)*
+**Progreso global:** actualizar tras cierre de S1 (era ~19% al 07/07)
 
 > **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
-> ⚠️ **S1 (Fundamentos y nivelación) vencida desde 07/07 sin verificación de entregables** (9 casos de uso, 3 por Champion). **S2 (Productividad personal) debió arrancar 08/07 y no hay evidencia de ejecución.** Mini-reportes de S2 vencen 14/07. Demo Day (31/07) en riesgo alto de cascada si S1+S2 no se recuperan esta semana.
+> 🟡 **S1 (Fundamentos y nivelación): 2/3 Champions cerrados, Irvin pendiente.** Mario y Patrick verificados con documento real revisado (10/07). Irvin fue validado verbalmente en la reunión pero su documento real no contiene caso ancla ni reflexión — revertido a pendiente, correo enviado pidiendo completar. **S2 (Productividad personal) debió arrancar 08/07 y sigue sin evidencia de ejecución.** Mini-reportes de S2 vencen 14/07.
 
 ### Checklist de Fase 0
 
@@ -122,9 +122,18 @@
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
-| C14 | Verificar entrega de 9 casos de uso S1 (3 por Champion) | 2026-07-07 → prórroga 2026-07-12 | 🟡 PARCIAL — Patrick evidencia incompleta (10/07); Irvin/Mario sin verificar | Patrick entregó 3 scripts + SOUL.md directo a Douglas, sin la plantilla de caso de uso (Día 6) ni reflexión (Día 7) — no certificable aún. Ver `01_piloto/learning_record/patrick_orellana.md`. Contactar a Irvin y Mario antes de la reunión de hoy 14:00 |
-| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 | 🔴 SIN ARRANCAR | Debió iniciar 08/07; mini-reportes vencen 14/07 (quedan 4 días) |
+| C14 | Verificar entrega de 9 casos de uso S1 (3 por Champion) | 2026-07-07 → prórroga 2026-07-12 | 🟡 PARCIAL (10/07 tarde) — Mario y Patrick ✅ COMPLETADO, Irvin ⚠️ PENDIENTE | Mario y Patrick verificados con documento real en Drive (Patrick completó en la reunión lo que faltaba de la mañana). Irvin fue validado verbalmente en la reunión, pero su documento real (Drive) solo tiene práctica Día 1-2 + notas de reunión con DIT — sin caso ancla ni reflexión. Revertido a pendiente; correo enviado pidiendo completar. Detalle en `01_piloto/learning_record/` |
+| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 | 🔴 SIN ARRANCAR | Debió iniciar 08/07; mini-reportes vencen 14/07 (quedan 4 días). S1 ya cerrado (C14) — sin bloqueo para arrancar |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | 🟢 PLANTILLAS CREADAS (10/07) | Directorio + 3 registros individuales + dashboard listos; falta llenar evidencia real en la reunión de hoy |
+| C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 PLANTILLAS CREADAS (10/07), vacías | Solicitado a Irvin/Mario/Patrick en la reunión de hoy tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
+
+### Compromisos Semana 3 (julio 15–21) — anunciados en Bloque 5 de la reunión de hoy
+
+| # | Compromiso | Fecha límite | Estado | Notas |
+|---|---|---|---|---|
+| C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | Patrick (Infraestructura) indica cómo/cuándo los Champions tendrán acceso; Douglas comparte ejemplos de uso. Avanza I8 de la auditoría #01 (Alineación marcaba GSuite "resuelto" sin esquema operativo real) |
+| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | **Cierra H8 de la auditoría #01** (métricas definidas sin línea base "antes") — esta vez la medición del "antes" queda pedida explícitamente, por Champion |
+| C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`) |
 
 ---
 
@@ -157,14 +166,15 @@
 
 | Bloqueo | Impacto | Desbloqueador |
 |---|---|---|
-| **S1 sin entregables verificados** (3 días de atraso) | Fase 1 en atraso real; no se sabe si los Champions tienen base para S2 | Contactar Champions HOY antes de la reunión 14:00; prorrogar a 12/07 si no hay evidencia |
 | **S2 no arrancó el 08/07** | Mini-reportes vencen 14/07 (4 días); cascada hacia Demo Day 31/07 | Decidir en la reunión de hoy: arrancar S2 el lunes 14/07 o prorrogar |
-| Douglas saturado con otras prioridades | Sin 2h/semana bloqueadas, el proyecto se estanca | Bloquear 2h/semana en calendario explícitamente |
+| **Evidencia S1 de Irvin no respalda lo validado verbalmente** | C14 no cierra al 100% para el piloto; riesgo de repetir el mismo gap que tuvo Patrick en la mañana | Correo enviado pidiendo completar caso ancla (Día 6) + reflexión (Día 7) en el mismo documento de Drive |
 
 **Resueltos:**
 
 | Bloqueo | Resolución |
 |---|---|
+| Douglas saturado con otras prioridades / sin 2h semana bloqueadas | ✅ Resuelto (10/07) — evento recurrente creado en Google Calendar: Lunes y Martes 14:00-15:00, todas las semanas mientras dure Fase 1 (corte automático 31/07). 6 instancias confirmadas (13,14,20,21,27,28/07) |
+| S1 sin entregables verificados — Mario y Patrick (3 días de atraso) | ✅ Resuelto (10/07) — documento real revisado en Drive, caso ancla + reflexión completos para ambos |
 | Bitácora Sesión 0 sin validar en Drive | ✅ Resuelto — bitácora validada por admin Drive |
 | Google Workspace UJMD no integrado | ✅ Resuelto — integración con GSuite UJMD confirmada |
 | `01_piloto/learning_record/` no existía | ✅ Directorio + 3 registros individuales + dashboard creados (10/07). Pendiente llenar con evidencia real en la reunión de hoy — no cierra C16 del todo hasta entonces |
@@ -179,6 +189,10 @@
 | 2026-06-26 | Herramienta: **Hermes Agent** | Orquestador universal. |
 | 2026-07-02 | Cadencia semanal acordada | Mié 14-16h (Colaborativa), Vie 14-15h (Seguimiento). |
 | 2026-07-01 | **Proveedor LLM: OpenRouter** | Acceso a 100+ modelos (incl. gratuitos). |
+| 2026-07-10 | **Canal de entrega de evidencia: Google Drive** | Todo artefacto/documento de las guías se comparte o envía en Drive para aprobación de Douglas — reemplaza correo/Teams. Asegura trazabilidad y verificación digital de que hubo revisión del entregable. Decidido en la reunión de seguimiento (Sesión 18, 14:00). |
+| 2026-07-10 | **Formalizar conocimiento colectivo en 3 artefactos** (glosario, FAQ, lista de errores) | El conocimiento que surge de la colaboración entre Champions (no solo individual) es más valioso y se estaba perdiendo — evidenciado en la colaborativa 08/07 (subagentes, workflows, scripts). Se solicita a Irvin/Mario/Patrick construirlo en `01_piloto/conocimiento_colectivo/`. |
+| 2026-07-10 | **Metodología de entrega de evidencias (Bloque 5)** | Nombres propios y claros para documentos/artefactos; modelo de referencia = el de Patrick (+ agregar links a artefactos digitales); usar función "Aprobar" de Drive para revisión/validación; no PDF — compartir como comentador hasta tener versión lista para aprobar. |
+| 2026-07-10 | **Resuelto I1 (auditoría #01) — criterio de S1: 1 caso ancla + reflexión** | El entregable verificable de S1 es 1 caso ancla completo + reflexión Día 7 (como decían las guías operativas), no 3 casos. Los "3 casos" del Roadmap quedan como meta acumulada S1+S2, no como requisito de cierre de S1. Aclarado en `01_piloto/Roadmap_AI_Fluency_UJMD.md`. Nota: los "2/3 casos" de `Licencia_Conduccion_AI.md`/`onboarding.html` son metas de certificación de Licencia Básica/Profesional (tiers L2-L3/L4-L5) — no forman parte de este conflicto, se revisaron y son consistentes entre sí. |
 
 ---
 
@@ -196,6 +210,104 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | Email de cierre grupal pospuesto a lunes 13/07 + recordatorio automático
+  ✓ Douglas decide retener el email de cierre grupal (a Irvin/Mario/Patrick) mientras se resuelve el
+    pendiente de Irvin — se enviará el lunes 13/07 al inicio de jornada, no hoy a las 17:00 como estaba
+    previsto originalmente.
+  ✓ Ajustada la frase sobre Irvin en el borrador (`04_herramientas/agendas/2026-07-10_email_cierre_seguimiento.md`)
+    para que no quede desactualizada si se envía días después ("seguimos coordinando" en vez de "hoy mismo").
+  ✓ Creada rutina en la nube (trig_01Txst9M2nTv3PyctNpPL4z4) que el lunes 13/07 08:00 (El Salvador)
+    genera automáticamente un borrador en Gmail (dagalindo@ujmd.edu.sv) con el texto completo del correo,
+    dirigido a los 3 Champions — Douglas solo debe revisarlo y enviarlo.
+
+2026-07-10 | Bloqueo resuelto: 2h/semana de Douglas bloqueadas en calendario
+  ✓ Creado evento recurrente en Google Calendar: Lunes y Martes, 14:00-15:00 (America/El_Salvador),
+    todas las semanas mientras dure Fase 1 (corte automático al 31/07 vía RRULE UNTIL).
+  ✓ Verificadas 6 instancias generadas correctamente: 13, 14, 20, 21, 27, 28 de julio.
+  → Cierra el bloqueo abierto desde el día 1 del programa ("Douglas saturado con otras prioridades").
+
+2026-07-10 | C14 — revisión de documentos reales en Drive: Irvin no coincide con lo validado verbalmente
+  ✓ Se copiaron a espejo local (`01_piloto/evidencia_piloto/`) y se renombraron con la convención del
+    Bloque 5 los 3 documentos que los Champions subieron: Mario (`EvidenciaS1_CasoAncla_RefactorGAO`)
+    y Patrick (`EvidenciaS1_CasoAncla_VerificacionDiariaInfraestructura`) contienen el paquete completo
+    Día 1-7, caso ancla Día 6 y reflexión Día 7 — quedan verificados con evidencia real, no solo palabra.
+  ⚠️ El documento de Irvin (`Practica_Dia1-2_NotasPerfilesHermesDIT`) **no contiene** caso ancla ni
+    reflexión — es práctica de Día 1-2 más notas de una reunión con DIT sobre perfiles de Hermes. Esto
+    contradice lo validado verbalmente en la reunión de las 14:00 (que los 3 habían cerrado al 100%).
+  ✓ C14 revertido de "Completado" a "Parcial": Mario y Patrick certificados, Irvin pendiente. Correo
+    enviado a Irvin (`04_herramientas/agendas/2026-07-10_email_irvin_completar_evidencia.md`) pidiendo
+    completar el mismo documento en Drive con caso ancla + reflexión, usando el flujo comentador→Aprobar.
+    Douglas además conversó personalmente con Irvin sobre el caso el mismo día. Pendiente: que Irvin
+    actualice el documento.
+  → Lección: validar verbalmente en la reunión no sustituye revisar el documento real — repetir esta
+    revisión de documento real antes de certificar C14 en futuras semanas.
+
+2026-07-10 | Revisión docs/ publicados + resolución de I1 (auditoría #01)
+  ✓ Revisadas las 4 guías de Champions, onboarding, index, Infografico, Deck y ResearchBrief en `docs/`.
+    Actualizado el bloque "Cómo enviar" de las 3 guías de Champions (Patrick/Irvin/Mario) al nuevo
+    proceso: Google Drive, nombre propio de archivo, sin PDF (comentador → Aprobar), links a artefactos.
+  ✓ `guia_setup_champions.html` (entrega previa a Sesión 0, ya ejecutada 01/07) se dejó sin tocar — es
+    historial, no instrucción vigente.
+  ✓ Al revisar I1, se corrigió una primera sospecha: `onboarding.html` línea "3 casos... con métrica de
+    impacto" **no** es parte del conflicto — pertenece a Licencia Profesional (L4-L5) y es consistente
+    con `Licencia_Conduccion_AI.md`. El conflicto real de I1 era solo Roadmap (3 casos como entregable
+    de S1) vs. guías operativas (1 caso ancla). **Resuelto:** S1 = 1 ancla + reflexión; los 3 casos son
+    meta acumulada S1+S2. Aclarado en `01_piloto/Roadmap_AI_Fluency_UJMD.md`.
+
+2026-07-10 | SESIÓN 18 — Bloque 5: metodología de entrega + entregables Semana 3 (C18-C20)
+  ✓ Metodología de entrega de evidencias formalizada: nombres propios y claros al artefacto; modelo
+    de referencia = el de Patrick (scripts + SOUL.md temático) sumando la observación de incluir links
+    a los artefactos digitales en el informe; usar la función "Aprobar" de Google Drive para la revisión;
+    nada de PDF — el documento se comparte como comentador y solo se pasa a "Aprobar" cuando está listo
+    para validación. Reflejado en `01_piloto/learning_record/_dashboard.md`.
+  ✓ Se precisa la herramienta de los 3 artefactos de C17: glosario del dominio ("Uso de Agentes AI" /
+    "AIFluent") va en **hoja electrónica**; FAQ y lista de errores van en **documento**. Reflejado en
+    `01_piloto/conocimiento_colectivo/_dashboard.md` (los `.md` del repo quedan como mirror interno).
+  ✓ Nuevos compromisos para la semana del 15-21/07 (C18, C19, C20 — ver tabla de compromisos):
+    esquema operativo de integración Google Workspace; cada Champion mide ≥2 alternativas de procesos
+    sistematizables con Hermes (tiempo/costo antes vs. después — **esto cierra H8 de la auditoría #01**,
+    la falta de línea base "antes"); cada Champion propone el perfil estándar replicable de su área.
+  ✓ Formato acordado del email de cierre (17:00 hoy): resumen de acuerdos, acciones por Champion,
+    recordatorio de próxima reunión, y pregunta final grupal "¿qué necesitan de mí para la próxima
+    semana?" — quedó sin respuesta en la reunión, pendiente de que la contesten por escrito.
+  → Apuntes crudos en `04_herramientas/agendas/2026-07-10_anotaciones_reunion.md`.
+
+2026-07-10 | SESIÓN 18 — C17: se solicita formalizar el conocimiento colectivo de los Champions
+  ✓ Al revisar la reunión colaborativa de Champions del 08/07, el reporte fue muy positivo: Irvin,
+    Mario y Patrick ya conversan de subagentes y workflows, y llegaron a crear scripts `.sh` propios —
+    evidencia de que poner una buena herramienta en manos de gente capaz y con iniciativa acelera la
+    productividad más allá de lo esperado para S1.
+  ✓ Insight clave de la reunión: el conocimiento asociativo (construido entre los 3 juntos) vale más
+    que el individual — los 3 compartían de referencia el área de sistemas, lo que les permitió validar
+    y construir conocimiento en conjunto de una forma que trabajar aislado no hubiera logrado.
+  ✓ Se solicita formalmente a los 3 Champions construir, de forma colectiva y continua, 3 artefactos:
+    (1) glosario del dominio, (2) lista de preguntas frecuentes, (3) lista de errores. Objetivo: que el
+    conocimiento quede de referencia y se siga construyendo, no que se pierda entre sesiones.
+  ✓ Creada la carpeta `01_piloto/conocimiento_colectivo/` con las 3 plantillas + dashboard. Cadencia
+    sugerida: actualizar en cada colaborativa semanal (miércoles).
+  ⚪ Pendiente: primera carga de contenido por parte de los Champions.
+
+2026-07-10 | SESIÓN 18 — C14 certificado: los 3 Champions cierran S1 al 100%
+  ✓ En la reunión de seguimiento (14:00), Irvin, Mario y Patrick presentaron evidencia de haber
+    completado al 100% y a satisfacción las guías individuales preparadas para cada uno (lecciones
+    Hermes L1-L3 + caso de uso ancla S1 + reflexión Día 7).
+  ✓ Patrick completó en la misma reunión lo que le faltaba de la revisión de esta mañana (plantilla
+    de caso de uso Día 6 y reflexión Día 7) — el veredicto "incompleto" queda como antecedente
+    histórico en `01_piloto/learning_record/patrick_orellana.md`, no se borra.
+  ✓ C14 pasa a COMPLETADO. Bloqueo "S1 sin entregables verificados" resuelto. S2 queda sin
+    impedimento para arrancar 14/07.
+  ⚪ Pendiente: anexar copias digitales de la evidencia de cada Champion en Google Drive (carpeta
+    del piloto) según el nuevo canal de entrega acordado hoy mismo.
+  → Detalle por Champion en `01_piloto/learning_record/` (dashboard + registros individuales).
+
+2026-07-10 | SESIÓN 18 — reunión de seguimiento 14:00, decisión de canal de entrega
+  ✓ Se acuerda que el método de entrega de cualquier evidencia digital (casos de uso, scripts,
+    documentos de las guías) será Google Drive: el Champion comparte o envía el documento para
+    aprobación de Douglas. Reemplaza correo/Teams. Objetivo explícito: trazabilidad y verificación
+    digital de que hubo revisión real del entregable (resuelve parte de H4/H7 de la auditoría #01 —
+    trabajo estándar sin ejecutar / sin proceso de excepción formalizado).
+  → Reflejado en `01_piloto/learning_record/_dashboard.md` (mecanismo de entrega actualizado).
+
 2026-07-10 | C14 — evidencia de Patrick revisada, insuficiente para certificar (Claude Code)
   ✓ Patrick entregó directo a Douglas 3 scripts Bash (check_backups.sh, monitor_infra_universitaria.sh,
     monitor_servidores_pro.sh) + su SOUL.md de infraestructura.

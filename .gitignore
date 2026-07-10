@@ -106,6 +106,7 @@ Desktop.ini
 **/datos_piloto/
 **/evaluaciones/
 **/scores_participantes*
+**/evidencia_piloto/
 
 # Correos sensibles, actas firmadas con datos personales
 **/actas_firmadas/

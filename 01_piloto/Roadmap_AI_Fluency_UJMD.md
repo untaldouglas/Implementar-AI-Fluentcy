@@ -75,6 +75,8 @@ Antes de iniciar, acordar qué se medirá al final del mes:
 
 **Entregable de semana:** Cada piloto documenta 3 casos de uso potencial de IA en su área.
 
+> **Aclaración 10/07/2026 (resuelve I1 de la auditoría #01):** el entregable obligatorio y verificable de S1 es **1 caso ancla completo + reflexión final (Día 7)**, tal como comunican las guías operativas (`docs/guia_*.html`). Los 3 casos de esta fila son la meta acumulada de **S1 + S2** (los otros 2 se completan/identifican en S2, ver entregable de Semana 2 abajo), no un requisito de cierre de S1 por sí solo. Ver `ESTADO_PROYECTO.md` → C14.
+
 ---
 
 ### 🗓 Semana 2 — Productividad personal con IA

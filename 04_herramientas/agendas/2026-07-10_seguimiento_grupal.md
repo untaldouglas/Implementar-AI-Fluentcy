@@ -58,7 +58,9 @@
 
 | Fecha | Estado Irvin | Estado Mario | Estado Patrick | Bloqueos abiertos | Decisiones tomadas |
 |---|---|---|---|---|---|
-| 2026-07-10 | | | | | |
+| 2026-07-10 | ✅ Evidencia verificada 100% | ✅ Evidencia verificada 100% | ✅ Evidencia verificada 100% (completó lo pendiente de la mañana) | — | 1) Canal de entrega de evidencia = Google Drive (compartir/enviar para aprobación), reemplaza correo/Teams — trazabilidad y verificación digital. 2) C14 certificado para los 3 Champions, S1 cerrada. 3) Colaborativa 08/07 reportada como muy positiva (ya hablan de subagentes, workflows, scripts `.sh`) — se solicita formalizar en 3 artefactos: glosario del dominio, FAQ y lista de errores (`01_piloto/conocimiento_colectivo/`), por el valor del conocimiento asociativo entre los 3 vs. individual. |
+
+**Nota — Bloque "Status colaborativa miércoles 08/07":** reporte muy positivo. Los Champions ya manejan conceptos avanzados (subagentes, workflows) y produjeron scripts `.sh` propios — señal de que el nivel real supera lo esperado para S1. Douglas concluyó que ese conocimiento no puede quedarse disperso: se pidió formalizarlo colectivamente (no solo por Champion individual) en glosario/FAQ/errores, aprovechando que los 3 comparten de referencia el área de sistemas.
 
 ---
 
