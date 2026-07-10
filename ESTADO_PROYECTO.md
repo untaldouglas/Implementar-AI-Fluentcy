@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-07 |
-| Actualizado por | Douglas Galindo (manual sync) |
+| Última actualización | 2026-07-10 |
+| Actualizado por | Douglas Galindo (sync desde plan_20260710_0800.md + cierre_20260709_1405.md) |
 
 ---
 
@@ -28,13 +28,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-07 |
-| Días desde inicio | 7 días |
-| Fase actual | **FASE 1 — Piloto Champions** |
-| Semana de proyecto | S1 (Cierre de semana) |
+| Hoy (última actualización) | 2026-07-10 |
+| Días desde inicio | 10 días |
+| Fase actual | **FASE 1 — Piloto Champions** ⚠️ estancada |
+| Semana de proyecto | S1 vencida (07/07, sin verificar) · S2 sin arrancar |
 | Mes de proyecto | M1 |
-| Próximo hito | Primera reunión colaborativa |
-| Días hasta próximo hito | 1 día |
+| Próximo hito | Reunión de seguimiento Douglas + Champions — HOY 14:00–15:00 |
+| Días hasta próximo hito | 0 (hoy) |
 
 ### Calendario de fases
 
@@ -50,11 +50,13 @@
 
 ## 📍 FASE ACTUAL — FASE 1: Piloto Champions
 
-**Estado:** 🟢 EN CURSO  
+**Estado:** 🔴 EN CURSO — ESTANCADA (3 días sin actividad directa: 08/07–09/07)  
 **Ventana:** 2026-07-01 → 2026-07-31  
 **Objetivo:** Activar a los 4 Champions, establecer rutinas de uso de IA, completar diagnóstico baseline e itinerarios personalizados.
+**Progreso global:** ~19% *(sin cambios desde 07/07)*
 
 > **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
+> ⚠️ **S1 (Fundamentos y nivelación) vencida desde 07/07 sin verificación de entregables** (9 casos de uso, 3 por Champion). **S2 (Productividad personal) debió arrancar 08/07 y no hay evidencia de ejecución.** Mini-reportes de S2 vencen 14/07. Demo Day (31/07) en riesgo alto de cascada si S1+S2 no se recuperan esta semana.
 
 ### Checklist de Fase 0
 
@@ -116,6 +118,14 @@
 | C12 | Seguimiento individual + definir cadencia semanal | 2026-07-03 | ✅ COMPLETADO | Cadencia: mié 2-4 PM + vie 2-3 PM |
 | C13 | Anunciar el programa a toda la Dirección | 2026-07-03 | ✅ COMPLETADO | Correo enviado 03/07 7:00 AM |
 
+### Compromisos Semana 2 (julio 8–14)
+
+| # | Compromiso | Fecha límite | Estado | Notas |
+|---|---|---|---|---|
+| C14 | Verificar entrega de 9 casos de uso S1 (3 por Champion) | 2026-07-07 → prórroga 2026-07-12 | 🔴 VENCIDO — sin verificar | 3 días de atraso; contactar Irvin, Mario, Patrick por Teams/correo antes de la reunión de hoy 14:00 |
+| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 | 🔴 SIN ARRANCAR | Debió iniciar 08/07; mini-reportes vencen 14/07 (quedan 4 días) |
+| C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | 🟡 PENDIENTE (9 días) | Directorio no existe todavía; niveles baseline L1 sin registrar |
+
 ---
 
 ## ⚡ PRÓXIMAS ACCIONES — PRIORIZADAS POR VALOR
@@ -124,13 +134,13 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[MAÑANA 08/07 · 14:00–16:00]** Primera reunión colaborativa entre Champions (sin Dirección). Tema sugerido: compartir hallazgos del Prompt 1 (entrevista de descubrimiento).
+1. **[HOY 10/07 · antes de 14:00]** Contactar a los 3 Champions (Irvin, Mario, Patrick) por Teams/correo — confirmar entrega de los 9 casos de uso de S1 y asistencia a la reunión colaborativa del 08/07. Si no entregaron, prorrogar a 12/07 con fecha explícita.
 
-2. **[MAÑANA 08/07 · durante el día]** Recibir y revisar la evidencia que los 3 Champions envíen por correo. Actualizar learning records con `champion-seguimiento`.
+2. **[HOY 10/07 · 14:00–15:00]** 🔴 Reunión de seguimiento Douglas + Champions — la más importante de la semana. Agenda: evidencia S1, bloqueos, decisión prórroga vs. avance a S2, preparación mini-reportes S2.
 
-3. **[VIERNES 11/07 · 14:00–15:00]** Primera reunión de seguimiento con Douglas. Revisar evidencia recibida, detectar bloqueos, ajustar itinerarios.
+3. **[HOY 10/07]** Crear `01_piloto/learning_record/` con plantillas iniciales (nombre, área, nivel baseline L1, fecha setup, versión Hermes, lecciones 1–3) para los 3 Champions.
 
-4. **[Continuo]** Dar seguimiento al avance de los 3 Champions en Lección 2 (Configuración) y Lección 3 (Verificación).
+4. **[Tentativo lunes 14/07]** Ejecutar Sesión 2 (S2: Productividad personal con IA) si S1 cierra hoy — taller de prompting aplicado a los 3 casos identificados. Mini-reportes vencen 14/07.
 
 ---
 
@@ -147,6 +157,11 @@
 
 | Bloqueo | Impacto | Desbloqueador |
 |---|---|---|
+| **S1 sin entregables verificados** (3 días de atraso) | Fase 1 en atraso real; no se sabe si los Champions tienen base para S2 | Contactar Champions HOY antes de la reunión 14:00; prorrogar a 12/07 si no hay evidencia |
+| **S2 no arrancó el 08/07** | Mini-reportes vencen 14/07 (4 días); cascada hacia Demo Day 31/07 | Decidir en la reunión de hoy: arrancar S2 el lunes 14/07 o prorrogar |
+| `01_piloto/learning_record/` no existe | Sin trazabilidad del progreso real de los Champions (9 días pendiente) | Crear directorio + plantillas hoy |
+| Bitácora Sesión 0 sin validar en Drive | No se puede incorporar al repo (9 días pendiente) | Seguimiento a admin Drive (ujmd.edu.sv) |
+| Douglas saturado con otras prioridades | Sin 2h/semana bloqueadas, el proyecto se estanca | Bloquear 2h/semana en calendario explícitamente |
 | Google Workspace UJMD no integrado | Bloquea Fase 4 + Investigación (agosto) | Iniciar contacto con admin GSuite en julio |
 
 ---
@@ -176,6 +191,13 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | SESIÓN — SYNC día #10, proyecto estancado
+  ⚠️ 3 días sin actividad directa (08/07–09/07). S1 vencida 3 días sin entregables verificados.
+  ⚠️ S2 (Productividad personal) debió arrancar 08/07 — sin evidencia de ejecución. Mini-reportes vencen 14/07.
+  ✓ Cron `ai-fluency-sod` reparado — plan generado correctamente hoy 08:00 CST tras 2 días de falla.
+  📅 Reunión crítica de seguimiento HOY 14:00–15:00 — ventana para desbloquear S1/S2.
+  ⚠️ Progreso global sin cambios desde 07/07: ~19%.
+
 2026-07-07 | Sincronización manual de conflictos tras merge (Hermes)
   ✓ Consolidación de logs de Sesión 15 y 16.
   ✓ Marcado C11, C12 y C13 como COMPLETADO en la tabla principal.
