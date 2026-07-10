@@ -122,7 +122,7 @@
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
-| C14 | Verificar entrega de 9 casos de uso S1 (3 por Champion) | 2026-07-07 → prórroga 2026-07-12 | 🔴 VENCIDO — sin verificar | 3 días de atraso; contactar Irvin, Mario, Patrick por Teams/correo antes de la reunión de hoy 14:00 |
+| C14 | Verificar entrega de 9 casos de uso S1 (3 por Champion) | 2026-07-07 → prórroga 2026-07-12 | 🟡 PARCIAL — Patrick evidencia incompleta (10/07); Irvin/Mario sin verificar | Patrick entregó 3 scripts + SOUL.md directo a Douglas, sin la plantilla de caso de uso (Día 6) ni reflexión (Día 7) — no certificable aún. Ver `01_piloto/learning_record/patrick_orellana.md`. Contactar a Irvin y Mario antes de la reunión de hoy 14:00 |
 | C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 | 🔴 SIN ARRANCAR | Debió iniciar 08/07; mini-reportes vencen 14/07 (quedan 4 días) |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | 🟢 PLANTILLAS CREADAS (10/07) | Directorio + 3 registros individuales + dashboard listos; falta llenar evidencia real en la reunión de hoy |
 
@@ -196,6 +196,20 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | C14 — evidencia de Patrick revisada, insuficiente para certificar (Claude Code)
+  ✓ Patrick entregó directo a Douglas 3 scripts Bash (check_backups.sh, monitor_infra_universitaria.sh,
+    monitor_servidores_pro.sh) + su SOUL.md de infraestructura.
+  ✓ El tema coincide con su caso ancla asignado (Día 5-6: monitoreo de red + verificación de respaldos)
+    y el SOUL.md es genuino y más desarrollado que la plantilla del repo (cubre parcialmente Día 4).
+  🔴 Falta lo obligatorio para certificar: la plantilla de caso de uso del Día 6 (título, prompt usado,
+    ajustes, datos excluidos, tiempo ahorrado) y la reflexión final del Día 7 (4 preguntas). Ningún
+    archivo muestra evidencia de haber sido generado con Hermes (sin prompts ni transcripciones).
+  ⚠️ `monitor_servidores_pro.sh` documenta verificación de CPU/disco en el encabezado pero el script
+    solo hace ping — indicio de que no se revisó línea a línea como pide el Día 5.
+  ⚪ Lecciones 1-3 de setup de Hermes (hermes doctor/status) siguen sin evidencia — sin cambios.
+  → Veredicto: C14 pasa de "sin verificar" a "parcial" para Patrick — no se certifica el cierre de su
+    guía de 7 días hasta completar Día 6 y Día 7. Detalle en `01_piloto/learning_record/patrick_orellana.md`.
+
 2026-07-10 | C16 — learning_record/ creado
   ✓ Creado `01_piloto/learning_record/` con registros individuales (irvin_morales.md, mario_valencia.md,
     patrick_orellana.md) + dashboard consolidado (_dashboard.md).
@@ -224,6 +238,15 @@
   ✓ Marcado C11, C12 y C13 como COMPLETADO en la tabla principal.
   ✓ Actualizado metadatos y tiempo relativo al Día 7 (Hoy).
   ✓ Próxima acción: Recepción de evidencia y reunión colaborativa mañana 08/07.
+
+2026-07-07 | SESIÓN 17 — INICIO DE JORNADA (Hermes Agent · ai-fluency-sod)
+  ✓ Cierre de S1 — Fase 1 sin compromisos formales abiertos; los 14 cierres de F0/S1 (C1–C13)
+    se mantienen vigentes.
+  ✓ Workspace de la sesión movido a ~/hermeslearning/ (Douglas).
+  ✓ ESTADO_PROYECTO.md recalibrado: fecha 2026-07-07, D7 desde inicio, S1→S2.
+  → Contexto: 3 Champions (Irvin, Mario, Patrick) debían enviar evidencia del Prompt 1 antes del 08/07;
+    1ª reunión colaborativa Champions miércoles 08/07 14:00–16:00; 1ª reunión seguimiento Douglas
+    viernes 11/07 14:00–15:00.
 
 2026-07-03 | SESIÓN 16 — C12 COMPLETADA
   ✓ Reunión de seguimiento individual ejecutada — 14:00–15:15.
