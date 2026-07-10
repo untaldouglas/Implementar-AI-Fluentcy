@@ -12,10 +12,10 @@
 | Institución | UJMD · Dirección de Servicios Informáticos |
 | Responsable | Douglas A. Galindo (@untaldouglas) |
 | Email | dagalindo@ujmd.edu.sv |
-| **Inicio oficial** | **2026-07-01** |
-| Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-03 · Sesión 16 — C12 completada: cadencia definida, Champions comprometidos a enviar evidencia antes 08/07 |
-| Actualizado por | Hermes Agent (Morning Command Center) |
+|| **Inicio oficial** | **2026-07-01** |
+|| Duración total | 6 meses (julio–diciembre 2026) |
+|| Última actualización | 2026-07-07 · Sesión 17 — Inicio de jornada: cierre de S1, en espera de evidencia Champion (fecha tope 08/07) |
+|| Actualizado por | Hermes Agent (Morning Command Center) |
 
 ---
 
@@ -28,13 +28,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-02 |
-| Días desde inicio | 2 días |
+| Hoy (última actualización) | 2026-07-07 |
+| Días desde inicio | 7 días |
 | Fase actual | **FASE 1 — Piloto Champions** |
-| Semana de proyecto | S1 |
+| Semana de proyecto | **S1 → S2** (cierre de S1) |
 | Mes de proyecto | M1 |
-| Próximo hito | Diagnóstico baseline + itinerarios — 2026-07-07 |
-| Días hasta próximo hito | 6 días |
+| Próximo hito | Recepción evidencia Champion + 1ª reunión colaborativa — 2026-07-08 |
+| Días hasta próximo hito | 1 día |
 
 ### Calendario de fases
 
@@ -125,15 +125,12 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo)
 
-1. **[LUNES 08/07 · durante el día]** Recibir y revisar la evidencia que los 3 Champions envíen por correo. Actualizar learning records con `champion-seguimiento`.
-
+1. **[HOY MARTES 07/07 · durante el día]** Cerrar S1 — confirmar evidencia o recordatorio amable a los 3 Champions (fecha tope 08/07).
 2. **[MIÉRCOLES 08/07 · 14:00–16:00]** Primera reunión colaborativa entre Champions (sin Dirección). Tema sugerido: compartir hallazgos del Prompt 1 (entrevista de descubrimiento).
-
-3. **[VIERNES 11/07 · 14:00–15:00]** Primera reunión de seguimiento con Douglas. Revisar evidencia recibida, detectar bloqueos, ajustar itinerarios.
-
-4. **[Continuo — esta semana]** Dar seguimiento al avance de los 3 Champions en Lección 2 (Configuración) y Lección 3 (Verificación) de sus guías de 7 días.
-
-5. **[Sin fecha límite — Fase 4]** Iniciar contacto con administrador de Google Workspace UJMD (bloqueo abierto, ver sección de Bloqueos).
+3. **[MIÉRCOLES 08/07 · al cierre]** Recibir y revisar formalmente la evidencia de los 3 Champions. Actualizar learning records con `champion-seguimiento`.
+4. **[VIERNES 11/07 · 14:00–15:00]** Primera reunión de seguimiento con Douglas. Revisar evidencia recibida, detectar bloqueos, ajustar itinerarios.
+5. **[Continuo — esta semana]** Dar seguimiento al avance de los 3 Champions en Lección 2 (Configuración) y Lección 3 (Verificación) de sus guías de 7 días.
+6. **[Sin fecha límite — Fase 4]** Iniciar contacto con administrador de Google Workspace UJMD (bloqueo abierto, ver sección de Bloqueos).
 
 ---
 
@@ -233,6 +230,24 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-07 | SESIÓN 17 — INICIO DE JORNADA (Hermes Agent · ai-fluency-sod)
+  CONFIRMADO HOY:
+  ✓ Cierre de S1 — Fase 1 sin compromisos formales abiertos; los 14 cierres de F0/S1 (C1–C13)
+    se mantienen vigentes
+  ✓ Workspace de la sesión movido a ~/hermeslearning/ (Douglas)
+  ✓ ESTADO_PROYECTO.md recalibrado: fecha 2026-07-07, D7 desde inicio, S1→S2
+  ✓ "Top Ahora" actualizado: prioridad #1 pasa a ser cerrar S1 con evidencia Champion (tope 08/07)
+
+  CONTEXTO CLAVE:
+  → 3 Champions (Irvin, Mario, Patrick) deben enviar evidencia del Prompt 1 antes del 08/07
+  → 1ª reunión colaborativa Champions: miércoles 08/07 14:00–16:00
+  → 1ª reunión seguimiento Douglas: viernes 11/07 14:00–15:00
+  → Bloqueo abierto: Google Workspace UJMD sin integrar (impacta Fase 4 + Investigación)
+
+  ACCIÓN #1 HOY: confirmar vía correo/Teams si los 3 Champions ya enviaron evidencia
+  y, si no, enviar recordatorio amable con la guía de envío adjunta.
+
+---
 2026-07-03 | SESIÓN 16 — C12 COMPLETADA (Hermes Agent · Morning Command Center)
   COMPLETADO HOY:
   ✓ C12: Reunión de seguimiento individual ejecutada — 14:00–15:15, Sala de Reuniones
