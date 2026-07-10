@@ -124,7 +124,7 @@
 |---|---|---|---|---|
 | C14 | Verificar entrega de 9 casos de uso S1 (3 por Champion) | 2026-07-07 → prórroga 2026-07-12 | 🔴 VENCIDO — sin verificar | 3 días de atraso; contactar Irvin, Mario, Patrick por Teams/correo antes de la reunión de hoy 14:00 |
 | C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 | 🔴 SIN ARRANCAR | Debió iniciar 08/07; mini-reportes vencen 14/07 (quedan 4 días) |
-| C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | 🟡 PENDIENTE (9 días) | Directorio no existe todavía; niveles baseline L1 sin registrar |
+| C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | 🟢 PLANTILLAS CREADAS (10/07) | Directorio + 3 registros individuales + dashboard listos; falta llenar evidencia real en la reunión de hoy |
 
 ---
 
@@ -159,10 +159,15 @@
 |---|---|---|
 | **S1 sin entregables verificados** (3 días de atraso) | Fase 1 en atraso real; no se sabe si los Champions tienen base para S2 | Contactar Champions HOY antes de la reunión 14:00; prorrogar a 12/07 si no hay evidencia |
 | **S2 no arrancó el 08/07** | Mini-reportes vencen 14/07 (4 días); cascada hacia Demo Day 31/07 | Decidir en la reunión de hoy: arrancar S2 el lunes 14/07 o prorrogar |
-| `01_piloto/learning_record/` no existe | Sin trazabilidad del progreso real de los Champions (9 días pendiente) | Crear directorio + plantillas hoy |
-| Bitácora Sesión 0 sin validar en Drive | No se puede incorporar al repo (9 días pendiente) | Seguimiento a admin Drive (ujmd.edu.sv) |
 | Douglas saturado con otras prioridades | Sin 2h/semana bloqueadas, el proyecto se estanca | Bloquear 2h/semana en calendario explícitamente |
-| Google Workspace UJMD no integrado | Bloquea Fase 4 + Investigación (agosto) | Iniciar contacto con admin GSuite en julio |
+
+**Resueltos:**
+
+| Bloqueo | Resolución |
+|---|---|
+| Bitácora Sesión 0 sin validar en Drive | ✅ Resuelto — bitácora validada por admin Drive |
+| Google Workspace UJMD no integrado | ✅ Resuelto — integración con GSuite UJMD confirmada |
+| `01_piloto/learning_record/` no existía | ✅ Directorio + 3 registros individuales + dashboard creados (10/07). Pendiente llenar con evidencia real en la reunión de hoy — no cierra C16 del todo hasta entonces |
 
 ---
 
@@ -191,6 +196,22 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | C16 — learning_record/ creado
+  ✓ Creado `01_piloto/learning_record/` con registros individuales (irvin_morales.md, mario_valencia.md,
+    patrick_orellana.md) + dashboard consolidado (_dashboard.md).
+  ✓ Cada registro incluye datos base, estado de lecciones 1-3 Hermes (con link al detalle en
+    04_herramientas/guia_setup_champions/learning_record/), y una tabla nueva de evidencia S1
+    (casos de uso: título, dónde vive, fecha, veredicto) para soportar la verificación de C14.
+  ⚠️ Nota de criterio detectada: el Roadmap pide 3 casos de uso/Champion, pero las guías operativas
+    enviadas (docs/guia_*.html, Día 6) solo exigían 1 caso "ancla" obligatorio — aclarar en la reunión
+    de hoy antes de verificar contra el criterio de 3.
+  ⚪ Pendiente: llenar los registros con evidencia real durante/después de la reunión 14:00.
+
+2026-07-10 | CORRECCIÓN — bloqueos desactualizados
+  ✓ "Bitácora Sesión 0 sin validar en Drive" y "Google Workspace UJMD no integrado" ya estaban resueltos
+    y no se habían reflejado en el ESTADO ni en el Dashboard_Jornada.html — corregido.
+  ⚠️ Bloqueos activos reales: learning_record/ sin crear, Douglas sin 2h/semana bloqueadas.
+
 2026-07-10 | SESIÓN — SYNC día #10, proyecto estancado
   ⚠️ 3 días sin actividad directa (08/07–09/07). S1 vencida 3 días sin entregables verificados.
   ⚠️ S2 (Productividad personal) debió arrancar 08/07 — sin evidencia de ejecución. Mini-reportes vencen 14/07.

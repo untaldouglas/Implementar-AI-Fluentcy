@@ -438,8 +438,8 @@
     <span style="font-size:11px;color:rgba(255,255,255,0.2);font-weight:400;margin-left:4px;">Dashboard de Jornada</span>
   </div>
   <div class="topbar-right">
-    <div class="topbar-date">Última actualización: <strong id="last-updated">2026-06-26</strong></div>
-    <div class="live-dot" title="Estado activo"></div>
+    <div class="topbar-date">Última actualización: <strong id="last-updated">2026-07-10</strong></div>
+    <div class="live-dot" style="background:var(--red);" title="Fase 1 estancada"></div>
   </div>
 </div>
 
@@ -449,31 +449,31 @@
   <div class="hero-row" style="margin-bottom:20px;">
 
     <div class="countdown-card">
-      <div class="stat-eyebrow">⚡ Arranque oficial en</div>
-      <div class="stat-value" id="days-countdown">2</div>
-      <div class="stat-label">días para el 1 de julio</div>
-      <div class="stat-sub">Inicio oficial: 2026-07-01</div>
+      <div class="stat-eyebrow">📅 Día del programa</div>
+      <div class="stat-value" id="days-countdown">10</div>
+      <div class="stat-label">días desde el inicio (01/07)</div>
+      <div class="stat-sub">Fin del programa: 2026-12-31</div>
     </div>
 
-    <div class="stat-card" style="--accent:#22c55e;">
-      <div class="stat-eyebrow">✅ Fase 0 completada</div>
-      <div class="stat-value" style="font-size:20px;margin-top:4px;">6/6</div>
-      <div class="stat-label">compromisos S0 cerrados</div>
-      <div class="stat-sub">C1 C2 C3 C4 C5 C9 — todos ✓</div>
+    <div class="stat-card" style="--accent:#ef4444;">
+      <div class="stat-eyebrow">🔴 Fase 1 · Progreso global</div>
+      <div class="stat-value" style="font-size:28px;margin-top:2px;color:#ef4444;">~19%</div>
+      <div class="stat-label">Piloto Champions — ESTANCADA</div>
+      <div class="stat-sub">Sin cambios desde 07/07 (3 días sin avance)</div>
     </div>
 
-    <div class="stat-card" style="--accent:#7c3aed;">
-      <div class="stat-eyebrow">🧠 Skill instalado hoy</div>
-      <div class="stat-value" style="font-size:13px;margin-top:6px;">mca-script-generator</div>
-      <div class="stat-label">Calcula L0-L9 + itinerario automático</div>
-      <div class="stat-sub">Repetible para todas las cohortes</div>
+    <div class="stat-card" style="--accent:#ef4444;">
+      <div class="stat-eyebrow">⚠️ Semanas en riesgo</div>
+      <div class="stat-value" style="font-size:16px;margin-top:6px;color:#ef4444;">S1 vencida · S2 sin arrancar</div>
+      <div class="stat-label">9 casos de uso S1 sin verificar</div>
+      <div class="stat-sub">Demo Day 31/07 en riesgo de cascada</div>
     </div>
 
-    <div class="stat-card" style="--accent:#0055cc;">
-      <div class="stat-eyebrow">🚀 Mañana</div>
-      <div class="stat-value" style="font-size:14px;margin-top:6px;">Sesión 0</div>
-      <div class="stat-label">Kick-off oficial · 9:00 AM</div>
-      <div class="stat-sub">meet.google.com/rhx-crmz-kca</div>
+    <div class="stat-card" style="--accent:#f59e0b;">
+      <div class="stat-eyebrow">🔴 HOY 14:00–15:00</div>
+      <div class="stat-value" style="font-size:14px;margin-top:6px;">Reunión de seguimiento</div>
+      <div class="stat-label">Douglas + Champions — la más importante de la semana</div>
+      <div class="stat-sub">Agenda: evidencia S1, prórroga vs. avance a S2</div>
     </div>
 
   </div>
@@ -482,15 +482,15 @@
   <div class="card full-width mb">
     <div class="card-header">
       <div class="card-title">🗓 Ruta del Programa — 6 meses</div>
-      <span class="card-badge" style="background:#e8f0ff;color:#0055cc;">Inicio: 2026-07-01</span>
+      <span class="card-badge" style="background:#fee2e2;color:#991b1b;">Día 10 · F1 estancada</span>
     </div>
     <div class="phase-track">
-      <div class="phase-seg active">
+      <div class="phase-seg past">
         <div class="phase-seg-num">F0</div>
         <div class="phase-seg-name">Preparación</div>
         <div class="phase-seg-date">26 jun–30 jun</div>
       </div>
-      <div class="phase-seg future">
+      <div class="phase-seg active">
         <div class="phase-seg-num">F1</div>
         <div class="phase-seg-name">Piloto Champions</div>
         <div class="phase-seg-date">01 jul–31 jul</div>
@@ -524,14 +524,14 @@
         <div class="milestone-label">Champions<br>confirmados</div>
         <div class="milestone-date">26/06</div>
       </div>
-      <div class="milestone">
-        <div class="milestone-dot">01</div>
+      <div class="milestone done">
+        <div class="milestone-dot">✓</div>
         <div class="milestone-label">Kick-off<br>oficial</div>
         <div class="milestone-date">01/07</div>
       </div>
-      <div class="milestone">
+      <div class="milestone active">
         <div class="milestone-dot">L3</div>
-        <div class="milestone-label">Champions<br>certificados</div>
+        <div class="milestone-label">Champions<br>certificados ⚠️ riesgo</div>
         <div class="milestone-date">31/07</div>
       </div>
       <div class="milestone">
@@ -554,48 +554,48 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">⚡ Próximas Acciones — Por Valor</div>
-        <span class="card-badge" style="background:#fef3c7;color:#92400e;">HOY</span>
+        <span class="card-badge" style="background:#fee2e2;color:#991b1b;">HOY 10/07</span>
       </div>
       <div class="action-list">
+
+        <div class="action-item" style="border-color:#fecaca;background:#fff5f5;">
+          <div class="action-rank" style="background:#ef4444;color:#fff;">1</div>
+          <div class="action-content">
+            <div class="action-name">Contactar a Irvin, Mario y Patrick — antes de 14:00</div>
+            <div class="action-meta">Teams/correo · confirmar entrega de 9 casos de uso S1 + asistencia a reunión del 08/07</div>
+            <div class="action-why">Si no entregaron, prorrogar a 12/07 con fecha explícita</div>
+          </div>
+          <div class="action-time">~20 min</div>
+        </div>
+
+        <div class="action-item" style="border-color:#fde68a;background:#fffbeb;">
+          <div class="action-rank" style="background:#f59e0b;color:#fff;">2</div>
+          <div class="action-content">
+            <div class="action-name">🔴 Reunión de seguimiento — Douglas + Champions</div>
+            <div class="action-meta">14:00–15:00 · la más importante de la semana</div>
+            <div class="action-why">Agenda: evidencia S1, bloqueos, decisión prórroga vs. avance a S2, prep. mini-reportes S2</div>
+          </div>
+          <div class="action-time">60 min</div>
+        </div>
 
         <div class="action-item" style="border-color:#bbf7d0;background:#f0fdf4;">
           <div class="action-rank" style="background:#22c55e;color:#fff;">✓</div>
           <div class="action-content">
-            <div class="action-name">C10 — Agenda Sesión 0 ✅</div>
-            <div class="action-meta">Guión 90 min completado · 29/06</div>
-            <div class="action-why">Listo para el kick-off de mañana</div>
+            <div class="action-name">C16 — <code style="font-size:10px;">01_piloto/learning_record/</code> creado ✅</div>
+            <div class="action-meta">3 registros individuales + dashboard consolidado, con campo de evidencia S1 (casos de uso)</div>
+            <div class="action-why">Falta llenar con evidencia real en la reunión de hoy</div>
           </div>
           <div class="action-time">✓</div>
-        </div>
-
-        <div class="action-item" style="border-color:#bfdbfe;background:#eff6ff;">
-          <div class="action-rank" style="background:#0055cc;color:#fff;">1</div>
-          <div class="action-content">
-            <div class="action-name">C8 — Sesión 0 · Kick-off oficial del programa</div>
-            <div class="action-meta">01/07 · 9:00–10:30 AM · meet.google.com/rhx-crmz-kca · Form: forms.gle/JHd4a8kHyFh59RkH7</div>
-            <div class="action-why">Diagnóstico baseline + presentación MCA + setup Hermes en Patrick</div>
-          </div>
-          <div class="action-time">90 min</div>
-        </div>
-
-        <div class="action-item">
-          <div class="action-rank" style="background:#0055cc;color:#fff;">2</div>
-          <div class="action-content">
-            <div class="action-name">Resolver SSL de npm para instalar Hermes</div>
-            <div class="action-meta">Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE · Fix: <code style="font-size:10px;">NODE_TLS_REJECT_UNAUTHORIZED=0 npx skills@latest</code></div>
-            <div class="action-why">Sin esto, el setup de Hermes en estaciones de Champions no puede avanzar</div>
-          </div>
-          <div class="action-time">~15 min</div>
         </div>
 
         <div class="action-item">
           <div class="action-rank" style="background:#8896b8;color:#fff;">3</div>
           <div class="action-content">
-            <div class="action-name">C6 — Aplicar diagnóstico baseline con el script MCA</div>
-            <div class="action-meta">Script listo: calcular_nivel_mca.gs · Pegar en Apps Script del Sheet vinculado al Form</div>
-            <div class="action-why">Niveles L0-L9 e itinerarios se generan automáticamente con las respuestas</div>
+            <div class="action-name">C15 — Ejecutar Sesión 2 (Productividad personal con IA)</div>
+            <div class="action-meta">Tentativo lunes 14/07, si S1 cierra hoy · mini-reportes vencen 14/07</div>
+            <div class="action-why">Evita cascada hacia Demo Day (31/07)</div>
           </div>
-          <div class="action-time">~10 min</div>
+          <div class="action-time">Tentativo</div>
         </div>
 
       </div>
@@ -605,82 +605,54 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">📋 Compromisos en Marcha</div>
-        <span class="card-badge" style="background:#dcfce7;color:#166534;">S0 completa ✅</span>
+        <span class="card-badge" style="background:#fee2e2;color:#991b1b;">2 vencidos · 1 pendiente</span>
       </div>
-      <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">Semana 0 · Completados</div>
+      <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">Semana 0 y 1 · Completados (13/13)</div>
       <div class="commit-list" style="margin-bottom:20px;">
         <div class="commit-item" style="background:#f0fdf4;">
           <div class="commit-status" style="background:#22c55e;"></div>
           <div class="commit-text">
-            <div class="commit-name">C1 · Champions seleccionados ✅</div>
-            <div class="commit-date">✓ 26/06 · Acta AI-FLUENCY-2026-001 emitida</div>
+            <div class="commit-name">C1–C5, C9, C10 · Selección, comms, forms, Hermes, agenda ✅</div>
+            <div class="commit-date">✓ 26/06–29/06 · Fase 0 cerrada al 100%</div>
           </div>
         </div>
         <div class="commit-item" style="background:#f0fdf4;">
           <div class="commit-status" style="background:#22c55e;"></div>
           <div class="commit-text">
-            <div class="commit-name">C2 · Google Form diagnóstico ✅</div>
-            <div class="commit-date">✓ 27/06 · forms.gle/JHd4a8kHyFh59RkH7</div>
+            <div class="commit-name">C6, C7, C8 · Baseline, itinerarios, kick-off ✅</div>
+            <div class="commit-date">✓ 01/07–07/07 · Sesión 0 ejecutada, niveles L0-L9 calculados</div>
           </div>
         </div>
         <div class="commit-item" style="background:#f0fdf4;">
           <div class="commit-status" style="background:#22c55e;"></div>
           <div class="commit-text">
-            <div class="commit-name">C3 · Kick-off agendado ✅</div>
-            <div class="commit-date">✓ 27/06 · 01/07 · 9:00 AM · meet.google.com/rhx-crmz-kca</div>
-          </div>
-        </div>
-        <div class="commit-item" style="background:#f0fdf4;">
-          <div class="commit-status" style="background:#22c55e;"></div>
-          <div class="commit-text">
-            <div class="commit-name">C4 · Infográfico distribuido ✅</div>
-            <div class="commit-date">✓ 29/06 · GitHub Pages enviado + recordatorio Form</div>
-          </div>
-        </div>
-        <div class="commit-item" style="background:#f0fdf4;">
-          <div class="commit-status" style="background:#22c55e;"></div>
-          <div class="commit-text">
-            <div class="commit-name">C5 · Hermes Agent configurado ✅</div>
-            <div class="commit-date">✓ 29/06 · Guía setup + skill teach instalado · 04_herramientas/guia_setup_champions/</div>
-          </div>
-        </div>
-        <div class="commit-item" style="background:#f0fdf4;">
-          <div class="commit-status" style="background:#22c55e;"></div>
-          <div class="commit-text">
-            <div class="commit-name">C9 · Correos a Champions ✅</div>
-            <div class="commit-date">✓ 27/06 · 8:15 AM · Patrick, Mario, Irvin notificados</div>
+            <div class="commit-name">C11, C12, C13 · Setup Hermes, cadencia, anuncio ✅</div>
+            <div class="commit-date">✓ 02/07–03/07 · Cadencia: Mié 14-16h + Vie 14-15h</div>
           </div>
         </div>
       </div>
 
-      <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">Semana 1 · 1–7 julio</div>
+      <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">Semana 2 · 8–14 julio — EN RIESGO</div>
       <div class="commit-list">
+        <div class="commit-item" style="background:#fff5f5;border-color:#fecaca;">
+          <div class="commit-status status-red"></div>
+          <div class="commit-text">
+            <div class="commit-name">C14 · Verificar 9 casos de uso S1 (3 por Champion)</div>
+            <div class="commit-date">🔴 Límite 07/07 → prórroga 12/07 · VENCIDO, sin verificar (3 días de atraso)</div>
+          </div>
+        </div>
+        <div class="commit-item" style="background:#fff5f5;border-color:#fecaca;">
+          <div class="commit-status status-red"></div>
+          <div class="commit-text">
+            <div class="commit-name">C15 · Agendar y ejecutar Sesión 2 (Productividad personal)</div>
+            <div class="commit-date">🔴 Debió iniciar 08/07 · SIN ARRANCAR · mini-reportes vencen 14/07</div>
+          </div>
+        </div>
         <div class="commit-item" style="background:#f0fdf4;">
           <div class="commit-status" style="background:#22c55e;"></div>
           <div class="commit-text">
-            <div class="commit-name">C10 · Agenda detallada de Sesión 0 ✅</div>
-            <div class="commit-date">✓ 29/06 · Guión con bloques de tiempo para 90 min listo</div>
-          </div>
-        </div>
-        <div class="commit-item">
-          <div class="commit-status status-gray"></div>
-          <div class="commit-text">
-            <div class="commit-name">C8 · Kick-off oficial del programa</div>
-            <div class="commit-date">📅 01/07 · 9:00 AM · meet.google.com/rhx-crmz-kca</div>
-          </div>
-        </div>
-        <div class="commit-item">
-          <div class="commit-status status-gray"></div>
-          <div class="commit-text">
-            <div class="commit-name">C6 · Diagnóstico baseline — script MCA listo</div>
-            <div class="commit-date">⚪ Límite: 2026-07-07 · calcular_nivel_mca.gs instalable en Sheet</div>
-          </div>
-        </div>
-        <div class="commit-item">
-          <div class="commit-status status-gray"></div>
-          <div class="commit-text">
-            <div class="commit-name">C7 · Itinerarios personalizados por Champion</div>
-            <div class="commit-date">⚪ Límite: 2026-07-07 · Generados automáticamente por el script</div>
+            <div class="commit-name">C16 · learning_record/ + plantillas por Champion ✅</div>
+            <div class="commit-date">✓ 10/07 · directorio creado con campo de evidencia S1 · falta llenar en la reunión</div>
           </div>
         </div>
       </div>
@@ -690,22 +662,34 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">🚧 Bloqueos Activos</div>
-        <span class="card-badge" style="background:#fee2e2;color:#991b1b;">2 activos · 1 pendiente</span>
+        <span class="card-badge" style="background:#fee2e2;color:#991b1b;">3 activos · 3 resueltos</span>
       </div>
       <div class="blocker-item">
-        <div class="blocker-name">SSL npm sin resolver en red UJMD</div>
-        <div class="blocker-unlock">Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE — proxy universitario intercepta certificados</div>
-        <div style="font-size:11px;color:#b91c1c;margin-top:4px;font-weight:600;">→ Fix: <code style="font-size:10px;">NODE_TLS_REJECT_UNAUTHORIZED=0 npx skills@latest add ...</code> · Necesario para skills en estaciones de Champions</div>
+        <div class="blocker-name">S1 sin entregables verificados (3 días de atraso)</div>
+        <div class="blocker-unlock">Fase 1 en atraso real; no se sabe si los Champions tienen base para S2</div>
+        <div style="font-size:11px;color:#b91c1c;margin-top:4px;font-weight:600;">→ Contactar Champions HOY antes de la reunión 14:00; prorrogar a 12/07 si no hay evidencia</div>
       </div>
       <div class="blocker-item">
-        <div class="blocker-name">Hermes sin instalar en estaciones de Champions</div>
-        <div class="blocker-unlock">Sin orquestador, los Champions no pueden practicar autónomamente</div>
-        <div style="font-size:11px;color:#b91c1c;margin-top:4px;font-weight:600;">→ Setup en Sesión 0 · 01/07 · Patrick primero (guía en 04_herramientas/guia_setup_champions/)</div>
+        <div class="blocker-name">S2 no arrancó el 08/07</div>
+        <div class="blocker-unlock">Mini-reportes vencen 14/07 (4 días); cascada hacia Demo Day 31/07</div>
+        <div style="font-size:11px;color:#b91c1c;margin-top:4px;font-weight:600;">→ Decidir en la reunión de hoy: arrancar S2 el lunes 14/07 o prorrogar</div>
       </div>
       <div class="blocker-item" style="border-left-color:#f59e0b;background:#fffbeb20;">
-        <div class="blocker-name" style="color:#92400e;">Google Workspace UJMD no integrado</div>
-        <div class="blocker-unlock">Bloquea Fase 4 (Estudiantes) e Investigación — impacto a partir de agosto</div>
-        <div style="font-size:11px;color:#92400e;margin-top:4px;font-weight:600;">→ Iniciar contacto con admin GSuite UJMD en julio</div>
+        <div class="blocker-name" style="color:#92400e;">Douglas saturado con otras prioridades</div>
+        <div class="blocker-unlock">Sin 2h/semana bloqueadas, el proyecto se estanca</div>
+        <div style="font-size:11px;color:#92400e;margin-top:4px;font-weight:600;">→ Bloquear 2h/semana en calendario explícitamente</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — learning_record/ creado</div>
+        <div class="blocker-unlock" style="color:#15803d;">3 registros + dashboard, con campo de evidencia S1 (C14)</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — Bitácora Sesión 0 validada en Drive</div>
+        <div class="blocker-unlock" style="color:#15803d;">Admin Drive (ujmd.edu.sv) confirmó la validación</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — Google Workspace UJMD integrado</div>
+        <div class="blocker-unlock" style="color:#15803d;">Ya no bloquea Fase 4 ni Investigación</div>
       </div>
     </div>
 
@@ -713,9 +697,17 @@
     <div class="card">
       <div class="card-header">
         <div class="card-title">✅ Decisiones Tomadas</div>
-        <span class="card-badge" style="background:#dcfce7;color:#166534;">8 cerradas</span>
+        <span class="card-badge" style="background:#dcfce7;color:#166534;">10 cerradas</span>
       </div>
       <div>
+        <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
+          <div class="decision-date" style="color:#0055cc;">02/07/26</div>
+          <div class="decision-text"><strong>Cadencia semanal acordada</strong> — Mié 14–16h (Trabajo colaborativa entre Champions), Vie 14–15h (Seguimiento del proyecto).</div>
+        </div>
+        <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
+          <div class="decision-date" style="color:#0055cc;">01/07/26</div>
+          <div class="decision-text"><strong>Proveedor LLM: OpenRouter</strong> — Acceso a 100+ modelos (incl. gratuitos) para los Champions.</div>
+        </div>
         <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
           <div class="decision-date" style="color:#0055cc;">29/06/26</div>
           <div class="decision-text"><strong>Infraestructura digital permanente</strong> — GitHub Pages como sitio oficial del programa (untaldouglas.github.io/Implementar-AI-Fluentcy/) + blog de jornadas como canal de presencia web.</div>
@@ -808,53 +800,69 @@
     <div class="card-header">
       <div class="card-title">📋 Log de Actualizaciones</div>
     </div>
-    <div class="log-entry" style="background:#f0f9ff;border-radius:6px;padding:10px 12px;margin-bottom:8px;">
-      <div class="log-date" style="color:#0055cc;">2026-06-29 · SESIÓN 7 EOD — Cierre de Fase 0 · Automatización MCA</div>
+    <div class="log-entry" style="background:#fff5f5;border-radius:6px;padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date" style="color:#991b1b;">2026-07-10 · SESIÓN — SYNC día #10, proyecto estancado</div>
       <div class="log-text">
-        <strong>✅ C4:</strong> Infográfico enviado + recordatorio Form a Champions ·
-        <strong>✅ Script MCA:</strong> calcular_nivel_mca.gs genera niveles L0-L9, itinerarios personalizados y resumen grupal automáticamente ·
-        <strong>✅ Skill:</strong> mca-script-generator instalado en Cowork (repetible para todas las cohortes) ·
-        <strong>✅ Docs:</strong> README.md, Guia_GoogleForm, Instructivo_Skills_Claude.md actualizados ·
-        <strong>✅ Blog:</strong> 2026-06-29_cuando-la-ia-diagnostica-a-la-ia.html + LinkedIn post en español ·
-        <strong>🔒 Fase 0:</strong> 6/6 compromisos cerrados ·
-        <strong>⏰ Mañana:</strong> C10 (agenda Sesión 0) → Sesión 0 (9:00 AM, 01/07) ·
-        <strong>⚠️ Pendiente:</strong> SSL npm en red UJMD sin resolver
+        <strong>⚠️</strong> 3 días sin actividad directa (08/07–09/07). S1 vencida 3 días sin entregables verificados ·
+        <strong>⚠️</strong> S2 (Productividad personal) debió arrancar 08/07 — sin evidencia de ejecución. Mini-reportes vencen 14/07 ·
+        <strong>✓</strong> Cron ai-fluency-sod reparado — plan generado correctamente hoy 08:00 CST tras 2 días de falla ·
+        <strong>📅</strong> Reunión crítica de seguimiento HOY 14:00–15:00 — ventana para desbloquear S1/S2 ·
+        <strong>⚠️</strong> Progreso global sin cambios desde 07/07: ~19%
+      </div>
+    </div>
+    <div class="log-entry" style="padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date">2026-07-07 · Sincronización manual de conflictos tras merge (Hermes)</div>
+      <div class="log-text">
+        <strong>✓</strong> Consolidación de logs de Sesión 15 y 16 ·
+        <strong>✓</strong> Marcado C11, C12 y C13 como COMPLETADO en la tabla principal ·
+        <strong>✓</strong> Próxima acción: recepción de evidencia y reunión colaborativa 08/07
+      </div>
+    </div>
+    <div class="log-entry" style="padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date">2026-07-03 · SESIÓN 16 — C12 COMPLETADA</div>
+      <div class="log-text">
+        <strong>✓</strong> Reunión de seguimiento individual ejecutada — 14:00–15:15 ·
+        <strong>✓</strong> Cadencia definida: Mié 14-16h + Vie 14-15h ·
+        <strong>✓</strong> Champions reportaron avances en perfiles SOUL.md
+      </div>
+    </div>
+    <div class="log-entry" style="padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date">2026-07-03 · SESIÓN 15 — CIERRE DE JORNADA</div>
+      <div class="log-text">
+        <strong>✓</strong> Corregidas inconsistencias en guías de Irvin Morales (Zona Pasajero) ·
+        <strong>✓</strong> Restaurado 00_marco/ borrado accidentalmente
       </div>
     </div>
     <div class="log-entry">
-      <div class="log-date">2026-06-26 · SESIÓN INICIAL — Onboarding del sistema</div>
+      <div class="log-date">2026-07-02 · SESIÓN 14 — CIERRE DE JORNADA</div>
       <div class="log-text">
-        <strong>Configurado:</strong> Sistema de rituales de jornada · <strong>Aprobado:</strong> Identidad visual Velocidad Digital ·
-        <strong>Creado:</strong> Infográfico del programa · <strong>Definido:</strong> Inicio oficial 2026-07-01 ·
-        <strong>Identificados:</strong> 5 compromisos críticos esta semana · <strong>Bloqueo principal:</strong> selección de Champions
+        <strong>✓ C11:</strong> Setup Hermes completado en las 3 estaciones ·
+        <strong>✓ C13:</strong> Correo de anuncio enviado
       </div>
     </div>
   </div>
 
   <div class="footer">
     <div>AI Fluency · Modelo de Conducción AI · UJMD · <strong>@untaldouglas</strong></div>
-    <div>Fase F0 · Inicio oficial: <strong>2026-07-01</strong> · Fin programa: <strong>2026-12-31</strong></div>
+    <div>Fase F1 · Piloto Champions (día 10/31) · Fin programa: <strong>2026-12-31</strong></div>
   </div>
 
 </div>
 
 <script>
-  // Auto-countdown desde hoy hasta 2026-07-01
+  // Auto-cálculo de días transcurridos desde el inicio oficial (2026-07-01)
   function updateCountdown() {
     const launch = new Date('2026-07-01T00:00:00');
     const now = new Date();
-    const diff = Math.ceil((launch - now) / (1000 * 60 * 60 * 24));
+    const diff = Math.floor((now - launch) / (1000 * 60 * 60 * 24));
     const el = document.getElementById('days-countdown');
     if (el) {
-      if (diff > 0) {
-        el.textContent = diff;
-      } else if (diff === 0) {
-        el.textContent = '¡HOY!';
-        el.style.color = '#22c55e';
-      } else {
+      if (diff < 0) {
         el.textContent = Math.abs(diff);
-        el.parentElement.querySelector('.stat-eyebrow').textContent = '✅ Programa activo — día';
-        el.parentElement.querySelector('.stat-label').textContent = 'del programa en curso';
+        el.parentElement.querySelector('.stat-eyebrow').textContent = '⚡ Arranque oficial en';
+        el.parentElement.querySelector('.stat-label').textContent = 'días para el 1 de julio';
+      } else {
+        el.textContent = diff;
       }
     }
     // Update displayed date
