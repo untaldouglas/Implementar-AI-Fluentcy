@@ -213,6 +213,15 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | Guías S1 publicadas: estado real + archivo de referencia para futuras cohortes
+  ✓ Las 3 guías en docs/ (GitHub Pages) ahora llevan banner de estado al tope: Mario y Patrick
+    "✅ COMPLETADA Y VERIFICADA 10/07" (con su caso ancla nombrado); Irvin "🟡 EN CIERRE DE VALIDACIÓN"
+    (neutro, sin detalle del pendiente). index.html marca la sección S1 como completada/archivada.
+  ✓ Copias congeladas de las 4 guías (3 personalizadas + setup) en `02_playbook/referencia_cohorte1_guias/`
+    con README para futuros grupos: qué funcionó (personalización por área, entregable Día 6+7, exclusión
+    de datos sensibles) y qué corregir (Drive desde el día 1, nombres propios, criterio único S1,
+    colisión L#, verificación contra documento real, feedback >1×/semana para L1).
+
 2026-07-10 | Auditoría semanal AUTOMATIZADA — rutina en la nube creada
   ✓ Rutina `trig_01TubHGS7vnvJQPWu6gTtN8T`: cada viernes 07:00 (El Salvador) un agente en la nube clona
     el repo público, lee el plan de la serie y todas las auditorías previas, ejecuta la auditoría de la
