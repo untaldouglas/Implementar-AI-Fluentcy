@@ -213,6 +213,21 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | CIERRE DE JORNADA — blog post del día + serie de auditorías pasa a cadencia semanal
+  ✓ Blog post publicado en el repo: `05_blog/2026-07-10_el-dia-que-la-evidencia-le-gano-a-la-palabra.md`
+    — narra la auditoría #01, la Sesión 18, el caso de la validación verbal vs. documento real (Champion
+    anonimizado) y la visión guiada por resultados: evidencia demostrable, conocimiento colectivo
+    duradero, y el teach-back como métrica real del objetivo.
+  ✓ Decisión de Douglas: la auditoría del programa pasa de ~10 días a **SEMANAL**, evolutiva en cada
+    iteración. Plan vivo creado en `04_herramientas/auditorias/_plan_serie_auditorias.md`: #02 (17/07)
+    agrega lente de especialista en soluciones AI; #03 (24/07) introduce COBIT (EDM01/APO01/MEA01,
+    madurez 0-2 sin burocratizar); #04 (31/07) consolidación pre-Demo Day; F2 suma APO07/BAI08.
+    Día sugerido: viernes AM, antes del seguimiento de las 14:00.
+  → Resumen del día 10: auditoría #01 (16 hallazgos) · Sesión 18 (4 decisiones, C17-C20) · S1 verificada
+    2/3 con documento real · canal Drive + metodología de entrega · conocimiento colectivo creado ·
+    2h/semana bloqueadas · email de cierre automatizado para el lunes · I1 resuelta · docs/ actualizado ·
+    revisión de consistencia total. El proyecto pasó de "estancado" a "reactivado con evidencia".
+
 2026-07-10 | REVISIÓN DE CONSISTENCIA total del proyecto (cierre de jornada)
   ✓ Auditados: ESTADO_PROYECTO.md, Dashboard_Jornada.html, learning_record/, conocimiento_colectivo/,
     agendas del día y todo docs/ (GitHub Pages). Corregidas todas las secciones que quedaron congeladas
