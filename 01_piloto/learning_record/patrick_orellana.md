@@ -29,11 +29,11 @@
 
 ## Evidencia S1 — Casos de uso
 
-> Entregable original (Roadmap): 3 casos de uso documentados. Guía operativa enviada al Champion (`docs/guia_patrick_orellana.html`, Día 6) pedía 1 caso de uso "ancla" completo + reflexión final (Día 7) — criterio real a verificar, no 3, salvo que se aclare y amplíe en la reunión de seguimiento.
+> Entregable original (Roadmap): 3 casos de uso documentados. Guía operativa enviada al Champion (`docs/guia_patrick_orellana.html`, Día 6) pedía 1 caso de uso "ancla" completo + reflexión final (Día 7) — criterio RESUELTO el 10/07 (I1, auditoría #01): S1 = 1 caso ancla + reflexión; los 3 casos del Roadmap son meta acumulada S1+S2.
 
 | # | Título del caso de uso | Dónde vive la evidencia | Fecha de entrega | Veredicto verificación | Notas |
 |---|---|---|---|---|---|
-| 1 (ancla, obligatorio) | Scripts de monitoreo de infraestructura y verificación de respaldos (`check_backups.sh`, `monitor_infra_universitaria.sh`, `monitor_servidores_pro.sh`) + plantilla Día 6 completada en la reunión | ☑ Google Drive (canal oficial desde 10/07) | 2026-07-10 | ☑ **Verificado** (actualizado tarde 10/07 — ver revisión más abajo) | Ver revisión 2026-07-10 (tarde) abajo — completó lo que faltaba de la revisión de la mañana |
+| 1 (ancla, obligatorio) | "Script de verificación diaria de infraestructura generado con Hermes" (scripts `check_backups.sh`, `monitor_infra_universitaria.sh`, `monitor_servidores_pro.sh`) + plantilla Día 6 + reflexión Día 7 (nivel autorreportado L1.5) | ☑ Google Drive · espejo local: `01_piloto/evidencia_piloto/patrick_orellana/AIFluency_Patrick_EvidenciaS1_CasoAncla_VerificacionDiariaInfraestructura.docx` | 2026-07-10 | ☑ **Verificado** (documento real revisado 10/07 tarde) | Tiempo ahorrado estimado: ~30 min en producción. Excluyó conscientemente IPs y credenciales (Día 7, pregunta 2) — buena práctica de delegación segura |
 | 2 (si aplica) | `SOUL.md` — Administrador Senior de Infraestructura, Redes y Ciberseguridad | ☑ Google Drive (canal oficial desde 10/07) | 2026-07-10 | ☑ **Verificado** | Persona propia y bien desarrollada, aceptada en la reunión de seguimiento |
 | 3 (si aplica) | _(no entregado)_ | | | | |
 

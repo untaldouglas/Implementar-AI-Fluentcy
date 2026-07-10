@@ -29,11 +29,11 @@
 
 ## Evidencia S1 — Casos de uso
 
-> Entregable original (Roadmap): 3 casos de uso documentados. Guía operativa enviada al Champion (`docs/guia_mario_valencia.html`, Día 6) pedía 1 caso de uso "ancla" completo + reflexión final (Día 7) — criterio real a verificar, no 3, salvo que se aclare y amplíe en la reunión de seguimiento.
+> Entregable original (Roadmap): 3 casos de uso documentados. Guía operativa enviada al Champion (`docs/guia_mario_valencia.html`, Día 6) pedía 1 caso de uso "ancla" completo + reflexión final (Día 7) — criterio RESUELTO el 10/07 (I1, auditoría #01): S1 = 1 caso ancla + reflexión; los 3 casos del Roadmap son meta acumulada S1+S2.
 
 | # | Título del caso de uso | Dónde vive la evidencia | Fecha de entrega | Veredicto verificación | Notas |
 |---|---|---|---|---|---|
-| 1 (ancla, obligatorio) | _(pendiente anexar título — confirmado como completo en la reunión 10/07)_ | ☑ Google Drive (canal oficial desde 10/07) | 2026-07-10 | ✅ **Verificado** | Douglas confirmó en la reunión de seguimiento que la evidencia cumple al 100% a satisfacción. Falta anexar copia/link específico en esta tabla. |
+| 1 (ancla, obligatorio) | "Refactorización de módulo con Hermes como pair programmer" (módulo Graduados/GAO, C#/Java) — Día 1–7 completo con 4 prompts del flujo, plantilla Día 6 y reflexión Día 7 (nivel autorreportado L1.5) | ☑ Google Drive · espejo local: `01_piloto/evidencia_piloto/mario_valencia/AIFluency_Mario_EvidenciaS1_CasoAncla_RefactorGAO.pdf` | 2026-07-10 | ✅ **Verificado** (documento real revisado 10/07 tarde) | Tiempo ahorrado estimado: ~20 min por revisión. ⚠️ El documento llegó en PDF — a partir de S2 aplica la regla "no PDF" del Bloque 5 (comentador → Aprobar en Drive) |
 | 2 (si aplica) | _(no especificado en la reunión)_ | | | | |
 | 3 (si aplica) | _(no especificado en la reunión)_ | | | | |
 

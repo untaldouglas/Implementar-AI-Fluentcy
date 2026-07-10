@@ -29,7 +29,7 @@
 
 ## Evidencia S1 — Casos de uso
 
-> Entregable original (Roadmap): 3 casos de uso documentados. Guía operativa enviada al Champion (`docs/guia_irvin_morales.html`, Día 6) pedía 1 caso de uso "ancla" completo + reflexión final (Día 7) — criterio real a verificar, no 3, salvo que se aclare y amplíe en la reunión de seguimiento.
+> Entregable original (Roadmap): 3 casos de uso documentados. Guía operativa enviada al Champion (`docs/guia_irvin_morales.html`, Día 6) pedía 1 caso de uso "ancla" completo + reflexión final (Día 7) — criterio RESUELTO el 10/07 (I1, auditoría #01): S1 = 1 caso ancla + reflexión; los 3 casos del Roadmap son meta acumulada S1+S2.
 
 | # | Título del caso de uso | Dónde vive la evidencia | Fecha de entrega | Veredicto verificación | Notas |
 |---|---|---|---|---|---|

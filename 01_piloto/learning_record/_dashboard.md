@@ -16,7 +16,7 @@
 
 ---
 
-## C14 — Verificación de casos de uso S1 (3 por Champion → 9 total)
+## C14 — Verificación de evidencia S1 (criterio resuelto: 1 caso ancla + reflexión por Champion)
 
 | Champion | Caso ancla (obligatorio) | Casos 2–3 (si aplica) | Reflexión Día 7 | Veredicto |
 |---|---|---|---|---|
@@ -28,7 +28,7 @@
 
 **⚠️ Corrección de la tarde (10/07):** al revisar el documento real de Irvin en Drive, no contiene el caso ancla (Día 6) ni la reflexión (Día 7) — solo práctica Día 1-2 + notas de una reunión con DIT. Se revierte su veredicto a "Pendiente" y se le envió correo pidiendo completar el mismo documento (ver `irvin_morales.md` y `04_herramientas/agendas/2026-07-10_email_irvin_completar_evidencia.md`). Mario y Patrick sí quedan verificados con documento real revisado.
 
-**⚠️ Nota de criterio:** el Roadmap pide 3 casos de uso por Champion, pero las guías operativas enviadas (`docs/guia_*.html`, Día 6) solo exigían 1 caso "ancla" completo como entregable obligatorio. Aclarar y resolver esta discrepancia en la reunión antes de marcar "no verificado" por incumplimiento de los 3.
+**✅ Nota de criterio — RESUELTA (10/07, I1 de la auditoría #01):** el criterio verificable de S1 es **1 caso ancla completo + reflexión Día 7** (lo que comunicaban las guías operativas). Los "3 casos" del Roadmap quedan como meta acumulada S1+S2 — ver aclaración en `01_piloto/Roadmap_AI_Fluency_UJMD.md` y la decisión en `ESTADO_PROYECTO.md`.
 
 **Dónde buscar la evidencia real (mecanismo vigente desde la reunión de seguimiento 10/07):**
 - **Google Drive** — el Champion comparte o envía el documento/artefacto para aprobación (carpeta del piloto). Reemplaza correo/Teams como canal oficial: deja trazabilidad y verificación digital de que Douglas revisó el entregable.
@@ -45,6 +45,8 @@
 ---
 
 ## Mini-reportes S2 (Productividad personal con IA)
+
+> ⚠️ La fecha original (14/07) coincide con el arranque acordado de S2 — por redefinir al arrancar el lunes (candidata: viernes 17/07). Ver bloqueo en `ESTADO_PROYECTO.md`.
 
 | Champion | Recibido | Fecha |
 |---|---|---|
