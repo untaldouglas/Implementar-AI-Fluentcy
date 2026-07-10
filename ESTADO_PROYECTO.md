@@ -213,6 +213,15 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | Auditoría semanal AUTOMATIZADA — rutina en la nube creada
+  ✓ Rutina `trig_01TubHGS7vnvJQPWu6gTtN8T`: cada viernes 07:00 (El Salvador) un agente en la nube clona
+    el repo público, lee el plan de la serie y todas las auditorías previas, ejecuta la auditoría de la
+    semana (con el lente nuevo que toque según el plan) y deja el borrador completo en Gmail de Douglas.
+    Nunca envía ni commitea — Douglas revisa antes de la reunión de las 14:00 y decide.
+  ✓ Primera ejecución: viernes 17/07 (~07:00) — auditoría #02, estrena lente de especialista AI.
+  → Con esto, las 3 rutinas asíncronas del día: email de cierre (lunes 08:00), bloques de calendario
+    (Lun/Mar 14-15h) y auditoría semanal (viernes 07:00). H5 de la auditoría #01 en vías de cierre.
+
 2026-07-10 | CIERRE DE JORNADA — blog post del día + serie de auditorías pasa a cadencia semanal
   ✓ Blog post publicado en el repo: `05_blog/2026-07-10_el-dia-que-la-evidencia-le-gano-a-la-palabra.md`
     — narra la auditoría #01, la Sesión 18, el caso de la validación verbal vs. documento real (Champion
