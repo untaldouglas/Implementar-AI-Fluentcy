@@ -33,7 +33,7 @@
 | Fase actual | **FASE 1 — Piloto Champions** 🟡 reactivada (reunión Sesión 18 ejecutada 10/07) |
 | Semana de proyecto | S1 cerrada 3/3 ✅ (Mario ✅ Patrick ✅ Irvin ✅ 10/07 noche) · S2 arranca lunes 13/07 |
 | Mes de proyecto | M1 |
-| Próximo hito | Lunes 13/07: envío email de cierre (borrador final ya en Gmail) + arranque de S2 |
+| Próximo hito | Lunes 13/07 · 14:00: arranque de S2 (email de cierre ya enviado el 10/07 noche ✅) |
 | Días hasta próximo hito | 3 (fin de semana de por medio) |
 
 ### Calendario de fases
@@ -143,11 +143,11 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo) — actualizado al cierre del 10/07
 
-1. ~~**[Viernes 10/07 – lunes 13/07]** Verificar que Irvin complete su documento en Drive~~ ✅ **RESUELTO (10/07 noche)** — segunda entrega revisada contra documento real; C14 cierra 3/3. Queda: dar "Aprobar" en Drive al documento de Irvin y reforzar el flujo comentador→Aprobar (sin PDF) en S2.
+1. ~~**[Viernes 10/07 – lunes 13/07]** Verificar que Irvin complete su documento en Drive~~ ✅ **RESUELTO (10/07 noche)** — segunda entrega revisada contra documento real; C14 cierra 3/3. Documento aprobado en Drive ✅ y metodología de entrega reforzada con Irvin ✅ (10/07 noche).
 
-2. **[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal — el **borrador final ya está en Gmail** (v3, 10/07 noche, con S1 3/3 + agradecimiento + fecha S2 correcta). Descartar los otros dos borradores: el v2 de las ~19:00 y el que genere la rutina automática de las 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4, texto viejo).
+2. ~~**[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal~~ ✅ **ENVIADO (10/07 noche)** — Douglas lo envió el mismo viernes, antes de lo previsto. ⚠️ Queda solo un residuo: la rutina automática del lunes 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4) generará un borrador con texto viejo en Gmail — **descartarlo sin enviar** (el email real ya salió).
 
-3. **[Lunes 13/07]** Arrancar S2 (Productividad personal con IA) — taller de prompting aplicado a los casos identificados. Usar los bloques de calendario nuevos (Lun/Mar 14:00–15:00). ⚠️ Redefinir fecha de mini-reportes S2 (la original 14/07 cae al día siguiente del arranque — candidata: 17/07).
+3. **[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — primera sesión de la semana 2 en el bloque de calendario de las 14:00–15:00: taller de prompting aplicado a los casos identificados. En esa misma sesión, acordar con los Champions la nueva fecha de los mini-reportes de S2 (la original 14/07 es imposible — candidata: viernes 17/07).
 
 4. **[Miércoles 15/07 · colaborativa]** Primera carga de los 3 artefactos de conocimiento colectivo (C17: glosario en hoja electrónica, FAQ y lista de errores en documento).
 
@@ -213,6 +213,16 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | CIERRE REAL DEL DÍA — email enviado, blog post del hito, semana 1 completa
+  ✓ Douglas ENVIÓ el email de cierre grupal la misma noche del viernes (no esperó al lunes) y
+    reforzó personalmente con Irvin la metodología de entrega (comentador→Aprobar, sin PDF,
+    nombres propios). Acciones 1 y 3 del cierre nocturno: hechas.
+  ✓ Blog post del hito publicado: `05_blog/2026-07-10_tres-de-tres-la-primera-semana-cerro-con-evidencia.md`
+    — narra el cierre 3/3, la simetría del rigor (revertir en la tarde, certificar en la noche), el
+    contexto de saturación por inscripciones y el arco completo de los 10 días.
+  ⚠️ Residuo para el lunes: la rutina de las 08:00 generará un borrador viejo en Gmail — descartarlo.
+  → Único pendiente operativo del lunes: arrancar S2 a las 14:00 y redefinir fecha de mini-reportes.
+
 2026-07-10 | CORRECCIÓN DE FECHA — el arranque de S2 es lunes 13/07, no "lunes 14/07"
   ⚠️ Douglas detectó que varios documentos decían "S2 arranca lunes 14/07": el lunes próximo es 13/07
     (el 14/07 es martes). Corregido en todos los documentos vivos (ESTADO, Dashboard_Jornada,

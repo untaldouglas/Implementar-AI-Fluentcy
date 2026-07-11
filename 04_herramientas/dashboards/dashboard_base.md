@@ -194,7 +194,7 @@
 
 ## 🔜 Próximas 5 acciones (priorizadas)
 
-1. 🔴 **[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal — borrador final ya listo en Gmail (creado 10/07 noche, incluye agradecimiento por cumplir pese a inscripciones). Descartar el borrador duplicado que genere la rutina automática de las 08:00.
+1. ✅ ~~Enviar el email de cierre grupal~~ — **ENVIADO 10/07 noche** (con agradecimiento por cumplir pese a inscripciones). Queda solo descartar el borrador viejo que genere la rutina automática del lunes 08:00.
 2. 🔴 **[Lunes 13/07]** Arrancar S2 (Productividad personal con IA) + redefinir fecha de mini-reportes (candidata: 17/07). Bloques Lun/Mar 14:00–15:00.
 3. 🟡 **[Miércoles 15/07 · colaborativa]** Primera carga del conocimiento colectivo (C17: glosario, FAQ, lista de errores).
 4. 🟡 **[Viernes 17/07 · 07:00]** Revisar borrador de auditoría #02 (rutina automática, estrena lente especialista AI) antes del seguimiento de las 14:00.
