@@ -106,7 +106,8 @@ Desktop.ini
 **/datos_piloto/
 **/evaluaciones/
 **/scores_participantes*
-**/evidencia_piloto/
+# evidencia_piloto/ se incorpora al repo por decisión del Director (10/07/2026):
+# evidencia S1 de Champions revisada y aprobada, con datos anonimizados
 
 # Correos sensibles, actas firmadas con datos personales
 **/actas_firmadas/

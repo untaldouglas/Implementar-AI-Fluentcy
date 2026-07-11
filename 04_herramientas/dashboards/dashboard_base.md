@@ -6,11 +6,11 @@
 
 ## 📊 Resumen ejecutivo del proyecto
 
-**Progreso actual:** ██░░░░░░░░ ~16%  *(actualizado 07/07/2026)*  
-**Día del proyecto:** #7 (desde 01/07/2026)  
-**Fase actual:** Fase 1 — Piloto Champions · S1 (🔴 VENCIDA)  
-**Dedicación del Director:** ~2h/semana + trabajo asincrónico  
-**Última actualización:** Cierre EOD automático 07/07/2026 07:53 CST
+**Progreso actual:** ███░░░░░░░ ~22-33%  *(actualizado 10/07/2026 noche — S1 cerrada 3/3 ✅)*  
+**Día del proyecto:** #10 (desde 01/07/2026)  
+**Fase actual:** Fase 1 — Piloto Champions · S1 cerrada 3/3 ✅ · S2 arranca 14/07  
+**Dedicación del Director:** ~2h/semana + trabajo asincrónico · ✅ calendario bloqueado Lun/Mar 14–15h  
+**Última actualización:** 10/07/2026 noche — cierre de semana en limpio (consolidación semanal de viernes)
 
 ---
 
@@ -19,8 +19,8 @@
 | # | Hito | Estado | Evidencia | Próximo paso |
 |---|---|---|---|---|
 | 0.1 | Selección de Champions | ✅ | `Acta_Seleccion_Champions_AI_Fluency.md` — 4 confirmados | — |
-| 0.2 | Diagnóstico de Conducción AI | ✅ | 3 Champions llenaron Google Form · niveles L1 generados | Registrar en `learning_record/` |
-| 0.3 | Setup técnico de Hermes Agent | 🟡 | Irvin ✅ · Mario ✅ · Patrick ⏳ (vencido 02/07) | 🔴 Sesión recuperación Patrick |
+| 0.2 | Diagnóstico de Conducción AI | ✅ | 3 Champions llenaron Google Form · niveles L1 generados | ✅ Registrado en `learning_record/` (10/07) |
+| 0.3 | Setup técnico de Hermes Agent | ✅ | Irvin ✅ · Mario ✅ · Patrick ✅ (C11 completado) | — |
 | 0.4 | Métricas de éxito acordadas | ✅ | Definidas en Manual + Alineación Estratégica | — |
 | 0.5 | Kick-off Sesión 0 | ✅ | 01/07 9:00–10:30 AM · bitácora enviada a Drive | Incorporar bitácora validada |
 | 0.6 | Guías personalizadas 7 días | ✅ | Publicadas en GitHub Pages | Confirmar recepción por Champions |
@@ -33,13 +33,13 @@
 
 | # | Semana | Estado | Entregable | Observaciones |
 |---|---|---|---|---|
-| 1.1 | S1: Fundamentos y nivelación | 🔴 VENCIDA 07/07 | 3 casos de uso/Champion | 🟡 20% — baseline + setup parcial, sin casos entregados |
-| 1.2 | S2: Productividad personal con IA | 🔲 | Mini-reporte por piloto | Bloqueada por cierre S1 |
+|| 1.1 | S1: Fundamentos y nivelación | ✅ CERRADA 3/3 (10/07 noche) | 1 caso ancla + reflexión por Champion (I1 resuelto) | ✅ 100% — Mario ✅ Patrick ✅ Irvin ✅ (verificados con documento real) |
+|| 1.2 | S2: Productividad personal con IA | 🟡 ARRANCA 14/07 | Mini-reporte por piloto (fecha por redefinir) | Calendario bloqueado Lun/Mar 14–15h |
 | 1.3 | S3: Construcción de agentes con Hermes Agent | 🔲 | 1 agente funcional por área | Core del piloto |
 | 1.4 | S4: Demo Day + lecciones aprendidas | 🔲 | 3 agentes + 3 mini-guías + informe | Fecha 31/07 en riesgo |
 
-**Avance Fase 1:** 0.4×1 🟡 / 4 = **~10%**  
-**Estado:** 🔴 Atraso — S1 vencido sin entregable confirmado
+**Avance Fase 1:** ~33% (S1 100% ✅ + S2 agendada + infraestructura de gestión creada 10/07)  
+**Estado:** 🟡 En progreso — reactivada con evidencia real (auditoría #01 + Sesión 18 + C14–C20); S1 cerrada al 100%
 
 ---
 
@@ -127,14 +127,14 @@
 
 | Fase | Hitos | Completados | Peso |
 |---|---|---|---|
-| Fase 0 | 5.5 | 5 ✅ + 0.4×0.5 🟡 = 5.2 | ×1.0 |
-| Fase 1 | 4 | 0.4×1 🟡 = 0.4 | ×1.5 |
+| Fase 0 | 5.5 | 5.5 ✅ | ×1.0 |
+| Fase 1 | 4 | 1 ✅ + 0.4×1 🟡 (S2 agendada) = 1.4 | ×1.5 |
 | Fase 2 | 4 | 0 | ×1.0 |
 | Fase 3 | 4 | 0 | ×0.8 |
 | Fase 4 | 4 | 0 | ×0.5 |
 | Investigación | 6 | 0 | ×1.2 |
 | Google Workspace | 7 | 0 | ×0.8 |
-| **TOTAL** | **34.5** | **5.6** | 5.6/34.5 ≈ **16%** |
+| **TOTAL** | **34.5** | **7.6** | 7.6/34.5 ≈ **22%** |
 
 > Fórmula: `(hitos ✅ × peso + 0.4 × hitos 🟡 × peso) / suma total ponderada × 100`
 
@@ -144,10 +144,12 @@
 
 | Riesgo | Prob. | Impacto | Estado | Mitigación |
 |---|---|---|---|---|
-| Champions sin 2h/semana asignadas | Alta | Alto | 🔴 | Confirmar dedicación con jefes de área |
-| Google Form no se monta en tiempo | Media | Medio | 🟡 | Montar hoy siguiendo la guía |
-| Aplicación del cuestionario se retrasa | Media | Alto | 🟡 | Fijar fecha límite 5 días hábiles |
-| Douglas saturado con otras prioridades | Alta | Alto | 🔴 | Bloquear 2h/semana en calendario |
+| Saturación del equipo por inicio de inscripción del nuevo semestre | Alta | Alto | 🟡 | Reconocimiento explícito (email de cierre 13/07) + metas S2 acotadas; monitorear carga en seguimiento 17/07 |
+| Fecha de mini-reportes S2 por redefinir (la original 14/07 coincide con el arranque) | Alta | Medio | 🟡 | Redefinir el lunes 14/07 al arrancar S2 (candidata: viernes 17/07) |
+| Fecha Demo Day 31/07 en riesgo si S2-S3 se comprimen | Media | Alto | 🟡 | Auditoría semanal (viernes) monitorea el ritmo; consolidación pre-Demo Day en auditoría #04 |
+| ~~Champions sin 2h/semana asignadas~~ | — | — | ✅ Resuelto | Cadencia semanal acordada (Mié colaborativa + Vie seguimiento) |
+| ~~Google Form / cuestionario baseline~~ | — | — | ✅ Resuelto | Diagnóstico aplicado a los 3 Champions (01/07) |
+| ~~Douglas saturado con otras prioridades~~ | — | — | ✅ Resuelto | Calendario bloqueado Lun/Mar 14:00–15:00 (10/07) |
 
 ---
 
@@ -184,19 +186,19 @@
 | Nombre | Correo | Rol | Estado |
 |---|---|---|---|
 | Douglas Galindo | dagalindo@ujmd.edu.sv | Director + Arquitecto | ✅ Activo (L8) |
-| Patrick Eduardo Orellana A. | peorellanaa@ujmd.edu.sv | Champion Infraestructura | 🔲 Por hacer baseline |
-| Mario Edgardo Valencia C. | mevalenciac@ujmd.edu.sv | Champion Desarrollo | 🔲 Por hacer baseline |
-| Irvin Josué Morales P. | ijmoralespa@ujmd.edu.sv | Champion Soporte | 🔲 Por hacer baseline |
+| Patrick Eduardo Orellana A. | peorellanaa@ujmd.edu.sv | Champion Infraestructura | ✅ Baseline L1 · S1 certificada 10/07 |
+| Mario Edgardo Valencia C. | mevalenciac@ujmd.edu.sv | Champion Desarrollo | ✅ Baseline L1 · S1 certificada 10/07 |
+| Irvin Josué Morales P. | ijmoralespa@ujmd.edu.sv | Champion Soporte | ✅ Baseline L1 · S1 certificada 10/07 |
 
 ---
 
 ## 🔜 Próximas 5 acciones (priorizadas)
 
-1. 🔴 **Desbloquear a Patrick Orellana** — sesión de setup Hermes en su estación (red externa + OpenRouter). Vencido desde 02/07 (6 días).
-2. 🔴 **Verificar entrega de casos de uso S1** — contactar a Irvin, Mario y Patrick por Teams/correo. Prorrogar 48h si no entregaron.
-3. 🟡 **Registrar niveles baseline L1** en `learning_record/` de cada Champion — pendiente desde 01/07.
-4. 🟡 **Verificar cron job `ai-fluency-sod`** — no generó plan el 06/07 ni 07/07. Reiniciar si necesario.
-5. 🟢 **Incorporar bitácora de Sesión 0 validada** al repo (`04_herramientas/dashboards/`) — seguimiento a admin Drive.
+1. 🔴 **[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal — borrador final ya listo en Gmail (creado 10/07 noche, incluye agradecimiento por cumplir pese a inscripciones). Descartar el borrador duplicado que genere la rutina automática de las 08:00.
+2. 🔴 **[Lunes 14/07]** Arrancar S2 (Productividad personal con IA) + redefinir fecha de mini-reportes (candidata: 17/07). Bloques Lun/Mar 14:00–15:00.
+3. 🟡 **[Miércoles 15/07 · colaborativa]** Primera carga del conocimiento colectivo (C17: glosario, FAQ, lista de errores).
+4. 🟡 **[Viernes 17/07 · 07:00]** Revisar borrador de auditoría #02 (rutina automática, estrena lente especialista AI) antes del seguimiento de las 14:00.
+5. 🟡 **[Viernes 17/07 · 14:00]** Seguimiento: procesos sistematizables medidos (C19), perfil estándar por área (C20), esquema Google Workspace (C18, lidera Patrick), mini-reportes S2.
 
 ---
 

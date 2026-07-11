@@ -12,7 +12,7 @@
 | Mario Valencia | Desarrollo | ✅ | ✅ | ✅ | [mario_valencia.md](mario_valencia.md) |
 | Patrick Orellana | Infraestructura | ✅ | ✅ | ✅ | [patrick_orellana.md](patrick_orellana.md) |
 
-*Confirmado en la reunión de seguimiento del 10/07 (Sesión 18): los 3 Champions entregaron evidencia de haber completado al 100% y a satisfacción las guías individuales. ⚠️ Actualización de la tarde: al revisar el documento real de Irvin, esto no se sostiene para él — ver detalle abajo.*
+*Confirmado en la reunión de seguimiento del 10/07 (Sesión 18): los 3 Champions entregaron evidencia de haber completado al 100% y a satisfacción las guías individuales. ⚠️ Actualización de la tarde: al revisar el documento real de Irvin, esto no se sostenía para él. ✅ Resuelto la misma noche: segunda entrega de Irvin verificada — ver detalle abajo.*
 
 ---
 
@@ -20,13 +20,15 @@
 
 | Champion | Caso ancla (obligatorio) | Casos 2–3 (si aplica) | Reflexión Día 7 | Veredicto |
 |---|---|---|---|---|
-| Irvin Morales | ⚠️ Incompleto | — | ⚠️ No | ⚠️ **Pendiente** (revertido de "Verificado" tras revisar documento real, 10/07 tarde) |
+| Irvin Morales | ✅ ("EQUIPO NO ENCIENDE") | — | ✅ | ✅ **Verificado** (10/07 noche, segunda entrega revisada contra documento real) |
 | Mario Valencia | ✅ | — | ✅ | ✅ **Verificado** (10/07) |
 | Patrick Orellana | ✅ | — | ✅ | ✅ **Verificado** (10/07) |
 
 **✅ Resultado de la reunión de seguimiento (10/07):** los 3 Champions presentaron evidencia de cierre 100% a satisfacción de sus guías individuales. Para Patrick, esto **supera** el veredicto "incompleto" registrado en la revisión previa del mismo día (ver detalle histórico en `patrick_orellana.md` — no se borra, queda como antecedente).
 
-**⚠️ Corrección de la tarde (10/07):** al revisar el documento real de Irvin en Drive, no contiene el caso ancla (Día 6) ni la reflexión (Día 7) — solo práctica Día 1-2 + notas de una reunión con DIT. Se revierte su veredicto a "Pendiente" y se le envió correo pidiendo completar el mismo documento (ver `irvin_morales.md` y `04_herramientas/agendas/2026-07-10_email_irvin_completar_evidencia.md`). Mario y Patrick sí quedan verificados con documento real revisado.
+**⚠️ Corrección de la tarde (10/07):** al revisar el documento real de Irvin en Drive, no contenía el caso ancla (Día 6) ni la reflexión (Día 7) — solo práctica Día 1-2 + notas de una reunión con DIT. Se revirtió su veredicto a "Pendiente" y se le envió correo pidiendo completar el mismo documento (ver `irvin_morales.md` y `04_herramientas/agendas/2026-07-10_email_irvin_completar_evidencia.md`).
+
+**✅ Cierre de la noche (10/07):** Irvin entregó una segunda versión en Drive (`Sesion practica de los prompt de la guia version 2`), revisada contra el documento real: caso ancla Día 6 completo ("EQUIPO NO ENCIENDE") + reflexión Día 7 con las 4 preguntas contestadas. **C14 cierra 3/3.** Observaciones no bloqueantes (2 campos de plantilla sin personalizar, prompt del ancla básico, reforzar flujo comentador→Aprobar sin PDF) documentadas en `irvin_morales.md` como coaching para S2.
 
 **✅ Nota de criterio — RESUELTA (10/07, I1 de la auditoría #01):** el criterio verificable de S1 es **1 caso ancla completo + reflexión Día 7** (lo que comunicaban las guías operativas). Los "3 casos" del Roadmap quedan como meta acumulada S1+S2 — ver aclaración en `01_piloto/Roadmap_AI_Fluency_UJMD.md` y la decisión en `ESTADO_PROYECTO.md`.
 

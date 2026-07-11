@@ -31,10 +31,10 @@
 | Hoy (última actualización) | 2026-07-10 |
 | Días desde inicio | 10 días |
 | Fase actual | **FASE 1 — Piloto Champions** 🟡 reactivada (reunión Sesión 18 ejecutada 10/07) |
-| Semana de proyecto | S1 cerrada 2/3 (Mario ✅ Patrick ✅ Irvin pendiente) · S2 arranca lunes 14/07 |
+| Semana de proyecto | S1 cerrada 3/3 ✅ (Mario ✅ Patrick ✅ Irvin ✅ 10/07 noche) · S2 arranca lunes 14/07 |
 | Mes de proyecto | M1 |
-| Próximo hito | Arranque de S2 + envío email de cierre (borrador automático en Gmail) — lunes 14/07 |
-| Días hasta próximo hito | 4 (fin de semana de por medio) |
+| Próximo hito | Envío email de cierre (borrador final ya en Gmail, 10/07 noche) — lunes 13/07 · Arranque de S2 — 14/07 |
+| Días hasta próximo hito | 3 (fin de semana de por medio) |
 
 ### Calendario de fases
 
@@ -50,13 +50,13 @@
 
 ## 📍 FASE ACTUAL — FASE 1: Piloto Champions
 
-**Estado:** 🟡 EN CURSO — reactivada en Sesión 18 (10/07); S1 cerrada 2/3, S2 arranca lunes 14/07  
+**Estado:** 🟡 EN CURSO — reactivada en Sesión 18 (10/07); S1 cerrada 3/3 ✅, S2 arranca lunes 14/07  
 **Ventana:** 2026-07-01 → 2026-07-31  
 **Objetivo:** Activar a los 4 Champions, establecer rutinas de uso de IA, completar diagnóstico baseline e itinerarios personalizados.
-**Progreso global:** ~30% estimado al 10/07 (base: S1 verificada 2/3 con documento real, Sesión 18 ejecutada con 4 decisiones y 3 compromisos nuevos, S2 lista para arrancar el 14/07; era ~19% al 07/07)
+**Progreso global:** ~33% estimado al 10/07 noche (base: S1 verificada 3/3 con documento real, Sesión 18 ejecutada con 4 decisiones y 3 compromisos nuevos, S2 lista para arrancar el 14/07; era ~19% al 07/07)
 
 > **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
-> 🟡 **S1 (Fundamentos y nivelación): 2/3 Champions cerrados, Irvin pendiente.** Mario y Patrick verificados con documento real revisado (10/07). Irvin fue validado verbalmente en la reunión pero su documento real no contiene caso ancla ni reflexión — revertido a pendiente, correo enviado pidiendo completar. **S2 (Productividad personal) debió arrancar 08/07 y sigue sin evidencia de ejecución.** Mini-reportes de S2 vencen 14/07.
+> ✅ **S1 (Fundamentos y nivelación): CERRADA 3/3.** Mario y Patrick verificados con documento real revisado (10/07). Irvin, revertido a pendiente en la tarde, entregó segunda versión la misma noche — verificada contra documento real: caso ancla + reflexión completos. **S2 (Productividad personal) arranca lunes 14/07.** Mini-reportes de S2: fecha por redefinir (la original 14/07 coincide con el arranque).
 
 ### Checklist de Fase 0
 
@@ -122,9 +122,9 @@
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
-| C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | 🟡 PARCIAL (10/07 tarde) — Mario y Patrick ✅ COMPLETADO, Irvin ⚠️ PENDIENTE | Mario y Patrick verificados con documento real en Drive (Patrick completó en la reunión lo que faltaba de la mañana). Irvin fue validado verbalmente en la reunión, pero su documento real (Drive) solo tiene práctica Día 1-2 + notas de reunión con DIT — sin caso ancla ni reflexión. Revertido a pendiente; correo enviado pidiendo completar. Detalle en `01_piloto/learning_record/` |
+| C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
 | C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado 2026-07-14 | 🟡 ARRANCA LUNES 14/07 | Acordado en Sesión 18. ⚠️ Nota: los mini-reportes "vencen 14/07" (fecha original del Roadmap) pero S2 arranca ese mismo día — fecha de mini-reportes por redefinir (candidata natural: viernes 17/07, reunión de seguimiento) |
-| C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados, Irvin pendiente documentado) |
+| C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
 | C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 PLANTILLAS CREADAS (10/07), vacías | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
 
 ### Compromisos Semana 3 (julio 15–21) — anunciados en Bloque 5 de la Sesión 18 (10/07)
@@ -143,9 +143,9 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo) — actualizado al cierre del 10/07
 
-1. **[Viernes 10/07 – lunes 13/07]** Verificar que Irvin complete su documento en Drive (caso ancla Día 6 + reflexión Día 7). Correo enviado + conversación personal hechos. **Revisar el documento real antes de re-certificar** — no dar por cerrado con confirmación verbal.
+1. ~~**[Viernes 10/07 – lunes 13/07]** Verificar que Irvin complete su documento en Drive~~ ✅ **RESUELTO (10/07 noche)** — segunda entrega revisada contra documento real; C14 cierra 3/3. Queda: dar "Aprobar" en Drive al documento de Irvin y reforzar el flujo comentador→Aprobar (sin PDF) en S2.
 
-2. **[Lunes 13/07 · 08:00]** Revisar y enviar el email de cierre grupal — el borrador se genera automáticamente en Gmail a las 08:00 (rutina trig_01Txst9M2nTv3PyctNpPL4z4). Solo revisar y dar enviar.
+2. **[Lunes 13/07 · 08:00]** Revisar y enviar el email de cierre grupal — el borrador se genera automáticamente en Gmail a las 08:00 (rutina trig_01Txst9M2nTv3PyctNpPL4z4). Solo revisar y dar enviar. ✅ Con Irvin cerrado ya no hay motivo de retención; opcional: ajustar la frase sobre Irvin en el borrador antes de enviar (ya cerró S1).
 
 3. **[Lunes 14/07]** Arrancar S2 (Productividad personal con IA) — taller de prompting aplicado a los casos identificados. Usar los bloques de calendario nuevos (Lun/Mar 14:00–15:00). ⚠️ Redefinir fecha de mini-reportes S2 (la original 14/07 coincide con el arranque — candidata: 17/07).
 
@@ -168,13 +168,13 @@
 
 | Bloqueo | Impacto | Desbloqueador |
 |---|---|---|
-| **Evidencia S1 de Irvin no respalda lo validado verbalmente** | C14 no cierra al 100% para el piloto; riesgo de repetir el mismo gap que tuvo Patrick en la mañana | Correo enviado + conversación personal (10/07) pidiendo completar caso ancla (Día 6) + reflexión (Día 7) en el mismo documento de Drive. Revisar documento real antes de re-certificar |
 | **Fecha de mini-reportes S2 por redefinir** | La fecha original (14/07) coincide con el arranque acordado de S2 — imposible de cumplir tal como está escrita | Redefinir el lunes al arrancar S2 (candidata natural: viernes 17/07, reunión de seguimiento) |
 
 **Resueltos:**
 
 | Bloqueo | Resolución |
 |---|---|
+| Evidencia S1 de Irvin no respaldaba lo validado verbalmente | ✅ Resuelto (10/07 noche) — Irvin entregó segunda versión en Drive; revisada contra documento real: caso ancla + reflexión completos. C14 cierra 3/3 |
 | S2 no arrancó el 08/07 | ✅ Resuelto (10/07, Sesión 18) — arranque acordado: lunes 14/07 |
 | Douglas saturado con otras prioridades / sin 2h semana bloqueadas | ✅ Resuelto (10/07) — evento recurrente creado en Google Calendar: Lunes y Martes 14:00-15:00, todas las semanas mientras dure Fase 1 (corte automático 31/07). 6 instancias confirmadas (13,14,20,21,27,28/07) |
 | S1 sin entregables verificados — Mario y Patrick (3 días de atraso) | ✅ Resuelto (10/07) — documento real revisado en Drive, caso ancla + reflexión completos para ambos |
@@ -213,6 +213,23 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | C14 CERRADO 3/3 — segunda entrega de Irvin verificada (noche)
+  ✓ Irvin entregó documento nuevo en Drive ("Sesion practica de los prompt de la guia version 2");
+    espejo local PDF (9 págs.) en `01_piloto/evidencia_piloto/irvin_morales/`. Revisado contra documento
+    real (no validación verbal): caso ancla Día 6 completo ("EQUIPO NO ENCIENDE — Mesa de Servicios",
+    Hermes + OpenRouter/Groq, plantilla llena) + reflexión Día 7 con las 4 preguntas contestadas.
+  ✓ Destaca en la reflexión: detectó un incumplimiento de Hermes en tarea verificable (ordenar archivos
+    dd/mm/aaaa) y adoptó el hábito de verificar resultados — su bloqueo baseline era Confianza/Seguridad.
+    Autorreporta L1 con justificación honesta. Plan S2 con criterio de riesgo (canales de comunicación
+    primero; pospone equipos en producción por seguridad/privacidad).
+  ✓ Actualizados SOLO los registros de Irvin: learning_record/irvin_morales.md (veredicto ✅ + firma),
+    _dashboard.md (su fila C14), banner de su guía en docs/. Mario y Patrick intactos (veredictos 10/07).
+  ⚠️ Observaciones no bloqueantes para coaching S2: 2 campos de plantilla sin personalizar (tiempo
+    ahorrado con texto de ejemplo, "¿lo usaré de nuevo?" sin marcar), prompt del ancla más básico que lo
+    demostrado el Día 1, y entrega como documento nuevo en vez del flujo comentador→Aprobar sin PDF.
+  → Pendientes derivados: dar "Aprobar" en Drive al documento; el email de cierre grupal retenido ya
+    puede liberarse el lunes 13/07 (ajustar la frase sobre Irvin en el borrador de Gmail antes de enviar).
+
 2026-07-10 | Guías S1 publicadas: estado real + archivo de referencia para futuras cohortes
   ✓ Las 3 guías en docs/ (GitHub Pages) ahora llevan banner de estado al tope: Mario y Patrick
     "✅ COMPLETADA Y VERIFICADA 10/07" (con su caso ancla nombrado); Irvin "🟡 EN CIERRE DE VALIDACIÓN"

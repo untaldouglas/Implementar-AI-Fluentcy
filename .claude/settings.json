@@ -17,7 +17,10 @@
       "Skill(schedule)",
       "Skill(schedule:*)",
       "Bash(gh repo *)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://github.com/untaldouglas/Implementar-AI-Fluentcy)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://github.com/untaldouglas/Implementar-AI-Fluentcy)",
+      "Bash(mdls -name kMDItemNumberOfPages \"Sesion practica de los prompt de la guia version 2.pdf\")",
+      "Bash(python3 -c ' *)",
+      "mcp__claude_ai_Gmail__create_draft"
     ]
   }
 }

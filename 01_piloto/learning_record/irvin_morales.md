@@ -33,12 +33,12 @@
 
 | # | Título del caso de uso | Dónde vive la evidencia | Fecha de entrega | Veredicto verificación | Notas |
 |---|---|---|---|---|---|
-| 1 (ancla, obligatorio) | Práctica Día 1–2 (comparación Prompt A/B + ticket real) + notas de reunión con DIT sobre perfiles de Hermes — **sin caso ancla Día 6 ni reflexión Día 7** | ☑ Google Drive (`AIFluency_Irvin_Practica_Dia1-2_NotasPerfilesHermesDIT.docx`) | 2026-07-10 | ⚠️ **Incompleto** (ver revisión abajo) | Douglas había confirmado en la reunión que la evidencia cumplía al 100% a satisfacción; al revisar el documento real, falta el caso ancla (Día 6) y la reflexión (Día 7) que sí entregaron Mario y Patrick |
+| 1 (ancla, obligatorio) | **"EQUIPO NO ENCIENDE — Mesa de Servicios UJMD"** (respuesta guiada al usuario con Hermes + OpenRouter/Groq; plantilla Día 6 completa) | ☑ Google Drive (`Sesion practica de los prompt de la guia version 2`) · espejo local en `01_piloto/evidencia_piloto/irvin_morales/` (PDF, 9 págs.) | 2026-07-10 (noche, segunda entrega) | ✅ **Verificado** (documento real revisado, 10/07 noche) | El documento nuevo incluye además práctica Días 1–5 (Prompt A/B, ticket AD real anonimizado, modo interactivo, SOUL, banco de respuestas), perfil `Testprofile` creado y la limitante documentada de API Key en ERPNext |
 | 2 (si aplica) | _(no especificado en la reunión)_ | | | | |
 | 3 (si aplica) | _(no especificado en la reunión)_ | | | | |
 
-**Reflexión final (Día 7) recibida:** ⚠️ No (el documento no la contiene, pese a haberse confirmado verbalmente en la reunión)
-**C14 — resultado de verificación para este Champion:** ⚠️ **Pendiente** — revertido de "Verificado" tras revisar el documento real (10/07 tarde). Se envió correo a Irvin pidiendo completar el mismo documento en Drive con caso ancla + reflexión.
+**Reflexión final (Día 7) recibida:** ✅ Sí — 4 preguntas contestadas con sustancia (ver revisión de la noche abajo). Autorreporta **L1** con justificación honesta ("semana de familiarización y bases").
+**C14 — resultado de verificación para este Champion:** ✅ **Verificado** (10/07 noche) — segunda entrega revisada contra documento real; cumple el criterio S1 (1 caso ancla + reflexión). El histórico de la reversión de la tarde se conserva abajo.
 
 ### Revisión 2026-07-10 (tarde) — documento real vs. lo validado verbalmente
 
@@ -47,6 +47,22 @@ En la reunión de las 14:00 se validó verbalmente que los 3 Champions cerraron 
 **Acción tomada:** correo enviado a Irvin (ver `04_herramientas/agendas/2026-07-10_email_irvin_completar_evidencia.md`) pidiendo completar el mismo documento en Drive con el caso ancla y la reflexión, usando el flujo acordado hoy (comentador → Aprobar). Douglas además conversó personalmente con él sobre el caso el mismo día. Queda pendiente que Irvin actualice el documento en Drive.
 
 **Veredicto actualizado:** ⚠️ Pendiente — C14 no cierra para Irvin hasta que complete el documento.
+
+### Revisión 2026-07-10 (noche) — segunda entrega verificada ✅
+
+Irvin entregó un documento nuevo en Drive (`Sesion practica de los prompt de la guia version 2`), revisado contra el documento real (espejo local PDF, 9 páginas). **Cumple el criterio S1:**
+
+- **Caso ancla (Día 6):** ✅ plantilla presente y llena — Título ("EQUIPO NO ENCIENDE — Mesa de Servicios UJMD"), problema manual (~15 min), herramienta (Hermes + OpenRouter/Groq), prompt principal, resultado completo (respuesta profesional de 3 pasos + escalamiento) y ajustes ("bien redactado, no apliqué cambios").
+- **Reflexión (Día 7):** ✅ las 4 preguntas contestadas. Destaca la #2: detectó que Hermes no cumplió una tarea de ordenamiento de archivos (`dd/mm/aaaa`) y ahora **verifica los datos después de cada tarea** — exactamente el hábito que su bloqueo de diagnóstico (Confianza/Seguridad) necesitaba desarrollar. En #3 muestra criterio de riesgo: empieza S2 por gestión de canales de comunicación y pospone deliberadamente centros de cómputo/equipos en producción por variables de seguridad y privacidad.
+- **Extra:** práctica Días 3–5 (modo interactivo, SOUL, banco de respuestas), perfil `Testprofile` con API de modelos Google, y limitante documentada: sin privilegios para crear API Key en ERPNext ni acceso a un MCP de esa plataforma (insumo útil para C18/C19).
+
+**Observaciones no bloqueantes (coaching para S2):**
+
+1. Dos campos de la plantilla quedaron sin personalizar: "Tiempo ahorrado estimado" conserva el texto de ejemplo (`ej: 15 min × 5 = 75 min`) y "¿Lo usaré de nuevo?" quedó sin marcar.
+2. El prompt principal del caso ancla ("Solicito ayuda con mi equipo no enciende") es más básico que lo que él mismo demostró el Día 1 con su prompt estructurado del ticket de contraseña AD; el escenario replica el ejemplo de la guía en lugar de un ticket propio.
+3. Metodología de entrega (Bloque 5, 10/07): el nombre del documento es mejorable y la entrega fue un documento nuevo en vez de completar el mismo con flujo comentador → "Aprobar" en Drive. Reforzar el flujo acordado a partir de S2.
+
+**Veredicto final:** ✅ **S1 cerrada para Irvin** — C14 cierra 3/3 para el piloto.
 
 ---
 
@@ -64,12 +80,12 @@ En la reunión de las 14:00 se validó verbalmente que los 3 Champions cerraron 
 
 | Criterio | Estado |
 |---|---|
-| Evidencia S1 revisada | ✅ (revisión de documento real, 10/07 tarde) |
-| Nivel autorreportado coincide con evidencia | ⬜ — pendiente hasta recibir reflexión Día 7 |
-| Sin bloqueos abiertos | ⬜ — pendiente que Irvin complete el documento |
+| Evidencia S1 revisada | ✅ (revisión de documento real: tarde 1ª versión incompleta, noche 2ª versión completa — 10/07) |
+| Nivel autorreportado coincide con evidencia | ✅ — autorreporta L1 con justificación; consistente con la evidencia (Mario y Patrick autorreportaron L1.5) |
+| Sin bloqueos abiertos | ✅ — documento completado; queda solo coaching de metodología de entrega para S2 |
 
-**Firma Douglas:** ⬜ — pendiente de completar evidencia
-**Fecha de última revisión:** 2026-07-10 (reunión 14:00, revertido tras revisión de documento real la tarde del mismo día)
+**Firma Douglas:** ✅ 2026-07-10 (noche) — resolución tras revisión asistida del documento real
+**Fecha de última revisión:** 2026-07-10 (noche) — segunda entrega verificada; histórico de la reversión de la tarde conservado arriba
 
 ---
 
