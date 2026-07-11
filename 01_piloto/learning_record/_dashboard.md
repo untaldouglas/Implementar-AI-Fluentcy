@@ -48,7 +48,7 @@
 
 ## Mini-reportes S2 (Productividad personal con IA)
 
-> ⚠️ La fecha original (14/07) coincide con el arranque acordado de S2 — por redefinir al arrancar el lunes (candidata: viernes 17/07). Ver bloqueo en `ESTADO_PROYECTO.md`.
+> ⚠️ La fecha original (14/07) cae al día siguiente del arranque de S2 (lunes 13/07) — por redefinir al arrancar el lunes (candidata: viernes 17/07). Ver bloqueo en `ESTADO_PROYECTO.md`.
 
 | Champion | Recibido | Fecha |
 |---|---|---|

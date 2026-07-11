@@ -4,7 +4,7 @@
 |---|---|
 | Para | Irvin Morales, Mario Valencia, Patrick Orellana |
 | De | Douglas A. Galindo |
-| Fecha de envío | ✅ **Borrador final ya creado en Gmail** (10/07 noche, id `r-6924835068692827408`) — Douglas lo revisa y envía el lunes 13/07 al inicio de jornada. ⚠️ La rutina automática del lunes 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4) generará un segundo borrador con el texto viejo: **descartarlo y usar este**. |
+| Fecha de envío | ✅ **Borrador final ya creado en Gmail** (10/07 noche, id `r6361792857413696276`, v3 con fecha S2 corregida: lunes 13/07) — Douglas lo revisa y envía el lunes 13/07 al inicio de jornada. ⚠️ En Gmail hay que **descartar los otros dos borradores**: el v2 de las ~19:00 (id `r-6924835068692827408`, decía "S2 arranca lunes 14/07") y el que genere la rutina automática del lunes 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4, texto viejo). |
 | Asunto | AI Fluency · S1 cerrada 3/3 🏁 + acuerdos de la reunión de seguimiento 10/07 |
 
 > Estructura acordada en la propia reunión (Bloque 5): resumen de acuerdos, acciones por Champion, recordatorio de próxima reunión, pregunta final grupal.
@@ -36,7 +36,7 @@ Con la entrega de Irvin del viernes por la noche, la **Semana 1 (Fundamentos y n
   - **Glosario del dominio** "Uso de Agentes AI" / "AIFluent" → **hoja electrónica**.
   - **FAQ's** del dominio → **documento**.
   - **Lista de errores más frecuentes** → **documento**.
-- **S2 (Productividad personal con IA) arranca el lunes 14/07.** La fecha de los mini-reportes se confirma ese mismo lunes al arrancar (propuesta: viernes 17/07, en el seguimiento).
+- **S2 (Productividad personal con IA) arranca el lunes 13/07.** La fecha de los mini-reportes se confirma ese mismo lunes al arrancar (propuesta: viernes 17/07, en el seguimiento).
 
 ## Acciones por Champion (para la próxima semana)
 

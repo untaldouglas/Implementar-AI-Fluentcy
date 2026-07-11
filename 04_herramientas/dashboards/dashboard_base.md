@@ -8,7 +8,7 @@
 
 **Progreso actual:** ███░░░░░░░ ~22-33%  *(actualizado 10/07/2026 noche — S1 cerrada 3/3 ✅)*  
 **Día del proyecto:** #10 (desde 01/07/2026)  
-**Fase actual:** Fase 1 — Piloto Champions · S1 cerrada 3/3 ✅ · S2 arranca 14/07  
+**Fase actual:** Fase 1 — Piloto Champions · S1 cerrada 3/3 ✅ · S2 arranca lunes 13/07  
 **Dedicación del Director:** ~2h/semana + trabajo asincrónico · ✅ calendario bloqueado Lun/Mar 14–15h  
 **Última actualización:** 10/07/2026 noche — cierre de semana en limpio (consolidación semanal de viernes)
 
@@ -34,7 +34,7 @@
 | # | Semana | Estado | Entregable | Observaciones |
 |---|---|---|---|---|
 || 1.1 | S1: Fundamentos y nivelación | ✅ CERRADA 3/3 (10/07 noche) | 1 caso ancla + reflexión por Champion (I1 resuelto) | ✅ 100% — Mario ✅ Patrick ✅ Irvin ✅ (verificados con documento real) |
-|| 1.2 | S2: Productividad personal con IA | 🟡 ARRANCA 14/07 | Mini-reporte por piloto (fecha por redefinir) | Calendario bloqueado Lun/Mar 14–15h |
+|| 1.2 | S2: Productividad personal con IA | 🟡 ARRANCA LUNES 13/07 | Mini-reporte por piloto (fecha por redefinir) | Calendario bloqueado Lun/Mar 14–15h |
 | 1.3 | S3: Construcción de agentes con Hermes Agent | 🔲 | 1 agente funcional por área | Core del piloto |
 | 1.4 | S4: Demo Day + lecciones aprendidas | 🔲 | 3 agentes + 3 mini-guías + informe | Fecha 31/07 en riesgo |
 
@@ -145,7 +145,7 @@
 | Riesgo | Prob. | Impacto | Estado | Mitigación |
 |---|---|---|---|---|
 | Saturación del equipo por inicio de inscripción del nuevo semestre | Alta | Alto | 🟡 | Reconocimiento explícito (email de cierre 13/07) + metas S2 acotadas; monitorear carga en seguimiento 17/07 |
-| Fecha de mini-reportes S2 por redefinir (la original 14/07 coincide con el arranque) | Alta | Medio | 🟡 | Redefinir el lunes 14/07 al arrancar S2 (candidata: viernes 17/07) |
+| Fecha de mini-reportes S2 por redefinir (la original 14/07 cae al día siguiente del arranque) | Alta | Medio | 🟡 | Redefinir el lunes 13/07 al arrancar S2 (candidata: viernes 17/07) |
 | Fecha Demo Day 31/07 en riesgo si S2-S3 se comprimen | Media | Alto | 🟡 | Auditoría semanal (viernes) monitorea el ritmo; consolidación pre-Demo Day en auditoría #04 |
 | ~~Champions sin 2h/semana asignadas~~ | — | — | ✅ Resuelto | Cadencia semanal acordada (Mié colaborativa + Vie seguimiento) |
 | ~~Google Form / cuestionario baseline~~ | — | — | ✅ Resuelto | Diagnóstico aplicado a los 3 Champions (01/07) |
@@ -195,7 +195,7 @@
 ## 🔜 Próximas 5 acciones (priorizadas)
 
 1. 🔴 **[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal — borrador final ya listo en Gmail (creado 10/07 noche, incluye agradecimiento por cumplir pese a inscripciones). Descartar el borrador duplicado que genere la rutina automática de las 08:00.
-2. 🔴 **[Lunes 14/07]** Arrancar S2 (Productividad personal con IA) + redefinir fecha de mini-reportes (candidata: 17/07). Bloques Lun/Mar 14:00–15:00.
+2. 🔴 **[Lunes 13/07]** Arrancar S2 (Productividad personal con IA) + redefinir fecha de mini-reportes (candidata: 17/07). Bloques Lun/Mar 14:00–15:00.
 3. 🟡 **[Miércoles 15/07 · colaborativa]** Primera carga del conocimiento colectivo (C17: glosario, FAQ, lista de errores).
 4. 🟡 **[Viernes 17/07 · 07:00]** Revisar borrador de auditoría #02 (rutina automática, estrena lente especialista AI) antes del seguimiento de las 14:00.
 5. 🟡 **[Viernes 17/07 · 14:00]** Seguimiento: procesos sistematizables medidos (C19), perfil estándar por área (C20), esquema Google Workspace (C18, lidera Patrick), mini-reportes S2.

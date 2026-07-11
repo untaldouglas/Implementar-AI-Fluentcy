@@ -31,9 +31,9 @@
 | Hoy (última actualización) | 2026-07-10 |
 | Días desde inicio | 10 días |
 | Fase actual | **FASE 1 — Piloto Champions** 🟡 reactivada (reunión Sesión 18 ejecutada 10/07) |
-| Semana de proyecto | S1 cerrada 3/3 ✅ (Mario ✅ Patrick ✅ Irvin ✅ 10/07 noche) · S2 arranca lunes 14/07 |
+| Semana de proyecto | S1 cerrada 3/3 ✅ (Mario ✅ Patrick ✅ Irvin ✅ 10/07 noche) · S2 arranca lunes 13/07 |
 | Mes de proyecto | M1 |
-| Próximo hito | Envío email de cierre (borrador final ya en Gmail, 10/07 noche) — lunes 13/07 · Arranque de S2 — 14/07 |
+| Próximo hito | Lunes 13/07: envío email de cierre (borrador final ya en Gmail) + arranque de S2 |
 | Días hasta próximo hito | 3 (fin de semana de por medio) |
 
 ### Calendario de fases
@@ -50,13 +50,13 @@
 
 ## 📍 FASE ACTUAL — FASE 1: Piloto Champions
 
-**Estado:** 🟡 EN CURSO — reactivada en Sesión 18 (10/07); S1 cerrada 3/3 ✅, S2 arranca lunes 14/07  
+**Estado:** 🟡 EN CURSO — reactivada en Sesión 18 (10/07); S1 cerrada 3/3 ✅, S2 arranca lunes 13/07  
 **Ventana:** 2026-07-01 → 2026-07-31  
 **Objetivo:** Activar a los 4 Champions, establecer rutinas de uso de IA, completar diagnóstico baseline e itinerarios personalizados.
-**Progreso global:** ~33% estimado al 10/07 noche (base: S1 verificada 3/3 con documento real, Sesión 18 ejecutada con 4 decisiones y 3 compromisos nuevos, S2 lista para arrancar el 14/07; era ~19% al 07/07)
+**Progreso global:** ~33% estimado al 10/07 noche (base: S1 verificada 3/3 con documento real, Sesión 18 ejecutada con 4 decisiones y 3 compromisos nuevos, S2 lista para arrancar el lunes 13/07; era ~19% al 07/07)
 
 > **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
-> ✅ **S1 (Fundamentos y nivelación): CERRADA 3/3.** Mario y Patrick verificados con documento real revisado (10/07). Irvin, revertido a pendiente en la tarde, entregó segunda versión la misma noche — verificada contra documento real: caso ancla + reflexión completos. **S2 (Productividad personal) arranca lunes 14/07.** Mini-reportes de S2: fecha por redefinir (la original 14/07 coincide con el arranque).
+> ✅ **S1 (Fundamentos y nivelación): CERRADA 3/3.** Mario y Patrick verificados con documento real revisado (10/07). Irvin, revertido a pendiente en la tarde, entregó segunda versión la misma noche — verificada contra documento real: caso ancla + reflexión completos. **S2 (Productividad personal) arranca lunes 13/07.** Mini-reportes de S2: fecha por redefinir (la original 14/07 cae al día siguiente del arranque — candidata: 17/07).
 
 ### Checklist de Fase 0
 
@@ -123,7 +123,7 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
-| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado 2026-07-14 | 🟡 ARRANCA LUNES 14/07 | Acordado en Sesión 18. ⚠️ Nota: los mini-reportes "vencen 14/07" (fecha original del Roadmap) pero S2 arranca ese mismo día — fecha de mini-reportes por redefinir (candidata natural: viernes 17/07, reunión de seguimiento) |
+| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 ARRANCA LUNES 13/07 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. ⚠️ Nota: los mini-reportes "vencen 14/07" (fecha original del Roadmap) — un día después del arranque, imposible; fecha por redefinir (candidata natural: viernes 17/07, reunión de seguimiento) |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
 | C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 PLANTILLAS CREADAS (10/07), vacías | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
 
@@ -145,9 +145,9 @@
 
 1. ~~**[Viernes 10/07 – lunes 13/07]** Verificar que Irvin complete su documento en Drive~~ ✅ **RESUELTO (10/07 noche)** — segunda entrega revisada contra documento real; C14 cierra 3/3. Queda: dar "Aprobar" en Drive al documento de Irvin y reforzar el flujo comentador→Aprobar (sin PDF) en S2.
 
-2. **[Lunes 13/07 · 08:00]** Revisar y enviar el email de cierre grupal — el borrador se genera automáticamente en Gmail a las 08:00 (rutina trig_01Txst9M2nTv3PyctNpPL4z4). Solo revisar y dar enviar. ✅ Con Irvin cerrado ya no hay motivo de retención; opcional: ajustar la frase sobre Irvin en el borrador antes de enviar (ya cerró S1).
+2. **[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal — el **borrador final ya está en Gmail** (v3, 10/07 noche, con S1 3/3 + agradecimiento + fecha S2 correcta). Descartar los otros dos borradores: el v2 de las ~19:00 y el que genere la rutina automática de las 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4, texto viejo).
 
-3. **[Lunes 14/07]** Arrancar S2 (Productividad personal con IA) — taller de prompting aplicado a los casos identificados. Usar los bloques de calendario nuevos (Lun/Mar 14:00–15:00). ⚠️ Redefinir fecha de mini-reportes S2 (la original 14/07 coincide con el arranque — candidata: 17/07).
+3. **[Lunes 13/07]** Arrancar S2 (Productividad personal con IA) — taller de prompting aplicado a los casos identificados. Usar los bloques de calendario nuevos (Lun/Mar 14:00–15:00). ⚠️ Redefinir fecha de mini-reportes S2 (la original 14/07 cae al día siguiente del arranque — candidata: 17/07).
 
 4. **[Miércoles 15/07 · colaborativa]** Primera carga de los 3 artefactos de conocimiento colectivo (C17: glosario en hoja electrónica, FAQ y lista de errores en documento).
 
@@ -168,14 +168,14 @@
 
 | Bloqueo | Impacto | Desbloqueador |
 |---|---|---|
-| **Fecha de mini-reportes S2 por redefinir** | La fecha original (14/07) coincide con el arranque acordado de S2 — imposible de cumplir tal como está escrita | Redefinir el lunes al arrancar S2 (candidata natural: viernes 17/07, reunión de seguimiento) |
+| **Fecha de mini-reportes S2 por redefinir** | La fecha original (14/07) cae al día siguiente del arranque de S2 (lunes 13/07) — imposible de cumplir tal como está escrita | Redefinir el lunes 13/07 al arrancar S2 (candidata natural: viernes 17/07, reunión de seguimiento) |
 
 **Resueltos:**
 
 | Bloqueo | Resolución |
 |---|---|
 | Evidencia S1 de Irvin no respaldaba lo validado verbalmente | ✅ Resuelto (10/07 noche) — Irvin entregó segunda versión en Drive; revisada contra documento real: caso ancla + reflexión completos. C14 cierra 3/3 |
-| S2 no arrancó el 08/07 | ✅ Resuelto (10/07, Sesión 18) — arranque acordado: lunes 14/07 |
+| S2 no arrancó el 08/07 | ✅ Resuelto (10/07, Sesión 18) — arranque acordado: lunes 13/07 (fecha corregida en la noche; los docs decían "lunes 14/07" pero el lunes es 13/07) |
 | Douglas saturado con otras prioridades / sin 2h semana bloqueadas | ✅ Resuelto (10/07) — evento recurrente creado en Google Calendar: Lunes y Martes 14:00-15:00, todas las semanas mientras dure Fase 1 (corte automático 31/07). 6 instancias confirmadas (13,14,20,21,27,28/07) |
 | S1 sin entregables verificados — Mario y Patrick (3 días de atraso) | ✅ Resuelto (10/07) — documento real revisado en Drive, caso ancla + reflexión completos para ambos |
 | Bitácora Sesión 0 sin validar en Drive | ✅ Resuelto — bitácora validada por admin Drive |
@@ -213,6 +213,14 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-10 | CORRECCIÓN DE FECHA — el arranque de S2 es lunes 13/07, no "lunes 14/07"
+  ⚠️ Douglas detectó que varios documentos decían "S2 arranca lunes 14/07": el lunes próximo es 13/07
+    (el 14/07 es martes). Corregido en todos los documentos vivos (ESTADO, Dashboard_Jornada,
+    dashboard_base, learning_record/_dashboard, guías en docs/, borrador del email de cierre).
+  ✓ Borrador de Gmail regenerado con la fecha correcta — descartar los borradores anteriores
+    (el de las 19:00 y el que genere la rutina del lunes 08:00).
+  → Las entradas históricas de este log conservan "14/07" tal como se escribió en su momento.
+
 2026-07-10 | C14 CERRADO 3/3 — segunda entrega de Irvin verificada (noche)
   ✓ Irvin entregó documento nuevo en Drive ("Sesion practica de los prompt de la guia version 2");
     espejo local PDF (9 págs.) en `01_piloto/evidencia_piloto/irvin_morales/`. Revisado contra documento
