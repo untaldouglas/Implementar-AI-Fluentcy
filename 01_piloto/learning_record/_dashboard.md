@@ -48,13 +48,13 @@
 
 ## Mini-reportes S2 (Productividad personal con IA)
 
-> ⚠️ La fecha original (14/07) cae al día siguiente del arranque de S2 (lunes 13/07) — por redefinir al arrancar el lunes (candidata: viernes 17/07). Ver bloqueo en `ESTADO_PROYECTO.md`.
+> ✅ Fecha redefinida (13/07): mini-reportes de S2 vencen ahora el **viernes 17/07** (reunión de seguimiento), no el 14/07 original. Bloqueo resuelto en `ESTADO_PROYECTO.md`.
 
 | Champion | Recibido | Fecha |
 |---|---|---|
-| Irvin Morales | ⬜ | _(vence 14/07)_ |
-| Mario Valencia | ⬜ | _(vence 14/07)_ |
-| Patrick Orellana | ⬜ | _(vence 14/07)_ |
+| Irvin Morales | ⬜ | _(vence 17/07)_ |
+| Mario Valencia | ⬜ | _(vence 17/07)_ |
+| Patrick Orellana | ⬜ | _(vence 17/07)_ |
 
 ---
 

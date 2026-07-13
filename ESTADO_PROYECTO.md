@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-10 (cierre de jornada, post-Sesión 18) |
-| Actualizado por | Douglas Galindo + Claude Code (gestión de reunión Sesión 18 y revisión de consistencia) |
+| Última actualización | 2026-07-13 (inicio de jornada — arranque de S2, mini-reportes redefinidos) |
+| Actualizado por | Douglas Galindo + Claude Code |
 
 ---
 
@@ -28,13 +28,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-10 |
-| Días desde inicio | 10 días |
-| Fase actual | **FASE 1 — Piloto Champions** 🟡 reactivada (reunión Sesión 18 ejecutada 10/07) |
-| Semana de proyecto | S1 cerrada 3/3 ✅ (Mario ✅ Patrick ✅ Irvin ✅ 10/07 noche) · S2 arranca lunes 13/07 |
+| Hoy (última actualización) | 2026-07-13 |
+| Días desde inicio | 13 días |
+| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — S2 en arranque |
+| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 programada para arrancar hoy lunes 13/07, mini-reportes vencen 17/07 ✅ redefinido |
 | Mes de proyecto | M1 |
-| Próximo hito | Lunes 13/07 · 14:00: arranque de S2 (email de cierre ya enviado el 10/07 noche ✅) |
-| Días hasta próximo hito | 3 (fin de semana de por medio) |
+| Próximo hito | Viernes 17/07 · 14:00: reunión de seguimiento (mini-reportes S2, C18-C20) |
+| Días hasta próximo hito | 4 |
 
 ### Calendario de fases
 
@@ -56,7 +56,7 @@
 **Progreso global:** ~33% estimado al 10/07 noche (base: S1 verificada 3/3 con documento real, Sesión 18 ejecutada con 4 decisiones y 3 compromisos nuevos, S2 lista para arrancar el lunes 13/07; era ~19% al 07/07)
 
 > **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
-> ✅ **S1 (Fundamentos y nivelación): CERRADA 3/3.** Mario y Patrick verificados con documento real revisado (10/07). Irvin, revertido a pendiente en la tarde, entregó segunda versión la misma noche — verificada contra documento real: caso ancla + reflexión completos. **S2 (Productividad personal) arranca lunes 13/07.** Mini-reportes de S2: fecha por redefinir (la original 14/07 cae al día siguiente del arranque — candidata: 17/07).
+> ✅ **S1 (Fundamentos y nivelación): CERRADA 3/3.** Mario y Patrick verificados con documento real revisado (10/07). Irvin, revertido a pendiente en la tarde, entregó segunda versión la misma noche — verificada contra documento real: caso ancla + reflexión completos. **S2 (Productividad personal) arranca lunes 13/07.** Mini-reportes de S2: **redefinidos a viernes 17/07** (13/07 — la fecha original 14/07 caía al día siguiente del arranque).
 
 ### Checklist de Fase 0
 
@@ -123,7 +123,7 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
-| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 ARRANCA LUNES 13/07 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. ⚠️ Nota: los mini-reportes "vencen 14/07" (fecha original del Roadmap) — un día después del arranque, imposible; fecha por redefinir (candidata natural: viernes 17/07, reunión de seguimiento) |
+| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 ARRANCA LUNES 13/07 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. Mini-reportes: fecha redefinida a viernes 17/07 (13/07) — la original 14/07 caía un día después del arranque |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
 | C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 PLANTILLAS CREADAS (10/07), vacías | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
 
@@ -141,13 +141,13 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado al cierre del 10/07
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 13/07 inicio de jornada
 
 1. ~~**[Viernes 10/07 – lunes 13/07]** Verificar que Irvin complete su documento en Drive~~ ✅ **RESUELTO (10/07 noche)** — segunda entrega revisada contra documento real; C14 cierra 3/3. Documento aprobado en Drive ✅ y metodología de entrega reforzada con Irvin ✅ (10/07 noche).
 
-2. ~~**[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal~~ ✅ **ENVIADO (10/07 noche)** — Douglas lo envió el mismo viernes, antes de lo previsto. ⚠️ Queda solo un residuo: la rutina automática del lunes 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4) generará un borrador con texto viejo en Gmail — **descartarlo sin enviar** (el email real ya salió).
+2. ~~**[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal~~ ✅ **ENVIADO (10/07 noche)** — Douglas lo envió el mismo viernes, antes de lo previsto. ⚠️ Residuo confirmado hoy 13/07: la rutina automática de las 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4) generó el borrador viejo esperado en Gmail — **descartarlo sin enviar** (el email real ya salió).
 
-3. **[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — primera sesión de la semana 2 en el bloque de calendario de las 14:00–15:00: taller de prompting aplicado a los casos identificados. En esa misma sesión, acordar con los Champions la nueva fecha de los mini-reportes de S2 (la original 14/07 es imposible — candidata: viernes 17/07).
+3. **[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — primera sesión de la semana 2 en el bloque de calendario de las 14:00–15:00: taller de prompting aplicado a los casos identificados. ✅ Mini-reportes de S2 ya redefinidos a viernes 17/07 (decidido hoy, antes de la sesión).
 
 4. **[Miércoles 15/07 · colaborativa]** Primera carga de los 3 artefactos de conocimiento colectivo (C17: glosario en hoja electrónica, FAQ y lista de errores en documento).
 
@@ -166,14 +166,13 @@
 
 ## 🚧 BLOQUEOS IDENTIFICADOS
 
-| Bloqueo | Impacto | Desbloqueador |
-|---|---|---|
-| **Fecha de mini-reportes S2 por redefinir** | La fecha original (14/07) cae al día siguiente del arranque de S2 (lunes 13/07) — imposible de cumplir tal como está escrita | Redefinir el lunes 13/07 al arrancar S2 (candidata natural: viernes 17/07, reunión de seguimiento) |
+Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07.
 
 **Resueltos:**
 
 | Bloqueo | Resolución |
 |---|---|
+| Fecha de mini-reportes S2 por redefinir | ✅ Resuelto (13/07, inicio de jornada) — redefinida a viernes 17/07; la original (14/07) caía al día siguiente del arranque de S2 |
 | Evidencia S1 de Irvin no respaldaba lo validado verbalmente | ✅ Resuelto (10/07 noche) — Irvin entregó segunda versión en Drive; revisada contra documento real: caso ancla + reflexión completos. C14 cierra 3/3 |
 | S2 no arrancó el 08/07 | ✅ Resuelto (10/07, Sesión 18) — arranque acordado: lunes 13/07 (fecha corregida en la noche; los docs decían "lunes 14/07" pero el lunes es 13/07) |
 | Douglas saturado con otras prioridades / sin 2h semana bloqueadas | ✅ Resuelto (10/07) — evento recurrente creado en Google Calendar: Lunes y Martes 14:00-15:00, todas las semanas mientras dure Fase 1 (corte automático 31/07). 6 instancias confirmadas (13,14,20,21,27,28/07) |
@@ -213,6 +212,21 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-13 | INICIO DE JORNADA — sync con remoto + mini-reportes S2 redefinidos
+  ✓ Repo local estaba 3 commits atrás de origin/main (sesión de cierre del viernes 10/07 en la noche:
+    email de cierre ya enviado, corrección de fecha S2→13/07, blog post "Tres de tres"). Sincronizado
+    con `git pull --ff-only` — sin conflictos, fast-forward limpio.
+  ✓ Confirmado contra el sitio publicado (untaldouglas.info) que la guía de Irvin ya refleja el estado
+    correcto: banner verificado + fecha de S2 corregida. No requería más cambios.
+  ✓ Douglas aceptó la fecha propuesta para los mini-reportes de S2: **viernes 17/07** (coincide con la
+    reunión de seguimiento). Actualizado en ESTADO_PROYECTO.md, Dashboard_Jornada.html, dashboard_base.md
+    y learning_record/_dashboard.md. Bloqueo cierra — 0 activos.
+  ⚠️ La rutina automática de las 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4) generó, como estaba previsto,
+    un borrador duplicado con texto viejo en Gmail — pendiente que Douglas lo descarte sin enviarlo
+    (el correo real ya salió el 10/07 noche).
+  → Próxima acción: arrancar S2 hoy 14:00 (taller de prompting); ya no queda pendiente de calendario
+    para esa sesión aparte del taller mismo.
+
 2026-07-10 | CIERRE REAL DEL DÍA — email enviado, blog post del hito, semana 1 completa
   ✓ Douglas ENVIÓ el email de cierre grupal la misma noche del viernes (no esperó al lunes) y
     reforzó personalmente con Irvin la metodología de entrega (comentador→Aprobar, sin PDF,
