@@ -131,7 +131,7 @@
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
-| C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | Patrick (Infraestructura) indica cómo/cuándo los Champions tendrán acceso; Douglas comparte ejemplos de uso. Avanza I8 de la auditoría #01 (Alineación marcaba GSuite "resuelto" sin esquema operativo real) |
+| C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | Próxima seguimiento (2026-07-17) | 🟡 EN PREPARACIÓN (13/07) | Douglas ya preparó los 5 ejemplos de uso + plantilla para Patrick en [`04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md`](04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md) — incluye aclaración de alcance (esto es el esquema de uso manual, no la integración técnica MCP/OAuth de `Alineacion_Estrategica.md`, planeada ago-oct). Falta que Patrick complete la sección 2 antes del 17/07. Avanza I8 de la auditoría #01 |
 | C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | **Cierra H8 de la auditoría #01** (métricas definidas sin línea base "antes") — esta vez la medición del "antes" queda pedida explícitamente, por Champion |
 | C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`) |
 
