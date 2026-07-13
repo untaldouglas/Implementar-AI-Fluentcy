@@ -30,7 +30,9 @@
       "Bash(hermes mcp *)",
       "Bash(hermes secrets *)",
       "Bash(pip show *)",
-      "Bash(base64 -w0 \"/home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md\")"
+      "Bash(base64 -w0 \"/home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md\")",
+      "Bash(git mv *)",
+      "Bash(git commit -m 'Permisos: conservar solo '\\\\''git mv'\\\\'' del allowlist de la sesión \\(descartar entradas de un solo uso\\) *)"
     ],
     "additionalDirectories": [
       "/home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas"
