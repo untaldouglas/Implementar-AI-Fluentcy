@@ -22,7 +22,11 @@
       "Bash(python3 -c ' *)",
       "mcp__claude_ai_Gmail__create_draft",
       "Bash(make status *)",
-      "Bash(git -C /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions status)"
+      "Bash(git -C /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions status)",
+      "Bash(cp /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/Dashboard_Jornada.html /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/docs/Dashboard_Jornada.html *)"
+    ],
+    "additionalDirectories": [
+      "/home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas"
     ]
   }
 }

@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard de Jornada — AI Fluency UJMD</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --cosmos: #03001a;
+    --navy: #0a1a5c;
+    --blue: #0055cc;
+    --cyan: #00b8d4;
+    --cyan-hi: #00e5ff;
+    --ice: #e8f0ff;
+    --white: #ffffff;
+    --g1: #f4f6fb;
+    --g2: #e4e9f5;
+    --g3: #c8d2e8;
+    --g4: #8896b8;
+    --g5: #4a5880;
+    --text: #0a1035;
+    --green: #22c55e;
+    --yellow: #f59e0b;
+    --red: #ef4444;
+    --purple: #7c3aed;
+    --gold: #d4a900;
+  }
+
+  body {
+    background: var(--g1);
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── TOP BAR ── */
+  .topbar {
+    background: var(--cosmos);
+    padding: 0 40px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,229,255,0.1);
+  }
+  .topbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+  }
+  .topbar-logo span { color: var(--cyan-hi); }
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .topbar-date {
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+  }
+  .topbar-date strong { color: rgba(0,229,255,0.7); }
+  .live-dot {
+    width: 8px; height: 8px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  /* ── LAYOUT ── */
+  .page { max-width: 1200px; margin: 0 auto; padding: 28px 32px 60px; }
+
+  /* ── HERO ROW ── */
+  .hero-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  /* ── STAT CARD ── */
+  .stat-card {
+    background: var(--white);
+    border: 1px solid var(--g2);
+    border-radius: 14px;
+    padding: 20px 22px;
+    position: relative;
+    overflow: hidden;
+  }
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--accent, var(--blue));
+    border-radius: 14px 14px 0 0;
+  }
+  .stat-eyebrow { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--g4); font-weight: 600; margin-bottom: 8px; }
+  .stat-value { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 900; color: var(--accent, var(--blue)); line-height: 1; }
+  .stat-label { font-size: 12px; color: var(--g5); margin-top: 6px; line-height: 1.4; }
+  .stat-sub { font-size: 11px; color: var(--g4); margin-top: 4px; }
+
+  /* COUNTDOWN */
+  .countdown-card {
+    background: var(--navy);
+    border: 1px solid rgba(0,229,255,0.15);
+    border-radius: 14px;
+    padding: 20px 22px;
+    position: relative;
+    overflow: hidden;
+    grid-column: span 1;
+  }
+  .countdown-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--cyan-hi);
+    border-radius: 14px 14px 0 0;
+  }
+  .countdown-card .stat-eyebrow { color: rgba(0,229,255,0.5); }
+  .countdown-card .stat-value { color: var(--cyan-hi); font-size: 40px; }
+  .countdown-card .stat-label { color: rgba(255,255,255,0.5); }
+  .countdown-card .stat-sub { color: rgba(0,229,255,0.4); }
+
+  /* ── MAIN GRID ── */
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .full-width { grid-column: 1 / -1; }
+
+  /* ── CARD ── */
+  .card {
+    background: var(--white);
+    border: 1px solid var(--g2);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--g2);
+  }
+  .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--cosmos);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  /* ── PHASE INDICATOR ── */
+  .phase-track {
+    display: flex;
+    gap: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--g2);
+    margin-bottom: 16px;
+  }
+  .phase-seg {
+    flex: 1;
+    padding: 10px 8px;
+    text-align: center;
+    position: relative;
+    border-right: 1px solid var(--white);
+  }
+  .phase-seg:last-child { border-right: none; }
+  .phase-seg-num { font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 800; }
+  .phase-seg-name { font-size: 9px; margin-top: 2px; }
+  .phase-seg-date { font-size: 8px; margin-top: 1px; opacity: 0.7; }
+  .phase-seg.past { background: var(--g1); }
+  .phase-seg.past .phase-seg-num { color: var(--g4); }
+  .phase-seg.past .phase-seg-name { color: var(--g4); }
+  .phase-seg.active { background: var(--blue); }
+  .phase-seg.active .phase-seg-num { color: #fff; }
+  .phase-seg.active .phase-seg-name { color: rgba(255,255,255,0.8); }
+  .phase-seg.active .phase-seg-date { color: rgba(255,255,255,0.6); }
+  .phase-seg.future { background: var(--g1); }
+  .phase-seg.future .phase-seg-num { color: var(--g3); }
+  .phase-seg.future .phase-seg-name { color: var(--g3); }
+
+  /* ── PRIORITY ACTIONS ── */
+  .action-list { display: flex; flex-direction: column; gap: 10px; }
+  .action-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    background: var(--g1);
+    border: 1px solid var(--g2);
+    border-radius: 10px;
+    padding: 12px 14px;
+    transition: border-color 0.15s;
+  }
+  .action-item:hover { border-color: var(--blue); }
+  .action-rank {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px; font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .action-content { flex: 1; }
+  .action-name { font-size: 13px; font-weight: 600; color: var(--text); }
+  .action-meta { font-size: 11px; color: var(--g5); margin-top: 3px; }
+  .action-why { font-size: 11px; color: var(--blue); margin-top: 4px; font-style: italic; }
+  .action-time {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--g4);
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+
+  /* ── COMMITMENTS ── */
+  .commit-list { display: flex; flex-direction: column; gap: 8px; }
+  .commit-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--g2);
+  }
+  .commit-status { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .commit-text { flex: 1; }
+  .commit-name { font-size: 12px; font-weight: 600; color: var(--text); }
+  .commit-date { font-size: 10px; color: var(--g4); margin-top: 2px; }
+  .commit-code { font-size: 10px; color: var(--g4); font-family: monospace; }
+  .status-red { background: var(--red); }
+  .status-yellow { background: var(--yellow); }
+  .status-green { background: var(--green); }
+  .status-gray { background: var(--g3); }
+
+  /* ── BLOCKERS ── */
+  .blocker-item {
+    background: #fff5f5;
+    border: 1px solid #fecaca;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+  }
+  .blocker-item:last-child { margin-bottom: 0; }
+  .blocker-name { font-size: 12px; font-weight: 700; color: #991b1b; }
+  .blocker-unlock { font-size: 11px; color: #dc2626; margin-top: 4px; }
+
+  /* ── LOG ── */
+  .log-entry {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--g2);
+    font-size: 12px;
+  }
+  .log-entry:last-child { border-bottom: none; }
+  .log-date { font-size: 10px; color: var(--g4); font-family: monospace; margin-bottom: 4px; }
+  .log-text { color: var(--g5); }
+  .log-text strong { color: var(--text); }
+
+  /* ── RITUAL COMMANDS ── */
+  .ritual-box {
+    background: var(--cosmos);
+    border-radius: 16px;
+    padding: 28px 32px;
+    color: white;
+  }
+  .ritual-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgba(0,229,255,0.8);
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .ritual-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .ritual-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(0,229,255,0.12);
+    border-radius: 12px;
+    padding: 18px;
+  }
+  .ritual-icon { font-size: 24px; margin-bottom: 10px; }
+  .ritual-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .ritual-trigger {
+    background: rgba(0,229,255,0.08);
+    border: 1px solid rgba(0,229,255,0.15);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cyan-hi);
+    margin-bottom: 8px;
+    font-family: monospace;
+  }
+  .ritual-desc { font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.5; }
+  .ritual-steps { list-style: none; margin-top: 8px; }
+  .ritual-steps li {
+    font-size: 10px;
+    color: rgba(255,255,255,0.35);
+    padding: 3px 0;
+    padding-left: 14px;
+    position: relative;
+  }
+  .ritual-steps li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: rgba(0,229,255,0.4);
+  }
+
+  /* ── DECISIONS ── */
+  .decision-item {
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--g2);
+    font-size: 12px;
+  }
+  .decision-item:last-child { border-bottom: none; }
+  .decision-date { color: var(--g4); font-family: monospace; font-size: 10px; white-space: nowrap; padding-top: 1px; }
+  .decision-text { color: var(--g5); }
+  .decision-text strong { color: var(--text); }
+
+  /* ── MILESTONES ── */
+  .milestone-row {
+    display: flex;
+    gap: 0;
+    position: relative;
+    margin-top: 8px;
+  }
+  .milestone-row::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 14px; right: 14px;
+    height: 2px;
+    background: var(--g2);
+  }
+  .milestone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+  }
+  .milestone-dot {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid var(--g2);
+    background: var(--white);
+    position: relative;
+    z-index: 1;
+  }
+  .milestone-label { font-size: 10px; color: var(--g4); text-align: center; line-height: 1.3; }
+  .milestone-date { font-size: 9px; color: var(--g4); font-family: monospace; }
+  .milestone.active .milestone-dot { background: var(--blue); color: #fff; border-color: var(--blue); }
+  .milestone.active .milestone-label { color: var(--blue); font-weight: 600; }
+  .milestone.done .milestone-dot { background: var(--green); color: #fff; border-color: var(--green); }
+
+  /* FOOTER */
+  .footer {
+    background: var(--navy);
+    border-radius: 12px;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 11px;
+    color: rgba(255,255,255,0.3);
+  }
+  .footer strong { color: rgba(0,229,255,0.5); }
+
+  /* UTILITY */
+  .mb { margin-bottom: 16px; }
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-logo">
+    <svg width="22" height="22" viewBox="0 0 46 46" fill="none">
+      <circle cx="23" cy="23" r="21" stroke="#00e5ff" stroke-width="1.5"/>
+      <path d="M7 32 A18 18 0 1 1 39 32" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <line x1="23" y1="23" x2="33" y2="12" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="23" cy="23" r="3.5" fill="#00e5ff"/>
+    </svg>
+    AI<span>Fluency</span>
+    <span style="font-size:11px;color:rgba(255,255,255,0.2);font-weight:400;margin-left:4px;">Dashboard de Jornada</span>
+  </div>
+  <div class="topbar-right">
+    <div class="topbar-date">Última actualización: <strong id="last-updated">2026-07-10 · noche — S1 cerrada 3/3 ✅</strong></div>
+    <div class="live-dot" style="background:#22c55e;" title="Fase 1 reactivada — S1 cerrada 3/3, S2 arranca lunes"></div>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- ══ HERO STATS ══ -->
+  <div class="hero-row" style="margin-bottom:20px;">
+
+    <div class="countdown-card">
+      <div class="stat-eyebrow">📅 Día del programa</div>
+      <div class="stat-value" id="days-countdown">10</div>
+      <div class="stat-label">días desde el inicio (01/07)</div>
+      <div class="stat-sub">Fin del programa: 2026-12-31</div>
+    </div>
+
+    <div class="stat-card" style="--accent:#22c55e;">
+      <div class="stat-eyebrow">✅ Fase 1 · Semana 1</div>
+      <div class="stat-value" style="font-size:28px;margin-top:2px;color:#22c55e;">S1: 3/3</div>
+      <div class="stat-label">Mario ✅ · Patrick ✅ · Irvin ✅ (cerró 10/07 noche)</div>
+      <div class="stat-sub">Los 3 verificados con documento real en Drive</div>
+    </div>
+
+    <div class="stat-card" style="--accent:#22c55e;">
+      <div class="stat-eyebrow">✅ Reunión Sesión 18 ejecutada</div>
+      <div class="stat-value" style="font-size:16px;margin-top:6px;color:#166534;">4 decisiones · 3 compromisos nuevos</div>
+      <div class="stat-label">Canal Drive · metodología entrega · conocimiento colectivo · criterio S1</div>
+      <div class="stat-sub">C18-C20 anunciados para la semana del 15/07</div>
+    </div>
+
+    <div class="stat-card" style="--accent:#0055cc;">
+      <div class="stat-eyebrow">📅 Lunes 13/07</div>
+      <div class="stat-value" style="font-size:14px;margin-top:6px;">Arranca S2 + email de cierre</div>
+      <div class="stat-label">Borrador final ya listo en Gmail (10/07 noche) · bloques Lun/Mar 14-15h activos</div>
+      <div class="stat-sub">Descartar el borrador duplicado de la rutina de las 08:00</div>
+    </div>
+
+    <div class="stat-card" style="--accent:#8b5cf6;">
+      <div class="stat-eyebrow">🤖 3 rutinas asíncronas activas</div>
+      <div class="stat-value" style="font-size:14px;margin-top:6px;">El programa trabaja solo</div>
+      <div class="stat-label">Email cierre (Lun 08:00) · Calendario (Lun/Mar 14h) · Auditoría semanal (Vie 07:00)</div>
+      <div class="stat-sub">Auditoría #02 automática: viernes 17/07 · borrador en Gmail</div>
+    </div>
+
+  </div>
+
+  <!-- ══ FASE TRACK ══ -->
+  <div class="card full-width mb">
+    <div class="card-header">
+      <div class="card-title">🗓 Ruta del Programa — 6 meses</div>
+      <span class="card-badge" style="background:#fef3c7;color:#92400e;">Día 10 · F1 reactivada</span>
+    </div>
+    <div class="phase-track">
+      <div class="phase-seg past">
+        <div class="phase-seg-num">F0</div>
+        <div class="phase-seg-name">Preparación</div>
+        <div class="phase-seg-date">26 jun–30 jun</div>
+      </div>
+      <div class="phase-seg active">
+        <div class="phase-seg-num">F1</div>
+        <div class="phase-seg-name">Piloto Champions</div>
+        <div class="phase-seg-date">01 jul–31 jul</div>
+      </div>
+      <div class="phase-seg future">
+        <div class="phase-seg-num">F2</div>
+        <div class="phase-seg-name">Expansión Equipo</div>
+        <div class="phase-seg-date">01 ago–30 sep</div>
+      </div>
+      <div class="phase-seg future">
+        <div class="phase-seg-num">F3</div>
+        <div class="phase-seg-name">Certificaciones</div>
+        <div class="phase-seg-date">01 oct–15 nov</div>
+      </div>
+      <div class="phase-seg future">
+        <div class="phase-seg-num">F4</div>
+        <div class="phase-seg-name">Institucionalización</div>
+        <div class="phase-seg-date">16 nov–31 dic</div>
+      </div>
+    </div>
+
+    <!-- milestones -->
+    <div class="milestone-row">
+      <div class="milestone done">
+        <div class="milestone-dot">✓</div>
+        <div class="milestone-label">Programa<br>diseñado</div>
+        <div class="milestone-date">26/06</div>
+      </div>
+      <div class="milestone done">
+        <div class="milestone-dot">✓</div>
+        <div class="milestone-label">Champions<br>confirmados</div>
+        <div class="milestone-date">26/06</div>
+      </div>
+      <div class="milestone done">
+        <div class="milestone-dot">✓</div>
+        <div class="milestone-label">Kick-off<br>oficial</div>
+        <div class="milestone-date">01/07</div>
+      </div>
+      <div class="milestone active">
+        <div class="milestone-dot">L3</div>
+        <div class="milestone-label">Champions<br>certificados ⚠️ riesgo</div>
+        <div class="milestone-date">31/07</div>
+      </div>
+      <div class="milestone">
+        <div class="milestone-dot">L2</div>
+        <div class="milestone-label">Equipo completo<br>en L2+</div>
+        <div class="milestone-date">30/09</div>
+      </div>
+      <div class="milestone">
+        <div class="milestone-dot">🏆</div>
+        <div class="milestone-label">3 Instructores<br>certificados</div>
+        <div class="milestone-date">31/12</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MAIN GRID ══ -->
+  <div class="main-grid">
+
+    <!-- PRIORIDADES -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">⚡ Próximas Acciones — Por Valor</div>
+        <span class="card-badge" style="background:#fef3c7;color:#92400e;">Semana 14–18/07</span>
+      </div>
+      <div class="action-list">
+
+        <div class="action-item" style="border-color:#bbf7d0;background:#f0fdf4;">
+          <div class="action-rank" style="background:#22c55e;color:#fff;">✓</div>
+          <div class="action-content">
+            <div class="action-name">Irvin completó su evidencia S1 — verificada y certificada ✅</div>
+            <div class="action-meta">Segunda entrega revisada contra documento real (10/07 noche) · caso ancla "Equipo no enciende" + reflexión Día 7 · aprobada en Drive</div>
+            <div class="action-why">S1 cierra 3/3 — el criterio de documento real (no confirmación verbal) se cumplió</div>
+          </div>
+          <div class="action-time">Hecho</div>
+        </div>
+
+        <div class="action-item" style="border-color:#bbf7d0;background:#f0fdf4;">
+          <div class="action-rank" style="background:#22c55e;color:#fff;">✓</div>
+          <div class="action-content">
+            <div class="action-name">Email de cierre grupal ENVIADO ✅ (10/07 noche)</div>
+            <div class="action-meta">Con S1 3/3 + agradecimiento especial (inscripciones) · ⚠️ el lunes 08:00 la rutina generará un borrador viejo en Gmail: descartarlo sin enviar</div>
+            <div class="action-why">Douglas lo envió el mismo viernes — el equipo arranca el lunes con el reconocimiento ya recibido</div>
+          </div>
+          <div class="action-time">Hecho</div>
+        </div>
+
+        <div class="action-item">
+          <div class="action-rank" style="background:#8896b8;color:#fff;">3</div>
+          <div class="action-content">
+            <div class="action-name">C15 — Arrancar S2 (Productividad personal con IA) el lunes 13/07</div>
+            <div class="action-meta">Bloques de calendario Lun/Mar 14:00–15:00 ya creados · ✅ mini-reportes redefinidos a 17/07</div>
+            <div class="action-why">Evita cascada hacia Demo Day (31/07)</div>
+          </div>
+          <div class="action-time">Lun 13/07</div>
+        </div>
+
+        <div class="action-item">
+          <div class="action-rank" style="background:#8896b8;color:#fff;">4</div>
+          <div class="action-content">
+            <div class="action-name">Colaborativa 15/07 — primera carga de conocimiento colectivo (C17)</div>
+            <div class="action-meta">Glosario (hoja electrónica) · FAQ (documento) · lista de errores (documento)</div>
+            <div class="action-why">Formalizar lo que ya saben (subagentes, workflows, scripts) antes de que se disperse</div>
+          </div>
+          <div class="action-time">Mié 15/07</div>
+        </div>
+
+        <div class="action-item">
+          <div class="action-rank" style="background:#8896b8;color:#fff;">5</div>
+          <div class="action-content">
+            <div class="action-name">C18–C20 — Entregables Semana 3 (revisión viernes 17/07)</div>
+            <div class="action-meta">Esquema Google Workspace (Patrick) · ≥2 procesos medidos tiempo/costo por Champion · perfil estándar por área</div>
+            <div class="action-why">C19 instrumenta el "antes" — cierra H8 de la auditoría #01</div>
+          </div>
+          <div class="action-time">Vie 17/07</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- COMPROMISOS -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">📋 Compromisos en Marcha</div>
+        <span class="card-badge" style="background:#dcfce7;color:#166534;">C14 cerrado 3/3 · C15 lunes · C18-C20 nuevos</span>
+      </div>
+      <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">Semana 0 y 1 · Completados (13/13)</div>
+      <div class="commit-list" style="margin-bottom:20px;">
+        <div class="commit-item" style="background:#f0fdf4;">
+          <div class="commit-status" style="background:#22c55e;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C1–C5, C9, C10 · Selección, comms, forms, Hermes, agenda ✅</div>
+            <div class="commit-date">✓ 26/06–29/06 · Fase 0 cerrada al 100%</div>
+          </div>
+        </div>
+        <div class="commit-item" style="background:#f0fdf4;">
+          <div class="commit-status" style="background:#22c55e;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C6, C7, C8 · Baseline, itinerarios, kick-off ✅</div>
+            <div class="commit-date">✓ 01/07–07/07 · Sesión 0 ejecutada, niveles L0-L9 calculados</div>
+          </div>
+        </div>
+        <div class="commit-item" style="background:#f0fdf4;">
+          <div class="commit-status" style="background:#22c55e;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C11, C12, C13 · Setup Hermes, cadencia, anuncio ✅</div>
+            <div class="commit-date">✓ 02/07–03/07 · Cadencia: Mié 14-16h + Vie 14-15h</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">Semana 2 · 8–14 julio — REACTIVADA (Sesión 18)</div>
+      <div class="commit-list" style="margin-bottom:20px;">
+        <div class="commit-item" style="background:#f0fdf4;">
+          <div class="commit-status" style="background:#22c55e;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C14 · Verificar casos de uso S1 (criterio resuelto: 1 ancla + reflexión) ✅</div>
+            <div class="commit-date">✅ COMPLETADO 3/3 (10/07 noche) · Mario ✅ Patrick ✅ Irvin ✅ — los 3 con documento real revisado en Drive</div>
+          </div>
+        </div>
+        <div class="commit-item" style="background:#fffbeb;border-color:#fde68a;">
+          <div class="commit-status" style="background:#f59e0b;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C15 · Sesión 2 (Productividad personal) — arranca lunes 13/07</div>
+            <div class="commit-date">🟡 Acordado en Sesión 18 · ⚠️ fecha de mini-reportes por redefinir (candidata: 17/07)</div>
+          </div>
+        </div>
+        <div class="commit-item" style="background:#f0fdf4;">
+          <div class="commit-status" style="background:#22c55e;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C16 · learning_record/ creado y llenado con evidencia real ✅</div>
+            <div class="commit-date">✓ 10/07 · 3 registros + dashboard, veredictos por Champion documentados</div>
+          </div>
+        </div>
+        <div class="commit-item" style="background:#f0fdf4;">
+          <div class="commit-status" style="background:#22c55e;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C17 · Conocimiento colectivo: glosario + FAQ + lista de errores 🟢</div>
+            <div class="commit-date">✓ 10/07 plantillas creadas (conocimiento_colectivo/) · primera carga: colaborativa 15/07</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">Semana 3 · 15–21 julio — Anunciados en Sesión 18</div>
+      <div class="commit-list">
+        <div class="commit-item">
+          <div class="commit-status" style="background:#8896b8;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C18 · Esquema operativo integración Google Workspace (lidera Patrick)</div>
+            <div class="commit-date">Revisión: viernes 17/07 · Douglas comparte ejemplos de uso</div>
+          </div>
+        </div>
+        <div class="commit-item">
+          <div class="commit-status" style="background:#8896b8;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C19 · ≥2 procesos por Champion medidos en tiempo/costo (antes vs. Hermes)</div>
+            <div class="commit-date">Revisión: viernes 17/07 · cierra H8 de la auditoría #01 (línea base "antes")</div>
+          </div>
+        </div>
+        <div class="commit-item">
+          <div class="commit-status" style="background:#8896b8;"></div>
+          <div class="commit-text">
+            <div class="commit-name">C20 · Perfil estándar por área (insumo para SOUL.md y playbook)</div>
+            <div class="commit-date">Revisión: viernes 17/07</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOQUEOS -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">🚧 Bloqueos Activos</div>
+        <span class="card-badge" style="background:#dcfce7;color:#166534;">0 activos · 8 resueltos</span>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — Fecha de mini-reportes S2 redefinida (13/07)</div>
+        <div class="blocker-unlock" style="color:#15803d;">Vencen viernes 17/07 (reunión de seguimiento) en vez del 14/07 original, que caía al día siguiente del arranque</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — Evidencia S1 de Irvin completada y verificada (10/07 noche)</div>
+        <div class="blocker-unlock" style="color:#15803d;">Segunda entrega en Drive revisada contra documento real: caso ancla "Equipo no enciende" + reflexión Día 7 · aprobada en Drive · C14 cierra 3/3</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — S1 verificada para Mario y Patrick (Sesión 18)</div>
+        <div class="blocker-unlock" style="color:#15803d;">Documento real revisado en Drive: caso ancla + reflexión completos para ambos</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — S2 con fecha de arranque: lunes 13/07 (corregida 10/07 noche)</div>
+        <div class="blocker-unlock" style="color:#15803d;">Acordado en Sesión 18 · mini-reportes ya redefinidos a 17/07</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — 2h/semana de Douglas bloqueadas en calendario</div>
+        <div class="blocker-unlock" style="color:#15803d;">Lun y Mar 14:00–15:00, recurrente hasta el 31/07 (6 instancias confirmadas en GCalendar)</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — learning_record/ creado y llenado</div>
+        <div class="blocker-unlock" style="color:#15803d;">3 registros + dashboard, veredictos de evidencia S1 documentados por Champion</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — Bitácora Sesión 0 validada en Drive</div>
+        <div class="blocker-unlock" style="color:#15803d;">Admin Drive (ujmd.edu.sv) confirmó la validación</div>
+      </div>
+      <div class="blocker-item" style="background:#f0fdf4;border-color:#bbf7d0;">
+        <div class="blocker-name" style="color:#166534;">✅ Resuelto — Google Workspace UJMD integrado</div>
+        <div class="blocker-unlock" style="color:#15803d;">Ya no bloquea Fase 4 ni Investigación</div>
+      </div>
+    </div>
+
+    <!-- DECISIONES -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">✅ Decisiones Tomadas</div>
+        <span class="card-badge" style="background:#dcfce7;color:#166534;">10 cerradas</span>
+      </div>
+      <div>
+        <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
+          <div class="decision-date" style="color:#0055cc;">02/07/26</div>
+          <div class="decision-text"><strong>Cadencia semanal acordada</strong> — Mié 14–16h (Trabajo colaborativa entre Champions), Vie 14–15h (Seguimiento del proyecto).</div>
+        </div>
+        <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
+          <div class="decision-date" style="color:#0055cc;">01/07/26</div>
+          <div class="decision-text"><strong>Proveedor LLM: OpenRouter</strong> — Acceso a 100+ modelos (incl. gratuitos) para los Champions.</div>
+        </div>
+        <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
+          <div class="decision-date" style="color:#0055cc;">29/06/26</div>
+          <div class="decision-text"><strong>Infraestructura digital permanente</strong> — GitHub Pages como sitio oficial del programa (untaldouglas.github.io/Implementar-AI-Fluentcy/) + blog de jornadas como canal de presencia web.</div>
+        </div>
+        <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
+          <div class="decision-date" style="color:#0055cc;">29/06/26</div>
+          <div class="decision-text"><strong>Script MCA + skill reutilizable</strong> — calcular_nivel_mca.gs automatiza diagnóstico L0-L9. Empacado como skill mca-script-generator para todas las cohortes futuras.</div>
+        </div>
+        <div class="decision-item" style="background:#f0f9ff;border-radius:6px;padding:6px 8px;margin-bottom:6px;">
+          <div class="decision-date" style="color:#0055cc;">29/06/26</div>
+          <div class="decision-text"><strong>Blog de implementación en español</strong> — Un post por jornada: HTML (GitHub Pages) + LinkedIn. Formato: lo que realmente pasó, no lo que estaba planeado.</div>
+        </div>
+        <div class="decision-item">
+          <div class="decision-date">26/06/26</div>
+          <div class="decision-text"><strong>Identidad visual: Velocidad Digital</strong> — Navy + cian eléctrico. Versiones light y dark completas.</div>
+        </div>
+        <div class="decision-item">
+          <div class="decision-date">26/06/26</div>
+          <div class="decision-text"><strong>Inicio oficial: 2026-07-01</strong> — Todas las fechas se calculan desde aquí.</div>
+        </div>
+        <div class="decision-item">
+          <div class="decision-date">26/06/26</div>
+          <div class="decision-text"><strong>Herramienta central: Hermes Agent</strong> (NousResearch, open source) como orquestador universal.</div>
+        </div>
+        <div class="decision-item">
+          <div class="decision-date">26/06/26</div>
+          <div class="decision-text"><strong>Estrategia: Champion → Equipo</strong> — Contagio entre pares. 1 Champion por área operativa.</div>
+        </div>
+        <div class="decision-item">
+          <div class="decision-date">26/06/26</div>
+          <div class="decision-text"><strong>Certificación: 5 licencias · L0–L9</strong> — Metáfora vehicular como eje pedagógico del programa.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ══ RITUAL COMMANDS ══ -->
+  <div class="ritual-box">
+    <div class="ritual-title">🎯 Rituales de Jornada — Comandos de Activación</div>
+    <div class="ritual-grid">
+
+      <div class="ritual-card">
+        <div class="ritual-icon">🌅</div>
+        <div class="ritual-name">Inicio de Jornada</div>
+        <div class="ritual-trigger">"inicio de jornada"</div>
+        <div class="ritual-desc">Activa el modo de arranque. Claude lee el estado, calcula dónde estás en el programa y te dice exactamente qué hacer primero hoy.</div>
+        <ul class="ritual-steps">
+          <li>Lee ESTADO_PROYECTO.md</li>
+          <li>Calcula semana/día del programa</li>
+          <li>Presenta TOP 3 acciones de mayor valor</li>
+          <li>Muestra compromisos con vencimiento próximo</li>
+          <li>Reporta bloqueos activos</li>
+        </ul>
+      </div>
+
+      <div class="ritual-card">
+        <div class="ritual-icon">🌙</div>
+        <div class="ritual-name">Cierre de Jornada</div>
+        <div class="ritual-trigger">"cierre de jornada"</div>
+        <div class="ritual-desc">Cierra el día correctamente. Claude registra lo que avanzaste, actualiza el estado del proyecto y deja mañana preparado.</div>
+        <ul class="ritual-steps">
+          <li>Pregunta qué completaste hoy</li>
+          <li>Actualiza ESTADO_PROYECTO.md</li>
+          <li>Registra log de la jornada</li>
+          <li>Actualiza compromisos afectados</li>
+          <li>Define la acción #1 para mañana</li>
+        </ul>
+      </div>
+
+      <div class="ritual-card">
+        <div class="ritual-icon">🎯</div>
+        <div class="ritual-name">Consulta de Prioridad</div>
+        <div class="ritual-trigger">"qué debo trabajar"</div>
+        <div class="ritual-desc">En cualquier momento del día. Claude evalúa el estado actual del programa y te da la acción de mayor valor ahora mismo — sin análisis, directo al punto.</div>
+        <ul class="ritual-steps">
+          <li>Lee estado y fase actual</li>
+          <li>Evalúa urgencia vs impacto</li>
+          <li>Devuelve máximo 1-3 acciones</li>
+          <li>Explica por qué generan valor</li>
+          <li>Estima tiempo requerido</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LOG -->
+  <div class="card" style="margin-top:20px;">
+    <div class="card-header">
+      <div class="card-title">📋 Log de Actualizaciones</div>
+    </div>
+    <div class="log-entry" style="background:#f0fdf4;border-radius:6px;padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date" style="color:#166534;">2026-07-10 (noche) · S1 CERRADA 3/3 — Irvin certificado con documento real</div>
+      <div class="log-text">
+        <strong>✓</strong> Irvin entregó segunda versión en Drive ("Sesion practica de los prompt de la guia version 2") — verificada contra documento real: caso ancla "Equipo no enciende" + reflexión Día 7 completos · aprobada en Drive ·
+        <strong>✓</strong> C14 cerrado 3/3 · registros de Irvin actualizados (learning_record, dashboard, guía publicada) — Mario y Patrick intactos ·
+        <strong>✓</strong> Email de cierre grupal re-redactado con agradecimiento especial (saturación por inscripciones) — borrador final en Gmail, listo para enviar el lunes ·
+        <strong>✓</strong> evidencia_piloto/ incorporada al repo por decisión del Director · semana cerrada en limpio para arrancar S2
+      </div>
+    </div>
+    <div class="log-entry" style="background:#f0fdf4;border-radius:6px;padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date" style="color:#166534;">2026-07-10 (cierre de jornada) · Blog, auditoría semanal automatizada y guías archivadas</div>
+      <div class="log-text">
+        <strong>✓</strong> Blog post del día: "El día que la evidencia le ganó a la palabra" (05_blog/) ·
+        <strong>✓</strong> Serie de auditorías pasa a SEMANAL y evolutiva (+AI specialist #02, +COBIT #03) — plan vivo en 04_herramientas/auditorias/_plan_serie_auditorias.md ·
+        <strong>✓</strong> Rutina en la nube: cada viernes 07:00 la auditoría se ejecuta sola y deja borrador en Gmail (primera: 17/07) ·
+        <strong>✓</strong> Guías S1 publicadas con banner de estado real (Mario/Patrick ✅, Irvin 🟡) + copias congeladas en 02_playbook/referencia_cohorte1_guias/ con lecciones para futuras cohortes ·
+        <strong>✓</strong> 6 commits pusheados — repo, Pages y estado vivo cuentan la misma historia
+      </div>
+    </div>
+    <div class="log-entry" style="background:#f0fdf4;border-radius:6px;padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date" style="color:#166534;">2026-07-10 (tarde) · SESIÓN 18 — reunión ejecutada, proyecto reactivado</div>
+      <div class="log-text">
+        <strong>✓</strong> S1 verificada con documento real para Mario y Patrick; Irvin pendiente (su documento no contiene caso ancla ni reflexión — correo + conversación personal el mismo día) ·
+        <strong>✓</strong> 4 decisiones: canal Drive, metodología de entrega (nombres propios, sin PDF, comentador→Aprobar), conocimiento colectivo (C17), criterio S1 resuelto (I1: 1 ancla + reflexión) ·
+        <strong>✓</strong> C18-C20 anunciados para la semana del 15/07 · S2 arranca lunes 14/07 ·
+        <strong>✓</strong> 2h/semana bloqueadas en GCalendar (Lun/Mar 14-15h hasta 31/07) ·
+        <strong>✓</strong> Email de cierre pospuesto a lunes 08:00 (borrador automático en Gmail)
+      </div>
+    </div>
+    <div class="log-entry" style="background:#fff5f5;border-radius:6px;padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date" style="color:#991b1b;">2026-07-10 (mañana) · SESIÓN — SYNC día #10, proyecto estancado</div>
+      <div class="log-text">
+        <strong>⚠️</strong> 3 días sin actividad directa (08/07–09/07). S1 vencida 3 días sin entregables verificados ·
+        <strong>⚠️</strong> S2 (Productividad personal) debió arrancar 08/07 — sin evidencia de ejecución. Mini-reportes vencen 14/07 ·
+        <strong>✓</strong> Cron ai-fluency-sod reparado — plan generado correctamente hoy 08:00 CST tras 2 días de falla ·
+        <strong>📅</strong> Reunión crítica de seguimiento HOY 14:00–15:00 — ventana para desbloquear S1/S2 ·
+        <strong>⚠️</strong> Progreso global sin cambios desde 07/07: ~19%
+      </div>
+    </div>
+    <div class="log-entry" style="padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date">2026-07-07 · Sincronización manual de conflictos tras merge (Hermes)</div>
+      <div class="log-text">
+        <strong>✓</strong> Consolidación de logs de Sesión 15 y 16 ·
+        <strong>✓</strong> Marcado C11, C12 y C13 como COMPLETADO en la tabla principal ·
+        <strong>✓</strong> Próxima acción: recepción de evidencia y reunión colaborativa 08/07
+      </div>
+    </div>
+    <div class="log-entry" style="padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date">2026-07-03 · SESIÓN 16 — C12 COMPLETADA</div>
+      <div class="log-text">
+        <strong>✓</strong> Reunión de seguimiento individual ejecutada — 14:00–15:15 ·
+        <strong>✓</strong> Cadencia definida: Mié 14-16h + Vie 14-15h ·
+        <strong>✓</strong> Champions reportaron avances en perfiles SOUL.md
+      </div>
+    </div>
+    <div class="log-entry" style="padding:10px 12px;margin-bottom:8px;">
+      <div class="log-date">2026-07-03 · SESIÓN 15 — CIERRE DE JORNADA</div>
+      <div class="log-text">
+        <strong>✓</strong> Corregidas inconsistencias en guías de Irvin Morales (Zona Pasajero) ·
+        <strong>✓</strong> Restaurado 00_marco/ borrado accidentalmente
+      </div>
+    </div>
+    <div class="log-entry">
+      <div class="log-date">2026-07-02 · SESIÓN 14 — CIERRE DE JORNADA</div>
+      <div class="log-text">
+        <strong>✓ C11:</strong> Setup Hermes completado en las 3 estaciones ·
+        <strong>✓ C13:</strong> Correo de anuncio enviado
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>AI Fluency · Modelo de Conducción AI · UJMD · <strong>@untaldouglas</strong></div>
+    <div>Fase F1 · Piloto Champions (día 10/31) · Fin programa: <strong>2026-12-31</strong></div>
+  </div>
+
+</div>
+
+<script>
+  // Auto-cálculo de días transcurridos desde el inicio oficial (2026-07-01)
+  function updateCountdown() {
+    const launch = new Date('2026-07-01T00:00:00');
+    const now = new Date();
+    const diff = Math.floor((now - launch) / (1000 * 60 * 60 * 24));
+    const el = document.getElementById('days-countdown');
+    if (el) {
+      if (diff < 0) {
+        el.textContent = Math.abs(diff);
+        el.parentElement.querySelector('.stat-eyebrow').textContent = '⚡ Arranque oficial en';
+        el.parentElement.querySelector('.stat-label').textContent = 'días para el 1 de julio';
+      } else {
+        el.textContent = diff;
+      }
+    }
+    // Update displayed date
+    const dateEl = document.getElementById('last-updated');
+    if (dateEl) {
+      const today = now.toISOString().split('T')[0];
+      dateEl.textContent = today;
+    }
+  }
+  updateCountdown();
+</script>
+</body>
+</html>
