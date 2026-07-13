@@ -123,7 +123,7 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
-| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 ARRANCA LUNES 13/07 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. Mini-reportes: fecha redefinida a viernes 17/07 (13/07) — la original 14/07 caía un día después del arranque |
+| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 MATERIAL ENVIADO, SESIÓN 14:00 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. Mini-reportes: fecha redefinida a viernes 17/07 (13/07). Material del taller de prompting aplicado creado (`04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`) y enviado por correo a los 3 Champions antes de la sesión, con el adjunto y las expectativas de entrega (prompt antes/después → Drive, insumo directo para C19) |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
 | C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 PLANTILLAS CREADAS (10/07), vacías | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
 
@@ -147,7 +147,7 @@
 
 2. ~~**[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal~~ ✅ **ENVIADO (10/07 noche)** — Douglas lo envió el mismo viernes, antes de lo previsto. ⚠️ Residuo confirmado hoy 13/07: la rutina automática de las 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4) generó el borrador viejo esperado en Gmail — **descartarlo sin enviar** (el email real ya salió).
 
-3. **[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — primera sesión de la semana 2 en el bloque de calendario de las 14:00–15:00: taller de prompting aplicado a los casos identificados. ✅ Mini-reportes de S2 ya redefinidos a viernes 17/07 (decidido hoy, antes de la sesión).
+3. **[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — primera sesión de la semana 2 en el bloque de calendario de las 14:00–15:00: taller de prompting aplicado a los casos identificados. ✅ Mini-reportes de S2 ya redefinidos a viernes 17/07 (decidido hoy, antes de la sesión). ✅ Material del taller creado y enviado por correo a los 3 Champions antes de la sesión (con adjunto y expectativas de entrega claras).
 
 4. **[Miércoles 15/07 · colaborativa]** Primera carga de los 3 artefactos de conocimiento colectivo (C17: glosario en hoja electrónica, FAQ y lista de errores en documento).
 
@@ -212,6 +212,19 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-13 | S2 ARRANCA — dashboard publicado, taller de prompting creado y enviado a Champions
+  ✓ Dashboard_Jornada.html publicado en GitHub Pages (docs/Dashboard_Jornada.html, enlazado desde
+    docs/index.html) para dar mayor visibilidad al estado vigente del proyecto — decisión de Douglas,
+    aceptando que los nombres de los Champions ya son públicos en las guías individuales.
+  ✓ Creado el material del taller de prompting aplicado para la sesión de S2 de las 14:00
+    (`04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`): marco Rol-Tarea-Contexto
+    de S1 + 5 técnicas nuevas, con ejercicio individual construido sobre el caso ancla real de cada
+    Champion (prompt genérico de Irvin, refactor GAO de Mario, inconsistencia real del script de
+    Patrick). Conecta directo con C19 (medición antes/después).
+  ✓ Correo enviado por Douglas a Irvin, Mario y Patrick con el material adjunto, instrucciones de uso
+    y expectativas de entrega (prompt antes/después → Drive, mismo flujo comentador→Aprobar).
+  → Próxima acción: ejecutar la sesión de las 14:00; después, seguir con C18/C19/C20 antes del 17/07.
+
 2026-07-13 | INICIO DE JORNADA — sync con remoto + mini-reportes S2 redefinidos
   ✓ Repo local estaba 3 commits atrás de origin/main (sesión de cierre del viernes 10/07 en la noche:
     email de cierre ya enviado, corrección de fecha S2→13/07, blog post "Tres de tres"). Sincronizado

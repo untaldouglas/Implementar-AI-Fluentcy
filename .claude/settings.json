@@ -23,7 +23,14 @@
       "mcp__claude_ai_Gmail__create_draft",
       "Bash(make status *)",
       "Bash(git -C /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions status)",
-      "Bash(cp /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/Dashboard_Jornada.html /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/docs/Dashboard_Jornada.html *)"
+      "Bash(cp /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/Dashboard_Jornada.html /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/docs/Dashboard_Jornada.html *)",
+      "Bash(grep -n -i \"\\\\.hermes\\\\|credentials\\\\|client_secret\\\\|oauth\\\\|\\\\.env\" /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/.gitignore *)",
+      "Read(//home/dagalindo/.hermes/**)",
+      "Bash(hermes --help)",
+      "Bash(hermes mcp *)",
+      "Bash(hermes secrets *)",
+      "Bash(pip show *)",
+      "Bash(base64 -w0 \"/home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md\")"
     ],
     "additionalDirectories": [
       "/home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas"
