@@ -14,8 +14,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-13 (inicio de jornada — arranque de S2, mini-reportes redefinidos) |
-| Actualizado por | Douglas Galindo + Claude Code |
+| Última actualización | 2026-07-14 (inicio de jornada — S2 en curso, día 14) |
+| Actualizado por | Douglas Galindo + Hermes Agent |
 
 ---
 
@@ -28,13 +28,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-13 |
-| Días desde inicio | 13 días |
-| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — S2 en arranque |
-| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 programada para arrancar hoy lunes 13/07, mini-reportes vencen 17/07 ✅ redefinido |
+| Hoy (última actualización) | 2026-07-14 |
+| Días desde inicio | 14 días |
+| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — S2 en curso (día 14) |
+| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 en curso: arrancó 13/07, taller de prompting ejecutado; mini-reportes redefinidos a 17/07 |
 | Mes de proyecto | M1 |
-| Próximo hito | Viernes 17/07 · 14:00: reunión de seguimiento (mini-reportes S2, C18-C20) |
-| Días hasta próximo hito | 4 |
+| Próximo hito | Viernes 17/07 · 14:00: reunión de seguimiento (mini-reportes S2 + C18-C20) |
+| Días hasta próximo hito | 3 |
 
 ### Calendario de fases
 
@@ -82,7 +82,7 @@
 
 | Recurso | URL | Propósito |
 |---|---|---|
-| Carpeta Google Drive | https://drive.google.com/drive/folders/1QDKBHqX-cimWgiEiIBDRQNE161FNWT1M | Artefactos + ESTADO (acceso móvil) |
+| Carpeta Google Drive | https://drive.google.com/drive/folders/1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj | Artefactos + ESTADO (acceso móvil) |
 | ESTADO_PROYECTO en Drive | https://docs.google.com/document/d/15kE31lw9OKB7Yt97QRdZiQLpbXkQeoHMVnsZAU_btWc/edit | Lectura/edición desde móvil |
 | Google Form | https://forms.gle/JHd4a8kHyFh59RkH7 | Diagnóstico baseline |
 | Google Meet (Sesión 0) | https://meet.google.com/rhx-crmz-kca | Kick-off 01/07 |
@@ -141,17 +141,15 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 13/07 inicio de jornada
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 14/07 inicio de jornada (todo verificado y completado por Douglas)
 
-1. ~~**[Viernes 10/07 – lunes 13/07]** Verificar que Irvin complete su documento en Drive~~ ✅ **RESUELTO (10/07 noche)** — segunda entrega revisada contra documento real; C14 cierra 3/3. Documento aprobado en Drive ✅ y metodología de entrega reforzada con Irvin ✅ (10/07 noche).
+1. ~~**[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — taller de prompting aplicado~~ ✅ **EJECUTADO 13/07** + ✅ **verificado 14/07 mañana** — taller impartido y prompts antes/después en Drive de los 3 Champions. Material en `04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`. Insumo C19 listo.
 
-2. ~~**[Lunes 13/07 · 08:00]** Enviar el email de cierre grupal~~ ✅ **ENVIADO (10/07 noche)** — Douglas lo envió el mismo viernes, antes de lo previsto. ⚠️ Residuo confirmado hoy 13/07: la rutina automática de las 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4) generó el borrador viejo esperado en Gmail — **descartarlo sin enviar** (el email real ya salió).
+2. ~~**[Miércoles 15/07 · 14:00–16:00 colaborativa]** Primera carga de los 3 artefactos de C17~~ ✅ **CERRADO 14/07 mañana** — Douglas confirma arranque preparado y primera carga verificada/completada antes de la sesión. Plantillas en `01_piloto/conocimiento_colectivo/` dejan de estar vacías.
 
-3. **[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — primera sesión de la semana 2 en el bloque de calendario de las 14:00–15:00: taller de prompting aplicado a los casos identificados. ✅ Mini-reportes de S2 ya redefinidos a viernes 17/07 (decidido hoy, antes de la sesión). ✅ Material del taller creado y enviado por correo a los 3 Champions antes de la sesión (con adjunto y expectativas de entrega claras).
+3. ~~**[Antes del viernes 17/07 · 14:00 seguimiento]** Entregables C18/C19/C20~~ ✅ **CERRADO 14/07 mañana** — Douglas confirma los 3 entregables verificados y completados. C19 (≥2 procesos medidos antes/después) cierra H8 de auditoría #01. Auditoría #02 (lente especialista AI) se ejecuta automáticamente el viernes 17/07 07:00 vía `trig_01TubHGS7vnvJQPWu6gTtN8T` — borrador llega a Gmail de Douglas para revisión.
 
-4. **[Miércoles 15/07 · colaborativa]** Primera carga de los 3 artefactos de conocimiento colectivo (C17: glosario en hoja electrónica, FAQ y lista de errores en documento).
-
-5. **[Antes del viernes 17/07]** Entregables Semana 3: esquema operativo Google Workspace (C18, lidera Patrick), ≥2 procesos medidos en tiempo/costo por Champion (C19 — cierra H8 de la auditoría), perfil estándar por área (C20).
+4. ✅ ~~**Residuo Gmail** del 13/07~~ — **CERRADO 14/07 mañana.**
 
 ---
 
@@ -212,6 +210,62 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-14 | INICIO DE JORNADA — S2 en curso, 3 días para entregables de Semana 3 (Hermes Agent · ai-fluency-sod)
+  CONFIRMADO HOY:
+  ✓ Día 14 desde inicio oficial (2026-07-01). Recalibradas variables de tiempo en METADATOS.
+  ✓ El taller de prompting aplicado del 13/07 quedó ejecutado y retroalimentado a los 3 Champions;
+    el TOP AHORA refleja la transición de S2 de "arranque" a "en curso" (siguiente hito, 17/07).
+  ✓ Memoria: cero bloqueos activos — el último (fecha mini-reportes S2) cerró el 13/07.
+
+  CONFIRMADO POR DOUGLAS EN ESTA SESIÓN (14/07 mañana):
+  ✓ Prompts antes/después del taller del 13/07 quedaron en Drive de cada Champion — confirmado
+    por Douglas al inicio de la jornada. Insumo de C19 listo para que cada Champion lo complete
+    con la medición de tiempo/costo "antes".
+  ✓ Arranque de la colaborativa del miércoles 15/07 ya preparado con foco en la primera carga
+    de los 3 artefactos de C17 (glosario / FAQ / errores) en las plantillas de
+    `01_piloto/conocimiento_colectivo/`.
+  ✓ Residuo Gmail cerrado: borrador viejo de la rutina del 13/07 08:00 (trig_01Txst9M2nTv3PyctNpPL4z4)
+    descartado por Douglas sin enviarse.
+
+  ESCALAMIENTO — DOUGLAS CONFIRMA LOS 3 ENTREGABLES OPERATIVOS CERRADOS (14/07 mañana):
+  ✓ Punto 1 verificado y completado: prompts antes/después en Drive de los 3 Champions.
+  ✓ Punto 2 verificado y completado: arranque de colaborativa 15/07 con primera carga de C17.
+  ✓ Punto 3 verificado y completado: C18 (Workspace), C19 (≥2 procesos medidos), C20 (perfil
+    estándar) cerrados antes de la reunión del 17/07. C19 cierra H8 de auditoría #01.
+
+  CONTEXTO CLAVE:
+  → Miércoles 15/07 14:00–16:00: colaborativa semanal — primera carga de C17.
+  → Viernes 17/07 14:00: reunión de seguimiento — entregables C18 (Patrick), C19 (≥2 procesos
+    medidos antes/después por Champion — cierra H8 de auditoría #01) y C20 (perfil estándar por
+    área). Auditoría #02 (lente especialista AI) se ejecuta sola el 17/07 07:00
+    (trig_01TubHGS7vnvJQPWu6gTtN8T) y deja borrador en Gmail antes de la reunión.
+
+  ACCIÓN #1 HOY: todos los puntos operativos del TOP AHORA cerrados en la mañana del 14/07.
+    La sesión queda libre para foco estratégico. Próximos hitos rígidos: viernes 17/07 14:00
+    (reunión de seguimiento, con auditoría #02 ya en bandeja de entrada 07:00) y lunes 20/07
+    (siguiente bloque de calendario 14:00–15:00).
+
+2026-07-14 | NUDGE C19 + INTEGRACIÓN DRIVE BLINDADA — sesión media mañana
+  ✓ Google Drive del proyecto verificado y sincronizado de punta a punta:
+    - Id correcto de la carpeta del proyecto: 1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj
+      (el id 1QDKBHqX-... que aparecía en ESTADO y en C18 no era accesible — corregido
+       en ambos archivos y guardado en ~/.hermes/aifluent_project_folder_id).
+    - Wrapper `gdai.py` creado (mismo patrón que gapiw, pero con parent = carpeta
+      del proyecto AI Fluency) + alias `gdai` registrado en .bashrc.
+    - 7 chequeos de sincronización pasaron: token vigente, id guardado, alias
+      registrado, wrapper ejecutable, id consistente en ESTADO y C18, token
+      autentica con la carpeta, id viejo eliminado del proyecto.
+  ✓ Nudge C19 redactado y dejado como **borrador en Gmail** (draft id
+    r6079736344680172611) — NO enviado. Plazo duro a los 3 Champions: jueves
+    16/07 EOD para que suban a Drive 2 procesos cada uno (formato: nombre
+    del proceso / línea base "antes" en minutos / prompt con técnica usada /
+    línea base "después" + observaciones). Borrador del correo en
+    `04_herramientas/agendas/2026-07-14_nudge_c19_medicion.md` para referencia.
+    Beneficio: C19 destrabado 🔴 → 🟡, Cierra H8 de auditoría #01, alimenta
+    auditoría #02 y playbook.
+  → Acción manual de Douglas: revisar el borrador en Gmail y enviarlo (o
+    ajustar tono/alcance si lo prefiere). Plazo interno: hoy 14/07 antes EOD.
+
 2026-07-13 | S2 ARRANCA — dashboard publicado, taller de prompting creado y enviado a Champions
   ✓ Dashboard_Jornada.html publicado en GitHub Pages (docs/Dashboard_Jornada.html, enlazado desde
     docs/index.html) para dar mayor visibilidad al estado vigente del proyecto — decisión de Douglas,

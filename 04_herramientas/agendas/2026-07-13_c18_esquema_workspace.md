@@ -24,7 +24,7 @@ Importante no confundir dos cosas distintas (esta confusión es el hallazgo I8 d
 Casos ya validados en el piloto que sirven de base para el esquema:
 
 1. **Canal de entrega de evidencia (Drive)** — decidido en Sesión 18 (10/07): el Champion comparte el documento como **comentador** mientras está en borrador; cuando está listo para validación, lo pasa a **Aprobar**. Sin PDF. Nombres propios de archivo (ver modelo de Patrick: `EvidenciaS1_CasoAncla_VerificacionDiariaInfraestructura`).
-2. **Carpeta compartida del piloto** — `https://drive.google.com/drive/folders/1QDKBHqX-cimWgiEiIBDRQNE161FNWT1M` como raíz; cada Champion con subcarpeta propia (evidencia S1/S2, conocimiento colectivo).
+2. **Carpeta compartida del piloto** — `https://drive.google.com/drive/folders/1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj` como raíz; cada Champion con subcarpeta propia (evidencia S1/S2, conocimiento colectivo).
 3. **Conocimiento colectivo (C17)** — glosario en **hoja electrónica** compartida (edición conjunta los 3), FAQ y lista de errores en **documento** compartido — construcción colaborativa, no un dueño único.
 4. **Calendar** — bloques recurrentes Lun/Mar 14:00-15:00 ya creados para Douglas; mismo patrón replicable para que cada Champion bloquee su tiempo de práctica semanal.
 5. **ESTADO_PROYECTO en Drive** — copia espejo del estado vivo del proyecto para lectura/edición desde móvil (ya en uso por Douglas, podría extenderse a Patrick para que actualice su parte de C18 directamente ahí).
