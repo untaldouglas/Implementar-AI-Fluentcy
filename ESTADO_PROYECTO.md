@@ -14,7 +14,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-14 (inicio de jornada — S2 en curso, día 14) |
+| Última actualización | 2026-07-16 · Sesión 19 — cierre de ventana C19 y preparación de seguimiento |
 | Actualizado por | Douglas Galindo + Hermes Agent |
 
 ---
@@ -28,13 +28,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-14 |
-| Días desde inicio | 14 días |
-| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — S2 en curso (día 14) |
-| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 en curso: arrancó 13/07, taller de prompting ejecutado; mini-reportes redefinidos a 17/07 |
+| Hoy (última actualización) | 2026-07-16 |
+| Días desde inicio | 16 días |
+| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — S2 en curso (día 16) |
+| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 en curso: hoy cierra la ventana interna de C19; seguimiento mañana 17/07 |
 | Mes de proyecto | M1 |
-| Próximo hito | Viernes 17/07 · 14:00: reunión de seguimiento (mini-reportes S2 + C18-C20) |
-| Días hasta próximo hito | 3 |
+| Próximo hito | Viernes 17/07 · 07:00: auditoría #02; 14:00: reunión de seguimiento (C18-C20) |
+| Días hasta próximo hito | 1 |
 
 ### Calendario de fases
 
@@ -132,7 +132,7 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | Próxima seguimiento (2026-07-17) | 🟡 EN PREPARACIÓN (13/07) | Douglas ya preparó los 5 ejemplos de uso + plantilla para Patrick en [`04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md`](04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md) — incluye aclaración de alcance (esto es el esquema de uso manual, no la integración técnica MCP/OAuth de `Alineacion_Estrategica.md`, planeada ago-oct). Falta que Patrick complete la sección 2 antes del 17/07. Avanza I8 de la auditoría #01 |
-| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | **Cierra H8 de la auditoría #01** (métricas definidas sin línea base "antes") — esta vez la medición del "antes" queda pedida explícitamente, por Champion |
+| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 🔴 **NO RECIBIDO EN DRIVE** (confirmado 16/07) | Al 16/07 no hay documentos C19 en la carpeta de Drive. En la reunión del 17/07 se verificará el estado por Champion y se propondrá una ventana única de recuperación hasta el 20/07 12:00. **Cierra H8 de la auditoría #01** únicamente cuando existan 2 procesos medidos por Champion y la evidencia sea revisada. |
 | C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`) |
 
 ---
@@ -141,15 +141,10 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 14/07 inicio de jornada (todo verificado y completado por Douglas)
-
-1. ~~**[Lunes 13/07 · 14:00]** Arrancar S2 (Productividad personal con IA) — taller de prompting aplicado~~ ✅ **EJECUTADO 13/07** + ✅ **verificado 14/07 mañana** — taller impartido y prompts antes/después en Drive de los 3 Champions. Material en `04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`. Insumo C19 listo.
-
-2. ~~**[Miércoles 15/07 · 14:00–16:00 colaborativa]** Primera carga de los 3 artefactos de C17~~ ✅ **CERRADO 14/07 mañana** — Douglas confirma arranque preparado y primera carga verificada/completada antes de la sesión. Plantillas en `01_piloto/conocimiento_colectivo/` dejan de estar vacías.
-
-3. ~~**[Antes del viernes 17/07 · 14:00 seguimiento]** Entregables C18/C19/C20~~ ✅ **CERRADO 14/07 mañana** — Douglas confirma los 3 entregables verificados y completados. C19 (≥2 procesos medidos antes/después) cierra H8 de auditoría #01. Auditoría #02 (lente especialista AI) se ejecuta automáticamente el viernes 17/07 07:00 vía `trig_01TubHGS7vnvJQPWu6gTtN8T` — borrador llega a Gmail de Douglas para revisión.
-
-4. ✅ ~~**Residuo Gmail** del 13/07~~ — **CERRADO 14/07 mañana.**
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 16/07 inicio de jornada
+1. **[Completado 16/07]** Agenda del seguimiento aprobada y reunión creada en Google Calendar para el 17/07, 14:00–15:00, sin invitados; Douglas agregará personalmente a los participantes. Decisión: no enviar el correo previo.
+2. **[Mañana viernes 17/07 · 07:00]** Revisar en Gmail el borrador de la auditoría #02 (lente especialista AI) generado por la rutina `trig_01TubHGS7vnvJQPWu6gTtN8T`; contrastar sus hallazgos con la ausencia real de C19.
+3. **[Mañana viernes 17/07 · 14:00]** Ejecutar reunión de seguimiento con criterio de evidencia: validar C18/C20, mini-reportes S2 y estado por Champion de C19; si sigue incompleto, acordar una ventana única de recuperación.
 
 ---
 
@@ -210,6 +205,40 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-16 | SESIÓN 19 — INICIO DE JORNADA: CIERRE C19 Y PREPARACIÓN DE SEGUIMIENTO (Hermes Agent · ai-fluency-sod)
+  CONFIRMADO HOY:
+  ✓ Día 16 desde el inicio oficial; Fase 1 y S2 continúan en curso.
+  ✓ Repositorio limpio y sincronizado con `origin/main` al iniciar la jornada.
+  ✓ Hoy vence la ventana interna comunicada para recibir las mediciones de C19 en Drive.
+
+  CONTEXTO CLAVE:
+  → Mañana 17/07 07:00: la auditoría #02 debe generar un borrador en Gmail para revisión de Douglas.
+  → Mañana 17/07 14:00: seguimiento para validar evidencia real de C18/C19/C20 y mini-reportes S2.
+  → No hay bloqueos técnicos registrados; el riesgo operativo es llegar al seguimiento sin verificar C19.
+
+  ACCIÓN #1 HOY: confirmar en Drive que cada Champion entregó 2 procesos con medición antes/después;
+    registrar faltantes antes del cierre del día.
+
+  ACTUALIZACIÓN 09:39 — CONFIRMACIÓN DE DOUGLAS Y PREPARACIÓN DE SEGUIMIENTO:
+  ⚠ C19: no hay documentos en la carpeta de Drive al 16/07. Estado corregido a NO RECIBIDO;
+    no se considera cerrado H8 sin 2 procesos medidos por Champion y evidencia revisada.
+  ✓ Agenda propuesta para el 17/07 preparada en
+    `04_herramientas/agendas/2026-07-17_seguimiento_c18_c20.md`.
+  ✓ Borrador local de correo preparado en
+    `04_herramientas/agendas/2026-07-16_email_previo_seguimiento_c19_pendiente.md`.
+  ✓ No se creó ni modificó invitación de Calendar; no se creó borrador en Gmail ni se envió correo.
+  → Propuesta para la reunión, sujeta a decisión de Douglas: si C19 sigue incompleto, ventana única
+    de recuperación hasta el lunes 20/07 12:00 y revisión el mismo lunes 14:00.
+
+  DECISIÓN Y EJECUCIÓN 16/07:
+  ✓ Douglas aprobó el contenido de `2026-07-17_seguimiento_c18_c20.md`.
+  ✓ Reunión creada en Google Calendar: 17/07, 14:00–15:00 CST, sin invitados
+    (evento `isb5a2lc22995bj6co87le8s4g`); Douglas agregará personalmente a los participantes.
+  ✓ Douglas decidió no enviar el correo previo. El archivo local quedó marcado DESCARTADO/NO ENVIAR;
+    no se creó borrador en Gmail y no se envió ningún correo.
+
+---
+
 2026-07-14 | INICIO DE JORNADA — S2 en curso, 3 días para entregables de Semana 3 (Hermes Agent · ai-fluency-sod)
   CONFIRMADO HOY:
   ✓ Día 14 desde inicio oficial (2026-07-01). Recalibradas variables de tiempo en METADATOS.
