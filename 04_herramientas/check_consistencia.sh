@@ -55,6 +55,25 @@ else
   ok "Sin archivos con pinta de datos sensibles pendientes de commit"
 fi
 
+# 6. Regla §4.5 del Protocolo: todo compromiso EN CURSO (no ✅) que involucre evidencia de
+#    Champions debe citar su plantilla _PLANTILLA_ en la misma fila de la matriz de compromisos
+#    de ESTADO_PROYECTO.md — si no, el criterio vuelve a vivir solo en la cabeza del Director
+#    (patrón que causó I1 y los falsos "no recibido" de C19).
+SIN_PLANTILLA=$(awk -F'|' '
+  /^\| *C[0-9]+ *\|/ {
+    id=$2; gsub(/^[ \t]+|[ \t]+$/,"",id)
+    estado=$5
+    if (estado ~ /✅/) next
+    if ($0 ~ /Irvin|Mario|Patrick|Champion/ && $0 !~ /_PLANTILLA_/) print id
+  }
+' "$REPO/ESTADO_PROYECTO.md")
+if [ -n "$SIN_PLANTILLA" ]; then
+  fail "Compromiso(s) EN CURSO con evidencia de Champions pero SIN cita de plantilla _PLANTILLA_ en su fila (regla §4.5 del Protocolo):"
+  printf '%s\n' "$SIN_PLANTILLA" | sed 's/^/      /'
+else
+  ok "Todo compromiso en curso con evidencia de Champions cita su plantilla _PLANTILLA_"
+fi
+
 echo
 if [ "$FALLOS" -eq 0 ]; then
   echo "RESULTADO: ✅ consistente ($(date +%H:%M))"
