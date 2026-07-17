@@ -28,7 +28,9 @@
       "Bash(git -C /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions status --short)",
       "mcp__claude_ai_Google_Drive__list_recent_files",
       "Read(//home/dagalindo/**)",
-      "Read(//home/dagalindo/hermeslearning/**)"
+      "Read(//home/dagalindo/hermeslearning/**)",
+      "Bash(chmod +x /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/verificar_evidencia_drive.sh)",
+      "Bash(bash /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/verificar_evidencia_drive.sh --dias 3)"
     ]
   }
 }
