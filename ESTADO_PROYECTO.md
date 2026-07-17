@@ -126,7 +126,7 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
-| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 MATERIAL ENVIADO, SESIÓN 14:00 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. Mini-reportes: fecha redefinida a viernes 17/07 (13/07). Material del taller de prompting aplicado creado (`04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`) y enviado por correo a los 3 Champions antes de la sesión, con el adjunto y las expectativas de entrega (prompt antes/después → Drive, insumo directo para C19) |
+| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 MATERIAL ENVIADO, SESIÓN 14:00 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. Mini-reportes: fecha redefinida a viernes 17/07 (13/07). Material del taller de prompting aplicado creado (`04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`) y enviado por correo a los 3 Champions antes de la sesión. **Entrega del mini-reporte (17/07):** plantilla `_PLANTILLA_S2_MiniReporte` → copia en la subcarpeta del Champion en S2, nombre `AIFluency_<Nombre>_S2_MiniReporte` |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
 | C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 PLANTILLAS CREADAS (10/07), vacías | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
 
@@ -135,8 +135,8 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | Próxima seguimiento (2026-07-17) | 🟡 EN PREPARACIÓN (13/07) | Douglas ya preparó los 5 ejemplos de uso + plantilla para Patrick en [`04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md`](04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md) — incluye aclaración de alcance (esto es el esquema de uso manual, no la integración técnica MCP/OAuth de `Alineacion_Estrategica.md`, planeada ago-oct). Falta que Patrick complete la sección 2 antes del 17/07. Avanza I8 de la auditoría #01 |
-| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 🔴 **NO RECIBIDO EN DRIVE** (confirmado 16/07) | Al 16/07 no hay documentos C19 en la carpeta de Drive. En la reunión del 17/07 se verificará el estado por Champion y se propondrá una ventana única de recuperación hasta el 20/07 12:00. **Cierra H8 de la auditoría #01** únicamente cuando existan 2 procesos medidos por Champion y la evidencia sea revisada. |
-| C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR | Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`) |
+| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 🔴 **NO RECIBIDO EN DRIVE** (confirmado 16/07) · 17/07 mediodía: material nuevo detectado en carpetas personales S2, pendiente de verificación | Al 16/07 no hay documentos C19 en la carpeta de Drive. En la reunión del 17/07 se verificará el estado por Champion y se propondrá una ventana única de recuperación hasta el 20/07 12:00. **Cierra H8 de la auditoría #01** únicamente cuando existan 2 procesos medidos por Champion y la evidencia sea revisada. **Entrega:** plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/`, nombre `AIFluency_<Nombre>_C19_<Proceso>` |
+| C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR · 17/07: 3 docs de perfiles detectados en la raíz de Drive, pendientes de verificación | Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`). **Entrega:** plantilla `_PLANTILLA_C20_Perfil_de_Area` → `01_Evidencia_Champions/C20_perfiles_area/`, nombre `AIFluency_<Nombre>_C20_Perfil<Area>` |
 
 ---
 
@@ -190,6 +190,7 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 | 2026-07-10 | **Canal de entrega de evidencia: Google Drive** | Todo artefacto/documento de las guías se comparte o envía en Drive para aprobación de Douglas — reemplaza correo/Teams. Asegura trazabilidad y verificación digital de que hubo revisión del entregable. Decidido en la reunión de seguimiento (Sesión 18, 14:00). |
 | 2026-07-10 | **Formalizar conocimiento colectivo en 3 artefactos** (glosario, FAQ, lista de errores) | El conocimiento que surge de la colaboración entre Champions (no solo individual) es más valioso y se estaba perdiendo — evidenciado en la colaborativa 08/07 (subagentes, workflows, scripts). Se solicita a Irvin/Mario/Patrick construirlo en `01_piloto/conocimiento_colectivo/`. |
 | 2026-07-10 | **Metodología de entrega de evidencias (Bloque 5)** | Nombres propios y claros para documentos/artefactos; modelo de referencia = el de Patrick (+ agregar links a artefactos digitales); usar función "Aprobar" de Drive para revisión/validación; no PDF — compartir como comentador hasta tener versión lista para aprobar. |
+| 2026-07-17 | **Regla: todo compromiso con evidencia nace con plantilla-rúbrica + ubicación de entrega** | Al crear/anunciar cualquier C# que exija evidencia de Champions, deben existir antes: la plantilla-rúbrica en Drive (prefijo `_PLANTILLA_`, con instrucciones, campos del criterio, autoevaluación y bloque de veredicto) y la ubicación exacta de entrega en la matriz de compromisos. Plantillas activas: C19 (proceso medido), C20 (perfil de área), S2 (mini-reporte). Registrada en Protocolo §4.5. |
 | 2026-07-17 | **Carpeta única de Drive + estructura 00–04 + fin de la conexión douglasag@gmail.com** | Se adopta `1eNbWpOmga…` ("AIFluent Junio 2026") como carpeta única oficial del proyecto. Estructura creada vía `gdai`: 00_Gobernanza · 01_Evidencia_Champions (C19/C20) · 02_Conocimiento_Colectivo · 03_Material_Programa · 04_Diagnostico_RESTRINGIDO, con README de reglas en la raíz. La carpeta `1QDKBHqX…` (douglasag@gmail.com) queda obsoleta y la conexión de claude.ai con esa cuenta se elimina. Resuelve la instancia más visible de la causa raíz diagnosticada en la consultoría post-auditoría #02 (ver `00_marco/Protocolo_Evidencia_y_Estado.md` §7). |
 | 2026-07-10 | **Resuelto I1 (auditoría #01) — criterio de S1: 1 caso ancla + reflexión** | El entregable verificable de S1 es 1 caso ancla completo + reflexión Día 7 (como decían las guías operativas), no 3 casos. Los "3 casos" del Roadmap quedan como meta acumulada S1+S2, no como requisito de cierre de S1. Aclarado en `01_piloto/Roadmap_AI_Fluency_UJMD.md`. Nota: los "2/3 casos" de `Licencia_Conduccion_AI.md`/`onboarding.html` son metas de certificación de Licencia Básica/Profesional (tiers L2-L3/L4-L5) — no forman parte de este conflicto, se revisaron y son consistentes entre sí. |
 
@@ -209,6 +210,23 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-17 | SESIÓN 20 (cont. 2) — PLANTILLAS-RÚBRICA + REGLA DE COMPROMISOS CON EVIDENCIA (pre-reunión)
+  ✓ 3 plantillas-rúbrica publicadas en Drive con prefijo _PLANTILLA_: C19 proceso medido (una copia
+    POR PROCESO, en subcarpeta del Champion), C20 perfil de área, S2 mini-reporte. Cada una incluye:
+    instrucciones de copia/renombre con la convención, campos exactos del criterio de aceptación,
+    rúbrica de autoevaluación con checkboxes y bloque de veredicto del Director. README de la carpeta
+    ampliado con la sección "Plantillas-rúbrica".
+  ✓ REGLA NUEVA (decisión de Douglas): todo compromiso que exija evidencia entregable de Champions
+    nace con plantilla publicada y ubicación exacta de entrega — formalizada en Protocolo §4.5,
+    registrada en la tabla de decisiones y en la memoria del proyecto.
+  ✓ Matriz de compromisos actualizada: C15 (mini-reporte S2), C19 y C20 ahora citan su plantilla y
+    su ubicación de entrega. C19/C20 anotan el material detectado a mediodía pendiente de verificación.
+  ✓ Agenda del 17/07: adendo ampliado (punto 7 — mostrar plantillas en la reunión en vez de explicar
+    el criterio verbalmente; la ventana de recuperación de C19 se entrega usando la plantilla).
+    Reflejado también en el Doc de notas del evento de Calendar.
+  ✓ Conector claude.ai verificado tras la desconexión de douglasag@gmail.com: autentica como
+    dagalindo@ujmd.edu.sv, sin acceso a la carpeta B ni a sus archivos (Protocolo §7 actualizado).
+
 2026-07-17 | SESIÓN 20 (cont.) — CARPETA ÚNICA DE DRIVE EJECUTADA (mediodía, pre-reunión)
   ✓ Douglas decide: carpeta canónica única = 1eNbWpOmga… ("AIFluent Junio 2026"); la conexión de
     claude.ai con douglasag@gmail.com SE ELIMINA y no vuelve a usarse para el proyecto.

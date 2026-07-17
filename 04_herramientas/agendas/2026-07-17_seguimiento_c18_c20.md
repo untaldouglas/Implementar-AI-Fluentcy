@@ -25,6 +25,7 @@
 4. **Actas de Licencia Básica listas para firmar** en `00_Gobernanza/Actas_Licencias` (Irvin, Mario, Patrick): otorgan L2/Licencia Básica **condicionadas** a que C19 quede verificado hoy con evidencia real. Si C19 se verifica → firmar en la misma reunión (Champion + Douglas). Si no → el acta queda sin efecto hasta completar el criterio.
 5. **Auditoría #02 procesada y guardada** (`04_herramientas/auditorias/2026-07-17_auditoria_02_especialista_ai.md`). Rigen para esta reunión: R11 (nada se certifica por reporte verbal — abrir el documento al que apunta el documento) y R12 (si C19 queda incompleto: ventana única lunes 20/07 12:00 + convertir el recordatorio en rutina automatizada a Champions, no correo manual).
 6. **Meta de progresión corregida** (R7/I3): el piloto certifica hasta **L3 / Licencia Básica**; L4-L5 pasa a Fase 2. Usar este marco al presentar las actas para no inflar expectativas.
+7. **Plantillas-rúbrica publicadas** (17/07 mediodía): `_PLANTILLA_C19_Proceso_Medido` (en `C19_medicion_antes_despues/`, una copia POR PROCESO en la subcarpeta del Champion), `_PLANTILLA_C20_Perfil_de_Area` y `_PLANTILLA_S2_MiniReporte`. Cada una trae instrucciones, los campos del criterio, rúbrica de autoevaluación y bloque de veredicto. **En la reunión: mostrar la plantilla en pantalla en vez de explicar el criterio verbalmente.** Si se activa la ventana de recuperación de C19, la entrega se hace usando la plantilla.
 
 ---
 
@@ -146,7 +147,7 @@ Si el viernes los documentos continúan ausentes o incompletos:
 
 - **No extender silenciosamente el compromiso.** Registrar C19 como vencido/no recibido al momento de la reunión.
 - Acordar una **ventana de recuperación única hasta el lunes 20/07 a las 12:00**.
-- Cada Champion carga sus 2 procesos en Drive bajo la convención `C19_medicion_antes_despues/`.
+- Cada Champion carga sus 2 procesos en Drive bajo la convención `C19_medicion_antes_despues/<Nombre>/`, usando la plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia por proceso).
 - Douglas revisa la evidencia el lunes en su bloque de 14:00–15:00.
 - Lo que no esté en Drive a la hora acordada permanece abierto y se refleja como tal en `ESTADO_PROYECTO.md`.
 

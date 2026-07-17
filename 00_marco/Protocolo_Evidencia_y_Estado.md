@@ -58,6 +58,7 @@ Reglas no negociables:
 2. **Nada salta de 🟡 a ✅.** El paso por 📥 (documento existente en Drive) es obligatorio — esto es lo que I1 e I9 se saltaron.
 3. **La verificación se registra en la misma sesión en que ocurre**, en la fuente canónica primero, renders después. No se deja "para el cierre de jornada".
 4. **El reporte verbal nunca cambia un estado.** Puede motivar abrir el documento — nada más (regla de la agenda del 17/07, ahora política permanente).
+5. **Todo compromiso nuevo que exija evidencia de Champions nace equipado** (regla del 17/07): antes de anunciarlo deben existir (a) su **plantilla-rúbrica** en Drive (prefijo `_PLANTILLA_`, en la carpeta del entregable: instrucciones de copia/renombre, campos del criterio de aceptación, rúbrica de autoevaluación y bloque de veredicto del Director) y (b) la **ubicación exacta de entrega** declarada en la matriz de compromisos de `ESTADO_PROYECTO.md`. Sin plantilla y ubicación, el compromiso no se anuncia — un criterio que solo vive en la cabeza del Director o en una agenda es el patrón I1/I9 esperando repetirse.
 
 ---
 
