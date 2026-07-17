@@ -30,7 +30,9 @@
       "Read(//home/dagalindo/**)",
       "Read(//home/dagalindo/hermeslearning/**)",
       "Bash(chmod +x /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/verificar_evidencia_drive.sh)",
-      "Bash(bash /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/verificar_evidencia_drive.sh --dias 3)"
+      "Bash(bash /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/verificar_evidencia_drive.sh --dias 3)",
+      "Bash(python3 -m json.tool)",
+      "Bash(python3 *)"
     ]
   }
 }

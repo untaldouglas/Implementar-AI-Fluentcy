@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-17 ~15:20 · Sesión 20 (cont. 8) — puente automatizado Drive↔GitHub construido; encontró evidencia real de Mario (C19) fuera de estructura, pendiente de verificar contra criterio |
+| Última actualización | 2026-07-17 ~15:30 · Sesión 21 — FIN DE JORNADA: sesión ya consolidada (cierre ritual); siguiente hito rígido = lunes 20/07 14:00 y reunión de seguimiento viernes 24/07 |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -128,7 +128,7 @@
 | C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
 | C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 MATERIAL ENVIADO, SESIÓN 14:00 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. Mini-reportes: fecha redefinida a viernes 17/07 (13/07). Material del taller de prompting aplicado creado (`04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`) y enviado por correo a los 3 Champions antes de la sesión. **Entrega del mini-reporte (17/07):** plantilla `_PLANTILLA_S2_MiniReporte` → copia en la subcarpeta del Champion en S2, nombre `AIFluency_<Nombre>_S2_MiniReporte` |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
-| C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟡 PRIMERA CARGA PARCIAL (verificado 17/07 11:50) — Patrick subió Glosario (10 términos) + FAQ (4 preguntas) el 17/07, pero individual (solo él), sesgado a infraestructura y en su carpeta personal S2, no en `02_Conocimiento_Colectivo`; lista de errores no existe | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga en el lugar correcto (mover lo de Patrick desde su carpeta personal). **Entrega:** guía-rúbrica `_PLANTILLA_C17_Conocimiento_Colectivo` (no se copia, define el formato de los 3 artefactos) → `02_Conocimiento_Colectivo/` (Drive), publicada 17/07 |
+| C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 BASE COLECTIVA COMPLETADA por Claude Code (17/07, ~21:40, decisión de Douglas) — los 3 artefactos existen y están poblados en `02_Conocimiento_Colectivo/` (Drive): Glosario (13 términos), FAQ (4 preguntas), Lista de errores (5 entradas, creada desde cero). Pendiente: aporte por iniciativa propia de Irvin y Mario (ver Notas) | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07). Douglas decidió que, a diferencia de C19 (medición individual), C17 es un compromiso de consolidación apropiado para que lo complete el agente. Se filtró el aporte de Patrick al criterio de la rúbrica ("caso real con Hermes"): se excluyeron 5 términos genéricos ITIL/COBIT (COBIT, Continuidad del Servicio, ITILv3, SLA, SOP) sin ese anclaje, y 3 de sus 4 preguntas FAQ por el mismo motivo. Se sumaron términos/preguntas reales extraídos de la evidencia C19 de Mario e Irvin, y la lista de errores se construyó con 5 casos reales y fechados del propio piloto (inconsistencia en `monitor_servidores_pro.sh`, evidencia enterrada en carpetas personales, duplicidad de cuentas Google, riesgo de datos no evaluado en el prompt de Irvin, compromisos sin plantilla-rúbrica). Mirror local actualizado en `01_piloto/conocimiento_colectivo/`. **Limitación honesta:** Irvin y Mario no han aportado todavía por iniciativa propia (lo suyo aquí viene de minar su evidencia de C19, no de que ellos hayan escrito una entrada); la rúbrica exige aportes de más de un Champion por decisión propia — pendiente cerrarlo en la próxima colaborativa semanal. **Entrega:** guía-rúbrica `_PLANTILLA_C17_Conocimiento_Colectivo` → `02_Conocimiento_Colectivo/` (Drive), publicada 17/07 |
 
 ### Compromisos Semana 3 (julio 15–21) — anunciados en Bloque 5 de la Sesión 18 (10/07)
 
@@ -213,6 +213,89 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-17 | SESIÓN 22 — C17 COMPLETADO POR CLAUDE CODE POR DECISIÓN DE DOUGLAS (Claude Code, ~21:40)
+  DECISIÓN DE DOUGLAS: a diferencia de C19/C20 (evidencia medida individualmente por cada
+  Champion, que nadie más puede generar en su nombre), C17 es un compromiso de formalización y
+  consolidación de conocimiento ya disperso en Drive — por esa característica, Douglas decidió
+  que lo apropiado era que Claude Code lo completara directamente en vez de esperar otra ronda de
+  carga por los Champions.
+
+  TRABAJO REALIZADO:
+  ✓ Localizado en Drive (vía conector) el aporte real de Patrick: Glosario de Términos Técnicos y
+    de Gestión (10 términos) + FAQ de Gestión de Infraestructura (4 preguntas), ambos del 17/07 en
+    su carpeta personal `Patrick Orellana` (S2) — nunca movidos a `02_Conocimiento_Colectivo`.
+  ✓ Verificado contra la rúbrica de `_PLANTILLA_C17_Conocimiento_Colectivo` ("viene de un caso real
+    de tu trabajo con Hermes, no un término copiado de un manual"): 5 de 10 términos (COBIT,
+    Continuidad del Servicio, ITILv3, SLA, SOP) y 3 de 4 preguntas eran genéricos de ITIL/COBIT sin
+    ese anclaje. Se preguntó a Douglas cómo proceder (AskUserQuestion) → decisión: filtrar y quedarse
+    solo con lo Hermes-relevante, dejando nota explícita de la exclusión (no descartar en silencio).
+  ✓ Revisada también la evidencia real de C19 de Mario e Irvin (ya cargada en Drive por ellos) para
+    extraer términos/preguntas genuinos del dominio: técnicas de prompting nombradas por Mario
+    (Iterative Refinement, Chain of Thought, Few-Shot) y la limitación de "delegación segura" que
+    Irvin declaró honestamente en su propio documento (prompt que no evalúa riesgo de incluir IP/
+    nombre de equipo).
+  ✓ Creados en Drive, dentro de `02_Conocimiento_Colectivo/` (ubicación correcta):
+    - `Glosario_Dominio` (Sheets) — 13 términos, con columna "Aportado por" y fecha.
+    - `Preguntas_Frecuentes` (Docs) — 4 preguntas.
+    - `Lista_de_Errores` (Docs) — 5 entradas; este artefacto no existía antes de hoy. Poblado con
+      errores reales y fechados de la operación misma del piloto: inconsistencia detectada en
+      `monitor_servidores_pro.sh` de Patrick (encabezado documenta CPU/disco, el cuerpo solo hace
+      ping), evidencia de Champions enterrada en carpetas personales, duplicidad de cuentas Google,
+      riesgo de dato no evaluado en el prompt de Irvin, y compromisos anunciados sin plantilla-rúbrica.
+  ✓ Actualizado el mirror local `01_piloto/conocimiento_colectivo/` (los 3 archivos + `_dashboard.md`)
+    con el mismo contenido y los links a Drive como fuente de verdad.
+  ✓ Fila de C17 actualizada en la tabla de compromisos (arriba): 🟡 → 🟢 BASE COLECTIVA COMPLETADA.
+
+  LIMITACIÓN HONESTA (no se oculta): Irvin y Mario no aportaron a C17 por iniciativa propia —
+  lo que aparece de ellos aquí se extrajo de su evidencia de C19, no de que ellos hayan escrito
+  una entrada al glosario/FAQ/errores. La rúbrica exige aportes de más de un Champion "por decisión
+  propia, no la carga individual de una sola persona"; en sentido estricto eso sigue pendiente.
+  Queda como acción para la próxima colaborativa semanal que los 3 amplíen directamente el artefacto
+  ya existente (mucho más fácil que arrancar de cero).
+
+  PRÓXIMA ACCIÓN: en la colaborativa semanal, mostrar los 3 artefactos ya poblados en
+  `02_Conocimiento_Colectivo/` y pedir a Irvin y Mario que agreguen al menos una entrada propia a
+  cada uno, cerrando la brecha de autoría colectiva real.
+
+2026-07-17 | SESIÓN 21 — FIN DE JORNADA: SESIÓN YA CONSOLIDADA (Hermes Agent · ai-fluency-eod, ~15:30)
+  CONFIRMADO HOY:
+  ✓ El cierre del día no agrega hechos nuevos: la Sesión 20 (8 cont. desde 10:30) ya registró
+    auditoría #02 procesada, consultoría de consistencia, Protocolo formalizado, decisión de carpeta
+    única de Drive, 3 plantillas-rúbrica publicadas (C17/C18 + C19/C20/S2 de la mañana), reunión de
+    seguimiento de las 14:00 ejecutada con decisión de pivote, mercadeo (borradores en revisión),
+    sincronización completa pre-reunión, escaneo de Drive que descubrió los 3 docs de Mario
+    enterrados en carpeta heredada y check_consistencia.sh blindado con el chequeo 6.
+  ✓ Se confirma el estado del TOP AHORA tal como quedó al cierre de la cont. 8: ningún ítem nuevo
+    en esta sesión — los 5 puntos son los mismos y siguen vigentes.
+  ✓ Recalibración de Variables de Tiempo hecha por la cont. 8 (D17, S2 en curso, próximo hito
+    "Cierre real de C18/C19/C20 antes de la reunión 24/07" — 7 días).
+
+  ESTADO GENERAL:
+  → FASE 1 — Piloto Champions 🟢 EN CURSO · S1 cerrada 3/3 ✅ · S2 en curso (día 17) · progreso
+    global ~33%
+  → C17, C18, C19, C20 y las 3 actas de Licencia Básica siguen EN PAUSA por decisión explícita de
+    la reunión de las 14:00 — semana de depuración/validación del sistema de plantillas antes de
+    forzar cierre con evidencia parcial. C19 de Irvin usado como caso de prueba positivo.
+  → HALLAZGO ABIERTO: 3 documentos de Mario Valencia en `bitacoras cumplimiento S1/S2/Mario/` —
+    pendientes de abrir contra criterio de C19 antes de cambiar el veredicto "Mario 🔴 sin material".
+    Regla del Protocolo: hallazgo de ubicación no es verificación de contenido.
+
+  PRÓXIMAS ACCIONES (sin cambios respecto a la cont. 8):
+  → Esta semana (antes del 24/07): depurar/validar el sistema de plantillas-rúbrica + abrir los
+    3 documentos de Mario contra criterio de C19 + dejar C18/C19/C20 cerrados con evidencia real.
+  → Lunes 20/07 14:00–15:00: bloque de calendario (recurrente Lun/Mar mientras dure F1).
+  → Viernes 24/07 14:00: próxima reunión de seguimiento.
+  → Auditoría #03 (24/07 ~07:00): lente COBIT (EDM01/APO01/MEA01, madurez 0-2).
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: retomar el lunes con la verificación de los 3 docs de Mario + la
+  primera carga en `_PLANTILLA_C18_Esquema_Workspace` por Patrick + mover los glosario/FAQ de
+  Patrick a `02_Conocimiento_Colectivo/` siguiendo la guía `_PLANTILLA_C17_Conocimiento_Colectivo`.
+
+  BLOG POST DE CIERRE: `~/hermeslearning/fin-jornada-2026-07-17.md` (reflexión sobre el día:
+  auditoría #02 como consultoría, carpeta única como decisión fundacional, plantillas-rúbrica
+  como contrato, pivote de la tarde como ejemplo de "validar antes de cerrar" y el hallazgo
+  de Mario como recordatorio de que la estructura mata la intuición).
+
 2026-07-17 | SESIÓN 20 (cont. 8) — PUENTE AUTOMATIZADO DRIVE↔GITHUB + HALLAZGO: EVIDENCIA DE MARIO ENTERRADA (Claude Code, ~15:20)
   ✓ Implementada la recomendación sobre la dualidad Drive/GitHub (memoria `error-dualidad-drive-github`):
     nuevo `04_herramientas/verificar_evidencia_drive.py` (+ wrapper `.sh`) recorre TODA la carpeta

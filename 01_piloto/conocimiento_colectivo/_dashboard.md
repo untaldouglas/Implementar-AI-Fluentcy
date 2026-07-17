@@ -36,10 +36,21 @@
 
 ## Estado
 
-| Artefacto | Entradas al 10/07 |
+| Artefacto | Entradas al 17/07 |
 |---|---|
-| Glosario del dominio | ⬜ Vacío — pendiente primera carga |
-| Preguntas frecuentes | ⬜ Vacío — pendiente primera carga |
-| Lista de errores | ⬜ Vacío — pendiente primera carga |
+| Glosario del dominio | 🟢 13 entradas — Patrick (5, filtradas de 10), Mario (3), Irvin (1), Claude Code consolidado (4) |
+| Preguntas frecuentes | 🟢 4 entradas — Patrick (1, filtrada de 4), Irvin (1), Claude Code consolidado (2) |
+| Lista de errores | 🟢 5 entradas — creado desde cero (no existía) |
+
+**17/07/2026 — Completado por Claude Code por decisión de Douglas.** A diferencia de C19 (evidencia
+medida individualmente por cada Champion), C17 es un compromiso de formalización/consolidación de
+conocimiento ya disperso en Drive — apropiado para que lo complete el agente con visibilidad
+completa del piloto. Se filtró el aporte de Patrick (glosario/FAQ) para quedarse solo con lo que
+cumple el criterio de la rúbrica ("caso real de trabajo con Hermes", no término copiado de un
+manual); los 5 términos ITIL/COBIT genéricos sin ese anclaje quedaron fuera. Los 3 artefactos ya
+viven en `02_Conocimiento_Colectivo` de Drive (ubicación correcta), no en carpetas personales.
+**Sigue pendiente:** Irvin y Mario no han aportado por iniciativa propia todavía (lo suyo aquí viene
+de minar su evidencia de C19) — la próxima colaborativa semanal debe cerrar esa brecha para que sea
+un artefacto verdaderamente construido por los 3, no solo consolidado por el agente.
 
 *Creado: 2026-07-10 · Acordado en la reunión de seguimiento (Sesión 18) tras el reporte positivo de la colaborativa del 08/07 · Piloto AI Fluency UJMD*
