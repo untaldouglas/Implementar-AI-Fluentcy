@@ -15,6 +15,19 @@
 
 ---
 
+## ⚡ ADENDO — Actualización de última hora (17/07, mediodía, antes de la reunión)
+
+> Lo trabajado en la sesión de la mañana del 17/07 cambia el estado de entrada de esta agenda en 6 puntos. El cuerpo aprobado el 16/07 se conserva intacto abajo; este adendo tiene precedencia donde difieran.
+
+1. **Carpeta única de Drive decidida y estructurada.** `1eNbWpOmga…` ("AIFluent Junio 2026") es desde hoy la carpeta oficial única, con estructura `00_Gobernanza · 01_Evidencia_Champions · 02_Conocimiento_Colectivo · 03_Material_Programa · 04_Diagnostico_RESTRINGIDO` y un README de reglas en la raíz. **Anunciarlo en la apertura:** toda evidencia va en `01_Evidencia_Champions`; C19 se carga en `C19_medicion_antes_despues/<Nombre>/` (ya existen las subcarpetas de los 3); lo colectivo (C17) va en `02_Conocimiento_Colectivo`, nunca en carpetas personales.
+2. **HALLAZGO — sí hay material nuevo en Drive, enterrado en carpetas personales de S2:** Patrick subió el 16-17/07 "auditoria de skills y tiempos" (posible C19), el "Glosario de Términos" y las "Preguntas Frecuentes" (posible primera carga de C17); Irvin subió hoy "Instalación de Software Remoto" (posible proceso C19). El "no recibido" del estado de entrada (16/07) pudo deberse a evidencia invisible por falta de estructura — **abrir estos documentos en vivo y verificarlos contra el criterio de la sección 5 antes de cualquier veredicto.**
+3. **Mario:** es el único sin material en la carpeta oficial, pero comparte contigo desde el 18/06 una carpeta propia llamada "Iniciativa AI Fluent". Preguntarle directamente si su trabajo vive ahí — sería la tercera instancia de la causa raíz (evidencia en ubicación no acordada).
+4. **Actas de Licencia Básica listas para firmar** en `00_Gobernanza/Actas_Licencias` (Irvin, Mario, Patrick): otorgan L2/Licencia Básica **condicionadas** a que C19 quede verificado hoy con evidencia real. Si C19 se verifica → firmar en la misma reunión (Champion + Douglas). Si no → el acta queda sin efecto hasta completar el criterio.
+5. **Auditoría #02 procesada y guardada** (`04_herramientas/auditorias/2026-07-17_auditoria_02_especialista_ai.md`). Rigen para esta reunión: R11 (nada se certifica por reporte verbal — abrir el documento al que apunta el documento) y R12 (si C19 queda incompleto: ventana única lunes 20/07 12:00 + convertir el recordatorio en rutina automatizada a Champions, no correo manual).
+6. **Meta de progresión corregida** (R7/I3): el piloto certifica hasta **L3 / Licencia Básica**; L4-L5 pasa a Fase 2. Usar este marco al presentar las actas para no inflar expectativas.
+
+---
+
 ## 1. Estado de entrada — 16/07
 
 - **C19:** no hay documentos en la carpeta de Drive. Estado real: **no recibido**.
