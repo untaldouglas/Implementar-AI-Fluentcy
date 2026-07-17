@@ -210,6 +210,16 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-17 | SESIÓN 20 (cont. 3) — CARPETA 06_mercadeo CREADA (borradores en revisión)
+  ✓ Paquete de mercadeo para vender el programa como curso (estilo Udemy top-sellers de IA para
+    empresas): página de curso (títulos A/B, bullets, temario mapeado a L0-L9), guion de video promo
+    90s, secuencia de 5 emails de lanzamiento, copys LinkedIn/X/anuncios (3 variantes), one-pager B2B
+    de licenciamiento institucional. Posicionamiento: "licencia de conducción, no otro curso de
+    prompts" — diferenciador: certificación con evidencia + kit replicable + open source.
+  ✓ Reglas del material: sin PII de Champions (casos anonimizados), cifras respaldables por la
+    evidencia del repo, precios como [PLACEHOLDER] hasta decisión de Douglas.
+  ⚪ Estado: BORRADORES para revisión de Douglas — nada publicado en plataformas.
+
 2026-07-17 | SESIÓN 20 (cont. 2) — PLANTILLAS-RÚBRICA + REGLA DE COMPROMISOS CON EVIDENCIA (pre-reunión)
   ✓ 3 plantillas-rúbrica publicadas en Drive con prefijo _PLANTILLA_: C19 proceso medido (una copia
     POR PROCESO, en subcarpeta del Champion), C20 perfil de área, S2 mini-reporte. Cada una incluye:
