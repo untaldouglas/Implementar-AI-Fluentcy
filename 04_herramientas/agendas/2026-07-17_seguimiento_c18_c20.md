@@ -29,6 +29,37 @@
 
 ---
 
+## ⚡ ADENDO 2 — Verificación pre-reunión del material detectado (17/07, ~11:50, Claude Code vía conector Drive)
+
+> Los documentos del punto 2 del adendo anterior ya fueron **abiertos y leídos contra el criterio de la sección 5**. Estado de entrada real por Champion (los veredictos finales se dan en vivo, pero esto es lo que hay en Drive a las 11:50):
+
+### Patrick — el más avanzado; C19 en sustancia a medio camino
+
+- **"auditoria de skills y tiempos"** (Sheets, 16/07, carpeta personal S2): inventario de 8 skills custom + tabla con **2 procesos con medición antes/después**: reportería mensual Google Workspace (**1h30+ → 5 min**) y reportería mensual Active Directory (**20 → 5 min**). Contra criterio C19: nombre ✓, antes ✓, después ✓; **faltan** prompt usado, técnica, observaciones/fallas, revisión humana y datos excluidos; no usa la plantilla, no está en `C19_medicion_antes_despues/Patrick/` ni con la convención de nombre. → **📥 recibido parcial** — es completar con plantilla, no arrancar de cero. Preguntarle cómo midió los tiempos (¿medidos o estimados de memoria?).
+- **"auditoria de skills"** (Doc, 16/07): informe narrativo de las mismas skills — material de soporte, no cierra nada por sí solo.
+- **Glosario (10 términos) + FAQ (4 preguntas)** (17/07 por la mañana): primera carga real de 2 de los 3 artefactos **C17**, pero individual (solo Patrick), sesgada a infraestructura y en su carpeta personal, no en `02_Conocimiento_Colectivo`. **Lista de errores: no existe.** → C17 🟡 iniciado, no colectivo aún.
+- C20 y mini-reporte S2: **nada**.
+
+### Irvin — 1 proceso C19 bien encaminado, el segundo apenas esbozado
+
+- **"Instalación de Software Remoto"** (Doc, 15→17/07, carpeta personal S2): proceso 1 bien estructurado — comparativo antes/después, **prompt operativo incluido** ✓, skill propia `winrm-remote-install`, análisis de gestor de secretos, riesgos; evidencia declarada: instalación real de Chrome en un centro de cómputo. Contra criterio: **el "antes" es aproximado (15 min/equipo) y el "después" NO está cuantificado en minutos** — dice "sin desplazamiento" pero no hay medición. → **📥 recibido parcial**: falta medir el después y pasarlo a plantilla.
+- **"Documento sin título"** (Doc): borrador del proceso 2 (documentación de alta/traslado/baja de equipos) — inconcluso, se corta a media frase. → proceso 2 apenas iniciado.
+- C17, C20 y mini-reporte S2: **nada**.
+
+### Mario — sin material en la carpeta oficial, confirmado
+
+- Su subcarpeta `C19_medicion_antes_despues/Mario/` y su carpeta S2 (creada hoy) están **vacías**. Aplica el punto 3 del adendo anterior: preguntar por la carpeta "Iniciativa AI Fluent".
+
+### C20 — los "3 docs de perfiles en la raíz" NO son entregas
+
+- "Analista Programador", "Soporte Tecnico" y "Operador de infraestructura" fueron **subidos por Douglas el 03/07** (descripciones de puesto = insumo base para C20), no son entregas de Champions. La hoja "Perfiles Centros de Computo Vigente Ciclo 1-2026" (modificada hoy) es un archivo compartido de otra área desde 2015, ajeno al programa. → **C20 sigue 🔴 sin arrancar por los 3.**
+
+### Implicación para las actas (punto 4 del adendo anterior)
+
+- Con lo anterior, **ningún Champion cierra C19 hoy contra el criterio completo** — Patrick e Irvin están en 📥 parcial, Mario en 🔴. Salvo que en vivo aparezca evidencia adicional, las 3 actas de Licencia Básica quedan **sin firmar** y la ventana de recuperación del 20/07 12:00 aplica para los 3 (para Patrick e Irvin es migrar/completar sobre la plantilla; para Mario es la entrega completa).
+
+---
+
 ## 1. Estado de entrada — 16/07
 
 - **C19:** no hay documentos en la carpeta de Drive. Estado real: **no recibido**.

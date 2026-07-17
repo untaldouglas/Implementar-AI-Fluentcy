@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-17 · Sesión 20 — auditoría #02 procesada + consultoría de consistencia |
+| Última actualización | 2026-07-17 ~12:00 · Sesión 20 (cont. 4) — verificación pre-reunión del material en Drive; reunión 14:00 aún pendiente |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -128,15 +128,15 @@
 | C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
 | C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque acordado: lunes 2026-07-13 | 🟡 MATERIAL ENVIADO, SESIÓN 14:00 | Acordado en Sesión 18 ("el lunes"). Fecha corregida 10/07 noche: el lunes es 13/07, no 14/07. Mini-reportes: fecha redefinida a viernes 17/07 (13/07). Material del taller de prompting aplicado creado (`04_herramientas/agendas/2026-07-13_s2_taller_prompting_aplicado.md`) y enviado por correo a los 3 Champions antes de la sesión. **Entrega del mini-reporte (17/07):** plantilla `_PLANTILLA_S2_MiniReporte` → copia en la subcarpeta del Champion en S2, nombre `AIFluency_<Nombre>_S2_MiniReporte` |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
-| C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 PLANTILLAS CREADAS (10/07), vacías | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
+| C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟡 PRIMERA CARGA PARCIAL (verificado 17/07 11:50) — Patrick subió Glosario (10 términos) + FAQ (4 preguntas) el 17/07, pero individual (solo él), sesgado a infraestructura y en su carpeta personal S2, no en `02_Conocimiento_Colectivo`; lista de errores no existe | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07) tras el reporte muy positivo de la colaborativa 08/07 (ya hablan de subagentes, workflows, scripts `.sh` propios). Carpeta `01_piloto/conocimiento_colectivo/`. Falta que los Champions hagan la primera carga |
 
 ### Compromisos Semana 3 (julio 15–21) — anunciados en Bloque 5 de la Sesión 18 (10/07)
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | Próxima seguimiento (2026-07-17) | 🟡 EN PREPARACIÓN (13/07) | Douglas ya preparó los 5 ejemplos de uso + plantilla para Patrick en [`04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md`](04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md) — incluye aclaración de alcance (esto es el esquema de uso manual, no la integración técnica MCP/OAuth de `Alineacion_Estrategica.md`, planeada ago-oct). Falta que Patrick complete la sección 2 antes del 17/07. Avanza I8 de la auditoría #01 |
-| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 🔴 **NO RECIBIDO EN DRIVE** (confirmado 16/07) · 17/07 mediodía: material nuevo detectado en carpetas personales S2, pendiente de verificación | Al 16/07 no hay documentos C19 en la carpeta de Drive. En la reunión del 17/07 se verificará el estado por Champion y se propondrá una ventana única de recuperación hasta el 20/07 12:00. **Cierra H8 de la auditoría #01** únicamente cuando existan 2 procesos medidos por Champion y la evidencia sea revisada. **Entrega:** plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/`, nombre `AIFluency_<Nombre>_C19_<Proceso>` |
-| C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR · 17/07: 3 docs de perfiles detectados en la raíz de Drive, pendientes de verificación | Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`). **Entrega:** plantilla `_PLANTILLA_C20_Perfil_de_Area` → `01_Evidencia_Champions/C20_perfiles_area/`, nombre `AIFluency_<Nombre>_C20_Perfil<Area>` |
+| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | Próxima seguimiento (2026-07-17) | 📥 **PARCIAL 2/3** (verificado 17/07 11:50 contra criterio, Claude Code) — Patrick 📥 parcial (2 procesos con antes/después en "auditoria de skills y tiempos", sin plantilla/prompt/ubicación), Irvin 📥 parcial (1 proceso "Instalación de Software Remoto" con prompt pero sin "después" medido; 2º proceso en borrador), Mario 🔴 sin material | Detalle de la verificación en el ADENDO 2 de `04_herramientas/agendas/2026-07-17_seguimiento_c18_c20.md`. En la reunión del 17/07 se confirma el estado por Champion en vivo y se propondrá una ventana única de recuperación hasta el 20/07 12:00. **Cierra H8 de la auditoría #01** únicamente cuando existan 2 procesos medidos por Champion y la evidencia sea revisada. **Entrega:** plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/`, nombre `AIFluency_<Nombre>_C19_<Proceso>` |
+| C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | Próxima seguimiento (2026-07-17) | 🔴 SIN ARRANCAR por los 3 (verificado 17/07 11:50) — los 3 docs de la raíz de Drive ("Analista Programador", "Soporte Tecnico", "Operador de infraestructura") son descripciones de puesto subidas por Douglas el 03/07 (insumo base), no entregas de Champions | Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`). **Entrega:** plantilla `_PLANTILLA_C20_Perfil_de_Area` → `01_Evidencia_Champions/C20_perfiles_area/`, nombre `AIFluency_<Nombre>_C20_Perfil<Area>` |
 
 ---
 
@@ -144,10 +144,10 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 16/07 inicio de jornada
-1. **[Completado 16/07]** Agenda del seguimiento aprobada y reunión creada en Google Calendar para el 17/07, 14:00–15:00, sin invitados; Douglas agregará personalmente a los participantes. Decisión: no enviar el correo previo.
-2. **[Mañana viernes 17/07 · 07:00]** Revisar en Gmail el borrador de la auditoría #02 (lente especialista AI) generado por la rutina `trig_01TubHGS7vnvJQPWu6gTtN8T`; contrastar sus hallazgos con la ausencia real de C19.
-3. **[Mañana viernes 17/07 · 14:00]** Ejecutar reunión de seguimiento con criterio de evidencia: validar C18/C20, mini-reportes S2 y estado por Champion de C19; si sigue incompleto, acordar una ventana única de recuperación.
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 17/07 ~12:00 (pre-reunión)
+1. **[HOY 14:00 — PENDIENTE, NO EJECUTADA]** Reunión de seguimiento con criterio de evidencia. Entrar con el ADENDO 2 de la agenda (verificación pre-reunión ya hecha): C19 📥 parcial Patrick e Irvin / 🔴 Mario; C20 🔴 los 3; C17 🟡 carga parcial de Patrick; mini-reportes S2 sin recibir. Si C19 no se completa en vivo, activar ventana única 20/07 12:00 con las plantillas; actas de Licencia Básica quedan sin firmar.
+2. **[Completado 17/07 mañana]** Auditoría #02 revisada y procesada; carpeta única de Drive ejecutada; plantillas-rúbrica publicadas.
+3. **[Completado 17/07 ~11:50]** Verificación pre-reunión del material detectado en Drive contra el criterio §5 de la agenda — resultados en el ADENDO 2 de `04_herramientas/agendas/2026-07-17_seguimiento_c18_c20.md` y en la matriz C17/C19/C20.
 
 ---
 
@@ -210,6 +210,28 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-17 | SESIÓN 20 (cont. 4) — VERIFICACIÓN PRE-REUNIÓN DEL MATERIAL DETECTADO (Claude Code, ~11:50)
+  ⚠️ ACLARACIÓN DE REGISTRO: la reunión de las 14:00 NO se ha ejecutado — todo lo de esta entrada es
+    estado de entrada pre-reunión; los veredictos finales se dan en vivo.
+  ✓ Los documentos detectados a mediodía en carpetas personales S2 fueron abiertos y leídos contra el
+    criterio §5 de la agenda (conector Drive, dagalindo@ujmd.edu.sv). Resultado por Champion:
+    · Patrick 📥 parcial — "auditoria de skills y tiempos" contiene 2 procesos con antes/después
+      (Workspace 1h30+→5 min; AD 20→5 min); faltan prompt, técnica, observaciones, revisión humana,
+      plantilla y ubicación C19. Además: Glosario (10 términos) + FAQ (4 preguntas) = primera carga
+      parcial de C17 (individual, en carpeta personal; lista de errores no existe).
+    · Irvin 📥 parcial — "Instalación de Software Remoto": 1 proceso bien estructurado con prompt
+      incluido, pero "antes" aproximado (15 min/equipo) y "después" sin cuantificar; el 2º proceso
+      (alta/traslado/baja) es un borrador inconcluso ("Documento sin título").
+    · Mario 🔴 — subcarpeta C19 y carpeta S2 vacías; preguntar en la reunión por su carpeta
+      "Iniciativa AI Fluent" (compartida desde 18/06).
+  ✓ C20 verificado: los 3 docs de la raíz de Drive son descripciones de puesto subidas por Douglas el
+    03/07 (insumo), no entregas — C20 sigue 🔴 por los 3. La hoja "Perfiles Centros de Computo" es un
+    archivo compartido ajeno al programa (2015, otra área) — descartada como evidencia.
+  ✓ Registrado: ADENDO 2 en la agenda del seguimiento + matriz C17/C19/C20 actualizada con estados 📥/🔴.
+  → Implicación para las 14:00: ningún Champion cierra C19 contra el criterio completo al estado actual;
+    salvo evidencia adicional en vivo, las 3 actas de Licencia Básica quedan sin firmar y aplica la
+    ventana de recuperación 20/07 12:00 (Patrick/Irvin completan sobre plantilla; Mario entrega completo).
+
 2026-07-17 | SESIÓN 20 (cont. 3) — CARPETA 06_mercadeo CREADA (borradores en revisión)
   ✓ Paquete de mercadeo para vender el programa como curso (estilo Udemy top-sellers de IA para
     empresas): página de curso (títulos A/B, bullets, temario mapeado a L0-L9), guion de video promo
