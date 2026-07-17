@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-17 ~12:00 · Sesión 20 (cont. 4) — verificación pre-reunión del material en Drive; reunión 14:00 aún pendiente |
+| Última actualización | 2026-07-17 ~12:15 · Sesión 20 (cont. 5) — sincronización completa pre-reunión (Docs + dashboard); reunión 14:00 aún pendiente |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -210,6 +210,15 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-17 | SESIÓN 20 (cont. 5) — SINCRONIZACIÓN COMPLETA PRE-REUNIÓN (Claude Code, ~12:15)
+  ✓ ADENDO 2 (verificación por Champion) anexado también al Doc de notas del evento de Calendar,
+    vía gdai/docs append — un solo documento en pantalla para la reunión.
+  ✓ ESTADO en Docs (00_Gobernanza, `1LPs29…`) actualizado EN SITIO desde este archivo (misma URL,
+    import markdown vía Drive API con token Hermes) — ya no está desfasado de la versión del repo.
+  ✓ Dashboard_Jornada.html actualizado (04_herramientas/ + docs/ idénticos): C17 🟡 carga parcial,
+    C19 📥 parcial 2/3 (fila en ámbar), C20 🔴 verificado como sin arrancar, timestamp pre-reunión.
+  ⚠️ La reunión de las 14:00 sigue PENDIENTE — todos los estados son de entrada, no veredictos.
+
 2026-07-17 | SESIÓN 20 (cont. 4) — VERIFICACIÓN PRE-REUNIÓN DEL MATERIAL DETECTADO (Claude Code, ~11:50)
   ⚠️ ACLARACIÓN DE REGISTRO: la reunión de las 14:00 NO se ha ejecutado — todo lo de esta entrada es
     estado de entrada pre-reunión; los veredictos finales se dan en vivo.
