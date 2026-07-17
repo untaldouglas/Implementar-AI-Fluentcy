@@ -1,4 +1,7 @@
 # Roadmap de AI Fluency — Dirección de Informática UJMD
+
+> **Nota de numeración (17/07/2026 — resuelve I4/I11 de la serie de auditorías):** la numeración canónica de fases es la tabla F0–F4 de `ESTADO_PROYECTO.md`. Mapeo: Fase 0 de este Roadmap → F0 · Fase 1 → F1 · Fase 2 (Escalada, meses 2–3) → F2 · Fase 3 (Institucionalización, meses 4–6) → F3 + F4. Las semanas **S1–S4** de este documento son semanas *pedagógicas* del piloto (Fundamentos / Productividad / Agentes / Demo Day), no semanas calendario — para fechas reales, usar siempre rangos de fechas explícitos (ej. "semana del 15–21/07").
+
 **Versión:** 2.0 | **Fecha:** Junio 2026 | **Framework:** Modelo de Conducción AI (MCA) | **Herramienta:** Hermes Agent (NousResearch) | **Autor:** @untaldouglas
 
 ---

@@ -10,20 +10,20 @@
 | Nivel baseline | L1 (diagnóstico Google Form, 01/07/2026 · script `calcular_nivel_mca.gs`) |
 | Zona | Pasajero |
 | Bloqueo detectado en diagnóstico | Confianza/Seguridad |
-| Fecha de setup Hermes | _(ver detalle en `04_herramientas/guia_setup_champions/learning_record/irvin_morales.md`)_ |
-| Versión Hermes | _(ver detalle en el mismo archivo)_ |
+| Fecha de setup Hermes | 2026-07-02 (C11, Sesión 14 — las 3 estaciones operando) |
+| Versión Hermes | _(no archivada — ver nota de verificación abajo)_ |
 
 ---
 
 ## Lecciones 1–3 (Instalación / Configuración / Verificación)
 
-> Detalle completo con evidencia (`hermes doctor`, `hermes chat -q`, `hermes status --all`) en `04_herramientas/guia_setup_champions/learning_record/irvin_morales.md`. Esta tabla es el resumen de estado.
+> **Base real de la verificación (corregido 17/07/2026 — I9/R13, auditoría #02):** el setup funcional quedó verificado el 02/07 (C11: las 3 estaciones operando) y confirmado en la práctica por la evidencia S1 producida con Hermes. Los outputs formales de `hermes doctor`/`hermes status --all` **no fueron archivados**: los formularios de `04_herramientas/guia_setup_champions/learning_record/` quedaron vacíos y están declarados ARCHIVO HISTÓRICO no vinculante. Esta tabla certifica capacidad funcional demostrada, no formulario llenado.
 
 | Lección | Estado | Fecha |
 |---|---|---|
-| L1: Instalación | ✅ | 2026-07-10 |
-| L2: Configuración | ✅ | 2026-07-10 |
-| L3: Verificación | ✅ | 2026-07-10 |
+| Lección 1: Instalación | ✅ | 2026-07-10 |
+| Lección 2: Configuración | ✅ | 2026-07-10 |
+| Lección 3: Verificación | ✅ | 2026-07-10 |
 
 ---
 

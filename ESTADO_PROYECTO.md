@@ -1,6 +1,7 @@
 # ESTADO DEL PROYECTO — AI Fluency · MCA
 > **Archivo vivo.** Actualizado en cada ritual de inicio/cierre de jornada.  
-> Leer este archivo antes de responder cualquier consulta sobre el proyecto.
+> Leer este archivo antes de responder cualquier consulta sobre el proyecto.  
+> **Reglas de estado, evidencia y lenguaje del log:** `00_marco/Protocolo_Evidencia_y_Estado.md` (desde 17/07/2026). Antes de commitear: `bash 04_herramientas/check_consistencia.sh`.
 
 ---
 
@@ -14,8 +15,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-16 · Sesión 19 — cierre de ventana C19 y preparación de seguimiento |
-| Actualizado por | Douglas Galindo + Hermes Agent |
+| Última actualización | 2026-07-17 · Sesión 20 — auditoría #02 procesada + consultoría de consistencia |
+| Actualizado por | Douglas Galindo + Claude Code |
 
 ---
 
@@ -28,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-16 |
-| Días desde inicio | 16 días |
-| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — S2 en curso (día 16) |
-| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 en curso: hoy cierra la ventana interna de C19; seguimiento mañana 17/07 |
+| Hoy (última actualización) | 2026-07-17 |
+| Días desde inicio | 17 días |
+| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — S2 en curso (día 17) |
+| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 en curso: auditoría #02 recibida 07:00; reunión de seguimiento HOY 14:00 |
 | Mes de proyecto | M1 |
-| Próximo hito | Viernes 17/07 · 07:00: auditoría #02; 14:00: reunión de seguimiento (C18-C20) |
-| Días hasta próximo hito | 1 |
+| Próximo hito | HOY viernes 17/07 · 14:00: reunión de seguimiento (C17-C20 + mini-reportes S2) |
+| Días hasta próximo hito | 0 |
 
 ### Calendario de fases
 
@@ -82,8 +83,10 @@
 
 | Recurso | URL | Propósito |
 |---|---|---|
-| Carpeta Google Drive | https://drive.google.com/drive/folders/1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj | Artefactos + ESTADO (acceso móvil) |
-| ESTADO_PROYECTO en Drive | https://docs.google.com/document/d/15kE31lw9OKB7Yt97QRdZiQLpbXkQeoHMVnsZAU_btWc/edit | Lectura/edición desde móvil |
+| Carpeta Google Drive (ÚNICA) | https://drive.google.com/drive/folders/1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj | Carpeta oficial única del proyecto (decisión 17/07) — estructura 00–04, README de reglas en la raíz |
+| README de la carpeta | https://docs.google.com/document/d/1-Ul-clUjq2cX7d7qENCQGyZpMnacuT_NGB1ya_HkcGI/edit | Estructura y reglas de uso para Champions |
+| ESTADO_PROYECTO en Drive | https://docs.google.com/document/d/1LPs29-Mk-R6bMIo4PhDJFqS1zKIxXKXGhYs5Yd7J310/edit | Render de lectura móvil en `00_Gobernanza` (fuente: este archivo; el Docs viejo `15kE31…` queda obsoleto) |
+| Actas de Licencias (Drive) | Carpeta `00_Gobernanza/Actas_Licencias` | 3 actas de Licencia Básica (17/07, condicionadas a evidencia C19) |
 | Google Form | https://forms.gle/JHd4a8kHyFh59RkH7 | Diagnóstico baseline |
 | Google Meet (Sesión 0) | https://meet.google.com/rhx-crmz-kca | Kick-off 01/07 |
 | GitHub Pages | https://untaldouglas.github.io/Implementar-AI-Fluentcy/ | Artefactos HTML interactivos ✅ LIVE |
@@ -187,6 +190,7 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 | 2026-07-10 | **Canal de entrega de evidencia: Google Drive** | Todo artefacto/documento de las guías se comparte o envía en Drive para aprobación de Douglas — reemplaza correo/Teams. Asegura trazabilidad y verificación digital de que hubo revisión del entregable. Decidido en la reunión de seguimiento (Sesión 18, 14:00). |
 | 2026-07-10 | **Formalizar conocimiento colectivo en 3 artefactos** (glosario, FAQ, lista de errores) | El conocimiento que surge de la colaboración entre Champions (no solo individual) es más valioso y se estaba perdiendo — evidenciado en la colaborativa 08/07 (subagentes, workflows, scripts). Se solicita a Irvin/Mario/Patrick construirlo en `01_piloto/conocimiento_colectivo/`. |
 | 2026-07-10 | **Metodología de entrega de evidencias (Bloque 5)** | Nombres propios y claros para documentos/artefactos; modelo de referencia = el de Patrick (+ agregar links a artefactos digitales); usar función "Aprobar" de Drive para revisión/validación; no PDF — compartir como comentador hasta tener versión lista para aprobar. |
+| 2026-07-17 | **Carpeta única de Drive + estructura 00–04 + fin de la conexión douglasag@gmail.com** | Se adopta `1eNbWpOmga…` ("AIFluent Junio 2026") como carpeta única oficial del proyecto. Estructura creada vía `gdai`: 00_Gobernanza · 01_Evidencia_Champions (C19/C20) · 02_Conocimiento_Colectivo · 03_Material_Programa · 04_Diagnostico_RESTRINGIDO, con README de reglas en la raíz. La carpeta `1QDKBHqX…` (douglasag@gmail.com) queda obsoleta y la conexión de claude.ai con esa cuenta se elimina. Resuelve la instancia más visible de la causa raíz diagnosticada en la consultoría post-auditoría #02 (ver `00_marco/Protocolo_Evidencia_y_Estado.md` §7). |
 | 2026-07-10 | **Resuelto I1 (auditoría #01) — criterio de S1: 1 caso ancla + reflexión** | El entregable verificable de S1 es 1 caso ancla completo + reflexión Día 7 (como decían las guías operativas), no 3 casos. Los "3 casos" del Roadmap quedan como meta acumulada S1+S2, no como requisito de cierre de S1. Aclarado en `01_piloto/Roadmap_AI_Fluency_UJMD.md`. Nota: los "2/3 casos" de `Licencia_Conduccion_AI.md`/`onboarding.html` son metas de certificación de Licencia Básica/Profesional (tiers L2-L3/L4-L5) — no forman parte de este conflicto, se revisaron y son consistentes entre sí. |
 
 ---
@@ -205,6 +209,60 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-17 | SESIÓN 20 (cont.) — CARPETA ÚNICA DE DRIVE EJECUTADA (mediodía, pre-reunión)
+  ✓ Douglas decide: carpeta canónica única = 1eNbWpOmga… ("AIFluent Junio 2026"); la conexión de
+    claude.ai con douglasag@gmail.com SE ELIMINA y no vuelve a usarse para el proyecto.
+  ✓ Estructura creada vía gdai: 00_Gobernanza (+Actas_Licencias +Bitacoras_Reuniones),
+    01_Evidencia_Champions (+C19_medicion_antes_despues/Irvin·Mario·Patrick +C20_perfiles_area),
+    02_Conocimiento_Colectivo, 03_Material_Programa, 04_Diagnostico_RESTRINGIDO. Carpeta S2 de
+    Mario Valencia creada (era el único sin carpeta).
+  ✓ README de reglas publicado en la raíz de la carpeta (estructura, reglas Bloque 5, criterio C19).
+  ✓ 3 actas de Licencia Básica recreadas en 00_Gobernanza/Actas_Licencias; ESTADO en Docs
+    recreado en 00_Gobernanza — los originales de la carpeta B (1QDKBHqX…) quedan para papelera.
+  ✓ HALLAZGO PRE-REUNIÓN: sí existe material nuevo de Champions en Drive, enterrado en carpetas
+    personales de S2 — Patrick 16-17/07 ("auditoria de skills y tiempos" + Glosario + FAQ, posible
+    primera carga de C17 y material C19), Irvin 17/07 ("Instalación de Software Remoto"); Mario aún
+    sin material. El veredicto "C19 no recibido (16/07)" pudo deberse a evidencia invisible por
+    falta de estructura — verificar contra criterio en la reunión de las 14:00, no dar por cerrado.
+  → Pendientes manuales de Douglas: mover/renombrar ~12 archivos según el mapa acordado (S1/S2 →
+    01_Evidencia, perfiles → C20_perfiles_area, Respuestas_Diagnostico → 04_RESTRINGIDO con permisos
+    solo Douglas), desconectar el conector Google Drive de claude.ai y clausurar la carpeta B.
+
+2026-07-17 | SESIÓN 20 — AUDITORÍA #02 PROCESADA + CONSULTORÍA DE CONSISTENCIA (Claude Code)
+  ✓ Auditoría #02 (lente especialista AI) revisada desde el borrador de Gmail (rutina 07:00) y guardada
+    en 04_herramientas/auditorias/2026-07-17_auditoria_02_especialista_ai.md. Nuevos: I9-I11, H9-H10, R11-R17.
+  ✓ CAUSA RAÍZ diagnosticada — más amplia que la dualidad GitHub/Drive que se sospechaba: cada hecho del
+    proyecto vive en varios documentos sin fuente única declarada, y los estados se escriben al momento
+    del compromiso/reporte, no al momento de la verificación (I1, I9 e I10 son el mismo patrón en 3 lugares).
+    Formalizada la solución en 00_marco/Protocolo_Evidencia_y_Estado.md: mapa de fuentes canónicas,
+    máquina de estados ⚪→🟡→📥→✅ (✅ inválido sin evidencia enlazada), regla de lenguaje del log,
+    convenciones de notación (L#/S#/F#), reparto GitHub↔Drive y ritual de sincronización.
+  ✓ I9 (R13) RESUELTO: los 5 formularios de guia_setup_champions/learning_record/ declarados ARCHIVO
+    HISTÓRICO no vinculante (banner al tope); encabezado autocontradictorio de Patrick corregido; los 3
+    learning records vigentes ya no citan "detalle con evidencia" — ahora declaran la base real de la
+    verificación (C11 del 02/07 + evidencia S1 producida con Hermes; outputs de hermes doctor no archivados).
+  ✓ I3 (R7) RESUELTO: meta de progresión del Acta corregida en las 3 fichas — L2→L3 (Licencia Básica)
+    en el piloto; L4-L5 pasa a meta de Fase 2.
+  ✓ I4/I11 (R8 parcial) RESUELTOS: nota de numeración canónica al tope del Roadmap (fases F0-F4 de este
+    archivo como canon; S1-S4 = semanas pedagógicas, nunca semanas calendario).
+  ✓ I8 RESUELTO EN LA FUENTE: nota de estado en Alineacion_Estrategica.md §10 distinguiendo la
+    integración técnica MCP/OAuth (pendiente ago-oct) del esquema de uso manual C18 ya operativo.
+  ✓ H9/H10 (R15/R16) RESUELTOS: protocolo_verificacion.md ampliado con Nivel 4 (verificación de outputs
+    de tareas delegadas — caso fundacional: Irvin y el ordenamiento dd/mm/aaaa; contraejemplo: el ping de
+    monitor_servidores_pro.sh) y criterio de perfil Hermes separado para certificar L2 (plantilla: Testprofile).
+  ✓ I10 (R14) ADOPTADO: regla de lenguaje en Protocolo §5 — la entrada del 14/07 se conserva como
+    histórico (ya corregida por la del 16/07); en adelante, hitos futuros solo como "objetivo/planificado".
+  ✓ PREVENCIÓN: script 04_herramientas/check_consistencia.sh (dashboards idénticos, punteros I9, ID de
+    Drive único, lenguaje I10 advisory, PII pre-commit) — pasa en verde al cierre de esta sesión.
+  ⚠ DECISIÓN PENDIENTE DE DOUGLAS (Protocolo §7): existen DOS carpetas de Drive del proyecto en cuentas
+    distintas — 1eNbWpOmga… (referenciada en repo y token Hermes) y 1QDKBHqX… (douglasag@gmail.com, donde
+    viven el ESTADO en Docs y las 3 actas de licencia creadas hoy). Unificar en una sola y migrar.
+  → Objetivo de la tarde (pendiente, NO ejecutado): reunión 14:00 con criterio de evidencia (R11 se aplica
+    en vivo); si C19 sigue incompleto, decidir ventana de recuperación y valorar R12 (recordatorio
+    automatizado a Champions). Quedan abiertas de la serie: I5 histórico, I6, R9 (co-facilitador), R17 resto.
+
+---
+
 2026-07-16 | SESIÓN 19 — INICIO DE JORNADA: CIERRE C19 Y PREPARACIÓN DE SEGUIMIENTO (Hermes Agent · ai-fluency-sod)
   CONFIRMADO HOY:
   ✓ Día 16 desde el inicio oficial; Fase 1 y S2 continúan en curso.

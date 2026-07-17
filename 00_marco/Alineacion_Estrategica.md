@@ -275,6 +275,8 @@ STACK TECNOLÓGICO:
 
 ## 10. Tarea técnica prioritaria: Integración Google Workspace UJMD
 
+> **Nota de estado (17/07/2026 — resuelve I8 de la serie de auditorías):** esta sección describe la **integración técnica** (MCP server, service account, OAuth), planificada para agosto–octubre 2026 y aún **pendiente**. No confundir con el **esquema de uso manual** de Google Workspace, que ya opera en el piloto desde julio (C18 — ver `04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md`): Drive como canal oficial de evidencia (decisión 10/07), Calendar para bloques y reuniones, Gmail con borradores de aprobación humana.
+
 **Objetivo:** Conectar el dominio institucional `ujmd.edu.sv` (Google Workspace) con Hermes Agent para habilitar capacidades L3-L5 full-stack.
 
 **Servicios a integrar:**

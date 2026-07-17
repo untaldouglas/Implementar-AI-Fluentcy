@@ -12,7 +12,7 @@
 |---|---|
 | Frecuencia | **Semanal** (antes era ~10 días) |
 | Día sugerido | Viernes por la mañana, **antes** de la reunión de seguimiento de las 14:00 — para que los hallazgos alimenten la reunión, no lleguen tarde |
-| Próxima | **Auditoría #02 — viernes 2026-07-17** |
+| Próxima | **Auditoría #03 — viernes 2026-07-24** (+ lente COBIT introductorio EDM01/APO01/MEA01). La #02 se ejecutó el 17/07 (`2026-07-17_auditoria_02_especialista_ai.md`) y su seguimiento derivó en `00_marco/Protocolo_Evidencia_y_Estado.md` |
 | Automatización | ✅ Rutina en la nube `trig_01TubHGS7vnvJQPWu6gTtN8T` — cada viernes 07:00 (El Salvador) clona el repo público, ejecuta la auditoría según este plan y deja el **borrador completo en Gmail** de Douglas (no envía nada). Douglas revisa antes de las 14:00; al aprobar, se guarda en esta carpeta, se commitea y se actualiza este plan. La rutina convierte en práctica propia la R5/H5 de la #01: delegación asíncrona trabajando para el programa |
 | Trazabilidad | IDs estables (I# inconsistencias, H# hallazgos, R# recomendaciones) que continúan la numeración de la serie; copiar la tabla de seguimiento de la auditoría anterior y actualizar estados |
 | Criterio de cierre | Evidencia verificable, no intención (regla de oro validada el 10/07 con el caso de la validación verbal vs. documento real) |

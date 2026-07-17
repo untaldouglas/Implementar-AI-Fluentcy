@@ -57,7 +57,7 @@ El modelo **Manual de Implementación Estratégica (10 niveles de autonomía veh
 - Transferir conocimiento al equipo de Infraestructura en Fase 2
 - Documentar casos de uso reales del área en repo `mihermes`
 
-**Meta de progresión:** L2 → L5 durante el piloto.
+**Meta de progresión:** L2 → L3 (Licencia Básica) durante el piloto; L4–L5 (Licencia Profesional) como meta de Fase 2. _(Corregido 17/07/2026 — R7/I3 de la serie de auditorías: la meta original "L5 en 1 mes" contradecía el principio del Manual de "escalar un peldaño al mes".)_
 
 **Skills esperados al finalizar el piloto:**
 - `infra-triage-incidentes` — clasificación automática de alertas
@@ -72,7 +72,7 @@ El modelo **Manual de Implementación Estratégica (10 niveles de autonomía veh
 - Transferir conocimiento al equipo de Desarrollo en Fase 2
 - Documentar casos de uso reales del área en repo `mihermes`
 
-**Meta de progresión:** L2 → L5 durante el piloto.
+**Meta de progresión:** L2 → L3 (Licencia Básica) durante el piloto; L4–L5 (Licencia Profesional) como meta de Fase 2. _(Corregido 17/07/2026 — R7/I3 de la serie de auditorías: la meta original "L5 en 1 mes" contradecía el principio del Manual de "escalar un peldaño al mes".)_
 
 **Skills esperados al finalizar el piloto:**
 - `dev-code-review` — revisión automática de PRs con checklist de seguridad
@@ -87,7 +87,7 @@ El modelo **Manual de Implementación Estratégica (10 niveles de autonomía veh
 - Transferir conocimiento al equipo de Soporte en Fase 2
 - Documentar casos de uso reales del área en repo `mihermes`
 
-**Meta de progresión:** L2 → L5 durante el piloto.
+**Meta de progresión:** L2 → L3 (Licencia Básica) durante el piloto; L4–L5 (Licencia Profesional) como meta de Fase 2. _(Corregido 17/07/2026 — R7/I3 de la serie de auditorías: la meta original "L5 en 1 mes" contradecía el principio del Manual de "escalar un peldaño al mes".)_
 
 **Skills esperados al finalizar el piloto:**
 - `soporte-triage-tickets` — clasificación ITIL + prioridad + routing

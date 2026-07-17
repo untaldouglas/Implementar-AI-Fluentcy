@@ -1,5 +1,7 @@
 # Learning Record — Irvin Morales (Soporte)
 
+> ⚠️ **ARCHIVO HISTÓRICO — NO VINCULANTE (declarado 17/07/2026, resuelve I9/R13 de la auditoría #02).** Este formulario no fue llenado durante el piloto: los checkboxes y campos de evidencia quedaron vacíos. La verificación real del setup vive en `ESTADO_PROYECTO.md` (C11, 02/07/2026) y en `01_piloto/learning_record/` — este archivo se conserva solo como plantilla de referencia para futuras cohortes y ya no debe citarse como "detalle con evidencia".
+
 ## Estado: ⚪ No iniciado
 
 ---
