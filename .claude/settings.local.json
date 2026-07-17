@@ -8,7 +8,27 @@
       "Bash(python3 -c ' *)",
       "Bash(open 04_herramientas/Dashboard_Jornada.html)",
       "mcp__claude_ai_Gmail__list_drafts",
-      "WebFetch(domain:untaldouglas.info)"
+      "WebFetch(domain:untaldouglas.info)",
+      "mcp__claude_ai_Google_Drive__create_file",
+      "Bash(sed -i 's@| L1: Instalación |@| Lección 1: Instalación |@; s@| L2: Configuración |@| Lección 2: Configuración |@; s@| L3: Verificación |@| Lección 3: Verificación |@' 01_piloto/learning_record/irvin_morales.md 01_piloto/learning_record/mario_valencia.md 01_piloto/learning_record/patrick_orellana.md)",
+      "Bash(python3 -)",
+      "Bash(chmod +x /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/check_consistencia.sh)",
+      "Bash(bash /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/04_herramientas/check_consistencia.sh)",
+      "Bash(sed -i 's@| Próxima | \\\\*\\\\*Auditoría #02 — viernes 2026-07-17\\\\*\\\\* |@| Próxima | **Auditoría #03 — viernes 2026-07-24** \\(+ lente COBIT introductorio EDM01/APO01/MEA01\\). La #02 se ejecutó el 17/07 \\(`2026-07-17_auditoria_02_especialista_ai.md`\\) y su seguimiento derivó en `00_marco/Protocolo_Evidencia_y_Estado.md` |@' 04_herramientas/auditorias/_plan_serie_auditorias.md)",
+      "Bash(bash 04_herramientas/check_consistencia.sh)",
+      "Bash(/home/dagalindo/.hermes/venvs/google-workspace/bin/python /home/dagalindo/.hermes/skills/productivity/google-workspace/scripts/gdai.py drive)",
+      "Bash(grep -n 'def get_service\\\\|build\\(' /home/dagalindo/.hermes/skills/productivity/google-workspace/scripts/google_api.py)",
+      "Bash(sed -i 's/from google_api import get_service/from google_api import build_service/; s/svc = get_service\\(\"drive\", \"v3\"\\)/svc = build_service\\(\"drive\", \"v3\"\\)/' /tmp/claude-1000/-home-dagalindo-1musa-DSI-UJMD-02-aifluent-champions/d2f8a5bc-2a46-44f4-b909-3d06307548d5/scratchpad/upload_as_doc.py)",
+      "Bash(/home/dagalindo/.hermes/venvs/google-workspace/bin/python /tmp/claude-1000/-home-dagalindo-1musa-DSI-UJMD-02-aifluent-champions/d2f8a5bc-2a46-44f4-b909-3d06307548d5/scratchpad/upload_as_doc.py /tmp/claude-1000/-home-dagalindo-1musa-DSI-UJMD-02-aifluent-champions/d2f8a5bc-2a46-44f4-b909-3d06307548d5/scratchpad/test_conv.txt TEST_BORRAR 1vi4ZR-cSLKoH7LNINGQbpjslAJe7I2jH)",
+      "Bash(/home/dagalindo/.hermes/venvs/google-workspace/bin/python /tmp/claude-1000/-home-dagalindo-1musa-DSI-UJMD-02-aifluent-champions/d2f8a5bc-2a46-44f4-b909-3d06307548d5/scratchpad/upload_as_doc.py /tmp/claude-1000/-home-dagalindo-1musa-DSI-UJMD-02-aifluent-champions/d2f8a5bc-2a46-44f4-b909-3d06307548d5/scratchpad/readme_drive.txt 'README — Cómo usar esta carpeta \\(leer primero\\)' 1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('Acta Patrick:', d['webViewLink']\\)\")",
+      "Bash(/home/dagalindo/.hermes/venvs/google-workspace/bin/python /tmp/claude-1000/-home-dagalindo-1musa-DSI-UJMD-02-aifluent-champions/d2f8a5bc-2a46-44f4-b909-3d06307548d5/scratchpad/upload_as_doc.py /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions/ESTADO_PROYECTO.md 'ESTADO_PROYECTO — AI Fluency UJMD' 1OJl4nQjhiH3OFh4Iyjrs3TT6mf5Yo6uq)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d['id']\\); print\\(d['webViewLink']\\)\")",
+      "Bash(git -C /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions log --oneline -5)",
+      "Bash(git -C /home/dagalindo/1musa/DSI-UJMD/02-aifluent-champions status --short)",
+      "mcp__claude_ai_Google_Drive__list_recent_files",
+      "Read(//home/dagalindo/**)",
+      "Read(//home/dagalindo/hermeslearning/**)"
     ]
   }
 }
