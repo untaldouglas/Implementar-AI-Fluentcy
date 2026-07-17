@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-17 ~15:30 · Sesión 20 (cont. 6) — reunión de seguimiento ejecutada; pivote a semana de depuración/validación del sistema de evidencia antes de cerrar C18-C20 |
+| Última actualización | 2026-07-17 ~15:20 · Sesión 20 (cont. 8) — puente automatizado Drive↔GitHub construido; encontró evidencia real de Mario (C19) fuera de estructura, pendiente de verificar contra criterio |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -135,7 +135,7 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | En pausa — cierre real esta semana (antes del 24/07) | 🟡 EN PAUSA por pivote (17/07 reunión) | Douglas ya preparó los 5 ejemplos de uso + plantilla para Patrick en [`04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md`](04_herramientas/agendas/2026-07-13_c18_esquema_workspace.md). En la reunión del 17/07 Douglas decidió no forzar el cierre con evidencia parcial: esta semana se dedica a validar el sistema de plantillas-rúbrica antes de retomar C18. Avanza I8 de la auditoría #01. **Entrega:** plantilla `_PLANTILLA_C18_Esquema_Workspace` (Patrick completa tabla + 4 preguntas) → `01_Evidencia_Champions/C18_esquema_workspace/` (Drive), publicada 17/07, nombre `AIFluency_Patrick_C18_EsquemaWorkspace` |
-| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | En pausa — cierre real esta semana (antes del 24/07) | 🟡 EN PAUSA por pivote (17/07 reunión) — caso de prueba positivo: C19 de Irvin usado en la reunión para validar el esquema nuevo, con mejora real detectada al usar Hermes | En la reunión del 17/07 Douglas decidió no cerrar C19 en vivo con evidencia parcial (Patrick/Irvin 📥, Mario 🔴 — ver ADENDO 2 de `04_herramientas/agendas/2026-07-17_seguimiento_c18_c20.md`). En vez de la ventana de recuperación 20/07, esta semana se usa para depurar/validar el sistema de plantillas-rúbrica y, con eso validado, cerrar C19 correctamente. **Cierra H8 de la auditoría #01** únicamente cuando existan 2 procesos medidos por Champion y la evidencia sea revisada. **Entrega:** plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/`, nombre `AIFluency_<Nombre>_C19_<Proceso>` |
+| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | En pausa — cierre real esta semana (antes del 24/07) | 🟡 EN PAUSA por pivote (17/07 reunión) — caso de prueba positivo: C19 de Irvin usado en la reunión para validar el esquema nuevo, con mejora real detectada al usar Hermes | En la reunión del 17/07 Douglas decidió no cerrar C19 en vivo con evidencia parcial (Patrick/Irvin 📥, Mario 🔴 — ver ADENDO 2 de `04_herramientas/agendas/2026-07-17_seguimiento_c18_c20.md`). ⚠️ **HALLAZGO 17/07 ~15:20 (`verificar_evidencia_drive.py`, sin abrir contenido todavía):** Mario SÍ tiene material — 3 documentos en `bitacoras cumplimiento S2/Mario Valencia/` ("Reporte de Optimización de Procesos", "Resumen de Eficiencia Operativa: Hermes vs Trabajo Manual", "Proceso 2: tablero de autoevaluación en Metabase"), todos fuera de la estructura canónica y por eso invisibles en la verificación de las 11:50. El veredicto "Mario 🔴 sin material" queda en revisión — falta abrir los 3 documentos contra el criterio de C19 antes de cambiar su estado. Mismo hallazgo para C17: Glosario y FAQ de Patrick (ya sabidos) más contenido nuevo de Irvin y Mario, todos en la misma carpeta heredada. En vez de la ventana de recuperación 20/07, esta semana se usa para depurar/validar el sistema de plantillas-rúbrica y, con eso validado, cerrar C19 correctamente. **Cierra H8 de la auditoría #01** únicamente cuando existan 2 procesos medidos por Champion y la evidencia sea revisada. **Entrega:** plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/`, nombre `AIFluency_<Nombre>_C19_<Proceso>` |
 | C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | En pausa — cierre real esta semana (antes del 24/07) | 🟡 EN PAUSA por pivote (17/07 reunión) | Los 3 docs de la raíz de Drive eran insumo de Douglas (03/07), no entregas de Champions. Igual que C18/C19, el cierre se retoma esta semana tras validar el sistema de plantillas. Insumo para estandarizar SOUL.md por área y para el playbook replicable (`02_playbook/`). **Entrega:** plantilla `_PLANTILLA_C20_Perfil_de_Area` → `01_Evidencia_Champions/C20_perfiles_area/`, nombre `AIFluency_<Nombre>_C20_Perfil<Area>` |
 
 ---
@@ -144,11 +144,12 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 17/07 ~15:30 (post-reunión)
-1. **[Esta semana, antes del 24/07]** Depurar y validar el sistema de plantillas-rúbrica (C19/C20/S2) creado hoy, usando C19 de Irvin como caso de prueba (resultado positivo). Con el sistema validado, cerrar C18, C19 y C20 con evidencia real — no otra ventana de recuperación vencida.
-2. **[Completado 17/07 tarde]** Reunión de seguimiento 14:00 ejecutada. Decisión de Douglas: no forzar el cierre de C18/C19/C20 con evidencia parcial; pivote a semana de validación del sistema en vez de seguir aceptando avances sin artefactos suficientes. Actas de Licencia Básica siguen sin firmar.
-3. **[Completado 17/07 mañana]** Auditoría #02 revisada y procesada; carpeta única de Drive ejecutada; plantillas-rúbrica publicadas.
-4. **[Completado 17/07 ~11:50]** Verificación pre-reunión del material detectado en Drive contra el criterio §5 de la agenda — resultados en el ADENDO 2 de `04_herramientas/agendas/2026-07-17_seguimiento_c18_c20.md` y en la matriz C17/C19/C20.
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 17/07 ~15:20 (post-escaneo Drive)
+1. **[Nuevo, 17/07 ~15:20]** Abrir y verificar contra criterio los 3 documentos de Mario y el material adicional de Irvin/Mario encontrados por `verificar_evidencia_drive.py` en `bitacoras cumplimiento S1/S2/<Nombre>/` (fuera de la estructura canónica) — antes de asumir que "Mario 🔴 sin material" sigue siendo cierto. Ver hallazgo detallado en la fila C19.
+2. **[Esta semana, antes del 24/07]** Depurar y validar el sistema de plantillas-rúbrica (C19/C20/S2) creado hoy, usando C19 de Irvin como caso de prueba (resultado positivo). Con el sistema validado, cerrar C18, C19 y C20 con evidencia real — no otra ventana de recuperación vencida.
+3. **[Completado 17/07 tarde]** Reunión de seguimiento 14:00 ejecutada. Decisión de Douglas: no forzar el cierre de C18/C19/C20 con evidencia parcial; pivote a semana de validación del sistema en vez de seguir aceptando avances sin artefactos suficientes. Actas de Licencia Básica siguen sin firmar.
+4. **[Completado 17/07 mañana]** Auditoría #02 revisada y procesada; carpeta única de Drive ejecutada; plantillas-rúbrica publicadas.
+5. **[Completado 17/07 ~11:50]** Verificación pre-reunión del material detectado en Drive contra el criterio §5 de la agenda — resultados en el ADENDO 2 de `04_herramientas/agendas/2026-07-17_seguimiento_c18_c20.md` y en la matriz C17/C19/C20.
 
 ---
 
@@ -212,6 +213,33 @@ Ninguno activo — el último (fecha de mini-reportes S2) se resolvió hoy 13/07
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-17 | SESIÓN 20 (cont. 8) — PUENTE AUTOMATIZADO DRIVE↔GITHUB + HALLAZGO: EVIDENCIA DE MARIO ENTERRADA (Claude Code, ~15:20)
+  ✓ Implementada la recomendación sobre la dualidad Drive/GitHub (memoria `error-dualidad-drive-github`):
+    nuevo `04_herramientas/verificar_evidencia_drive.py` (+ wrapper `.sh`) recorre TODA la carpeta
+    canónica de Drive y señala (a) archivos fuera de la estructura 00-03 y (b) archivos modificados
+    en una ventana reciente — sin abrir su contenido. Excluye a propósito `04_Diagnostico_RESTRINGIDO`.
+    Es informativo (no bloquea commits, a diferencia de check_consistencia.sh) — pensado para el paso 0
+    del ritual de sincronización y la auditoría semanal.
+  ⚠️ HALLAZGO al primer uso: 28 archivos viven fuera de la estructura canónica, casi todos en
+    `bitacoras cumplimiento S1/S2/<Nombre>/` (carpeta heredada de antes del 17/07). Entre ellos,
+    **3 documentos de Mario Valencia sin registrar en ninguna verificación previa**: "Reporte de
+    Optimización de Procesos (Refactorización de Módulo de Graduados)", "Resumen de Eficiencia
+    Operativa: Hermes vs Trabajo Manual", "Proceso 2: tablero de autoevaluación en Metabase" — los 3
+    modificados el 17/07. El estado "Mario 🔴 sin material" (verificación de las 11:50 y reunión de
+    las 14:00) se basó en que la carpeta canónica `C19_medicion_antes_despues/Mario/` estaba vacía;
+    nadie miró la carpeta heredada. Mismo patrón para material adicional de Irvin/Mario relacionado
+    con C17.
+  ✓ Registrado el hallazgo en la fila C19 y en TOP AHORA — SIN cambiar el veredicto de Mario: falta
+    abrir los 3 documentos contra el criterio de C19 (regla del Protocolo: el hallazgo de ubicación no
+    es verificación de contenido).
+  ✓ Protocolo_Evidencia_y_Estado.md actualizado: §7 declara la dualidad Drive/GitHub riesgo estructural
+    aceptado (no eliminable mientras los Champions no usen git) — la estrategia es automatizar el puente,
+    no perseguir unificación total; §8 gana el paso 0 (correr el escaneo antes de escribir estado); §9
+    documenta el script como complemento de `check_consistencia.sh`.
+  → Próxima acción: abrir los 3 documentos de Mario (y el material adicional de C17) contra el criterio
+    real antes de la próxima actualización de estado — no dar por bueno el hallazgo de ubicación como
+    si fuera verificación.
+
 2026-07-17 | SESIÓN 20 (cont. 7) — CHEQUEO 6 BLINDA LA REGLA §4.5 + PLANTILLAS C17/C18 PUBLICADAS (Claude Code, ~21:15 UTC)
   ✓ `04_herramientas/check_consistencia.sh` gana un chequeo nuevo (6): recorre la matriz de compromisos
     de este archivo y falla si una fila EN CURSO (Estado no ✅) que menciona a un Champion (Irvin/Mario/

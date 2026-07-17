@@ -94,10 +94,13 @@ En el log de `ESTADO_PROYECTO.md`:
 
 **✅ DECISIÓN TOMADA (17/07/2026, mediodía):** la carpeta canónica única es `1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj` ("AIFluent Junio 2026"). Estructura creada el mismo día: `00_Gobernanza` (Actas_Licencias, Bitacoras_Reuniones) · `01_Evidencia_Champions` (S1/S2 por Champion, `C19_medicion_antes_despues/`, `C20_perfiles_area/`) · `02_Conocimiento_Colectivo` · `03_Material_Programa` · `04_Diagnostico_RESTRINGIDO` — con un README de reglas de uso en la raíz. La carpeta `1QDKBHqX…` (douglasag@gmail.com) queda **obsoleta**: su contenido útil (ESTADO en Docs, actas de licencia) fue recreado en la canónica, y **la conexión de claude.ai con douglasag@gmail.com se elimina** — no debe volver a usarse para el proyecto (ejecutado y verificado 17/07: sin acceso a la carpeta B ni a sus archivos). Acceso agéntico a Drive: vía `gdai`/`google_api.py` (token Hermes, cae por defecto en la carpeta canónica) o vía el conector de claude.ai, que desde el 17/07 autentica como **dagalindo@ujmd.edu.sv**.
 
+**Riesgo estructural aceptado, no un bug a eliminar (registrado 17/07 tarde):** aun con carpeta única y mapa de fuentes canónicas, Drive y GitHub seguirán siendo dos sistemas porque los Champions no usan git — la evidencia solo puede vivir en Drive. Unificarlos totalmente no es viable mientras eso sea cierto. La estrategia no es eliminar la dualidad sino automatizar el puente entre ambos lados (ver `verificar_evidencia_drive.py` abajo), para que la brecha se detecte en días, no en semanas como pasó con C19/C17 (evidencia real de Patrick, Irvin y **también Mario** — 3 procesos completos — enterrada en `bitacoras cumplimiento S1/S2/<Nombre>/`, una carpeta heredada de antes del 17/07 que quedó fuera de la estructura 00-04 y por eso invisible en las verificaciones de esa mañana).
+
 ---
 
 ## 8. Ritual de sincronización (cierre de cada sesión de trabajo)
 
+0. Si hay acceso a Drive: correr `bash 04_herramientas/verificar_evidencia_drive.sh` — es informativo (no bloquea), pero avisa de evidencia nueva o fuera de estructura ANTES de escribir el estado en `ESTADO_PROYECTO.md`, en vez de descubrirla semanas después.
 1. ¿Cambió algún estado de compromiso? → actualizar la tabla de `ESTADO_PROYECTO.md` (fuente) con evidencia enlazada.
 2. → actualizar `Dashboard_Jornada.html` en `04_herramientas/` y copiar a `docs/` (deben quedar idénticos).
 3. → si hay veredicto por Champion, actualizar su `learning_record/<champion>.md` + `_dashboard.md`.
@@ -116,7 +119,7 @@ En el log de `ESTADO_PROYECTO.md`:
 3. No reaparece la frase-puntero "detalle con evidencia" hacia archivos archivados (patrón I9).
 4. El log no introduce "verificado y completado" en entradas nuevas que mencionen fechas futuras (patrón I10, chequeo advisory).
 
-Lo que el script no puede ver (contenido de Drive), lo cubre la auditoría semanal con la regla de **verificación de segundo nivel** instaurada en la #02: abrir también el documento al que apunta el documento.
+Lo que `check_consistencia.sh` no puede ver (contenido de Drive) lo cubre `04_herramientas/verificar_evidencia_drive.py` (§7, §8 paso 0): recorre toda la carpeta canónica en Drive y señala (a) archivos fuera de la estructura 00-03 y (b) archivos modificados en los últimos N días, en ambos casos sin abrir su contenido — es un radar de "algo cambió o está mal ubicado", no un verificador de criterio. Excluye a propósito `04_Diagnostico_RESTRINGIDO`. La verificación de que el contenido cumple el criterio de aceptación sigue siendo manual (regla de **verificación de segundo nivel** de la auditoría #02: abrir también el documento al que apunta el documento) — este script solo reduce el tiempo entre "la evidencia existe" y "alguien se entera".
 
 ---
 
