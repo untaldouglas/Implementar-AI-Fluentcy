@@ -126,7 +126,7 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C14 | Verificar entrega de evidencia S1 (criterio resuelto I1: 1 caso ancla + reflexión por Champion) | 2026-07-07 → prórroga 2026-07-12 | ✅ **COMPLETADO 3/3** (10/07 noche) | Mario y Patrick verificados con documento real en Drive (10/07 tarde). Irvin: revertido a pendiente en la tarde (su documento no tenía caso ancla ni reflexión); entregó segunda versión la misma noche, verificada contra documento real — caso ancla "EQUIPO NO ENCIENDE" + reflexión Día 7 completos. Observaciones de coaching para S2 en `01_piloto/learning_record/irvin_morales.md` |
-| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque 2026-07-13, mini-reportes vencidos 17/07 | 🟡 **PARCIAL** — Mario ✅ | Sesión ejecutada 13/07, material de taller enviado. Mini-reporte de **Mario** (`AIFluency_Mario_S2_MiniReporte`) verificado 24/07: Conforme, aprobado en Drive. No se verificó hoy el estado de los mini-reportes de Patrick e Irvin — pendiente confirmar si existen en sus subcarpetas de S2. Nota: un mini-reporte Conforme cuenta como avance de S2 pero no cierra C19 (exige la medición completa con la plantilla C19). |
+| C15 | Agendar y ejecutar Sesión 2 (S2: Productividad personal con IA) | 2026-07-08 → arranque 2026-07-13, mini-reportes vencidos 17/07 → cerrado 2026-07-24 | ✅ **COMPLETADO 3/3** (verificado 24/07) | Sesión ejecutada 13/07, material de taller enviado. **Mario** (`AIFluency_Mario_S2_MiniReporte`) verificado 24/07: Conforme, aprobado en Drive. **Irvin** (`AIFluency_Irvin_S2_MiniReporte`) verificado 24/07 ~14:59: aprobación nativa completa en Versión 1 (22/07 11:27 PM), no invalidada por la versión actual. **Patrick** (`AIFluency_Patrick_S2_MiniReporte`) verificado 24/07 ~15:11: solicitó aprobación a Douglas a las 3:09 PM, Douglas aprobó de inmediato — "Approval complete", versión actual bloqueada. Nota: un mini-reporte Conforme cuenta como avance de S2 pero no cierra C19 (exige la medición completa con la plantilla C19). |
 | C16 | Crear `01_piloto/learning_record/` + plantillas por Champion | 2026-07-01 | ✅ COMPLETADO (10/07) | Directorio + 3 registros individuales + dashboard creados y **llenados con la evidencia real revisada** (Mario/Patrick verificados en la tarde; Irvin cerrado la misma noche — 3/3) |
 | C17 | Formalizar conocimiento colectivo: glosario del dominio, preguntas frecuentes, lista de errores | Sin fecha límite fija — cadencia sugerida: cada colaborativa semanal (miércoles) | 🟢 BASE COLECTIVA COMPLETADA por Claude Code (17/07, ~21:40, decisión de Douglas) — los 3 artefactos existen y están poblados en `02_Conocimiento_Colectivo/` (Drive): Glosario (13 términos), FAQ (4 preguntas), Lista de errores (5 entradas, creada desde cero). Pendiente: aporte por iniciativa propia de Irvin y Mario (ver Notas) | Solicitado a Irvin/Mario/Patrick en la Sesión 18 (10/07). Douglas decidió que, a diferencia de C19 (medición individual), C17 es un compromiso de consolidación apropiado para que lo complete el agente. Se filtró el aporte de Patrick al criterio de la rúbrica ("caso real con Hermes"): se excluyeron 5 términos genéricos ITIL/COBIT (COBIT, Continuidad del Servicio, ITILv3, SLA, SOP) sin ese anclaje, y 3 de sus 4 preguntas FAQ por el mismo motivo. Se sumaron términos/preguntas reales extraídos de la evidencia C19 de Mario e Irvin, y la lista de errores se construyó con 5 casos reales y fechados del propio piloto (inconsistencia en `monitor_servidores_pro.sh`, evidencia enterrada en carpetas personales, duplicidad de cuentas Google, riesgo de datos no evaluado en el prompt de Irvin, compromisos sin plantilla-rúbrica). Mirror local actualizado en `01_piloto/conocimiento_colectivo/`. **Limitación honesta:** Irvin y Mario no han aportado todavía por iniciativa propia (lo suyo aquí viene de minar su evidencia de C19, no de que ellos hayan escrito una entrada); la rúbrica exige aportes de más de un Champion por decisión propia — pendiente cerrarlo en la próxima colaborativa semanal. **Entrega:** guía-rúbrica `_PLANTILLA_C17_Conocimiento_Colectivo` → `02_Conocimiento_Colectivo/` (Drive), publicada 17/07 |
 
@@ -135,8 +135,14 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | 2026-07-17 → cerrado 2026-07-24 | ✅ **COMPLETADO** (Patrick, verificado 24/07) | Patrick completó la tabla de la sección 1 y las 4 preguntas de la sección 2. Veredicto del Director: Conforme (24/07). Documento aprobado y bloqueado en Drive Approvals. **Cierra I8 de la auditoría #01.** Entrega: `AIFluency_Patrick_C18_EsquemaWorkspace` en `01_Evidencia_Champions/C18_esquema_workspace/` |
-| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | 2026-07-17 → cerrado parcial 2026-07-24 | 🟡 **PARCIAL 2/3** (verificado 24/07, Claude Code, contra Drive Approvals) | **Patrick ✅ 2/2** — `AIFluency_Patrick_C19_script_GenerarAltasBajasAD` (script PowerShell para reportes AD) + `AIFluency_Patrick_C19_Reporteria_mensual_workspace` (4 scripts Apps Script para reportería Workspace), ambos Conforme y aprobados en Drive. **Mario ✅ 2/2** — `AIFluency_Mario_C19_RefactorCodigo` (refactorización Módulo Graduados) + `AIFluency_Mario_C19_TableroMetabase` (tablero de autoevaluación), ambos Conforme y aprobados en Drive; esto **resuelve el hallazgo del 17/07** de material "enterrado" en `bitacoras cumplimiento S2/Mario Valencia/` — ya reubicado en la carpeta canónica `C19_medicion_antes_despues/Mario/` con la plantilla correcta. **Irvin 🔴 1/2** — solo `AIFluency_Irvin_C19_InstalaciónSoftwareRemoto` (del 17/07, usado como caso de prueba positivo del sistema de rúbricas); falta su 2º proceso. **Cierra H8 de la auditoría #01 en cuanto Irvin entregue el 2º proceso.** Registro consolidado de la validación de hoy: Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`. Entrega: plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/` |
+| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | 2026-07-17 → cerrado parcial 2026-07-24 | 🟡 **PARCIAL 2/3** (verificado 24/07, Claude Code, contra Drive Approvals) | **Patrick ✅ 2/2** — `AIFluency_Patrick_C19_script_GenerarAltasBajasAD` (script PowerShell para reportes AD) + `AIFluency_Patrick_C19_Reporteria_mensual_workspace` (4 scripts Apps Script para reportería Workspace), ambos Conforme y aprobados en Drive. **Mario ✅ 2/2** — `AIFluency_Mario_C19_RefactorCodigo` (refactorización Módulo Graduados) + `AIFluency_Mario_C19_TableroMetabase` (tablero de autoevaluación), ambos Conforme y aprobados en Drive; esto **resuelve el hallazgo del 17/07** de material "enterrado" en `bitacoras cumplimiento S2/Mario Valencia/` — ya reubicado en la carpeta canónica `C19_medicion_antes_despues/Mario/` con la plantilla correcta. **Irvin 🔴 1/2** — solo `AIFluency_Irvin_C19_InstalaciónSoftwareRemoto` (del 17/07, usado como caso de prueba positivo del sistema de rúbricas); falta su 2º proceso. Sello nativo de Drive Approvals completado por Douglas el 24/07 ~14:42 (era el único de los 9 documentos sin ese sello — pendiente resuelto, no cambia el estado 1/2). **Cierra H8 de la auditoría #01 en cuanto Irvin entregue el 2º proceso.** Registro consolidado de la validación de hoy: Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`. Entrega: plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/` |
 | C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | 2026-07-17 → cerrado parcial 2026-07-24 | 🟡 **PARCIAL 2/3** (verificado 24/07, Claude Code, contra Drive Approvals) | **Patrick ✅** — `AIFluency_Patrick_C20_PerfilInfraestructura` (Operador de Infraestructura), Conforme, aprobado en Drive. **Mario ✅** — `AIFluency_Mario_C20_PerfilDesarrollo` (Analista Programador, con responsabilidades nuevas de IA incorporadas), Conforme, aprobado en Drive. **Irvin 🔴** — sin entregar. Insumo pendiente de Irvin para estandarizar SOUL.md del área de Soporte y el playbook (`02_playbook/`). Entrega: plantilla `_PLANTILLA_C20_Perfil_de_Area` → `01_Evidencia_Champions/C20_perfiles_area/` |
+
+### Compromisos Semana 4 (julio 27–29, ventana comprimida) — anunciado 24/07 tarde
+
+| # | Compromiso | Fecha límite | Estado | Notas |
+|---|---|---|---|---|
+| C21 | S3 — Cada Champion construye 1 Skill propio (SKILL.md), real, probado 3 veces hasta error cero, y versionado en el repositorio del equipo | 2026-07-29 17:00 (sin prórroga — jue 30 y vie 31 son vacaciones nacionales, ventana comprimida de 5 a 3 días) | 🟡 **ANUNCIADO** — correo enviado a los 3 Champions | Es también el requisito de Skill versionado que falta para optar a Licencia Profesional 🔵 (`00_marco/Licencia_Conduccion_AI.md`, sección 3), junto con llegar a 3 casos de uso documentados (hoy tienen 2 vía C19). Guía formativa con plan de 3 días y candidato de Skill sugerido por área: `04_herramientas/agendas/2026-07-27_s3_construccion_skills.md`. Entrega: plantilla `_PLANTILLA_C21_Skill_Propio` → `01_Evidencia_Champions/C21_skill_propio/`. **Auditoría #04 reprogramada al miércoles 29/07** (mismo día que este cierre, decisión de Douglas). **Demo Day sigue pendiente de fecha.** Correo enviado por Douglas a los 3 Champions (`ijmoralespa@`, `mevalenciac@`, `peorellanaa@ujmd.edu.sv`) — pendiente de que arranquen. |
 
 ---
 
@@ -144,12 +150,14 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 24/07 ~11:10 CST (cierre del pivote)
-1. **[Nuevo, 24/07]** Cerrar C19/C20 con **Irvin** — único Champion que no cierra hoy (falta 2º proceso C19 + perfil de área C20). Coordinar fecha considerando su carga operativa de la semana de Inscripción y Arranque de Clases S2-2026.
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 24/07 ~15:11 CST
+1. **[Único bloqueo activo]** Esperando a **Irvin**: 2º proceso de C19 + perfil de área C20 — ya solicitado (24/07 ~14:59), sin respuesta aún.
 2. **[Nuevo, 24/07]** Reunión de seguimiento hoy 14:00: decidir si S3 (Construcción de agentes) arranca el 27/07 con ventana comprimida, o si se ajusta la fecha de Demo Day (31/07).
-3. **[Nuevo, 24/07]** Confirmar si Patrick e Irvin entregaron su mini-reporte S2 (solo se verificó el de Mario hoy).
-4. **[Completado 24/07 ~11:10]** Validación de evidencia de Champions: C18 100% (Patrick), C19 y C20 en 2/3 (Patrick ✅ Mario ✅). 8 de 9 documentos con aprobación nativa completa en Drive. Detalle en la Sesión 23 del log y en Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`.
-5. **[Completado 20/07]** Falsa alarma de stall (14-19/07) resuelta por desincronización de repo local — `git pull` confirmó que Auditoría #02, C17 y la reunión/pivote del 17/07 sí se ejecutaron y están en `origin/main`.
+3. **[Completado 24/07 ~15:11]** Mini-reporte S2 de **Patrick** verificado: solicitó aprobación a Douglas (3:09 PM), Douglas aprobó de inmediato. **C15/S2 cierra 3/3** (Mario ✅ Irvin ✅ Patrick ✅).
+4. **[Completado 24/07 ~14:59]** Mini-reporte S2 de **Irvin** verificado: aprobación nativa completa en Drive (Versión 1, 22/07).
+5. **[Completado 24/07 ~11:10]** Validación de evidencia de Champions: C18 100% (Patrick), C19 y C20 en 2/3 (Patrick ✅ Mario ✅). 8 de 9 documentos con aprobación nativa completa en Drive. Detalle en la Sesión 23 del log y en Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`.
+6. **[Completado 24/07 ~14:42]** Sello nativo de Drive Approvals completado en el documento de Irvin de C19 (era el único de los 9 sin ese sello) — no cierra C19, solo formaliza el 1º de sus 2 procesos.
+7. **[Completado 20/07]** Falsa alarma de stall (14-19/07) resuelta por desincronización de repo local — `git pull` confirmó que Auditoría #02, C17 y la reunión/pivote del 17/07 sí se ejecutaron y están en `origin/main`.
 
 ---
 
@@ -262,6 +270,83 @@
   ACCIÓN #1 PRÓXIMA SESIÓN: cerrar C19/C20 con Irvin (2º proceso + perfil de área), coordinando con su
   carga operativa de la semana de inscripción. Decidir en la reunión de seguimiento de hoy 14:00 si S3
   arranca el 27/07 o se ajusta la fecha de Demo Day (31/07, en riesgo si S3 se comprime más).
+
+2026-07-24 | SESIÓN 23 — SELLO NATIVO DE DRIVE APPROVALS COMPLETADO EN DOCUMENTO DE IRVIN (Douglas, ~14:42)
+  ✓ Douglas inició y completó el flujo nativo de Google Docs Approvals sobre
+    `AIFluency_Irvin_C19_InstalaciónSoftwareRemoto` — era el único de los 9 documentos revisados en la
+    Sesión 23 (11:10) que no tenía ese sello (el resto ya lo tenía: Patrick 4/4, Mario 4/4).
+  ✓ Resuelve el pendiente opcional/no bloqueante anotado en el log de las 11:10 de hoy mismo.
+  ⚪ No cambia el estado de C19 (sigue **PARCIAL 2/3** — a Irvin le falta su 2º proceso, no la
+    aprobación formal del primero). Ver tabla de compromisos, fila C19.
+
+2026-07-24 | SESIÓN 23 — C21 ANUNCIADO: S3/CONSTRUCCIÓN DE SKILLS, VENTANA COMPRIMIDA A 3 DÍAS (Claude Code, tarde)
+  CONTEXTO: Douglas confirmó que por vacaciones nacionales solo hay jornada laboral hasta el
+  miércoles 29/07 — jueves 30 y viernes 31 quedan fuera. Eso afecta directamente a S3
+  (Construcción de Skills), que el manual ubica como semana completa (27–31/07), y a la fecha
+  fijada para Auditoría #04 y Demo Day (31/07, ahora día no laborable).
+
+  MATERIAL FORMATIVO CREADO:
+  ✓ `04_herramientas/agendas/2026-07-27_s3_construccion_skills.md` — guía para los 3 Champions:
+    qué es un Skill (con referencia a `04_herramientas/Instructivo_Skills_Claude.md` como ejemplo
+    de formato), candidato de Skill sugerido por Champion basado en su propia evidencia real ya
+    generada (Irvin: triaje de tickets del taller S2; Mario: "riesgos antes de refactor"; Patrick:
+    auditoría de script contra su propio encabezado, del hallazgo real de
+    `monitor_servidores_pro.sh`), plan de 3 días (elegir+diseñar / probar 3 veces / versionar+
+    entregar) y fecha límite explícita: miércoles 29/07 17:00, sin prórroga.
+  ✓ Plantilla-rúbrica `_PLANTILLA_C21_Skill_Propio` creada en Drive, carpeta nueva
+    `01_Evidencia_Champions/C21_skill_propio/` — mismo formato de las plantillas C18/C19/C20
+    (datos, diseño del SKILL.md, 3 iteraciones de prueba obligatorias, versionado en Git,
+    verificación y seguridad, rúbrica de autoevaluación, verificación del Director).
+  ✓ C21 anunciado formalmente en la tabla de compromisos (Semana 4, julio 27–29) siguiendo la
+    convención del proyecto: todo compromiso con entregable de Champions se anuncia con
+    plantilla-rúbrica y ubicación exacta en Drive.
+
+  PENDIENTE (no resuelto por Claude Code, es decisión de Douglas):
+  ⚪ Reprogramar Auditoría #04 y Demo Day — ambos fijados al 31/07, que ya no es día laborable
+    esta semana.
+
+2026-07-24 | SESIÓN 23 — CORREO C21 REDACTADO (BORRADOR), AUDITORÍA #04 REPROGRAMADA (Douglas, tarde)
+  ✓ Douglas decidió: Auditoría #04 se mueve al **miércoles 29/07** (mismo día que cierra C21).
+    Demo Day queda **pendiente de fecha** — se comunicará por separado.
+  ✓ Correo a los 3 Champions redactado y dejado como **borrador en Gmail** (dagalindo@ujmd.edu.sv,
+    destinatarios: ijmoralespa@, mevalenciac@, peorellanaa@ujmd.edu.sv) — asunto "AI Fluency · S3 —
+    Construcción de Skill propio (C21), cierra miércoles 29/07". Contenido: cierre 3/3 de S1/S2,
+    contexto de ventana comprimida, qué es un Skill, candidato sugerido por Champion, plan de 3
+    días, dónde entregar y fecha límite. **No enviado — queda para revisión y envío de Douglas**,
+    siguiendo la misma regla ya aplicada a los borradores previos del 14/07 y 16/07 (nunca enviar
+    sin aprobación explícita).
+  ✓ **Douglas revisó y envió el correo.** C21 pasa de "no iniciado" a **ANUNCIADO** — los 3
+    Champions ya tienen la instrucción, el candidato de Skill sugerido y la fecha límite
+    (miércoles 29/07 17:00). Sin evidencia de arranque todavía — es el primer día hábil de la
+    ventana (lunes 27/07) cuando corresponde revisar avance.
+  ✓ **Monitoreo de bloqueos automatizado**: 3 rutinas cloud de un solo disparo (Claude Code
+    Routines) creadas para 08:00 CST del lunes 27/07, martes 28/07 y miércoles 29/07 — cada una
+    revisa Gmail (respuestas de los 3 Champions al hilo de C21) y los comentarios/documentos
+    nuevos en Drive `01_Evidencia_Champions/C21_skill_propio/`, y reporta si hay bloqueo. La del
+    miércoles además reporta quién ya entregó. IDs: `trig_01YHVZX3RjoBFCv4kRotVF5U` (lun),
+    `trig_01YEBWSYEU5xgF1wzLAGPsns` (mar), `trig_017QkyHPZdPgEodebBqkokrE` (mié). Se autodesactivan
+    tras ejecutarse (no son recurrentes).
+
+2026-07-24 | SESIÓN 23 — C15/S2 CIERRA 3/3: PATRICK VALIDADO (Douglas, ~15:11)
+  ✓ Mini-reporte S2 de **Patrick** (`AIFluency_Patrick_S2_MiniReporte`) validado: Patrick solicitó
+    aprobación a Douglas a las 3:09 PM del mismo día; Douglas aprobó de inmediato — "Approval
+    complete", versión actual bloqueada en Drive. Respuesta a la solicitud abierta hace apenas ~12
+    minutos (ver entrada anterior de las 14:59).
+  ✓ **C15/S2 → COMPLETADO 3/3** (Mario ✅ 24/07, Irvin ✅ 24/07 ~14:59, Patrick ✅ 24/07 ~15:11).
+  ⚪ Único pendiente activo del pivote: Irvin (2º proceso C19 + perfil de área C20) — solicitado hoy,
+    sin respuesta todavía.
+
+2026-07-24 | SESIÓN 23 — S2 DE IRVIN VERIFICADO, SOLICITUDES ABIERTAS A PATRICK E IRVIN (Douglas, ~14:59)
+  ✓ Mini-reporte S2 de **Irvin** (`AIFluency_Irvin_S2_MiniReporte`) verificado: aprobación nativa de
+    Drive completa en Versión 1 (22/07 11:27 PM); la versión actual muestra "no approval on current
+    version" pero no la invalida — mismo patrón ya confirmado hoy con los 3 documentos de Mario. La
+    Sección 7 interna del documento (Veredicto/Fecha/Registrado) sigue sin marcar, pero el sello
+    nativo de Drive es el criterio que Douglas ya estableció como suficiente. **C15/S2 pasa a 2/3**
+    (Mario ✅, Irvin ✅, Patrick pendiente).
+  ✓ Douglas solicitó directamente a **Patrick** el envío de su mini-reporte S2 para validación.
+  ✓ Douglas solicitó directamente a **Irvin** el envío de su C19 adicional (2º proceso pendiente).
+  ⚪ Ninguna de las dos solicitudes tiene evidencia de respuesta todavía — quedan como pendientes
+    abiertos en TOP AHORA.
 
 2026-07-17 | SESIÓN 22 — C17 COMPLETADO POR CLAUDE CODE POR DECISIÓN DE DOUGLAS (Claude Code, ~21:40)
   DECISIÓN DE DOUGLAS: a diferencia de C19/C20 (evidencia medida individualmente por cada
