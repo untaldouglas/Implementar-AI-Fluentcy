@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-24 ~11:10 CST · Sesión 23 — cierre del pivote: C18 completado (Patrick), C19 y C20 en 2/3 (Patrick ✅ Mario ✅ Irvin pendiente); validación de evidencia de Champions ejecutada y verificada contra Drive Approvals |
+| Última actualización | 2026-07-27 (mañana) · Sesión 24 — cierre 3/3 de C19 y C20: Irvin entregó 2º proceso C19 + perfil C20, validados y aprobados por Douglas en Drive; S3/C21 ya en marcha (ventana comprimida, vence mié 29/07 17:00) |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-24 |
-| Días desde inicio | 24 días |
-| Fase actual | **FASE 1 — Piloto Champions** 🟡 EN CURSO — cierre del pivote de validación (día 24) |
-| Semana de proyecto | S1 cerrada 3/3 ✅ · Pivote de validación (20–24/07) cerrado hoy: C18 100% (Patrick), C19 y C20 en 2/3 (Patrick ✅ Mario ✅ · Irvin pendiente 2º proceso C19 y perfil C20) |
+| Hoy (última actualización) | 2026-07-27 |
+| Días desde inicio | 27 días |
+| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — pivote de validación cerrado 3/3 ✅, S3/Construcción de Skills en marcha (C21, ventana comprimida 27–29/07) |
+| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · S3 en curso (C21 — Skill propio, vence mié 29/07 17:00) |
 | Mes de proyecto | M1 |
-| Próximo hito | Cerrar C19/C20 con Irvin (2º proceso + perfil de área) · Auditoría #03 (lente COBIT, hoy ~07:00) · decidir arranque de S3 en la reunión de seguimiento de hoy 14:00 |
-| Días hasta próximo hito | 0 |
+| Próximo hito | Cierre C21 mié 29/07 17:00 · Auditoría #04 mié 29/07 · Demo Day pendiente de fecha (31/07 cae en día no laborable por vacaciones nacionales) |
+| Días hasta próximo hito | 2 |
 
 ### Calendario de fases
 
@@ -135,8 +135,8 @@
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
 | C18 | Definir esquema operativo de integración a Google Workspace para el proyecto | 2026-07-17 → cerrado 2026-07-24 | ✅ **COMPLETADO** (Patrick, verificado 24/07) | Patrick completó la tabla de la sección 1 y las 4 preguntas de la sección 2. Veredicto del Director: Conforme (24/07). Documento aprobado y bloqueado en Drive Approvals. **Cierra I8 de la auditoría #01.** Entrega: `AIFluency_Patrick_C18_EsquemaWorkspace` en `01_Evidencia_Champions/C18_esquema_workspace/` |
-| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | 2026-07-17 → cerrado parcial 2026-07-24 | 🟡 **PARCIAL 2/3** (verificado 24/07, Claude Code, contra Drive Approvals) | **Patrick ✅ 2/2** — `AIFluency_Patrick_C19_script_GenerarAltasBajasAD` (script PowerShell para reportes AD) + `AIFluency_Patrick_C19_Reporteria_mensual_workspace` (4 scripts Apps Script para reportería Workspace), ambos Conforme y aprobados en Drive. **Mario ✅ 2/2** — `AIFluency_Mario_C19_RefactorCodigo` (refactorización Módulo Graduados) + `AIFluency_Mario_C19_TableroMetabase` (tablero de autoevaluación), ambos Conforme y aprobados en Drive; esto **resuelve el hallazgo del 17/07** de material "enterrado" en `bitacoras cumplimiento S2/Mario Valencia/` — ya reubicado en la carpeta canónica `C19_medicion_antes_despues/Mario/` con la plantilla correcta. **Irvin 🔴 1/2** — solo `AIFluency_Irvin_C19_InstalaciónSoftwareRemoto` (del 17/07, usado como caso de prueba positivo del sistema de rúbricas); falta su 2º proceso. Sello nativo de Drive Approvals completado por Douglas el 24/07 ~14:42 (era el único de los 9 documentos sin ese sello — pendiente resuelto, no cambia el estado 1/2). **Cierra H8 de la auditoría #01 en cuanto Irvin entregue el 2º proceso.** Registro consolidado de la validación de hoy: Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`. Entrega: plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/` |
-| C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | 2026-07-17 → cerrado parcial 2026-07-24 | 🟡 **PARCIAL 2/3** (verificado 24/07, Claude Code, contra Drive Approvals) | **Patrick ✅** — `AIFluency_Patrick_C20_PerfilInfraestructura` (Operador de Infraestructura), Conforme, aprobado en Drive. **Mario ✅** — `AIFluency_Mario_C20_PerfilDesarrollo` (Analista Programador, con responsabilidades nuevas de IA incorporadas), Conforme, aprobado en Drive. **Irvin 🔴** — sin entregar. Insumo pendiente de Irvin para estandarizar SOUL.md del área de Soporte y el playbook (`02_playbook/`). Entrega: plantilla `_PLANTILLA_C20_Perfil_de_Area` → `01_Evidencia_Champions/C20_perfiles_area/` |
+| C19 | Cada Champion define ≥2 alternativas de procesos existentes sistematizables con Hermes, midiendo tiempo/costo actual y luego con Hermes | 2026-07-17 → cerrado 2026-07-27 | ✅ **COMPLETADO 3/3** (verificado 27/07 contra Drive Approvals) | **Patrick ✅ 2/2** — `AIFluency_Patrick_C19_script_GenerarAltasBajasAD` + `AIFluency_Patrick_C19_Reporteria_mensual_workspace`, ambos Conforme y aprobados en Drive (24/07). **Mario ✅ 2/2** — `AIFluency_Mario_C19_RefactorCodigo` + `AIFluency_Mario_C19_TableroMetabase`, ambos Conforme y aprobados en Drive (24/07); esto **resuelve el hallazgo del 17/07** de material "enterrado" en `bitacoras cumplimiento S2/Mario Valencia/` — ya reubicado en la carpeta canónica `C19_medicion_antes_despues/Mario/` con la plantilla correcta. **Irvin ✅ 2/2** — `AIFluency_Irvin_C19_InstalaciónSoftwareRemoto` (1º proceso, ya aprobado 24/07) **+ 2º proceso entregado y validado 27/07** por Douglas. **Cierra H8 de la auditoría #01 — completado 3/3.** Entrega: plantilla `_PLANTILLA_C19_Proceso_Medido` (una copia POR PROCESO) → `01_Evidencia_Champions/C19_medicion_antes_despues/<Nombre>/` |
+| C20 | Cada Champion define el perfil estándar de su área (base: descripción de puesto o, mejor, el perfil más replicable entre pares) | 2026-07-17 → cerrado 2026-07-27 | ✅ **COMPLETADO 3/3** (verificado 27/07 contra Drive Approvals) | **Patrick ✅** — `AIFluency_Patrick_C20_PerfilInfraestructura` (Operador de Infraestructura), Conforme, aprobado en Drive (24/07). **Mario ✅** — `AIFluency_Mario_C20_PerfilDesarrollo` (Analista Programador, con responsabilidades nuevas de IA incorporadas), Conforme, aprobado en Drive (24/07). **Irvin ✅** — perfil de área Soporte entregado y aprobado por Douglas (27/07). Permite estandarizar SOUL.md del área de Soporte y el playbook (`02_playbook/`). Entrega: plantilla `_PLANTILLA_C20_Perfil_de_Area` → `01_Evidencia_Champions/C20_perfiles_area/` |
 
 ### Compromisos Semana 4 (julio 27–29, ventana comprimida) — anunciado 24/07 tarde
 
@@ -150,14 +150,16 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 24/07 ~15:11 CST
-1. **[Único bloqueo activo]** Esperando a **Irvin**: 2º proceso de C19 + perfil de área C20 — ya solicitado (24/07 ~14:59), sin respuesta aún.
-2. **[Nuevo, 24/07]** Reunión de seguimiento hoy 14:00: decidir si S3 (Construcción de agentes) arranca el 27/07 con ventana comprimida, o si se ajusta la fecha de Demo Day (31/07).
-3. **[Completado 24/07 ~15:11]** Mini-reporte S2 de **Patrick** verificado: solicitó aprobación a Douglas (3:09 PM), Douglas aprobó de inmediato. **C15/S2 cierra 3/3** (Mario ✅ Irvin ✅ Patrick ✅).
-4. **[Completado 24/07 ~14:59]** Mini-reporte S2 de **Irvin** verificado: aprobación nativa completa en Drive (Versión 1, 22/07).
-5. **[Completado 24/07 ~11:10]** Validación de evidencia de Champions: C18 100% (Patrick), C19 y C20 en 2/3 (Patrick ✅ Mario ✅). 8 de 9 documentos con aprobación nativa completa en Drive. Detalle en la Sesión 23 del log y en Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`.
-6. **[Completado 24/07 ~14:42]** Sello nativo de Drive Approvals completado en el documento de Irvin de C19 (era el único de los 9 sin ese sello) — no cierra C19, solo formaliza el 1º de sus 2 procesos.
-7. **[Completado 20/07]** Falsa alarma de stall (14-19/07) resuelta por desincronización de repo local — `git pull` confirmó que Auditoría #02, C17 y la reunión/pivote del 17/07 sí se ejecutaron y están en `origin/main`.
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 27/07 mañana
+1. **[Único activo]** S3/C21 en marcha: cada Champion construye 1 Skill propio — guía formativa `04_herramientas/agendas/2026-07-27_s3_construccion_skills.md`, vence **miércoles 29/07 17:00** (sin prórroga). Monitoreo automatizado vía 3 rutinas cloud (lun/mar/mié 08:00 CST, IDs `trig_01YHVZX3RjoBFCv4kRotVF5U` · `trig_01YEBWSYEU5xgF1wzLAGPsns` · `trig_017QkyHPZdPgEodebBqkokrE`).
+2. **[27/07]** Auditoría #04 — miércoles 29/07 (mismo día del cierre C21). Demo Day pendiente de fecha (31/07 ya no es laborable por vacaciones nacionales).
+3. **[Completado 27/07]** **C19 → COMPLETADO 3/3** — Irvin entregó 2º proceso, validado y aprobado por Douglas en Drive. H8 de la auditoría #01 cerrada.
+4. **[Completado 27/07]** **C20 → COMPLETADO 3/3** — Irvin entregó perfil de área Soporte, aprobado por Douglas en Drive. Insumo disponible para estandarizar SOUL.md de Soporte y el playbook.
+5. **[Completado 24/07 ~15:11]** Mini-reporte S2 de **Patrick** verificado: solicitó aprobación a Douglas (3:09 PM), Douglas aprobó de inmediato. **C15/S2 cierra 3/3** (Mario ✅ Irvin ✅ Patrick ✅).
+6. **[Completado 24/07 ~14:59]** Mini-reporte S2 de **Irvin** verificado: aprobación nativa completa en Drive (Versión 1, 22/07).
+7. **[Completado 24/07 ~11:10]** Validación de evidencia de Champions: C18 100% (Patrick), C19 y C20 en 2/3 (Patrick ✅ Mario ✅). 8 de 9 documentos con aprobación nativa completa en Drive. Detalle en la Sesión 23 del log y en Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`.
+8. **[Completado 24/07 ~14:42]** Sello nativo de Drive Approvals completado en el documento de Irvin de C19 (era el único de los 9 sin ese sello).
+9. **[Completado 20/07]** Falsa alarma de stall (14-19/07) resuelta por desincronización de repo local — `git pull` confirmó que Auditoría #02, C17 y la reunión/pivote del 17/07 sí se ejecutaron y están en `origin/main`.
 
 ---
 
@@ -174,9 +176,10 @@
 
 | Bloqueo | Impacto | Mitigación |
 |---|---|---|
-| Irvin no cierra C19 (2º proceso) ni C20 — único Champion pendiente al 24/07 | Medio — no cierra H8 de la auditoría #01 | Coordinar con Irvin considerando su carga operativa de la semana de arranque de semestre; sin fecha rígida fijada aún |
+| _(ninguno activo al 27/07)_ | — | — |
 
 **Resueltos:**
+| Irvin no cierra C19 (2º proceso) ni C20 | ✅ 27/07 — Irvin entregó ambos y fueron aprobados por Douglas en Drive (verificación contra Drive Approvals). H8 auditoría #01 cerrada. |
 
 | Bloqueo | Resolución |
 |---|---|
@@ -227,6 +230,32 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-07-27 | SESIÓN 24 — CIERRE 3/3 DE C19 Y C20 CON IRVIN; S3/C21 EN MARCHA (Douglas + Claude Code, mañana)
+
+  CONTEXTO: Douglas confirma que Irvin entregó los pendientes que arrastraba del pivote de validación
+  (2º proceso de C19 y perfil de área Soporte C20). Ambos fueron revisados contra el documento real en
+  Drive y aprobados por Douglas a través del flujo nativo de Drive Approvals — funcionalidad "Aprobar"
+  usada por el Director (la que el propio Douglas había definido como criterio válido el 24/07 cuando
+  completó el sello pendiente del 1º proceso de Irvin).
+
+  CIERRES:
+  ✓ **C19 → COMPLETADO 3/3** (Irvin ✅ 2/2): 1º proceso `AIFluency_Irvin_C19_InstalaciónSoftwareRemoto`
+    (ya aprobado 24/07) + 2º proceso entregado y validado/aprobado 27/07 por Douglas. **Cierra H8 de
+    la auditoría #01** — el piloto cumple con la métrica de "cada Champion con 2 procesos medidos".
+  ✓ **C20 → COMPLETADO 3/3** (Irvin ✅): perfil del área de Soporte entregado y aprobado por Douglas.
+    Queda disponible para estandarizar `01_piloto/SOUL_plantillas/SOUL_Soporte.md` y la sección Soporte
+    del playbook (`02_playbook/`).
+
+  ESTADO ACTUALIZADO:
+  → FASE 1 — Piloto Champions 🟢 EN CURSO · S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ · S3/Construcción
+    de Skills en marcha (C21, ventana comprimida lun–mié 27–29/07; vence **mié 29/07 17:00**).
+  → Bloqueos activos: **ninguno.** Único compromiso en marcha: C21.
+  → Próximos hitos: C21 mié 29/07 17:00 · Auditoría #04 mié 29/07 · Demo Day pendiente de fecha.
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: monitorear avance de C21 vía las 3 rutinas cloud (08:00 CST lun/mar/mié) y
+  preparar el cierre del 29/07 (veredicto de los 3 SKILL.md en sus repos, ejecución de auditoría #04,
+  decisión de fecha de Demo Day).
+
 2026-07-24 | SESIÓN 23 — CIERRE DEL PIVOTE: C18 COMPLETO, C19/C20 EN 2/3, VALIDACIÓN DE EVIDENCIA CONTRA DRIVE APPROVALS (Douglas + Claude Code, ~11:10 CST)
 
   CONTEXTO (hueco 18–23/07, reconstruido con `git pull` desde el commit "desde mac" + confirmación de

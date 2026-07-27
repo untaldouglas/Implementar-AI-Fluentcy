@@ -70,23 +70,39 @@ Irvin entregó un documento nuevo en Drive (`Sesion practica de los prompt de la
 
 | Campo | Valor |
 |---|---|
-| Fecha de entrega | _(vence 14/07)_ |
-| Dónde vive | _(pendiente)_ |
-| Recibido | ⬜ |
+| Fecha de entrega | 2026-07-22 (vence 17/07 — entregado en prórroga corta) |
+| Dónde vive | Drive (`AIFluency_Irvin_S2_MiniReporte`, `02_Conocimiento_Colectivo/` adyacente) |
+| Recibido | ✅ — versión 1 con aprobación nativa completa de Drive (22/07 23:27) |
+| Veredicto | ✅ **Verificado** 24/07 ~14:59 — aprobación nativa en Versión 1; versión actual difiere por comentarios posteriores pero no invalida (regla confirmada con Douglas 24/07, mismo patrón aplicado a 3 docs de Mario) |
+| C15/S2 — resultado para Irvin | ✅ **Cierra 3/3** (Mario ✅ · Irvin ✅ · Patrick ✅) |
 
----
+## C19 — Procesos medidos (2 procesos)
+
+| # | Proceso | Dónde vive | Veredicto |
+|---|---|---|---|
+| 1 | Instalación de Software Remoto (Mesa de Servicios) | Drive (`AIFluency_Irvin_C19_InstalaciónSoftwareRemoto`) · carpeta canónica `01_Evidencia_Champions/C19_medicion_antes_despues/Irvin/` | ✅ Aprobado 24/07 |
+| 2 | _(2º proceso)_ entregado y validado 27/07 por Douglas | Drive | ✅ Aprobado 27/07 — **C19 cierra 3/3** |
+
+## C20 — Perfil de área Soporte
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`AIFluency_Irvin_C20_PerfilSoporte`) · carpeta canónica `01_Evidencia_Champions/C20_perfiles_area/` |
+| Veredicto | ✅ **Aprobado 27/07** por Douglas. **C20 cierra 3/3.** |
+| Insumo habilita | Estandarizar `01_piloto/SOUL_plantillas/SOUL_Soporte.md` y la sección Soporte del playbook (`02_playbook/`) |
 
 ## Verificación Director
 
 | Criterio | Estado |
-|---|---|
+|---|---|---|
 | Evidencia S1 revisada | ✅ (revisión de documento real: tarde 1ª versión incompleta, noche 2ª versión completa — 10/07) |
 | Nivel autorreportado coincide con evidencia | ✅ — autorreporta L1 con justificación; consistente con la evidencia (Mario y Patrick autorreportaron L1.5) |
 | Sin bloqueos abiertos | ✅ — documento completado; queda solo coaching de metodología de entrega para S2 |
+| C15/S2 (mini-reporte) | ✅ — aprobado por Douglas en Drive (24/07 ~14:59) |
+| C19 (2 procesos medidos) | ✅ 2/2 — aprobado 24/07 (1º) y 27/07 (2º) |
+| C20 (perfil de área Soporte) | ✅ — aprobado por Douglas (27/07) |
 
-**Firma Douglas:** ✅ 2026-07-10 (noche) — resolución tras revisión asistida del documento real
-**Fecha de última revisión:** 2026-07-10 (noche) — segunda entrega verificada; histórico de la reversión de la tarde conservado arriba
+**Firma Douglas:** ✅ 2026-07-10 (noche) — S1 resuelto tras revisión asistida del documento real
+**Fecha de última revisión:** 2026-07-27 (mañana) — C15/S2, C19 (2/2) y C20 cerrados y aprobados en Drive
 
----
-
-*Creado: 2026-07-10 · Compromiso C16 · Piloto AI Fluency UJMD*
+*Creado: 2026-07-10 · Compromiso C16 · Actualizado 2026-07-27 con cierres C15/C19/C20 · Piloto AI Fluency UJMD*
