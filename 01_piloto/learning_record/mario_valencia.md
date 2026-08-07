@@ -46,9 +46,37 @@
 
 | Campo | Valor |
 |---|---|
-| Fecha de entrega | _(vence 14/07)_ |
-| Dónde vive | _(pendiente)_ |
-| Recibido | ⬜ |
+| Fecha de entrega | 2026-07-22 (vence 17/07 — prórroga corta) |
+| Dónde vive | Drive (`AIFluency_Mario_S2_MiniReporte`) |
+| Recibido | ✅ |
+| Veredicto | ✅ **Verificado** 24/07 — Conforme, aprobado en Drive |
+| C15/S2 — resultado para Mario | ✅ **Cierra 3/3** (Mario ✅ · Irvin ✅ · Patrick ✅) |
+
+## C19 — Procesos medidos (2 procesos)
+
+| # | Proceso | Dónde vive | Veredicto |
+|---|---|---|---|
+| 1 | Refactorización de código (módulo Graduados) | Drive (`AIFluency_Mario_C19_RefactorCodigo`) · `01_Evidencia_Champions/C19_medicion_antes_despues/Mario/` | ✅ Aprobado 24/07 |
+| 2 | Tablero de autoevaluación en Metabase | Drive (`AIFluency_Mario_C19_TableroMetabase`) · carpeta canónica | ✅ Aprobado 24/07 — **C19 cierra 3/3** |
+
+> Resuelve el hallazgo del 17/07 (material "enterrado" en `bitacoras cumplimiento S2/Mario Valencia/`): reubicado en la carpeta canónica con la plantilla correcta.
+
+## C20 — Perfil de área Desarrollo
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`AIFluency_Mario_C20_PerfilDesarrollo`) · `01_Evidencia_Champions/C20_perfiles_area/` |
+| Veredicto | ✅ **Aprobado 24/07** por Douglas — Analista Programador con responsabilidades de IA incorporadas. **C20 cierra 3/3.** |
+
+## C21 — Skill propio (S3, versionado en Git)
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`AIFluency_Mario_C21_Skill_refactor-csharp-4`) · carpeta canónica `01_Evidencia_Champions/C21_skill_propio/Mario/` |
+| Skill | `refactor-csharp-4` — refactorización experta de código legacy C# 4.0 (.NET Framework 4.0) con auditoría de seguridad/deuda/rendimiento y verificación de integridad |
+| Entregado | 2026-07-29 |
+| Versionado | github.com/mariovalencia/AIFluent · commit `e09c9f2e` |
+| Veredicto | ✅ **Aprobado 07/08** por Douglas (Drive Approvals; sección 9 firmada 29 Julio) — **C21 cierra 3/3 y Fase 1 completa** |
 
 ---
 
@@ -59,10 +87,14 @@
 | Evidencia S1 revisada | ✅ |
 | Nivel autorreportado coincide con evidencia | ✅ |
 | Sin bloqueos abiertos | ✅ |
+| C15/S2 (mini-reporte) | ✅ — Conforme, aprobado en Drive (24/07) |
+| C19 (2 procesos medidos) | ✅ 2/2 — aprobados 24/07 |
+| C20 (perfil de área Desarrollo) | ✅ — aprobado por Douglas (24/07) |
+| C21 (Skill propio versionado) | ✅ — aprobado por Douglas en Drive (07/08) |
 
 **Firma Douglas:** ✅
-**Fecha de última revisión:** 2026-07-10 (reunión de seguimiento, Sesión 18)
+**Fecha de última revisión:** 2026-08-07 — S2/C19/C20/C21 cerrados y Fase 1 completa
 
 ---
 
-*Creado: 2026-07-10 · Compromiso C16 · Piloto AI Fluency UJMD*
+*Creado: 2026-07-10 · Compromiso C16 · Actualizado 2026-08-07 con cierres S2/C19/C20/C21 (Fase 1 completa) · Piloto AI Fluency UJMD*

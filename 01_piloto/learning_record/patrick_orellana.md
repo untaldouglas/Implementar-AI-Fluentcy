@@ -70,9 +70,41 @@ En la reunión de las 14:00, Patrick presentó evidencia adicional (plantilla de
 
 | Campo | Valor |
 |---|---|
-| Fecha de entrega | _(vence 14/07)_ |
-| Dónde vive | _(pendiente)_ |
-| Recibido | ⬜ |
+| Fecha de entrega | 2026-07-24 |
+| Dónde vive | Drive (`AIFluency_Patrick_S2_MiniReporte`) |
+| Recibido | ✅ |
+| Veredicto | ✅ **Verificado** 24/07 ~15:11 — Patrick solicitó aprobación a Douglas (3:09 PM), aprobación inmediata ("Approval complete"). **C15/S2 cierra 3/3.** |
+
+## C18 — Esquema operativo de integración a Google Workspace
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`AIFluency_Patrick_C18_EsquemaWorkspace`) · `01_Evidencia_Champions/C18_esquema_workspace/` |
+| Veredicto | ✅ **Conforme** 24/07 — tabla sección 1 + 4 preguntas sección 2 completas, aprobado y bloqueado en Drive Approvals. **Cierra I8 de la auditoría #01.** |
+
+## C19 — Procesos medidos (2 procesos)
+
+| # | Proceso | Dónde vive | Veredicto |
+|---|---|---|---|
+| 1 | Script de generación de altas/bajas en AD | Drive (`AIFluency_Patrick_C19_script_GenerarAltasBajasAD`) · `01_Evidencia_Champions/C19_medicion_antes_despues/Patrick/` | ✅ Aprobado 24/07 |
+| 2 | Reportería mensual de workspace | Drive (`AIFluency_Patrick_C19_Reporteria_mensual_workspace`) · carpeta canónica | ✅ Aprobado 24/07 — **C19 cierra 3/3** |
+
+## C20 — Perfil de área Infraestructura
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`AIFluency_Patrick_C20_PerfilInfraestructura`) · `01_Evidencia_Champions/C20_perfiles_area/` |
+| Veredicto | ✅ **Aprobado 24/07** por Douglas — Operador de Infraestructura. **C20 cierra 3/3.** |
+
+## C21 — Skill propio (S3, versionado en Git)
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`AIFluency_Patrick_C21_Skillcustom-netmon` + `SKILL.md`) · carpeta canónica `01_Evidencia_Champions/C21_skill_propio/Patrick/` |
+| Skill | `custom-netmon-dashboard` — monitoreo ligero de servidores/switches (ICMP/ping, alertas por correo, dashboard web con autenticación, 0 dependencias externas) |
+| Entregado | 2026-07-29 |
+| Versionado | github.com/peorellanaa/repo001 · commit `903a34e` |
+| Veredicto | ✅ **Aprobado 07/08** por Douglas (Drive Approvals) — **C21 cierra 3/3 y Fase 1 completa** |
 
 ---
 
@@ -83,10 +115,15 @@ En la reunión de las 14:00, Patrick presentó evidencia adicional (plantilla de
 | Evidencia S1 revisada | ✅ |
 | Nivel autorreportado coincide con evidencia | ✅ |
 | Sin bloqueos abiertos | ✅ |
+| C15/S2 (mini-reporte) | ✅ — aprobado por Douglas en Drive (24/07 ~15:11) |
+| C18 (esquema Workspace) | ✅ — Conforme, aprobado 24/07 |
+| C19 (2 procesos medidos) | ✅ 2/2 — aprobados 24/07 |
+| C20 (perfil de área Infraestructura) | ✅ — aprobado por Douglas (24/07) |
+| C21 (Skill propio versionado) | ✅ — aprobado por Douglas en Drive (07/08) |
 
 **Firma Douglas:** ✅
-**Fecha de última revisión:** 2026-07-10 (reunión de seguimiento, Sesión 18)
+**Fecha de última revisión:** 2026-08-07 — S2/C18/C19/C20/C21 cerrados y Fase 1 completa
 
 ---
 
-*Creado: 2026-07-10 · Compromiso C16 · Piloto AI Fluency UJMD*
+*Creado: 2026-07-10 · Compromiso C16 · Actualizado 2026-08-07 con cierres S2/C18/C19/C20/C21 (Fase 1 completa) · Piloto AI Fluency UJMD*

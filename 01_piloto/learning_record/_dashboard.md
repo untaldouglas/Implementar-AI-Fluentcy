@@ -48,13 +48,41 @@
 
 ## Mini-reportes S2 (Productividad personal con IA)
 
-> ✅ Fecha redefinida (13/07): mini-reportes de S2 vencen ahora el **viernes 17/07** (reunión de seguimiento), no el 14/07 original. Bloqueo resuelto en `ESTADO_PROYECTO.md`.
+> ✅ CERRADOS 3/3 (24/07): Mario ✅ · Irvin ✅ · Patrick ✅ — todos verificados contra aprobación nativa de Drive.
 
 | Champion | Recibido | Fecha |
 |---|---|---|
-| Irvin Morales | ⬜ | _(vence 17/07)_ |
-| Mario Valencia | ⬜ | _(vence 17/07)_ |
-| Patrick Orellana | ⬜ | _(vence 17/07)_ |
+| Irvin Morales | ✅ | 2026-07-22 (aprobado 24/07 ~14:59) |
+| Mario Valencia | ✅ | 2026-07-22 (aprobado 24/07) |
+| Patrick Orellana | ✅ | 2026-07-24 (aprobado 24/07 ~15:11) |
+
+---
+
+## C19 — Procesos medidos (2 por Champion)
+
+| Champion | Proceso 1 | Proceso 2 | Veredicto |
+|---|---|---|---|
+| Irvin Morales | Instalación de Software Remoto | 2º proceso (27/07) | ✅ 2/2 — C19 cierra 3/3 (27/07) |
+| Mario Valencia | Refactor de código (Graduados) | Tablero Metabase | ✅ 2/2 — aprobados 24/07 |
+| Patrick Orellana | Altas/bajas en AD | Reportería mensual workspace | ✅ 2/2 — aprobados 24/07 |
+
+## C20 — Perfiles de área
+
+| Champion | Perfil | Veredicto |
+|---|---|---|
+| Irvin Morales | Soporte | ✅ Aprobado 27/07 |
+| Mario Valencia | Desarrollo (Analista Programador + IA) | ✅ Aprobado 24/07 |
+| Patrick Orellana | Infraestructura (Operador) | ✅ Aprobado 24/07 |
+
+## C21 — Skill propio (S3)
+
+| Champion | Skill | Versionado | Veredicto |
+|---|---|---|---|
+| Irvin Morales | `diagnostico-baterias-laptops` | repo Git local (`76403e5`+`2cc18f4`) | ✅ Aprobado 07/08 |
+| Mario Valencia | `refactor-csharp-4` | github.com/mariovalencia/AIFluent (`e09c9f2e`) | ✅ Aprobado 07/08 |
+| Patrick Orellana | `custom-netmon-dashboard` | github.com/peorellanaa/repo001 (`903a34e`) | ✅ Aprobado 07/08 |
+
+**Fase 1 COMPLETA** — C14–C21 cerrados 3/3 con aprobación nativa de Drive. Licencia Básica 3/3 formalizable; Licencia Profesional a un paso (SOUL propio + veredicto).
 
 ---
 

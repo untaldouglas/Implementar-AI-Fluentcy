@@ -132,7 +132,11 @@ Igual que manejar un vehículo, operar con IA no es una habilidad binaria — se
 | Nombre | Licencia | Nivel MCA | Fecha | Instructor |
 |---|---|---|---|---|
 | @untaldouglas | 🏆 Instructor | L8 | 26 jun 2026 | (fundador del sistema) |
-| | | | | |
+| Patrick E. Orellana (Infraestructura) | 🟢 Licencia Básica | L2–L3 | 07 ago 2026 | Douglas A. Galindo |
+| Mario E. Valencia (Desarrollo) | 🟢 Licencia Básica | L2–L3 | 07 ago 2026 | Douglas A. Galindo |
+| Irvin J. Morales (Soporte) | 🟢 Licencia Básica | L2–L3 | 07 ago 2026 | Douglas A. Galindo |
+
+> Registro del piloto (07/08/2026): actas de Licencia Básica emitidas el 17/07 condicionadas a evidencia C19; condición cumplida y validada con aprobación nativa de Drive (C19 3/3 el 27/07 + C21 3/3 el 31/07). Licencia Profesional pendiente: SOUL.md propio activo y veredicto formal del Director.
 
 ---
 

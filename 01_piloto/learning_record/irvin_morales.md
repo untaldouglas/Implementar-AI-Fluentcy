@@ -91,18 +91,29 @@ Irvin entregó un documento nuevo en Drive (`Sesion practica de los prompt de la
 | Veredicto | ✅ **Aprobado 27/07** por Douglas. **C20 cierra 3/3.** |
 | Insumo habilita | Estandarizar `01_piloto/SOUL_plantillas/SOUL_Soporte.md` y la sección Soporte del playbook (`02_playbook/`) |
 
+## C21 — Skill propio (S3, versionado en Git)
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`AIFluency_IrvinMorales_C21_SkillDiagnosticoBaterias.md` + `SKILL.md`) · carpeta canónica `01_Evidencia_Champions/C21_skill_propio/Irvin/` |
+| Skill | `diagnostico-baterias-laptops` — diagnóstico remoto de baterías de laptops administrativas vía WinRM (`powercfg /batteryreport`), fórmula de salud documentada y clasificación ≥80/60–79/40–59/<40 |
+| Entregado | 2026-07-31 |
+| Versionado | Repo Git local de evidencia · commits `76403e5` (skill creado) + `2cc18f4` (rúbrica actualizada) |
+| Veredicto | ✅ **Aprobado 07/08** por Douglas (Drive Approvals) — **C21 cierra 3/3 y Fase 1 completa** |
+
 ## Verificación Director
 
 | Criterio | Estado |
-|---|---|---|
+|---|---|
 | Evidencia S1 revisada | ✅ (revisión de documento real: tarde 1ª versión incompleta, noche 2ª versión completa — 10/07) |
 | Nivel autorreportado coincide con evidencia | ✅ — autorreporta L1 con justificación; consistente con la evidencia (Mario y Patrick autorreportaron L1.5) |
 | Sin bloqueos abiertos | ✅ — documento completado; queda solo coaching de metodología de entrega para S2 |
 | C15/S2 (mini-reporte) | ✅ — aprobado por Douglas en Drive (24/07 ~14:59) |
 | C19 (2 procesos medidos) | ✅ 2/2 — aprobado 24/07 (1º) y 27/07 (2º) |
 | C20 (perfil de área Soporte) | ✅ — aprobado por Douglas (27/07) |
+| C21 (Skill propio versionado) | ✅ — aprobado por Douglas en Drive (07/08) |
 
 **Firma Douglas:** ✅ 2026-07-10 (noche) — S1 resuelto tras revisión asistida del documento real
-**Fecha de última revisión:** 2026-07-27 (mañana) — C15/S2, C19 (2/2) y C20 cerrados y aprobados en Drive
+**Fecha de última revisión:** 2026-08-07 — C21/S3 cerrado y Fase 1 completa
 
-*Creado: 2026-07-10 · Compromiso C16 · Actualizado 2026-07-27 con cierres C15/C19/C20 · Piloto AI Fluency UJMD*
+*Creado: 2026-07-10 · Compromiso C16 · Actualizado 2026-08-07 con cierre C21 (Fase 1 completa) · Piloto AI Fluency UJMD*

@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-07-27 (mañana) · Sesión 24 — cierre 3/3 de C19 y C20: Irvin entregó 2º proceso C19 + perfil C20, validados y aprobados por Douglas en Drive; S3/C21 ya en marcha (ventana comprimida, vence mié 29/07 17:00) |
+| Última actualización | 2026-08-07 (mañana) · Sesión 25 — reintegro post-vacaciones (ausencia 30/07–06/08): **C21 cerrado 3/3** (Mario 29/07, Patrick 29/07, Irvin 31/07, validados con Drive Approvals) → **Fase 1 completa** · Licencia Básica 3/3 con condición cumplida · Licencia Profesional a un paso (pendiente SOUL propio) · auditoría de cierre de F1 pendiente |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-07-27 |
-| Días desde inicio | 27 días |
-| Fase actual | **FASE 1 — Piloto Champions** 🟢 EN CURSO — pivote de validación cerrado 3/3 ✅, S3/Construcción de Skills en marcha (C21, ventana comprimida 27–29/07) |
-| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · S3 en curso (C21 — Skill propio, vence mié 29/07 17:00) |
-| Mes de proyecto | M1 |
-| Próximo hito | Cierre C21 mié 29/07 17:00 · Auditoría #04 mié 29/07 · Demo Day pendiente de fecha (31/07 cae en día no laborable por vacaciones nacionales) |
-| Días hasta próximo hito | 2 |
+| Hoy (última actualización) | 2026-08-07 |
+| Días desde inicio | 38 días |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C21 3/3 con evidencia real aprobada) · F2 (Expansión al equipo) pendiente de decisión de arranque |
+| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** |
+| Mes de proyecto | M2 |
+| Próximo hito | Auditoría de cierre de F1 (con evidencia completa C18–C21) · Demo Day sin fecha · Arranque de F2 sin decisión |
+| Días hasta próximo hito | sin fecha definida |
 
 ### Calendario de fases
 
@@ -51,10 +51,10 @@
 
 ## 📍 FASE ACTUAL — FASE 1: Piloto Champions
 
-**Estado:** 🟡 EN CURSO — reactivada en Sesión 18 (10/07); S1 cerrada 3/3 ✅, S2 arranca lunes 13/07  
-**Ventana:** 2026-07-01 → 2026-07-31  
-**Objetivo:** Activar a los 4 Champions, establecer rutinas de uso de IA, completar diagnóstico baseline e itinerarios personalizados.
-**Progreso global:** ~33% estimado al 10/07 noche (base: S1 verificada 3/3 con documento real, Sesión 18 ejecutada con 4 decisiones y 3 compromisos nuevos, S2 lista para arrancar el lunes 13/07; era ~19% al 07/07)
+**Estado:** ✅ **CERRADA** — Sesión 25 (07/08): S1, S2 y S3 completas; C14–C21 cerrados 3/3 con evidencia real y aprobación nativa de Drive.  
+**Ventana:** 2026-07-01 → 2026-07-31 (entregas finales recibidas hasta el 31/07)  
+**Objetivo:** cumplido — Champions activados, rutinas de uso de IA establecidas, diagnóstico baseline aplicado e itinerarios definidos, 7 compromisos cerrados 3/3.  
+**Progreso global:** 100% de compromisos de Fase 1 completados (C14, C15, C16, C17, C18, C19, C20, C21).
 
 > **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
 > ✅ **S1 (Fundamentos y nivelación): CERRADA 3/3.** Mario y Patrick verificados con documento real revisado (10/07). Irvin, revertido a pendiente en la tarde, entregó segunda versión la misma noche — verificada contra documento real: caso ancla + reflexión completos. **S2 (Productividad personal) arranca lunes 13/07.** Mini-reportes de S2: **redefinidos a viernes 17/07** (13/07 — la fecha original 14/07 caía al día siguiente del arranque).
@@ -142,7 +142,13 @@
 
 | # | Compromiso | Fecha límite | Estado | Notas |
 |---|---|---|---|---|
-| C21 | S3 — Cada Champion construye 1 Skill propio (SKILL.md), real, probado 3 veces hasta error cero, y versionado en el repositorio del equipo | 2026-07-29 17:00 (sin prórroga — jue 30 y vie 31 son vacaciones nacionales, ventana comprimida de 5 a 3 días) | 🟡 **ANUNCIADO** — correo enviado a los 3 Champions | Es también el requisito de Skill versionado que falta para optar a Licencia Profesional 🔵 (`00_marco/Licencia_Conduccion_AI.md`, sección 3), junto con llegar a 3 casos de uso documentados (hoy tienen 2 vía C19). Guía formativa con plan de 3 días y candidato de Skill sugerido por área: `04_herramientas/agendas/2026-07-27_s3_construccion_skills.md`. Entrega: plantilla `_PLANTILLA_C21_Skill_Propio` → `01_Evidencia_Champions/C21_skill_propio/`. **Auditoría #04 reprogramada al miércoles 29/07** (mismo día que este cierre, decisión de Douglas). **Demo Day sigue pendiente de fecha.** Correo enviado por Douglas a los 3 Champions (`ijmoralespa@`, `mevalenciac@`, `peorellanaa@ujmd.edu.sv`) — pendiente de que arranquen. |
+| C21 | S3 — Cada Champion construye 1 Skill propio (SKILL.md), real, probado 3 veces hasta error cero, y versionado en Git | 2026-07-29 17:00 → entregas 29–31/07 | ✅ **COMPLETADO 3/3** (validado 07/08 contra Drive Approvals) | **Mario ✅** `refactor-csharp-4` (refactor legacy C# 4.0, entregado 29/07, commit `e09c9f2e`, github.com/mariovalencia/AIFluent). **Patrick ✅** `custom-netmon-dashboard` (monitoreo servidores/switches, 29/07, commit `903a34e`, github.com/peorellanaa/repo001). **Irvin ✅** `diagnostico-baterias-laptops` (diagnóstico remoto de baterías vía WinRM, 31/07, commits `76403e5`+`2cc18f4`, repo Git local). Los 3 cumplen la rúbrica: proceso real, 3 iteraciones documentadas, intento 3 sin error, pitfalls reales, exclusión de datos sensibles. **Cierra S3 y la Fase 1 completa.** Habilita el requisito de Skill versionado para Licencia Profesional 🔵 (pendiente: SOUL propio + veredicto). Nota honesta: ninguno versionó en un repo *compartido del equipo* (requisito de Licencia Avanzada L6–L7, no de Profesional) — consolidar los 3 Skills en el repo del equipo queda como acción. Entrega: plantilla `_PLANTILLA_C21_Skill_Propio` → `01_Evidencia_Champions/C21_skill_propio/<Nombre>/`. |
+
+### Compromisos Agosto (post-F1) — anunciados en Sesión 25 (07/08)
+
+| # | Compromiso | Fecha límite | Estado | Notas |
+|---|---|---|---|---|
+| C22 | Cada Champion sin SOUL propio entrega su **SOUL.md propio** (configurado y activo) **derivado de su perfil C20 ya aprobado** + plantilla oficial de su área, probado en ≥1 interacción real con Hermes y aprobado en Drive | viernes 14/08/2026 17:00 (comunicada en el correo) | 🟡 **ANUNCIADO** — correo ENVIADO por Douglas (07/08 12:29) | Aplica a **Mario** (Desarrollo) e **Irvin** (Soporte); Patrick ya tiene SOUL propio verificado (10/07). **Decisión 07/08:** C22 NO re-crea el perfil — el C20 aprobado es la base de contenido y C22 solo convierte ese perfil en configuración de agente (disparadores de rol, protocolo de datos, skills) + demuestra activación real. Es el último requisito de Licencia Profesional 🔵 que les falta (sección 3 de `00_marco/Licencia_Conduccion_AI.md`). Entrega: plantilla `_PLANTILLA_C22_SOUL_Propio` → `01_Evidencia_Champions/C22_soul_propio/<Nombre>/`. Plantilla creada y ajustada 07/08 en Drive (regla §4.5). |
 
 ---
 
@@ -150,16 +156,15 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 27/07 mañana
-1. **[Único activo]** S3/C21 en marcha: cada Champion construye 1 Skill propio — guía formativa `04_herramientas/agendas/2026-07-27_s3_construccion_skills.md`, vence **miércoles 29/07 17:00** (sin prórroga). Monitoreo automatizado vía 3 rutinas cloud (lun/mar/mié 08:00 CST, IDs `trig_01YHVZX3RjoBFCv4kRotVF5U` · `trig_01YEBWSYEU5xgF1wzLAGPsns` · `trig_017QkyHPZdPgEodebBqkokrE`).
-2. **[27/07]** Auditoría #04 — miércoles 29/07 (mismo día del cierre C21). Demo Day pendiente de fecha (31/07 ya no es laborable por vacaciones nacionales).
-3. **[Completado 27/07]** **C19 → COMPLETADO 3/3** — Irvin entregó 2º proceso, validado y aprobado por Douglas en Drive. H8 de la auditoría #01 cerrada.
-4. **[Completado 27/07]** **C20 → COMPLETADO 3/3** — Irvin entregó perfil de área Soporte, aprobado por Douglas en Drive. Insumo disponible para estandarizar SOUL.md de Soporte y el playbook.
-5. **[Completado 24/07 ~15:11]** Mini-reporte S2 de **Patrick** verificado: solicitó aprobación a Douglas (3:09 PM), Douglas aprobó de inmediato. **C15/S2 cierra 3/3** (Mario ✅ Irvin ✅ Patrick ✅).
-6. **[Completado 24/07 ~14:59]** Mini-reporte S2 de **Irvin** verificado: aprobación nativa completa en Drive (Versión 1, 22/07).
-7. **[Completado 24/07 ~11:10]** Validación de evidencia de Champions: C18 100% (Patrick), C19 y C20 en 2/3 (Patrick ✅ Mario ✅). 8 de 9 documentos con aprobación nativa completa en Drive. Detalle en la Sesión 23 del log y en Drive `00_Gobernanza/Registro_Validacion_Champions_2026-07-24_v4_CORREGIDO_final`.
-8. **[Completado 24/07 ~14:42]** Sello nativo de Drive Approvals completado en el documento de Irvin de C19 (era el único de los 9 sin ese sello).
-9. **[Completado 20/07]** Falsa alarma de stall (14-19/07) resuelta por desincronización de repo local — `git pull` confirmó que Auditoría #02, C17 y la reunión/pivote del 17/07 sí se ejecutaron y están en `origin/main`.
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 07/08 mañana
+1. **[Completado 07/08]** **C21 → COMPLETADO 3/3** — Mario (29/07), Patrick (29/07) e Irvin (31/07) entregaron su Skill propio, validado por Douglas con Drive Approvals. **Fase 1 cerrada**: C14–C21 3/3 con evidencia real.
+2. **[Certificación]** **Licencia Básica 3/3 ACTIVADA** — condición cumplida y actas activadas con addendum (07/08) en Drive; registro hecho en `00_marco/Licencia_Conduccion_AI.md`. Pendiente: firma del Champion (Demo Day). **Licencia Profesional**: falta SOUL.md propio activo de Irvin/Mario + veredicto formal de Douglas (Patrick ya cumple los criterios).
+3. **[Auditoría]** **Nueva auditoría de cierre de F1** con el set de evidencia completo (C18–C21) — decisión de Douglas (07/08): la #04 del 29/07 quedó sin registro de ejecución; se audita lo realmente entregado en lugar de reconstruir.
+4. **[Enviado 07/08 12:29]** **C22 — SOUL.md propio (Mario e Irvin)**: correo enviado por Douglas con instrucciones (derivado de su C20 + plantilla del área + 1 interacción real probada, vence **vie 14/08 17:00**). Plantilla `_PLANTILLA_C22_SOUL_Propio` en Drive (`01_Evidencia_Champions/C22_soul_propio/`). Último requisito de Licencia Profesional para ambos. Monitorear entregas la próxima semana.
+5. **[Pendiente Douglas]** Demo Day sin fecha (carga operativa por regreso de vacaciones + inicio de clases 2-2026) · Arranque de F2 sin decisión.
+6. **[Completado 27/07]** **C19 → COMPLETADO 3/3** — Irvin entregó 2º proceso, validado y aprobado por Douglas en Drive. H8 de la auditoría #01 cerrada.
+7. **[Completado 27/07]** **C20 → COMPLETADO 3/3** — Irvin entregó perfil de área Soporte, aprobado por Douglas en Drive. Insumo disponible para estandarizar SOUL.md de Soporte y el playbook.
+8. **[Completado 24/07]** C15/S2 cierra 3/3 (Mario ✅ Irvin ✅ Patrick ✅) · C18 completo (Patrick) · sello nativo de Drive Approvals completado en los 9 documentos.
 
 ---
 
@@ -176,9 +181,10 @@
 
 | Bloqueo | Impacto | Mitigación |
 |---|---|---|
-| _(ninguno activo al 27/07)_ | — | — |
+| Demo Day y arranque de F2 sin fecha decidida (Douglas: alta carga operativa por regreso de vacaciones + inicio de clases 2-2026) | Riesgo de dilación del cierre formal de F1 y de la demostración pública del piloto | No bloqueante para certificaciones: Licencia Básica 3/3 y C21 ya cerrados; F2 puede arrancar con decisión de Douglas cuando su agenda lo permita |
 
 **Resueltos:**
+| C21 sin evidencia de arranque al 27/07 | ✅ 07/08 — los 3 Champions entregaron su Skill propio (29–31/07) y Douglas los validó con Drive Approvals; S3 y Fase 1 cerradas |
 | Irvin no cierra C19 (2º proceso) ni C20 | ✅ 27/07 — Irvin entregó ambos y fueron aprobados por Douglas en Drive (verificación contra Drive Approvals). H8 auditoría #01 cerrada. |
 
 | Bloqueo | Resolución |
@@ -200,6 +206,8 @@
 
 | Fecha | Decisión | Contexto |
 |---|---|---|
+| 2026-08-07 | **Auditoría de cierre de F1 con el set de evidencia completo (C18–C21)**, en lugar de reconstruir la #04 del 29/07 | Douglas no recuerda si la #04 se ejecutó y no hay registro de ella; con C18–C21 cerrados 3/3 con aprobaciones de Drive, el momento correcto para auditar es ahora, contra lo realmente entregado (misma lente/formato de auditorías #01–#03). |
+| 2026-08-07 | **Licencia Básica: condición C19 cumplida 3/3** | Las actas del 17/07 quedaron condicionadas a evidencia C19; C19 (27/07) y C21 (31/07) validados → las 3 actas quedan formalizables y los Champions registrables en `00_marco/Licencia_Conduccion_AI.md`. Licencia Profesional queda pendiente de SOUL propio y veredicto del Director. |
 | 2026-06-26 | Identidad visual: **Velocidad Digital** | Navy + cian eléctrico. |
 | 2026-06-26 | Herramienta: **Hermes Agent** | Orquestador universal. |
 | 2026-07-02 | Cadencia semanal acordada | Mié 14-16h (Colaborativa), Vie 14-15h (Seguimiento). |
@@ -230,6 +238,89 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-07 | SESIÓN 25 (cont.) — C22 ANUNCIADO: CORREO ENVIADO A MARIO E IRVIN (Douglas, ~12:29)
+
+  CONTEXTO: Douglas aprobó el enfoque conceptual de C22 (cuestionó el traslape con
+  C20 — correcto: el perfil de área C20 aprobado es la base de contenido; C22 solo
+  convierte ese perfil en configuración de agente activa). Plantilla y correo
+  ajustados en consecuencia y Douglas envió el correo a los Champions.
+
+  HECHO:
+  ✓ Plantilla `_PLANTILLA_C22_SOUL_Propio` creada y ajustada en Drive
+    (carpeta nueva `01_Evidencia_Champions/C22_soul_propio/`) — sección 2
+    reformulada: "se construye a partir de TU PERFIL DE ÁREA C20 ya aprobado
+    (no se re-redacta): conviértelo en configuración de agente".
+  ✓ C22 registrado en la tabla de compromisos (Agosto post-F1) con plantilla y
+    ubicación de entrega (regla §4.5).
+  ✓ Correo enviado por Douglas (07/08 12:29, verificado en Gmail sent) a
+    mevalenciac@ + ijmoralespa@: instrucciones paso a paso, convención de nombre
+    (AIFluency_Mario_C22_SOULDesarrollo / AIFluency_Irvin_C22_SOULSoporte),
+    carpeta de entrega, rúbrica y flujo comentador → "Aprobar" en Drive (nada de
+    PDF). Fecha límite: viernes 14/08/2026 17:00.
+
+  ESTADO ACTUALIZADO:
+  → C22 🟡 ANUNCIADO (correo enviado) · único compromiso en marcha post-F1.
+  → Próximos hitos: entregas C22 (vie 14/08) · auditoría de cierre de F1 ·
+    Demo Day (sin fecha) · arranque F2 (sin decisión).
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: monitorear entregas C22 (14/08) y ejecutar la
+  auditoría de cierre de F1 con el set de evidencia completo.
+
+2026-08-07 | SESIÓN 25 — REINTEGRO POST-VACACIONES: C21 CERRADO 3/3 Y FASE 1 COMPLETA; LICENCIA BÁSICA 3/3 FORMALIZABLE (Douglas + Hermes Agent, mañana)
+
+  CONTEXTO: Douglas regresa de vacaciones (ausente 30/07–06/08). Los Champions
+  entregaron sus pendientes a más tardar el 31/07 y cada documento fue validado
+  por Douglas con la funcionalidad "Aprobar" de Google Drive (criterio vigente
+  desde Sesión 23, 24/07). Se revisó la carpeta canónica
+  `01_Evidencia_Champions/C21_skill_propio/` (3 documentos + 2 SKILL.md) contra
+  la rúbrica C21: dueños correctos, entregas dentro de la ventana (Mario 29/07,
+  Patrick 29/07, Irvin 31/07).
+
+  CIERRES:
+  ✓ **C21 → COMPLETADO 3/3** — Skill propio probado 3 veces y versionado en Git:
+    - **Mario** ✅ `refactor-csharp-4` (refactor de código legacy C# 4.0 con
+      auditoría de seguridad/deuda/rendimiento) — commit `e09c9f2e`
+      (github.com/mariovalencia/AIFluent); sección 9 firmada (29 Julio).
+    - **Patrick** ✅ `custom-netmon-dashboard` (monitoreo ligero de
+      servidores/switches, alertas por correo, dashboard con autenticación) —
+      commit `903a34e` (github.com/peorellanaa/repo001).
+    - **Irvin** ✅ `diagnostico-baterias-laptops` (diagnóstico remoto de
+      baterías vía WinRM/powercfg, fórmula de salud documentada, 6 pitfalls
+      reales) — commits `76403e5` + `2cc18f4` (repo Git local de evidencia).
+    Los 3 cumplen la rúbrica: proceso real, 3 iteraciones documentadas con
+    corrección real entre cada una, intento 3 sin error, pitfalls reales,
+    exclusión declarada de datos sensibles. **Cierra S3 y la Fase 1 completa.**
+  ✓ **FASE 1 (Piloto Champions) → CERRADA** — C14, C15, C16, C17, C18, C19,
+    C20, C21 todos 3/3 con evidencia real y aprobación nativa de Drive.
+  ✓ **Licencia Básica (L2–L3) → CONDICIÓN CUMPLIDA 3/3** — las actas del 17/07
+    quedaron condicionadas a evidencia C19; condición cumplida y validada.
+    **07/08: las 3 actas fueron ACTIVADAS con addendum** (condición cumplida +
+    ubicación de evidencia C19 rellenada en sección 2) vía edición directa en
+    Drive (`00_Gobernanza/Actas_Licencias/`). Pendiente: firma del Champion
+    (recogida en Demo Day). Registro en `00_marco/Licencia_Conduccion_AI.md`
+    (hecho en esta sesión).
+  🔵 **Licencia Profesional (L4–L5) → A UN PASO** — Skill versionado en Git ✅
+    (C21) + 3 casos de uso (2 medibles de C19 + caso ancla S1 o caso del propio
+    Skill). Falta: SOUL.md propio activo de Irvin/Mario (Patrick ✅) y veredicto
+    formal de Douglas.
+
+  DECISIONES DE DOUGLAS (respuestas a la Sesión 25):
+  → Auditoría #04 (29/07): sin registro de ejecución — Douglas decide ejecutar
+    una **nueva auditoría de cierre de F1 con el set de evidencia completo**
+    (C18–C21) en lugar de reconstruir la del 29/07.
+  → Demo Day: sin fecha aún (alta carga por regreso de vacaciones + inicio de
+    clases 2-2026). F2: sin decisión de arranque.
+
+  ESTADO ACTUALIZADO:
+  → FASE 1 ✅ CERRADA · F2 pendiente de decisión · Demo Day pendiente de fecha.
+  → Bloqueos activos: 1 (Demo Day/F2 sin fecha) — no bloqueante para certificación.
+  → Próximos hitos: auditoría de cierre de F1 · formalización Licencias Básicas
+    3/3 · veredicto Licencia Profesional · Demo Day · arranque F2.
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: ejecutar la auditoría de cierre de F1 con el set
+  completo de evidencia (formato/lente de auditorías #01–#03) y formalizar las
+  3 actas de Licencia Básica con Douglas.
+
 2026-07-27 | SESIÓN 24 — CIERRE 3/3 DE C19 Y C20 CON IRVIN; S3/C21 EN MARCHA (Douglas + Claude Code, mañana)
 
   CONTEXTO: Douglas confirma que Irvin entregó los pendientes que arrastraba del pivote de validación
