@@ -161,10 +161,11 @@
 2. **[Certificación]** **Licencia Básica 3/3 ACTIVADA** — condición cumplida y actas activadas con addendum (07/08) en Drive; registro hecho en `00_marco/Licencia_Conduccion_AI.md`. Pendiente: firma del Champion (Demo Day). **Licencia Profesional**: falta SOUL.md propio activo de Irvin/Mario + veredicto formal de Douglas (Patrick ya cumple los criterios).
 3. **[Auditoría]** **Nueva auditoría de cierre de F1** con el set de evidencia completo (C18–C21) — decisión de Douglas (07/08): la #04 del 29/07 quedó sin registro de ejecución; se audita lo realmente entregado en lugar de reconstruir.
 4. **[Enviado 07/08 12:29]** **C22 — SOUL.md propio (Mario e Irvin)**: correo enviado por Douglas con instrucciones (derivado de su C20 + plantilla del área + 1 interacción real probada, vence **vie 14/08 17:00**). Plantilla `_PLANTILLA_C22_SOUL_Propio` en Drive (`01_Evidencia_Champions/C22_soul_propio/`). Último requisito de Licencia Profesional para ambos. Monitorear entregas la próxima semana.
-5. **[Pendiente Douglas]** Demo Day sin fecha (carga operativa por regreso de vacaciones + inicio de clases 2-2026) · Arranque de F2 sin decisión.
-6. **[Completado 27/07]** **C19 → COMPLETADO 3/3** — Irvin entregó 2º proceso, validado y aprobado por Douglas en Drive. H8 de la auditoría #01 cerrada.
-7. **[Completado 27/07]** **C20 → COMPLETADO 3/3** — Irvin entregó perfil de área Soporte, aprobado por Douglas en Drive. Insumo disponible para estandarizar SOUL.md de Soporte y el playbook.
-8. **[Completado 24/07]** C15/S2 cierra 3/3 (Mario ✅ Irvin ✅ Patrick ✅) · C18 completo (Patrick) · sello nativo de Drive Approvals completado en los 9 documentos.
+5. **[Pendiente Douglas]** Revisión de las 3 piezas de comunicación de resultados F1 creadas el 07/08 (`Email_Coordinadores_Resultados_F1.html`, `ResearchBrief_AIFluency_F1.html`, `OnePager_Rectoria_F1.html` en `03_comunicacion/`) — **se actualizarán al cierre de C22 y al terminar las acciones de la fase** (auditoría de cierre F1, Demo Day, arranque F2) antes de su uso oficial.
+6. **[Pendiente Douglas]** Demo Day sin fecha (carga operativa por regreso de vacaciones + inicio de clases 2-2026) · Arranque de F2 sin decisión.
+7. **[Completado 27/07]** **C19 → COMPLETADO 3/3** — Irvin entregó 2º proceso, validado y aprobado por Douglas en Drive. H8 de la auditoría #01 cerrada.
+8. **[Completado 27/07]** **C20 → COMPLETADO 3/3** — Irvin entregó perfil de área Soporte, aprobado por Douglas en Drive. Insumo disponible para estandarizar SOUL.md de Soporte y el playbook.
+9. **[Completado 24/07]** C15/S2 cierra 3/3 (Mario ✅ Irvin ✅ Patrick ✅) · C18 completo (Patrick) · sello nativo de Drive Approvals completado en los 9 documentos.
 
 ---
 
@@ -238,6 +239,24 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-07 | SESIÓN 25 (cont. 2) — PIEZAS DE COMUNICACIÓN DE RESULTADOS F1 CREADAS (Hermes Agent, tarde)
+
+  TRABAJO REALIZADO:
+  ✓ 3 piezas nuevas en `03_comunicacion/` (identidad Velocidad Digital, A4,
+    HTML autónomo; los originales del 29/06 quedaron SIN modificar):
+    - `Email_Coordinadores_Resultados_F1.html` — ROI del tiempo del equipo,
+      cierre con solicitud de visto bueno para F2.
+    - `ResearchBrief_AIFluency_F1.html` — piloto como estudio de caso aplicado
+      (diseño antes/después, escala MCA, 3 líneas de publicación).
+    - `OnePager_Rectoria_F1.html` — resultados + escalera de capas 0→3 +
+      solicitud de recursos para expansión.
+  ✓ Guía rápida por licencia/nivel creada: `00_marco/Guia_Aprendizaje_y_
+    Evidencia_por_Licencia.md` (para facilitadores e interesados).
+
+  PENDIENTE (decisión Douglas): revisar las 3 piezas; se actualizarán al
+  cierre de C22 y al terminar las acciones de la fase (auditoría de cierre F1,
+  Demo Day, arranque F2) antes de uso oficial. Registrado en TOP AHORA #5.
+
 2026-08-07 | SESIÓN 25 (cont.) — C22 ANUNCIADO: CORREO ENVIADO A MARIO E IRVIN (Douglas, ~12:29)
 
   CONTEXTO: Douglas aprobó el enfoque conceptual de C22 (cuestionó el traslape con
