@@ -241,6 +241,25 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-10 | SESIÓN 25 (cont. 9) — PIEZAS DE COMUNICACIÓN _F1 ACTUALIZADAS AL CIERRE DE FASE (Hermes Agent)
+
+  TRABAJO REALIZADO (revisión de integridad de las 3 piezas _F1 en
+  03_comunicacion/, creadas el 07/08):
+  ✓ `Email_Coordinadores_Resultados_F1.html` — 22 compromisos (C1–C22),
+    card "Certificaciones en curso" (Básica activada + Profesional 13/08),
+    píldora "Profesional 13/08" por Champion en la tabla.
+  ✓ `ResearchBrief_AIFluency_F1.html` — "todos los criterios de Licencia
+    Profesional cumplidos (SOUL + Skill + 3 casos) — certificación formal
+    13/08/2026" · 22 compromisos · card SOUL.md propios activos (C22) ·
+    fila C22 en la tabla de artefactos · fila Certificación actualizada.
+  ✓ `OnePager_Rectoria_F1.html` — 22/22 compromisos · Básica activada +
+    criterios Profesionales cumplidos · card SOUL.md propios (C22).
+
+  NOTA: las 3 piezas quedan vigentes como "resultados F1" con el estado
+  real al 10/08; la actualización final (firma de actas y veredicto
+  Profesional confirmado) se hará después de la sesión del 13/08, según
+  lo registrado en TOP AHORA #5.
+
 2026-08-10 | SESIÓN 25 (cont. 8) — INVITACIÓN ENVIADA + AGENDA CREADA + ACTAS IMPRESAS PARA FIRMA (Douglas, 10:29)
 
   CONFIRMADO POR DOUGLAS:
