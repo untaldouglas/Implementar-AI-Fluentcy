@@ -34,8 +34,8 @@
 | Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C21 3/3 con evidencia real aprobada) · F2 (Expansión al equipo) pendiente de decisión de arranque |
 | Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** |
 | Mes de proyecto | M2 |
-| Próximo hito | Auditoría de cierre de F1 (con evidencia completa C18–C21) · Demo Day sin fecha · Arranque de F2 sin decisión |
-| Días hasta próximo hito | sin fecha definida |
+| Próximo hito | **Demo Day + Certificación de Licencia Profesional 🔵 — jueves 13/08/2026, 14:00–15:45** (sala DSI, grabación Meet, coordinadores invitados) · F2 sin decisión |
+| Días hasta próximo hito | 6 (al 13/08) |
 
 ### Calendario de fases
 
@@ -158,7 +158,7 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 07/08 mañana
 1. **[Completado 07/08]** **C21 → COMPLETADO 3/3** — Mario (29/07), Patrick (29/07) e Irvin (31/07) entregaron su Skill propio, validado por Douglas con Drive Approvals. **Fase 1 cerrada**: C14–C21 3/3 con evidencia real.
-2. **[Certificación]** **Licencia Básica 3/3 ACTIVADA** — condición cumplida y actas activadas con addendum (07/08) en Drive; registro hecho en `00_marco/Licencia_Conduccion_AI.md`. Pendiente: firma del Champion (Demo Day). **Licencia Profesional: los 3 Champions ya cumplen todos los criterios** (SOUL propio ✅ C22 · Skill versionado ✅ C21 · 3 casos de uso ✅ C19+S1) — pendiente el **veredicto formal de Douglas** y emisión de actas.
+2. **[Certificación — R21]** **Sesión ÚNICA: Demo Day + Certificación de Licencia Profesional 🔵** — **jueves 13/08/2026, 14:00–15:45**, Sala de reuniones de la Dirección de Informática, grabación en Google Meet, con coordinadores de área invitados. **Invitación ENVIADA (10/08 10:29, verificado en Gmail sent)** · agenda de calendario creada · actas impresas para firma. Agenda: `04_herramientas/agendas/agenda_sesion_certificacion_licencia_profesional.md` · 3 actas de Profesional en Drive (`00_Gobernanza/Actas_Licencias/`). Pendiente: Meet con grabación + ejecutar la sesión.
 3. **[Ejecutada 07/08]** **Auditoría de cierre de F1** (`04_herramientas/auditorias/2026-08-07_auditoria_cierre_f1.md`): set completo C14–C22, 12 inconsistencias + 12 hallazgos en tabla acumulada, R18–R22. **Pendiente ejecutar:** R18 (checklist de instalación en las 3 estaciones) y R19 (verificar repos Git) **antes del veredicto de Licencia Profesional** · R20 (consolidar Skills en repo del equipo) · R21 (veredicto formal) · R22 (recomendaciones estructurales).
 4. **[Completado 07/08]** **C22 → COMPLETADO 3/3** — los 3 Champions entregaron su SOUL.md propio (Mario, Irvin y Patrick), validado con Drive Approvals. **Último requisito de Licencia Profesional cumplido por los 3** — pendiente veredicto formal.
 5. **[Pendiente Douglas]** Revisión de las 3 piezas de comunicación de resultados F1 creadas el 07/08 (`Email_Coordinadores_Resultados_F1.html`, `ResearchBrief_AIFluency_F1.html`, `OnePager_Rectoria_F1.html` en `03_comunicacion/`) — **se actualizarán al terminar las acciones de la fase** (auditoría de cierre F1, Demo Day, arranque F2, veredicto Profesional) antes de su uso oficial.
@@ -241,6 +241,66 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-10 | SESIÓN 25 (cont. 8) — INVITACIÓN ENVIADA + AGENDA CREADA + ACTAS IMPRESAS PARA FIRMA (Douglas, 10:29)
+
+  CONFIRMADO POR DOUGLAS:
+  ✓ Invitación de Demo Day + Certificación enviada a los 3 Champions
+    (10/08 10:29, verificado en Gmail sent) — fecha 13/08 14:00–15:45,
+    sala DSI, grabación Meet, "llegar preparados".
+  ✓ Agenda de calendario creada para el 13/08.
+  ✓ Actas de Licencia Profesional mandadas a imprimir para la firma
+    en la sesión (las 3: Patrick, Mario, Irvin).
+
+  PENDIENTE PARA LA SESIÓN (13/08):
+  → Crear/compartir Google Meet con grabación activada.
+  → Ejecutar la sesión: Demo Day (3 demos + rúbrica R21) → firma de
+    actas → registro en vivo (tabla de conductores, learning records,
+    dashboard) → cierre de fase (retrospectiva, transferencia F2,
+    co-facilitador rotativo).
+
+2026-08-07 | SESIÓN 25 (cont. 7) — DEMO DAY + CERTIFICACIÓN FUSIONADOS EN UNA SESIÓN: 13/08 14:00–15:45 (Douglas)
+
+  DECISIÓN DE DOUGLAS: el Demo Day de cierre de F1 (S4 del Roadmap) y la
+  Certificación de Licencia Profesional (R21) se fusionan en UNA sola sesión —
+  la demostración del Demo Day ES la verificación del criterio "explica su
+  flujo". Fecha fijada: jueves 13/08/2026, 14:00–15:45, sala de reuniones de
+  la Dirección de Informática, grabación en Google Meet, con los coordinadores
+  de área invitados como audiencia (visto bueno de F2 con evidencia en vivo).
+
+  ACTUALIZADO:
+  ✓ Agenda fusionada: `04_herramientas/agendas/agenda_sesion_certificacion_
+    licencia_profesional.md` — cronograma 14:00–15:45 con bloques A (Demo Day
+    60 min, 3 demos de ~20 min + rúbrica en vivo), B (firma de 3 actas), C
+    (registro en vivo), D (cierre de fase) · checklist de preparación (llegar
+    preparados, Meet con grabación, sala DSI).
+  ✓ Correo de invitación v2 en borrador Gmail (ID `r-4090594943157064050`):
+    fecha, hora, sala, grabación, "llegar preparados" (Skill listo con 2–3
+    casos de prueba, evidencia C19, SOUL, limitaciones). El borrador anterior
+    (r-4265051776713710769) ya no existía en Gmail.
+  ✓ ESTADO_PROYECTO.md: TOP AHORA #2 + próximo hito 13/08 (6 días).
+
+  PENDIENTE DE DOUGLAS: revisar/enviar invitación + crear Google Meet con
+  grabación + confirmar asistencia de coordinadores.
+
+2026-08-07 | SESIÓN 25 (cont. 6) — CERTIFICACIÓN PROFESIONAL PREPARADA: 3 ACTAS EN BORRADOR + AGENDA + INVITACIÓN (Hermes Agent, tarde)
+
+  TRABAJO REALIZADO (cierra la preparación de R21):
+  ✓ Agenda de sesión de certificación (90 min en 1 sesión):
+    `04_herramientas/agendas/agenda_sesion_certificacion_licencia_profesional.md`
+    — Fase 1 verificación de flujo (3 preguntas + rúbrica en vivo) · Fase 2
+    firma de actas con guion del logro · Fase 3 registro en vivo · matriz de
+    recursos/productos.
+  ✓ 3 actas de Licencia Profesional 🔵 en BORRADOR en Drive
+    (`00_Gobernanza/Actas_Licencias/`): Patrick (Infraestructura), Mario
+    (Desarrollo), Irvin (Soporte) — evidencias C19/C21/C22/S1 citadas,
+    sección 5 (firmas) en blanco para la sesión.
+  ✓ Correo de invitación a los 3 Champions en BORRADOR en Gmail (ID
+    `r-4265051776713710769`): qué es la Licencia Profesional, qué harán en
+    la sesión, qué traer. Fecha por confirmar por Douglas.
+
+  PENDIENTE DE DOUGLAS: fijar fecha de la sesión + enviar invitación +
+  ejecutar la sesión (verificar criterio, firmar actas, registrar tabla).
+
 2026-08-07 | SESIÓN 25 (cont. 5) — RECOMENDACIONES DE LA AUDITORÍA DE CIERRE LIQUIDADAS (Douglas + Hermes Agent, tarde)
 
   CONFIRMADO POR DOUGLAS:
