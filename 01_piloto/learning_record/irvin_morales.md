@@ -101,6 +101,15 @@ Irvin entregó un documento nuevo en Drive (`Sesion practica de los prompt de la
 | Versionado | Repo Git local de evidencia · commits `76403e5` (skill creado) + `2cc18f4` (rúbrica actualizada) |
 | Veredicto | ✅ **Aprobado 07/08** por Douglas (Drive Approvals) — **C21 cierra 3/3 y Fase 1 completa** |
 
+## C22 — SOUL.md propio (C20 → configuración de agente)
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`01_Evidencia_Champions/C22_soul_propio/`) · plantilla `_PLANTILLA_C22_SOUL_Propio` |
+| SOUL entregado | SOUL de Soporte — derivado de su C20 (perfil Soporte) |
+| Entregado | 2026-08-07 |
+| Veredicto | ✅ **Aprobado 07/08** por Douglas (Drive Approvals) — **C22 cierra 3/3** · con C21/C19/S1, **todos los criterios de Licencia Profesional cumplidos** (pendiente veredicto formal) |
+
 ## Verificación Director
 
 | Criterio | Estado |
@@ -112,8 +121,9 @@ Irvin entregó un documento nuevo en Drive (`Sesion practica de los prompt de la
 | C19 (2 procesos medidos) | ✅ 2/2 — aprobado 24/07 (1º) y 27/07 (2º) |
 | C20 (perfil de área Soporte) | ✅ — aprobado por Douglas (27/07) |
 | C21 (Skill propio versionado) | ✅ — aprobado por Douglas en Drive (07/08) |
+| C22 (SOUL.md propio activo) | ✅ — aprobado por Douglas en Drive (07/08) |
 
 **Firma Douglas:** ✅ 2026-07-10 (noche) — S1 resuelto tras revisión asistida del documento real
-**Fecha de última revisión:** 2026-08-07 — C21/S3 cerrado y Fase 1 completa
+**Fecha de última revisión:** 2026-08-07 — C15–C22 cerrados · criterios de Licencia Profesional cumplidos (pendiente veredicto formal)
 
 *Creado: 2026-07-10 · Compromiso C16 · Actualizado 2026-08-07 con cierre C21 (Fase 1 completa) · Piloto AI Fluency UJMD*

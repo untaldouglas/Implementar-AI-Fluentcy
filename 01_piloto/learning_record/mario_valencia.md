@@ -80,6 +80,15 @@
 
 ---
 
+## C22 — SOUL.md propio (C20 → configuración de agente)
+
+| Campo | Valor |
+|---|---|
+| Dónde vive | Drive (`01_Evidencia_Champions/C22_soul_propio/`) · plantilla `_PLANTILLA_C22_SOUL_Propio` |
+| SOUL entregado | SOUL de Desarrollo — derivado de su C20 (Analista Programador) |
+| Entregado | 2026-08-07 |
+| Veredicto | ✅ **Aprobado 07/08** por Douglas (Drive Approvals) — **C22 cierra 3/3** · con C21/C19/S1, **todos los criterios de Licencia Profesional cumplidos** (pendiente veredicto formal) |
+
 ## Verificación Director
 
 | Criterio | Estado |
@@ -91,9 +100,10 @@
 | C19 (2 procesos medidos) | ✅ 2/2 — aprobados 24/07 |
 | C20 (perfil de área Desarrollo) | ✅ — aprobado por Douglas (24/07) |
 | C21 (Skill propio versionado) | ✅ — aprobado por Douglas en Drive (07/08) |
+| C22 (SOUL.md propio activo) | ✅ — aprobado por Douglas en Drive (07/08) |
 
 **Firma Douglas:** ✅
-**Fecha de última revisión:** 2026-08-07 — S2/C19/C20/C21 cerrados y Fase 1 completa
+**Fecha de última revisión:** 2026-08-07 — S2/C19/C20/C21/C22 cerrados · criterios de Licencia Profesional cumplidos (pendiente veredicto formal)
 
 ---
 

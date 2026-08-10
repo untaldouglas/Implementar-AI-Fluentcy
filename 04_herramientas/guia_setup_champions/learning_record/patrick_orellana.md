@@ -1,4 +1,6 @@
-# Learning Record — Patrick Orellana (Infraestructura)
+# Learning Record — Patrick Eduardo Orellana Amaya (Infraestructura)
+
+> **ARCHIVO HISTÓRICO no vinculante (declarado 17/07/2026, R13/I9 auditoría #02).** El registro vigente es `01_piloto/learning_record/patrick_orellana.md`. **Nota de notación (07/08/2026, R8/I5):** los "L2→L3", "L3→L4" y "L4→L5" de los encabezados de lección se refieren a **niveles MCA** que cada lección de setup habilita — NO a la numeración de la lección. "Lección 1" es la primera de las 3 lecciones de instalación, no el nivel MCA L1.
 
 > ⚠️ **ARCHIVO HISTÓRICO — NO VINCULANTE (declarado 17/07/2026, resuelve I9/R13 de la auditoría #02).** Este formulario no fue llenado durante el piloto: los checkboxes y campos de evidencia quedaron vacíos. La verificación real del setup vive en `ESTADO_PROYECTO.md` (C11, 02/07/2026) y en `01_piloto/learning_record/` — este archivo se conserva solo como plantilla de referencia para futuras cohortes y ya no debe citarse como "detalle con evidencia".
 

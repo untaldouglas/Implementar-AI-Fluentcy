@@ -20,7 +20,7 @@ En cumplimiento con la **Fase 0.1 del Roadmap AI Fluency UJMD**, y siguiendo el 
 
 ### Modelo de referencia
 
-El modelo **Manual de Implementación Estratégica (10 niveles de autonomía vehicular)** establece que los Champions deben avanzar desde L0 a L5 durante el piloto, construyendo 1 agente funcional por área antes del Demo Day.
+El modelo **Manual de Implementación Estratégica (10 niveles de autonomía vehicular)** establece que los Champions deben avanzar un peldaño por mes. **Meta del piloto (corregida 17/07/2026, ratificada 07/08/2026 — R7/I3 de la serie de auditorías):** L2 → L3 (Licencia Básica) durante el piloto; L4–L5 (Licencia Profesional) como meta de Fase 2. La meta original "L0 a L5 en 1 mes" contradecía el principio del Manual; la versión corregida se cumplió íntegramente: Licencia Básica 3/3 activada el 07/08 y todos los criterios de Licencia Profesional cumplidos (pendiente veredicto formal).
 
 ---
 

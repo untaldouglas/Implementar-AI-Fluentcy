@@ -82,7 +82,15 @@
 | Mario Valencia | `refactor-csharp-4` | github.com/mariovalencia/AIFluent (`e09c9f2e`) | ✅ Aprobado 07/08 |
 | Patrick Orellana | `custom-netmon-dashboard` | github.com/peorellanaa/repo001 (`903a34e`) | ✅ Aprobado 07/08 |
 
-**Fase 1 COMPLETA** — C14–C21 cerrados 3/3 con aprobación nativa de Drive. Licencia Básica 3/3 formalizable; Licencia Profesional a un paso (SOUL propio + veredicto).
+## C22 — SOUL.md propio (C20 → configuración de agente)
+
+| Champion | SOUL entregado | Veredicto |
+|---|---|---|
+| Mario Valencia | SOUL de Desarrollo (derivado de C20) | ✅ Aprobado 07/08 |
+| Irvin Morales | SOUL de Soporte (derivado de C20) | ✅ Aprobado 07/08 |
+| Patrick Orellana | SOUL de Infraestructura (formalizado) | ✅ Aprobado 07/08 |
+
+**Fase 1 COMPLETA** — C14–C22 cerrados 3/3 con aprobación nativa de Drive. Licencia Básica 3/3 activada; **Licencia Profesional: todos los criterios cumplidos por los 3** (pendiente veredicto formal de Douglas).
 
 ---
 

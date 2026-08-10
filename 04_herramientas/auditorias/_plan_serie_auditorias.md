@@ -12,7 +12,7 @@
 |---|---|
 | Frecuencia | **Semanal** (antes era ~10 días) |
 | Día sugerido | Viernes por la mañana, **antes** de la reunión de seguimiento de las 14:00 — para que los hallazgos alimenten la reunión, no lleguen tarde |
-| Próxima | **Auditoría #03 — viernes 2026-07-24** (+ lente COBIT introductorio EDM01/APO01/MEA01). La #02 se ejecutó el 17/07 (`2026-07-17_auditoria_02_especialista_ai.md`) y su seguimiento derivó en `00_marco/Protocolo_Evidencia_y_Estado.md` |
+| Próxima | **F2 / Capa 1** (agosto) — la auditoría de cierre de F1 se ejecutó el 07/08 (`2026-08-07_auditoria_cierre_f1.md`) con el set de evidencia completo, reemplazando la #04 del 29/07 que quedó sin registro (decisión Douglas). La #03 del 24/07 (COBIT) no dejó archivo registrado |
 | Automatización | ✅ Rutina en la nube `trig_01TubHGS7vnvJQPWu6gTtN8T` — cada viernes 07:00 (El Salvador) clona el repo público, ejecuta la auditoría según este plan y deja el **borrador completo en Gmail** de Douglas (no envía nada). Douglas revisa antes de las 14:00; al aprobar, se guarda en esta carpeta, se commitea y se actualiza este plan. La rutina convierte en práctica propia la R5/H5 de la #01: delegación asíncrona trabajando para el programa |
 | Trazabilidad | IDs estables (I# inconsistencias, H# hallazgos, R# recomendaciones) que continúan la numeración de la serie; copiar la tabla de seguimiento de la auditoría anterior y actualizar estados |
 | Criterio de cierre | Evidencia verificable, no intención (regla de oro validada el 10/07 con el caso de la validación verbal vs. documento real) |
@@ -25,9 +25,9 @@ La serie madura acumulativamente — cada lente se suma, no reemplaza:
 | # | Fecha | Lentes | Qué se agrega |
 |---|---|---|---|
 | 01 | 2026-07-10 ✅ | ITIL + Lean | Línea base: 8 I#, 8 H#, 10 R#, tabla de seguimiento |
-| 02 | 2026-07-17 | + **Especialista en soluciones AI** | Criterios de arquitectura de agentes: ¿los SOUL.md están bien diseñados? ¿la delegación es segura (datos excluidos, aprobación humana)? ¿los flujos con Hermes siguen buenas prácticas (perfiles separados, trazabilidad de prompts, verificación de outputs)? ¿la automatización sirve a los Champions o solo al Director (seguimiento de H5)? |
-| 03 | 2026-07-24 | + **COBIT (introducción)** | Primeros objetivos de gobierno: EDM01 (marco de gobierno — ¿decisiones documentadas y comunicadas?), APO01 (marco de gestión) y MEA01 (monitoreo del desempeño — ¿las métricas de la Alineación se están midiendo?). Solo evaluar madurez nivel 0-2, sin burocratizar el piloto |
-| 04 | 2026-07-31 | Consolidación pre-Demo Day | Auditoría de cierre de Fase 1: ¿el Demo Day presenta evidencia medible o anécdotas? Verificación completa de la tabla de seguimiento acumulada. Insumo directo para el reporte a Rectoría |
+| 02 | 2026-07-17 ✅ | + **Especialista en soluciones AI** | Criterios de arquitectura de agentes: ¿los SOUL.md están bien diseñados? ¿la delegación es segura (datos excluidos, aprobación humana)? ¿los flujos con Hermes siguen buenas prácticas (perfiles separados, trazabilidad de prompts, verificación de outputs)? ¿la automatización sirve a los Champions o solo al Director (seguimiento de H5)? |
+| 03 | 2026-07-24 ⚠️ | + **COBIT (introducción)** | Primeros objetivos de gobierno: EDM01, APO01 y MEA01 (madurez 0-2). **No dejó archivo registrado** — la #04 del 29/07 tampoco; el cierre de F1 se auditó el 07/08 con el set completo |
+| 04 | 2026-08-07 ✅ | Consolidación pre-Demo Day (ejecutada como cierre de F1) | `2026-08-07_auditoria_cierre_f1.md`: set de evidencia completo (C14–C22), tabla acumulada I1–I13/H1–H12, hallazgos nuevos (repos sin verificar, calidad C22), R18–R22. Insumo directo para el reporte a Rectoría y el veredicto de Licencia Profesional |
 | 05+ | agosto (F2) | + COBIT progresivo (APO07 gestión del talento, BAI08 gestión del conocimiento) | Al escalar a Capa 1 (Dirección IT completa), el lente de gestión del conocimiento (BAI08) evalúa si glosario/FAQ/errores escalan al equipo completo |
 
 ## Preguntas fijas de toda auditoría (además de las específicas)
