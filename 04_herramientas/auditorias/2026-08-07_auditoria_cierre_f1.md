@@ -115,7 +115,7 @@ El contraste con el día 10 (auditoría #01: "0 entregables verificados vs ~16 s
 | ID | Recomendación | Resuelve | Estado |
 |---|---|---|---|
 | **R20** | Consolidar los 3 Skills en el repositorio del equipo (carpeta `skills/` del repo del programa o repo nuevo del equipo) — convierte el activo individual en capital del equipo y desbloquea el criterio de Licencia Avanzada. | I12 | 🟡 **Propuesta de mejora para F2** (decisión Douglas 07/08: no hay repo del equipo aún; no bloquea la fase actual) |
-| **R21** | Emitir el veredicto formal de Licencia Profesional 3/3 (después de R18/R19) con actas nuevas y registro en `Licencia_Conduccion_AI.md`; completar la sección 9 de las actas de Básica de Patrick e Irvin al firmar. | H11, H12, I13 | ⬜ Pendiente — R18/R19 ya ejecutadas, Douglas puede emitir veredicto |
+| **R21** | Emitir el veredicto formal de Licencia Profesional 3/3 (después de R18/R19) con actas nuevas y registro en `Licencia_Conduccion_AI.md`; completar la sección 9 de las actas de Básica de Patrick e Irvin al firmar. | H11, H12, I13 | ✅ **Cerrada 13/08** — Demo Day + verificación de flujo CONFORME 3/3 sin observaciones, 3 actas de Profesional firmadas (escaneos por subir a Drive), tabla de conductores actualizada en `Licencia_Conduccion_AI.md` |
 
 ### Estructurales (antes de F2)
 

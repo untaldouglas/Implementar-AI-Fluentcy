@@ -90,7 +90,15 @@
 | Irvin Morales | SOUL de Soporte (derivado de C20) | ✅ Aprobado 07/08 |
 | Patrick Orellana | SOUL de Infraestructura (formalizado) | ✅ Aprobado 07/08 |
 
-**Fase 1 COMPLETA** — C14–C22 cerrados 3/3 con aprobación nativa de Drive. Licencia Básica 3/3 activada; **Licencia Profesional: todos los criterios cumplidos por los 3** (pendiente veredicto formal de Douglas).
+**Fase 1 COMPLETA** — C14–C22 cerrados 3/3 con aprobación nativa de Drive. **Licencia Profesional 🔵 3/3 CERTIFICADA (13/08)** — Demo Day + verificación de flujo conforme sin observaciones, actas firmadas (escaneos por subir).
+
+## 🏅 Licencias — estado por Champion
+
+| Champion | 🟤 Permiso (baseline) | 🟢 Básica (L2–L3) | 🔵 Profesional (L4–L5) |
+|---|---|---|---|
+| Mario Valencia | L1 (01/07) | ✅ 07/08 | ✅ **13/08** |
+| Patrick Orellana | L1 (01/07) | ✅ 07/08 | ✅ **13/08** |
+| Irvin Morales | L1 (01/07) | ✅ 07/08 | ✅ **13/08** |
 
 ---
 

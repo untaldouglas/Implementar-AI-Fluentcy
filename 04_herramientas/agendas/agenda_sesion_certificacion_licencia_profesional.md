@@ -15,7 +15,7 @@
 - [ ] Google Meet creado y grabación activada (la sesión se graba — queda como evidencia del hito).
 - [ ] Sala de reuniones de la Dirección de Informática reservada 14:00–15:45.
 - [ ] Actas de Licencia Profesional (3 borradores en Drive `00_Gobernanza/Actas_Licencias/`) listas para firmar.
-- [ ] Fichas de verificación de flujo impresas (1 por Champion) para la rúbrica en vivo.
+- [ ] Rúbrica de verificación de flujo (casillas del Bloque A de esta agenda) disponible para marcar en vivo — impresa o en pantalla.
 - [ ] Coordinadores de área invitados como audiencia (visto bueno de F2 con evidencia en vivo).
 
 ---
@@ -86,7 +86,7 @@ Cada Champion demuestra, apoyándose en su evidencia real (pantalla compartida):
 | # | Recurso (input) | Dónde está / quién lo trae | Para qué se usa | Producto (output) |
 |---|---|---|---|---|
 | 1 | Evidencia C19 (6 procesos), C21 (3 Skills), C22 (3 SOUL), actas Básica | Drive `01_Evidencia_Champions/` · `00_Gobernanza/Actas_Licencias/` | Cada Champion se apoya en SUS entregables en la demo | Verificación documentada del criterio "explica su flujo" (rúbrica llenada) |
-| 2 | Ficha de verificación de flujo (rúbrica) | Esta agenda | Evaluar la demo en vivo | 3 fichas firmadas por Douglas (1 por Champion) |
+| 2 | Rúbrica de verificación de flujo (casillas del Bloque A) | En esta agenda | Evaluar la demo en vivo | Rúbrica marcada y firmada por Douglas (1 fila por Champion) |
 | 3 | Plantilla de acta (sección 5) + 3 borradores | `Licencia_Conduccion_AI.md` + Drive | Formalizar la certificación | 3 actas de Licencia Profesional firmadas en Drive |
 | 4 | Guion del logro (qué representa + método) | Esta agenda, Bloque B | Douglas lo lee en la firma de cada acta | Texto oficial del logro (nota en cada acta) |
 | 5 | Tabla de conductores certificados (sección 6) | `00_marco/Licencia_Conduccion_AI.md` | Registrar el nuevo nivel | 3 Champions en 🔵 L4–L5 |

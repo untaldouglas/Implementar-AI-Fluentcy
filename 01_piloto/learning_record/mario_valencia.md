@@ -89,6 +89,16 @@
 | Entregado | 2026-08-07 |
 | Veredicto | ✅ **Aprobado 07/08** por Douglas (Drive Approvals) — **C22 cierra 3/3** · con C21/C19/S1, **todos los criterios de Licencia Profesional cumplidos** (pendiente veredicto formal) |
 
+## 🏅 Licencia Profesional 🔵 (L4–L5) — CERTIFICADA
+
+| Campo | Valor |
+|---|---|
+| Sesión | Demo Day + Certificación (13/08/2026, 14:00–15:45, sala DSI, grabación Meet) |
+| Verificación de flujo (R21) | ✅ **Conforme — sin observaciones** (demostró su Skill en vivo, medición C19 y SOUL) |
+| Acta | `Acta_Licencia_Profesional_Mario_Valencia_2026-08-13` — firmada (Instructor + Champion), escaneo pendiente de subir a Drive |
+| Registro | `00_marco/Licencia_Conduccion_AI.md` — tabla de conductores: **🔵 L4–L5** |
+| Progresión completa | 🟤 Permiso (baseline L1) → 🟢 Básica (07/08) → 🔵 **Profesional (13/08)** |
+
 ## Verificación Director
 
 | Criterio | Estado |

@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-08-07 (tarde) · Sesión 25 — **C22 cerrado 3/3** (los 3 Champions entregaron su SOUL.md propio, validado con Drive Approvals) → **todos los requisitos de Licencia Profesional cumplidos por los 3** (pendiente veredicto formal) · Fase 1 completa · auditoría de cierre de F1 pendiente |
+| Última actualización | 2026-08-13 (tarde) · Sesión 26 — **Demo Day + Certificación: Licencia Profesional 🔵 3/3** (verificación sin observaciones, actas firmadas con coordinadores como audiencia) · Fase 1 cerrada por completo |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-08-07 |
-| Días desde inicio | 38 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C21 3/3 con evidencia real aprobada) · F2 (Expansión al equipo) pendiente de decisión de arranque |
-| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** |
+| Hoy (última actualización) | 2026-08-13 |
+| Días desde inicio | 44 días |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · F2 (Expansión al equipo) pendiente de decisión de arranque |
+| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
 | Mes de proyecto | M2 |
-| Próximo hito | **Demo Day + Certificación de Licencia Profesional 🔵 — jueves 13/08/2026, 14:00–15:45** (sala DSI, grabación Meet, coordinadores invitados) · F2 sin decisión |
-| Días hasta próximo hito | 6 (al 13/08) |
+| Próximo hito | F2 (expansión al equipo) — sin fecha de arranque · consolidación de Skills en repo del equipo (R20) · Demo Day a áreas (Roadmap F2, semanas 5–6) |
+| Días hasta próximo hito | sin fecha definida |
 
 ### Calendario de fases
 
@@ -158,7 +158,7 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 07/08 mañana
 1. **[Completado 07/08]** **C21 → COMPLETADO 3/3** — Mario (29/07), Patrick (29/07) e Irvin (31/07) entregaron su Skill propio, validado por Douglas con Drive Approvals. **Fase 1 cerrada**: C14–C21 3/3 con evidencia real.
-2. **[Certificación — R21]** **Sesión ÚNICA: Demo Day + Certificación de Licencia Profesional 🔵** — **jueves 13/08/2026, 14:00–15:45**, Sala de reuniones de la Dirección de Informática, grabación en Google Meet, con coordinadores de área invitados. **Invitación ENVIADA (10/08 10:29, verificado en Gmail sent)** · agenda de calendario creada · actas impresas para firma. Agenda: `04_herramientas/agendas/agenda_sesion_certificacion_licencia_profesional.md` · 3 actas de Profesional en Drive (`00_Gobernanza/Actas_Licencias/`). Pendiente: Meet con grabación + ejecutar la sesión.
+2. **[Completado 13/08]** **Licencia Profesional 🔵 3/3 CERTIFICADA** — Demo Day + verificación de flujo sin observaciones (R21) + firma de actas con coordinadores de área como audiencia. Registro en `00_marco/Licencia_Conduccion_AI.md` (tabla de conductores: Patrick/Mario/Irvin en L4–L5). Pendiente: subir escaneos de actas firmadas a Drive `00_Gobernanza/Actas_Licencias/`.
 3. **[Ejecutada 07/08]** **Auditoría de cierre de F1** (`04_herramientas/auditorias/2026-08-07_auditoria_cierre_f1.md`): set completo C14–C22, 12 inconsistencias + 12 hallazgos en tabla acumulada, R18–R22. **Pendiente ejecutar:** R18 (checklist de instalación en las 3 estaciones) y R19 (verificar repos Git) **antes del veredicto de Licencia Profesional** · R20 (consolidar Skills en repo del equipo) · R21 (veredicto formal) · R22 (recomendaciones estructurales).
 4. **[Completado 07/08]** **C22 → COMPLETADO 3/3** — los 3 Champions entregaron su SOUL.md propio (Mario, Irvin y Patrick), validado con Drive Approvals. **Último requisito de Licencia Profesional cumplido por los 3** — pendiente veredicto formal.
 5. **[Pendiente Douglas]** Revisión de las 3 piezas de comunicación de resultados F1 creadas el 07/08 (`Email_Coordinadores_Resultados_F1.html`, `ResearchBrief_AIFluency_F1.html`, `OnePager_Rectoria_F1.html` en `03_comunicacion/`) — **se actualizarán al terminar las acciones de la fase** (auditoría de cierre F1, Demo Day, arranque F2, veredicto Profesional) antes de su uso oficial.
@@ -183,9 +183,10 @@
 
 | Bloqueo | Impacto | Mitigación |
 |---|---|---|
-| Demo Day y arranque de F2 sin fecha decidida (Douglas: alta carga operativa por regreso de vacaciones + inicio de clases 2-2026) | Riesgo de dilación del cierre formal de F1 y de la demostración pública del piloto | No bloqueante para certificaciones: Licencia Básica 3/3 y C21 ya cerrados; F2 puede arrancar con decisión de Douglas cuando su agenda lo permita |
+| Arranque de F2 sin fecha decidida (Douglas: carga operativa por inicio de clases 2-2026) | Riesgo de dilación de la expansión al equipo | No bloqueante: F1 cerrada por completo (Básica + Profesional 3/3 certificadas el 13/08); F2 puede arrancar con decisión de Douglas cuando su agenda lo permita |
 
 **Resueltos:**
+| Demo Day y certificación sin fecha | ✅ 13/08 — Demo Day + Certificación ejecutados: Licencia Profesional 🔵 3/3 firmada, verificación conforme sin observaciones, coordinadores de área como audiencia |
 | C21 sin evidencia de arranque al 27/07 | ✅ 07/08 — los 3 Champions entregaron su Skill propio (29–31/07) y Douglas los validó con Drive Approvals; S3 y Fase 1 cerradas |
 | Irvin no cierra C19 (2º proceso) ni C20 | ✅ 27/07 — Irvin entregó ambos y fueron aprobados por Douglas en Drive (verificación contra Drive Approvals). H8 auditoría #01 cerrada. |
 
@@ -241,6 +242,39 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-13 | SESIÓN 26 — DEMO DAY + CERTIFICACIÓN: LICENCIA PROFESIONAL 🔵 3/3 (Douglas + Hermes Agent, 14:00–15:45)
+
+  CONTEXTO: sesión única en la sala de reuniones de la Dirección de
+  Informática (grabación en Google Meet) con los 3 Champions y los
+  coordinadores de área como audiencia. Se fusionaron el Demo Day de
+  cierre de F1 (S4 del Roadmap) y la Certificación de Licencia
+  Profesional (R21): la demostración en vivo fue la verificación del
+  criterio "explica su flujo".
+
+  RESULTADO:
+  ✓ Demo Day: 3 demos en vivo (Mario: refactor-csharp-4 · Patrick:
+    custom-netmon-dashboard · Irvin: diagnostico-baterias-laptops),
+    cada Champion con su Skill funcionando, medición C19 antes/después
+    y SOUL propio.
+  ✓ Verificación de flujo (R21): CONFORME 3/3 — sin observaciones.
+  ✓ Firma de las 3 actas de Licencia Profesional 🔵 (L4–L5) — Instructor
+    (Douglas) + Champion.
+  ✓ Coordinadores de área presentes como audiencia — evidencia en vivo
+    del valor del programa para el visto bueno de F2.
+  ✓ Registro: tabla de conductores certificados actualizada en
+    `00_marco/Licencia_Conduccion_AI.md` (Patrick/Mario/Irvin → L4–L5).
+
+  PENDIENTE:
+  ⚪ Douglas sube los escaneos de las 3 actas firmadas a Drive
+    (`00_Gobernanza/Actas_Licencias/`).
+  ⚪ F2 (expansión al equipo): arranque sin decisión · R20 (consolidar
+    Skills en repo del equipo) · Demo Day a áreas (Roadmap F2).
+  ⚪ Piezas de comunicación _F1: actualización final con el veredicto
+    confirmado (firmas) antes de uso oficial.
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: decidir arranque de F2 (con visto bueno de
+  coordinadores en mano) y consolidar los Skills en el repo del equipo.
+
 2026-08-10 | SESIÓN 25 (cont. 9) — PIEZAS DE COMUNICACIÓN _F1 ACTUALIZADAS AL CIERRE DE FASE (Hermes Agent)
 
   TRABAJO REALIZADO (revisión de integridad de las 3 piezas _F1 en
