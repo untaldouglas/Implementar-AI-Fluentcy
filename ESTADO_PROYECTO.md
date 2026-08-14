@@ -88,7 +88,7 @@
 |---|---|---|---|
 | 1 | Luis Molina (Coordinador) | lamolinaq@ujmd.edu.sv | Infraestructura |
 | 2 | Stephanie Miranda (Coordinadora) | symirandav@ujmd.edu.sv | Desarrollo |
-| 3 | Jorge Siguenza (Coordinador) | [por confirmar] | Sistemas |
+| 3 | Jorge López (Coordinador) | jelopezr@ujmd.edu.sv | Sistemas |
 | 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | Sistemas |
 | 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | Sistemas → acompañará a Infraestructura |
 | 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | Desarrollo |
@@ -279,6 +279,35 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 10) — CORRECCIÓN: JORGE LÓPEZ (NO SIGUENZA) + CC A CHAMPIONS F1 EN ADELANTE (Douglas)
+
+  CORRECCIONES DE DOUGLAS:
+  ✓ El coordinador de Sistemas es JORGE LÓPEZ (jelopezr@ujmd.edu.sv),
+    no "Jorge Siguenza" — corregido en ESTADO_PROYECTO.md,
+    plan_cohorte.md, DECISIONES_PENDIENTES.md y agenda de planificación.
+  ✓ REGLA NUEVA: en adelante, todos los correos del programa llevan CC
+    al Grupo Champions Fase 1 (mevalenciac@, ijmoralespa@,
+    peorellanaa@) — aplica al correo de bienvenida F2 y a los futuros.
+
+  BORRADOR RECREADO:
+  ✓ Bienvenida F2 v2 (ID `r-3389348144406202976`): To = 6 participantes
+    (incluye jelopezr) · Cc = Champions F1 · v1 eliminado.
+
+2026-08-14 | SESIÓN 26 (cont. 9) — CORREO DE BIENVENIDA F2 EN BORRADOR (Hermes Agent)
+
+  CREADO:
+  ✓ Borrador Gmail (ID `r-6043315018375354017`) — bienvenida a los 6
+    participantes de F2 (Luis, Stephanie, Jorge, Bryan, Betty, Oscar):
+    qué es el programa, presencia web pública, link del baseline,
+    siguientes pasos (itinerario → setup → sesiones → certificación).
+  ✓ Destinatarios: 6 emails confirmados (lamolinaq, symirandav,
+    jelopezr, begomezch, bcfigueroac, ojalfarob).
+  ✓ Incluye URL de la presencia web: https://untaldouglas.github.io/
+    Implementar-AI-Fluentcy/ y guía del participante.
+
+  PENDIENTE: Douglas agrega email de Jorge, define fecha límite del
+  baseline (D3) y envía.
+
 2026-08-14 | SESIÓN 26 (cont. 8) — PARTICIPANTES DE F2 CONFIRMADOS POR LOS COORDINADORES (Douglas + coordinadores)
 
   CONFIRMADO POR LOS COORDINADORES (vía Douglas, 14/08):
@@ -286,7 +315,7 @@
   ✓ Betty Figueroa (bcfigueroac@ujmd.edu.sv) — es de Sistemas pero
     acompañará al grupo de Infraestructura
   ✓ Oscar Alfaro (ojalfarob@ujmd.edu.sv) — grupo Desarrollo
-  ✓ Los 3 coordinadores (Luis, Stephanie, Jorge) completan los 6
+  ✓ Los 3 coordinadores (Luis, Stephanie, Jorge López) completan los 6
     participantes.
 
   ACTUALIZADO:
@@ -296,8 +325,7 @@
     con los 3 nombres.
   → ESTADO_PROYECTO.md — tabla de participantes confirmada.
 
-  PENDIENTE: email de Jorge Siguenza · baseline de los 6 · decisiones
-  D1–D7 (reunión de planificación).
+  PENDIENTE: baseline de los 6 · decisiones D1–D7 (reunión de planificación).
 
 2026-08-14 | SESIÓN 26 (cont. 7) — DECISIONES PENDIENTES DE F2 EN CHECKLIST ACCIONABLE (Hermes Agent)
 

@@ -24,7 +24,7 @@
 |---|---|---|---|---|---|---|
 | 1 | Luis Molina | lamolinaq@ujmd.edu.sv | Infraestructura (Coordinador) | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
 | 2 | Stephanie Miranda | symirandav@ujmd.edu.sv | Desarrollo (Coordinadora) | Participante (coordinadora) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 3 | Jorge Siguenza | [por confirmar] | Sistemas (Coordinador) | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| 3 | Jorge López | jelopezr@ujmd.edu.sv | Sistemas (Coordinador) | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
 | 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | **Sistemas** | Participante (nuevo) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
 | 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | **Sistemas → acompañará a Infraestructura** | Participante (nueva) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
 | 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | **Desarrollo** | Participante (nuevo) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |

@@ -46,7 +46,7 @@
 | Arranque condicionado al baseline | Itinerarios se definen tras analizar respuestas del Google Form, no se asume nivel previo | 14/08 |
 | Estructura por cohorte | `01_piloto/cohortes/` (plantilla + F1 referencia + F2 activo) + `guias_estandar/` | 14/08 |
 | Congelación F1 | Rama Git `Fase01` (commit `3306dfd`) — artefactos no se mueven (78 refs históricas) | 14/08 |
-| Participantes F2 | Luis (Infra) · Stephanie (Desarrollo) · Jorge (Sistemas) · Betty (Sistemas) + 2 por confirmar | 14/08 |
+| Participantes F2 | Luis (Infra) · Stephanie (Desarrollo) · Jorge López (Sistemas) · Bryan (Sistemas) · Betty (Sistemas→Infra) · Oscar (Desarrollo) | 14/08 |
 | Entregables F2 | E1–E8 registrados en `01_piloto/cohortes/F2/plan_cohorte.md` | 14/08 |
 
 ---

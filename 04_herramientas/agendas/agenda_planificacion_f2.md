@@ -10,7 +10,7 @@
 
 ## Estado de entrada (lo que ya está definido)
 
-- ✅ **Participantes (6):** Luis (Infra), Stephanie (Desarrollo), Jorge (Sistemas) + Betty (Sistemas) + 2 por confirmar (Sistemas, Desarrollo)
+- ✅ **Participantes (6):** Luis (Infra), Stephanie (Desarrollo), Jorge López (Sistemas) + Betty (Sistemas→Infra), Bryan (Sistemas), Oscar (Desarrollo)
 - ✅ **Entregables E1–E8** registrados en el plan de cohorte
 - ✅ **Validación:** Champions F1 validan + Douglas co-firma (solo este primer ejercicio)
 - ✅ **Regla:** arranque e itinerarios dependen del análisis del baseline (Google Form)
