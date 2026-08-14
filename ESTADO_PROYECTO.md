@@ -83,17 +83,17 @@
 
 **Estado:** 🟡 EN PLANIFICACIÓN — en los próximos 7 días hábiles se planificará el inicio (definición de Douglas, 14/08/2026).
 
-**Participantes definidos (6 personas nuevas):**
-| # | Persona | Coordinación | Notas |
+**Participantes confirmados (6, 14/08):**
+| # | Nombre | Email | Coordinación/Grupo |
 |---|---|---|---|
-| 1 | Luis Molina (Coordinador Infraestructura) | Infraestructura | Coordinador existente |
-| 2 | Stephanie Miranda (Coordinadora Desarrollo) | Desarrollo | Coordinadora existente |
-| 3 | Jorge Siguenza (Coordinador Sistemas) | Sistemas | Coordinador existente |
-| 4 | Betty | Sistemas | Se une al programa (nueva) |
-| 5 | Persona adicional | Sistemas | Se une al programa (nueva — por definir nombre) |
-| 6 | Persona adicional | Desarrollo | Se une al programa (nueva — por definir nombre) |
+| 1 | Luis Molina (Coordinador) | lamolinaq@ujmd.edu.sv | Infraestructura |
+| 2 | Stephanie Miranda (Coordinadora) | symirandav@ujmd.edu.sv | Desarrollo |
+| 3 | Jorge Siguenza (Coordinador) | [por confirmar] | Sistemas |
+| 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | Sistemas |
+| 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | Sistemas → acompañará a Infraestructura |
+| 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | Desarrollo |
 
-> Nota: los 3 Coordinadores participan en F2 + 3 personas nuevas = 6 participantes nuevos. Los 3 Champions de F1 (Mario, Irvin, Patrick) pasan a rol de facilitadores/co-facilitadores (R9 — rotación semanal).
+> Nota: 3 coordinadores + 3 nuevos = 6 participantes. Los 3 Champions de F1 (Mario, Irvin, Patrick) pasan a rol de facilitadores/co-facilitadores (R9 — rotación semanal).
 
 **Entregables de la Fase 2 (definidos por Douglas, 14/08):**
 | # | Entregable | Detalle |
@@ -279,6 +279,26 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 8) — PARTICIPANTES DE F2 CONFIRMADOS POR LOS COORDINADORES (Douglas + coordinadores)
+
+  CONFIRMADO POR LOS COORDINADORES (vía Douglas, 14/08):
+  ✓ Bryan Gómez (begomezch@ujmd.edu.sv) — grupo Sistemas
+  ✓ Betty Figueroa (bcfigueroac@ujmd.edu.sv) — es de Sistemas pero
+    acompañará al grupo de Infraestructura
+  ✓ Oscar Alfaro (ojalfarob@ujmd.edu.sv) — grupo Desarrollo
+  ✓ Los 3 coordinadores (Luis, Stephanie, Jorge) completan los 6
+    participantes.
+
+  ACTUALIZADO:
+  → `01_piloto/cohortes/F2/plan_cohorte.md` — tabla de participantes con
+    nombre, email y grupo (D8 resuelto).
+  → `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md` — D8 marcada [x]
+    con los 3 nombres.
+  → ESTADO_PROYECTO.md — tabla de participantes confirmada.
+
+  PENDIENTE: email de Jorge Siguenza · baseline de los 6 · decisiones
+  D1–D7 (reunión de planificación).
+
 2026-08-14 | SESIÓN 26 (cont. 7) — DECISIONES PENDIENTES DE F2 EN CHECKLIST ACCIONABLE (Hermes Agent)
 
   CREADO:

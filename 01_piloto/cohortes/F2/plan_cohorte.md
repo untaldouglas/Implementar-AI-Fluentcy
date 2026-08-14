@@ -18,16 +18,18 @@
 | Instructor | Douglas A. Galindo (L8) |
 | Validadores (primer ejercicio) | Champions F1 (Mario, Irvin, Patrick — L4–L5) **validan** · Douglas **co-firma** |
 
-## 2. Participantes (6 nuevos — definidos por Douglas 14/08)
+## 2. Participantes (6 nuevos — confirmados por Douglas y coordinadores 14/08)
 
-| # | Nombre | Coordinación | Rol | Baseline | Meta |
-|---|---|---|---|---|---|
-| 1 | Luis Molina | Infraestructura | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 2 | Stephanie Miranda | Desarrollo | Participante (coordinadora) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 3 | Jorge Siguenza | Sistemas | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 4 | Betty | Sistemas | Participante (nueva) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 5 | [Por confirmar] | Sistemas | Participante (nueva) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 6 | [Por confirmar] | Desarrollo | Participante (nueva) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| # | Nombre | Email | Coordinación/Grupo | Rol | Baseline | Meta |
+|---|---|---|---|---|---|---|
+| 1 | Luis Molina | lamolinaq@ujmd.edu.sv | Infraestructura (Coordinador) | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| 2 | Stephanie Miranda | symirandav@ujmd.edu.sv | Desarrollo (Coordinadora) | Participante (coordinadora) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| 3 | Jorge Siguenza | [por confirmar] | Sistemas (Coordinador) | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | **Sistemas** | Participante (nuevo) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | **Sistemas → acompañará a Infraestructura** | Participante (nueva) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | **Desarrollo** | Participante (nuevo) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+
+> **Participantes nuevos confirmados por los coordinadores (14/08):** Bryan Gómez (Sistemas) · Betty Figueroa (Sistemas, acompañará al grupo de Infraestructura) · Oscar Alfaro (Desarrollo). Los 3 coordinadores (Luis, Stephanie, Jorge) completan los 6 participantes.
 
 **Facilitadores/validadores (Champions F1):**
 

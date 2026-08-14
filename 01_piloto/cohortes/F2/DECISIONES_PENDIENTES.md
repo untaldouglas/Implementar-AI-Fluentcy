@@ -31,9 +31,10 @@
 - [ ] **D7 — Métricas de valor (E8)** *(KPI de negocio por coordinación)*
   - [ ] KPI elegidos (tiempo de ticket · horas de refactor · disponibilidad · altas/bajas AD)
   - [ ] Quién mide y con qué frecuencia
-- [ ] **D8 — Nombres de los 2 participantes pendientes**
-  - [ ] Persona adicional de Sistemas confirmada
-  - [ ] Persona adicional de Desarrollo confirmada
+- [x] **D8 — Nombres de los 2 participantes pendientes** *(resuelto 14/08 — coordinadores confirmaron: Bryan Gómez, Betty Figueroa, Oscar Alfaro)*
+  - [x] Persona adicional de Sistemas confirmada: **Bryan Gómez** (begomezch@ujmd.edu.sv)
+  - [x] Persona adicional de Sistemas confirmada (acompañará a Infraestructura): **Betty Figueroa** (bcfigueroac@ujmd.edu.sv)
+  - [x] Persona adicional de Desarrollo confirmada: **Oscar Alfaro** (ojalfarob@ujmd.edu.sv)
 
 ---
 
