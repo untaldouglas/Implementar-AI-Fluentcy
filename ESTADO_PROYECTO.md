@@ -279,6 +279,19 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 12) — CORREGIDO: MARCADORES MARKDOWN EN CORREO DE BIENVENIDA (Hermes Agent)
+
+  ERROR DETECTADO: el borrador v3 contenía asteriscos ** de marcador
+  Markdown en el texto plano (fecha límite y datos del kickoff), que se
+  verían como caracteres literales en el correo.
+
+  CORRECCIÓN:
+  ✓ Borrador v4 creado (ID `r3440795943432809987`) con texto limpio,
+    verificado por lectura completa: To = 6 participantes, Cc = Champions
+    F1, fecha límite baseline (martes 18/08 5:00 PM) y kickoff (viernes
+    21/08 14:00–15:15, CC 2) sin asteriscos.
+  ✓ Borrador v3 eliminado — solo un borrador de bienvenida activo.
+
 2026-08-14 | SESIÓN 26 (cont. 11) — FECHAS CLAVE DE F2 DEFINIDAS: BASELINE 18/08 + KICKOFF 21/08 (Douglas)
 
   DEFINIDO POR DOUGLAS:
