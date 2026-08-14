@@ -10,13 +10,13 @@
 
 ## 🗓 Decisiones a resolver en la reunión de planificación (D1–D8)
 
-- [ ] **D1 — Fecha de arranque de F2** *(propuesta: semana del 24/08)*
-  - [ ] Fecha de kick-off definida y agendada
+- [x] **D1 — Fecha de arranque de F2** *(resuelto 14/08: kickoff viernes 21/08, 14:00–15:15, CC 2 de la Dirección de Informática; agenda se hará llegar posteriormente)*
+  - [x] Fecha de kick-off definida y agendada: **viernes 21/08/2026, 14:00–15:15 (CC 2)**
 - [ ] **D2 — Cronograma y cadencia** *(propuesta: Roadmap semanas 5–12, ~8–10 semanas; mié 2–4 PM + vie 2–3 PM)*
   - [ ] Fechas de hitos: setup → sesiones → Demo Day F2
-- [ ] **D3 — Baseline** *(¿mismo Google Form de F1 o ajustado a F2?)*
-  - [ ] Form decidido + ventana de llenado para los 6 participantes
-  - [ ] Responsable del análisis de respuestas (Hermes consolida) → itinerarios
+- [x] **D3 — Baseline** *(resuelto 14/08: mismo Google Form de F1, límite martes 18/08 17:00)*
+  - [x] Form decidido: mismo de F1 (https://forms.gle/JHd4a8kHyFh59RkH7) + ventana de llenado: **hasta martes 18/08, 5:00 PM**
+  - [ ] Responsable del análisis de respuestas (Hermes consolida) → itinerarios (antes del kickoff 21/08)
 - [ ] **D4 — Repo del equipo (E2)** *(¿repo GitHub DSI nuevo o carpeta en repo del programa?)*
   - [ ] Repo creado con estructura `profiles/ skills/ souls/` por coordinación
   - [ ] Migración de Skills de F1 (R20): `refactor-csharp-4`, `custom-netmon-dashboard`, `diagnostico-baterias-laptops`

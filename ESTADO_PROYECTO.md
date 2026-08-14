@@ -279,6 +279,25 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 11) — FECHAS CLAVE DE F2 DEFINIDAS: BASELINE 18/08 + KICKOFF 21/08 (Douglas)
+
+  DEFINIDO POR DOUGLAS:
+  ✓ Baseline: día límite para llenar el formulario — MARTES 18/08, 5:00 PM
+    (mismo Google Form de F1: https://forms.gle/JHd4a8kHyFh59RkH7)
+  ✓ Kickoff F2: VIERNES 21/08, 14:00–15:15, en el CC 2 de la Dirección
+    de Informática. La agenda de la reunión se hará llegar
+    posteriormente.
+  ✓ Análisis de respuestas del baseline → itinerarios (18–20/08, antes
+    del kickoff).
+
+  ACTUALIZADO:
+  → Correo de bienvenida F2 v3 (ID `r1558327393252823480`): incluye
+    fecha límite del baseline y datos del kickoff · v2 eliminado.
+  → DECISIONES_PENDIENTES.md: D1 (kickoff 21/08) y D3 (baseline 18/08)
+    marcadas [x] · quedan D2, D4–D7.
+  → plan_cohorte.md: cronograma con fechas (F0 14–18/08, F1 18–20/08,
+    F2 kickoff 21/08).
+
 2026-08-14 | SESIÓN 26 (cont. 10) — CORRECCIÓN: JORGE LÓPEZ (NO SIGUENZA) + CC A CHAMPIONS F1 EN ADELANTE (Douglas)
 
   CORRECCIONES DE DOUGLAS:

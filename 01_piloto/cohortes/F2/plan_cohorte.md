@@ -56,9 +56,9 @@
 
 | Fase | Actividad | Ventana | Estado |
 |---|---|---|---|
-| F0 | Planificación del cohorte (este documento) | Próximos 7 días hábiles | 🟡 |
-| F1 | Selección + diagnóstico baseline (Google Form) + análisis de respuestas → itinerarios | Tras F0 | ⬜ |
-| F2 | Setup: instalación Hermes, SOUL por área, **repo del equipo creado desde el día 1** (E2) | Tras F1 | ⬜ |
+| F0 | Planificación del cohorte (este documento) | 14–18/08 | 🟡 |
+| F1 | Selección + diagnóstico baseline (Google Form) — **límite martes 18/08 17:00** + análisis de respuestas → itinerarios | 18–20/08 | 🟡 |
+| F2 | **Kickoff F2: viernes 21/08, 14:00–15:15, CC 2 de la Dirección de Informática** (agenda se hará llegar posteriormente) + Setup: instalación Hermes, SOUL por área, repo del equipo creado desde el día 1 (E2) | 21/08 → | ⬜ |
 | F3 | Sesiones semanales (cadencia F1: mié 2–4 PM + vie 2–3 PM) | ~8–10 semanas | ⬜ |
 | F4 | Verificación continua (Drive Approvals + auditorías de medio ciclo) | Paralela a F3 | ⬜ |
 | F5 | Evaluación + cierre (Demo Day F2, actas, sellos) | [PENDIENTE] | ⬜ |
