@@ -192,7 +192,8 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 07/08 mañana
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 14/08
+0. **[ACCIONABLE — Douglas]** **Resolver las 8 decisiones pendientes de F2** — checklist en `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md` (fecha de arranque · cronograma · baseline · repo del equipo E2 · presupuesto E7 · memoria externa E3 + MCP E5 · métricas E8 · nombres de 2 participantes). La reunión de planificación (agenda: `04_herramientas/agendas/agenda_planificacion_f2.md`) está diseñada para resolverlas en una sesión dentro de los próximos 7 días hábiles.
 1. **[Completado 07/08]** **C21 → COMPLETADO 3/3** — Mario (29/07), Patrick (29/07) e Irvin (31/07) entregaron su Skill propio, validado por Douglas con Drive Approvals. **Fase 1 cerrada**: C14–C21 3/3 con evidencia real.
 2. **[Completado 13–14/08]** **Licencia Profesional 🔵 3/3 CERTIFICADA y SELLADA** — Demo Day + verificación de flujo sin observaciones (R21) + actas firmadas por Champions, coordinadores y Douglas, **selladas por la Dirección de Informática y cada coordinación**. Copias digitales en Drive `00_Gobernanza/Actas_Licencias/` (6 PDFs: 3 certificados de conducción + 3 de Licencia Profesional). Registro en `00_marco/Licencia_Conduccion_AI.md` (tabla de conductores: Patrick/Mario/Irvin en L4–L5).
 3. **[Ejecutada 07/08]** **Auditoría de cierre de F1** (`04_herramientas/auditorias/2026-08-07_auditoria_cierre_f1.md`): set completo C14–C22, 12 inconsistencias + 12 hallazgos en tabla acumulada, R18–R22. **Pendiente ejecutar:** R18 (checklist de instalación en las 3 estaciones) y R19 (verificar repos Git) **antes del veredicto de Licencia Profesional** · R20 (consolidar Skills en repo del equipo) · R21 (veredicto formal) · R22 (recomendaciones estructurales).
@@ -278,6 +279,19 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 7) — DECISIONES PENDIENTES DE F2 EN CHECKLIST ACCIONABLE (Hermes Agent)
+
+  CREADO:
+  ✓ `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md` — checklist canónico
+    de las 8 decisiones de F2 (D1–D8) con casillas, opciones, dueño y
+    fecha; tabla de decisiones ya tomadas (no re-abrir) y flujo de
+    llenado en la reunión de planificación.
+  ✓ TOP AHORA #0 en ESTADO_PROYECTO.md: "Resolver las 8 decisiones
+    pendientes de F2" como primera acción accionable.
+
+  UBICACIÓN: junto al plan de cohorte F2 (fácil de encontrar al abrir
+  la carpeta del cohorte) + referencia en el TOP AHORA del estado.
+
 2026-08-14 | SESIÓN 26 (cont. 6) — AGENDA DE PLANIFICACIÓN DE F2 PREPARADA (Hermes Agent)
 
   CREADO:
