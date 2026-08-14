@@ -279,6 +279,21 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 13) — EMAIL A INVESTIGACIÓN ENVIADO: MANUEL ALFARO (mgalfaros) (Douglas)
+
+  CONFIRMADO:
+  ✓ Responsable de investigación: Manuel Guillermo Alfaro Sifontes
+    (mgalfaros@ujmd.edu.sv).
+  ✓ Email "Brief de investigación aplicada — Fase 1 cerrada con datos
+    publicables" ENVIADO por Douglas (14/08 15:36, verificado en Gmail
+    sent) — conversión del ResearchBrief_AIFluency_F1 a email ejecutivo
+    (borrador previo r1038672587046776478 eliminado tras el envío).
+
+  CONTEXTO DE COMUNICACIONES F2 (14/08):
+  ✓ Bienvenida F2 enviada 15:27 (6 participantes + CC Champions F1)
+  ✓ CC2 reservado para kickoff 21/08 · baseline vence 18/08 17:00
+  ✓ Brief de investigación enviado 15:36 (Manuel Alfaro)
+
 2026-08-14 | SESIÓN 26 (cont. 12) — CORREGIDO: MARCADORES MARKDOWN EN CORREO DE BIENVENIDA (Hermes Agent)
 
   ERROR DETECTADO: el borrador v3 contenía asteriscos ** de marcador
