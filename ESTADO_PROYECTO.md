@@ -51,10 +51,10 @@
 
 ## 📍 FASE ACTUAL — FASE 1: Piloto Champions
 
-**Estado:** ✅ **CERRADA** — Sesión 25 (07/08): S1, S2 y S3 completas; C14–C21 cerrados 3/3 con evidencia real y aprobación nativa de Drive.  
-**Ventana:** 2026-07-01 → 2026-07-31 (entregas finales recibidas hasta el 31/07)  
-**Objetivo:** cumplido — Champions activados, rutinas de uso de IA establecidas, diagnóstico baseline aplicado e itinerarios definidos, 7 compromisos cerrados 3/3.  
-**Progreso global:** 100% de compromisos de Fase 1 completados (C14, C15, C16, C17, C18, C19, C20, C21).
+**Estado:** ✅ **CERRADA FORMALMENTE (14/08/2026)** — validación de cierre: C14–C22 completados 3/3 con evidencia aprobada en Drive · Licencia Básica 🟢 3/3 (07/08) y Profesional 🔵 3/3 (13/08) certificadas y selladas · auditoría de cierre ejecutada (R18/R19/R21/R22 ✅) · Demo Day ejecutado con coordinadores. Sin pendientes bloqueantes.  
+**Ventana:** 2026-07-01 → 2026-07-31 (cierre formal validado 14/08)  
+**Objetivo:** cumplido — Champions activados, rutinas de uso de IA establecidas, diagnóstico baseline aplicado e itinerarios definidos, 22 compromisos cerrados, 2 niveles de licencia certificados por los 3.  
+**Progreso global:** 100% de compromisos de Fase 1 completados (C1–C22) + certificaciones emitidas.
 
 > **Fase 0 cerrada al 100% ✅** — Kick-off Sesión 0 ejecutado el 01/07/2026.
 > ✅ **S1 (Fundamentos y nivelación): CERRADA 3/3.** Mario y Patrick verificados con documento real revisado (10/07). Irvin, revertido a pendiente en la tarde, entregó segunda versión la misma noche — verificada contra documento real: caso ancla + reflexión completos. **S2 (Productividad personal) arranca lunes 13/07.** Mini-reportes de S2: **redefinidos a viernes 17/07** (13/07 — la fecha original 14/07 caía al día siguiente del arranque).
@@ -158,7 +158,7 @@
 
 ### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 07/08 mañana
 1. **[Completado 07/08]** **C21 → COMPLETADO 3/3** — Mario (29/07), Patrick (29/07) e Irvin (31/07) entregaron su Skill propio, validado por Douglas con Drive Approvals. **Fase 1 cerrada**: C14–C21 3/3 con evidencia real.
-2. **[Completado 13/08]** **Licencia Profesional 🔵 3/3 CERTIFICADA** — Demo Day + verificación de flujo sin observaciones (R21) + firma de actas con coordinadores de área como audiencia. Registro en `00_marco/Licencia_Conduccion_AI.md` (tabla de conductores: Patrick/Mario/Irvin en L4–L5). Pendiente: subir escaneos de actas firmadas a Drive `00_Gobernanza/Actas_Licencias/`.
+2. **[Completado 13–14/08]** **Licencia Profesional 🔵 3/3 CERTIFICADA y SELLADA** — Demo Day + verificación de flujo sin observaciones (R21) + actas firmadas por Champions, coordinadores y Douglas, **selladas por la Dirección de Informática y cada coordinación**. Copias digitales en Drive `00_Gobernanza/Actas_Licencias/` (6 PDFs: 3 certificados de conducción + 3 de Licencia Profesional). Registro en `00_marco/Licencia_Conduccion_AI.md` (tabla de conductores: Patrick/Mario/Irvin en L4–L5).
 3. **[Ejecutada 07/08]** **Auditoría de cierre de F1** (`04_herramientas/auditorias/2026-08-07_auditoria_cierre_f1.md`): set completo C14–C22, 12 inconsistencias + 12 hallazgos en tabla acumulada, R18–R22. **Pendiente ejecutar:** R18 (checklist de instalación en las 3 estaciones) y R19 (verificar repos Git) **antes del veredicto de Licencia Profesional** · R20 (consolidar Skills en repo del equipo) · R21 (veredicto formal) · R22 (recomendaciones estructurales).
 4. **[Completado 07/08]** **C22 → COMPLETADO 3/3** — los 3 Champions entregaron su SOUL.md propio (Mario, Irvin y Patrick), validado con Drive Approvals. **Último requisito de Licencia Profesional cumplido por los 3** — pendiente veredicto formal.
 5. **[Pendiente Douglas]** Revisión de las 3 piezas de comunicación de resultados F1 creadas el 07/08 (`Email_Coordinadores_Resultados_F1.html`, `ResearchBrief_AIFluency_F1.html`, `OnePager_Rectoria_F1.html` en `03_comunicacion/`) — **se actualizarán al terminar las acciones de la fase** (auditoría de cierre F1, Demo Day, arranque F2, veredicto Profesional) antes de su uso oficial.
@@ -242,6 +242,50 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 3) — VALIDACIÓN DE CIERRE FORMAL DE LA FASE 1 ✅ (Douglas + Hermes Agent)
+
+  VALIDACIÓN REALIZADA (solicitud de Douglas para proceder a F2):
+  ✓ Compromisos C1–C22: todos ✅ COMPLETADO (C14–C22 3/3 con evidencia
+    aprobada en Drive Approvals; C17 base colectiva completada).
+  ✓ Certificaciones: Básica 🟢 3/3 (07/08) + Profesional 🔵 3/3 (13/08)
+    firmadas por Champions/coordinadores/Instructor, selladas por la
+    Dirección de Informática y cada coordinación, copias digitales en
+    `00_Gobernanza/Actas_Licencias/` (6 PDFs verificados).
+  ✓ Auditoría de cierre F1: R18/R19 a satisfacción · R21 cerrada (Demo
+    Day, verificación conforme sin observaciones) · R22 liquidada.
+  ✓ Demo Day ejecutado con coordinadores de área como audiencia
+    (13/08, sala DSI, grabación Meet).
+
+  CONCLUSIÓN: LA FASE 1 SE DECLARA CERRADA DE MANERA FORMAL Y
+  DEFINITIVA — sin pendientes bloqueantes. Pendientes NO bloqueantes
+  que pasan a F2: C17 (aportes propios de Irvin/Mario en colaborativa),
+  R20 (consolidar Skills en repo del equipo), matriz de retrospectiva
+  (resultados como insumo de F2), actualización final de piezas _F1,
+  primer turno de co-facilitador rotativo (R9).
+
+  ACCIÓN #1: Douglas procede al arranque de F2 (Capa 1 — Dirección IT):
+  decisión de fecha/alcance, consolidación de Skills (R20) y Demo Day
+  a áreas (Roadmap F2, semanas 5–6).
+
+2026-08-14 | SESIÓN 26 (cont. 2) — CERTIFICADOS DE LICENCIA PROFESIONAL FIRMADOS Y SELLADOS; COPIAS DIGITALES EN DRIVE (Douglas)
+
+  CONFIRMADO POR DOUGLAS:
+  ✓ Las certificaciones de Licencia Profesional fueron firmadas por los
+    3 Champions, sus coordinadores y el Instructor (Douglas), y selladas
+    por la Dirección de Informática y cada coordinación.
+  ✓ Copias digitales en Drive `00_Gobernanza/Actas_Licencias/` (verificadas
+    14/08): 6 PDFs — "Licencia de Conducción AI_<Champion>" y
+    "Licencia Profesional_<Champion>" (Mario, Patrick, Irvin).
+
+  ESTADO ACTUALIZADO:
+  → TOP AHORA #2: certificación sellada, copias digitales subidas.
+  → `Licencia_Conduccion_AI.md`: nota de registro actualizada.
+  → Learning records ×3: acta + certificado sellado + PDF en Drive.
+
+  PENDIENTE: decisiones de F2 (arranque, R20 consolidar Skills en repo
+  del equipo, Demo Day a áreas) · consolidar matriz de retrospectiva
+  cuando los Champions la llenen (vence 14/08 17:00).
+
 2026-08-13 | SESIÓN 26 (cont.) — MATRIZ DE RETROSPECTIVA DE FASE 1 CREADA (Hermes Agent, tarde)
 
   TRABAJO REALIZADO:

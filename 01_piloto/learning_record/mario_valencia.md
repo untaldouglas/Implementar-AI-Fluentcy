@@ -95,7 +95,7 @@
 |---|---|
 | Sesión | Demo Day + Certificación (13/08/2026, 14:00–15:45, sala DSI, grabación Meet) |
 | Verificación de flujo (R21) | ✅ **Conforme — sin observaciones** (demostró su Skill en vivo, medición C19 y SOUL) |
-| Acta | `Acta_Licencia_Profesional_Mario_Valencia_2026-08-13` — firmada (Instructor + Champion), escaneo pendiente de subir a Drive |
+| Acta | `Acta_Licencia_Profesional_Mario_Valencia_2026-08-13` — firmada (Instructor + Champion) + **certificado sellado por la Dirección de Informática y la coordinación** · copia digital PDF en Drive `00_Gobernanza/Actas_Licencias/` |
 | Registro | `00_marco/Licencia_Conduccion_AI.md` — tabla de conductores: **🔵 L4–L5** |
 | Progresión completa | 🟤 Permiso (baseline L1) → 🟢 Básica (07/08) → 🔵 **Profesional (13/08)** |
 

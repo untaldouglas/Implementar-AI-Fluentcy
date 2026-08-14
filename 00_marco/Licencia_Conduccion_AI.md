@@ -136,7 +136,7 @@ Igual que manejar un vehículo, operar con IA no es una habilidad binaria — se
 | Mario E. Valencia (Desarrollo) | 🔵 Licencia Profesional | L4–L5 | 13 ago 2026 | Douglas A. Galindo |
 | Irvin J. Morales (Soporte) | 🔵 Licencia Profesional | L4–L5 | 13 ago 2026 | Douglas A. Galindo |
 
-> Registro del piloto (13/08/2026): los 3 Champions certificados en **Licencia Profesional 🔵 (L4–L5)** tras el Demo Day + verificación de flujo sin observaciones (R21) y firma de actas en la sesión del 13/08 con coordinadores de área como audiencia. Previamente: Licencia Básica 🟢 (L2–L3) activada 07/08 con actas emitidas el 17/07 condicionadas a evidencia C19 (condición cumplida y validada con aprobación nativa de Drive). Actas escaneadas por subir a `00_Gobernanza/Actas_Licencias/`.
+> Registro del piloto (13/08/2026): los 3 Champions certificados en **Licencia Profesional 🔵 (L4–L5)** tras el Demo Day + verificación de flujo sin observaciones (R21) y firma de actas en la sesión del 13/08 con coordinadores de área como audiencia. **14/08: certificados firmados por Champions, coordinadores y el Instructor, sellados por la Dirección de Informática y cada coordinación; copias digitales (PDF) en `00_Gobernanza/Actas_Licencias/`.** Previamente: Licencia Básica 🟢 (L2–L3) activada 07/08 con actas emitidas el 17/07 condicionadas a evidencia C19 (condición cumplida y validada con aprobación nativa de Drive).
 
 ---
 

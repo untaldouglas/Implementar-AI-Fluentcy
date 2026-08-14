@@ -2,7 +2,7 @@
 **Dirección de Servicios Informáticos · @untaldouglas**  
 Framework: Modelo de Conducción AI (MCA) · Herramienta: [Hermes Agent](https://github.com/nousresearch/hermes-agent)
 
-> **Estado (07/08/2026):** Fase 1 (Piloto Champions) ✅ CERRADA 3/3 — C14–C22 completados con evidencia aprobada en Drive · Licencia Básica 3/3 activada · Licencia Profesional a veredicto. Ver `ESTADO_PROYECTO.md` (fuente de verdad viva).
+> **Estado (14/08/2026):** **Fase 1 (Piloto Champions) ✅ CERRADA FORMALMENTE** — C14–C22 completados 3/3 con evidencia aprobada en Drive · **Licencia Básica 🟢 3/3 (07/08) + Licencia Profesional 🔵 3/3 (13/08) certificadas y selladas** (actas firmadas por Champions, coordinadores e Instructor). Ver `ESTADO_PROYECTO.md` (fuente de verdad viva).
 
 ---
 
@@ -111,4 +111,4 @@ CAPA 3 · Comunidad (M9-18)    → Docentes y estudiantes
 
 ---
 
-*AI Fluency Program UJMD · v3.0 · Agosto 2026 (Fase 1 completada)*
+*AI Fluency Program UJMD · v3.1 · Agosto 2026 (Fase 1 cerrada formalmente — Licencias Básica y Profesional 3/3 emitidas)*
