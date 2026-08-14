@@ -31,11 +31,11 @@
 | Fin del programa | 2026-12-31 |
 | Hoy (última actualización) | 2026-08-13 |
 | Días desde inicio | 44 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · F2 (Expansión al equipo) pendiente de decisión de arranque |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN PLANIFICACIÓN** (inicio en próximos 7 días hábiles — 6 participantes y 8 entregables definidos) |
 | Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
 | Mes de proyecto | M2 |
-| Próximo hito | F2 (expansión al equipo) — sin fecha de arranque · consolidación de Skills en repo del equipo (R20) · Demo Day a áreas (Roadmap F2, semanas 5–6) |
-| Días hasta próximo hito | sin fecha definida |
+| Próximo hito | **Planificación de F2 (inicio en los próximos 7 días hábiles)** — 6 participantes definidos (3 coordinadores + 3 nuevos) · 8 entregables definidos · arranque y nombres pendientes |
+| Días hasta próximo hito | dentro de 7 días hábiles |
 
 ### Calendario de fases
 
@@ -76,6 +76,42 @@
 - [x] ~~Artefactos de venta creados~~ ✓
 - [x] ~~Narrativa de origen del programa definida~~ ✓
 - [x] ~~Blog post inaugural creado~~ ✓
+
+---
+
+## 🚀 FASE SIGUIENTE — FASE 2: Expansión al equipo (Capa 1 — Dirección IT)
+
+**Estado:** 🟡 EN PLANIFICACIÓN — en los próximos 7 días hábiles se planificará el inicio (definición de Douglas, 14/08/2026).
+
+**Participantes definidos (6 personas nuevas):**
+| # | Persona | Coordinación | Notas |
+|---|---|---|---|
+| 1 | Luis Molina (Coordinador Infraestructura) | Infraestructura | Coordinador existente |
+| 2 | Stephanie Miranda (Coordinadora Desarrollo) | Desarrollo | Coordinadora existente |
+| 3 | Jorge Siguenza (Coordinador Sistemas) | Sistemas | Coordinador existente |
+| 4 | Betty | Sistemas | Se une al programa (nueva) |
+| 5 | Persona adicional | Sistemas | Se une al programa (nueva — por definir nombre) |
+| 6 | Persona adicional | Desarrollo | Se une al programa (nueva — por definir nombre) |
+
+> Nota: los 3 Coordinadores participan en F2 + 3 personas nuevas = 6 participantes nuevos. Los 3 Champions de F1 (Mario, Irvin, Patrick) pasan a rol de facilitadores/co-facilitadores (R9 — rotación semanal).
+
+**Entregables de la Fase 2 (definidos por Douglas, 14/08):**
+| # | Entregable | Detalle |
+|---|---|---|
+| E1 | 6 personas nuevas con conocimiento validado para nivel L6 | Validación contra rúbrica/evidencia (mismo modelo de F1: evidencia real, no verbal) |
+| E2 | Profiles, Skills y SOULs por puesto de trabajo de las coordinaciones, creados y gestionados en Git repository local | Consolida R20 (Skills en repo del equipo) + perfiles C20 + SOULs C22 de F1 por puesto |
+| E3 | Herramienta definida para memoria externa a Hermes | Decisión de herramienta (evaluar opciones) |
+| E4 | Proceso de gestión de Skills externos dentro de la operación | Flujo de ingreso/actualización/calidad de Skills externos |
+| E5 | Al menos 1 MCP funcional para integrar soluciones corporativas (se sugiere 1 MCP por servicio) | Integración con sistemas corporativos |
+| E6 | Solución gateway de AI services funcionando (https://github.com/maximhq/bifrost) como punto de consumo de LLM credits | Gateway Bifrost operativo |
+| E7 | Presupuesto autorizado para consumo administrado de LLM credits — $200 mensuales presupuestados (validar) | Validación/captura del presupuesto |
+| E8 | Métricas de impacto en valor de negocio al usar productos creados en el programa | Analizar información y presentar actualizaciones sugeridas antes de modificar o crear contenido |
+
+**Bloqueado por / a resolver en la planificación:**
+- Fecha de arranque (dentro de los próximos 7 días hábiles) · alcance y cadencia de sesiones
+- Nombres de las 2 personas adicionales (Sistemas y Desarrollo) por confirmar
+- Validación del presupuesto $200/mes LLM credits (E7)
+- Rol de Champions de F1 en F2 (facilitadores + co-facilitación R9)
 
 ---
 
@@ -242,6 +278,56 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-14 | SESIÓN 26 (cont. 5) — ESTRUCTURA DE GESTIÓN POR COHORTE CREADA (especialista + Douglas)
+
+  DECISIÓN DE DOUGLAS (respuestas a análisis independiente):
+  1. Validación F2: los Champions de F1 VALIDAN (con rúbrica) y Douglas
+     CO-FIRMA — solo este primer ejercicio (se revisa al cierre de F2).
+  2. El arranque e itinerarios de F2 dependen del análisis de las
+     respuestas del Google Form baseline de cada participante (no se
+     asume nivel previo).
+  7. Materializar la estructura de gestión por cohorte.
+
+  CREADO:
+  ✓ `01_piloto/cohortes/plantilla_plan_cohorte.md` — plantilla de plan
+    para todo cohorte nuevo (participantes, entregables, cronograma,
+    validación, presupuesto, riesgos, lecciones del cohorte anterior).
+  ✓ `01_piloto/cohortes/F2/plan_cohorte.md` — plan F2 llenado (6
+    participantes, entregables E1–E8, validación transitoria Champions+
+    co-firma, arranque condicionado al baseline).
+  ✓ `01_piloto/cohortes/F1/README.md` — referencia congelada de F1
+    (versión inmutable: rama Git Fase01; artefactos NO se movieron para
+    no romper 78 referencias históricas — decisión de especialista).
+  ✓ `01_piloto/guias_estandar/` — guía_facilitador.md (rol, cadencia,
+    rúbrica Básica, pitfalls F1), guía_participante.md (viaje en 6
+    pasos, cómo entregar evidencia, FAQ), guía_validador.md (rúbricas
+    por licencia, procedimiento, veredictos, errores históricos).
+  ✓ README.md actualizado con la nueva estructura (CLAUDE.md pendiente:
+    archivo protegido, requiere aprobación explícita para editarlo).
+
+  CICLO DE COHORTE DOCUMENTADO (F0 Planificación → F1 Selección+baseline
+  → F2 Setup → F3 Sesiones → F4 Verificación → F5 Evaluación+cierre →
+  F6 Post-cierre) — en guía_facilitador y plan_cohorte.
+
+2026-08-14 | SESIÓN 26 (cont. 4) — DEFINICIÓN DE FASE 2 REGISTRADA: 6 PARTICIPANTES + 8 ENTREGABLES (Douglas)
+
+  CONFIRMADO POR DOUGLAS (para la planificación en los próximos 7 días hábiles):
+  ✓ PARTICIPANTES F2 (6 nuevos): Luis (Coord. Infraestructura), Stephanie
+    (Coord. Desarrollo), Jorge (Coord. Sistemas) + Betty (Sistemas) +
+    1 persona adicional de Sistemas + 1 persona adicional de Desarrollo.
+    Los 3 Champions de F1 pasan a facilitadores/co-facilitadores (R9).
+  ✓ ENTREGABLES F2 (8): E1 (6 personas validadas nivel L6) · E2 (Profiles/
+    Skills/SOULs por puesto en Git repository local — consolida R20) · E3
+    (herramienta de memoria externa a Hermes) · E4 (proceso de gestión de
+    Skills externos) · E5 (≥1 MCP funcional, sugerido 1 por servicio) · E6
+    (gateway Bifrost de AI services como punto de consumo LLM credits) · E7
+    (presupuesto $200/mes LLM credits autorizado — validar) · E8 (métricas
+    de impacto en valor de negocio).
+  ✓ Registrado en ESTADO_PROYECTO.md (sección "FASE SIGUIENTE — FASE 2").
+
+  PENDIENTE DE PLANIFICACIÓN: fecha de arranque · nombres de las 2 personas
+  adicionales · validación presupuesto E7 · alcance y cadencia de sesiones.
+
 2026-08-14 | SESIÓN 26 (cont. 3) — VALIDACIÓN DE CIERRE FORMAL DE LA FASE 1 ✅ (Douglas + Hermes Agent)
 
   VALIDACIÓN REALIZADA (solicitud de Douglas para proceder a F2):

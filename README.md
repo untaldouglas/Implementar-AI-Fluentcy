@@ -19,17 +19,25 @@ ai-fluency-ujmd/
 │   └── Guia_Aprendizaje_y_Evidencia_por_Licencia.md  # ★ Guía rápida por licencia/nivel (facilitadores e interesados)
 │
 ├── 01_piloto/              ← Capa 0: Los 3 Champions (Fase 1 completada)
+│   ├── cohortes/                           # ★ Gestión por cohorte (F2 en adelante)
+│   │   ├── plantilla_plan_cohorte.md       # ★ Plantilla de plan para todo cohorte nuevo
+│   │   ├── F1/                             # Referencia congelada (versión inmutable: rama Fase01)
+│   │   └── F2/                             # ★ Plan de cohorte F2 (expansión al equipo)
+│   ├── guias_estandar/                     # ★ Guías reutilizables por rol
+│   │   ├── guia_facilitador.md             #   (Champions que acompañan)
+│   │   ├── guia_participante.md            #   (qué esperar y cómo entregar)
+│   │   └── guia_validador.md               #   (rúbricas y Drive Approvals)
 │   ├── Roadmap_AI_Fluency_UJMD.md             # Roadmap operativo v2.0
 │   ├── Acta_Seleccion_Champions_AI_Fluency.md # Selección formal + roles
-│   ├── learning_record/                       # ★ Registros individuales + dashboard (C16)
+│   ├── learning_record/                       # Registros individuales + dashboard (C16)
 │   │   ├── irvin_morales.md · mario_valencia.md · patrick_orellana.md
 │   │   └── _dashboard.md
-│   ├── conocimiento_colectivo/                # ★ Glosario, FAQ, errores (C17)
+│   ├── conocimiento_colectivo/                # Glosario, FAQ, errores (C17)
 │   ├── SOUL_plantillas/                       # Configs por área para Hermes
 │   │   ├── SOUL_Soporte.md
 │   │   ├── SOUL_Desarrollo.md
 │   │   └── SOUL_Infraestructura.md
-│   ├── evidencia_piloto/                      # ★ Espejo local de evidencia S1
+│   ├── evidencia_piloto/                      # Espejo local de evidencia S1
 │   └── google_form/                           # Automatización del diagnóstico
 │       ├── crear_form_conduccion_ai.gs        # → make create-form
 │       ├── consolidador_appsscript.gs
@@ -74,6 +82,8 @@ ai-fluency-ujmd/
 | Entender el marco conceptual | `00_marco/Manual_Implementacion_Estrategica.md` |
 | Ver el plan operativo | `01_piloto/Roadmap_AI_Fluency_UJMD.md` |
 | Saber qué se aprende y qué se entrega por licencia | `00_marco/Guia_Aprendizaje_y_Evidencia_por_Licencia.md` ★ |
+| Ver el plan de un cohorte nuevo (F2…) | `01_piloto/cohortes/` ★ |
+| Guías por rol (facilitador/participante/validador) | `01_piloto/guias_estandar/` ★ |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` (fuente de verdad) |
 | Ver los registros individuales de los Champions | `01_piloto/learning_record/` |
 | Verificar una instalación de Hermes | `04_herramientas/checklist_artefactos_instalacion_champions.md` ★ |
