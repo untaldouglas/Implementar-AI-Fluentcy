@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infográfico — AI Fluency · UJMD</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #f4f6fb;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0a1035;
+  }
+
+  /* PAGE WRAPPER — imprimible A3 landscape orientación */
+  .page {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+    background: #ffffff;
+  }
+
+  /* ═══ HEADER ═══ */
+  .header {
+    background: #03001a;
+    padding: 36px 52px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 280px; height: 280px;
+    background: radial-gradient(circle, rgba(0,85,204,0.18) 0%, transparent 65%);
+    border-radius: 50%;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; left: 200px;
+    width: 180px; height: 180px;
+    background: radial-gradient(circle, rgba(0,229,255,0.07) 0%, transparent 65%);
+    border-radius: 50%;
+  }
+  .header-left { position: relative; z-index: 2; }
+  .header-eyebrow {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(0,229,255,0.6);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.05;
+  }
+  .header-title span { color: #00e5ff; }
+  .header-sub {
+    font-size: 13px;
+    color: rgba(255,255,255,0.45);
+    margin-top: 8px;
+  }
+  .header-right {
+    position: relative;
+    z-index: 2;
+    text-align: right;
+  }
+  .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+  .header-slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+  }
+  .header-slogan span { color: #00e5ff; }
+
+  /* ═══ BODY GRID ═══ */
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0;
+    background: #f4f6fb;
+  }
+
+  /* ═══ SECTION CARD ═══ */
+  .sec {
+    background: #fff;
+    border-right: 1px solid #e4e9f5;
+    border-bottom: 1px solid #e4e9f5;
+    padding: 28px 30px;
+  }
+  .sec:nth-child(3n) { border-right: none; }
+  .sec-label {
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #00b8d4;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .sec-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #03001a;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #0055cc;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sec-title .icon { color: #0055cc; font-size: 16px; }
+
+  /* ═══ CONCEPTO CENTRAL ═══ */
+  .concept {
+    grid-column: 1 / -1;
+    background: linear-gradient(135deg, #0a1a5c 0%, #03001a 100%);
+    border-right: none;
+    border-bottom: none;
+    padding: 32px 52px;
+    display: flex;
+    gap: 52px;
+    align-items: center;
+  }
+  .concept-analogy {
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .analogy-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  .analogy-box {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 16px 22px;
+    text-align: center;
+  }
+  .analogy-icon { font-size: 32px; margin-bottom: 6px; }
+  .analogy-label { font-size: 11px; color: rgba(255,255,255,0.5); }
+  .analogy-name { font-family:'Montserrat',sans-serif; font-size:13px; font-weight:700; color:#fff; margin-top:2px; }
+  .analogy-eq { font-family:'Montserrat',sans-serif; font-size:24px; font-weight:900; color:#00e5ff; }
+  .concept-text { flex: 1; }
+  .concept-quote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+  .concept-quote span { color: #00e5ff; }
+  .concept-body { font-size: 13px; color: rgba(255,255,255,0.55); line-height: 1.7; }
+
+  /* ═══ NIVELES / RUTA ═══ */
+  .levels-track {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .level-row {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    position: relative;
+  }
+  .level-number {
+    width: 36px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .level-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .level-line {
+    width: 2px;
+    flex: 1;
+    background: #e4e9f5;
+    margin: 0 auto;
+    min-height: 8px;
+  }
+  .level-content {
+    flex: 1;
+    padding: 4px 0 12px 10px;
+  }
+  .level-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .level-desc { font-size: 11px; color: #8896b8; margin-top: 1px; }
+  .level-license-tag {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-top: 3px;
+  }
+
+  /* ═══ LICENCIAS ═══ */
+  .license-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .license-card:last-child { margin-bottom: 0; }
+  .license-badge-mini {
+    width: 40px;
+    height: 46px;
+    flex-shrink: 0;
+  }
+  .license-info { flex: 1; }
+  .license-name { font-family:'Montserrat',sans-serif; font-size:12px; font-weight:800; }
+  .license-levels { font-size:10px; font-weight:500; margin-top:1px; }
+  .license-desc { font-size:10px; color:#8896b8; margin-top:3px; line-height:1.4; }
+
+  /* ═══ ROADMAP ═══ */
+  .phase-list { display: flex; flex-direction: column; gap: 10px; }
+  .phase-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .phase-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: #e8f0ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    color: #0055cc;
+    flex-shrink: 0;
+  }
+  .phase-content {}
+  .phase-name { font-family:'Montserrat',sans-serif; font-size:12px; font-weight:700; color:#0a1035; }
+  .phase-time { font-size:10px; color:#0055cc; font-weight:600; margin-top:1px; }
+  .phase-desc { font-size:11px; color:#8896b8; margin-top:2px; line-height:1.4; }
+  .phase-connector {
+    width: 2px;
+    height: 8px;
+    background: #e4e9f5;
+    margin-left: 13px;
+  }
+
+  /* ═══ HERRAMIENTAS ═══ */
+  .tool-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .tool-item {
+    background: #f4f6fb;
+    border: 1px solid #e4e9f5;
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .tool-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .tool-name { font-size: 11px; font-weight: 700; color: #0a1a5c; }
+  .tool-role { font-size: 10px; color: #8896b8; margin-top: 1px; }
+
+  /* ═══ MÉTRICAS / KPIs ═══ */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .kpi-item {
+    background: #f4f6fb;
+    border: 1px solid #e4e9f5;
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .kpi-value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #0055cc;
+    line-height: 1;
+  }
+  .kpi-label { font-size: 11px; color: #4a5880; margin-top: 4px; line-height: 1.3; }
+  .kpi-sub { font-size: 10px; color: #8896b8; margin-top: 2px; }
+
+  /* ═══ CHAMPIONS ═══ */
+  .champion-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .cf-step {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background: #f4f6fb;
+    border: 1px solid #e4e9f5;
+    border-radius: 8px;
+    padding: 10px 14px;
+  }
+  .cf-icon { font-size: 18px; }
+  .cf-text {}
+  .cf-name { font-size:12px; font-weight:700; color:#0a1035; }
+  .cf-desc { font-size:10px; color:#8896b8; margin-top:1px; }
+  .cf-arrow { text-align:center; color:#c8d2e8; font-size:16px; }
+
+  /* ═══ PRINCIPIO RECTOR ═══ */
+  .principle-box {
+    background: #e8f0ff;
+    border: 1px solid #c8d2e8;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 14px;
+  }
+  .principle-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0a1a5c;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .principle-text span { color: #0055cc; }
+
+  /* ═══ DIAGNÓSTICO ═══ */
+  .diag-scale {
+    display: flex;
+    gap: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e4e9f5;
+    margin-bottom: 12px;
+  }
+  .diag-step {
+    flex: 1;
+    padding: 8px 4px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    border-right: 1px solid #fff;
+  }
+  .diag-step:last-child { border-right: none; }
+  .diag-label { font-size: 9px; color: rgba(255,255,255,0.7); margin-top: 2px; }
+
+  /* ═══ FOOTER ═══ */
+  .footer {
+    background: #0a1a5c;
+    padding: 18px 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left { font-size:11px; color:rgba(255,255,255,0.3); }
+  .footer-right { display:flex; gap:20px; align-items:center; }
+  .footer-metric {
+    text-align:center;
+  }
+  .footer-val { font-family:'Montserrat',sans-serif; font-size:18px; font-weight:900; color:#00e5ff; }
+  .footer-lbl { font-size:9px; color:rgba(255,255,255,0.3); text-transform:uppercase; letter-spacing:1.5px; margin-top:1px; }
+  .footer-div { width:1px; height:30px; background:rgba(255,255,255,0.1); }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ═══════════ HEADER ═══════════ -->
+<div class="header">
+  <div class="header-left">
+    <div class="header-eyebrow">UJMD · Dirección de Servicios Informáticos · 2026</div>
+    <div class="header-title">AI<span>Fluency</span></div>
+    <div class="header-sub">Programa de Certificación Progresiva en Inteligencia Artificial</div>
+  </div>
+  <div class="header-right">
+    <div class="header-logo">
+      <svg width="42" height="42" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="23" cy="23" r="21" stroke="#00e5ff" stroke-width="1.5"/>
+        <path d="M7 32 A18 18 0 1 1 39 32" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <line x1="23" y1="23" x2="33" y2="12" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="23" cy="23" r="3.5" fill="#00e5ff"/>
+        <line x1="23" y1="4" x2="23" y2="9" stroke="#00e5ff" stroke-width="1.5"/>
+        <line x1="7.5" y1="31" x2="11.5" y2="28.5" stroke="#00e5ff" stroke-width="1.5"/>
+        <line x1="38.5" y1="31" x2="34.5" y2="28.5" stroke="#00e5ff" stroke-width="1.5"/>
+      </svg>
+      <div style="font-family:'Montserrat',sans-serif;font-weight:900;font-size:20px;color:#fff;">AI<span style="color:#00e5ff;">Fluency</span></div>
+    </div>
+    <div class="header-slogan">Conduce tu futuro con <span>IA</span></div>
+  </div>
+</div>
+
+
+<!-- ═══════════ CONCEPTO CENTRAL ═══════════ -->
+<div class="body">
+<div class="concept">
+  <div class="concept-analogy">
+    <div class="analogy-row">
+      <div class="analogy-box">
+        <div class="analogy-icon">🚗</div>
+        <div class="analogy-label">Conducir un vehículo</div>
+        <div class="analogy-name">Aprendizaje → Práctica → Licencia</div>
+      </div>
+      <div class="analogy-eq">=</div>
+      <div class="analogy-box">
+        <div class="analogy-icon">🤖</div>
+        <div class="analogy-label">Operar con IA</div>
+        <div class="analogy-name">Diagnóstico → Niveles → Certificación</div>
+      </div>
+    </div>
+  </div>
+  <div class="concept-text">
+    <div class="concept-quote">Igual que manejar, la IA <span>no es binaria.</span><br>Se aprende, se practica y se certifica.</div>
+    <div class="concept-body">El Modelo de Conducción AI (MCA) parte de una premisa simple: nadie aprende a manejar leyendo un manual. Aprendes conduciendo, con un instructor, cometiendo errores en un espacio seguro — hasta que puedes demostrar que puedes solo. AI Fluency hace exactamente eso para la inteligencia artificial en el equipo de Informática de la UJMD.</div>
+  </div>
+</div>
+
+
+<!-- ═══════════ COLUMNA 1 — NIVELES ═══════════ -->
+<div class="sec">
+  <div class="sec-label">La Ruta</div>
+  <div class="sec-title"><span class="icon">⚡</span>Los 10 Niveles (L0 → L9)</div>
+
+  <div class="levels-track">
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#fff8e0;color:#7a5200;border:1.5px solid #c87d00;">L0</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#7a5200;">Peatón Digital</div>
+        <div class="level-desc">Nunca ha usado IA de forma intencional</div>
+        <span class="level-license-tag" style="background:#fff8e0;color:#7a5200;border:1px solid #c87d00;">🟤 PERMISO DE APRENDIZAJE</span>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#fff3d0;color:#7a5200;border:1.5px solid #c87d00;">L1</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#7a5200;">Pasajero con Asistencia</div>
+        <div class="level-desc">Usa ChatGPT para tareas simples con guía</div>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#edfff4;color:#1a5a2a;border:1.5px solid #2a7a3a;">L2</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#1a5a2a;">Conductor en Zona Conocida</div>
+        <div class="level-desc">Prompts básicos, tareas recurrentes</div>
+        <span class="level-license-tag" style="background:#edfff4;color:#1a5a2a;border:1px solid #2a7a3a;">🟢 LICENCIA BÁSICA</span>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#d4f5e4;color:#1a5a2a;border:1.5px solid #2a7a3a;">L3</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#1a5a2a;">Conductor Independiente</div>
+        <div class="level-desc">Adapta prompts, combina herramientas</div>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#e8f0ff;color:#0a1a5c;border:1.5px solid #0055cc;">L4</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#0a1a5c;">Conductor Profesional</div>
+        <div class="level-desc">SOUL.md propio, flujos estructurados</div>
+        <span class="level-license-tag" style="background:#e8f0ff;color:#0055cc;border:1px solid #0055cc;">🔵 LICENCIA PROFESIONAL</span>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#d0e4ff;color:#0a1a5c;border:1.5px solid #0055cc;">L5</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#0a1a5c;">Experto en Ruta</div>
+        <div class="level-desc">Skills en Git, agentes especializados</div>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#f0eaff;color:#3a0080;border:1.5px solid #7b2fe8;">L6</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#3a0080;">Piloto Avanzado</div>
+        <div class="level-desc">Automatizaciones activas, impacto medible</div>
+        <span class="level-license-tag" style="background:#f0eaff;color:#7b2fe8;border:1px solid #7b2fe8;">🟣 LICENCIA AVANZADA</span>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#e4d8ff;color:#3a0080;border:1.5px solid #7b2fe8;">L7</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#3a0080;">Arquitecto de Soluciones AI</div>
+        <div class="level-desc">Diseña flujos para otros, multi-agente</div>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#fffbe0;color:#7a5000;border:2px solid #d4a900;">L8</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-name" style="color:#7a5000;">Instructor Certificado</div>
+        <div class="level-desc">Certifica a otros, genera evidencia</div>
+        <span class="level-license-tag" style="background:#fffbe0;color:#b38000;border:1px solid #d4a900;">🏆 INSTRUCTOR DE CONDUCCIÓN</span>
+      </div>
+    </div>
+
+    <div class="level-row">
+      <div class="level-number">
+        <div class="level-num" style="background:#fff3b0;color:#7a5000;border:2px solid #d4a900;">L9</div>
+      </div>
+      <div class="level-content" style="padding-bottom:0;">
+        <div class="level-name" style="color:#7a5000;">Líder de Ecosistema AI</div>
+        <div class="level-desc">Diseña el programa, certifica instructores</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ═══════════ COLUMNA 2 — LICENCIAS + ROADMAP ═══════════ -->
+<div class="sec">
+  <div class="sec-label">Las 5 Credenciales</div>
+  <div class="sec-title"><span class="icon">📋</span>Sistema de Licencias</div>
+
+  <!-- Licencias -->
+  <div style="margin-bottom:24px;">
+    <div class="license-card" style="--bg:#fff8e0;--border:#e0b030;">
+      <svg class="license-badge-mini" viewBox="0 0 90 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="45,3 85,23 85,80 45,100 5,80 5,23" fill="#fff8e0" stroke="#c87d00" stroke-width="2"/>
+        <text x="45" y="48" text-anchor="middle" fill="#7a5200" font-family="Montserrat,sans-serif" font-size="9" font-weight="700">PERMISO</text>
+        <text x="45" y="66" text-anchor="middle" fill="#7a5200" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L1</text>
+        <text x="45" y="78" text-anchor="middle" fill="#c87d00" font-family="monospace" font-size="8">L0–L1</text>
+      </svg>
+      <div class="license-info">
+        <div class="license-name" style="color:#7a5200;">🟤 Permiso de Aprendizaje</div>
+        <div class="license-levels" style="color:#c87d00;">Niveles L0 – L1</div>
+        <div class="license-desc">Usa IA con asistencia constante. Primera exposición controlada.</div>
+      </div>
+    </div>
+
+    <div class="license-card" style="--bg:#edfff4;--border:#2a7a3a;">
+      <svg class="license-badge-mini" viewBox="0 0 90 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="45,3 85,23 85,80 45,100 5,80 5,23" fill="#edfff4" stroke="#2a7a3a" stroke-width="2"/>
+        <text x="45" y="48" text-anchor="middle" fill="#1a5a2a" font-family="Montserrat,sans-serif" font-size="9" font-weight="700">BÁSICA</text>
+        <text x="45" y="66" text-anchor="middle" fill="#1a5a2a" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L3</text>
+        <text x="45" y="78" text-anchor="middle" fill="#2a7a3a" font-family="monospace" font-size="8">L2–L3</text>
+      </svg>
+      <div class="license-info">
+        <div class="license-name" style="color:#1a5a2a;">🟢 Licencia Básica</div>
+        <div class="license-levels" style="color:#2a7a3a;">Niveles L2 – L3</div>
+        <div class="license-desc">Conduce solo en tareas conocidas. Prompts funcionales.</div>
+      </div>
+    </div>
+
+    <div class="license-card" style="--bg:#e8f0ff;--border:#0055cc;">
+      <svg class="license-badge-mini" viewBox="0 0 90 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="45,3 85,23 85,80 45,100 5,80 5,23" fill="#e8f0ff" stroke="#0055cc" stroke-width="2"/>
+        <text x="45" y="46" text-anchor="middle" fill="#0a1a5c" font-family="Montserrat,sans-serif" font-size="7" font-weight="700">PROFESIONAL</text>
+        <text x="45" y="64" text-anchor="middle" fill="#0a1a5c" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L5</text>
+        <text x="45" y="78" text-anchor="middle" fill="#0055cc" font-family="monospace" font-size="8">L4–L5</text>
+      </svg>
+      <div class="license-info">
+        <div class="license-name" style="color:#0a1a5c;">🔵 Licencia Profesional</div>
+        <div class="license-levels" style="color:#0055cc;">Niveles L4 – L5</div>
+        <div class="license-desc">SOUL.md propio + Skills en Git. Flujos auditables.</div>
+      </div>
+    </div>
+
+    <div class="license-card" style="--bg:#f0eaff;--border:#7b2fe8;">
+      <svg class="license-badge-mini" viewBox="0 0 90 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="45,3 85,23 85,80 45,100 5,80 5,23" fill="#f0eaff" stroke="#7b2fe8" stroke-width="2"/>
+        <text x="45" y="46" text-anchor="middle" fill="#3a0080" font-family="Montserrat,sans-serif" font-size="8" font-weight="700">AVANZADA</text>
+        <text x="45" y="64" text-anchor="middle" fill="#3a0080" font-family="Montserrat,sans-serif" font-size="18" font-weight="900">L7</text>
+        <text x="45" y="78" text-anchor="middle" fill="#7b2fe8" font-family="monospace" font-size="8">L6–L7</text>
+      </svg>
+      <div class="license-info">
+        <div class="license-name" style="color:#3a0080;">🟣 Licencia Avanzada</div>
+        <div class="license-levels" style="color:#7b2fe8;">Niveles L6 – L7</div>
+        <div class="license-desc">Automatizaciones activas, impacto medible en operaciones.</div>
+      </div>
+    </div>
+
+    <div class="license-card" style="--bg:#fffbe0;--border:#d4a900;">
+      <svg class="license-badge-mini" viewBox="0 0 90 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="45,3 85,23 85,80 45,100 5,80 5,23" fill="#fffbe0" stroke="#d4a900" stroke-width="2.5"/>
+        <text x="45" y="44" text-anchor="middle" fill="#7a5000" font-family="Montserrat,sans-serif" font-size="7" font-weight="700">INSTRUCTOR</text>
+        <text x="45" y="60" text-anchor="middle" font-size="18">🏆</text>
+        <text x="45" y="76" text-anchor="middle" fill="#b38000" font-family="monospace" font-size="8">L8–L9</text>
+      </svg>
+      <div class="license-info">
+        <div class="license-name" style="color:#7a5000;">🏆 Instructor de Conducción</div>
+        <div class="license-levels" style="color:#b38000;">Niveles L8 – L9</div>
+        <div class="license-desc">Certifica y enseña a otros. Diseña el programa.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Principio rector -->
+  <div class="principle-box">
+    <div class="principle-text">"Homogenizar <span>hacia arriba</span>,<br>no hacia el mínimo común."</div>
+  </div>
+  <p style="font-size:11px;color:#8896b8;text-align:center;">El objetivo no es que todos sepan lo mismo — es que todos alcancen un umbral funcional desde el cual seguir creciendo de forma autónoma.</p>
+</div>
+
+
+<!-- ═══════════ COLUMNA 3 — ROADMAP + KPIs ═══════════ -->
+<div class="sec">
+  <div class="sec-label">El Plan</div>
+  <div class="sec-title"><span class="icon">🗓️</span>Roadmap de Implementación</div>
+
+  <div class="phase-list">
+
+    <div class="phase-item">
+      <div class="phase-num" style="background:#f4f6fb;color:#8896b8;">0</div>
+      <div class="phase-content">
+        <div class="phase-name">Preparación del Terreno</div>
+        <div class="phase-time">Semanas -1 a 0</div>
+        <div class="phase-desc">Selección de 3 Champions piloto. Diagnóstico baseline L0–L9. Configuración de herramientas.</div>
+      </div>
+    </div>
+    <div class="phase-connector"></div>
+
+    <div class="phase-item">
+      <div class="phase-num" style="background:#e8f0ff;color:#0055cc;">1</div>
+      <div class="phase-content">
+        <div class="phase-name">Piloto con Champions</div>
+        <div class="phase-time">Semanas 1–4 · 1 mes</div>
+        <div class="phase-desc">3 Champions (uno por área) completan L0→L3. Cada uno documenta su SOUL.md. Primeras evidencias reales.</div>
+      </div>
+    </div>
+    <div class="phase-connector"></div>
+
+    <div class="phase-item">
+      <div class="phase-num" style="background:#e8f0ff;color:#0055cc;">2</div>
+      <div class="phase-content">
+        <div class="phase-name">Expansión al Equipo</div>
+        <div class="phase-time">Semanas 5–12 · 2 meses</div>
+        <div class="phase-desc">Champions enseñan a sus áreas. Todo el equipo (10–25 personas) inicia diagnóstico. Itinerarios personalizados por nivel.</div>
+      </div>
+    </div>
+    <div class="phase-connector"></div>
+
+    <div class="phase-item">
+      <div class="phase-num" style="background:#d0e4ff;color:#0040a0;">3</div>
+      <div class="phase-content">
+        <div class="phase-name">Certificaciones Formales</div>
+        <div class="phase-time">Semanas 13–20 · 2 meses</div>
+        <div class="phase-desc">Actas de certificación firmadas. Licencias emitidas por nivel alcanzado. Primeros L4–L5 identificados.</div>
+      </div>
+    </div>
+    <div class="phase-connector"></div>
+
+    <div class="phase-item">
+      <div class="phase-num" style="background:#fffbe0;color:#b38000;">4</div>
+      <div class="phase-content">
+        <div class="phase-name">Institucionalización</div>
+        <div class="phase-time">Semanas 21–24 · 1 mes</div>
+        <div class="phase-desc">Champions se convierten en Instructores L8. El MCA se incorpora al proceso de onboarding de Informática.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ═══════════ FILA 2 — MÉTRICAS, HERRAMIENTAS, CHAMPIONS ═══════════ -->
+
+<!-- MÉTRICAS -->
+<div class="sec">
+  <div class="sec-label">Los Resultados</div>
+  <div class="sec-title"><span class="icon">📊</span>Métricas de Éxito</div>
+
+  <div class="kpi-grid" style="margin-bottom:16px;">
+    <div class="kpi-item">
+      <div class="kpi-value">100%</div>
+      <div class="kpi-label">del equipo con diagnóstico baseline al mes 1</div>
+    </div>
+    <div class="kpi-item">
+      <div class="kpi-value">3</div>
+      <div class="kpi-label">Champions certificados como Licencia Básica (L3) al mes 1</div>
+    </div>
+    <div class="kpi-item">
+      <div class="kpi-value">L2+</div>
+      <div class="kpi-label">nivel mínimo de todo el equipo al mes 4</div>
+    </div>
+    <div class="kpi-item">
+      <div class="kpi-value">3</div>
+      <div class="kpi-label">Instructores AI (L8) activos al mes 6</div>
+    </div>
+  </div>
+
+  <div style="background:#f4f6fb;border:1px solid #e4e9f5;border-radius:10px;padding:14px 16px;">
+    <div style="font-size:10px;font-weight:700;color:#0055cc;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:10px;">Indicadores Cualitativos</div>
+    <div style="display:flex;flex-direction:column;gap:6px;">
+      <div style="display:flex;gap:8px;align-items:center;font-size:11px;color:#4a5880;">
+        <span style="color:#0055cc;font-weight:700;">✓</span> SOUL.md activo por cada miembro certificado
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;font-size:11px;color:#4a5880;">
+        <span style="color:#0055cc;font-weight:700;">✓</span> Al menos 1 automatización en producción por área
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;font-size:11px;color:#4a5880;">
+        <span style="color:#0055cc;font-weight:700;">✓</span> Evidencia documentada y auditable por licencia
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;font-size:11px;color:#4a5880;">
+        <span style="color:#0055cc;font-weight:700;">✓</span> Reducción medible en tiempo de tareas repetitivas
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HERRAMIENTAS -->
+<div class="sec">
+  <div class="sec-label">El Ecosistema</div>
+  <div class="sec-title"><span class="icon">🛠</span>Herramientas del Programa</div>
+
+  <div class="tool-grid" style="margin-bottom:14px;">
+    <div class="tool-item">
+      <div class="tool-icon">🤖</div>
+      <div>
+        <div class="tool-name">Hermes Agent</div>
+        <div class="tool-role">Orquestador central del programa (NousResearch, open source)</div>
+      </div>
+    </div>
+    <div class="tool-item">
+      <div class="tool-icon">📄</div>
+      <div>
+        <div class="tool-name">SOUL.md</div>
+        <div class="tool-role">Memoria personal de IA. Un archivo por persona certificada.</div>
+      </div>
+    </div>
+    <div class="tool-item">
+      <div class="tool-icon">🔧</div>
+      <div>
+        <div class="tool-name">Claude + MCP</div>
+        <div class="tool-role">Agente principal para trabajo diario y creación de skills</div>
+      </div>
+    </div>
+    <div class="tool-item">
+      <div class="tool-icon">📁</div>
+      <div>
+        <div class="tool-name">Git / GitHub</div>
+        <div class="tool-role">Repositorio de Skills y evidencia auditable desde L4</div>
+      </div>
+    </div>
+    <div class="tool-item">
+      <div class="tool-icon">📊</div>
+      <div>
+        <div class="tool-name">Google Forms</div>
+        <div class="tool-role">Cuestionario diagnóstico y evaluaciones de nivel</div>
+      </div>
+    </div>
+    <div class="tool-item">
+      <div class="tool-icon">📋</div>
+      <div>
+        <div class="tool-name">Actas Digitales</div>
+        <div class="tool-role">Certificación formal firmada por Director + Champion</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Diagnóstico visual -->
+  <div>
+    <div style="font-size:10px;font-weight:700;color:#0055cc;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;">Escala de Diagnóstico (15–20 min)</div>
+    <div class="diag-scale">
+      <div class="diag-step" style="background:#fff8e0;color:#7a5200;">
+        <div style="font-weight:800;">L0</div>
+        <div class="diag-label">Nunca usó</div>
+      </div>
+      <div class="diag-step" style="background:#edfff4;color:#1a5a2a;">
+        <div style="font-weight:800;">L2</div>
+        <div class="diag-label">Usa básico</div>
+      </div>
+      <div class="diag-step" style="background:#e8f0ff;color:#0a1a5c;">
+        <div style="font-weight:800;">L4</div>
+        <div class="diag-label">Flujos</div>
+      </div>
+      <div class="diag-step" style="background:#f0eaff;color:#3a0080;">
+        <div style="font-weight:800;">L6</div>
+        <div class="diag-label">Automatiza</div>
+      </div>
+      <div class="diag-step" style="background:#fffbe0;color:#7a5000;">
+        <div style="font-weight:800;">L8</div>
+        <div class="diag-label">Enseña</div>
+      </div>
+    </div>
+    <div style="font-size:10px;color:#8896b8;text-align:center;">Resultado: nivel estimado → licencia de entrada → itinerario personalizado</div>
+  </div>
+</div>
+
+<!-- CHAMPIONS -->
+<div class="sec" style="border-right:none;">
+  <div class="sec-label">Los Actores Clave</div>
+  <div class="sec-title"><span class="icon">👥</span>Modelo Champion</div>
+
+  <div style="margin-bottom:14px;">
+    <div style="font-size:11px;color:#4a5880;margin-bottom:12px;line-height:1.6;">
+      El programa no escala por clases magistrales — escala por <strong style="color:#0055cc;">contagio entre pares.</strong> Un Champion por área aprende primero, luego transfiere ese conocimiento a su equipo.
+    </div>
+    <div class="champion-flow">
+      <div class="cf-step" style="background:#e8f0ff;border-color:#c8d2e8;">
+        <div class="cf-icon">🎯</div>
+        <div class="cf-text">
+          <div class="cf-name">Selección de Champions (Semana 0)</div>
+          <div class="cf-desc">Uno por área: no el más avanzado ni el más novato — el con mayor apertura al cambio</div>
+        </div>
+      </div>
+      <div class="cf-arrow">↓</div>
+      <div class="cf-step" style="background:#e8f0ff;border-color:#c8d2e8;">
+        <div class="cf-icon">🚀</div>
+        <div class="cf-text">
+          <div class="cf-name">Piloto Intensivo (Mes 1)</div>
+          <div class="cf-desc">Champions completan L0→L3 con itinerario acelerado. SOUL.md y primeras evidencias.</div>
+        </div>
+      </div>
+      <div class="cf-arrow">↓</div>
+      <div class="cf-step" style="background:#edfff4;border-color:#52d68a;">
+        <div class="cf-icon">📡</div>
+        <div class="cf-text">
+          <div class="cf-name">Transferencia (Mes 2–4)</div>
+          <div class="cf-desc">Champions facilitan diagnóstico e itinerarios para todo su equipo. Sesiones semanales.</div>
+        </div>
+      </div>
+      <div class="cf-arrow">↓</div>
+      <div class="cf-step" style="background:#fffbe0;border-color:#d4a900;">
+        <div class="cf-icon">🏆</div>
+        <div class="cf-text">
+          <div class="cf-name">Instructor AI (Mes 6)</div>
+          <div class="cf-desc">Champions certificados L8. Pueden certificar a otros. El ciclo se sostiene solo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#0a1a5c;border-radius:10px;padding:14px 16px;margin-top:4px;">
+    <div style="font-size:10px;font-weight:700;color:rgba(0,229,255,0.6);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;">Criterio de Selección Champion</div>
+    <div style="display:flex;flex-direction:column;gap:5px;">
+      <div style="font-size:11px;color:rgba(255,255,255,0.6);display:flex;gap:8px;"><span style="color:#00e5ff;">→</span>Apertura al cambio (mayor peso)</div>
+      <div style="font-size:11px;color:rgba(255,255,255,0.6);display:flex;gap:8px;"><span style="color:#00e5ff;">→</span>Capacidad de transferir conocimiento</div>
+      <div style="font-size:11px;color:rgba(255,255,255,0.6);display:flex;gap:8px;"><span style="color:#00e5ff;">→</span>Disponibilidad de tiempo (≥2h/semana)</div>
+      <div style="font-size:11px;color:rgba(255,255,255,0.6);display:flex;gap:8px;"><span style="color:#00e5ff;">→</span>Respeto de sus pares en el área</div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /body grid -->
+
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<div class="footer">
+  <div class="footer-left">
+    AI Fluency · Modelo de Conducción AI · UJMD 2026 · @untaldouglas<br>
+    <span style="color:rgba(0,229,255,0.3);">Dirección de Servicios Informáticos · dagalindo@ujmd.edu.sv</span>
+  </div>
+  <div class="footer-right">
+    <div class="footer-metric">
+      <div class="footer-val">10</div>
+      <div class="footer-lbl">Niveles</div>
+    </div>
+    <div class="footer-div"></div>
+    <div class="footer-metric">
+      <div class="footer-val">5</div>
+      <div class="footer-lbl">Licencias</div>
+    </div>
+    <div class="footer-div"></div>
+    <div class="footer-metric">
+      <div class="footer-val">6</div>
+      <div class="footer-lbl">Meses</div>
+    </div>
+    <div class="footer-div"></div>
+    <div class="footer-metric">
+      <div class="footer-val">25</div>
+      <div class="footer-lbl">Personas</div>
+    </div>
+    <div class="footer-div"></div>
+    <div style="text-align:right;">
+      <div style="font-family:'Montserrat',sans-serif;font-size:13px;font-weight:900;color:#fff;">AI<span style="color:#00e5ff;">Fluency</span></div>
+      <div style="font-size:9px;color:rgba(0,229,255,0.4);letter-spacing:1.5px;">UJMD · VELOCIDAD DIGITAL</div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /page -->
+</body>
+</html>

@@ -8,20 +8,26 @@
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #03001a; color: #f0f4ff; font-family: 'Space Grotesk', sans-serif; min-height: 100vh; padding: 40px 24px; }
-  .container { max-width: 720px; margin: 0 auto; }
-  header { text-align: center; margin-bottom: 48px; }
+  .container { max-width: 760px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 44px; }
   .badge { display: inline-block; background: #00e5ff22; border: 1px solid #00e5ff55; color: #00e5ff; font-size: 12px; font-weight: 600; letter-spacing: 2px; padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; text-transform: uppercase; }
+  .badge.green { background: #22c55e22; border-color: #22c55e55; color: #4ade80; }
+  .badge.blue { background: #0055cc33; border-color: #0055cc88; color: #7ab8ff; }
+  .badge.gray { background: #ffffff12; border-color: #ffffff25; color: #94a3b8; }
   h1 { font-family: 'Montserrat', sans-serif; font-size: 2.4rem; font-weight: 900; color: #fff; line-height: 1.1; margin-bottom: 12px; }
   h1 span { color: #00e5ff; }
   .subtitle { color: #8899bb; font-size: 1rem; }
-  .grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 40px; }
+  .section-title { font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #00e5ff; margin: 44px 0 4px; text-align: center; }
+  .grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 18px; }
   .card { background: #ffffff08; border: 1px solid #ffffff15; border-radius: 14px; padding: 28px 32px; text-decoration: none; color: inherit; transition: all 0.2s; display: flex; align-items: center; gap: 24px; }
   .card:hover { background: #00e5ff10; border-color: #00e5ff44; transform: translateX(4px); }
+  .card.f2 { border-color: #0055cc66; background: #0055cc12; }
+  .card.f2:hover { border-color: #00e5ff88; }
   .card-icon { font-size: 2.4rem; flex-shrink: 0; }
-  .card-body {}
   .card-title { font-weight: 600; font-size: 1.1rem; color: #fff; margin-bottom: 6px; }
   .card-desc { font-size: 0.85rem; color: #7788aa; line-height: 1.5; }
   .card-arrow { margin-left: auto; color: #00e5ff55; font-size: 1.2rem; flex-shrink: 0; }
+  .archive-note { text-align: center; color: #556688; font-size: 0.8rem; margin-top: 14px; }
   footer { text-align: center; margin-top: 60px; color: #334455; font-size: 0.8rem; border-top: 1px solid #ffffff10; padding-top: 24px; }
 </style>
 </head>
@@ -30,101 +36,63 @@
   <header>
     <div class="badge">🚗 Velocidad Digital · UJMD</div>
     <h1>AI <span>Fluency</span><br>Modelo de Conducción AI</h1>
-    <p class="subtitle">Dirección de Servicios Informáticos · julio–diciembre 2026 · <span style="color:#00e5ff;">Fase 1 (Piloto) CERRADA FORMALMENTE 14/08 ✅ · Licencias Básica y Profesional 3/3 emitidas</span></p>
+    <p class="subtitle">Dirección de Servicios Informáticos · julio–diciembre 2026 · <span style="color:#00e5ff;">Fase 1 (Piloto) CERRADA FORMALMENTE 14/08 ✅ · Fase 2 en preparación</span></p>
   </header>
+
+  <div class="section-title">🟡 Fase 2 — Expansión al equipo (en preparación)</div>
+  <div class="grid">
+    <a class="card f2" href="https://github.com/untaldouglas/Implementar-AI-Fluentcy/blob/main/01_piloto/cohortes/F2/plan_cohorte.md" target="_blank">
+      <div class="card-icon">📋</div>
+      <div class="card-body">
+        <div class="card-title">Plan de Cohorte F2</div>
+        <div class="card-desc">Capa 1 — Dirección IT: 6 participantes (coordinadores + nuevos), 8 entregables (L6 validado, Git por puesto, memoria externa, MCP, gateway Bifrost, presupuesto, métricas). Arranque tras análisis de baseline.</div>
+      </div>
+      <div class="card-arrow">→</div>
+    </a>
+    <a class="card f2" href="https://github.com/untaldouglas/Implementar-AI-Fluentcy/blob/main/01_piloto/guias_estandar/guia_participante.md" target="_blank">
+      <div class="card-icon">🧭</div>
+      <div class="card-body">
+        <div class="card-title">Guía del Participante</div>
+        <div class="card-desc">Tu viaje en 6 pasos: diagnóstico → itinerario → setup → sesiones → evidencia → certificación. Cómo entregar evidencia y qué esperar.</div>
+      </div>
+      <div class="card-arrow">→</div>
+    </a>
+    <a class="card f2" href="https://github.com/untaldouglas/Implementar-AI-Fluentcy/blob/main/01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md" target="_blank">
+      <div class="card-icon">⚡</div>
+      <div class="card-body">
+        <div class="card-title">Decisiones de F2 (checklist)</div>
+        <div class="card-desc">Estado de las 8 decisiones de arranque: fecha, cronograma, baseline, repo del equipo, presupuesto LLM, memoria externa, MCP y métricas.</div>
+      </div>
+      <div class="card-arrow">→</div>
+    </a>
+  </div>
+
+  <div class="section-title">📈 Estado vigente del programa</div>
   <div class="grid">
     <a class="card" href="Dashboard_Jornada.html">
       <div class="card-icon">📈</div>
       <div class="card-body">
         <div class="card-title">Dashboard de Jornada</div>
-        <div class="card-desc">Estado vigente del programa: Fase 1 CERRADA FORMALMENTE (C14–C22 3/3), Licencias Básica 🟢 y Profesional 🔵 3/3 emitidas y selladas. Compromisos, decisiones y bitácora de sesiones.</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-    <a class="card" href="Infografico_AIFluency_UJMD.html">
-      <div class="card-icon">📊</div>
-      <div class="card-body">
-        <div class="card-title">Infográfico del Programa</div>
-        <div class="card-desc">Framework MCA completo, escala L0–L9, 5 licencias y roadmap de 6 meses.</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-    <a class="card" href="Presentacion_AIFluency_Deck.html">
-      <div class="card-icon">🎯</div>
-      <div class="card-body">
-        <div class="card-title">Presentación Ejecutiva</div>
-        <div class="card-desc">Deck de 13 slides para presentar el programa a liderazgo y rectoría.</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-    <a class="card" href="onboarding.html">
-      <div class="card-icon">🚀</div>
-      <div class="card-body">
-        <div class="card-title">Onboarding Champions</div>
-        <div class="card-desc">Guía de bienvenida e incorporación para los Champions del programa.</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-    <a class="card" href="ResearchBrief_AIFluency.html">
-      <div class="card-icon">🔬</div>
-      <div class="card-body">
-        <div class="card-title">Brief de Investigación</div>
-        <div class="card-desc">Protocolo académico para publicación en revistas Q1/Q2 (Computers & Education, IEEE TLT).</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-    <a class="card" href="guia_setup_champions.html">
-      <div class="card-icon">🤖</div>
-      <div class="card-body">
-        <div class="card-title">Guía Setup Hermes Agent</div>
-        <div class="card-desc">3 lecciones para instalar, configurar y verificar Hermes Agent. Nivel L2 → L5. Cheat sheet y glosario incluidos.</div>
+        <div class="card-desc">Estado vigente del programa: Fase 1 CERRADA FORMALMENTE (C14–C22 3/3), Licencias Básica 🟢 y Profesional 🔵 3/3 emitidas y selladas · F2 en planificación. Compromisos, decisiones y bitácora de sesiones.</div>
       </div>
       <div class="card-arrow">→</div>
     </a>
   </div>
 
-  <div style="margin-top:40px;margin-bottom:16px">
-    <div class="badge">🗓️ Semana 1 — Guías Personalizadas · 7 días · ✅ Completada (10/07) — archivadas como referencia para futuros grupos</div>
-  </div>
+  <div class="section-title">📦 Historial — Fase 1 (Piloto Champions)</div>
   <div class="grid">
-    <a class="card" href="guia_irvin_morales.html">
-      <div class="card-icon">🎧</div>
+    <a class="card" href="fase1/index.html">
+      <div class="card-icon">🏁</div>
       <div class="card-body">
-        <div class="card-title">Irvin Morales — Soporte</div>
-        <div class="card-desc">L1 · Zona Pasajero · Caso ancla: "Equipo no enciende" — respuesta guiada al usuario. ✅ Completada y verificada 10/07.</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-    <a class="card" href="guia_mario_valencia.html">
-      <div class="card-icon">💻</div>
-      <div class="card-body">
-        <div class="card-title">Mario Valencia — Desarrollo</div>
-        <div class="card-desc">L1 · Zona Pasajero · Caso ancla: pair programming y refactorización de código legado. ✅ Verificada 10/07.</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-    <a class="card" href="guia_patrick_orellana.html">
-      <div class="card-icon">🖥️</div>
-      <div class="card-body">
-        <div class="card-title">Patrick Orellana — Infraestructura</div>
-        <div class="card-desc">L1 · Zona Pasajero · Caso ancla: scripts de monitoreo y verificación de respaldos. ✅ Verificada 10/07.</div>
+        <div class="card-title">Archivo de la Fase 1 ✅</div>
+        <div class="card-desc">Cohorte fundacional (01/07 → 14/08/2026): 22/22 compromisos, Licencias Básica y Profesional 3/3, 6 procesos medidos, 3 Skills versionados. Acceso a los artefactos publicados de la fase.</div>
       </div>
       <div class="card-arrow">→</div>
     </a>
   </div>
 
-  <div style="margin-top:40px;margin-bottom:16px">
-    <div class="badge">📚 Material de Referencia</div>
-  </div>
+  <div class="section-title">🎓 Marco y material de referencia</div>
   <div class="grid">
-    <a class="card" href="https://github.com/untaldouglas/Implementar-AI-Fluentcy/blob/main/04_herramientas/agendas/propuesta-prompts-onboarding-champions.md" target="_blank">
-      <div class="card-icon">📝</div>
-      <div class="card-body">
-        <div class="card-title">Prompts de Onboarding</div>
-        <div class="card-desc">Propuesta de 3 prompts adaptados del Hermes Agent Daily Assistant Prompt Pack para Champions L1→L3.</div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
     <a class="card" href="https://github.com/untaldouglas/Implementar-AI-Fluentcy/blob/main/00_marco/Guia_Aprendizaje_y_Evidencia_por_Licencia.md" target="_blank">
       <div class="card-icon">🎓</div>
       <div class="card-body">
@@ -133,7 +101,18 @@
       </div>
       <div class="card-arrow">→</div>
     </a>
+    <a class="card" href="https://github.com/untaldouglas/Implementar-AI-Fluentcy/blob/main/04_herramientas/agendas/propuesta-prompts-onboarding-champions.md" target="_blank">
+      <div class="card-icon">📝</div>
+      <div class="card-body">
+        <div class="card-title">Prompts de Onboarding</div>
+        <div class="card-desc">Propuesta de 3 prompts adaptados del Hermes Agent Daily Assistant Prompt Pack para Champions L1→L3.</div>
+      </div>
+      <div class="card-arrow">→</div>
+    </a>
   </div>
+
+  <p class="archive-note">Los artefactos de la Fase 1 (infográfico, deck, research brief, onboarding, guías) se archivaron en <a href="fase1/index.html" style="color:#00e5ff;">fase1/</a> · versión inmutable del cohorte en la rama Git <a href="https://github.com/untaldouglas/Implementar-AI-Fluentcy/tree/Fase01" target="_blank" style="color:#00e5ff;">Fase01</a></p>
+
   <footer>
     <p>AI Fluency — UJMD · Douglas A. Galindo · dagalindo@ujmd.edu.sv</p>
   </footer>
