@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-08-13 (tarde) · Sesión 26 — **Demo Day + Certificación: Licencia Profesional 🔵 3/3** (verificación sin observaciones, actas firmadas con coordinadores como audiencia) · Fase 1 cerrada por completo |
+| Última actualización | 2026-08-17 (SYNC) · Sesión 26 (14/08) — comunicaciones F2 completas: bienvenida a los 6 participantes + brief de investigación a Manuel Alfaro · Fechas clave F2: baseline 18/08 5PM · kickoff 21/08 14:00–15:15 CC 2 · Fase 1 cerrada por completo |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-08-13 |
-| Días desde inicio | 44 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN PLANIFICACIÓN** (inicio en próximos 7 días hábiles — 6 participantes y 8 entregables definidos) |
+| Hoy (última actualización) | 2026-08-17 |
+| Días desde inicio | 47 días |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN ARRANQUE** — fechas clave definidas (14/08): baseline 18/08 5PM · kickoff 21/08 (6 participantes y 8 entregables definidos, comunicaciones enviadas) |
 | Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
 | Mes de proyecto | M2 |
-| Próximo hito | **Planificación de F2 (inicio en los próximos 7 días hábiles)** — 6 participantes definidos (3 coordinadores + 3 nuevos) · 8 entregables definidos · arranque y nombres pendientes |
-| Días hasta próximo hito | dentro de 7 días hábiles |
+| Próximo hito | **Baseline F2: martes 18/08 5:00 PM** (form de F1) → análisis → **Kickoff F2: viernes 21/08 14:00–15:15, CC 2** |
+| Días hasta próximo hito | 1 día (baseline 18/08) · 4 días (kickoff 21/08) |
 
 ### Calendario de fases
 
@@ -81,7 +81,7 @@
 
 ## 🚀 FASE SIGUIENTE — FASE 2: Expansión al equipo (Capa 1 — Dirección IT)
 
-**Estado:** 🟡 EN PLANIFICACIÓN — en los próximos 7 días hábiles se planificará el inicio (definición de Douglas, 14/08/2026).
+**Estado:** 🟢 EN ARRANQUE — fechas clave definidas y comunicadas (14/08): **baseline** de los 6 participantes vence **martes 18/08, 5:00 PM** (mismo Google Form de F1) · **kickoff viernes 21/08, 14:00–15:15, CC 2** de la Dirección de Informática (agenda se hará llegar posteriormente). Análisis de respuestas → itinerarios: 18–20/08, antes del kickoff.
 
 **Participantes confirmados (6, 14/08):**
 | # | Nombre | Email | Coordinación/Grupo |
@@ -107,11 +107,13 @@
 | E7 | Presupuesto autorizado para consumo administrado de LLM credits — $200 mensuales presupuestados (validar) | Validación/captura del presupuesto |
 | E8 | Métricas de impacto en valor de negocio al usar productos creados en el programa | Analizar información y presentar actualizaciones sugeridas antes de modificar o crear contenido |
 
-**Bloqueado por / a resolver en la planificación:**
-- Fecha de arranque (dentro de los próximos 7 días hábiles) · alcance y cadencia de sesiones
-- Nombres de las 2 personas adicionales (Sistemas y Desarrollo) por confirmar
-- Validación del presupuesto $200/mes LLM credits (E7)
-- Rol de Champions de F1 en F2 (facilitadores + co-facilitación R9)
+**Bloqueado por / a resolver en la planificación (D2, D4–D7 de `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md`):**
+- D2 — Cronograma y cadencia de sesiones (propuesta: semanas 5–12, ~8–10 semanas; mié 2–4 PM + vie 2–3 PM) · fechas de hitos: setup → sesiones → Demo Day F2
+- D4 — Repo del equipo (E2): repo creado con estructura `profiles/ skills/ souls/` + migración de Skills de F1 (R20)
+- D5 — Presupuesto LLM credits (E7): validar $200/mes y línea base de consumo por persona
+- D6a/D6b — Memoria externa (E3): herramienta elegida (Obsidian · Notion · GBrain · SQLite/embeddings) · primer MCP (E5): servicio elegido (¿ERPNext · Google Workspace · AD · mesa de ayuda?)
+- D7 — Métricas de valor (E8): KPI elegidos por coordinación + quién mide y con qué frecuencia
+- ✅ Resueltas (14/08): D1 (kickoff 21/08) · D3 (baseline 18/08) · D8 (nombres: Bryan, Betty, Oscar) · rol de Champions F1 (facilitadores + co-facilitación R9)
 
 ---
 
@@ -192,14 +194,14 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 14/08
-0. **[ACCIONABLE — Douglas]** **Resolver las 8 decisiones pendientes de F2** — checklist en `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md` (fecha de arranque · cronograma · baseline · repo del equipo E2 · presupuesto E7 · memoria externa E3 + MCP E5 · métricas E8 · nombres de 2 participantes). La reunión de planificación (agenda: `04_herramientas/agendas/agenda_planificacion_f2.md`) está diseñada para resolverlas en una sesión dentro de los próximos 7 días hábiles.
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 17/08
+0. **[ACCIONABLE — Douglas]** **Resolver las decisiones restantes de F2 (D2, D4–D7)** — checklist en `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md` (cronograma · repo del equipo E2 · presupuesto E7 · memoria externa E3 + MCP E5 · métricas E8). Resueltas el 14/08: D1 (kickoff 21/08) · D3 (baseline 18/08) · D8 (nombres). La reunión de planificación (agenda: `04_herramientas/agendas/agenda_planificacion_f2.md`) está diseñada para resolverlas en una sesión.
 1. **[Completado 07/08]** **C21 → COMPLETADO 3/3** — Mario (29/07), Patrick (29/07) e Irvin (31/07) entregaron su Skill propio, validado por Douglas con Drive Approvals. **Fase 1 cerrada**: C14–C21 3/3 con evidencia real.
 2. **[Completado 13–14/08]** **Licencia Profesional 🔵 3/3 CERTIFICADA y SELLADA** — Demo Day + verificación de flujo sin observaciones (R21) + actas firmadas por Champions, coordinadores y Douglas, **selladas por la Dirección de Informática y cada coordinación**. Copias digitales en Drive `00_Gobernanza/Actas_Licencias/` (6 PDFs: 3 certificados de conducción + 3 de Licencia Profesional). Registro en `00_marco/Licencia_Conduccion_AI.md` (tabla de conductores: Patrick/Mario/Irvin en L4–L5).
 3. **[Ejecutada 07/08]** **Auditoría de cierre de F1** (`04_herramientas/auditorias/2026-08-07_auditoria_cierre_f1.md`): set completo C14–C22, 12 inconsistencias + 12 hallazgos en tabla acumulada, R18–R22. **Pendiente ejecutar:** R18 (checklist de instalación en las 3 estaciones) y R19 (verificar repos Git) **antes del veredicto de Licencia Profesional** · R20 (consolidar Skills en repo del equipo) · R21 (veredicto formal) · R22 (recomendaciones estructurales).
 4. **[Completado 07/08]** **C22 → COMPLETADO 3/3** — los 3 Champions entregaron su SOUL.md propio (Mario, Irvin y Patrick), validado con Drive Approvals. **Último requisito de Licencia Profesional cumplido por los 3** — pendiente veredicto formal.
 5. **[Pendiente Douglas]** Revisión de las 3 piezas de comunicación de resultados F1 creadas el 07/08 (`Email_Coordinadores_Resultados_F1.html`, `ResearchBrief_AIFluency_F1.html`, `OnePager_Rectoria_F1.html` en `03_comunicacion/`) — **se actualizarán al terminar las acciones de la fase** (auditoría de cierre F1, Demo Day, arranque F2, veredicto Profesional) antes de su uso oficial.
-6. **[Pendiente Douglas]** Demo Day sin fecha (carga operativa por regreso de vacaciones + inicio de clases 2-2026) · Arranque de F2 sin decisión.
+6. **[Completado 13–14/08]** **Demo Day ejecutado (13/08) + arranque de F2 decidido** — kickoff F2: viernes 21/08 14:00–15:15 CC 2 (baseline 18/08 5PM).
 7. **[Completado 27/07]** **C19 → COMPLETADO 3/3** — Irvin entregó 2º proceso, validado y aprobado por Douglas en Drive. H8 de la auditoría #01 cerrada.
 8. **[Completado 27/07]** **C20 → COMPLETADO 3/3** — Irvin entregó perfil de área Soporte, aprobado por Douglas en Drive. Insumo disponible para estandarizar SOUL.md de Soporte y el playbook.
 9. **[Completado 24/07]** C15/S2 cierra 3/3 (Mario ✅ Irvin ✅ Patrick ✅) · C18 completo (Patrick) · sello nativo de Drive Approvals completado en los 9 documentos.
@@ -220,9 +222,10 @@
 
 | Bloqueo | Impacto | Mitigación |
 |---|---|---|
-| Arranque de F2 sin fecha decidida (Douglas: carga operativa por inicio de clases 2-2026) | Riesgo de dilación de la expansión al equipo | No bloqueante: F1 cerrada por completo (Básica + Profesional 3/3 certificadas el 13/08); F2 puede arrancar con decisión de Douglas cuando su agenda lo permita |
+| Decisiones restantes de planificación de F2 (D2, D4–D7) | Riesgo de dilación del cronograma F2 si se postergan | No bloqueante para el arranque: baseline 18/08 y kickoff 21/08 ya definidos · la reunión de planificación (agenda lista) está diseñada para resolverlas en una sesión |
 
 **Resueltos:**
+| Arranque de F2 sin fecha decidida (Douglas: carga operativa por inicio de clases 2-2026) | ✅ 14/08 — Fechas clave de F2 definidas: baseline martes 18/08 5:00 PM (form de F1) · kickoff viernes 21/08 14:00–15:15 CC 2 · correo de bienvenida a los 6 participantes (CC Champions F1) y brief de investigación a Manuel Alfaro enviados |
 | Demo Day y certificación sin fecha | ✅ 13/08 — Demo Day + Certificación ejecutados: Licencia Profesional 🔵 3/3 firmada, verificación conforme sin observaciones, coordinadores de área como audiencia |
 | C21 sin evidencia de arranque al 27/07 | ✅ 07/08 — los 3 Champions entregaron su Skill propio (29–31/07) y Douglas los validó con Drive Approvals; S3 y Fase 1 cerradas |
 | Irvin no cierra C19 (2º proceso) ni C20 | ✅ 27/07 — Irvin entregó ambos y fueron aprobados por Douglas en Drive (verificación contra Drive Approvals). H8 auditoría #01 cerrada. |
@@ -279,6 +282,31 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-17 | SYNC DE ESTADO — METADATA Y SECCIONES ALINEADAS CON HECHOS DEL 14/08 (Hermes Agent)
+
+  CONTEXTO:
+  ⚠️ El log ya registraba los hechos de la Sesión 26 del 14/08 (fechas clave de F2,
+    comunicaciones enviadas, participantes confirmados, D1/D3/D8 resueltas), pero la
+    cabecera, variables de tiempo, sección F2, bloqueos y el Dashboard quedaron con
+    estado del 13/08 ("F2 pendiente de arranque") — archivo vivo desincronizado
+    (patrón que el Protocolo §8 manda corregir en el cierre de sesión).
+
+  ALINEADO:
+  ✓ Metadata + variables de tiempo: Hoy = 17/08 · día 47 · F2 EN ARRANQUE · próximo
+    hito = baseline 18/08 5PM (1 día) → kickoff 21/08 (4 días).
+  ✓ Sección F2: estado 🟢 EN ARRANQUE con fechas clave (baseline 18/08, kickoff 21/08
+    14:00–15:15 CC 2) · bloqueos reescritos a decisiones restantes (D2, D4–D7) con
+    resueltas D1/D3/D8 marcadas.
+  ✓ TOP AHORA: #0 actualizado a decisiones restantes · #6 (Demo Day sin fecha /
+    arranque F2 sin decisión) → completado (Demo Day 13/08 + kickoff 21/08).
+  ✓ Bloqueo "Arranque de F2 sin fecha" → resuelto con fecha 14/08.
+  ✓ Dashboard_Jornada.html sincronizado en ambas copias (04_herramientas/ y docs/).
+
+  PENDIENTE:
+  🎯 Baseline de los 6 participantes vence MAÑANA martes 18/08 5:00 PM (form de F1).
+  🎯 Análisis de respuestas → itinerarios: 18–20/08, antes del kickoff.
+  🎯 Kickoff F2: viernes 21/08 14:00–15:15, CC 2 · decisiones D2, D4–D7.
+
 2026-08-14 | SESIÓN 26 (cont. 13) — EMAIL A INVESTIGACIÓN ENVIADO: MANUEL ALFARO (mgalfaros) (Douglas)
 
   CONFIRMADO:
