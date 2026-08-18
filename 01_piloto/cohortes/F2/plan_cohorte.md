@@ -95,10 +95,18 @@
 
 ## 8. Lecciones del cohorte anterior (F1 — retrospectiva)
 
-> Pendiente: consolidar la matriz de retrospectiva de F1 (vence 14/08 17:00) y copiar aquí sus lecciones ANTES de diseñar sesiones de F2.
+> **Consolidado 18/08/2026** a partir de la matriz de evaluación F1 (3/3 Champions: Mario 14/08, Irvin 14/08, Patrick 17/08). Fuente: Google Sheets `1eABdRc9XaySjjjniA4slSbYEXHMpx2bVZ0adXR7YoNM`, hoja `Evaluación Fase 1`. Resultados: utilidad profesional 4.7/5 · recomendación 3/3 Sí · acompañamiento 4/5 · carga de trabajo 3.3/5 · ~35 h/mes por persona. Estas lecciones se aplican al diseñar sesiones de F2.
 
-- [Se completará con la retrospectiva de F1]
-- [Se completará con la retrospectiva de F1]
+| # | Lección de F1 | Evidencia (quién lo dijo) | Aplicación a F2 |
+|---|---|---|---|
+| L1 | Grabar sesiones con calidad desde el inicio, como material asíncrono de referencia ("es muy beneficioso ver cómo se hacen las cosas que solo leerlo"; "mejorar las grabaciones al inicio, ya después mejoró") | Mario, Patrick | Grabar desde el kickoff con calidad; repositorio de material asíncrono por sesión |
+| L2 | Cadencia de entregas quincenal con revisiones intermedias obligatorias, no semanal ("más margen para profundizar en la calidad del trabajo sin la presión de cerrar un entregable final cada pocos días") | Irvin | Entregas quincenales + revisión intermedia obligatoria (insumo para D2) |
+| L3 | Setup estandarizado y guiado por el instructor, con checklist de verificación ("que todos sigan y hablen el mismo idioma y no cada quien lo instala a su forma y al final a unos funciona bien y a otros no") | Patrick | Sesión de instalación guiada + verificación de funcionamiento común para los 6 |
+| L4 | Material de apoyo y documental claro, con dudas resueltas durante el taller práctico | Irvin | Publicar material documental antes de cada taller; tiempo de dudas en sesión |
+| L5 | Planificar cada sesión con duración estimada y apoyo visual ("calcular los tiempos de estudios... qué temas se pueden abordar en cada sesión") | Mario | Agenda de sesión con tiempos y visuales |
+| L6 | Mantener el estándar de entregas de mediados de F1 (plantillas-rúbricas) y las actividades aplicadas al trabajo real; las más valoradas fueron C20 (perfil de área) y C21 (skill propio) | Mario, Irvin | Preservar el modelo de evidencia real con rúbrica en F2 |
+| L7 | La discusión colectiva entre pares con puntos de vista distintos es un activo de aprendizaje | Patrick | Mantener espacios de discusión grupal en las sesiones |
+| L8 | Carga de trabajo reportada ~30–40 h/mes y valorada 3.3/5: no duplicar la carga al duplicar la población | Los 3 | Ajustar cadencia (L2) y expectativas explícitas de dedicación
 
 ---
 

@@ -121,7 +121,7 @@
 
 | Recurso | URL | Propósito |
 |---|---|---|
-| Carpeta Google Drive (ÚNICA) | https://drive.google.com/drive/folders/1eNbWpOmgatmQjOM5KZj6FNoA2CGR1kEj | Carpeta oficial única del proyecto (decisión 17/07) — estructura 00–04, README de reglas en la raíz |
+| Carpeta Google Drive (ÚNICA) | https://drive.google.com/drive/folders/1LrA6qMsU_CEKIILhz8l5GBTBVUp4kM-g | Carpeta oficial única del programa (reestructura 18/08: "AI Fluency — Programa MCA 2026") — 00_Gobernanza · 01_Fases (F1 archivada · F2 activa · F3/F4 placeholders) · 02_Conocimiento_Colectivo · 03_Material_Programa · 04_Comunicaciones · README de reglas en la raíz |
 | README de la carpeta | https://docs.google.com/document/d/1-Ul-clUjq2cX7d7qENCQGyZpMnacuT_NGB1ya_HkcGI/edit | Estructura y reglas de uso para Champions |
 | ESTADO_PROYECTO en Drive | https://docs.google.com/document/d/1LPs29-Mk-R6bMIo4PhDJFqS1zKIxXKXGhYs5Yd7J310/edit | Render de lectura móvil en `00_Gobernanza` (fuente: este archivo; el Docs viejo `15kE31…` queda obsoleto) |
 | Actas de Licencias (Drive) | Carpeta `00_Gobernanza/Actas_Licencias` | 3 actas de Licencia Básica (17/07, condicionadas a evidencia C19) |

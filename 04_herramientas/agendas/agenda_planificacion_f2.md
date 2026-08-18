@@ -51,6 +51,8 @@
 4. **Baseline F1:** Google Form (https://forms.gle/JHd4a8kHyFh59RkH7) — decidir si se reutiliza
 5. **Entregables F1 para migrar al repo del equipo (R20):** Skills de Mario (`refactor-csharp-4`), Patrick (`custom-netmon-dashboard`), Irvin (`diagnostico-baterias-laptops`)
 6. **Bifrost (E6):** https://github.com/maximhq/bifrost — decidir instalación y responsable
+7. **Plantilla KPI de valor (E8/D7):** `01_piloto/cohortes/F2/_PLANTILLA_E8_KPI_Valor_por_Coordinacion.md` — una copia por coordinación; catálogo de KPIs por área en su sección 6
+8. **Evaluación F1 (retrospectiva de Champions):** https://docs.google.com/spreadsheets/d/1eABdRc9XaySjjjniA4slSbYEXHMpx2bVZ0adXR7YoNM (hoja `Evaluación Fase 1`, 3/3 respondieron) — lecciones consolidadas en `01_piloto/cohortes/F2/plan_cohorte.md` sección 8 (insumo para D2: entregas quincenales + setup guiado + grabaciones)
 
 ## Checklist de salida (al terminar la reunión)
 
