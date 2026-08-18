@@ -7,7 +7,7 @@
 .PHONY: help status check validate test backup clean docs stats \
         check-security list-ignored init-piloto \
         champions-list baseline-summary reset \
-        create-form form-script open-onboarding
+        create-form form-script open-onboarding cierre-sesion
 
 # Variables
 TIMESTAMP := $(shell date +%Y%m%d_%H%M%S)
@@ -26,6 +26,7 @@ README       := README.md
 GREEN  := \033[0;32m
 YELLOW := \033[0;33m
 BLUE   := \033[0;34m
+RED    := \033[0;31m
 NC     := \033[0m
 
 .DEFAULT_GOAL := help
@@ -65,6 +66,9 @@ help:
 	@echo "$(GREEN)DOCUMENTACIÓN:$(NC)"
 	@echo "  $(YELLOW)make docs$(NC)               Generar documentación consolidada en docs/"
 	@echo "  $(YELLOW)make reset$(NC)              Resetear dashboards/diarios (con confirmación)"
+	@echo ""
+	@echo "$(GREEN)RITUAL DE CIERRE (Protocolo §8):$(NC)"
+	@echo "  $(YELLOW)make cierre-sesion MSG=\"...\"$(NC)  Verifica evidencia Drive + consistencia, commitea y hace push dual (repozone + GitHub)"
 	@echo ""
 
 # ============================================================
@@ -601,4 +605,54 @@ open-onboarding:
 		echo "$(YELLOW)⚠ No se pudo abrir automáticamente. Abre este archivo en tu navegador:$(NC)" && \
 		echo "  $$(pwd)/$(ONBOARDING)"
 	@echo "  ✓ $(ONBOARDING)"
+	@echo ""
+
+# ============================================================
+# RITUAL DE CIERRE DE SESIÓN (Protocolo §8)
+# ============================================================
+# Encadena: verificación de evidencia Drive (informativo) → check_consistencia
+# (bloqueante) → commit → push dual (repozone + GitHub).
+# Uso: make cierre-sesion MSG="Mensaje del commit"  (MSG opcional: si se omite,
+# se pide interactivamente).
+
+cierre-sesion:
+	@echo ""
+	@echo "$(BLUE)╔══════════════════════════════════════════════════════════════╗$(NC)"
+	@echo "$(BLUE)║            RITUAL DE CIERRE DE SESIÓN (§8 Protocolo)        ║$(NC)"
+	@echo "$(BLUE)╚══════════════════════════════════════════════════════════════╝$(NC)"
+	@echo ""
+	@echo "$(GREEN)[1/4] Verificando evidencia en Drive (informativo)...$(NC)"
+	@if [ -x "$${GW_VENV:-$$HOME/.hermes/venvs/gws}/bin/python" ]; then \
+		GW_VENV="$${GW_VENV:-$$HOME/.hermes/venvs/gws}" bash 04_herramientas/verificar_evidencia_drive.sh || \
+		echo "$(YELLOW)  ⚠ Aviso de evidencia — revisar (no bloquea)$(NC)"; \
+	else \
+		echo "$(YELLOW)  ⚠ venv de google-workspace no encontrado — omitiendo verificación de Drive$(NC)"; \
+	fi
+	@echo ""
+	@echo "$(GREEN)[2/4] Chequeo de consistencia (bloqueante)...$(NC)"
+	@bash 04_herramientas/check_consistencia.sh || { \
+		echo "$(RED)  ✗ Consistencia falló — no se commitea. Corrige y reintenta.$(NC)"; \
+		exit 1; \
+	}
+	@echo ""
+	@echo "$(GREEN)[3/4] Commit...$(NC)"
+	@if [ -z "$$(git status --porcelain)" ]; then \
+		echo "$(YELLOW)  ⚠ No hay cambios pendientes — ritual terminado sin commit ni push$(NC)"; \
+		exit 0; \
+	fi
+	@if [ -z "$(MSG)" ]; then \
+		printf '  Mensaje del commit: '; read MSG_INPUT; \
+	else \
+		MSG_INPUT="$(MSG)"; \
+	fi; \
+	git add -A && git commit -m "$$MSG_INPUT" || { \
+		echo "$(RED)  ✗ Commit falló$(NC)"; \
+		exit 1; \
+	}
+	@echo "$(GREEN)  ✓ Commit creado:$$(git log -1 --format=' %h - %s')$(NC)"
+	@echo ""
+	@echo "$(GREEN)[4/4] Push dual (repozone + GitHub)...$(NC)"
+	@git push origin main
+	@echo ""
+	@echo "$(GREEN)✓ Ritual de cierre completado — todo sincronizado$(NC)"
 	@echo ""
