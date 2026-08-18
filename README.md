@@ -59,6 +59,7 @@ ai-fluency-ujmd/
 │
 ├── 04_herramientas/        ← Dashboards y herramientas operativas
 │   ├── Dashboard_Jornada.html                 # Dashboard inicio/fin jornada
+│   ├── infraestructura_repos.md               # ★ Push dual (repozone + GitHub), credenciales, troubleshooting
 │   ├── checklist_artefactos_instalacion_champions.md  # ★ Checklist de verificación de instalaciones
 │   ├── auditorias/                            # ★ Serie de auditorías (#01–#02 + cierre F1)
 │   ├── guia_setup_champions/                  # Lecciones de setup (archivo histórico)
