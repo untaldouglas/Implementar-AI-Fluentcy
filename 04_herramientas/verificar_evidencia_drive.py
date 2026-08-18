@@ -33,11 +33,12 @@ SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
 
 CANONICAL_TOP_LEVEL = {
     "00_Gobernanza",
-    "01_Evidencia_Champions",
+    "01_Fases",
     "02_Conocimiento_Colectivo",
     "03_Material_Programa",
+    "04_Comunicaciones",
 }
-RESTRICTED_TOP_LEVEL = "04_Diagnostico_RESTRINGIDO"
+RESTRICTED_TOP_LEVEL = "F2_01_Baseline_RESTRINGIDO"
 FOLDER_MIME = "application/vnd.google-apps.folder"
 
 
@@ -100,9 +101,10 @@ def main() -> int:
     for path, item in walk(service, root_id, [], skip_names={RESTRICTED_TOP_LEVEL}):
         top = path.split("/", 1)[0]
         is_plantilla = "_PLANTILLA_" in item["name"]
+        is_root_readme = "/" not in path and item["name"].startswith("README")
         mtime = datetime.strptime(item["modifiedTime"], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=timezone.utc)
 
-        if top not in CANONICAL_TOP_LEVEL and not is_plantilla:
+        if top not in CANONICAL_TOP_LEVEL and not is_plantilla and not is_root_readme:
             fuera_de_estructura.append((path, item))
         if mtime >= cutoff and not is_plantilla:
             recientes.append((path, item))
