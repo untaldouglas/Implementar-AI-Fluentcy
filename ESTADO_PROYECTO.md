@@ -127,8 +127,9 @@
 | Actas de Licencias (Drive) | Carpeta `00_Gobernanza/Actas_Licencias` | 3 actas de Licencia Básica (17/07, condicionadas a evidencia C19) |
 | Google Form | https://forms.gle/JHd4a8kHyFh59RkH7 | Diagnóstico baseline |
 | Google Meet (Sesión 0) | https://meet.google.com/rhx-crmz-kca | Kick-off 01/07 |
-| GitHub Pages | https://untaldouglas.github.io/Implementar-AI-Fluentcy/ | Artefactos HTML interactivos ✅ LIVE |
-| Repositorio GitHub | https://github.com/untaldouglas/Implementar-AI-Fluentcy | Código fuente del proyecto |
+| GitHub Pages | https://untaldouglas.github.io/Implementar-AI-Fluentcy/ | Artefactos HTML interactivos ✅ LIVE (hosting público; repozone es privado) |
+| Repositorio GITEA institucional | https://repozone.ujmd.edu.sv/DireccionInformatica/aifluent-champions | Repo oficial del programa (18/08, privado). Push dual configurado: `git push origin main` envía a GitHub + repozone. Autenticación repozone: credential helper dedicado (`~/.git-credentials-repozone`, chmod 600) — no usar SSH (no habilitado en el servidor) |
+| Repositorio GitHub | https://github.com/untaldouglas/Implementar-AI-Fluentcy | Mirror + hosting de Pages (ambas ramas: main + Fase01) |
 
 ---
 
