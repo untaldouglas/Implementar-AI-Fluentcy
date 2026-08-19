@@ -334,8 +334,9 @@
      (reporte al cierre de F2).
 
   PENDIENTE PARA EL KICKOFF:
-  🎯 Enviar email de convocatoria (confirmar con Douglas) · Setup guiado · Reunión
-     del 21/08 con checklist completo.
+  🎯 Email de convocatoria ENVIADO (19/08 10:50 CST, verificado en Gmail sent —
+     6 participantes + 3 facilitadores CC) · Setup guiado · Reunión del 21/08 con
+     checklist completo.
 
 2026-08-19 | SESIÓN 27 — BASELINE F2 CERRADO 6/6 + GUÍAS PERSONALIZADAS DE 14 DÍAS (Teach) + SKILL REUTILIZABLE (Hermes Agent)
 
