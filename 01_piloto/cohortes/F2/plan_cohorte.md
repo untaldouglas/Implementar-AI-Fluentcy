@@ -33,13 +33,15 @@
 
 > **Participantes nuevos confirmados por los coordinadores (14/08):** Bryan Gómez (Sistemas) · Betty Figueroa (Sistemas, acompañará al grupo de Infraestructura) · Oscar Alfaro (Desarrollo). Los 3 coordinadores (Luis, Stephanie, Jorge) completan los 6 participantes.
 
-**Facilitadores/validadores (Champions F1):**
+**Facilitadores/validadores (Champions F1) — grupos asignados (confirmado 19/08):**
 
-| Rol | Nombre | Licencia | Qué valida |
-|---|---|---|---|
-| Facilitador + co-facilitación rotativa (R9) | Mario, Irvin, Patrick | 🔵 Profesional (L4–L5) | Sesiones, acompañamiento |
-| Validador (con rúbrica) | Mario, Irvin, Patrick | 🔵 Profesional | Evidencia de Básica — Douglas co-firma (solo este primer ejercicio) |
-| Instructor | Douglas | 🏆 L8 | Profesional y superiores |
+| Rol | Nombre | Licencia | Grupo que facilita | Qué valida |
+|---|---|---|---|---|
+| Facilitador | **Irvin Morales** | 🔵 Profesional (L4–L5) | **Jorge + Bryan** (Sistemas/Operaciones y Soporte) | Sesiones, acompañamiento |
+| Facilitador | **Patrick Orellana** | 🔵 Profesional | **Luis + Betty** (Infraestructura/Seguridad y Mesa de Servicio) | Sesiones, acompañamiento |
+| Facilitador | **Mario Valencia** | 🔵 Profesional | **Stephanie + Oscar** (Desarrollo/Mantenimiento y Programador Analista) | Sesiones, acompañamiento |
+| Validador (con rúbrica) | Mario, Irvin, Patrick | 🔵 Profesional | Cada uno valida la evidencia de su grupo | Evidencia de Básica — Douglas co-firma (solo este primer ejercicio) |
+| Instructor | Douglas | 🏆 L8 | Todos | Profesional y superiores |
 
 ## 3. Entregables del cohorte (definidos por Douglas 14/08)
 
