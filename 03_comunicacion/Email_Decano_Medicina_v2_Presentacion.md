@@ -1,6 +1,8 @@
 # Email V2 — Presentación al Decano de Medicina (Dr. Víctor Segura)
 
-**Estado:** v3 HUMANIZADO + BORRADOR EN GMAIL (r-2191876333979441740, sin enviar) · **Remitente:** Douglas A. Galindo (Director de Servicios Informáticos) · **Destinatario:** Dr. Víctor Segura (Decano, Facultad de Medicina, vesegurale@ujmd.edu.sv) · **Fecha:** 19/08/2026
+**Estado:** ✅ ENVIADO 19/08/2026 11:55 CST (verificado en Gmail sent) · **Remitente:** Douglas A. Galindo (Director de Servicios Informáticos) · **Destinatario:** Dr. Víctor Segura (Decano, Facultad de Medicina, vesegurale@ujmd.edu.sv) · **Fecha:** 19/08/2026
+**Asunto enviado (ajustado por Douglas al momento del envío):** "AI Fluency UJMD — programa formativo uso de AI en dirección informática para agilizar procesos y fortalecer conocimiento."
+**Siguiente paso:** email 2 (invitación al piloto) según la respuesta del Decano.
 **Estrategia:** email 1 de 2 — presentación gerencial y sondeo de opinión. El email 2 (invitación al piloto) se preparará después de afinar este. Lenguaje de negocio; lo técnico solo como respaldo documentado. Cada artefacto mencionado enlaza a su origen.
 
 ---
