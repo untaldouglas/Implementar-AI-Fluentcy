@@ -22,7 +22,7 @@ Genera una guía de 14 días (HTML autocontenido + Google Doc en Drive) POR PART
 - Registrar los grupos en memoria y en `01_piloto/cohortes/F<X>/plan_cohorte.md`.
 
 ### 2. Definir la estructura de la guía (14 días, 2 semanas)
-- **Semana 1** (herramienta principal = Gemini con cuenta institucional): D1 prompts (rol+tarea+contexto) · D2 3 prompts reales del puesto · D3 contexto/memoria · D4 refinamiento · D5 nivel L2 (IA lee archivos del área) · D6 tabla de clasificación de activos (ISO 27001) · D7 caso real de la semana · D8 revisión con facilitador.
+- **Semana 1** (herramienta principal = Gemini con cuenta institucional): D1 prompts (rol+tarea+contexto) + bloque de **NotebookLM del proyecto** (asistente de consulta oficial: https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560) · D2 3 prompts reales del puesto · D3 contexto/memoria · D4 refinamiento · D5 nivel L2 (IA lee archivos del área) · D6 tabla de clasificación de activos (ISO 27001) · D7 caso real de la semana · D8 revisión con facilitador.
 - **Semana 2**: D9 marcos (ITIL/COBIT — según el rol) · D10 LEAN (desperdicios, PDCA, línea base antes/después) · D11 introducción a Hermes (complemento) · D12 Hermes con caso real · D13 PRINCE2/agile (mini-proyecto) + medición delta · D14 entrega, reflexión, validación (facilitador + co-firma Douglas).
 - Cada día: concepto clave, práctica, checklist interactivo, alerta de seguridad, bloque de evidencia, navegación día↔día.
 
