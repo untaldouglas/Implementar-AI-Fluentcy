@@ -2,7 +2,7 @@
 **Dirección de Servicios Informáticos · @untaldouglas**  
 Framework: Modelo de Conducción AI (MCA) · Herramienta: [Hermes Agent](https://github.com/nousresearch/hermes-agent)
 
-> **Estado (14/08/2026):** **Fase 1 (Piloto Champions) ✅ CERRADA FORMALMENTE** — C14–C22 completados 3/3 con evidencia aprobada en Drive · **Licencia Básica 🟢 3/3 (07/08) + Licencia Profesional 🔵 3/3 (13/08) certificadas y selladas** (actas firmadas por Champions, coordinadores e Instructor). Ver `ESTADO_PROYECTO.md` (fuente de verdad viva).
+> **Estado (19/08/2026):** **Fase 1 (Piloto Champions) ✅ CERRADA FORMALMENTE** — C14–C22 completados 3/3 con evidencia aprobada en Drive · **Licencia Básica 🟢 3/3 (07/08) + Licencia Profesional 🔵 3/3 (13/08) certificadas y selladas** · **Fase 2 EN ARRANQUE**: baseline 6/6 recibido y analizado (19/08) · guías personalizadas de 14 días generadas por participante (metodología Teach, [docs/fase2/](docs/fase2/index.html)) · kickoff 21/08. Ver `ESTADO_PROYECTO.md` (fuente de verdad viva).
 
 ---
 
@@ -69,6 +69,8 @@ ai-fluency-ujmd/
 ├── 06_mercadeo/            ← Materiales de mercadeo
 │
 ├── docs/                   ← GitHub Pages (publicado) — dashboard + infográfico + deck + onboarding + research brief
+│   ├── fase1/                              # ★ Archivo Fase 1 (resultados + guías F1)
+│   └── fase2/                              # ★ Fase 2 en arranque: guías personalizadas 14 días (Teach) + índice
 ├── ESTADO_PROYECTO.md      ← Estado vivo del proyecto (actualizar diariamente)
 ├── Makefile                ← Comandos rápidos (make status, make check-security, etc.)
 └── README.md               ← Este archivo
@@ -84,6 +86,7 @@ ai-fluency-ujmd/
 | Ver el plan operativo | `01_piloto/Roadmap_AI_Fluency_UJMD.md` |
 | Saber qué se aprende y qué se entrega por licencia | `00_marco/Guia_Aprendizaje_y_Evidencia_por_Licencia.md` ★ |
 | Ver el plan de un cohorte nuevo (F2…) | `01_piloto/cohortes/` ★ |
+| Guías personalizadas de aprendizaje (14 días, por fase) | `docs/fase2/` ★ |
 | Guías por rol (facilitador/participante/validador) | `01_piloto/guias_estandar/` ★ |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` (fuente de verdad) |
 | Ver los registros individuales de los Champions | `01_piloto/learning_record/` |

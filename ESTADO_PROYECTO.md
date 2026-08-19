@@ -284,6 +284,44 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-19 | SESIÓN 27 — BASELINE F2 CERRADO 6/6 + GUÍAS PERSONALIZADAS DE 14 DÍAS (Teach) + SKILL REUTILIZABLE (Hermes Agent)
+
+  LOGRO DE LA SESIÓN:
+  🎯 Baseline F2: 6/6 respuestas en tiempo (Luis 14/08 · Betty 17/08 · Stephanie
+    17/08 · Jorge 17/08 · Bryan 17/08 · Oscar 18/08) · análisis 19/08: promedio
+    16.2/50 · 5 Pasajeros 🟤 + 1 Conductor 🟢 (Jorge L2, meta L3) · bloqueos:
+    Acceso/Permisos (10) · Seguridad/Privacidad (9) · Soporte (8) · Conocimiento
+    técnico (7) · Confianza (5) · Cultura (5) · Tiempo (0). Consolidado en
+    `F2_01_Baseline_RESTRINGIDO/Respuestas_Diagnostico_Conduccion_AI` (Drive).
+  🎯 6 guías personalizadas de 14 días generadas (metodología Teach) en
+    docs/fase2/ (guia_luis_molina, guia_jorge_lopez, guia_stephanie_miranda,
+    guia_betty_figueroa, guia_bryan_gomez, guia_oscar_alfaro) + índice fase2/
+    + tarjeta en docs/index.html.
+  🎯 Guías subidas a Drive F2_03_Sesiones_Material como Google Docs editables.
+  🎯 Acta de selección de participantes F2 creada (AI-FLUENCY-2026-002) — firma
+    en el kickoff 21/08.
+  🎯 Herramienta oficial del programa: Google Gemini + suite Workspace (contrato
+    Workspace for Education — sin dependencia de Claude/Copilot). Hermes como
+    orquestador.
+  🎯 Skill reutilizable creado: `aifluent-guia-personalizada` (itsm) — proceso
+    completo de generación de guías por fase + script generador (mejora continua
+    con cada fase).
+
+  ALINEADO:
+  ✓ plan_cohorte.md: niveles baseline por participante + grupos de facilitación
+    explícitos (Irvin→Jorge+Bryan · Patrick→Luis+Betty · Mario→Stephanie+Oscar).
+  ✓ README.md: estado 19/08 + árbol con docs/fase2/ + fila de navegación.
+  ✓ agenda_kickoff_f2.md: guías al material de apoyo + bloque "Tu itinerario".
+  ✓ Metadata: Hoy = 19/08 · día 49 · próximo hito = kickoff 21/08 (2 días).
+
+  PENDIENTE:
+  🎯 Kickoff F2: viernes 21/08 14:00–15:15 CC 2 · decisiones D2, D4–D7 en la
+    reunión de planificación · setup Hermes guiado tras el kickoff.
+  🎯 Enviar borrador Gmail a Champions (plan de acción F2) — falta [FECHA_LIMITE].
+  🎯 Lección aprendida (skill): usar funciones REALES confirmadas por Douglas,
+    NO títulos de RRHH de Drive (corrección Luis: Coordinador de Infraestructura
+    y Seguridad, no "Coordinador de Operaciones" 008).
+
 2026-08-17 | SYNC DE ESTADO — METADATA Y SECCIONES ALINEADAS CON HECHOS DEL 14/08 (Hermes Agent)
 
   CONTEXTO:
