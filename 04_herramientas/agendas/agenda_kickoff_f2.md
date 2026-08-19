@@ -10,11 +10,11 @@
 
 ## Estado de entrada (lo que ya está definido)
 
-- ✅ **Baseline cerrado 6/6 y analizado (19/08):** 5 Pasajeros 🟤 (L1) + 1 Conductor 🟢 (Jorge, L2 → meta L3) · promedio 16.2/50
+- ✅ **Baseline cerrado 6/6 y analizado (19/08):** 5 Pasajeros 🟤 (L1) + 1 Conductor 🟢 (Jorge, L2 → meta L3) · promedio 16.2/50 — [itinerarios individuales](https://drive.google.com/drive/folders/1N6c9wgxtiEgpZIDcxR1ssTAWiZ7FYEY8?usp=drive_link) (spreadsheet de diagnóstico)
 - ✅ **Participantes (6):** Luis (Infra) · Stephanie (Desarrollo) · Jorge (Sistemas) · Bryan (Sistemas) · Betty (Sistemas→Infra) · Oscar (Desarrollo)
-- ✅ **Entregables E1–E8** registrados en `01_piloto/cohortes/F2/plan_cohorte.md`
-- ✅ **Guías personalizadas de 14 días** por participante (docs/fase2/ + Drive F2_03)
-- ✅ **Herramienta oficial:** Google Gemini + suite Workspace (contrato institucional) · Hermes como orquestador · NotebookLM como asistente de consulta
+- ✅ **Entregables E1–E8** registrados en el [Plan de Cohorte F2](https://docs.google.com/document/d/1fp3yAtumD2BIL4cUUVLfkFOy-_pZFTEcBabCjCYF5a4/edit?usp=drivesdk)
+- ✅ **Guías personalizadas de 14 días** por participante ([página pública](https://untaldouglas.info/Implementar-AI-Fluentcy/fase2/index.html) + [Drive F2_03](https://drive.google.com/drive/folders/1udI5e5w3FdoUHIN-4W7Aw9kkq2IlNFoG?usp=drive_link))
+- ✅ **Herramienta oficial:** Google Gemini + suite Workspace (contrato institucional) · Hermes como orquestador · [NotebookLM](https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560) como asistente de consulta
 - ✅ **Validación:** Champions F1 validan + Douglas co-firma (esquema transitorio)
 - ✅ **Decisión D8:** facilitadores por grupo — Irvin→Jorge+Bryan · Patrick→Luis+Betty · Mario→Stephanie+Oscar
 
@@ -23,49 +23,50 @@
 | Hora | Bloque | Contenido | Quién |
 |---|---|---|---|
 | 0:00 | Apertura y contexto (5 min) | Qué es F2 (expansión al equipo, Capa 1) · cómo F1 cerró con evidencia real (22 compromisos, 2 licencias 3/3) · qué espera el programa de cada uno | Douglas |
-| 0:05 | **Firma del acta de selección** (10 min) | **Firma de la Acta de Selección de Participantes F2** (AI-FLUENCY-2026-002) — los 6 participantes + Champions F1 como testigos. Acta en `01_piloto/cohortes/F2/Acta_Seleccion_Participantes_F2.md`; se oficializa la incorporación y las herramientas del programa | Douglas + los 6 |
-| 0:15 | El grupo F2 + tu itinerario (15 min) | Presentación de los 6 · rol de los Champions F1 como facilitadores/validadores (R9) · resultado del baseline: tu nivel (L1/L2), tu meta (L2, L3 Jorge) y tu ruta · **cada participante recibe SU guía personalizada de 14 días** · casos de uso de tu propio rol | Douglas + Champions |
-| 0:30 | Herramientas del programa (10 min) | **Google Gemini + suite Workspace** como estándar institucional (contrato Workspace for Education — sin costo adicional, sin dependencia de Claude/Copilot) · Hermes Agent como orquestador · **NotebookLM del proyecto como asistente de consulta y aprendizaje** · complementos opcionales (ChatGPT, Claude) | Douglas |
-| 0:40 | Reglas del juego (5 min) | Evidencia real, no verbal (plantillas-rúbrica, Drive Approvals) · datos sensibles: qué SÍ y qué NO se sube a la IA (bloqueos nº 1–2 del grupo: Acceso y Seguridad) · dónde vive cada cosa (carpeta Drive del programa) | Douglas |
-| 0:45 | **⚡ DECISIONES DE PLANIFICACIÓN (20 min)** | Resolver en vivo (checklist: `04_herramientas/agendas/checklist_reunion_planificacion_f2.md`):
+| 0:05 | **Firma del acta de selección** (10 min) | **Firma de la [Acta de Selección de Participantes F2](https://docs.google.com/document/d/1NvRg3K-ZfNLjjY6LRYTrx8W_qtpKKjfFCXf2LfinRok/edit?usp=drivesdk)** (AI-FLUENCY-2026-002) — los 6 participantes + Champions F1 como testigos; se oficializa la incorporación y las herramientas del programa | Douglas + los 6 |
+| 0:15 | El grupo F2 + tu itinerario (15 min) | Presentación de los 6 · rol de los Champions F1 como facilitadores/validadores (R9) · resultado del baseline: tu nivel (L1/L2), tu meta (L2, L3 Jorge) y tu ruta · **cada participante recibe SU [guía personalizada de 14 días](https://untaldouglas.info/Implementar-AI-Fluentcy/fase2/index.html)** · casos de uso de tu propio rol | Douglas + Champions |
+| 0:30 | Herramientas del programa (10 min) | **Google Gemini + suite Workspace** como estándar institucional (contrato Workspace for Education — sin costo adicional, sin dependencia de Claude/Copilot) · Hermes Agent como orquestador · **[NotebookLM del proyecto](https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560) como asistente de consulta y aprendizaje** · complementos opcionales (ChatGPT, Claude) | Douglas |
+| 0:40 | Reglas del juego (5 min) | Evidencia real, no verbal (plantillas-rúbrica, Drive Approvals) · datos sensibles: qué SÍ y qué NO se sube a la IA (bloqueos nº 1–2 del grupo: Acceso y Seguridad) · dónde vive cada cosa ([carpeta Drive del programa](https://drive.google.com/drive/folders/1r5ySbaluf9KJE6EeHRMzgPeP1GWCmbHD?usp=drive_link)) | Douglas |
+| 0:45 | **⚡ DECISIONES DE PLANIFICACIÓN (20 min)** | Resolver en vivo (checklist: [Checklist ejecutable de la reunión](https://docs.google.com/document/d/1mDG6GggT8vVUcTHs-J_J9tqxT2Jpd-3zcZjbrceRbjk/edit?usp=drivesdk) · registro canónico: [Decisiones Pendientes F2](https://docs.google.com/document/d/1AE2GxfVnxtlPKA4UcCOh7fE4WDzmiX3MutbUmYV_btY/edit?usp=drivesdk)):
   **D2 — Cronograma y cadencia:** ventana 8–10 semanas · mié 2–4 PM + vie 2–3 PM (propuesta) · entregas quincenales con revisión intermedia (lección L2 de F1) · fecha de línea base de KPIs (semana 1–2)
-  **D4 — Repo del equipo (E2):** ubicación en repozone (DireccionInformatica) · estructura profiles/skills/souls por coordinación · responsable
+  **D4 — Repo del equipo (E2):** ubicación en [repozone (DireccionInformatica)](https://repozone.ujmd.edu.sv/DireccionInformatica/aifluent-champions) · estructura profiles/skills/souls por coordinación · responsable
   **D5 — Presupuesto LLM (E7):** $200/mes autorizado · línea base de consumo por persona (medida con gateway Bifrost)
   **D6a — Memoria externa (E3):** herramienta elegida (Obsidian/Notion/GBrain/…) · ADR documentado
   **D6b — Primer MCP (E5):** servicio elegido (ERPNext/Google Workspace/AD/mesa de ayuda) · responsable de montaje
-  **D7 — KPIs E8:** KPI confirmado por coordinación (plantillas pre-llenadas: altas/bajas AD · refactor legacy · ticket ERPNext) · quién mide y frecuencia | Douglas + todos (cada coordinador propone su KPI) |
-| 1:05 | Cierre y compromisos (10 min) | Resumen de decisiones tomadas · setup guiado de Hermes: se agenda como sesión dedicada (próximos días, lección L3) · primera sesión semanal · compromiso individual: revisar tu guía y traer 1 caso real de tu trabajo · grabación de la sesión (lección L1) | Douglas |
+  **D7 — KPIs E8:** KPI confirmado por coordinación ([plantillas pre-llenadas](https://drive.google.com/drive/folders/1Mhz8vZL094s-R2bGF2TyfYYSFA-O9d3_?usp=drive_link): altas/bajas AD · refactor legacy · ticket ERPNext) · quién mide y frecuencia | Douglas + todos (cada coordinador propone su KPI) |
+| 1:05 | Cierre y compromisos (10 min) | Resumen de decisiones tomadas · setup guiado de Hermes ([checklist de instalación](https://docs.google.com/document/d/19kJj6uEy5g1B7ZFDf4r48WVfghkZ2A2GKxhZKEBJ0yA/edit?usp=drivesdk)): se agenda como sesión dedicada (próximos días, lección L3) · primera sesión semanal · compromiso individual: revisar tu guía y traer 1 caso real de tu trabajo · grabación de la sesión (lección L1) | Douglas |
 
 ## Material de apoyo (documento Drive de la reunión)
 
-1. **Plan de cohorte F2:** `01_piloto/cohortes/F2/plan_cohorte.md` (sección 2: participantes + baselines; sección 3: entregables; sección 8: lecciones F1)
-2. **Acta de selección de participantes F2 (para firmar):** `01_piloto/cohortes/F2/Acta_Seleccion_Participantes_F2.md` (ref AI-FLUENCY-2026-002)
-3. **Checklist ejecutable de decisiones:** `04_herramientas/agendas/checklist_reunion_planificacion_f2.md` (D2, D4–D7 con casillas)
-4. **Decisiones pendientes (registro canónico):** `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md`
-5. **Guías personalizadas de 14 días por participante:** `docs/fase2/` (HTML publicado) + Drive `F2_03_Sesiones_Material` (Google Docs editables)
-6. **Itinerarios individuales:** hoja `ITINERARIOS` del spreadsheet `F2_01_Baseline_RESTRINGIDO/Respuestas_Diagnostico_Conduccion_AI` (Drive)
-7. **Plantillas KPI E8 por coordinación:** Drive `F2_04_Cierre_y_Metricas_E8` (3 copias pre-llenadas)
-8. **Guías de rol:** `01_piloto/guias_estandar/` (facilitador/participante/validador)
-9. **Glosario consolidado del programa:** `01_piloto/conocimiento_colectivo/Glosario_Consolidado.md`
-10. **NotebookLM del proyecto (asistente de consulta):** https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560
+1. **Plan de cohorte F2:** [documento Drive](https://docs.google.com/document/d/1fp3yAtumD2BIL4cUUVLfkFOy-_pZFTEcBabCjCYF5a4/edit?usp=drivesdk) (sección 2: participantes + baselines; sección 3: entregables; sección 8: lecciones F1)
+2. **Acta de selección de participantes F2 (para firmar):** [documento Drive](https://docs.google.com/document/d/1NvRg3K-ZfNLjjY6LRYTrx8W_qtpKKjfFCXf2LfinRok/edit?usp=drivesdk) (ref AI-FLUENCY-2026-002)
+3. **Checklist ejecutable de decisiones:** [documento Drive](https://docs.google.com/document/d/1mDG6GggT8vVUcTHs-J_J9tqxT2Jpd-3zcZjbrceRbjk/edit?usp=drivesdk) (D2, D4–D7 con casillas)
+4. **Decisiones pendientes (registro canónico):** [documento Drive](https://docs.google.com/document/d/1AE2GxfVnxtlPKA4UcCOh7fE4WDzmiX3MutbUmYV_btY/edit?usp=drivesdk)
+5. **Guías personalizadas de 14 días por participante:** [página pública](https://untaldouglas.info/Implementar-AI-Fluentcy/fase2/index.html) (HTML publicado) + [Drive F2_03_Sesiones_Material](https://drive.google.com/drive/folders/1udI5e5w3FdoUHIN-4W7Aw9kkq2IlNFoG?usp=drive_link) (Google Docs editables)
+6. **Itinerarios individuales:** [carpeta de diagnóstico (F2_01_Baseline)](https://drive.google.com/drive/folders/1N6c9wgxtiEgpZIDcxR1ssTAWiZ7FYEY8?usp=drive_link) — hoja ITINERARIOS del spreadsheet
+7. **Plantillas KPI E8 por coordinación:** [carpeta F2_04_Cierre_y_Metricas_E8](https://drive.google.com/drive/folders/1Mhz8vZL094s-R2bGF2TyfYYSFA-O9d3_?usp=drive_link) (3 copias pre-llenadas)
+8. **Guías de rol:** [Guía — Facilitador](https://docs.google.com/document/d/19BFXk540uVf13QbdbG1A-zN6TNsaHZiSOBXUK3MpO6A/edit?usp=drivesdk) · [Guía — Participante](https://docs.google.com/document/d/1V3GEF7zUIJQc2nMRwd55SqrKK-zjYCATp4m3924X_Kg/edit?usp=drivesdk) · [Guía — Validador](https://docs.google.com/document/d/1dR2xFP90N62V1UTHQbLGj20Mpw1wwgP7GmaqN4fvMGY/edit?usp=drivesdk) (03_Material_Programa)
+9. **Glosario consolidado del programa:** [documento Drive](https://docs.google.com/document/d/1ffaobVvfDhOYgOXEePxmL8NzDh9yuxWEsRXZay1smrM/edit?usp=drivesdk) (02_Conocimiento_Colectivo)
+10. **Checklist de instalación de Hermes:** [documento Drive](https://docs.google.com/document/d/19kJj6uEy5g1B7ZFDf4r48WVfghkZ2A2GKxhZKEBJ0yA/edit?usp=drivesdk)
+11. **NotebookLM del proyecto (asistente de consulta):** [notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560](https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560)
 
 ## Lectura previa sugerida para los asistentes (para participación constructiva)
 
 **Todos (participantes y facilitadores):**
-1. **Tu guía personalizada de 14 días** (Drive F2_03 o docs/fase2/) — al menos Días 1–3 para llegar con contexto
-2. **Tu itinerario** (hoja ITINERARIOS del spreadsheet): tu nivel, tu meta y tu bloqueo a trabajar
-3. **Plan de cohorte F2** — sección 2 (participantes y grupos), sección 3 (entregables E1–E8)
-4. **Glosario consolidado** — vocabulario común del programa (15 min)
-5. **NotebookLM** — explóralo y trae una pregunta al kickoff
+1. **Tu guía personalizada de 14 días** ([página pública](https://untaldouglas.info/Implementar-AI-Fluentcy/fase2/index.html) o Drive F2_03) — al menos Días 1–3 para llegar con contexto
+2. **Tu itinerario** ([carpeta de diagnóstico](https://drive.google.com/drive/folders/1N6c9wgxtiEgpZIDcxR1ssTAWiZ7FYEY8?usp=drive_link)): tu nivel, tu meta y tu bloqueo a trabajar
+3. **Plan de cohorte F2** ([documento Drive](https://docs.google.com/document/d/1fp3yAtumD2BIL4cUUVLfkFOy-_pZFTEcBabCjCYF5a4/edit?usp=drivesdk)) — sección 2 (participantes y grupos), sección 3 (entregables E1–E8)
+4. **Glosario consolidado** ([documento Drive](https://docs.google.com/document/d/1ffaobVvfDhOYgOXEePxmL8NzDh9yuxWEsRXZay1smrM/edit?usp=drivesdk)) — vocabulario común del programa (15 min)
+5. **NotebookLM** — [explóralo](https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560) y trae una pregunta al kickoff
 
 **Para decidir mejor (D2, D4–D7), leer con atención:**
-6. **DECISIONES_PENDIENTES.md** — las 6 decisiones que resolveremos en la reunión
-7. **Tu plantilla KPI E8** (solo coordinadores: Luis, Stephanie, Jorge) — lleguen con su KPI candidato y su propuesta de medición
-8. **Guía del rol** (participante o facilitador según corresponda): qué esperar y cómo entregar evidencia
+6. **Decisiones Pendientes F2** ([documento Drive](https://docs.google.com/document/d/1AE2GxfVnxtlPKA4UcCOh7fE4WDzmiX3MutbUmYV_btY/edit?usp=drivesdk)) — las 6 decisiones que resolveremos en la reunión
+7. **Tu plantilla KPI E8** ([carpeta F2_04](https://drive.google.com/drive/folders/1Mhz8vZL094s-R2bGF2TyfYYSFA-O9d3_?usp=drive_link)) (solo coordinadores: Luis, Stephanie, Jorge) — lleguen con su KPI candidato y su propuesta de medición
+8. **Guía del rol** ([Guía — Facilitador](https://docs.google.com/document/d/19BFXk540uVf13QbdbG1A-zN6TNsaHZiSOBXUK3MpO6A/edit?usp=drivesdk) · [Guía — Participante](https://docs.google.com/document/d/1V3GEF7zUIJQc2nMRwd55SqrKK-zjYCATp4m3924X_Kg/edit?usp=drivesdk) · [Guía — Validador](https://docs.google.com/document/d/1dR2xFP90N62V1UTHQbLGj20Mpw1wwgP7GmaqN4fvMGY/edit?usp=drivesdk)) — qué esperar y cómo entregar evidencia
 
 **Facilitadores (Mario, Irvin, Patrick) adicionalmente:**
-9. **Guía del facilitador** + sus grupos asignados (Irvin→Jorge+Bryan · Patrick→Luis+Betty · Mario→Stephanie+Oscar)
-10. **Lecciones F1 (§8 del plan de cohorte):** L1 grabaciones, L2 entregas quincenales, L3 setup guiado, L4 material previo
+9. **Guía del facilitador** ([documento Drive](https://docs.google.com/document/d/19BFXk540uVf13QbdbG1A-zN6TNsaHZiSOBXUK3MpO6A/edit?usp=drivesdk)) + sus grupos asignados (Irvin→Jorge+Bryan · Patrick→Luis+Betty · Mario→Stephanie+Oscar)
+10. **Lecciones F1** (§8 del plan de cohorte): L1 grabaciones, L2 entregas quincenales, L3 setup guiado, L4 material previo
 
 ## Checklist de salida (al terminar la sesión)
 
@@ -73,7 +74,7 @@
 - [ ] Los 6 participantes conocen su nivel baseline, su meta y su itinerario (y tienen su guía)
 - [ ] Herramienta estándar comunicada: Gemini + Workspace + Hermes + NotebookLM (link distribuido)
 - [ ] **D2 resuelta** (cronograma y cadencia) · **D4** (repo) · **D5** (presupuesto) · **D6a** (memoria externa) · **D6b** (MCP) · **D7** (KPIs E8)
-- [ ] DECISIONES_PENDIENTES.md actualizado con las resoluciones (8/8 casillas)
+- [ ] Decisiones Pendientes F2 actualizado con las resoluciones (8/8 casillas)
 - [ ] plan_cohorte.md y ESTADO_PROYECTO.md actualizados (ritual de cierre: `make cierre-sesion`)
 - [ ] Reglas de datos claras (qué SÍ/NO subir a la IA) — ataca bloqueos nº 1–2 del grupo
 - [ ] Fecha de la sesión de setup guiado de Hermes definida (sesión dedicada)

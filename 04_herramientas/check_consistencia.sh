@@ -32,13 +32,23 @@ fi
 
 # 3. Carpeta de Drive: solo el ID canónico debe aparecer en documentos vivos
 #    (mientras la decisión del §7 del Protocolo esté pendiente, este chequeo lista todos los IDs en uso)
+#    Los IDs de SUBCARPETAS del programa (que cuelgan de la raíz canónica) son parte de la
+#    estructura oficial — la regla §7 prohíbe DOS raíces, no enlazar a subcarpetas legítimas.
 IDS=$(grep -rhoE 'folders/[A-Za-z0-9_-]{20,}' "$REPO/ESTADO_PROYECTO.md" "$REPO/00_marco" "$REPO/01_piloto" "$REPO/04_herramientas/agendas" 2>/dev/null | sort -u)
-N_IDS=$(printf '%s\n' "$IDS" | grep -c . || true)
+# Subcarpetas oficiales del programa (bajo la raíz 1LrA6qMsU...): se excluyen del conteo de raíces
+SUBCARPETAS_OK="folders/1zTlJG0zrU6e7xcLYR5-7NYBQsJ7d-3PN
+folders/1r5ySbaluf9KJE6EeHRMzgPeP1GWCmbHD
+folders/1N6c9wgxtiEgpZIDcxR1ssTAWiZ7FYEY8
+folders/1udI5e5w3FdoUHIN-4W7Aw9kkq2IlNFoG
+folders/1Mhz8vZL094s-R2bGF2TyfYYSFA-O9d3_
+folders/1svXYb3KIphG3d64AxXFcVrumaQ_cUwsI"
+IDS_RAIZ=$(printf '%s\n' "$IDS" | grep -vxF -f <(printf '%s\n' "$SUBCARPETAS_OK") || true)
+N_IDS=$(printf '%s\n' "$IDS_RAIZ" | grep -c . || true)
 if [ "$N_IDS" -le 1 ]; then
-  ok "Un solo ID de carpeta Drive en documentos vivos: ${IDS#folders/}"
+  ok "Un solo ID de carpeta Drive en documentos vivos: ${IDS_RAIZ#folders/}"
 else
   fail "Hay $N_IDS IDs de carpeta Drive distintos en documentos vivos (decisión §7 del Protocolo pendiente):"
-  printf '%s\n' "$IDS" | sed 's/^/      /'
+  printf '%s\n' "$IDS_RAIZ" | sed 's/^/      /'
 fi
 
 # 4. Patrón I10 (advisory): lenguaje de hecho consumado sospechoso en el log
