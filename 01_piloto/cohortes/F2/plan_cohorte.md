@@ -20,14 +20,16 @@
 
 ## 2. Participantes (6 nuevos — confirmados por Douglas y coordinadores 14/08)
 
-| # | Nombre | Email | Coordinación/Grupo | Rol | Baseline | Meta |
+| # | Nombre | Email | Coordinación/Grupo | Rol | Baseline (19/08) | Meta ciclo |
 |---|---|---|---|---|---|---|
-| 1 | Luis Molina | lamolinaq@ujmd.edu.sv | Infraestructura (Coordinador) | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 2 | Stephanie Miranda | symirandav@ujmd.edu.sv | Desarrollo (Coordinadora) | Participante (coordinadora) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 3 | Jorge López | jelopezr@ujmd.edu.sv | Sistemas (Coordinador) | Participante (coordinador) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | **Sistemas** | Participante (nuevo) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | **Sistemas → acompañará a Infraestructura** | Participante (nueva) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
-| 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | **Desarrollo** | Participante (nuevo) | [PENDIENTE — baseline] | [PENDIENTE — baseline] |
+| 1 | Luis Molina | lamolinaq@ujmd.edu.sv | Infraestructura (Coordinador) | Participante (coordinador) | L1 · Pasajero 🟤 (score 14/50) | L2 — IA lee archivos del área |
+| 2 | Stephanie Miranda | symirandav@ujmd.edu.sv | Desarrollo (Coordinadora) | Participante (coordinadora) | L1 · Pasajero 🟤 (score 14/50) | L2 — IA lee archivos del área |
+| 3 | Jorge López | jelopezr@ujmd.edu.sv | Sistemas (Coordinador) | Participante (coordinador) | **L2 · Conductor 🟢 (score 18/50)** | L3 — SOUL.md con contexto fijo |
+| 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | **Sistemas** | Participante (nuevo) | L1 · Pasajero 🟤 (score 14/50) | L2 — IA lee archivos del área |
+| 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | **Sistemas → acompañará a Infraestructura** | Participante (nueva) | L1 · Pasajero 🟤 (score 8/50) | L2 — IA lee archivos del área |
+| 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | **Desarrollo** | Participante (nuevo) | L1 · Pasajero 🟤 (score 11/50) | L2 — IA lee archivos del área |
+
+> **Baseline F2 cerrado 6/6 (análisis 19/08):** respuestas recibidas en tiempo (Luis 14/08 · Betty 17/08 · Stephanie 17/08 · Jorge 17/08 · Bryan 17/08 · Oscar 18/08) y consolidadas en `F2_01_Baseline_RESTRINGIDO/Respuestas_Diagnostico_Conduccion_AI` (Drive). Grupo: promedio 16.2/50 · mínimo L1 · máximo L2 · **5 Pasajeros 🟤 + 1 Conductor 🟢** (Jorge, meta L3 con Licencia Básica). Bloqueos del grupo (de más a menos): Acceso/Permisos (10) · Seguridad/Privacidad (9) · Soporte (8) · Conocimiento técnico (7) · Confianza (5) · Cultura (5) · Tiempo (0). Itinerarios individuales generados en la hoja `ITINERARIOS` del mismo spreadsheet. Implicación de planificación: resolver accesos y reglas de datos (qué SÍ/NO subir a IA) temprano en F2 — son los bloqueos nº 1 y nº 2 del grupo, no tiempo ni cultura.
 
 > **Participantes nuevos confirmados por los coordinadores (14/08):** Bryan Gómez (Sistemas) · Betty Figueroa (Sistemas, acompañará al grupo de Infraestructura) · Oscar Alfaro (Desarrollo). Los 3 coordinadores (Luis, Stephanie, Jorge) completan los 6 participantes.
 

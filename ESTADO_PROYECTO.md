@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-08-17 |
-| Días desde inicio | 47 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN ARRANQUE** — fechas clave definidas (14/08): baseline 18/08 5PM · kickoff 21/08 (6 participantes y 8 entregables definidos, comunicaciones enviadas) |
+| Hoy (última actualización) | 2026-08-19 |
+| Días desde inicio | 49 días |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN ARRANQUE** — baseline cerrado 6/6 y analizado (19/08): 5 Pasajeros 🟤 + 1 Conductor 🟢 (Jorge L2), itinerarios generados · **Kickoff F2: viernes 21/08 14:00–15:15, CC 2** (6 participantes y 8 entregables definidos, comunicaciones enviadas) |
 | Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
 | Mes de proyecto | M2 |
-| Próximo hito | **Baseline F2: martes 18/08 5:00 PM** (form de F1) → análisis → **Kickoff F2: viernes 21/08 14:00–15:15, CC 2** |
-| Días hasta próximo hito | 1 día (baseline 18/08) · 4 días (kickoff 21/08) |
+| Próximo hito | **Kickoff F2: viernes 21/08, 14:00–15:15, CC 2** (agenda en 04_herramientas/agendas/) → setup Hermes guiado → primera sesión semanal |
+| Días hasta próximo hito | 2 días (kickoff 21/08) |
 
 ### Calendario de fases
 
@@ -81,19 +81,20 @@
 
 ## 🚀 FASE SIGUIENTE — FASE 2: Expansión al equipo (Capa 1 — Dirección IT)
 
-**Estado:** 🟢 EN ARRANQUE — fechas clave definidas y comunicadas (14/08): **baseline** de los 6 participantes vence **martes 18/08, 5:00 PM** (mismo Google Form de F1) · **kickoff viernes 21/08, 14:00–15:15, CC 2** de la Dirección de Informática (agenda se hará llegar posteriormente). Análisis de respuestas → itinerarios: 18–20/08, antes del kickoff.
+**Estado:** 🟢 EN ARRANQUE — **baseline cerrado 6/6 y analizado (19/08)** · **kickoff viernes 21/08, 14:00–15:15, CC 2** de la Dirección de Informática (agenda en `04_herramientas/agendas/`) · setup Hermes guiado tras el kickoff · reunión de planificación (D2, D4–D7) pendiente de agendar.
 
-**Participantes confirmados (6, 14/08):**
-| # | Nombre | Email | Coordinación/Grupo |
-|---|---|---|---|
-| 1 | Luis Molina (Coordinador) | lamolinaq@ujmd.edu.sv | Infraestructura |
-| 2 | Stephanie Miranda (Coordinadora) | symirandav@ujmd.edu.sv | Desarrollo |
-| 3 | Jorge López (Coordinador) | jelopezr@ujmd.edu.sv | Sistemas |
-| 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | Sistemas |
-| 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | Sistemas → acompañará a Infraestructura |
-| 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | Desarrollo |
+**Participantes confirmados (6, 14/08) con nivel baseline (19/08):**
+| # | Nombre | Email | Coordinación/Grupo | Nivel baseline |
+|---|---|---|---|---|
+| 1 | Luis Molina (Coordinador) | lamolinaq@ujmd.edu.sv | Infraestructura | L1 🟤 (score 14/50) |
+| 2 | Stephanie Miranda (Coordinadora) | symirandav@ujmd.edu.sv | Desarrollo | L1 🟤 (score 14/50) |
+| 3 | Jorge López (Coordinador) | jelopezr@ujmd.edu.sv | Sistemas | **L2 🟢 (score 18/50)** — meta L3 |
+| 4 | **Bryan Gómez** | begomezch@ujmd.edu.sv | Sistemas | L1 🟤 (score 14/50) |
+| 5 | **Betty Figueroa** | bcfigueroac@ujmd.edu.sv | Sistemas → acompañará a Infraestructura | L1 🟤 (score 8/50) |
+| 6 | **Oscar Alfaro** | ojalfarob@ujmd.edu.sv | Desarrollo | L1 🟤 (score 11/50) |
 
 > Nota: 3 coordinadores + 3 nuevos = 6 participantes. Los 3 Champions de F1 (Mario, Irvin, Patrick) pasan a rol de facilitadores/co-facilitadores (R9 — rotación semanal).
+> **Baseline (19/08):** 6/6 respuestas en tiempo (14–18/08) · promedio 16.2/50 · 5 Pasajeros 🟤 + 1 Conductor 🟢 · bloqueos principales: Acceso/Permisos (10) y Seguridad/Privacidad (9) — implicación: resolver accesos y reglas de datos temprano. Consolidado en `F2_01_Baseline_RESTRINGIDO/Respuestas_Diagnostico_Conduccion_AI` (Drive).
 
 **Entregables de la Fase 2 (definidos por Douglas, 14/08):**
 | # | Entregable | Detalle |
