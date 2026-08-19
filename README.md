@@ -92,6 +92,7 @@ ai-fluency-ujmd/
 | Guías por rol (facilitador/participante/validador) | `01_piloto/guias_estandar/` ★ |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` (fuente de verdad) |
 | Ver los registros individuales de los Champions | `01_piloto/learning_record/` |
+| Consultar el vocabulario común del programa (glosario) | `01_piloto/conocimiento_colectivo/Glosario_Consolidado.md` ★ |
 | Verificar una instalación de Hermes | `04_herramientas/checklist_artefactos_instalacion_champions.md` ★ |
 | Replicar el programa en otra unidad | `02_playbook/AI_Fluency_Playbook_UJMD.docx` |
 | Configurar Hermes Agent para un área | `01_piloto/SOUL_plantillas/` |
