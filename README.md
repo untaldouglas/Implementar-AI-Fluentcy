@@ -63,6 +63,7 @@ ai-fluency-ujmd/
 │   ├── checklist_artefactos_instalacion_champions.md  # ★ Checklist de verificación de instalaciones
 │   ├── auditorias/                            # ★ Serie de auditorías (#01–#02 + cierre F1)
 │   ├── guia_setup_champions/                  # Lecciones de setup (archivo histórico)
+│   ├── skills/                                # ★ Skills del programa versionados (ej. aifluent-guia-personalizada)
 │   └── dashboards/                            # Registros de jornada
 │
 ├── 05_blog/                ← Blog del proyecto (avances públicos)
@@ -87,6 +88,7 @@ ai-fluency-ujmd/
 | Saber qué se aprende y qué se entrega por licencia | `00_marco/Guia_Aprendizaje_y_Evidencia_por_Licencia.md` ★ |
 | Ver el plan de un cohorte nuevo (F2…) | `01_piloto/cohortes/` ★ |
 | Guías personalizadas de aprendizaje (14 días, por fase) | `docs/fase2/` ★ |
+| Skill de generación de guías (reutilizable por fase) | `04_herramientas/skills/aifluent-guia-personalizada/` ★ |
 | Guías por rol (facilitador/participante/validador) | `01_piloto/guias_estandar/` ★ |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` (fuente de verdad) |
 | Ver los registros individuales de los Champions | `01_piloto/learning_record/` |
