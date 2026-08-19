@@ -284,6 +284,59 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-19 | CIERRE DE JORNADA — F2 LISTA PARA EL KICKOFF (21/08): BASELINE, GUÍAS, AGENDA, GLOSARIO Y SKILLS (Hermes Agent)
+
+  QUÉ HICIMOS (sesión completa del día):
+  🎯 Baseline F2 cerrado 6/6 y analizado: 5 Pasajeros 🟤 (L1) + 1 Conductor 🟢
+    (Jorge L2 → meta L3) · promedio 16.2/50 · bloqueos: Acceso y Seguridad primero.
+    Consolidado en F2_01_Baseline_RESTRINGIDO (Drive).
+  🎯 6 guías personalizadas de 14 días generadas (metodología Teach) con funciones
+    REALES de cada puesto (no títulos RRHH — corrección Luis), marcos
+    ITIL/COBIT/ISO 27001/LEAN/PRINCE2-agile, seguridad de datos transversal,
+    Gemini como herramienta principal + Hermes complemento. En docs/fase2/ + Drive F2_03.
+  🎯 Acta de selección de participantes F2 (AI-FLUENCY-2026-002) creada — se firma
+    en el kickoff. Herramienta oficial: Google Gemini + Workspace (contrato
+    institucional, sin costo adicional).
+  🎯 Agenda integrada kickoff + planificación (21/08, 14:00–15:15, CC 2) en Drive,
+    con 15 artefactos linkeables a su origen digital (regla nueva: todo artefacto
+    mencionado enlaza a su origen).
+  🎯 Email de convocatoria (borrador Gmail listo, no enviado) con 10 links directos.
+  🎯 Glosario consolidado del programa (44 términos, 3 secciones) + skill
+    aifluent-glosario (gestión: mantener/promover/monitorear) — responsabilidad
+    asignada por Douglas.
+  🎯 Skill aifluent-guia-personalizada (proceso reutilizable por fase + script
+    generador de 690 líneas) versionado en 04_herramientas/skills/.
+  🎯 8 artefactos subidos a Drive F2_03 (agenda, acta, decisiones, checklists,
+    plan de cohorte) + check_consistencia con whitelist de subcarpetas oficiales.
+  🎯 11 commits pusheados a repozone + GitHub (HEAD ac98c9d).
+
+  JUSTIFICACIÓN:
+  F2 arranca con todo el soporte operativo listo ANTES del kickoff: los
+  participantes llegan con lectura previa y links directos a sus guías,
+  itinerarios, plan, glosario y KPIs; las decisiones D2/D4–D7 se resuelven en la
+  misma sesión del 21/08 (agenda integrada); la herramienta institucional se
+  estandariza sin dependencia de licencias de terceros.
+
+  BENEFICIO:
+  - Kickoff productivo: de "presentación" a "sesión de decisiones y arranque".
+  - Participantes con ruta personalizada desde el día 1 (guía + itinerario).
+  - Proceso replicable: F3/F4 usan el skill y el script generador.
+  - Vocabulario común (glosario) + asistente de consulta (NotebookLM).
+  - Evidencia y artefactos enlazados = menos búsquedas, menos fricción.
+
+  CÓMO ASEGURAR EL IMPACTO:
+  1. Ejecutar la reunión del 21/08 con el checklist de salida: 6 decisiones
+     resueltas (D2, D4–D7), acta firmada, DECISIONES_PENDIENTES actualizado.
+  2. Enviar el email de convocatoria (borrador listo — falta confirmación de Douglas).
+  3. Setup guiado de Hermes tras el kickoff (sesión dedicada, lección L3).
+  4. Medir KPIs E8 con línea base en semana 1–2 (plantillas pre-llenadas).
+  5. Monitorear: uso del glosario en evidencias, avance de guías, delta de KPIs
+     (reporte al cierre de F2).
+
+  PENDIENTE PARA EL KICKOFF:
+  🎯 Enviar email de convocatoria (confirmar con Douglas) · Setup guiado · Reunión
+     del 21/08 con checklist completo.
+
 2026-08-19 | SESIÓN 27 — BASELINE F2 CERRADO 6/6 + GUÍAS PERSONALIZADAS DE 14 DÍAS (Teach) + SKILL REUTILIZABLE (Hermes Agent)
 
   LOGRO DE LA SESIÓN:
