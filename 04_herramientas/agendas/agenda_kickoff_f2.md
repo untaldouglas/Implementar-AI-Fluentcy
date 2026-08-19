@@ -23,7 +23,7 @@
 | 0:10 | **Firma del acta de selección** (10 min) | **Firma de la Acta de Selección de Participantes F2** (AI-FLUENCY-2026-002) — los 6 participantes + Champions F1 como testigos. Acta en `01_piloto/cohortes/F2/Acta_Seleccion_Participantes_F2.md`; se oficializa la incorporación y las herramientas del programa | Douglas + los 6 |
 | 0:20 | El grupo F2 (10 min) | Presentación de los 6 participantes · rol de los Champions F1 como facilitadores/validadores (R9) · cadencia: mié 2–4 PM + vie 2–3 PM (por confirmar en planificación) | Douglas + Champions |
 | 0:30 | Tu itinerario (15 min) | Resultados del baseline: qué significa tu nivel (L1/L2), tu meta del ciclo (L2 para la mayoría, L3 Jorge) y tu ruta semana a semana · **cada participante recibe SU guía personalizada de 14 días** (docs/fase2/) · casos de uso de tu propio rol | Douglas (apoyo: itinerarios del spreadsheet + guías) |
-| 0:45 | Herramientas del programa (10 min) | **Google Gemini + suite Workspace** como estándar institucional (contrato Workspace for Education — sin costo adicional, sin dependencia de Claude/Copilot) · Hermes Agent como orquestador · complementos opcionales (ChatGPT, Claude) | Douglas |
+| 0:45 | Herramientas del programa (10 min) | **Google Gemini + suite Workspace** como estándar institucional (contrato Workspace for Education — sin costo adicional, sin dependencia de Claude/Copilot) · Hermes Agent como orquestador · **NotebookLM del proyecto como asistente de consulta y aprendizaje** (responde dudas sobre el programa y las herramientas con base en las fuentes del proyecto) · complementos opcionales (ChatGPT, Claude) | Douglas |
 | 0:55 | Reglas del juego (10 min) | Evidencia real, no verbal (plantillas-rúbrica, Drive Approvals) · datos sensibles: qué SÍ y qué NO se sube a la IA (bloqueos nº 1–2 del grupo: Acceso y Seguridad) · dónde vive cada cosa (carpeta Drive del programa) | Douglas |
 | 1:05 | Setup guiado (10 min) | Instalación/verificación de Hermes Agent en estaciones — **todos juntos, mismo estándar** (lección L3 de F1: no cada quien a su forma) · checklist de verificación de funcionamiento · SOUL por área | Champions F1 (co-facilitan) |
 | 1:15 | Cierre (15 min) | Reunión de planificación (D2, D4–D7) · setup individual pendiente · primera sesión semanal · compromiso: revisar tu itinerario y traer 1 caso real de tu trabajo | Douglas |
@@ -37,12 +37,13 @@
 5. **Guías de rol:** `01_piloto/guias_estandar/` (facilitador/participante/validador)
 6. **Checklist de instalación:** `04_herramientas/checklist_artefactos_instalacion_champions.md`
 7. **Lecciones F1 aplicadas (plan_cohorte §8):** setup guiado (L3) · grabaciones con calidad desde el inicio (L1) · material antes del taller (L4) · entregas quincenales con revisión intermedia (L2)
+8. **NotebookLM del proyecto (asistente de consulta):** https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560 — se presenta en el bloque de herramientas (0:45) y se distribuye a los participantes para dudas sobre el programa y herramientas
 
 ## Checklist de salida (al terminar la sesión)
 
 - [ ] **Acta de selección F2 firmada por los 6 participantes + testigos Champions F1** (copia digital a Drive 00_Gobernanza)
 - [ ] Los 6 participantes conocen su nivel baseline, su meta y su itinerario
-- [ ] Herramienta estándar comunicada: Google Gemini + suite Workspace (contrato institucional) + Hermes como orquestador
+- [ ] Herramienta estándar comunicada: Google Gemini + suite Workspace (contrato institucional) + Hermes como orquestador + NotebookLM como asistente de consulta (link distribuido)
 - [ ] Setup de Hermes verificado en las estaciones presentes (mismo estándar)
 - [ ] Reglas de datos claras (qué SÍ/NO subir a la IA) — ataca bloqueos nº 1–2 del grupo
 - [ ] Fecha de la reunión de planificación F2 definida (D2, D4–D7)
