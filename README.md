@@ -91,6 +91,7 @@ ai-fluency-ujmd/
 | Skill de generación de guías (reutilizable por fase) | `04_herramientas/skills/aifluent-guia-personalizada/` ★ |
 | Guías por rol (facilitador/participante/validador) | `01_piloto/guias_estandar/` ★ |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` (fuente de verdad) |
+| Agenda de la reunión F2 (kickoff + planificación, 21/08) | `04_herramientas/agendas/agenda_kickoff_f2.md` + [Drive (Doc)](https://docs.google.com/document/d/1KXj6Byc8Fp-GeGH_ZBrOCnFMMGfQ5DXMH1l1x_mfgfQ/edit?usp=drivesdk) ★ |
 | Ver los registros individuales de los Champions | `01_piloto/learning_record/` |
 | Consultar el vocabulario común del programa (glosario) | `01_piloto/conocimiento_colectivo/Glosario_Consolidado.md` ★ |
 | Verificar una instalación de Hermes | `04_herramientas/checklist_artefactos_instalacion_champions.md` ★ |
