@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-08-19 |
-| Días desde inicio | 49 días |
+| Hoy (última actualización) | 2026-08-21 |
+| Días desde inicio | 51 días |
 | Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN ARRANQUE** — baseline cerrado 6/6 y analizado (19/08): 5 Pasajeros 🟤 + 1 Conductor 🟢 (Jorge L2), itinerarios generados · **Kickoff F2: viernes 21/08 14:00–15:15, CC 2** (6 participantes y 8 entregables definidos, comunicaciones enviadas) |
 | Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
 | Mes de proyecto | M2 |
 | Próximo hito | **Kickoff F2: viernes 21/08, 14:00–15:15, CC 2** (agenda en 04_herramientas/agendas/) → setup Hermes guiado → primera sesión semanal |
-| Días hasta próximo hito | 2 días (kickoff 21/08) |
+| Días hasta próximo hito | HOY (kickoff F2 21/08, 14:00–15:15, CC 2) |
 
 ### Calendario de fases
 
@@ -284,6 +284,26 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-21 | DÍA DEL KICKOFF F2 (14:00–15:15, CC 2) — EMAIL 2 AL DECANO SUSPENDIDO (Hermes Agent)
+
+  ESTADO:
+  🎯 Kickoff F2 HOY 21/08, 14:00–15:15, CC 2 — agenda integrada (kickoff +
+     planificación D2/D4–D7), acta AI-FLUENCY-2026-002 lista para firmar, 6 guías
+     personalizadas entregables, herramientas definidas (Gemini primeras
+     actividades + Hermes Agent herramienta de trabajo).
+  🎯 Email 1 al Decano de Medicina (Dr. Víctor Segura) ENVIADO 19/08 11:55.
+  🎯 Email 2 (invitación al piloto) SUSPENDIDO por decisión de Douglas — se
+     reactivará solo si el Decano muestra interés en el sondeo.
+  🎯 Matiz de herramientas documentado (19/08): Gemini = primeras actividades;
+     Hermes Agent = herramienta de trabajo (memory/tools/skills/profiles —
+     portabilidad estandarizada).
+
+  PENDIENTE POST-KICKOFF:
+  🎯 Procesar resultados: decisiones D2/D4–D7 resueltas, acta firmada,
+     DECISIONES_PENDIENTES actualizado, plan_cohorte + ESTADO_PROYECTO
+     (ritual make cierre-sesion) · Setup guiado de Hermes · Seguimiento al
+     Decano (email 2 solo si hay interés).
+
 2026-08-19 | CIERRE DE JORNADA — F2 LISTA PARA EL KICKOFF (21/08): BASELINE, GUÍAS, AGENDA, GLOSARIO Y SKILLS (Hermes Agent)
 
   QUÉ HICIMOS (sesión completa del día):
