@@ -31,11 +31,11 @@
 | Fin del programa | 2026-12-31 |
 | Hoy (última actualización) | 2026-08-21 |
 | Días desde inicio | 51 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN ARRANQUE** — baseline cerrado 6/6 y analizado (19/08): 5 Pasajeros 🟤 + 1 Conductor 🟢 (Jorge L2), itinerarios generados · **Kickoff F2: viernes 21/08 14:00–15:15, CC 2** (6 participantes y 8 entregables definidos, comunicaciones enviadas) |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN MARCHA** — baseline cerrado 6/6 y analizado (19/08) · **Kickoff ejecutado 21/08** ✅ (compromisos K1–K5; K1: informar horarios de grupos antes del 26/08) |
 | Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
 | Mes de proyecto | M2 |
-| Próximo hito | **Kickoff F2: viernes 21/08, 14:00–15:15, CC 2** (agenda en 04_herramientas/agendas/) → setup Hermes guiado → primera sesión semanal |
-| Días hasta próximo hito | HOY (kickoff F2 21/08, 14:00–15:15, CC 2) |
+| Próximo hito | **Recibir K1 (26/08): días/hora de reuniones por grupo** → setup Hermes guiado → primera sesión semanal |
+| Días hasta próximo hito | 3 días hábiles (K1: miércoles 26/08/2026) |
 
 ### Calendario de fases
 
@@ -284,6 +284,31 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-21 | KICKOFF F2 EJECUTADO (21/08, 14:00–15:15, CC 2) — COMPROMISOS K1–K5 (Hermes Agent)
+
+  QUÉ PASÓ:
+  🎯 Reunión de kickoff + planificación ejecutada HOY con los 6 participantes y
+     los 3 facilitadores (Champions F1). Acta AI-FLUENCY-2026-002 firmada.
+  🎯 Reglas del juego claras (evidencia real, datos: qué SÍ/NO subir a la IA).
+  🎯 Herramientas informadas: Gemini (primeras actividades de aprendizaje),
+     Hermes Agent (herramienta de trabajo — memory/tools/skills/profiles,
+     portabilidad), NotebookLM (asistente de consulta).
+
+  COMPROMISOS (registrados en plan_cohorte §9):
+  K1 ⏳ Cada grupo informará POR ESCRITO días y hora de sus reuniones (facilitador
+     + 2 participantes) — fecha límite 3 días hábiles: MIÉRCOLES 26/08/2026.
+     Grupos: Irvin→Jorge+Bryan · Patrick→Luis+Betty · Mario→Stephanie+Oscar.
+  K2 ✅ Usarán los recursos de referencia entregados (guías 14 días, itinerarios,
+     plan de cohorte, glosario, NotebookLM, Drive).
+  K3 ✅ Disponibilidad de al menos 4 horas semanales estimadas por participante.
+  K4 ✅ Reglas de evidencia y datos claras.
+  K5 ✅ Herramientas informadas.
+
+  PENDIENTE:
+  🎯 Recibir K1 (26/08) → consolidar cronograma definitivo (insumo D2) →
+     agendar setup guiado de Hermes → primera sesión semanal.
+  🎯 Email 2 al Decano: SUSPENDIDO (solo si hay interés en el sondeo).
+
 2026-08-21 | DÍA DEL KICKOFF F2 (14:00–15:15, CC 2) — EMAIL 2 AL DECANO SUSPENDIDO (Hermes Agent)
 
   ESTADO:
