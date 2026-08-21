@@ -293,7 +293,8 @@
   🎯 6 guías personalizadas de 14 días generadas (metodología Teach) con funciones
     REALES de cada puesto (no títulos RRHH — corrección Luis), marcos
     ITIL/COBIT/ISO 27001/LEAN/PRINCE2-agile, seguridad de datos transversal,
-    Gemini como herramienta principal + Hermes complemento. En docs/fase2/ + Drive F2_03.
+    Gemini en las primeras actividades + Hermes Agent como herramienta de trabajo
+    (memory/tools/skills/profiles — portabilidad). En docs/fase2/ + Drive F2_03.
   🎯 Acta de selección de participantes F2 (AI-FLUENCY-2026-002) creada — se firma
     en el kickoff. Herramienta oficial: Google Gemini + Workspace (contrato
     institucional, sin costo adicional).
@@ -353,10 +354,12 @@
     + tarjeta en docs/index.html.
   🎯 Guías subidas a Drive F2_03_Sesiones_Material como Google Docs editables.
   🎯 Acta de selección de participantes F2 creada (AI-FLUENCY-2026-002) — firma
-    en el kickoff 21/08.
-  🎯 Herramienta oficial del programa: Google Gemini + suite Workspace (contrato
-    Workspace for Education — sin dependencia de Claude/Copilot). Hermes como
-    orquestador.
+     en el kickoff 21/08.
+  🎯 Herramientas del programa (decisión matizada 19/08): Gemini para las
+    primeras actividades de aprendizaje (contrato Workspace for Education, sin
+    costo adicional); Hermes Agent como herramienta de trabajo del programa
+    (gestiona memory, tools, skills, profiles — portabilidad estandarizada del
+    conocimiento). Sin dependencia de Claude/Copilot.
   🎯 Skill reutilizable creado: `aifluent-guia-personalizada` (itsm) — proceso
     completo de generación de guías por fase + script generador (mejora continua
     con cada fase).

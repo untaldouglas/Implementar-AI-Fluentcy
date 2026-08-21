@@ -40,13 +40,15 @@ Progresión MCA de un peldaño por mes (Manual de Implementación Estratégica).
 
 ---
 
-## 3. Herramienta oficial del programa (decisión 19/08/2026)
+## 3. Herramientas del programa (decisión 19/08/2026 — matizada 19/08: roles diferenciados)
 
-**Google Gemini y la suite de Google Workspace** (Docs, Sheets, Drive, Forms, Meet) se adoptan como la plataforma estándar del programa, porque la universidad ya cuenta con esos productos dentro de su contrato de **Google Workspace for Education** — sin costo adicional ni dependencia de licencias de terceros (Claude, Microsoft Copilot).
+**Google Gemini** (con la suite Google Workspace: Docs, Sheets, Drive, Forms, Meet) se adopta como la solución de las **primeras actividades de aprendizaje** del programa, porque la universidad ya cuenta con esos productos dentro de su contrato de **Google Workspace for Education** — sin costo adicional ni dependencia de licencias de terceros (Claude, Microsoft Copilot).
 
-- El orquestador sigue siendo **Hermes Agent** (Nous Research, open source), con integración a Google Workspace vía el conector/MCP de Google.
-- Gemini sirve como asistente conversacional estándar de los participantes; la suite Workspace como entorno de evidencia y colaboración.
-- Los participantes que usan otras herramientas (ChatGPT, Claude, Copilot) pueden mantenerlas como complemento, pero el estándar institucional del programa es Gemini + Workspace.
+- **Hermes Agent es la herramienta de trabajo del programa** (Nous Research, open source): gestiona los recursos de IA que se usen y se definan durante el proyecto (memory, tools, skills, profiles), porque permite **portabilidad del conocimiento** de forma estandarizada entre fases, perfiles y equipos. La integración con Google Workspace se hace vía el conector/MCP de Google.
+- **Rol de Gemini:** asistente conversacional para las primeras actividades de aprendizaje (familiarización con prompting y casos de uso); la suite Workspace como entorno de evidencia y colaboración.
+- **Rol de Hermes Agent:** herramienta de trabajo del programa — a medida que avanza el programa, los participantes gestionan sus recursos de IA (memoria, herramientas, skills, perfiles) en Hermes, y el conocimiento constituido queda portable y estandarizado.
+- **NotebookLM:** asistente de consulta y aprendizaje sobre los materiales del programa (24/7).
+- Los participantes que usan otras herramientas (ChatGPT, Claude, Copilot) pueden mantenerlas como complemento, pero el estándar del programa es: Gemini en las primeras actividades, Hermes Agent como herramienta de trabajo.
 
 ---
 
