@@ -4,6 +4,8 @@ Framework: Modelo de Conducción AI (MCA) · Herramienta: [Hermes Agent](https:/
 
 > **Estado (19/08/2026):** **Fase 1 (Piloto Champions) ✅ CERRADA FORMALMENTE** — C14–C22 completados 3/3 con evidencia aprobada en Drive · **Licencia Básica 🟢 3/3 (07/08) + Licencia Profesional 🔵 3/3 (13/08) certificadas y selladas** · **Fase 2 EN ARRANQUE**: baseline 6/6 recibido y analizado (19/08) · guías personalizadas de 14 días generadas por participante (metodología Teach, [docs/fase2/](docs/fase2/index.html)) · kickoff 21/08. Ver `ESTADO_PROYECTO.md` (fuente de verdad viva).
 
+> **Portal publicado de Fase 2:** [untaldouglas.info/Implementar-AI-Fluentcy/fase2/](https://untaldouglas.info/Implementar-AI-Fluentcy/fase2/index.html) · índice local: [`docs/fase2/`](docs/fase2/index.html). El catálogo de guías y materiales enlazados está documentado en [`docs/fase2/README.md`](docs/fase2/README.md).
+
 ---
 
 ## Estructura del repositorio
@@ -88,6 +90,8 @@ ai-fluency-ujmd/
 | Saber qué se aprende y qué se entrega por licencia | `00_marco/Guia_Aprendizaje_y_Evidencia_por_Licencia.md` ★ |
 | Ver el plan de un cohorte nuevo (F2…) | `01_piloto/cohortes/` ★ |
 | Guías personalizadas de aprendizaje (14 días, por fase) | `docs/fase2/` ★ |
+| Portal publicado de Fase 2 y materiales enlazados | [`docs/fase2/README.md`](docs/fase2/README.md) ★ |
+| Estándar de instrucciones y validación de entregables F2 | [`docs/fase2/matriz_estandar_instrucciones_entregables.md`](docs/fase2/matriz_estandar_instrucciones_entregables.md) ★ |
 | Skill de generación de guías (reutilizable por fase) | `04_herramientas/skills/aifluent-guia-personalizada/` ★ |
 | Guías por rol (facilitador/participante/validador) | `01_piloto/guias_estandar/` ★ |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` (fuente de verdad) |
