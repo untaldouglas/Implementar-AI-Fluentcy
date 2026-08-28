@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-08-17 (SYNC) · Sesión 26 (14/08) — comunicaciones F2 completas: bienvenida a los 6 participantes + brief de investigación a Manuel Alfaro · Fechas clave F2: baseline 18/08 5PM · kickoff 21/08 14:00–15:15 CC 2 · Fase 1 cerrada por completo |
+| Última actualización | 2026-08-28 · Sistema de seguimiento intermedio F2 implementado: matriz central, guías por rol y seis registros individuales creados en Drive; carpetas Betty/Oscar normalizadas |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-08-21 |
-| Días desde inicio | 51 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN MARCHA** — baseline cerrado 6/6 y analizado (19/08) · **Kickoff ejecutado 21/08** ✅ (compromisos K1–K5; K1: informar horarios de grupos antes del 26/08) |
+| Hoy (última actualización) | 2026-08-28 |
+| Días desde inicio | 58 días |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN MARCHA** — baseline cerrado 6/6 y analizado (19/08) · **Kickoff ejecutado 21/08** ✅ · agendas de los 3 grupos definidas y seguimiento intermedio instrumentado |
 | Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
 | Mes de proyecto | M2 |
-| Próximo hito | **Recibir K1 (26/08): días/hora de reuniones por grupo** → setup Hermes guiado → primera sesión semanal |
-| Días hasta próximo hito | 3 días hábiles (K1: miércoles 26/08/2026) |
+| Próximo hito | **Ejecutar reuniones agendadas y completar matriz de avance (01/09)** → revisar evidencia, validaciones y bloqueos |
+| Días hasta próximo hito | 4 días calendario (martes 01/09/2026) |
 
 ### Calendario de fases
 
@@ -284,6 +284,33 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-08-28 | SISTEMA DE SEGUIMIENTO INTERMEDIO F2 IMPLEMENTADO (matriz, guías por rol y registros individuales en Drive)
+
+  CREADO:
+  ✓ Matriz central de seguimiento F2 con URLs de Drive para los 6 participantes,
+    sus carpetas canónicas, guías operativas y copias E8 por coordinación.
+  ✓ Tres guías de uso simples en Drive: Champion, Facilitador F2 y Coordinador
+    del programa; sus fuentes versionables quedan en `01_piloto/guias_estandar/`.
+  ✓ Seis registros individuales de avance y evidencia en las carpetas existentes
+    de `F2_02_Evidencia_Participantes/`.
+  ✓ Nomenclatura corregida en Drive: `Bety Figueroa` → `Betty Figueroa` y
+    `Javier Alfaro` → `Oscar Alfaro`, sin crear carpetas duplicadas.
+
+  REGLA OPERATIVA:
+  → Los estados permanecen pendientes hasta que Champion y facilitador registren
+    evidencia real; `✅` exige artefacto, URL, fecha y responsable de revisión.
+  → E8 continúa separado como medición de valor de negocio; no sustituye el
+    registro de aprendizaje ni de participación.
+
+  FUENTE LOCAL:
+  → `01_piloto/cohortes/F2/seguimiento_f2.md`.
+  → Matriz Drive: https://docs.google.com/spreadsheets/d/14IdowZNESH07A98YCEhXDdnzLwdFKPkJ1S5ia6djPHQ/edit
+  ✓ Douglas confirma que los tres grupos ya definieron sus agendas de reuniones;
+    K1 deja de ser pendiente y pasa a ejecución de las sesiones y revisión del corte.
+  ✓ Douglas confirma que las reuniones de los tres grupos correspondientes a la
+    semana en cierre se llevaron a cabo; queda pendiente registrar asistencia,
+    evidencia revisada, retroalimentación y próximos pasos.
+
 2026-08-21 | KICKOFF F2 EJECUTADO (21/08, 14:00–15:15, CC 2) — COMPROMISOS K1–K5 (Hermes Agent)
 
   QUÉ PASÓ:

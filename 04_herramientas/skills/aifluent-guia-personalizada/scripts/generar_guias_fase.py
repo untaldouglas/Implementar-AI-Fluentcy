@@ -577,7 +577,7 @@ def d10(p):
         + f'<ul class="checklist">{items}</ul>'
         + alert("framework", p["d10fw"])
         + alert("security", "<strong>Datos de la medición:</strong> "+p["d10seg"])
-        + evidence(["2 procesos candidatos identificados con sus desperdicios LEAN","Línea base del proceso elegido (plantilla C19/F2)"]),
+        + evidence(["2 procesos candidatos identificados con sus desperdicios LEAN","Línea base del proceso elegido (plantilla E8; metodología C19 de F1)"]),
         9, 11)
 
 def d12(p):

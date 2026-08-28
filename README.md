@@ -92,8 +92,9 @@ ai-fluency-ujmd/
 | Guías personalizadas de aprendizaje (14 días, por fase) | `docs/fase2/` ★ |
 | Portal publicado de Fase 2 y materiales enlazados | [`docs/fase2/README.md`](docs/fase2/README.md) ★ |
 | Estándar de instrucciones y validación de entregables F2 | [`docs/fase2/matriz_estandar_instrucciones_entregables.md`](docs/fase2/matriz_estandar_instrucciones_entregables.md) ★ |
+| Seguimiento F2: avance, facilitación, recursos y evidencia | [`01_piloto/cohortes/F2/seguimiento_f2.md`](01_piloto/cohortes/F2/seguimiento_f2.md) + [matriz Drive](https://docs.google.com/spreadsheets/d/14IdowZNESH07A98YCEhXDdnzLwdFKPkJ1S5ia6djPHQ/edit) ★ |
 | Skill de generación de guías (reutilizable por fase) | `04_herramientas/skills/aifluent-guia-personalizada/` ★ |
-| Guías por rol (facilitador/participante/validador) | `01_piloto/guias_estandar/` ★ |
+| Guías por rol (Champion/facilitador/coordinador/validador) | `01_piloto/guias_estandar/` + [guías F2 en Drive](https://docs.google.com/spreadsheets/d/14IdowZNESH07A98YCEhXDdnzLwdFKPkJ1S5ia6djPHQ/edit) ★ |
 | Ver el estado actual del proyecto | `ESTADO_PROYECTO.md` (fuente de verdad) |
 | Agenda de la reunión F2 (kickoff + planificación, 21/08) | `04_herramientas/agendas/agenda_kickoff_f2.md` + [Drive (Doc)](https://docs.google.com/document/d/1KXj6Byc8Fp-GeGH_ZBrOCnFMMGfQ5DXMH1l1x_mfgfQ/edit?usp=drivesdk) ★ |
 | Ver los registros individuales de los Champions | `01_piloto/learning_record/` |

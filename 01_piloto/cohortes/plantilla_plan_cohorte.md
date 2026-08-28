@@ -83,8 +83,9 @@
 
 > Se copian aquí las lecciones de la retrospectiva del cohorte previo (sección 6 del cierre) ANTES de diseñar sesiones — evita repetir errores.
 
-- [Lección 1]
-- [Lección 2]
+- **Seguimiento instrumentado desde el arranque:** crear antes de la primera sesión la matriz central, los registros individuales, las guías de cada rol y sus URLs de Drive; usar ejemplos con datos ficticios para explicar el flujo.
+- **Estados basados en evidencia:** distinguir `En curso`, `Entregado` y `Validado`; ningún estado ✅ es válido sin artefacto real, URL, fecha y responsable de revisión.
+- **Facilitación distribuida:** asignar grupos y exigir una observación y un próximo paso por participante en cada corte; escalar únicamente bloqueos concretos.
 
 ---
 

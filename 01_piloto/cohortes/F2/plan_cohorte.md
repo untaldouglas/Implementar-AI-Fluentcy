@@ -111,6 +111,7 @@
 | L6 | Mantener el estándar de entregas de mediados de F1 (plantillas-rúbricas) y las actividades aplicadas al trabajo real; las más valoradas fueron C20 (perfil de área) y C21 (skill propio) | Mario, Irvin | Preservar el modelo de evidencia real con rúbrica en F2 |
 | L7 | La discusión colectiva entre pares con puntos de vista distintos es un activo de aprendizaje | Patrick | Mantener espacios de discusión grupal en las sesiones |
 | L8 | Carga de trabajo reportada ~30–40 h/mes y valorada 3.3/5: no duplicar la carga al duplicar la población | Los 3 | Ajustar cadencia (L2) y expectativas explícitas de dedicación |
+| L9 | Instrumentar el seguimiento desde el arranque con matriz central, registros individuales, guías por rol, URLs de Drive y ejemplos ficticios | F2, corte intermedio 28/08 | Reutilizar el paquete de seguimiento como requisito de F0/F1 en nuevos cohortes |
 
 ## 9. Acuerdos del kickoff F2 (21/08/2026)
 
@@ -118,13 +119,13 @@
 
 | # | Acuerdo/compromiso | Detalle | Fecha límite | Estado |
 |---|---|---|---|---|
-| K1 | **Informar días y hora de reuniones por grupo** | Cada grupo (facilitador + sus 2 participantes) informa POR ESCRITO los días y horas de sus reuniones de grupo: Irvin→Jorge+Bryan · Patrick→Luis+Betty · Mario→Stephanie+Oscar | **3 días hábiles: miércoles 26/08/2026** | ⏳ Pendiente |
+| K1 | **Informar días y hora de reuniones por grupo** | Los tres grupos ya definieron sus agendas de reuniones: Irvin→Jorge+Bryan · Patrick→Luis+Betty · Mario→Stephanie+Oscar | **3 días hábiles: miércoles 26/08/2026** | ✅ Confirmado por Douglas (28/08) |
 | K2 | **Uso de recursos de referencia** | Los participantes usarán los recursos de referencia entregados (guías personalizadas 14 días, itinerarios, plan de cohorte, glosario, NotebookLM, materiales Drive) | Continuo | ✅ Aceptado en kickoff |
 | K3 | **Dedicación semanal mínima** | Disposición de participar al menos **4 horas semanales estimadas** por participante | Continuo | ✅ Aceptado en kickoff |
 | K4 | **Reglas del juego** | Reglas de evidencia real (no verbal) y de datos (qué SÍ/NO subir a la IA) quedaron claras en el kickoff | Continuo | ✅ Comunicadas |
 | K5 | **Herramientas informadas** | Gemini (primeras actividades), Hermes Agent (herramienta de trabajo), NotebookLM (asistente de consulta) comunicadas a los 6 | Continuo | ✅ Comunicadas |
 
-**Próximo hito:** recibir K1 (días/horas de reuniones por grupo) → consolidar cronograma definitivo (insumo para D2) → agendar setup guiado de Hermes → primera sesión semanal.
+**Próximo hito:** ejecutar las reuniones agendadas → completar la matriz de avance a más tardar el martes 01/09 → revisar evidencia y bloqueos del primer corte.
 
 ---
 

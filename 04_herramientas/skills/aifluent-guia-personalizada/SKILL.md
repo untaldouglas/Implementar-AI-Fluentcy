@@ -41,6 +41,7 @@ Genera una guía de 14 días (HTML autocontenido + Google Doc en Drive) POR PART
 1. **HTML autocontenido** en `docs/fase<X>/guia_<nombre>.html` — reutilizar el CSS/estructura de la guía de Luis (docs/fase2/guia_luis_molina.html) como plantilla base; generar el resto con script (patrón: /tmp/generar_guias_f2.py) para consistencia.
 2. **Google Docs en Drive** carpeta `F2_03_Sesiones_Material` (o F<X>_03): subir el HTML con mimeType `application/vnd.google-apps.document` (conversión HTML→Doc) — nombre: "Guía 14 Días — <Nombre> (F<X>)".
 3. **Índice navegable** `docs/fase<X>/index.html` (replicar estilo fase1) + tarjeta en `docs/index.html` (actualizar estado de la fase en el subtitle).
+4. En F2, no llamar "plantilla C19/F2" al artefacto: C19 es la metodología de medición de F1; la plantilla operativa de F2 es `01_piloto/cohortes/F2/_PLANTILLA_E8_KPI_Valor_por_Coordinacion.md` (una copia por coordinación). La guía debe indicarlo explícitamente.
 
 ### 5. Actualizar artefactos del programa (no olvidar)
 - `01_piloto/cohortes/F<X>/plan_cohorte.md`: niveles baseline, grupos de facilitación, entregables.

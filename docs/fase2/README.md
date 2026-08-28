@@ -19,6 +19,9 @@ La matriz normativa de entregables está en [`matriz_estandar_instrucciones_entr
 
 - [Repositorio del proyecto (Gitea institucional)](https://repozone.ujmd.edu.sv/DireccionInformatica/aifluent-champions) — código y documentación fuente.
 - [Google Drive del proyecto/fase](https://drive.google.com/drive/folders/1r5ySbaluf9KJE6EeHRMzgPeP1GWCmbHD?usp=drive_link) — evidencia y materiales.
+- [Matriz de seguimiento F2](https://docs.google.com/spreadsheets/d/14IdowZNESH07A98YCEhXDdnzLwdFKPkJ1S5ia6djPHQ/edit) — avance, facilitación, recursos y URLs de evidencia.
+- [Guía de uso del Champion](https://docs.google.com/document/d/10st8y4s6VZzNVXqrbmEvGCVTzdee5Z8nnQs7TdosWOQ/edit) · [Guía del Facilitador F2](https://docs.google.com/document/d/19WE-XTz04UrzC8zZwHsmgmfO6mDWBcvJprjtzCpn_3E/edit) · [Guía del Coordinador](https://docs.google.com/document/d/1OjGxXDtBdWv8L8Te5bsWt5fee5YLqrEeRrpUkLzK3jY/edit)
+- [Ejemplo de matriz D1–D7](https://docs.google.com/spreadsheets/d/195_1P1NZ7sXpmjRZRPEvGDM7rWMwfMcGqOBZPmbcMoc/edit) · [Ejemplo de registro individual D1–D7](https://docs.google.com/document/d/1kC3-_ut517k8OTQjYrhL-wSEVA4m8yKvSPeoJYu7zqM/edit) — datos ficticios para capacitación.
 - [NotebookLM del proyecto](https://notebook.google.com/notebook/47737000-b53d-42ad-93aa-1cc1ba0c9560) — asistente oficial de consulta y aprendizaje.
 - [Glosario consolidado del programa](https://github.com/untaldouglas/Implementar-AI-Fluentcy/blob/main/01_piloto/conocimiento_colectivo/Glosario_Consolidado.md) — vocabulario común.
 
