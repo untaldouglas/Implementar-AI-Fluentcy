@@ -15,7 +15,7 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-08-28 · Sistema de seguimiento intermedio F2 implementado: matriz central, guías por rol y seis registros individuales creados en Drive; carpetas Betty/Oscar normalizadas |
+| Última actualización | 2026-09-07 · Sesión 28 — Preparación de correcciones y recuperación F2 |
 | Actualizado por | Douglas Galindo + Claude Code |
 
 ---
@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-08-28 |
-| Días desde inicio | 58 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN MARCHA** — baseline cerrado 6/6 y analizado (19/08) · **Kickoff ejecutado 21/08** ✅ · agendas de los 3 grupos definidas y seguimiento intermedio instrumentado |
-| Semana de proyecto | S1 cerrada 3/3 ✅ · S2 cerrada 3/3 ✅ (mini-reportes de Mario, Irvin y Patrick validados) · **S3 cerrada 3/3 ✅** (C21 — Skill propio, entregas 29–31/07 validadas con Drive Approvals) · **Fase 1 completa** · **Demo Day + Certificación ejecutados 13/08** |
-| Mes de proyecto | M2 |
-| Próximo hito | **Ejecutar reuniones agendadas y completar matriz de avance (01/09)** → revisar evidencia, validaciones y bloqueos |
-| Días hasta próximo hito | 4 días calendario (martes 01/09/2026) |
+| Hoy (última actualización) | 2026-09-07 |
+| Días desde inicio | 68 días |
+| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN MARCHA** — baseline cerrado 6/6 y analizado (19/08) · **Kickoff ejecutado 21/08** ✅ · agendas definidas · corte intermedio en recuperación y validación |
+| Semana de proyecto | **S10** · F1 completa ✅ · F2 en ejecución, con revisión de corte intermedio pendiente |
+| Mes de proyecto | M3 |
+| Próximo hito | **Reunión de correcciones y recuperación F2** — revisar hallazgos del corte y preparar validación con facilitadores |
+| Días hasta próximo hito | 1 día calendario (martes 08/09/2026, 14:00–15:00) |
 
 ### Calendario de fases
 
@@ -81,7 +81,7 @@
 
 ## 🚀 FASE SIGUIENTE — FASE 2: Expansión al equipo (Capa 1 — Dirección IT)
 
-**Estado:** 🟢 EN ARRANQUE — **baseline cerrado 6/6 y analizado (19/08)** · **kickoff viernes 21/08, 14:00–15:15, CC 2** de la Dirección de Informática (agenda en `04_herramientas/agendas/`) · setup Hermes guiado tras el kickoff · reunión de planificación (D2, D4–D7) pendiente de agendar.
+**Estado:** 🟢 EN EJECUCIÓN — **baseline cerrado 6/6 y analizado (19/08)** · **kickoff ejecutado 21/08, 14:00–15:15, CC 2** · agendas de grupos definidas · corte intermedio preparado · reunión de correcciones y recuperación convocada para 08/09.
 
 **Participantes confirmados (6, 14/08) con nivel baseline (19/08):**
 | # | Nombre | Email | Coordinación/Grupo | Nivel baseline |
@@ -196,17 +196,10 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 17/08
-0. **[ACCIONABLE — Douglas]** **Resolver las decisiones restantes de F2 (D2, D4–D7)** — checklist en `01_piloto/cohortes/F2/DECISIONES_PENDIENTES.md` (cronograma · repo del equipo E2 · presupuesto E7 · memoria externa E3 + MCP E5 · métricas E8). Resueltas el 14/08: D1 (kickoff 21/08) · D3 (baseline 18/08) · D8 (nombres). La reunión de planificación (agenda: `04_herramientas/agendas/agenda_planificacion_f2.md`) está diseñada para resolverlas en una sesión.
-1. **[Completado 07/08]** **C21 → COMPLETADO 3/3** — Mario (29/07), Patrick (29/07) e Irvin (31/07) entregaron su Skill propio, validado por Douglas con Drive Approvals. **Fase 1 cerrada**: C14–C21 3/3 con evidencia real.
-2. **[Completado 13–14/08]** **Licencia Profesional 🔵 3/3 CERTIFICADA y SELLADA** — Demo Day + verificación de flujo sin observaciones (R21) + actas firmadas por Champions, coordinadores y Douglas, **selladas por la Dirección de Informática y cada coordinación**. Copias digitales en Drive `00_Gobernanza/Actas_Licencias/` (6 PDFs: 3 certificados de conducción + 3 de Licencia Profesional). Registro en `00_marco/Licencia_Conduccion_AI.md` (tabla de conductores: Patrick/Mario/Irvin en L4–L5).
-3. **[Ejecutada 07/08]** **Auditoría de cierre de F1** (`04_herramientas/auditorias/2026-08-07_auditoria_cierre_f1.md`): set completo C14–C22, 12 inconsistencias + 12 hallazgos en tabla acumulada, R18–R22. **Pendiente ejecutar:** R18 (checklist de instalación en las 3 estaciones) y R19 (verificar repos Git) **antes del veredicto de Licencia Profesional** · R20 (consolidar Skills en repo del equipo) · R21 (veredicto formal) · R22 (recomendaciones estructurales).
-4. **[Completado 07/08]** **C22 → COMPLETADO 3/3** — los 3 Champions entregaron su SOUL.md propio (Mario, Irvin y Patrick), validado con Drive Approvals. **Último requisito de Licencia Profesional cumplido por los 3** — pendiente veredicto formal.
-5. **[Pendiente Douglas]** Revisión de las 3 piezas de comunicación de resultados F1 creadas el 07/08 (`Email_Coordinadores_Resultados_F1.html`, `ResearchBrief_AIFluency_F1.html`, `OnePager_Rectoria_F1.html` en `03_comunicacion/`) — **se actualizarán al terminar las acciones de la fase** (auditoría de cierre F1, Demo Day, arranque F2, veredicto Profesional) antes de su uso oficial.
-6. **[Completado 13–14/08]** **Demo Day ejecutado (13/08) + arranque de F2 decidido** — kickoff F2: viernes 21/08 14:00–15:15 CC 2 (baseline 18/08 5PM).
-7. **[Completado 27/07]** **C19 → COMPLETADO 3/3** — Irvin entregó 2º proceso, validado y aprobado por Douglas en Drive. H8 de la auditoría #01 cerrada.
-8. **[Completado 27/07]** **C20 → COMPLETADO 3/3** — Irvin entregó perfil de área Soporte, aprobado por Douglas en Drive. Insumo disponible para estandarizar SOUL.md de Soporte y el playbook.
-9. **[Completado 24/07]** C15/S2 cierra 3/3 (Mario ✅ Irvin ✅ Patrick ✅) · C18 completo (Patrick) · sello nativo de Drive Approvals completado en los 9 documentos.
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 07/09
+0. **[08/09 · 14:00]** **Ejecutar la reunión de correcciones y recuperación F2** — revisar los hallazgos del corte intermedio con Irvin, Patrick y Mario; acordar correcciones y responsables.
+1. **[08/09]** Completar la matriz de seguimiento F2 con asistencia, evidencia revisada, retroalimentación, bloqueos y próximos pasos; no marcar ✅ sin URL, fecha y responsable.
+2. **[09–10/09]** Preparar los temas de coordinación inmediata: reunión quincenal DGA-IT (09/09, 15:30) y seguimiento mensual de activos (10/09, 10:30).
 
 ---
 
@@ -284,6 +277,20 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-09-07 | SESIÓN 28 — PREPARACIÓN DE CORRECCIONES Y RECUPERACIÓN F2 (Hermes Agent · ai-fluency-sod)
+  CONFIRMADO HOY:
+  ✓ Se enviaron a los tres facilitadores los informes preliminares de avance de sus grupos para revisión: Irvin (Jorge/Bryan), Patrick (Luis/Betty) y Mario (Stephanie/Oscar).
+  ✓ Se convocó reunión de correcciones y recuperación F2 para el martes 08/09/2026, 14:00–15:00, con los tres facilitadores.
+  ✓ El estado local de la matriz F2 conserva los campos de evidencia y validación pendientes; no se elevó ningún registro a ✅ sin URL, fecha y responsable.
+
+  CONTEXTO CLAVE:
+  → El próximo paso es revisar los hallazgos del corte, acordar correcciones y completar la matriz con evidencia verificable.
+  → Esta semana también están agendadas la reunión quincenal DGA-IT (09/09, 15:30) y el seguimiento mensual de activos informáticos (10/09, 10:30).
+
+  ACCIÓN #1 HOY: ejecutar la reunión del 08/09 y cerrar el corte intermedio F2 con responsables y fechas.
+
+  ---
+
 2026-08-28 | SISTEMA DE SEGUIMIENTO INTERMEDIO F2 IMPLEMENTADO (matriz, guías por rol y registros individuales en Drive)
 
   CREADO:
