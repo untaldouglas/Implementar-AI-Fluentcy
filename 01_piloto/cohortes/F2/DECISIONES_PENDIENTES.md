@@ -36,6 +36,13 @@
   - [x] Persona adicional de Sistemas confirmada (acompañará a Infraestructura): **Betty Figueroa** (bcfigueroac@ujmd.edu.sv)
   - [x] Persona adicional de Desarrollo confirmada: **Oscar Alfaro** (ojalfarob@ujmd.edu.sv)
 
+- [x] **D9 — Módulo adendum A1 + rebaseline de fechas de F2** *(resuelto 28/09 — Douglas aprueba módulo de homogeneización Hermes/artefactos y mover fechas con holgura)*
+  - [x] Módulo **A1 "Homogeneización Hermes y Artefactos"** como adendum de F2, prerequisito de E1/E2/E4 — contenido: curaduría de material F1 (setup, glosario, SOUL_plantillas, plantilla C21 + ejemplos reales) + práctica guiada. Sin video.
+  - [x] Entregable por participante: **1 SOUL + 2 skills** propios, con rúbrica `_PLANTILLA_A1_` publicada antes de la apertura (regla §4.5)
+  - [x] Fechas: apertura A1 mar 29/09 · sesiones mié 30/09 y vie 02/10 · seguimiento mié 07/10 y vie 09/10 · **entrega A1 vie 09/10** (ventana de 2 semanas) · finalización entregables originales F2 (E1–E8) con asistencia champions 12/10–16/10 · **cierre F2 vie 16/10** · F3 **19/10–30/11** · F4 **01/12–31/12**
+  - [x] Documento canónico del módulo creado: `docs/fase2/modulo_a1_hermes.html` (URL pública tras push a GitHub Pages)
+  - [x] Comunicado a Champions y participantes preparado: `03_comunicacion/Comunicado_F2_Modulo_A1_2026-09-28.md` (pendiente de envío por Douglas)
+
 ---
 
 ## ✅ Decisiones ya tomadas (referencia — no re-abrir)

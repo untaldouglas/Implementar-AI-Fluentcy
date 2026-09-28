@@ -15,8 +15,8 @@
 | Email | dagalindo@ujmd.edu.sv |
 | **Inicio oficial** | **2026-07-01** |
 | Duración total | 6 meses (julio–diciembre 2026) |
-| Última actualización | 2026-09-07 · Sesión 28 — Preparación de correcciones y recuperación F2 |
-| Actualizado por | Douglas Galindo + Claude Code |
+| Última actualización | 2026-09-28 · Sesión 34 — revisión de cambios reportados en Telegram y control de evidencia F2 |
+| Actualizado por | Douglas Galindo + Hermes Agent |
 
 ---
 
@@ -29,13 +29,13 @@
 |---|---|
 | Inicio oficial | 2026-07-01 |
 | Fin del programa | 2026-12-31 |
-| Hoy (última actualización) | 2026-09-07 |
-| Días desde inicio | 68 días |
-| Fase actual | **FASE 1 — Piloto Champions** ✅ **CERRADA** (S1/S2/S3 completas, C14–C22 3/3 con evidencia real aprobada, **Licencia Profesional 🔵 3/3 firmada el 13/08**) · **F2 EN MARCHA** — baseline cerrado 6/6 y analizado (19/08) · **Kickoff ejecutado 21/08** ✅ · agendas definidas · corte intermedio en recuperación y validación |
-| Semana de proyecto | **S10** · F1 completa ✅ · F2 en ejecución, con revisión de corte intermedio pendiente |
+| Hoy (última actualización) | 2026-09-28 |
+| Días desde inicio | 89 días |
+| Fase actual | **FASE 2 — Expansión al equipo (Capa 1)** 🟠 EXTENDIDA CON MÓDULO ADENDUM A1 (D9): ventana 29/09–09/10 (SOUL+skills por participante) + cierre E1–E8 con asistencia champions 12/10–16/10; corte D01–D10 sigue sin verificación documental |
+| Semana de proyecto | **S13** · F1 completa ✅ · F2 extendida al 16/10 con Módulo A1 (sesiones 30/09 y 02/10) |
 | Mes de proyecto | M3 |
-| Próximo hito | **Reunión de correcciones y recuperación F2** — revisar hallazgos del corte y preparar validación con facilitadores |
-| Días hasta próximo hito | 1 día calendario (martes 08/09/2026, 14:00–15:00) |
+| Próximo hito | **Cierre de Módulo A1: entrega de SOUL + 2 skills por participante (vie 09/10) → finalización E1–E8 y cierre F2 (vie 16/10)** |
+| Días hasta próximo hito | 18 días |
 
 ### Calendario de fases
 
@@ -43,9 +43,9 @@
 |---|---|---|---|---|
 | **F0** | Preparación | 2026-06-26 | 2026-06-30 | S-1 a S0 |
 | **F1** | Piloto Champions | 2026-07-01 | 2026-07-31 | S1–S4 |
-| **F2** | Expansión al equipo | 2026-08-01 | 2026-09-30 | S5–S12 |
-| **F3** | Certificaciones formales | 2026-10-01 | 2026-11-15 | S13–S20 |
-| **F4** | Institucionalización | 2026-11-16 | 2026-12-31 | S21–S26 |
+| **F2** | Expansión al equipo | 2026-08-01 | **2026-10-16** | S5–S15 (extendida con Módulo A1, D9 del 28/09: ventana 2 semanas + cierre E1–E8) |
+| **F3** | Certificaciones formales | **2026-10-19** | **2026-11-30** | S15–S22 |
+| **F4** | Institucionalización | **2026-12-01** | 2026-12-31 | S22–S26 |
 
 ---
 
@@ -81,7 +81,7 @@
 
 ## 🚀 FASE SIGUIENTE — FASE 2: Expansión al equipo (Capa 1 — Dirección IT)
 
-**Estado:** 🟢 EN EJECUCIÓN — **baseline cerrado 6/6 y analizado (19/08)** · **kickoff ejecutado 21/08, 14:00–15:15, CC 2** · agendas de grupos definidas · corte intermedio preparado · reunión de correcciones y recuperación convocada para 08/09.
+**Estado:** 🟢 EN EJECUCIÓN — baseline cerrado 6/6 y analizado (19/08) · kickoff ejecutado 21/08 · agendas de grupos definidas · reunión de correcciones celebrada 08/09 · acuerdo operativo: completar D01–D10, definir casos de uso y medir líneas base antes del viernes 11/09; D11 y siguientes después del feriado del 15/09.
 
 **Participantes confirmados (6, 14/08) con nivel baseline (19/08):**
 | # | Nombre | Email | Coordinación/Grupo | Nivel baseline |
@@ -196,10 +196,12 @@
 
 > Esta sección define qué ejecutar primero en cualquier momento.  
 
-### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 07/09
-0. **[08/09 · 14:00]** **Ejecutar la reunión de correcciones y recuperación F2** — revisar los hallazgos del corte intermedio con Irvin, Patrick y Mario; acordar correcciones y responsables.
-1. **[08/09]** Completar la matriz de seguimiento F2 con asistencia, evidencia revisada, retroalimentación, bloqueos y próximos pasos; no marcar ✅ sin URL, fecha y responsable.
-2. **[09–10/09]** Preparar los temas de coordinación inmediata: reunión quincenal DGA-IT (09/09, 15:30) y seguimiento mensual de activos (10/09, 10:30).
+### TOP AHORA (mayor impacto en el menor tiempo) — actualizado 2026-09-28
+0. **[Hoy · decisión]** Verificar documentalmente D01–D10 en la matriz: caso de uso, línea base, responsable, URL de evidencia y validación; no aceptar cierres verbales (incluye evidencia del respaldo de switches de Patrick y repo git de la app de Mario).
+1. **[Hoy · Douglas]** Definir dueño del material de homogeneización (SOUL + skills por participante) y su alcance (los 6 de F2 vs. solo quienes tengan Hermes); decidir si se integra material de F1 (propuesta de Mario).
+2. **[Esta semana]** Fijar fechas documentadas: reunión de casos de uso con Irvin (tentativa miércoles — confirmar), reunión con Mario+Steph (caso de uso de Stephanie por definir) y fecha/criterio de salida de D11.
+3. **[Antes del 16/10]** Rebaselinar el tramo final de F2 contra la evidencia validada y los entregables E1–E8 (E3–E7 y D4–D7 siguen abiertos), explicitando brechas y dueños; decidir destino de la propuesta de reunión de estandarización (dentro de F2 o pos-F2/F3).
+4. **[Operación continua]** Mantener una única matriz consolidada de validación y un documento de seguimiento por coordinación; los Champions son la línea directa de consultas, autorizaciones y validaciones.
 
 ---
 
@@ -277,6 +279,136 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-09-28 | SESIÓN 34 — INICIO DE JORNADA: REVISIÓN DE CAMBIOS REPORTADOS EN TELEGRAM (Hermes Agent · ai-fluency-sod)
+  CONFIRMADO HOY:
+  ✓ La sesión de Telegram de esta mañana reporta como corrección principal el Módulo A1 de homogeneización sobre Hermes: material guiado, referencias de F1 y práctica para producir 1 SOUL + 2 skills por participante.
+  ✓ Se mantiene el calendario acordado: sesiones 01/10 y 03/10, entrega de SOUL + 2 skills el 08/10 y cierre de F2 el 10/10.
+  ✓ Los grupos y facilitadores no cambian; la regla de evidencia tampoco: artefacto real en Drive con aprobación, no avance verbal.
+  ✓ Mario propone reutilizar material de F1 y usar Git para la app; Irvin requiere reunión de casos de uso; el caso de Stephanie sigue sin definir.
+
+  CONTROL DE EVIDENCIA:
+  → El respaldo de switches de Patrick queda reportado verbalmente y NO recibido hasta contar con artefacto y URL en Drive.
+  → D01–D10 siguen pendientes de verificación documental; E3–E7 y D4–D7 continúan abiertos.
+  → La transcripción contiene una corrección de atribución: “servidor creará material” debe leerse como “facilitador creará material” o dueño por confirmar.
+
+  ACCIÓN #1 HOY: confirmar dueño y alcance del material A1; después fijar las reuniones de casos de uso y ejecutar la verificación documental D01–D10.
+
+  ---
+
+2026-09-28 | SESIÓN 33 — REUNIÓN CHAMPIONS: STATUS F2, CORRECCIONES Y PLAN DE HOMOGENEIZACIÓN (Hermes Agent · anotaciones de reunión transcritas)
+
+  REGISTRADO DE LA REUNIÓN (revisión vs. estado, sin verificación documental aún):
+  ✓ Error conceptual identificado: no se elaboró material previo para que los participantes
+    aprendieran a usar Hermes y a producir los artefactos clave (SOUL, skills, plugins).
+    Acción correctiva acordada: material de homogeneización (video + instrucciones +
+    artefactos de referencia como glosario + actividades prácticas) para que cada
+    participante produzca en su Hermes instalado un SOUL y un par de skills.
+  ✓ Mario: observación aprobada en principio — reutilizar material de F1 como base del
+    material de homogeneización e integrar materiales de ambas fases en el orden sugerido.
+    Análisis de factibilidad entregado (ver conversación 28/09): base ya existe
+    (glosario 44 términos, guías 14 días, cheat_sheets/lessons de guia_setup_champions,
+    plantillas C19–C22, SOUL_plantillas, skills aifluent-glosario y
+    aifluent-guia-personalizada); pendiente decidir dueño del material y alcance
+    (aplica a los 6 de F2 vs. solo quienes tengan Hermes instalado).
+  ✓ Patrick: reporte VERBAL de respaldo de switches y avance en entregables — sin
+    artefacto ni URL en la matriz; queda NO RECIBIDO hasta evidencia en Drive (regla vigente).
+  ✓ Mario: apoya desarrollo de app con Hermes usando skills de buenas prácticas;
+    sugerido adoptar repositorio git (alineado con E2/R20). Falta: nombre del caso de
+    uso, línea base medida y URL de repo.
+  ✓ Caso de uso de Stephanie aún por definir; reunión con Mario+Steph sin fecha.
+  ✓ Reunión de casos de uso con Irvin y su equipo: tentativa miércoles, SIN fecha confirmada.
+  ✓ Propuesta nueva: al cierre de F2, reunión de estandarización (perfiles, skills,
+    plugins, roles, seguridad) para convertir la experiencia en servicio self-service —
+    alinea con E2/E4; falta fecha, participantes y si entra como entregable formal o pos-F2.
+
+  PENDIENTES SIN TRATAR EN LA REUNIÓN (siguen abiertos, F2 cierra 30/09):
+  → Verificación documental D01–D10 en la matriz (caso de uso, línea base, responsable,
+    URL de evidencia) y fecha de D11.
+  → Entregables E3–E7 (memoria externa, MCP, gateway Bifrost, presupuesto $200/mes) y
+    decisiones D4–D7.
+
+  CORRECCIONES DE TRANSCRIPCIÓN:
+  → "el servidor creará material" = "el facilitador creará material" (dueño por confirmar).
+
+  ACCIÓN #1: confirmar dueño del material de homogeneización y fechas de las dos
+  reuniones de casos de uso; ejecutar verificación documental D01–D10.
+
+  ---
+
+2026-09-21 | SESIÓN 32 — INICIO DE JORNADA: RECUPERACIÓN Y DECISIÓN F2 (Hermes Agent · ai-fluency-sod)
+  CONFIRMADO HOY:
+  ✓ Fecha recalibrada: 2026-09-21, día 82 desde el inicio oficial; quedan 9 días para el cierre planificado de F2 (30/09).
+  ✓ El corte D01–D10 venció el 11/09 y el estado no contiene evidencia documental posterior que permita declararlo cerrado; D11 y la próxima reunión siguen sin fecha registrada.
+  ✓ Calendar no muestra actividad F2 durante los próximos cinco días; el único evento devuelto corresponde a la evaluación piloto de memoria el 23/09, 09:00–09:45.
+  ✓ Gmail contiene los reportes operativos diarios de ERPNext y un reporte actualizado compartido por Infraestructura; requieren priorización operativa separada del corte F2.
+  ✓ ERPNext devuelve 0 Issues activas asignadas a dagalindo@ujmd.edu.sv. La consulta de Tasks no es confiable: responde HTTP 500 por la columna inexistente `depends_on`.
+
+  CONTEXTO CLAVE:
+  → La brecha crítica es de control: evidencia, línea base, responsable y validación de D01–D10, no una declaración verbal de avance.
+  → El cierre de F2 el 30/09 exige decidir D11 y rebaselinar los entregables E1–E8 contra evidencia verificable.
+
+  ACCIÓN #1 HOY: abrir la matriz consolidada y cerrar una revisión documental D01–D10; después fijar la sesión de decisión para D11 con responsables y criterio mínimo de salida.
+
+  ---
+
+2026-09-16 | SESIÓN 31 — INICIO DE JORNADA Y VERIFICACIÓN POSTERIOR AL CORTE F2 (Hermes Agent · ai-fluency-sod)
+  CONFIRMADO HOY:
+  ✓ Fecha recalibrada: 2026-09-16, día 77 desde el inicio oficial del programa.
+  ✓ El hito del 11/09 ya pasó; el resultado D01–D10 aún debe verificarse documentalmente antes de marcar cierres.
+  ✓ El calendario muestra hoy, 10:00–11:00, la actividad "Demo Dashboard de Acreditación" en Campus 1, Edificio 5-2, Sala de Reuniones de la Dirección IT (8).
+  ✓ Gmail contiene un reporte no leído de tareas con estado Working y otros reportes operativos de ERPNext para revisión.
+
+  CONTEXTO CLAVE:
+  → D11 queda como siguiente etapa después del feriado del 15/09, con fecha exacta por confirmar.
+  → Hoy se prioriza verificar casos de uso, líneas base, responsables y evidencias en la matriz consolidada.
+  → La consulta directa de Issues asignadas a dagalindo@ujmd.edu.sv respondió una lista vacía (`[]`); no hay incidencias asignadas devueltas por esa consulta.
+  → La consulta de Tasks asignadas no pudo completarse: ERPNext respondió HTTP 500 porque su consulta solicita la columna inexistente `depends_on`. El reporte de Gmail sobre tareas Working queda como fuente pendiente de revisión; no debe interpretarse como conteo validado por la API.
+
+  ACCIÓN #1 HOY: verificar en la matriz el estado real del corte D01–D10 y confirmar la fecha de inicio de D11 y de la próxima reunión.
+
+  ---
+
+2026-09-08 | SESIÓN 30 — CIERRE DE JORNADA: ACUERDOS DE RECUPERACIÓN F2 (Hermes Agent · ai-fluency-eod)
+  COMPLETADO HOY:
+  ✓ Se documentaron los acuerdos de la reunión de seguimiento: cierre D01–D10, casos de uso definidos y líneas base medidas antes del viernes 11/09.
+  ✓ Se dejó borrador de correo en Gmail para los tres Champions, verificado como no enviado (Draft ID: r1355334075267758513).
+  ✓ Se precisó el rol de los Champions como línea directa y única de consultas, autorizaciones y validaciones.
+  ✓ Se registró Gemini como herramienta gratuita actual y DeepSeek/GLM como candidato futuro sujeto a presupuesto; no se realizó cambio de proveedor.
+
+  ESTADO GENERAL:
+  → F2 continúa en recuperación y validación; D11 queda previsto después del feriado del 15/09.
+  → El KPI/E8 se entiende como medición de valor de negocio contra la línea base del caso de uso.
+  → La estructura vigente es una matriz consolidada de validación y un documento de seguimiento por coordinación.
+
+  PRÓXIMAS ACCIONES:
+  → Completar D01–D10, casos de uso y líneas base antes del viernes 11/09.
+  → Douglas trabajará con Mario para elevar el avance de su grupo.
+  → Confirmar el viernes la fecha de la próxima reunión.
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: revisar que cada caso de uso tenga línea base, responsable y evidencia mínima registrada.
+
+  ---
+
+2026-09-08 | SESIÓN 29 — ACUERDOS DE RECUPERACIÓN F2 CON CHAMPIONS (Hermes Agent · reunión de seguimiento)
+  DECISIONES CONFIRMADAS:
+  ✓ El corte de recuperación se extiende hasta el viernes 11/09: cada participante debe completar D01–D10, definir sus casos de uso y medir la línea base de cada caso.
+  ✓ Los Champions asesorarán directamente a sus coordinadores para seleccionar casos de uso alcanzables; se evitarán pilotos que requieran un nivel de conocimiento más complejo que el disponible y puedan generar frustración.
+  ✓ Douglas trabajará con Mario durante estos días para elevar el avance de su grupo antes del viernes.
+  ✓ D11 — uso de Hermes de forma más apropiada — comenzará después del feriado del 15/09, junto con los entregables restantes.
+  ✓ Se confirmó el modelo operativo: una matriz consolidada de validación y un documento de seguimiento por coordinación.
+  ✓ Los Champions son la línea directa de consultas, autorizaciones y validaciones para sus grupos.
+  ✓ E8/KPI quedó claro como medición de valor de negocio por coordinación, con línea base del caso de uso; no sustituye la evidencia de aprendizaje.
+  ✓ Gemini continúa como herramienta sin costo para la operación actual. DeepSeek/GLM queda como candidato de proveedor cuando exista presupuesto para créditos LLM; no se adopta todavía.
+
+  PENDIENTE:
+  → El viernes 11/09 se confirmará la fecha de la siguiente reunión.
+  → La expectativa de iniciar D11 es después del 15/09; la fecha exacta queda por definir.
+  → Validar en la matriz los casos de uso, líneas base, responsables y evidencias sin marcar cierre por reporte verbal.
+
+  ACCIÓN #1: completar D01–D10 y medir las líneas base antes del viernes 11/09.
+
+  ---
+
 2026-09-07 | SESIÓN 28 — PREPARACIÓN DE CORRECCIONES Y RECUPERACIÓN F2 (Hermes Agent · ai-fluency-sod)
   CONFIRMADO HOY:
   ✓ Se enviaron a los tres facilitadores los informes preliminares de avance de sus grupos para revisión: Irvin (Jorge/Bryan), Patrick (Luis/Betty) y Mario (Stephanie/Oscar).
