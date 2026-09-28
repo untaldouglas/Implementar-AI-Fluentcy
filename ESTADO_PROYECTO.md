@@ -279,6 +279,38 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-09-28 | SESIÓN 36 — CIERRE DE JORNADA: MÓDULO A1 OPERATIVO (Hermes Agent · ai-fluency-eod)
+
+  COMPLETADO HOY:
+  ✓ Comunicado del Módulo A1 enviado por Douglas (28/09 14:59, verificado en Gmail sent)
+    — 6 participantes F2 + CC Champions F1, con links verificados.
+  ✓ Módulo A1 publicado y verificado (HTTP 200):
+    https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/modulo_a1_hermes.html
+  ✓ Fechas definitivas (D9): apertura mar 29/09 · sesiones 30/09 y 02/10 · seguimiento
+    07/10 y 09/10 · ENTREGA A1 vie 09/10 · cierre E1–E8 12/10–16/10 · CIERRE F2 vie 16/10
+    · F3 19/10–30/11 · F4 01/12–31/12.
+  ✓ Matriz consolidada de Drive actualizada: columnas K–N (A1: SOUL, Skill 1, Skill 2,
+    Entrega) + bloque informativo A1 — los champions registran URLs de evidencia.
+  ✓ Integración documental completa: index fase2, matriz estándar D1–D14 (mapeo
+    D11–D14 ↔ A1), seguimiento_f2.md, dashboards (hito F2 al 16/10).
+  ✓ Commits: 18624b9 (módulo + comunicado) · b7ac759 (D9 fechas) · 75a646a (integración
+    documental) · e18b616 (matriz A1) — pusheados a repozone + GitHub.
+  ✓ Nota: registro de draft residual en Gmail ligado al mensaje enviado (etiqueta SENT);
+    sin riesgo de envío duplicado, limpieza manual opcional.
+
+  ESTADO DE ARRANQUE DE MAÑANA:
+  → CRÍTICO mar 29/09 antes de 8:00 AM: rúbrica _PLANTILLA_A1_ publicada en Drive
+    (gate §4.5 — sin ella el cron no inserta el adendum en las 6 guías).
+  → Cron 'A1-adendum-guias-f2' dispara mar 29/09 8:00 AM: inserta en las 6 guías la
+    sección A1 con link al documento canónico; reporta al chat y NO sube a Drive ni
+    commitea (revisión de Douglas primero).
+
+  ACCIÓN #1 PRÓXIMA SESIÓN: verificar adendum en las 6 guías y publicación en Drive
+  F2_03; seguir con reuniones de casos de uso (Irvin; Mario+Steph) y verificación
+  documental D01–D10.
+
+  ---
+
 2026-09-28 | SESIÓN 35 — AMPLIACIÓN DE FECHAS A1 Y CIERRE F2 + INTEGRACIÓN DOCUMENTAL (Hermes Agent · decisión Douglas en Telegram)
 
   DECIDIDO HOY (rebaseline definitivo, D9 actualizado):
