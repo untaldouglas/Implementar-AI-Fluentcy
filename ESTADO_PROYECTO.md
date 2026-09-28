@@ -279,6 +279,35 @@
 ## 📋 LOG DE ACTUALIZACIONES
 
 ```
+2026-09-28 | SESIÓN 35 — AMPLIACIÓN DE FECHAS A1 Y CIERRE F2 + INTEGRACIÓN DOCUMENTAL (Hermes Agent · decisión Douglas en Telegram)
+
+  DECIDIDO HOY (rebaseline definitivo, D9 actualizado):
+  ✓ Ventana Módulo A1 ampliada a 2 semanas: apertura mar 29/09 · sesiones mié 30/09 y
+    vie 02/10 · seguimiento mié 07/10 y vie 09/10 · ENTREGA A1 (1 SOUL + 2 skills por
+    participante) vie 09/10.
+  ✓ Semana adicional 12/10–16/10 para finalizar los entregables originales E1–E8 con
+    asistencia de los Champions. CIERRE DE F2: VIERNES 16/10 (supera las fechas de la
+    Sesión 34 registradas esta mañana: entrega 08/10 y cierre 10/10 quedan obsoletos).
+  ✓ F3: 19/10–30/11 · F4: 01/12–31/12.
+  ✓ Documento canónico del módulo creado y publicado:
+    docs/fase2/modulo_a1_hermes.html — verificado HTTP 200 en GitHub Pages.
+
+  INTEGRACIÓN DOCUMENTAL (coherencia completa):
+  ✓ docs/fase2/index.html — tarjeta del Módulo A1 + link + fechas nuevas.
+  ✓ docs/fase2/matriz_estandar_instrucciones_entregables.md — matriz de 6 guías con
+    URLs verificadas + mapeo D11–D14 ↔ Módulo A1 + ventana ampliada.
+  ✓ 01_piloto/cohortes/F2/seguimiento_f2.md — corte actualizado a la ventana A1.
+  ✓ 04_herramientas/Dashboard_Jornada.html + docs/ — hito F2 al 16/10.
+  ✓ Comunicado + draft Gmail (r2298431076773766907) con calendario final.
+
+  PENDIENTE CRÍTICO:
+  → Rúbrica _PLANTILLA_A1_ en Drive antes de mar 29/09 8:00 AM (gate §4.5 del cron);
+    sin ella no se inserta el adendum en las 6 guías.
+
+  ACCIÓN #1: Douglas envía el draft; facilitadores publican la rúbrica A1.
+
+  ---
+
 2026-09-28 | SESIÓN 34 — INICIO DE JORNADA: REVISIÓN DE CAMBIOS REPORTADOS EN TELEGRAM (Hermes Agent · ai-fluency-sod)
   CONFIRMADO HOY:
   ✓ La sesión de Telegram de esta mañana reporta como corrección principal el Módulo A1 de homogeneización sobre Hermes: material guiado, referencias de F1 y práctica para producir 1 SOUL + 2 skills por participante.

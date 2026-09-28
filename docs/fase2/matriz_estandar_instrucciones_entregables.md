@@ -23,6 +23,28 @@ El estándar aplica a todos los participantes. La personalización se hace únic
 6. Compartir el documento con el facilitador como comentarista. El estado **Aprobado** requiere validación del facilitador y co-firma de Douglas.
 7. Si una evidencia contiene datos sensibles, conservar solo una versión anonimizada para revisión y registrar dónde queda la versión restringida, sin incluirla en esta carpeta.
 
+## Matriz estándar de guías por participante (URLs verificadas 28/09/2026)
+
+| # | Participante | Guía (14 días) | URL pública | Facilitador | Lecciones Hermes (Módulo A1) |
+|---|---|---|---|---|---|
+| 1 | Luis Molina | `guia_luis_molina.html` | https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/guia_luis_molina.html | Patrick | D11–D14 |
+| 2 | Jorge López | `guia_jorge_lopez.html` | https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/guia_jorge_lopez.html | Irvin | D11–D14 |
+| 3 | Stephanie Miranda | `guia_stephanie_miranda.html` | https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/guia_stephanie_miranda.html | Mario | D11–D14 |
+| 4 | Betty Figueroa | `guia_betty_figueroa.html` | https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/guia_betty_figueroa.html | Patrick | D11–D14 |
+| 5 | Bryan Gómez | `guia_bryan_gomez.html` | https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/guia_bryan_gomez.html | Irvin | D11–D14 |
+| 6 | Oscar Alfaro | `guia_oscar_alfaro.html` | https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/guia_oscar_alfaro.html | Mario | D11–D14 |
+
+Documento oficial del módulo: https://untaldouglas.github.io/Implementar-AI-Fluentcy/fase2/modulo_a1_hermes.html
+
+## Integración con el Módulo A1 (decisión D9, 28/09/2026)
+
+El Módulo A1 — Homogeneización Hermes y Artefactos (adendum de F2) cubre en profundidad las lecciones **D11–D14** de esta matriz (primer uso de Hermes, Hermes aplicado al caso, mini-proyecto medido y cierre/validación). Su estructura:
+
+- **Sesión 1 (mié 30/09):** usar Hermes (D11) + el SOUL · **Sesión 2 (vie 02/10):** skills (D12) + práctica guiada (D13).
+- **Entrega del módulo (vie 09/10):** 1 SOUL propio + 2 skills propios, con evidencia real en Drive (rúbrica `_PLANTILLA_A1_`) y versionados en el repo del equipo — la ventana de 2 semanas (29/09–09/10) reemplaza el ritmo diario original para este tramo.
+- **12/10–16/10:** finalización de los entregables diarios pendientes y de los entregables originales E1–E8, con asistencia de los Champions. **Cierre de F2: viernes 16/10.**
+- D1–D10 (Gemini, prompts, clasificación, línea base) mantienen su cronograma original y son prerequisito de lo que se practica en A1.
+
 ## Matriz de entregables diarios
 
 | ID | Momento / propósito | Instrucción estándar precisa | Producto mínimo que se entrega | Evidencia y trazabilidad | Criterio de aceptación | Valida |

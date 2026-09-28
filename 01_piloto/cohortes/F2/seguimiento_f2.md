@@ -2,7 +2,7 @@
 
 **Programa:** AI Fluency · MCA · UJMD DSI
 **Cohorte:** F2 — Expansión al equipo
-**Corte:** mitad del ciclo inicial de 14 días
+**Corte:** ventana Módulo A1 (29/09–09/10) + finalización E1–E8 y cierre F2 (12/10–16/10) — decisión D9 del 28/09
 **Fuente de estado:** este archivo · **Fuente de evidencia:** Google Drive
 
 > Esta matriz no certifica por sí sola. Registra avance observable, evidencia entregada, revisión del facilitador y validación formal. Un estado ✅ exige URL de evidencia, fecha y responsable de revisión.
