@@ -19,14 +19,16 @@
 
 ## 2. Estado consolidado de participantes
 
-| Participante | Grupo/facilitador | Participación | Aprendizaje/evidencia | Recurso creado | Línea base E8 | Bloqueo | Registro individual en Drive | Próximo paso |
-|---|---|---|---|---|---|---|---|---|
-| Luis Molina | Patrick | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1tXdaSp6FHx8bR3J2fR7NyjxtD_5ktBQT7qphXO6x03c/edit) | |
-| Betty Figueroa | Patrick | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1V_09MWMmQg8aRTqSyxSF3VhYuF6QxSi6LxVgUyb6vNc/edit) | |
-| Jorge López | Irvin | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1Vq0m_-dT_yH865oMc_V5Vc6RoAJIVSORRJP-f-j6lB0/edit) | |
-| Bryan Gómez | Irvin | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1n-P2OjxkrtSXbrK0ASXjV2xz_5PoF2_a-XNxk_e6yoI/edit) | |
-| Stephanie Miranda | Mario | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/16w_4QZYxoq2Drgst2c4Jprsf-V5ybznJgJWvvxC3tn8/edit) | |
-| Oscar Alfaro | Mario | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1myFe6MPX-yjJSVYYnUAV4bOkAop9TeYUmxEYJ2uUTUI/edit) | |
+| Participante | Grupo/facilitador | Participación | Aprendizaje/evidencia | Recurso creado | Línea base E8 | Bloqueo | Registro individual en Drive | Próximo paso | A1: SOUL (URL) | A1: Skill 1 (URL) | A1: Skill 2 (URL) | Entrega A1 (vie 09/10) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Luis Molina | Patrick | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1tXdaSp6FHx8bR3J2fR7NyjxtD_5ktBQT7qphXO6x03c/edit) | | | | | |
+| Betty Figueroa | Patrick | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1V_09MWMmQg8aRTqSyxSF3VhYuF6QxSi6LxVgUyb6vNc/edit) | | | | | |
+| Jorge López | Irvin | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1Vq0m_-dT_yH865oMc_V5Vc6RoAJIVSORRJP-f-j6lB0/edit) | | | | | |
+| Bryan Gómez | Irvin | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1n-P2OjxkrtSXbrK0ASXjV2xz_5PoF2_a-XNxk_e6yoI/edit) | | | | | |
+| Stephanie Miranda | Mario | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/16w_4QZYxoq2Drgst2c4Jprsf-V5ybznJgJWvvxC3tn8/edit) | | | | | |
+| Oscar Alfaro | Mario | ⬜ | ⬜ | ⬜ | ⬜ | — | [Abrir registro](https://docs.google.com/document/d/1myFe6MPX-yjJSVYYnUAV4bOkAop9TeYUmxEYJ2uUTUI/edit) | | | | | |
+
+> **Columnas A1 (decisión D9, 28/09):** SOUL + 2 skills por participante, entregados el **viernes 09/10** (ventana 29/09–09/10). Documento oficial: `docs/fase2/modulo_a1_hermes.html`. La finalización de E1–E8 y el cierre de F2 corren del 12/10 al 16/10.
 
 ## 3. Registro de facilitación
 
