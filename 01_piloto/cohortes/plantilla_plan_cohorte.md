@@ -6,6 +6,18 @@
 
 ---
 
+## 0. Pre-flight de cohorte — OBLIGATORIO antes de llenar este plan
+
+> Fuente: `00_marco/Lecciones_y_Estandares_Fases.md` (lecciones L-01…L-09 del programa). Ejecutar 1 sesión de 60 min y dejar evidencia de cada respuesta.
+
+- [ ] ¿Qué herramienta/skill nuevo introduce esta fase y quién lo enseña?
+- [ ] **Módulo de nivelación de herramienta definido** (lección L-01): documento canónico + rúbrica + ventana calculada contra la carga operativa real (L-05) + entregable propio — ANTES de planificar producción de artefactos.
+- [ ] Inventario de reutilización: qué artefactos de fases anteriores se reusan / adaptan / son nuevos (L-02).
+- [ ] Cortes documentales quincenales programados con responsable (L-07) — no se espera al cierre de fase.
+- [ ] Dueño de cada instrumento (documento, rúbrica, matriz, comunicado) — instrumentos nacen en repo y se publican desde ahí (L-09).
+- [ ] Taxonomía de IDs definida para el cohorte: M# módulos · L# lecciones · E# entregables · C# compromisos · D# decisiones.
+- [ ] Lecciones del cohorte anterior revisadas (retrospectiva previa) y reflejas en este plan.
+
 ## 1. Identificación
 
 | Campo | Valor |

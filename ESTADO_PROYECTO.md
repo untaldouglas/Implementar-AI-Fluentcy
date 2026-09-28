@@ -1,7 +1,7 @@
 # ESTADO DEL PROYECTO — AI Fluency · MCA
 > **Archivo vivo.** Actualizado en cada ritual de inicio/cierre de jornada.  
 > Leer este archivo antes de responder cualquier consulta sobre el proyecto.  
-> **Reglas de estado, evidencia y lenguaje del log:** `00_marco/Protocolo_Evidencia_y_Estado.md` (desde 17/07/2026). Antes de commitear: `bash 04_herramientas/check_consistencia.sh`.
+> **Reglas de estado, evidencia y lenguaje del log:** `00_marco/Protocolo_Evidencia_y_Estado.md` (desde 17/07/2026). **Lecciones y estándares de diseño de fases (L-01…L-09, pre-flight obligatorio):** `00_marco/Lecciones_y_Estandares_Fases.md` (desde 28/09/2026). Antes de commitear: `bash 04_herramientas/check_consistencia.sh`.
 
 ---
 
